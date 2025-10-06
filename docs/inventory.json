@@ -562,6 +562,16 @@
     {
         "item_design_id": "727",
         "bonus_type": "Pilot",
+        "bonus_value": "6.6",
+        "quantity": "1",
+        "name": "La Paula",
+        "rarity": "Hero",
+        "item_sub_type": "EquipmentWeapon",
+        "item_sprite_id": 12544
+    },
+    {
+        "item_design_id": "727",
+        "bonus_type": "Pilot",
         "bonus_value": "5.4",
         "quantity": "1",
         "name": "La Paula",
@@ -733,6 +743,16 @@
         "item_design_id": "952",
         "bonus_type": "Ability",
         "bonus_value": "14.9",
+        "quantity": "1",
+        "name": "Plague Surgeon Mask",
+        "rarity": "Hero",
+        "item_sub_type": "EquipmentHead",
+        "item_sprite_id": 14565
+    },
+    {
+        "item_design_id": "952",
+        "bonus_type": "FireResistance",
+        "bonus_value": "60.9",
         "quantity": "1",
         "name": "Plague Surgeon Mask",
         "rarity": "Hero",
