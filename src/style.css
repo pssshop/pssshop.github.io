@@ -1,17 +1,21 @@
+/* Light mode (default) */
 body {
-  font-family: system-ui, sans-serif;
+  color: #222;
   background: #FFF;
+  font-family: system-ui, sans-serif;
   margin: 0;
   padding: 0;
 }
+
 h1 {
   text-align: center;
   margin: 10px 0;
   padding: 0;
 }
+
 .container {
   max-width: 900px;
-  margin: 0 auto;
+  margin: 0 auto 20px;
   border-radius: 8px;
   box-shadow: 0 2px 8px rgba(0,0,0,0.07);
   padding: 0;
@@ -80,25 +84,73 @@ tr:nth-child(even) {
   border-left: 6px solid #B0B0B0 !important;
 }
 
+@media (prefers-color-scheme: dark) {
+    body {
+        background: #111215;
+        color: #e0e0e0;
+    }
+
+    .container {
+        background: #181a1b;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.5);
+    }
+
+    input[type="text"] {
+        background: #23242a;
+        color: #f7f7fa;
+        border: 1px solid #444;
+        box-shadow: none;
+    }
+
+    input[type="text"]::placeholder {
+        color: #aaa;
+        opacity: 1;
+    }
+
+    table {
+        background: #181a1b;
+        color: #e0e0e0;
+    }
+
+    th, td {
+        border-bottom: 1px solid #504848ff;
+    }
+
+    th {
+        background: #23242a;
+        color: #f7f7fa;
+    }
+
+    tr:nth-child(even) {
+        background: #16171a;
+    }
+    tr:nth-child(odd) {
+        background: #181a1b;
+    }
+    tr {
+        border-color: #222;
+    }
+}
+
 /* Responsive table for mobile */
 @media (max-width: 700px) {
-  .container {
-    padding: 0.5rem;
-  }
-  table {
-    min-width: 0;
-    font-size: 0.95rem;
-  }
-  th, td {
-    padding: 0.5rem 0.25rem;
-    border-bottom: 1px solid #e0e0e0;
-    border-right: none;
-    border-left: none;
-  }
-  th {
-    font-size: 1rem;
-  }
-  .table-wrapper {
-    box-shadow: none;
-  }
+    .container {
+        padding: 0.5rem;
+    }
+    table {
+        min-width: 0;
+        font-size: 0.95rem;
+    }
+    th, td {
+        padding: 0.5rem 0.25rem;
+        border-bottom: 1px solid #e0e0e0;
+        border-right: none;
+        border-left: none;
+    }
+    th {
+        font-size: 1rem;
+    }
+    .table-wrapper {
+        box-shadow: none;
+    }
 }
