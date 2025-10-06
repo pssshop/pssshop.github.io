@@ -23,11 +23,9 @@ function App() {
   if (Array.isArray(inventory)) {
     // Columns to show in specific order
     const columns = [
-      "quantity",
       "name",
       "bonus_type",
       "bonus_value",
-      "rarity",
       "item_sub_type"
     ];
 
@@ -65,13 +63,17 @@ function App() {
       });
     };
     // Friendly labels for headers
-    const headerLabels = {
-      quantity: 'Qty',
-      name: 'Name',
-      bonus_type: 'Bonus',
-      bonus_value: 'Value',
-      rarity: 'Rarity',
-      item_sub_type: 'Type',
+      const headerLabels = {
+        name: 'Name',
+        bonus_type: 'Bonus',
+        bonus_value: 'Value',
+        item_sub_type: 'Type',
+      };
+
+    // Helper to get rarity class
+    const getRarityClass = (rarity) => {
+      if (!rarity) return 'rarity-common';
+      return 'rarity-' + rarity.toLowerCase();
     };
     return (
       <div className="container">
@@ -101,13 +103,18 @@ function App() {
             </thead>
             <tbody>
               {sorted.map((item, idx) => (
-                <tr key={idx}>
+                <tr
+                  key={idx}
+                  className={getRarityClass(item.rarity)}
+                >
                   {columns.map((key) => (
-                    <td key={key}>
-                      {key === 'item_sub_type' && typeof item[key] === 'string'
-                        ? item[key].replace(/^Equipment/, '').replace(/^\s+/, '')
-                        : item[key]}
-                    </td>
+                      <td key={key}>
+                        {key === 'name'
+                          ? `${item.name}${Number(item.quantity) > 1 ? ` x${item.quantity}` : ''}`
+                          : key === 'item_sub_type' && typeof item[key] === 'string'
+                            ? item[key].replace(/^Equipment/, '').replace(/^\s+/, '')
+                            : item[key]}
+                      </td>
                   ))}
                 </tr>
               ))}

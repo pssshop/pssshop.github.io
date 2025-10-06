@@ -1,40 +1,104 @@
 body {
   font-family: system-ui, sans-serif;
-  background: #f7f7fa;
+  background: #FFF;
   margin: 0;
+  padding: 0;
+}
+h1 {
+  text-align: center;
+  margin: 10px 0;
   padding: 0;
 }
 .container {
   max-width: 900px;
-  margin: 2rem auto;
-  background: #fff;
+  margin: 0 auto;
   border-radius: 8px;
   box-shadow: 0 2px 8px rgba(0,0,0,0.07);
-  padding: 2rem;
+  padding: 0;
 }
-h1 {
-  text-align: center;
-  margin-bottom: 2rem;
-}
+
 /* Table wrapper for horizontal scroll if needed */
 .table-wrapper {
   width: 100%;
   overflow-x: auto;
 }
+
 table {
   width: 100%;
   border-collapse: collapse;
   min-width: 600px;
   margin: 0 auto;
 }
+
 th, td {
-  border: 1px solid #e0e0e0;
-  padding: 0.75rem 1rem;
+  border-bottom: 1px solid #e0e0e0;
+  padding: 0.75rem 0.5rem;
   text-align: left;
 }
+
+tr {
+  transition: box-shadow 0.2s, border-color 0.2s;
+}
+
 th {
   background: #f0f0f7;
+  position: sticky;
+  top: 0;
+  z-index: 1;
 }
+
 tr:nth-child(even) {
   background: #fafaff;
+}
+
+/* Rarity color classes for left border */
+.rarity-legendary {
+  border-left: 6px solid #FFD700 !important;
+}
+
+.rarity-special {
+  border-left: 6px solid #FFFF66 !important;
+}
+
+.rarity-hero {
+  border-left: 6px solid #FFA500 !important;
+}
+
+.rarity-epic {
+  border-left: 6px solid #A259E6 !important;
+}
+
+.rarity-unique {
+  border-left: 6px solid #4A90E2 !important;
+}
+
+.rarity-elite {
+  border-left: 6px solid #FFFFFF !important;
+}
+
+.rarity-common {
+  border-left: 6px solid #B0B0B0 !important;
+}
+
+/* Responsive table for mobile */
+@media (max-width: 700px) {
+  .container {
+    padding: 0.5rem;
+  }
+  table {
+    min-width: 0;
+    font-size: 0.95rem;
+  }
+  th, td {
+    padding: 0.5rem 0.25rem;
+    border-bottom: 1px solid #e0e0e0;
+    border-right: none;
+    border-left: none;
+  }
+  th {
+    font-size: 1rem;
+  }
+  .table-wrapper {
+    box-shadow: none;
+  }
 }
