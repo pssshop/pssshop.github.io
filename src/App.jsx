@@ -25,8 +25,7 @@ function App() {
     // Columns to show in specific order
     const columns = [
       "name",
-      "bonus_type",
-      "bonus_value",
+      "bonus",
       "item_sub_type"
     ];
 
@@ -40,17 +39,22 @@ function App() {
     // Sorting
     const sorted = [...filtered];
     if (sortConfig.key) {
+      const dir = sortConfig.direction === 'asc' ? 1 : -1;
       sorted.sort((a, b) => {
-        let aVal = a[sortConfig.key];
-        let bVal = b[sortConfig.key];
-        // Try numeric sort if possible
-        if (!isNaN(Number(aVal)) && !isNaN(Number(bVal))) {
-          aVal = Number(aVal);
-          bVal = Number(bVal);
+        if (sortConfig.key === 'bonus') {
+            if (a.bonus_type == b.bonus_type) return (Number(b.bonus_value) - Number(a.bonus_value)) * dir;
+            return a.bonus_type < b.bonus_type ? -1 * dir : dir;
+        } else {
+          let aVal = a[sortConfig.key];
+          let bVal = b[sortConfig.key];
+          if (!isNaN(Number(aVal)) && !isNaN(Number(bVal))) {
+            aVal = Number(aVal);
+            bVal = Number(bVal);
+          }
+          if (aVal < bVal) return -1 * dir;
+          if (aVal > bVal) return 1 * dir;
+          return 0;
         }
-        if (aVal < bVal) return sortConfig.direction === 'asc' ? -1 : 1;
-        if (aVal > bVal) return sortConfig.direction === 'asc' ? 1 : -1;
-        return 0;
       });
     }
 
@@ -66,10 +70,9 @@ function App() {
 
     // Friendly labels for headers
     const headerLabels = {
-        name: 'Name',
-        bonus_type: 'Bonus',
-        bonus_value: 'Value',
-        item_sub_type: 'Type',
+      name: 'Name',
+      bonus: 'Bonus',
+      item_sub_type: 'Type',
     };
 
     // Helper to get rarity class
@@ -119,22 +122,35 @@ function App() {
                   }}
                   title={`View ${item.name} on Pixyship`}
                 >
-                  {columns.map((key) => (
-                    <td key={key}>
-                      {key === 'name' ? (
-                        <>
-                          <img
-                            src={`https://api.pixelstarships.com/FileService/DownloadSprite?spriteId=${item.item_sprite_id}`}
-                            alt={item.name}
-                            style={{ width: 24, height: 24, objectFit: 'contain', verticalAlign: 'middle', marginRight: 6 }}
-                          />
-                          {`${item.name}${Number(item.quantity) > 1 ? ` x${item.quantity}` : ''}`}
-                        </>
-                      ) : key === 'item_sub_type' && typeof item[key] === 'string'
-                        ? item[key].replace(/^Equipment/, '').replace(/^\s+/, '')
-                        : item[key]}
-                    </td>
-                  ))}
+                  {columns.map((key) => {
+                    if (key === 'bonus') {
+                      return (
+                        <td
+                          key={key}
+                          data-bonus-type={item.bonus_type || ''}
+                          data-bonus-value={item.bonus_value || ''}
+                        >
+                          {item.bonus_type ? `${item.bonus_type} +${item.bonus_value}` : ''}
+                        </td>
+                      );
+                    }
+                    return (
+                      <td key={key}>
+                        {key === 'name' ? (
+                          <>
+                            <img
+                              src={`https://api.pixelstarships.com/FileService/DownloadSprite?spriteId=${item.item_sprite_id}`}
+                              alt={item.name}
+                              style={{ width: 24, height: 24, objectFit: 'contain', verticalAlign: 'middle', marginRight: 6 }}
+                            />
+                            {`${item.name}${Number(item.quantity) > 1 ? ` x${item.quantity}` : ''}`}
+                          </>
+                        ) : key === 'item_sub_type' && typeof item[key] === 'string'
+                          ? item[key].replace(/^Equipment/, '').replace(/^\s+/, '')
+                          : item[key]}
+                      </td>
+                    );
+                  })}
                 </tr>
               ))}
             </tbody>
