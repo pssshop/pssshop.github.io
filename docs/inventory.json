@@ -741,6 +741,16 @@
     },
     {
         "item_design_id": "954",
+        "bonus_type": "Ability",
+        "bonus_value": "15.7",
+        "quantity": "1",
+        "name": "Plague Surgeon Robe",
+        "rarity": "Hero",
+        "item_sub_type": "EquipmentBody",
+        "item_sprite_id": 14569
+    },
+    {
+        "item_design_id": "954",
         "bonus_type": "Attack",
         "bonus_value": "0.5",
         "quantity": "1",
