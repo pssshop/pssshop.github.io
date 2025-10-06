@@ -6,7 +6,8 @@
         "quantity": "1",
         "name": "Hydrone 2.0",
         "rarity": "Special",
-        "item_sub_type": "EquipmentAccessory"
+        "item_sub_type": "EquipmentAccessory",
+        "item_sprite_id": 19814
     },
     {
         "item_design_id": "1718",
@@ -15,7 +16,8 @@
         "quantity": "1",
         "name": "Hydrone 2.0",
         "rarity": "Special",
-        "item_sub_type": "EquipmentAccessory"
+        "item_sub_type": "EquipmentAccessory",
+        "item_sprite_id": 19814
     },
     {
         "item_design_id": "1718",
@@ -24,7 +26,8 @@
         "quantity": "1",
         "name": "Hydrone 2.0",
         "rarity": "Special",
-        "item_sub_type": "EquipmentAccessory"
+        "item_sub_type": "EquipmentAccessory",
+        "item_sprite_id": 19814
     },
     {
         "item_design_id": "1718",
@@ -33,7 +36,8 @@
         "quantity": "1",
         "name": "Hydrone 2.0",
         "rarity": "Special",
-        "item_sub_type": "EquipmentAccessory"
+        "item_sub_type": "EquipmentAccessory",
+        "item_sprite_id": 19814
     },
     {
         "item_design_id": "1749",
@@ -42,7 +46,8 @@
         "quantity": "1",
         "name": "Redshift Repeater",
         "rarity": "Special",
-        "item_sub_type": "EquipmentWeapon"
+        "item_sub_type": "EquipmentWeapon",
+        "item_sprite_id": 20082
     },
     {
         "item_design_id": "1749",
@@ -51,7 +56,8 @@
         "quantity": "1",
         "name": "Redshift Repeater",
         "rarity": "Special",
-        "item_sub_type": "EquipmentWeapon"
+        "item_sub_type": "EquipmentWeapon",
+        "item_sprite_id": 20082
     },
     {
         "item_design_id": "435",
@@ -60,7 +66,8 @@
         "quantity": "1",
         "name": "Aldara",
         "rarity": "Hero",
-        "item_sub_type": "EquipmentAccessory"
+        "item_sub_type": "EquipmentAccessory",
+        "item_sprite_id": 9983
     },
     {
         "item_design_id": "435",
@@ -69,7 +76,8 @@
         "quantity": "1",
         "name": "Aldara",
         "rarity": "Hero",
-        "item_sub_type": "EquipmentAccessory"
+        "item_sub_type": "EquipmentAccessory",
+        "item_sprite_id": 9983
     },
     {
         "item_design_id": "435",
@@ -78,7 +86,8 @@
         "quantity": "1",
         "name": "Aldara",
         "rarity": "Hero",
-        "item_sub_type": "EquipmentAccessory"
+        "item_sub_type": "EquipmentAccessory",
+        "item_sprite_id": 9983
     },
     {
         "item_design_id": "514",
@@ -87,7 +96,8 @@
         "quantity": "1",
         "name": "Captain's Skullmet",
         "rarity": "Hero",
-        "item_sub_type": "EquipmentHead"
+        "item_sub_type": "EquipmentHead",
+        "item_sprite_id": 10047
     },
     {
         "item_design_id": "514",
@@ -96,7 +106,8 @@
         "quantity": "1",
         "name": "Captain's Skullmet",
         "rarity": "Hero",
-        "item_sub_type": "EquipmentHead"
+        "item_sub_type": "EquipmentHead",
+        "item_sprite_id": 10047
     },
     {
         "item_design_id": "514",
@@ -105,7 +116,8 @@
         "quantity": "1",
         "name": "Captain's Skullmet",
         "rarity": "Hero",
-        "item_sub_type": "EquipmentHead"
+        "item_sub_type": "EquipmentHead",
+        "item_sprite_id": 10047
     },
     {
         "item_design_id": "514",
@@ -114,7 +126,8 @@
         "quantity": "1",
         "name": "Captain's Skullmet",
         "rarity": "Hero",
-        "item_sub_type": "EquipmentHead"
+        "item_sub_type": "EquipmentHead",
+        "item_sprite_id": 10047
     },
     {
         "item_design_id": "514",
@@ -123,7 +136,8 @@
         "quantity": "1",
         "name": "Captain's Skullmet",
         "rarity": "Hero",
-        "item_sub_type": "EquipmentHead"
+        "item_sub_type": "EquipmentHead",
+        "item_sprite_id": 10047
     },
     {
         "item_design_id": "514",
@@ -132,7 +146,8 @@
         "quantity": "1",
         "name": "Captain's Skullmet",
         "rarity": "Hero",
-        "item_sub_type": "EquipmentHead"
+        "item_sub_type": "EquipmentHead",
+        "item_sprite_id": 10047
     },
     {
         "item_design_id": "514",
@@ -141,7 +156,8 @@
         "quantity": "1",
         "name": "Captain's Skullmet",
         "rarity": "Hero",
-        "item_sub_type": "EquipmentHead"
+        "item_sub_type": "EquipmentHead",
+        "item_sprite_id": 10047
     },
     {
         "item_design_id": "514",
@@ -150,7 +166,8 @@
         "quantity": "1",
         "name": "Captain's Skullmet",
         "rarity": "Hero",
-        "item_sub_type": "EquipmentHead"
+        "item_sub_type": "EquipmentHead",
+        "item_sprite_id": 10047
     },
     {
         "item_design_id": "514",
@@ -159,7 +176,8 @@
         "quantity": "1",
         "name": "Captain's Skullmet",
         "rarity": "Hero",
-        "item_sub_type": "EquipmentHead"
+        "item_sub_type": "EquipmentHead",
+        "item_sprite_id": 10047
     },
     {
         "item_design_id": "258",
@@ -168,7 +186,8 @@
         "quantity": "1",
         "name": "DMR MK II",
         "rarity": "Hero",
-        "item_sub_type": "EquipmentWeapon"
+        "item_sub_type": "EquipmentWeapon",
+        "item_sprite_id": 7615
     },
     {
         "item_design_id": "258",
@@ -177,7 +196,8 @@
         "quantity": "1",
         "name": "DMR MK II",
         "rarity": "Hero",
-        "item_sub_type": "EquipmentWeapon"
+        "item_sub_type": "EquipmentWeapon",
+        "item_sprite_id": 7615
     },
     {
         "item_design_id": "796",
@@ -186,7 +206,8 @@
         "quantity": "1",
         "name": "Daft Dad Kittus Helmet",
         "rarity": "Hero",
-        "item_sub_type": "EquipmentHead"
+        "item_sub_type": "EquipmentHead",
+        "item_sprite_id": 12566
     },
     {
         "item_design_id": "169",
@@ -195,7 +216,8 @@
         "quantity": "1",
         "name": "Dark Matter Armor",
         "rarity": "Hero",
-        "item_sub_type": "EquipmentBody"
+        "item_sub_type": "EquipmentBody",
+        "item_sprite_id": 4819
     },
     {
         "item_design_id": "169",
@@ -204,7 +226,8 @@
         "quantity": "1",
         "name": "Dark Matter Armor",
         "rarity": "Hero",
-        "item_sub_type": "EquipmentBody"
+        "item_sub_type": "EquipmentBody",
+        "item_sprite_id": 4819
     },
     {
         "item_design_id": "169",
@@ -213,7 +236,8 @@
         "quantity": "1",
         "name": "Dark Matter Armor",
         "rarity": "Hero",
-        "item_sub_type": "EquipmentBody"
+        "item_sub_type": "EquipmentBody",
+        "item_sprite_id": 4819
     },
     {
         "item_design_id": "169",
@@ -222,7 +246,8 @@
         "quantity": "1",
         "name": "Dark Matter Armor",
         "rarity": "Hero",
-        "item_sub_type": "EquipmentBody"
+        "item_sub_type": "EquipmentBody",
+        "item_sprite_id": 4819
     },
     {
         "item_design_id": "169",
@@ -231,7 +256,8 @@
         "quantity": "1",
         "name": "Dark Matter Armor",
         "rarity": "Hero",
-        "item_sub_type": "EquipmentBody"
+        "item_sub_type": "EquipmentBody",
+        "item_sprite_id": 4819
     },
     {
         "item_design_id": "169",
@@ -240,7 +266,8 @@
         "quantity": "1",
         "name": "Dark Matter Armor",
         "rarity": "Hero",
-        "item_sub_type": "EquipmentBody"
+        "item_sub_type": "EquipmentBody",
+        "item_sprite_id": 4819
     },
     {
         "item_design_id": "169",
@@ -249,7 +276,8 @@
         "quantity": "1",
         "name": "Dark Matter Armor",
         "rarity": "Hero",
-        "item_sub_type": "EquipmentBody"
+        "item_sub_type": "EquipmentBody",
+        "item_sprite_id": 4819
     },
     {
         "item_design_id": "169",
@@ -258,7 +286,8 @@
         "quantity": "1",
         "name": "Dark Matter Armor",
         "rarity": "Hero",
-        "item_sub_type": "EquipmentBody"
+        "item_sub_type": "EquipmentBody",
+        "item_sprite_id": 4819
     },
     {
         "item_design_id": "246",
@@ -267,7 +296,8 @@
         "quantity": "1",
         "name": "Dark Matter Helmet",
         "rarity": "Hero",
-        "item_sub_type": "EquipmentHead"
+        "item_sub_type": "EquipmentHead",
+        "item_sprite_id": 7432
     },
     {
         "item_design_id": "1215",
@@ -276,7 +306,8 @@
         "quantity": "1",
         "name": "Extendo-Clamp Plus",
         "rarity": "Hero",
-        "item_sub_type": "EquipmentWeapon"
+        "item_sub_type": "EquipmentWeapon",
+        "item_sprite_id": 16605
     },
     {
         "item_design_id": "1215",
@@ -285,7 +316,8 @@
         "quantity": "1",
         "name": "Extendo-Clamp Plus",
         "rarity": "Hero",
-        "item_sub_type": "EquipmentWeapon"
+        "item_sub_type": "EquipmentWeapon",
+        "item_sprite_id": 16605
     },
     {
         "item_design_id": "1215",
@@ -294,7 +326,8 @@
         "quantity": "1",
         "name": "Extendo-Clamp Plus",
         "rarity": "Hero",
-        "item_sub_type": "EquipmentWeapon"
+        "item_sub_type": "EquipmentWeapon",
+        "item_sprite_id": 16605
     },
     {
         "item_design_id": "1215",
@@ -303,7 +336,8 @@
         "quantity": "1",
         "name": "Extendo-Clamp Plus",
         "rarity": "Hero",
-        "item_sub_type": "EquipmentWeapon"
+        "item_sub_type": "EquipmentWeapon",
+        "item_sprite_id": 16605
     },
     {
         "item_design_id": "163",
@@ -312,7 +346,8 @@
         "quantity": "1",
         "name": "Golden Cai Dao",
         "rarity": "Hero",
-        "item_sub_type": "EquipmentWeapon"
+        "item_sub_type": "EquipmentWeapon",
+        "item_sprite_id": 5007
     },
     {
         "item_design_id": "163",
@@ -321,7 +356,8 @@
         "quantity": "1",
         "name": "Golden Cai Dao",
         "rarity": "Hero",
-        "item_sub_type": "EquipmentWeapon"
+        "item_sub_type": "EquipmentWeapon",
+        "item_sprite_id": 5007
     },
     {
         "item_design_id": "163",
@@ -330,7 +366,8 @@
         "quantity": "1",
         "name": "Golden Cai Dao",
         "rarity": "Hero",
-        "item_sub_type": "EquipmentWeapon"
+        "item_sub_type": "EquipmentWeapon",
+        "item_sprite_id": 5007
     },
     {
         "item_design_id": "163",
@@ -339,7 +376,8 @@
         "quantity": "1",
         "name": "Golden Cai Dao",
         "rarity": "Hero",
-        "item_sub_type": "EquipmentWeapon"
+        "item_sub_type": "EquipmentWeapon",
+        "item_sprite_id": 5007
     },
     {
         "item_design_id": "163",
@@ -348,7 +386,8 @@
         "quantity": "1",
         "name": "Golden Cai Dao",
         "rarity": "Hero",
-        "item_sub_type": "EquipmentWeapon"
+        "item_sub_type": "EquipmentWeapon",
+        "item_sprite_id": 5007
     },
     {
         "item_design_id": "163",
@@ -357,7 +396,8 @@
         "quantity": "1",
         "name": "Golden Cai Dao",
         "rarity": "Hero",
-        "item_sub_type": "EquipmentWeapon"
+        "item_sub_type": "EquipmentWeapon",
+        "item_sprite_id": 5007
     },
     {
         "item_design_id": "163",
@@ -366,7 +406,8 @@
         "quantity": "1",
         "name": "Golden Cai Dao",
         "rarity": "Hero",
-        "item_sub_type": "EquipmentWeapon"
+        "item_sub_type": "EquipmentWeapon",
+        "item_sprite_id": 5007
     },
     {
         "item_design_id": "163",
@@ -375,7 +416,8 @@
         "quantity": "1",
         "name": "Golden Cai Dao",
         "rarity": "Hero",
-        "item_sub_type": "EquipmentWeapon"
+        "item_sub_type": "EquipmentWeapon",
+        "item_sprite_id": 5007
     },
     {
         "item_design_id": "163",
@@ -384,7 +426,8 @@
         "quantity": "1",
         "name": "Golden Cai Dao",
         "rarity": "Hero",
-        "item_sub_type": "EquipmentWeapon"
+        "item_sub_type": "EquipmentWeapon",
+        "item_sprite_id": 5007
     },
     {
         "item_design_id": "163",
@@ -393,7 +436,8 @@
         "quantity": "1",
         "name": "Golden Cai Dao",
         "rarity": "Hero",
-        "item_sub_type": "EquipmentWeapon"
+        "item_sub_type": "EquipmentWeapon",
+        "item_sprite_id": 5007
     },
     {
         "item_design_id": "163",
@@ -402,7 +446,8 @@
         "quantity": "1",
         "name": "Golden Cai Dao",
         "rarity": "Hero",
-        "item_sub_type": "EquipmentWeapon"
+        "item_sub_type": "EquipmentWeapon",
+        "item_sprite_id": 5007
     },
     {
         "item_design_id": "163",
@@ -411,7 +456,8 @@
         "quantity": "1",
         "name": "Golden Cai Dao",
         "rarity": "Hero",
-        "item_sub_type": "EquipmentWeapon"
+        "item_sub_type": "EquipmentWeapon",
+        "item_sprite_id": 5007
     },
     {
         "item_design_id": "1493",
@@ -420,7 +466,8 @@
         "quantity": "1",
         "name": "Immensity Gauntlet",
         "rarity": "Hero",
-        "item_sub_type": "EquipmentWeapon"
+        "item_sub_type": "EquipmentWeapon",
+        "item_sprite_id": 11219
     },
     {
         "item_design_id": "1493",
@@ -429,7 +476,8 @@
         "quantity": "1",
         "name": "Immensity Gauntlet",
         "rarity": "Hero",
-        "item_sub_type": "EquipmentWeapon"
+        "item_sub_type": "EquipmentWeapon",
+        "item_sprite_id": 11219
     },
     {
         "item_design_id": "1493",
@@ -438,7 +486,8 @@
         "quantity": "1",
         "name": "Immensity Gauntlet",
         "rarity": "Hero",
-        "item_sub_type": "EquipmentWeapon"
+        "item_sub_type": "EquipmentWeapon",
+        "item_sprite_id": 11219
     },
     {
         "item_design_id": "1493",
@@ -447,7 +496,8 @@
         "quantity": "1",
         "name": "Immensity Gauntlet",
         "rarity": "Hero",
-        "item_sub_type": "EquipmentWeapon"
+        "item_sub_type": "EquipmentWeapon",
+        "item_sprite_id": 11219
     },
     {
         "item_design_id": "1493",
@@ -456,7 +506,8 @@
         "quantity": "1",
         "name": "Immensity Gauntlet",
         "rarity": "Hero",
-        "item_sub_type": "EquipmentWeapon"
+        "item_sub_type": "EquipmentWeapon",
+        "item_sprite_id": 11219
     },
     {
         "item_design_id": "678",
@@ -465,7 +516,8 @@
         "quantity": "1",
         "name": "King Husky",
         "rarity": "Hero",
-        "item_sub_type": "EquipmentAccessory"
+        "item_sub_type": "EquipmentAccessory",
+        "item_sprite_id": 12025
     },
     {
         "item_design_id": "678",
@@ -474,7 +526,8 @@
         "quantity": "1",
         "name": "King Husky",
         "rarity": "Hero",
-        "item_sub_type": "EquipmentAccessory"
+        "item_sub_type": "EquipmentAccessory",
+        "item_sprite_id": 12025
     },
     {
         "item_design_id": "678",
@@ -483,7 +536,8 @@
         "quantity": "1",
         "name": "King Husky",
         "rarity": "Hero",
-        "item_sub_type": "EquipmentAccessory"
+        "item_sub_type": "EquipmentAccessory",
+        "item_sprite_id": 12025
     },
     {
         "item_design_id": "727",
@@ -492,7 +546,8 @@
         "quantity": "1",
         "name": "La Paula",
         "rarity": "Hero",
-        "item_sub_type": "EquipmentWeapon"
+        "item_sub_type": "EquipmentWeapon",
+        "item_sprite_id": 12544
     },
     {
         "item_design_id": "727",
@@ -501,7 +556,8 @@
         "quantity": "1",
         "name": "La Paula",
         "rarity": "Hero",
-        "item_sub_type": "EquipmentWeapon"
+        "item_sub_type": "EquipmentWeapon",
+        "item_sprite_id": 12544
     },
     {
         "item_design_id": "727",
@@ -510,7 +566,8 @@
         "quantity": "1",
         "name": "La Paula",
         "rarity": "Hero",
-        "item_sub_type": "EquipmentWeapon"
+        "item_sub_type": "EquipmentWeapon",
+        "item_sprite_id": 12544
     },
     {
         "item_design_id": "727",
@@ -519,7 +576,8 @@
         "quantity": "1",
         "name": "La Paula",
         "rarity": "Hero",
-        "item_sub_type": "EquipmentWeapon"
+        "item_sub_type": "EquipmentWeapon",
+        "item_sprite_id": 12544
     },
     {
         "item_design_id": "727",
@@ -528,7 +586,8 @@
         "quantity": "1",
         "name": "La Paula",
         "rarity": "Hero",
-        "item_sub_type": "EquipmentWeapon"
+        "item_sub_type": "EquipmentWeapon",
+        "item_sprite_id": 12544
     },
     {
         "item_design_id": "1706",
@@ -537,7 +596,8 @@
         "quantity": "1",
         "name": "Mach Flightsuit",
         "rarity": "Hero",
-        "item_sub_type": "EquipmentBody"
+        "item_sub_type": "EquipmentBody",
+        "item_sprite_id": 19675
     },
     {
         "item_design_id": "1707",
@@ -546,7 +606,8 @@
         "quantity": "1",
         "name": "Mach Sabatons",
         "rarity": "Hero",
-        "item_sub_type": "EquipmentLeg"
+        "item_sub_type": "EquipmentLeg",
+        "item_sprite_id": 19677
     },
     {
         "item_design_id": "1177",
@@ -555,7 +616,8 @@
         "quantity": "1",
         "name": "Noscope-360",
         "rarity": "Hero",
-        "item_sub_type": "EquipmentAccessory"
+        "item_sub_type": "EquipmentAccessory",
+        "item_sprite_id": 16441
     },
     {
         "item_design_id": "1177",
@@ -564,7 +626,8 @@
         "quantity": "1",
         "name": "Noscope-360",
         "rarity": "Hero",
-        "item_sub_type": "EquipmentAccessory"
+        "item_sub_type": "EquipmentAccessory",
+        "item_sprite_id": 16441
     },
     {
         "item_design_id": "1177",
@@ -573,7 +636,8 @@
         "quantity": "1",
         "name": "Noscope-360",
         "rarity": "Hero",
-        "item_sub_type": "EquipmentAccessory"
+        "item_sub_type": "EquipmentAccessory",
+        "item_sprite_id": 16441
     },
     {
         "item_design_id": "1001",
@@ -582,7 +646,8 @@
         "quantity": "1",
         "name": "Overhauled Armor",
         "rarity": "Hero",
-        "item_sub_type": "EquipmentBody"
+        "item_sub_type": "EquipmentBody",
+        "item_sprite_id": 15251
     },
     {
         "item_design_id": "1000",
@@ -591,7 +656,8 @@
         "quantity": "1",
         "name": "Overhauled Boots",
         "rarity": "Hero",
-        "item_sub_type": "EquipmentLeg"
+        "item_sub_type": "EquipmentLeg",
+        "item_sprite_id": 15249
     },
     {
         "item_design_id": "1010",
@@ -600,7 +666,8 @@
         "quantity": "1",
         "name": "Overhauled Helm",
         "rarity": "Hero",
-        "item_sub_type": "EquipmentHead"
+        "item_sub_type": "EquipmentHead",
+        "item_sprite_id": 15253
     },
     {
         "item_design_id": "960",
@@ -609,7 +676,8 @@
         "quantity": "1",
         "name": "Pink Elephant",
         "rarity": "Hero",
-        "item_sub_type": "EquipmentAccessory"
+        "item_sub_type": "EquipmentAccessory",
+        "item_sprite_id": 14738
     },
     {
         "item_design_id": "960",
@@ -618,7 +686,8 @@
         "quantity": "1",
         "name": "Pink Elephant",
         "rarity": "Hero",
-        "item_sub_type": "EquipmentAccessory"
+        "item_sub_type": "EquipmentAccessory",
+        "item_sprite_id": 14738
     },
     {
         "item_design_id": "960",
@@ -627,7 +696,8 @@
         "quantity": "1",
         "name": "Pink Elephant",
         "rarity": "Hero",
-        "item_sub_type": "EquipmentAccessory"
+        "item_sub_type": "EquipmentAccessory",
+        "item_sprite_id": 14738
     },
     {
         "item_design_id": "960",
@@ -636,7 +706,8 @@
         "quantity": "1",
         "name": "Pink Elephant",
         "rarity": "Hero",
-        "item_sub_type": "EquipmentAccessory"
+        "item_sub_type": "EquipmentAccessory",
+        "item_sprite_id": 14738
     },
     {
         "item_design_id": "960",
@@ -645,7 +716,8 @@
         "quantity": "1",
         "name": "Pink Elephant",
         "rarity": "Hero",
-        "item_sub_type": "EquipmentAccessory"
+        "item_sub_type": "EquipmentAccessory",
+        "item_sprite_id": 14738
     },
     {
         "item_design_id": "960",
@@ -654,7 +726,8 @@
         "quantity": "1",
         "name": "Pink Elephant",
         "rarity": "Hero",
-        "item_sub_type": "EquipmentAccessory"
+        "item_sub_type": "EquipmentAccessory",
+        "item_sprite_id": 14738
     },
     {
         "item_design_id": "952",
@@ -663,7 +736,8 @@
         "quantity": "1",
         "name": "Plague Surgeon Mask",
         "rarity": "Hero",
-        "item_sub_type": "EquipmentHead"
+        "item_sub_type": "EquipmentHead",
+        "item_sprite_id": 14565
     },
     {
         "item_design_id": "954",
@@ -672,7 +746,8 @@
         "quantity": "1",
         "name": "Plague Surgeon Robe",
         "rarity": "Hero",
-        "item_sub_type": "EquipmentBody"
+        "item_sub_type": "EquipmentBody",
+        "item_sprite_id": 14569
     },
     {
         "item_design_id": "954",
@@ -681,7 +756,8 @@
         "quantity": "1",
         "name": "Plague Surgeon Robe",
         "rarity": "Hero",
-        "item_sub_type": "EquipmentBody"
+        "item_sub_type": "EquipmentBody",
+        "item_sprite_id": 14569
     },
     {
         "item_design_id": "954",
@@ -690,7 +766,8 @@
         "quantity": "1",
         "name": "Plague Surgeon Robe",
         "rarity": "Hero",
-        "item_sub_type": "EquipmentBody"
+        "item_sub_type": "EquipmentBody",
+        "item_sprite_id": 14569
     },
     {
         "item_design_id": "675",
@@ -699,7 +776,8 @@
         "quantity": "1",
         "name": "Prototype Stealth Hood",
         "rarity": "Hero",
-        "item_sub_type": "EquipmentHead"
+        "item_sub_type": "EquipmentHead",
+        "item_sprite_id": 11922
     },
     {
         "item_design_id": "675",
@@ -708,7 +786,8 @@
         "quantity": "1",
         "name": "Prototype Stealth Hood",
         "rarity": "Hero",
-        "item_sub_type": "EquipmentHead"
+        "item_sub_type": "EquipmentHead",
+        "item_sprite_id": 11922
     },
     {
         "item_design_id": "675",
@@ -717,7 +796,8 @@
         "quantity": "1",
         "name": "Prototype Stealth Hood",
         "rarity": "Hero",
-        "item_sub_type": "EquipmentHead"
+        "item_sub_type": "EquipmentHead",
+        "item_sprite_id": 11922
     },
     {
         "item_design_id": "676",
@@ -726,7 +806,8 @@
         "quantity": "1",
         "name": "Prototype Stealth Suit",
         "rarity": "Hero",
-        "item_sub_type": "EquipmentBody"
+        "item_sub_type": "EquipmentBody",
+        "item_sprite_id": 11926
     },
     {
         "item_design_id": "676",
@@ -735,7 +816,8 @@
         "quantity": "1",
         "name": "Prototype Stealth Suit",
         "rarity": "Hero",
-        "item_sub_type": "EquipmentBody"
+        "item_sub_type": "EquipmentBody",
+        "item_sprite_id": 11926
     },
     {
         "item_design_id": "676",
@@ -744,7 +826,8 @@
         "quantity": "1",
         "name": "Prototype Stealth Suit",
         "rarity": "Hero",
-        "item_sub_type": "EquipmentBody"
+        "item_sub_type": "EquipmentBody",
+        "item_sprite_id": 11926
     },
     {
         "item_design_id": "490",
@@ -753,7 +836,8 @@
         "quantity": "1",
         "name": "QT Mechworks Drone",
         "rarity": "Hero",
-        "item_sub_type": "EquipmentAccessory"
+        "item_sub_type": "EquipmentAccessory",
+        "item_sprite_id": 10288
     },
     {
         "item_design_id": "490",
@@ -762,7 +846,8 @@
         "quantity": "1",
         "name": "QT Mechworks Drone",
         "rarity": "Hero",
-        "item_sub_type": "EquipmentAccessory"
+        "item_sub_type": "EquipmentAccessory",
+        "item_sprite_id": 10288
     },
     {
         "item_design_id": "490",
@@ -771,7 +856,8 @@
         "quantity": "1",
         "name": "QT Mechworks Drone",
         "rarity": "Hero",
-        "item_sub_type": "EquipmentAccessory"
+        "item_sub_type": "EquipmentAccessory",
+        "item_sprite_id": 10288
     },
     {
         "item_design_id": "933",
@@ -780,7 +866,8 @@
         "quantity": "1",
         "name": "Red Marksman Jacket",
         "rarity": "Hero",
-        "item_sub_type": "EquipmentBody"
+        "item_sub_type": "EquipmentBody",
+        "item_sprite_id": 13939
     },
     {
         "item_design_id": "933",
@@ -789,7 +876,8 @@
         "quantity": "1",
         "name": "Red Marksman Jacket",
         "rarity": "Hero",
-        "item_sub_type": "EquipmentBody"
+        "item_sub_type": "EquipmentBody",
+        "item_sprite_id": 13939
     },
     {
         "item_design_id": "933",
@@ -798,7 +886,8 @@
         "quantity": "1",
         "name": "Red Marksman Jacket",
         "rarity": "Hero",
-        "item_sub_type": "EquipmentBody"
+        "item_sub_type": "EquipmentBody",
+        "item_sprite_id": 13939
     },
     {
         "item_design_id": "933",
@@ -807,7 +896,8 @@
         "quantity": "1",
         "name": "Red Marksman Jacket",
         "rarity": "Hero",
-        "item_sub_type": "EquipmentBody"
+        "item_sub_type": "EquipmentBody",
+        "item_sprite_id": 13939
     },
     {
         "item_design_id": "933",
@@ -816,7 +906,8 @@
         "quantity": "1",
         "name": "Red Marksman Jacket",
         "rarity": "Hero",
-        "item_sub_type": "EquipmentBody"
+        "item_sub_type": "EquipmentBody",
+        "item_sprite_id": 13939
     },
     {
         "item_design_id": "933",
@@ -825,7 +916,8 @@
         "quantity": "1",
         "name": "Red Marksman Jacket",
         "rarity": "Hero",
-        "item_sub_type": "EquipmentBody"
+        "item_sub_type": "EquipmentBody",
+        "item_sprite_id": 13939
     },
     {
         "item_design_id": "933",
@@ -834,7 +926,8 @@
         "quantity": "1",
         "name": "Red Marksman Jacket",
         "rarity": "Hero",
-        "item_sub_type": "EquipmentBody"
+        "item_sub_type": "EquipmentBody",
+        "item_sprite_id": 13939
     },
     {
         "item_design_id": "933",
@@ -843,7 +936,8 @@
         "quantity": "1",
         "name": "Red Marksman Jacket",
         "rarity": "Hero",
-        "item_sub_type": "EquipmentBody"
+        "item_sub_type": "EquipmentBody",
+        "item_sprite_id": 13939
     },
     {
         "item_design_id": "1494",
@@ -852,7 +946,8 @@
         "quantity": "1",
         "name": "Starburst Bulwark",
         "rarity": "Hero",
-        "item_sub_type": "EquipmentWeapon"
+        "item_sub_type": "EquipmentWeapon",
+        "item_sprite_id": 12218
     },
     {
         "item_design_id": "1494",
@@ -861,7 +956,8 @@
         "quantity": "1",
         "name": "Starburst Bulwark",
         "rarity": "Hero",
-        "item_sub_type": "EquipmentWeapon"
+        "item_sub_type": "EquipmentWeapon",
+        "item_sprite_id": 12218
     },
     {
         "item_design_id": "808",
@@ -870,7 +966,8 @@
         "quantity": "1",
         "name": "Trooper Draconian Helmet",
         "rarity": "Hero",
-        "item_sub_type": "EquipmentHead"
+        "item_sub_type": "EquipmentHead",
+        "item_sprite_id": 13020
     },
     {
         "item_design_id": "808",
@@ -879,7 +976,8 @@
         "quantity": "1",
         "name": "Trooper Draconian Helmet",
         "rarity": "Hero",
-        "item_sub_type": "EquipmentHead"
+        "item_sub_type": "EquipmentHead",
+        "item_sprite_id": 13020
     },
     {
         "item_design_id": "808",
@@ -888,7 +986,8 @@
         "quantity": "1",
         "name": "Trooper Draconian Helmet",
         "rarity": "Hero",
-        "item_sub_type": "EquipmentHead"
+        "item_sub_type": "EquipmentHead",
+        "item_sprite_id": 13020
     },
     {
         "item_design_id": "802",
@@ -897,7 +996,8 @@
         "quantity": "1",
         "name": "Unobtainium Heavy Assault Armor ",
         "rarity": "Hero",
-        "item_sub_type": "EquipmentBody"
+        "item_sub_type": "EquipmentBody",
+        "item_sprite_id": 3757
     },
     {
         "item_design_id": "802",
@@ -906,7 +1006,8 @@
         "quantity": "1",
         "name": "Unobtainium Heavy Assault Armor ",
         "rarity": "Hero",
-        "item_sub_type": "EquipmentBody"
+        "item_sub_type": "EquipmentBody",
+        "item_sprite_id": 3757
     },
     {
         "item_design_id": "802",
@@ -915,7 +1016,8 @@
         "quantity": "1",
         "name": "Unobtainium Heavy Assault Armor ",
         "rarity": "Hero",
-        "item_sub_type": "EquipmentBody"
+        "item_sub_type": "EquipmentBody",
+        "item_sprite_id": 3757
     },
     {
         "item_design_id": "802",
@@ -924,7 +1026,8 @@
         "quantity": "1",
         "name": "Unobtainium Heavy Assault Armor ",
         "rarity": "Hero",
-        "item_sub_type": "EquipmentBody"
+        "item_sub_type": "EquipmentBody",
+        "item_sprite_id": 3757
     },
     {
         "item_design_id": "802",
@@ -933,7 +1036,8 @@
         "quantity": "1",
         "name": "Unobtainium Heavy Assault Armor ",
         "rarity": "Hero",
-        "item_sub_type": "EquipmentBody"
+        "item_sub_type": "EquipmentBody",
+        "item_sprite_id": 3757
     },
     {
         "item_design_id": "802",
@@ -942,7 +1046,8 @@
         "quantity": "1",
         "name": "Unobtainium Heavy Assault Armor ",
         "rarity": "Hero",
-        "item_sub_type": "EquipmentBody"
+        "item_sub_type": "EquipmentBody",
+        "item_sprite_id": 3757
     },
     {
         "item_design_id": "802",
@@ -951,7 +1056,8 @@
         "quantity": "1",
         "name": "Unobtainium Heavy Assault Armor ",
         "rarity": "Hero",
-        "item_sub_type": "EquipmentBody"
+        "item_sub_type": "EquipmentBody",
+        "item_sprite_id": 3757
     },
     {
         "item_design_id": "799",
@@ -960,7 +1066,8 @@
         "quantity": "1",
         "name": "Visiri Master Gunner Greaves",
         "rarity": "Hero",
-        "item_sub_type": "EquipmentLeg"
+        "item_sub_type": "EquipmentLeg",
+        "item_sprite_id": 12887
     },
     {
         "item_design_id": "799",
@@ -969,6 +1076,7 @@
         "quantity": "1",
         "name": "Visiri Master Gunner Greaves",
         "rarity": "Hero",
-        "item_sub_type": "EquipmentLeg"
+        "item_sub_type": "EquipmentLeg",
+        "item_sprite_id": 12887
     }
 ]
