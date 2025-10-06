@@ -1,6 +1,5 @@
 [
     {
-        "item_id": "290509714",
         "item_design_id": "1718",
         "bonus_type": "Ability",
         "bonus_value": "9.2",
@@ -11,7 +10,6 @@
         "is_tradeable": true
     },
     {
-        "item_id": "290209620",
         "item_design_id": "1718",
         "bonus_type": "Engine",
         "bonus_value": "8.3",
@@ -22,7 +20,6 @@
         "is_tradeable": true
     },
     {
-        "item_id": "market-561565841",
         "item_design_id": "1718",
         "bonus_type": "FireResistance",
         "bonus_value": "59.4",
@@ -33,7 +30,6 @@
         "is_tradeable": true
     },
     {
-        "item_id": "283574253",
         "item_design_id": "1718",
         "bonus_type": "Hp",
         "bonus_value": "2",
@@ -44,29 +40,6 @@
         "is_tradeable": true
     },
     {
-        "item_id": "289585417",
-        "item_design_id": "1718",
-        "bonus_type": "Pilot",
-        "bonus_value": "8.4",
-        "quantity": "1",
-        "name": "Hydrone 2.0",
-        "rarity": "Special",
-        "item_sub_type": "EquipmentAccessory",
-        "is_tradeable": true
-    },
-    {
-        "item_id": "289591800",
-        "item_design_id": "1718",
-        "bonus_type": "Pilot",
-        "bonus_value": "6.8",
-        "quantity": "1",
-        "name": "Hydrone 2.0",
-        "rarity": "Special",
-        "item_sub_type": "EquipmentAccessory",
-        "is_tradeable": true
-    },
-    {
-        "item_id": "290352920",
         "item_design_id": "1749",
         "bonus_type": "Ability",
         "bonus_value": "11.4",
@@ -77,7 +50,6 @@
         "is_tradeable": true
     },
     {
-        "item_id": "290608906",
         "item_design_id": "1749",
         "bonus_type": "Pilot",
         "bonus_value": "9.7",
@@ -88,18 +60,6 @@
         "is_tradeable": true
     },
     {
-        "item_id": "284657264",
-        "item_design_id": "1496",
-        "bonus_type": "Weapon",
-        "bonus_value": "5.8",
-        "quantity": "1",
-        "name": "Summit's Edge",
-        "rarity": "Special",
-        "item_sub_type": "EquipmentWeapon",
-        "is_tradeable": true
-    },
-    {
-        "item_id": "290215817",
         "item_design_id": "435",
         "bonus_type": "Hp",
         "bonus_value": "2",
@@ -110,18 +70,6 @@
         "is_tradeable": true
     },
     {
-        "item_id": "273648919",
-        "item_design_id": "435",
-        "bonus_type": "Pilot",
-        "bonus_value": "4",
-        "quantity": "1",
-        "name": "Aldara",
-        "rarity": "Hero",
-        "item_sub_type": "EquipmentAccessory",
-        "is_tradeable": true
-    },
-    {
-        "item_id": "271588605",
         "item_design_id": "435",
         "bonus_type": "Repair",
         "bonus_value": "0.5",
@@ -132,7 +80,6 @@
         "is_tradeable": true
     },
     {
-        "item_id": "287828556",
         "item_design_id": "435",
         "bonus_type": "Stamina",
         "bonus_value": "20",
@@ -143,7 +90,6 @@
         "is_tradeable": true
     },
     {
-        "item_id": "289472191",
         "item_design_id": "514",
         "bonus_type": "Ability",
         "bonus_value": "14",
@@ -154,7 +100,6 @@
         "is_tradeable": true
     },
     {
-        "item_id": "market-561612624",
         "item_design_id": "514",
         "bonus_type": "Attack",
         "bonus_value": "0.4",
@@ -165,7 +110,6 @@
         "is_tradeable": true
     },
     {
-        "item_id": "289332308",
         "item_design_id": "514",
         "bonus_type": "FireResistance",
         "bonus_value": "53.3",
@@ -176,7 +120,6 @@
         "is_tradeable": true
     },
     {
-        "item_id": "288342758",
         "item_design_id": "514",
         "bonus_type": "FireResistance",
         "bonus_value": "45.2",
@@ -187,7 +130,6 @@
         "is_tradeable": true
     },
     {
-        "item_id": "290433552",
         "item_design_id": "514",
         "bonus_type": "FireResistance",
         "bonus_value": "29.2",
@@ -198,7 +140,6 @@
         "is_tradeable": true
     },
     {
-        "item_id": "290520325",
         "item_design_id": "514",
         "bonus_type": "Hp",
         "bonus_value": "2",
@@ -209,29 +150,6 @@
         "is_tradeable": true
     },
     {
-        "item_id": "289378617",
-        "item_design_id": "514",
-        "bonus_type": "Pilot",
-        "bonus_value": "9.9",
-        "quantity": "1",
-        "name": "Captain's Skullmet",
-        "rarity": "Hero",
-        "item_sub_type": "EquipmentHead",
-        "is_tradeable": true
-    },
-    {
-        "item_id": "288962622",
-        "item_design_id": "514",
-        "bonus_type": "Pilot",
-        "bonus_value": "9.5",
-        "quantity": "1",
-        "name": "Captain's Skullmet",
-        "rarity": "Hero",
-        "item_sub_type": "EquipmentHead",
-        "is_tradeable": true
-    },
-    {
-        "item_id": "288744293",
         "item_design_id": "514",
         "bonus_type": "Pilot",
         "bonus_value": "9.3",
@@ -242,7 +160,6 @@
         "is_tradeable": true
     },
     {
-        "item_id": "289563179",
         "item_design_id": "514",
         "bonus_type": "Repair",
         "bonus_value": "0.4",
@@ -253,7 +170,6 @@
         "is_tradeable": true
     },
     {
-        "item_id": "290082973",
         "item_design_id": "514",
         "bonus_type": "Stamina",
         "bonus_value": "16",
@@ -264,7 +180,6 @@
         "is_tradeable": true
     },
     {
-        "item_id": "289327747",
         "item_design_id": "258",
         "bonus_type": "Ability",
         "bonus_value": "15.6",
@@ -275,7 +190,6 @@
         "is_tradeable": true
     },
     {
-        "item_id": "288569706",
         "item_design_id": "258",
         "bonus_type": "Ability",
         "bonus_value": "13.4",
@@ -286,7 +200,6 @@
         "is_tradeable": true
     },
     {
-        "item_id": "289867481",
         "item_design_id": "796",
         "bonus_type": "Pilot",
         "bonus_value": "7.5",
@@ -297,7 +210,6 @@
         "is_tradeable": true
     },
     {
-        "item_id": "287922972",
         "item_design_id": "169",
         "bonus_type": "Ability",
         "bonus_value": "6.6",
@@ -308,7 +220,6 @@
         "is_tradeable": true
     },
     {
-        "item_id": "287830605",
         "item_design_id": "169",
         "bonus_type": "Attack",
         "bonus_value": "0.3",
@@ -319,7 +230,6 @@
         "is_tradeable": true
     },
     {
-        "item_id": "290106780",
         "item_design_id": "169",
         "bonus_type": "FireResistance",
         "bonus_value": "35.9",
@@ -330,18 +240,6 @@
         "is_tradeable": true
     },
     {
-        "item_id": "288869915",
-        "item_design_id": "169",
-        "bonus_type": "Pilot",
-        "bonus_value": "10.4",
-        "quantity": "1",
-        "name": "Dark Matter Armor",
-        "rarity": "Hero",
-        "item_sub_type": "EquipmentBody",
-        "is_tradeable": true
-    },
-    {
-        "item_id": "288106577",
         "item_design_id": "169",
         "bonus_type": "Pilot",
         "bonus_value": "6.6",
@@ -352,7 +250,6 @@
         "is_tradeable": true
     },
     {
-        "item_id": "290080183",
         "item_design_id": "169",
         "bonus_type": "Pilot",
         "bonus_value": "5.4",
@@ -363,7 +260,6 @@
         "is_tradeable": true
     },
     {
-        "item_id": "288813337",
         "item_design_id": "169",
         "bonus_type": "Pilot",
         "bonus_value": "5.3",
@@ -374,7 +270,6 @@
         "is_tradeable": true
     },
     {
-        "item_id": "288101803",
         "item_design_id": "169",
         "bonus_type": "Repair",
         "bonus_value": "0.4",
@@ -385,7 +280,6 @@
         "is_tradeable": true
     },
     {
-        "item_id": "288890363",
         "item_design_id": "169",
         "bonus_type": "Science",
         "bonus_value": "8",
@@ -396,18 +290,6 @@
         "is_tradeable": true
     },
     {
-        "item_id": "289690507",
-        "item_design_id": "246",
-        "bonus_type": "Pilot",
-        "bonus_value": "8.5",
-        "quantity": "1",
-        "name": "Dark Matter Helmet",
-        "rarity": "Hero",
-        "item_sub_type": "EquipmentHead",
-        "is_tradeable": true
-    },
-    {
-        "item_id": "290422374",
         "item_design_id": "246",
         "bonus_type": "Science",
         "bonus_value": "5.5",
@@ -418,7 +300,6 @@
         "is_tradeable": true
     },
     {
-        "item_id": "286411269",
         "item_design_id": "1215",
         "bonus_type": "Attack",
         "bonus_value": "0.3",
@@ -429,18 +310,6 @@
         "is_tradeable": true
     },
     {
-        "item_id": "290440657",
-        "item_design_id": "1215",
-        "bonus_type": "Engine",
-        "bonus_value": "7.4",
-        "quantity": "1",
-        "name": "Extendo-Clamp Plus",
-        "rarity": "Hero",
-        "item_sub_type": "EquipmentWeapon",
-        "is_tradeable": true
-    },
-    {
-        "item_id": "278156341",
         "item_design_id": "1215",
         "bonus_type": "Engine",
         "bonus_value": "4.3",
@@ -451,7 +320,6 @@
         "is_tradeable": true
     },
     {
-        "item_id": "290617031",
         "item_design_id": "1215",
         "bonus_type": "Weapon",
         "bonus_value": "6.4",
@@ -462,7 +330,6 @@
         "is_tradeable": true
     },
     {
-        "item_id": "286410130",
         "item_design_id": "163",
         "bonus_type": "Ability",
         "bonus_value": "13.3",
@@ -473,7 +340,6 @@
         "is_tradeable": true
     },
     {
-        "item_id": "289558630",
         "item_design_id": "163",
         "bonus_type": "Ability",
         "bonus_value": "10.1",
@@ -484,7 +350,6 @@
         "is_tradeable": true
     },
     {
-        "item_id": "288903652",
         "item_design_id": "163",
         "bonus_type": "Attack",
         "bonus_value": "0.3",
@@ -495,7 +360,6 @@
         "is_tradeable": true
     },
     {
-        "item_id": "286196812",
         "item_design_id": "163",
         "bonus_type": "Attack",
         "bonus_value": "0.2",
@@ -506,7 +370,6 @@
         "is_tradeable": true
     },
     {
-        "item_id": "289965509",
         "item_design_id": "163",
         "bonus_type": "FireResistance",
         "bonus_value": "52.9",
@@ -517,7 +380,6 @@
         "is_tradeable": true
     },
     {
-        "item_id": "290085700",
         "item_design_id": "163",
         "bonus_type": "Hp",
         "bonus_value": "2",
@@ -528,7 +390,6 @@
         "is_tradeable": true
     },
     {
-        "item_id": "289992880",
         "item_design_id": "163",
         "bonus_type": "Hp",
         "bonus_value": "1",
@@ -539,18 +400,6 @@
         "is_tradeable": true
     },
     {
-        "item_id": "290512074",
-        "item_design_id": "163",
-        "bonus_type": "Pilot",
-        "bonus_value": "10.5",
-        "quantity": "1",
-        "name": "Golden Cai Dao",
-        "rarity": "Hero",
-        "item_sub_type": "EquipmentWeapon",
-        "is_tradeable": true
-    },
-    {
-        "item_id": "2000230503",
         "item_design_id": "163",
         "bonus_type": "Pilot",
         "bonus_value": "10.1",
@@ -561,18 +410,6 @@
         "is_tradeable": true
     },
     {
-        "item_id": "286748943",
-        "item_design_id": "163",
-        "bonus_type": "Pilot",
-        "bonus_value": "9.4",
-        "quantity": "1",
-        "name": "Golden Cai Dao",
-        "rarity": "Hero",
-        "item_sub_type": "EquipmentWeapon",
-        "is_tradeable": true
-    },
-    {
-        "item_id": "288183819",
         "item_design_id": "163",
         "bonus_type": "Pilot",
         "bonus_value": "8.9",
@@ -583,7 +420,6 @@
         "is_tradeable": true
     },
     {
-        "item_id": "287451396",
         "item_design_id": "163",
         "bonus_type": "Pilot",
         "bonus_value": "8",
@@ -594,18 +430,6 @@
         "is_tradeable": true
     },
     {
-        "item_id": "278658194",
-        "item_design_id": "163",
-        "bonus_type": "Science",
-        "bonus_value": "6.9",
-        "quantity": "1",
-        "name": "Golden Cai Dao",
-        "rarity": "Hero",
-        "item_sub_type": "EquipmentWeapon",
-        "is_tradeable": true
-    },
-    {
-        "item_id": "290512075",
         "item_design_id": "163",
         "bonus_type": "Weapon",
         "bonus_value": "6.1",
@@ -616,18 +440,6 @@
         "is_tradeable": true
     },
     {
-        "item_id": "284707234",
-        "item_design_id": "163",
-        "bonus_type": "Weapon",
-        "bonus_value": "5.9",
-        "quantity": "1",
-        "name": "Golden Cai Dao",
-        "rarity": "Hero",
-        "item_sub_type": "EquipmentWeapon",
-        "is_tradeable": true
-    },
-    {
-        "item_id": "289215025",
         "item_design_id": "163",
         "bonus_type": "Weapon",
         "bonus_value": "5.3",
@@ -638,29 +450,6 @@
         "is_tradeable": true
     },
     {
-        "item_id": "287962002",
-        "item_design_id": "1493",
-        "bonus_type": "Ability",
-        "bonus_value": "12",
-        "quantity": "1",
-        "name": "Immensity Gauntlet",
-        "rarity": "Hero",
-        "item_sub_type": "EquipmentWeapon",
-        "is_tradeable": true
-    },
-    {
-        "item_id": "288467320",
-        "item_design_id": "1493",
-        "bonus_type": "Engine",
-        "bonus_value": "5.8",
-        "quantity": "1",
-        "name": "Immensity Gauntlet",
-        "rarity": "Hero",
-        "item_sub_type": "EquipmentWeapon",
-        "is_tradeable": true
-    },
-    {
-        "item_id": "289558507",
         "item_design_id": "1493",
         "bonus_type": "Engine",
         "bonus_value": "4.3",
@@ -671,18 +460,6 @@
         "is_tradeable": true
     },
     {
-        "item_id": "289056237",
-        "item_design_id": "1493",
-        "bonus_type": "Pilot",
-        "bonus_value": "9.3",
-        "quantity": "1",
-        "name": "Immensity Gauntlet",
-        "rarity": "Hero",
-        "item_sub_type": "EquipmentWeapon",
-        "is_tradeable": true
-    },
-    {
-        "item_id": "288704781",
         "item_design_id": "1493",
         "bonus_type": "Pilot",
         "bonus_value": "6.8",
@@ -693,7 +470,6 @@
         "is_tradeable": true
     },
     {
-        "item_id": "289327745",
         "item_design_id": "1493",
         "bonus_type": "Pilot",
         "bonus_value": "6.6",
@@ -704,18 +480,6 @@
         "is_tradeable": true
     },
     {
-        "item_id": "285318087",
-        "item_design_id": "1493",
-        "bonus_type": "Science",
-        "bonus_value": "6.5",
-        "quantity": "1",
-        "name": "Immensity Gauntlet",
-        "rarity": "Hero",
-        "item_sub_type": "EquipmentWeapon",
-        "is_tradeable": true
-    },
-    {
-        "item_id": "285289779",
         "item_design_id": "1493",
         "bonus_type": "Science",
         "bonus_value": "5.7",
@@ -726,7 +490,6 @@
         "is_tradeable": true
     },
     {
-        "item_id": "289561948",
         "item_design_id": "1493",
         "bonus_type": "Stamina",
         "bonus_value": "21",
@@ -737,29 +500,6 @@
         "is_tradeable": true
     },
     {
-        "item_id": "286531368",
-        "item_design_id": "1493",
-        "bonus_type": "Weapon",
-        "bonus_value": "6.3",
-        "quantity": "1",
-        "name": "Immensity Gauntlet",
-        "rarity": "Hero",
-        "item_sub_type": "EquipmentWeapon",
-        "is_tradeable": true
-    },
-    {
-        "item_id": "285665508",
-        "item_design_id": "678",
-        "bonus_type": "Pilot",
-        "bonus_value": "9.7",
-        "quantity": "1",
-        "name": "King Husky",
-        "rarity": "Hero",
-        "item_sub_type": "EquipmentAccessory",
-        "is_tradeable": true
-    },
-    {
-        "item_id": "282759250",
         "item_design_id": "678",
         "bonus_type": "Pilot",
         "bonus_value": "8.6",
@@ -770,7 +510,6 @@
         "is_tradeable": true
     },
     {
-        "item_id": "288979293",
         "item_design_id": "678",
         "bonus_type": "Pilot",
         "bonus_value": "4.9",
@@ -781,7 +520,6 @@
         "is_tradeable": true
     },
     {
-        "item_id": "282655372",
         "item_design_id": "678",
         "bonus_type": "Science",
         "bonus_value": "6.6",
@@ -792,7 +530,6 @@
         "is_tradeable": true
     },
     {
-        "item_id": "290609882",
         "item_design_id": "727",
         "bonus_type": "Ability",
         "bonus_value": "12.4",
@@ -803,7 +540,6 @@
         "is_tradeable": true
     },
     {
-        "item_id": "289463276",
         "item_design_id": "727",
         "bonus_type": "Hp",
         "bonus_value": "1",
@@ -814,7 +550,6 @@
         "is_tradeable": true
     },
     {
-        "item_id": "289460206",
         "item_design_id": "727",
         "bonus_type": "Pilot",
         "bonus_value": "5.4",
@@ -825,18 +560,6 @@
         "is_tradeable": true
     },
     {
-        "item_id": "288569703",
-        "item_design_id": "727",
-        "bonus_type": "Science",
-        "bonus_value": "9.4",
-        "quantity": "1",
-        "name": "La Paula",
-        "rarity": "Hero",
-        "item_sub_type": "EquipmentWeapon",
-        "is_tradeable": true
-    },
-    {
-        "item_id": "282069553",
         "item_design_id": "727",
         "bonus_type": "Science",
         "bonus_value": "3.8",
@@ -847,7 +570,6 @@
         "is_tradeable": true
     },
     {
-        "item_id": "288786514",
         "item_design_id": "727",
         "bonus_type": "Stamina",
         "bonus_value": "21",
@@ -858,18 +580,6 @@
         "is_tradeable": true
     },
     {
-        "item_id": "288653977",
-        "item_design_id": "1706",
-        "bonus_type": "Ability",
-        "bonus_value": "10.3",
-        "quantity": "1",
-        "name": "Mach Flightsuit",
-        "rarity": "Hero",
-        "item_sub_type": "EquipmentBody",
-        "is_tradeable": true
-    },
-    {
-        "item_id": "290080938",
         "item_design_id": "1706",
         "bonus_type": "Engine",
         "bonus_value": "7.1",
@@ -880,18 +590,6 @@
         "is_tradeable": true
     },
     {
-        "item_id": "288690342",
-        "item_design_id": "1706",
-        "bonus_type": "Hp",
-        "bonus_value": "2",
-        "quantity": "1",
-        "name": "Mach Flightsuit",
-        "rarity": "Hero",
-        "item_sub_type": "EquipmentBody",
-        "is_tradeable": true
-    },
-    {
-        "item_id": "290292320",
         "item_design_id": "1707",
         "bonus_type": "Ability",
         "bonus_value": "14.5",
@@ -902,29 +600,6 @@
         "is_tradeable": true
     },
     {
-        "item_id": "287935678",
-        "item_design_id": "1707",
-        "bonus_type": "Ability",
-        "bonus_value": "11.2",
-        "quantity": "1",
-        "name": "Mach Sabatons",
-        "rarity": "Hero",
-        "item_sub_type": "EquipmentLeg",
-        "is_tradeable": true
-    },
-    {
-        "item_id": "288891479",
-        "item_design_id": "1707",
-        "bonus_type": "Pilot",
-        "bonus_value": "9.7",
-        "quantity": "1",
-        "name": "Mach Sabatons",
-        "rarity": "Hero",
-        "item_sub_type": "EquipmentLeg",
-        "is_tradeable": true
-    },
-    {
-        "item_id": "289219708",
         "item_design_id": "1177",
         "bonus_type": "FireResistance",
         "bonus_value": "59.7",
@@ -935,7 +610,6 @@
         "is_tradeable": true
     },
     {
-        "item_id": "283080486",
         "item_design_id": "1177",
         "bonus_type": "Hp",
         "bonus_value": "2",
@@ -946,7 +620,6 @@
         "is_tradeable": true
     },
     {
-        "item_id": "278957068",
         "item_design_id": "1177",
         "bonus_type": "Stamina",
         "bonus_value": "20",
@@ -957,7 +630,6 @@
         "is_tradeable": true
     },
     {
-        "item_id": "market-561608405",
         "item_design_id": "1001",
         "bonus_type": "Ability",
         "bonus_value": "14",
@@ -968,18 +640,6 @@
         "is_tradeable": true
     },
     {
-        "item_id": "287200512",
-        "item_design_id": "1000",
-        "bonus_type": "Ability",
-        "bonus_value": "13",
-        "quantity": "1",
-        "name": "Overhauled Boots",
-        "rarity": "Hero",
-        "item_sub_type": "EquipmentLeg",
-        "is_tradeable": true
-    },
-    {
-        "item_id": "290446371",
         "item_design_id": "1000",
         "bonus_type": "Ability",
         "bonus_value": "11.6",
@@ -990,18 +650,6 @@
         "is_tradeable": true
     },
     {
-        "item_id": "288571218",
-        "item_design_id": "1000",
-        "bonus_type": "Hp",
-        "bonus_value": "2",
-        "quantity": "1",
-        "name": "Overhauled Boots",
-        "rarity": "Hero",
-        "item_sub_type": "EquipmentLeg",
-        "is_tradeable": true
-    },
-    {
-        "item_id": "290616635",
         "item_design_id": "1010",
         "bonus_type": "Science",
         "bonus_value": "9.1",
@@ -1012,18 +660,6 @@
         "is_tradeable": true
     },
     {
-        "item_id": "290613958",
-        "item_design_id": "960",
-        "bonus_type": "Ability",
-        "bonus_value": "15.4",
-        "quantity": "1",
-        "name": "Pink Elephant",
-        "rarity": "Hero",
-        "item_sub_type": "EquipmentAccessory",
-        "is_tradeable": true
-    },
-    {
-        "item_id": "287610996",
         "item_design_id": "960",
         "bonus_type": "Ability",
         "bonus_value": "13.3",
@@ -1034,40 +670,6 @@
         "is_tradeable": true
     },
     {
-        "item_id": "290445709",
-        "item_design_id": "960",
-        "bonus_type": "FireResistance",
-        "bonus_value": "60.2",
-        "quantity": "1",
-        "name": "Pink Elephant",
-        "rarity": "Hero",
-        "item_sub_type": "EquipmentAccessory",
-        "is_tradeable": true
-    },
-    {
-        "item_id": "288740907",
-        "item_design_id": "960",
-        "bonus_type": "Hp",
-        "bonus_value": "2",
-        "quantity": "1",
-        "name": "Pink Elephant",
-        "rarity": "Hero",
-        "item_sub_type": "EquipmentAccessory",
-        "is_tradeable": true
-    },
-    {
-        "item_id": "290448029",
-        "item_design_id": "960",
-        "bonus_type": "Hp",
-        "bonus_value": "2",
-        "quantity": "1",
-        "name": "Pink Elephant",
-        "rarity": "Hero",
-        "item_sub_type": "EquipmentAccessory",
-        "is_tradeable": true
-    },
-    {
-        "item_id": "281659702",
         "item_design_id": "960",
         "bonus_type": "Hp",
         "bonus_value": "1",
@@ -1078,7 +680,6 @@
         "is_tradeable": true
     },
     {
-        "item_id": "283790200",
         "item_design_id": "960",
         "bonus_type": "Hp",
         "bonus_value": "1",
@@ -1089,7 +690,6 @@
         "is_tradeable": true
     },
     {
-        "item_id": "287583956",
         "item_design_id": "960",
         "bonus_type": "Hp",
         "bonus_value": "1",
@@ -1100,7 +700,6 @@
         "is_tradeable": true
     },
     {
-        "item_id": "290610208",
         "item_design_id": "960",
         "bonus_type": "Pilot",
         "bonus_value": "6.5",
@@ -1111,29 +710,6 @@
         "is_tradeable": true
     },
     {
-        "item_id": "288991366",
-        "item_design_id": "960",
-        "bonus_type": "Science",
-        "bonus_value": "6.9",
-        "quantity": "1",
-        "name": "Pink Elephant",
-        "rarity": "Hero",
-        "item_sub_type": "EquipmentAccessory",
-        "is_tradeable": true
-    },
-    {
-        "item_id": "281160593",
-        "item_design_id": "960",
-        "bonus_type": "Science",
-        "bonus_value": "6.4",
-        "quantity": "1",
-        "name": "Pink Elephant",
-        "rarity": "Hero",
-        "item_sub_type": "EquipmentAccessory",
-        "is_tradeable": true
-    },
-    {
-        "item_id": "290289550",
         "item_design_id": "960",
         "bonus_type": "Science",
         "bonus_value": "5.6",
@@ -1144,7 +720,6 @@
         "is_tradeable": true
     },
     {
-        "item_id": "290482749",
         "item_design_id": "952",
         "bonus_type": "Ability",
         "bonus_value": "14.9",
@@ -1155,7 +730,6 @@
         "is_tradeable": true
     },
     {
-        "item_id": "288601419",
         "item_design_id": "954",
         "bonus_type": "Attack",
         "bonus_value": "0.5",
@@ -1166,7 +740,6 @@
         "is_tradeable": true
     },
     {
-        "item_id": "280463342",
         "item_design_id": "954",
         "bonus_type": "Hp",
         "bonus_value": "2",
@@ -1177,18 +750,6 @@
         "is_tradeable": true
     },
     {
-        "item_id": "289350187",
-        "item_design_id": "954",
-        "bonus_type": "Hp",
-        "bonus_value": "2",
-        "quantity": "1",
-        "name": "Plague Surgeon Robe",
-        "rarity": "Hero",
-        "item_sub_type": "EquipmentBody",
-        "is_tradeable": true
-    },
-    {
-        "item_id": "290520327",
         "item_design_id": "954",
         "bonus_type": "Hp",
         "bonus_value": "1",
@@ -1199,18 +760,6 @@
         "is_tradeable": true
     },
     {
-        "item_id": "286916583",
-        "item_design_id": "954",
-        "bonus_type": "Science",
-        "bonus_value": "4.2",
-        "quantity": "1",
-        "name": "Plague Surgeon Robe",
-        "rarity": "Hero",
-        "item_sub_type": "EquipmentBody",
-        "is_tradeable": true
-    },
-    {
-        "item_id": "286627155",
         "item_design_id": "675",
         "bonus_type": "Pilot",
         "bonus_value": "10.1",
@@ -1221,7 +770,6 @@
         "is_tradeable": true
     },
     {
-        "item_id": "290608467",
         "item_design_id": "675",
         "bonus_type": "Pilot",
         "bonus_value": "10",
@@ -1232,7 +780,6 @@
         "is_tradeable": true
     },
     {
-        "item_id": "290107717",
         "item_design_id": "675",
         "bonus_type": "Pilot",
         "bonus_value": "7.9",
@@ -1243,7 +790,6 @@
         "is_tradeable": true
     },
     {
-        "item_id": "290399347",
         "item_design_id": "676",
         "bonus_type": "Hp",
         "bonus_value": "2",
@@ -1254,7 +800,6 @@
         "is_tradeable": true
     },
     {
-        "item_id": "287703268",
         "item_design_id": "676",
         "bonus_type": "Pilot",
         "bonus_value": "4.9",
@@ -1265,7 +810,6 @@
         "is_tradeable": true
     },
     {
-        "item_id": "287774547",
         "item_design_id": "676",
         "bonus_type": "Repair",
         "bonus_value": "0.3",
@@ -1276,29 +820,6 @@
         "is_tradeable": true
     },
     {
-        "item_id": "289878771",
-        "item_design_id": "490",
-        "bonus_type": "FireResistance",
-        "bonus_value": "48.2",
-        "quantity": "1",
-        "name": "QT Mechworks Drone",
-        "rarity": "Hero",
-        "item_sub_type": "EquipmentAccessory",
-        "is_tradeable": true
-    },
-    {
-        "item_id": "289220939",
-        "item_design_id": "490",
-        "bonus_type": "FireResistance",
-        "bonus_value": "43.9",
-        "quantity": "1",
-        "name": "QT Mechworks Drone",
-        "rarity": "Hero",
-        "item_sub_type": "EquipmentAccessory",
-        "is_tradeable": true
-    },
-    {
-        "item_id": "275223227",
         "item_design_id": "490",
         "bonus_type": "FireResistance",
         "bonus_value": "37.9",
@@ -1309,7 +830,6 @@
         "is_tradeable": true
     },
     {
-        "item_id": "278518325",
         "item_design_id": "490",
         "bonus_type": "Hp",
         "bonus_value": "1",
@@ -1320,7 +840,6 @@
         "is_tradeable": true
     },
     {
-        "item_id": "283265580",
         "item_design_id": "490",
         "bonus_type": "Stamina",
         "bonus_value": "19",
@@ -1331,7 +850,6 @@
         "is_tradeable": true
     },
     {
-        "item_id": "290215812",
         "item_design_id": "933",
         "bonus_type": "Ability",
         "bonus_value": "14.4",
@@ -1342,18 +860,6 @@
         "is_tradeable": true
     },
     {
-        "item_id": "285539312",
-        "item_design_id": "933",
-        "bonus_type": "Ability",
-        "bonus_value": "11.1",
-        "quantity": "1",
-        "name": "Red Marksman Jacket",
-        "rarity": "Hero",
-        "item_sub_type": "EquipmentBody",
-        "is_tradeable": true
-    },
-    {
-        "item_id": "286413410",
         "item_design_id": "933",
         "bonus_type": "Attack",
         "bonus_value": "0.3",
@@ -1364,7 +870,6 @@
         "is_tradeable": true
     },
     {
-        "item_id": "290080423",
         "item_design_id": "933",
         "bonus_type": "Attack",
         "bonus_value": "0.2",
@@ -1375,18 +880,6 @@
         "is_tradeable": true
     },
     {
-        "item_id": "286512370",
-        "item_design_id": "933",
-        "bonus_type": "FireResistance",
-        "bonus_value": "43.9",
-        "quantity": "1",
-        "name": "Red Marksman Jacket",
-        "rarity": "Hero",
-        "item_sub_type": "EquipmentBody",
-        "is_tradeable": true
-    },
-    {
-        "item_id": "288470658",
         "item_design_id": "933",
         "bonus_type": "Hp",
         "bonus_value": "2",
@@ -1397,18 +890,6 @@
         "is_tradeable": true
     },
     {
-        "item_id": "290448244",
-        "item_design_id": "933",
-        "bonus_type": "Hp",
-        "bonus_value": "2",
-        "quantity": "1",
-        "name": "Red Marksman Jacket",
-        "rarity": "Hero",
-        "item_sub_type": "EquipmentBody",
-        "is_tradeable": true
-    },
-    {
-        "item_id": "282963556",
         "item_design_id": "933",
         "bonus_type": "Hp",
         "bonus_value": "1",
@@ -1419,7 +900,6 @@
         "is_tradeable": true
     },
     {
-        "item_id": "289376912",
         "item_design_id": "933",
         "bonus_type": "Hp",
         "bonus_value": "1",
@@ -1430,18 +910,6 @@
         "is_tradeable": true
     },
     {
-        "item_id": "290582904",
-        "item_design_id": "933",
-        "bonus_type": "Hp",
-        "bonus_value": "1",
-        "quantity": "1",
-        "name": "Red Marksman Jacket",
-        "rarity": "Hero",
-        "item_sub_type": "EquipmentBody",
-        "is_tradeable": true
-    },
-    {
-        "item_id": "289564418",
         "item_design_id": "933",
         "bonus_type": "Pilot",
         "bonus_value": "9.6",
@@ -1452,7 +920,6 @@
         "is_tradeable": true
     },
     {
-        "item_id": "290080298",
         "item_design_id": "933",
         "bonus_type": "Repair",
         "bonus_value": "0.4",
@@ -1463,51 +930,6 @@
         "is_tradeable": true
     },
     {
-        "item_id": "285313763",
-        "item_design_id": "933",
-        "bonus_type": "Weapon",
-        "bonus_value": "3.5",
-        "quantity": "1",
-        "name": "Red Marksman Jacket",
-        "rarity": "Hero",
-        "item_sub_type": "EquipmentBody",
-        "is_tradeable": true
-    },
-    {
-        "item_id": "284817390",
-        "item_design_id": "933",
-        "bonus_type": "Weapon",
-        "bonus_value": "3.4",
-        "quantity": "1",
-        "name": "Red Marksman Jacket",
-        "rarity": "Hero",
-        "item_sub_type": "EquipmentBody",
-        "is_tradeable": true
-    },
-    {
-        "item_id": "290066986",
-        "item_design_id": "1494",
-        "bonus_type": "Science",
-        "bonus_value": "8",
-        "quantity": "1",
-        "name": "Starburst Bulwark",
-        "rarity": "Hero",
-        "item_sub_type": "EquipmentWeapon",
-        "is_tradeable": true
-    },
-    {
-        "item_id": "288906532",
-        "item_design_id": "1494",
-        "bonus_type": "Science",
-        "bonus_value": "6.7",
-        "quantity": "1",
-        "name": "Starburst Bulwark",
-        "rarity": "Hero",
-        "item_sub_type": "EquipmentWeapon",
-        "is_tradeable": true
-    },
-    {
-        "item_id": "282819114",
         "item_design_id": "1494",
         "bonus_type": "Science",
         "bonus_value": "6.2",
@@ -1518,7 +940,6 @@
         "is_tradeable": true
     },
     {
-        "item_id": "290618307",
         "item_design_id": "1494",
         "bonus_type": "Weapon",
         "bonus_value": "5.9",
@@ -1529,7 +950,6 @@
         "is_tradeable": true
     },
     {
-        "item_id": "285929317",
         "item_design_id": "808",
         "bonus_type": "Ability",
         "bonus_value": "7.2",
@@ -1540,7 +960,6 @@
         "is_tradeable": true
     },
     {
-        "item_id": "278826883",
         "item_design_id": "808",
         "bonus_type": "Pilot",
         "bonus_value": "9.1",
@@ -1551,7 +970,6 @@
         "is_tradeable": true
     },
     {
-        "item_id": "289635338",
         "item_design_id": "808",
         "bonus_type": "Repair",
         "bonus_value": "0.6",
@@ -1562,18 +980,6 @@
         "is_tradeable": true
     },
     {
-        "item_id": "286507498",
-        "item_design_id": "808",
-        "bonus_type": "Science",
-        "bonus_value": "9.4",
-        "quantity": "1",
-        "name": "Trooper Draconian Helmet",
-        "rarity": "Hero",
-        "item_sub_type": "EquipmentHead",
-        "is_tradeable": true
-    },
-    {
-        "item_id": "290537181",
         "item_design_id": "802",
         "bonus_type": "Ability",
         "bonus_value": "14",
@@ -1584,7 +990,6 @@
         "is_tradeable": true
     },
     {
-        "item_id": "282819134",
         "item_design_id": "802",
         "bonus_type": "Attack",
         "bonus_value": "0.3",
@@ -1595,7 +1000,6 @@
         "is_tradeable": true
     },
     {
-        "item_id": "287604209",
         "item_design_id": "802",
         "bonus_type": "Attack",
         "bonus_value": "0.2",
@@ -1606,62 +1010,6 @@
         "is_tradeable": true
     },
     {
-        "item_id": "288973505",
-        "item_design_id": "802",
-        "bonus_type": "Engine",
-        "bonus_value": "7.2",
-        "quantity": "1",
-        "name": "Unobtainium Heavy Assault Armor ",
-        "rarity": "Hero",
-        "item_sub_type": "EquipmentBody",
-        "is_tradeable": true
-    },
-    {
-        "item_id": "285303101",
-        "item_design_id": "802",
-        "bonus_type": "Engine",
-        "bonus_value": "6.6",
-        "quantity": "1",
-        "name": "Unobtainium Heavy Assault Armor ",
-        "rarity": "Hero",
-        "item_sub_type": "EquipmentBody",
-        "is_tradeable": true
-    },
-    {
-        "item_id": "289629967",
-        "item_design_id": "802",
-        "bonus_type": "Engine",
-        "bonus_value": "5.6",
-        "quantity": "1",
-        "name": "Unobtainium Heavy Assault Armor ",
-        "rarity": "Hero",
-        "item_sub_type": "EquipmentBody",
-        "is_tradeable": true
-    },
-    {
-        "item_id": "287365154",
-        "item_design_id": "802",
-        "bonus_type": "Engine",
-        "bonus_value": "5.5",
-        "quantity": "1",
-        "name": "Unobtainium Heavy Assault Armor ",
-        "rarity": "Hero",
-        "item_sub_type": "EquipmentBody",
-        "is_tradeable": true
-    },
-    {
-        "item_id": "284013428",
-        "item_design_id": "802",
-        "bonus_type": "FireResistance",
-        "bonus_value": "42.3",
-        "quantity": "1",
-        "name": "Unobtainium Heavy Assault Armor ",
-        "rarity": "Hero",
-        "item_sub_type": "EquipmentBody",
-        "is_tradeable": true
-    },
-    {
-        "item_id": "287691216",
         "item_design_id": "802",
         "bonus_type": "FireResistance",
         "bonus_value": "42.1",
@@ -1672,7 +1020,6 @@
         "is_tradeable": true
     },
     {
-        "item_id": "284678287",
         "item_design_id": "802",
         "bonus_type": "FireResistance",
         "bonus_value": "22.4",
@@ -1683,7 +1030,6 @@
         "is_tradeable": true
     },
     {
-        "item_id": "288647585",
         "item_design_id": "802",
         "bonus_type": "Repair",
         "bonus_value": "0.3",
@@ -1694,7 +1040,6 @@
         "is_tradeable": true
     },
     {
-        "item_id": "289606481",
         "item_design_id": "802",
         "bonus_type": "Repair",
         "bonus_value": "0.3",
@@ -1705,29 +1050,6 @@
         "is_tradeable": true
     },
     {
-        "item_id": "279935396",
-        "item_design_id": "790",
-        "bonus_type": "Hp",
-        "bonus_value": "1",
-        "quantity": "1",
-        "name": "Visiri Gunner Helm Alpha",
-        "rarity": "Hero",
-        "item_sub_type": "EquipmentHead",
-        "is_tradeable": true
-    },
-    {
-        "item_id": "278754437",
-        "item_design_id": "790",
-        "bonus_type": "Weapon",
-        "bonus_value": "3.3",
-        "quantity": "1",
-        "name": "Visiri Gunner Helm Alpha",
-        "rarity": "Hero",
-        "item_sub_type": "EquipmentHead",
-        "is_tradeable": true
-    },
-    {
-        "item_id": "286032720",
         "item_design_id": "799",
         "bonus_type": "Ability",
         "bonus_value": "13",
@@ -1738,7 +1060,6 @@
         "is_tradeable": true
     },
     {
-        "item_id": "289564618",
         "item_design_id": "799",
         "bonus_type": "Ability",
         "bonus_value": "10",
@@ -1746,655 +1067,6 @@
         "name": "Visiri Master Gunner Greaves",
         "rarity": "Hero",
         "item_sub_type": "EquipmentLeg",
-        "is_tradeable": true
-    },
-    {
-        "item_id": "286004490",
-        "item_design_id": "799",
-        "bonus_type": "FireResistance",
-        "bonus_value": "61.9",
-        "quantity": "1",
-        "name": "Visiri Master Gunner Greaves",
-        "rarity": "Hero",
-        "item_sub_type": "EquipmentLeg",
-        "is_tradeable": true
-    },
-    {
-        "item_id": "286404307",
-        "item_design_id": "799",
-        "bonus_type": "Weapon",
-        "bonus_value": "4.8",
-        "quantity": "1",
-        "name": "Visiri Master Gunner Greaves",
-        "rarity": "Hero",
-        "item_sub_type": "EquipmentLeg",
-        "is_tradeable": true
-    },
-    {
-        "item_id": "284813923",
-        "item_design_id": "799",
-        "bonus_type": "Weapon",
-        "bonus_value": "4.7",
-        "quantity": "1",
-        "name": "Visiri Master Gunner Greaves",
-        "rarity": "Hero",
-        "item_sub_type": "EquipmentLeg",
-        "is_tradeable": true
-    },
-    {
-        "item_id": "284244177",
-        "item_design_id": "484",
-        "bonus_type": null,
-        "bonus_value": null,
-        "quantity": "1",
-        "name": "Ace Flightsuit",
-        "rarity": "Epic",
-        "item_sub_type": "EquipmentBody",
-        "is_tradeable": true
-    },
-    {
-        "item_id": "273952315",
-        "item_design_id": "483",
-        "bonus_type": null,
-        "bonus_value": null,
-        "quantity": "2",
-        "name": "Ace Helm",
-        "rarity": "Epic",
-        "item_sub_type": "EquipmentHead",
-        "is_tradeable": true
-    },
-    {
-        "item_id": "280392996",
-        "item_design_id": "485",
-        "bonus_type": null,
-        "bonus_value": null,
-        "quantity": "1",
-        "name": "Ace Sabatons",
-        "rarity": "Epic",
-        "item_sub_type": "EquipmentLeg",
-        "is_tradeable": true
-    },
-    {
-        "item_id": "273694423",
-        "item_design_id": "269",
-        "bonus_type": null,
-        "bonus_value": null,
-        "quantity": "3",
-        "name": "Blue Armor",
-        "rarity": "Epic",
-        "item_sub_type": "EquipmentBody",
-        "is_tradeable": true
-    },
-    {
-        "item_id": "287824382",
-        "item_design_id": "600",
-        "bonus_type": null,
-        "bonus_value": null,
-        "quantity": "3",
-        "name": "Federation Officer Armor",
-        "rarity": "Epic",
-        "item_sub_type": "EquipmentBody",
-        "is_tradeable": true
-    },
-    {
-        "item_id": "277177190",
-        "item_design_id": "462",
-        "bonus_type": null,
-        "bonus_value": null,
-        "quantity": "4",
-        "name": "Focus Saber",
-        "rarity": "Epic",
-        "item_sub_type": "EquipmentWeapon",
-        "is_tradeable": true
-    },
-    {
-        "item_id": "287185038",
-        "item_design_id": "726",
-        "bonus_type": null,
-        "bonus_value": null,
-        "quantity": "2",
-        "name": "Gisbon",
-        "rarity": "Epic",
-        "item_sub_type": "EquipmentWeapon",
-        "is_tradeable": true
-    },
-    {
-        "item_id": "284677105",
-        "item_design_id": "115",
-        "bonus_type": null,
-        "bonus_value": null,
-        "quantity": "1",
-        "name": "Heavy Assault Armor",
-        "rarity": "Epic",
-        "item_sub_type": "EquipmentBody",
-        "is_tradeable": true
-    },
-    {
-        "item_id": "284577003",
-        "item_design_id": "475",
-        "bonus_type": null,
-        "bonus_value": null,
-        "quantity": "2",
-        "name": "Overhauler Armor",
-        "rarity": "Epic",
-        "item_sub_type": "EquipmentBody",
-        "is_tradeable": true
-    },
-    {
-        "item_id": "281451644",
-        "item_design_id": "476",
-        "bonus_type": null,
-        "bonus_value": null,
-        "quantity": "1",
-        "name": "Overhauler Boots",
-        "rarity": "Epic",
-        "item_sub_type": "EquipmentLeg",
-        "is_tradeable": true
-    },
-    {
-        "item_id": "288121749",
-        "item_design_id": "949",
-        "bonus_type": null,
-        "bonus_value": null,
-        "quantity": "1",
-        "name": "Plague Doctor Mask",
-        "rarity": "Epic",
-        "item_sub_type": "EquipmentHead",
-        "is_tradeable": true
-    },
-    {
-        "item_id": "272165097",
-        "item_design_id": "430",
-        "bonus_type": null,
-        "bonus_value": null,
-        "quantity": "1",
-        "name": "Power Gauntlet",
-        "rarity": "Epic",
-        "item_sub_type": "EquipmentWeapon",
-        "is_tradeable": true
-    },
-    {
-        "item_id": "274004434",
-        "item_design_id": "512",
-        "bonus_type": null,
-        "bonus_value": null,
-        "quantity": "2",
-        "name": "Raider Skullmet",
-        "rarity": "Epic",
-        "item_sub_type": "EquipmentHead",
-        "is_tradeable": true
-    },
-    {
-        "item_id": "267069548",
-        "item_design_id": "125",
-        "bonus_type": null,
-        "bonus_value": null,
-        "quantity": "1",
-        "name": "8Bit Helmet",
-        "rarity": "Unique",
-        "item_sub_type": "EquipmentHead",
-        "is_tradeable": true
-    },
-    {
-        "item_id": "277531054",
-        "item_design_id": "109",
-        "bonus_type": null,
-        "bonus_value": null,
-        "quantity": "2",
-        "name": "Assault Armor",
-        "rarity": "Unique",
-        "item_sub_type": "EquipmentBody",
-        "is_tradeable": true
-    },
-    {
-        "item_id": "281009264",
-        "item_design_id": "1229",
-        "bonus_type": null,
-        "bonus_value": null,
-        "quantity": "2",
-        "name": "Beach Ball 7",
-        "rarity": "Unique",
-        "item_sub_type": "EquipmentAccessory",
-        "is_tradeable": true
-    },
-    {
-        "item_id": "270976843",
-        "item_design_id": "421",
-        "bonus_type": null,
-        "bonus_value": null,
-        "quantity": "2",
-        "name": "Corporeal-Clamp",
-        "rarity": "Unique",
-        "item_sub_type": "EquipmentWeapon",
-        "is_tradeable": true
-    },
-    {
-        "item_id": "276564392",
-        "item_design_id": "481",
-        "bonus_type": null,
-        "bonus_value": null,
-        "quantity": "2",
-        "name": "Dogfighter Flightsuit",
-        "rarity": "Unique",
-        "item_sub_type": "EquipmentBody",
-        "is_tradeable": true
-    },
-    {
-        "item_id": "273278519",
-        "item_design_id": "480",
-        "bonus_type": null,
-        "bonus_value": null,
-        "quantity": "3",
-        "name": "Dogfighter Helm",
-        "rarity": "Unique",
-        "item_sub_type": "EquipmentHead",
-        "is_tradeable": true
-    },
-    {
-        "item_id": "275201323",
-        "item_design_id": "135",
-        "bonus_type": null,
-        "bonus_value": null,
-        "quantity": "4",
-        "name": "Draconian Helmet",
-        "rarity": "Unique",
-        "item_sub_type": "EquipmentHead",
-        "is_tradeable": true
-    },
-    {
-        "item_id": "290345869",
-        "item_design_id": "164",
-        "bonus_type": null,
-        "bonus_value": null,
-        "quantity": "1",
-        "name": "Dragon Armor",
-        "rarity": "Unique",
-        "item_sub_type": "EquipmentBody",
-        "is_tradeable": true
-    },
-    {
-        "item_id": "281323374",
-        "item_design_id": "399",
-        "bonus_type": null,
-        "bonus_value": null,
-        "quantity": "2",
-        "name": "Emoji Helmet",
-        "rarity": "Unique",
-        "item_sub_type": "EquipmentHead",
-        "is_tradeable": true
-    },
-    {
-        "item_id": "273731714",
-        "item_design_id": "472",
-        "bonus_type": null,
-        "bonus_value": null,
-        "quantity": "1",
-        "name": "Engi Combatant Armor",
-        "rarity": "Unique",
-        "item_sub_type": "EquipmentBody",
-        "is_tradeable": true
-    },
-    {
-        "item_id": "270740849",
-        "item_design_id": "230",
-        "bonus_type": null,
-        "bonus_value": null,
-        "quantity": "1",
-        "name": "Extra Small Phone",
-        "rarity": "Unique",
-        "item_sub_type": "EquipmentWeapon",
-        "is_tradeable": true
-    },
-    {
-        "item_id": "276888334",
-        "item_design_id": "523",
-        "bonus_type": null,
-        "bonus_value": null,
-        "quantity": "1",
-        "name": "Federation Combat Coat",
-        "rarity": "Unique",
-        "item_sub_type": "EquipmentBody",
-        "is_tradeable": true
-    },
-    {
-        "item_id": "276663795",
-        "item_design_id": "282",
-        "bonus_type": null,
-        "bonus_value": null,
-        "quantity": "3",
-        "name": "Flashy Uniform",
-        "rarity": "Unique",
-        "item_sub_type": "EquipmentBody",
-        "is_tradeable": true
-    },
-    {
-        "item_id": "271928311",
-        "item_design_id": "445",
-        "bonus_type": null,
-        "bonus_value": null,
-        "quantity": "2",
-        "name": "Gravity-Loader",
-        "rarity": "Unique",
-        "item_sub_type": "EquipmentWeapon",
-        "is_tradeable": true
-    },
-    {
-        "item_id": "268924824",
-        "item_design_id": "429",
-        "bonus_type": null,
-        "bonus_value": null,
-        "quantity": "1",
-        "name": "Iron Fist",
-        "rarity": "Unique",
-        "item_sub_type": "EquipmentWeapon",
-        "is_tradeable": true
-    },
-    {
-        "item_id": "270153530",
-        "item_design_id": "827",
-        "bonus_type": null,
-        "bonus_value": null,
-        "quantity": "2",
-        "name": "Li'l Frosty",
-        "rarity": "Unique",
-        "item_sub_type": "EquipmentPet",
-        "is_tradeable": true
-    },
-    {
-        "item_id": "270030198",
-        "item_design_id": "433",
-        "bonus_type": null,
-        "bonus_value": null,
-        "quantity": "1",
-        "name": "Mystic Chick",
-        "rarity": "Unique",
-        "item_sub_type": "EquipmentAccessory",
-        "is_tradeable": true
-    },
-    {
-        "item_id": "267447061",
-        "item_design_id": "738",
-        "bonus_type": null,
-        "bonus_value": null,
-        "quantity": "3",
-        "name": "Power Lance",
-        "rarity": "Unique",
-        "item_sub_type": "EquipmentWeapon",
-        "is_tradeable": true
-    },
-    {
-        "item_id": "271069616",
-        "item_design_id": "660",
-        "bonus_type": null,
-        "bonus_value": null,
-        "quantity": "1",
-        "name": "Propeller Pig",
-        "rarity": "Unique",
-        "item_sub_type": "EquipmentAccessory",
-        "is_tradeable": true
-    },
-    {
-        "item_id": "278819397",
-        "item_design_id": "308",
-        "bonus_type": null,
-        "bonus_value": null,
-        "quantity": "4",
-        "name": "QBot",
-        "rarity": "Unique",
-        "item_sub_type": "EquipmentAccessory",
-        "is_tradeable": true
-    },
-    {
-        "item_id": "268923894",
-        "item_design_id": "488",
-        "bonus_type": null,
-        "bonus_value": null,
-        "quantity": "3",
-        "name": "QT-AT Mech-Drone",
-        "rarity": "Unique",
-        "item_sub_type": "EquipmentAccessory",
-        "is_tradeable": true
-    },
-    {
-        "item_id": "2000009279",
-        "item_design_id": "551",
-        "bonus_type": null,
-        "bonus_value": null,
-        "quantity": "1",
-        "name": "Reindeer Ears",
-        "rarity": "Unique",
-        "item_sub_type": "EquipmentHead",
-        "is_tradeable": true
-    },
-    {
-        "item_id": "289986153",
-        "item_design_id": "553",
-        "bonus_type": null,
-        "bonus_value": null,
-        "quantity": "1",
-        "name": "Reindeer Pants",
-        "rarity": "Unique",
-        "item_sub_type": "EquipmentLeg",
-        "is_tradeable": true
-    },
-    {
-        "item_id": "274126597",
-        "item_design_id": "694",
-        "bonus_type": null,
-        "bonus_value": null,
-        "quantity": "3",
-        "name": "Riot Shield",
-        "rarity": "Unique",
-        "item_sub_type": "EquipmentWeapon",
-        "is_tradeable": true
-    },
-    {
-        "item_id": "275548386",
-        "item_design_id": "459",
-        "bonus_type": null,
-        "bonus_value": null,
-        "quantity": "4",
-        "name": "Scoped Med Spoon",
-        "rarity": "Unique",
-        "item_sub_type": "EquipmentWeapon",
-        "is_tradeable": true
-    },
-    {
-        "item_id": "268827138",
-        "item_design_id": "716",
-        "bonus_type": null,
-        "bonus_value": null,
-        "quantity": "4",
-        "name": "Silver Racing Pants",
-        "rarity": "Unique",
-        "item_sub_type": "EquipmentLeg",
-        "is_tradeable": true
-    },
-    {
-        "item_id": "273850315",
-        "item_design_id": "715",
-        "bonus_type": null,
-        "bonus_value": null,
-        "quantity": "3",
-        "name": "Silver Racing Suit",
-        "rarity": "Unique",
-        "item_sub_type": "EquipmentBody",
-        "is_tradeable": true
-    },
-    {
-        "item_id": "275393287",
-        "item_design_id": "536",
-        "bonus_type": null,
-        "bonus_value": null,
-        "quantity": "4",
-        "name": "Snow Launcher",
-        "rarity": "Unique",
-        "item_sub_type": "EquipmentWeapon",
-        "is_tradeable": true
-    },
-    {
-        "item_id": "275797582",
-        "item_design_id": "725",
-        "bonus_type": null,
-        "bonus_value": null,
-        "quantity": "2",
-        "name": "Squiji Guitar",
-        "rarity": "Unique",
-        "item_sub_type": "EquipmentWeapon",
-        "is_tradeable": true
-    },
-    {
-        "item_id": "280857988",
-        "item_design_id": "121",
-        "bonus_type": null,
-        "bonus_value": null,
-        "quantity": "5",
-        "name": "Titan Armor",
-        "rarity": "Unique",
-        "item_sub_type": "EquipmentBody",
-        "is_tradeable": true
-    },
-    {
-        "item_id": "268632121",
-        "item_design_id": "478",
-        "bonus_type": null,
-        "bonus_value": null,
-        "quantity": "3",
-        "name": "Armored Flight Suit",
-        "rarity": "Elite",
-        "item_sub_type": "EquipmentBody",
-        "is_tradeable": true
-    },
-    {
-        "item_id": "275085829",
-        "item_design_id": "456",
-        "bonus_type": null,
-        "bonus_value": null,
-        "quantity": "3",
-        "name": "Engi-Exo Boots",
-        "rarity": "Elite",
-        "item_sub_type": "EquipmentLeg",
-        "is_tradeable": true
-    },
-    {
-        "item_id": "288469689",
-        "item_design_id": "454",
-        "bonus_type": null,
-        "bonus_value": null,
-        "quantity": "3",
-        "name": "Engi-Exo Helm",
-        "rarity": "Elite",
-        "item_sub_type": "EquipmentHead",
-        "is_tradeable": true
-    },
-    {
-        "item_id": "271835049",
-        "item_design_id": "455",
-        "bonus_type": null,
-        "bonus_value": null,
-        "quantity": "3",
-        "name": "Engi-Exo Suit",
-        "rarity": "Elite",
-        "item_sub_type": "EquipmentBody",
-        "is_tradeable": true
-    },
-    {
-        "item_id": "287923959",
-        "item_design_id": "521",
-        "bonus_type": null,
-        "bonus_value": null,
-        "quantity": "1",
-        "name": "Federation Fatigues",
-        "rarity": "Elite",
-        "item_sub_type": "EquipmentBody",
-        "is_tradeable": true
-    },
-    {
-        "item_id": "268102947",
-        "item_design_id": "730",
-        "bonus_type": null,
-        "bonus_value": null,
-        "quantity": "2",
-        "name": "Hitchhiker's Towel",
-        "rarity": "Elite",
-        "item_sub_type": "EquipmentLeg",
-        "is_tradeable": true
-    },
-    {
-        "item_id": "268378398",
-        "item_design_id": "444",
-        "bonus_type": null,
-        "bonus_value": null,
-        "quantity": "3",
-        "name": "Mag-Loader Pro",
-        "rarity": "Elite",
-        "item_sub_type": "EquipmentWeapon",
-        "is_tradeable": true
-    },
-    {
-        "item_id": "270658223",
-        "item_design_id": "432",
-        "bonus_type": null,
-        "bonus_value": null,
-        "quantity": "1",
-        "name": "Mystic Hatchling",
-        "rarity": "Elite",
-        "item_sub_type": "EquipmentAccessory",
-        "is_tradeable": true
-    },
-    {
-        "item_id": "271660606",
-        "item_design_id": "487",
-        "bonus_type": null,
-        "bonus_value": null,
-        "quantity": "2",
-        "name": "QT-02 Worker Drone",
-        "rarity": "Elite",
-        "item_sub_type": "EquipmentAccessory",
-        "is_tradeable": true
-    },
-    {
-        "item_id": "270242404",
-        "item_design_id": "119",
-        "bonus_type": null,
-        "bonus_value": null,
-        "quantity": "4",
-        "name": "Red Shirt",
-        "rarity": "Elite",
-        "item_sub_type": "EquipmentBody",
-        "is_tradeable": true
-    },
-    {
-        "item_id": "269609730",
-        "item_design_id": "252",
-        "bonus_type": null,
-        "bonus_value": null,
-        "quantity": "3",
-        "name": "UScrew",
-        "rarity": "Elite",
-        "item_sub_type": "EquipmentWeapon",
-        "is_tradeable": true
-    },
-    {
-        "item_id": "275288472",
-        "item_design_id": "519",
-        "bonus_type": null,
-        "bonus_value": null,
-        "quantity": "2",
-        "name": "Federation Jumpsuit",
-        "rarity": "Common",
-        "item_sub_type": "EquipmentBody",
-        "is_tradeable": true
-    },
-    {
-        "item_id": "286933032",
-        "item_design_id": "509",
-        "bonus_type": null,
-        "bonus_value": null,
-        "quantity": "2",
-        "name": "Skullcap",
-        "rarity": "Common",
-        "item_sub_type": "EquipmentHead",
         "is_tradeable": true
     }
 ]
