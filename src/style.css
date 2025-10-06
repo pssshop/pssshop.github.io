@@ -84,6 +84,14 @@ tr:nth-child(even) {
   border-left: 6px solid #B0B0B0 !important;
 }
 
+.search-highlight {
+  background: #b4d5fe;
+  color: #222;
+  border-radius: 0;
+  padding: 0 2px;
+  box-shadow: 0 0 0 1px #90caf9 inset;
+}
+
 @media (prefers-color-scheme: dark) {
     body {
         background: #111215;
@@ -130,6 +138,13 @@ tr:nth-child(even) {
     tr {
         border-color: #222;
     }
+
+    .search-highlight {
+        background: #2a4a6a;
+        color: #fff;
+        box-shadow: 0 0 0 1px #1976d2 inset;
+    }
+
 }
 
 /* Responsive table for mobile */

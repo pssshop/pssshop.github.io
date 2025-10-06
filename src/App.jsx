@@ -30,11 +30,14 @@ function App() {
     ];
 
     // Search filter
-    const filtered = inventory.filter(item =>
-      columns.some(key =>
-        String(item[key] ?? '').toLowerCase().includes(search.toLowerCase())
-      )
-    );
+    const filtered = inventory.filter(item => {
+      // For the 'bonus' column, search the combined string
+      const bonusString = item.bonus_type ? `${item.bonus_type} +${item.bonus_value}` : '';
+      return (
+        (item.name && item.name.toLowerCase().includes(search.toLowerCase())) ||
+        (bonusString && bonusString.toLowerCase().includes(search.toLowerCase()))
+      );
+    });
 
     // Sorting
     const sorted = [...filtered];
@@ -81,6 +84,18 @@ function App() {
       return 'rarity-' + rarity.toLowerCase();
     };
 
+    // Helper to highlight search text
+    const highlightText = (text) => {
+      if (!search) return text;
+      const regex = new RegExp(`(${search.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')})`, 'gi');
+      const parts = String(text).split(regex);
+      return parts.map((part, i) =>
+        regex.test(part)
+          ? <span key={i} className="search-highlight">{part}</span>
+          : part
+      );
+    };
+
     return (
       <div className="container">
         <h1>Inventory</h1>
@@ -89,6 +104,7 @@ function App() {
           placeholder="Search..."
           value={search}
           onChange={e => setSearch(e.target.value)}
+          autoFocus
           style={{ marginBottom: '1rem', width: '100%', padding: '0.5rem', fontSize: '1rem', boxSizing: 'border-box' }}
         />
         <div className="table-wrapper">
@@ -130,7 +146,7 @@ function App() {
                           data-bonus-type={item.bonus_type || ''}
                           data-bonus-value={item.bonus_value || ''}
                         >
-                          {item.bonus_type ? `${item.bonus_type} +${item.bonus_value}` : ''}
+                          {item.bonus_type ? highlightText(`${item.bonus_type} +${item.bonus_value}`) : ''}
                         </td>
                       );
                     }
@@ -143,11 +159,11 @@ function App() {
                               alt={item.name}
                               style={{ width: 24, height: 24, objectFit: 'contain', verticalAlign: 'middle', marginRight: 6 }}
                             />
-                            {`${item.name}${Number(item.quantity) > 1 ? ` x${item.quantity}` : ''}`}
+                            {highlightText(`${item.name}${Number(item.quantity) > 1 ? ` x${item.quantity}` : ''}`)}
                           </>
                         ) : key === 'item_sub_type' && typeof item[key] === 'string'
-                          ? item[key].replace(/^Equipment/, '').replace(/^\s+/, '')
-                          : item[key]}
+                          ? highlightText(item[key].replace(/^Equipment/, '').replace(/^\s+/, ''))
+                          : highlightText(item[key])}
                       </td>
                     );
                   })}
