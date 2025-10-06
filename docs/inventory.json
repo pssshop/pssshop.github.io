@@ -40,6 +40,16 @@
         "item_sprite_id": 19814
     },
     {
+        "item_design_id": "1718",
+        "bonus_type": "Pilot",
+        "bonus_value": "5.2",
+        "quantity": "1",
+        "name": "Hydrone 2.0",
+        "rarity": "Special",
+        "item_sub_type": "EquipmentAccessory",
+        "item_sprite_id": 19814
+    },
+    {
         "item_design_id": "1749",
         "bonus_type": "Ability",
         "bonus_value": "11.4",
