@@ -65,8 +65,14 @@ function App() {
     const handleSort = (key) => {
       setSortConfig((prev) => {
         if (prev.key === key) {
-          return { key, direction: prev.direction === 'asc' ? 'desc' : 'asc' };
+          if (prev.direction === 'asc') {
+            return { key, direction: 'desc' };
+          } else if (prev.direction === 'desc') {
+            // Third click: reset sorting
+            return { key: null, direction: 'asc' };
+          }
         }
+        // First click: sort ascending
         return { key, direction: 'asc' };
       });
     };
