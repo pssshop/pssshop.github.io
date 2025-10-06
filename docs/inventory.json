@@ -289,6 +289,15 @@
     },
     {
         "item_design_id": "1215",
+        "bonus_type": "FireResistance",
+        "bonus_value": "51.3",
+        "quantity": "1",
+        "name": "Extendo-Clamp Plus",
+        "rarity": "Hero",
+        "item_sub_type": "EquipmentWeapon"
+    },
+    {
+        "item_design_id": "1215",
         "bonus_type": "Weapon",
         "bonus_value": "6.4",
         "quantity": "1",
