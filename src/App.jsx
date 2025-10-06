@@ -7,7 +7,8 @@ function App() {
   const [search, setSearch] = useState('');
 
   useEffect(() => {
-    fetch('./docs/inventory.json')
+    const inventoryPath = import.meta.env.DEV ? './docs/inventory.json' : './inventory.json';
+    fetch(inventoryPath)
       .then((res) => {
         if (!res.ok) throw new Error('Failed to load inventory.json');
         return res.json();
