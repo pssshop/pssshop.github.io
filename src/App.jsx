@@ -7,7 +7,7 @@ function App() {
   const [search, setSearch] = useState('');
 
   useEffect(() => {
-    fetch('./inventory.json')
+    fetch('./docs/inventory.json')
       .then((res) => {
         if (!res.ok) throw new Error('Failed to load inventory.json');
         return res.json();
@@ -64,6 +64,15 @@ function App() {
         return { key, direction: 'asc' };
       });
     };
+    // Friendly labels for headers
+    const headerLabels = {
+      quantity: 'Qty',
+      name: 'Name',
+      bonus_type: 'Bonus',
+      bonus_value: 'Value',
+      rarity: 'Rarity',
+      item_sub_type: 'Type',
+    };
     return (
       <div className="container">
         <h1>Inventory</h1>
@@ -84,7 +93,7 @@ function App() {
                     onClick={() => handleSort(key)}
                     style={{ cursor: 'pointer', userSelect: 'none' }}
                   >
-                    {key}
+                    {headerLabels[key]}
                     {sortConfig.key === key ? (sortConfig.direction === 'asc' ? ' ▲' : ' ▼') : ''}
                   </th>
                 ))}
@@ -94,7 +103,11 @@ function App() {
               {sorted.map((item, idx) => (
                 <tr key={idx}>
                   {columns.map((key) => (
-                    <td key={key}>{item[key]}</td>
+                    <td key={key}>
+                      {key === 'item_sub_type' && typeof item[key] === 'string'
+                        ? item[key].replace(/^Equipment/, '').replace(/^\s+/, '')
+                        : item[key]}
+                    </td>
                   ))}
                 </tr>
               ))}
@@ -108,7 +121,7 @@ function App() {
   // If inventory is an object
   return (
     <div className="container">
-      <h1>Inventory</h1>
+      <h1>Items for Trade</h1>
       <pre>{JSON.stringify(inventory, null, 2)}</pre>
     </div>
   );
