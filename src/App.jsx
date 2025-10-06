@@ -63,19 +63,21 @@ function App() {
         return { key, direction: 'asc' };
       });
     };
+
     // Friendly labels for headers
-      const headerLabels = {
+    const headerLabels = {
         name: 'Name',
         bonus_type: 'Bonus',
         bonus_value: 'Value',
         item_sub_type: 'Type',
-      };
+    };
 
     // Helper to get rarity class
     const getRarityClass = (rarity) => {
       if (!rarity) return 'rarity-common';
       return 'rarity-' + rarity.toLowerCase();
     };
+
     return (
       <div className="container">
         <h1>Inventory</h1>
@@ -115,15 +117,22 @@ function App() {
                       window.open(`https://pixyship.com/item/${item.item_design_id}`, '_blank', 'noopener,noreferrer');
                     }
                   }}
-                  title={`View ${item.name} on Pixyship (Design ID)`}
+                  title={`View ${item.name} on Pixyship`}
                 >
                   {columns.map((key) => (
                     <td key={key}>
-                      {key === 'name'
-                        ? `${item.name}${Number(item.quantity) > 1 ? ` x${item.quantity}` : ''}`
-                        : key === 'item_sub_type' && typeof item[key] === 'string'
-                          ? item[key].replace(/^Equipment/, '').replace(/^\s+/, '')
-                          : item[key]}
+                      {key === 'name' ? (
+                        <>
+                          <img
+                            src={`https://api.pixelstarships.com/FileService/DownloadSprite?spriteId=${item.item_sprite_id}`}
+                            alt={item.name}
+                            style={{ width: 24, height: 24, objectFit: 'contain', verticalAlign: 'middle', marginRight: 6 }}
+                          />
+                          {`${item.name}${Number(item.quantity) > 1 ? ` x${item.quantity}` : ''}`}
+                        </>
+                      ) : key === 'item_sub_type' && typeof item[key] === 'string'
+                        ? item[key].replace(/^Equipment/, '').replace(/^\s+/, '')
+                        : item[key]}
                     </td>
                   ))}
                 </tr>
@@ -135,7 +144,6 @@ function App() {
     );
   }
 
-  // If inventory is an object
   return (
     <div className="container">
       <h1>Items for Trade</h1>
