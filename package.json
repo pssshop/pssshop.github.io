@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "vite",
-    "build": "vite build && cp inventory.json docs/inventory.json",
+    "build": "node scripts/clean-docs.js && vite build",
     "preview": "vite preview"
   },
   "dependencies": {
