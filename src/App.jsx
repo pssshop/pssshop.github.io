@@ -107,15 +107,24 @@ function App() {
                 <tr
                   key={idx}
                   className={getRarityClass(item.rarity)}
+                  style={{ cursor: 'pointer' }}
+                  onClick={() => window.open(`https://pixyship.com/item/${item.item_design_id}`, '_blank', 'noopener,noreferrer')}
+                  tabIndex={0}
+                  onKeyDown={e => {
+                    if (e.key === 'Enter' || e.key === ' ') {
+                      window.open(`https://pixyship.com/item/${item.item_design_id}`, '_blank', 'noopener,noreferrer');
+                    }
+                  }}
+                  title={`View ${item.name} on Pixyship (Design ID)`}
                 >
                   {columns.map((key) => (
-                      <td key={key}>
-                        {key === 'name'
-                          ? `${item.name}${Number(item.quantity) > 1 ? ` x${item.quantity}` : ''}`
-                          : key === 'item_sub_type' && typeof item[key] === 'string'
-                            ? item[key].replace(/^Equipment/, '').replace(/^\s+/, '')
-                            : item[key]}
-                      </td>
+                    <td key={key}>
+                      {key === 'name'
+                        ? `${item.name}${Number(item.quantity) > 1 ? ` x${item.quantity}` : ''}`
+                        : key === 'item_sub_type' && typeof item[key] === 'string'
+                          ? item[key].replace(/^Equipment/, '').replace(/^\s+/, '')
+                          : item[key]}
+                    </td>
                   ))}
                 </tr>
               ))}
