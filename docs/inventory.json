@@ -122,7 +122,7 @@
         "item_sprite_id": 10047
     },
     {
-        "item_id": "market-561612624",
+        "item_id": "290693468",
         "item_design_id": "514",
         "bonus_type": "Attack",
         "bonus_value": "0.4",
@@ -130,8 +130,7 @@
         "name": "Captain's Skullmet",
         "rarity": "Hero",
         "item_sub_type": "EquipmentHead",
-        "item_sprite_id": 10047,
-        "item_price": 2250
+        "item_sprite_id": 10047
     },
     {
         "item_id": "289332308",
@@ -457,17 +456,6 @@
         "item_design_id": "163",
         "bonus_type": "Hp",
         "bonus_value": "1",
-        "quantity": "1",
-        "name": "Golden Cai Dao",
-        "rarity": "Hero",
-        "item_sub_type": "EquipmentWeapon",
-        "item_sprite_id": 5007
-    },
-    {
-        "item_id": "2000230503",
-        "item_design_id": "163",
-        "bonus_type": "Pilot",
-        "bonus_value": "10.1",
         "quantity": "1",
         "name": "Golden Cai Dao",
         "rarity": "Hero",
@@ -892,17 +880,6 @@
         "rarity": "Hero",
         "item_sub_type": "EquipmentBody",
         "item_sprite_id": 14569
-    },
-    {
-        "item_id": "286627155",
-        "item_design_id": "675",
-        "bonus_type": "Pilot",
-        "bonus_value": "10.1",
-        "quantity": "1",
-        "name": "Prototype Stealth Hood",
-        "rarity": "Hero",
-        "item_sub_type": "EquipmentHead",
-        "item_sprite_id": 11922
     },
     {
         "item_id": "290608467",
