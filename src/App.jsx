@@ -283,11 +283,34 @@ function App() {
                     if (key === 'price') {
                       // Use item_price from inventory.json if present, else prices.json
                       let price = typeof item.item_price !== 'undefined' ? item.item_price : prices[item.item_id];
-                      if (price && !isNaN(Number(price))) {
-                        price = Number(price).toLocaleString();
+                      let priceNum = price && !isNaN(Number(price)) ? Number(price) : null;
+                      if (priceNum !== null) {
+                        price = priceNum.toLocaleString();
+                      }
+                      let estimate = typeof item.pixyship_estimate !== 'undefined' ? item.pixyship_estimate : null;
+                      let estimateNum = estimate && !isNaN(Number(estimate)) ? Number(estimate) : null;
+                      if (estimateNum !== null) {
+                        estimate = estimateNum.toLocaleString();
+                      }
+                      let color = '';
+                      if (priceNum !== null && estimateNum !== null) {
+                        // Use extremely subtle color shift, almost default
+                        if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+                          if (priceNum <= estimateNum) {
+                            color = '#e0ffe6'; // almost white
+                          } else {
+                            color = '#ffe0e0'; // almost white
+                          }
+                        } else {
+                          if (priceNum <= estimateNum) {
+                            color = '#222'; // default text color
+                          } else {
+                            color = '#222'; // default text color
+                          }
+                        }
                       }
                       return (
-                        <td key={key} className="price-col" style={{ textAlign: 'right' }}>
+                        <td key={key} className="price-col" style={{ textAlign: 'right', color: color || undefined }} title={estimate ? `Pixyship Estimate: ${estimate}` : undefined}>
                           {price ? highlightText(price) : ''}
                         </td>
                       );
