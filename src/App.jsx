@@ -88,7 +88,14 @@ function App() {
   const [hoveredRow, setHoveredRow] = useState(null);
   const [tooltipPos, setTooltipPos] = useState({ top: 0, left: 0 });
   const [tooltipVisible, setTooltipVisible] = useState(false);
-  const [theme, setTheme] = useState('auto');
+  const [theme, setTheme] = useState(() => {
+    // Try to restore theme from localStorage
+    try {
+      const saved = localStorage.getItem('pss_theme');
+      if (saved === 'dark' || saved === 'light' || saved === 'auto') return saved;
+    } catch {}
+    return 'auto';
+  });
   const rowRefs = useRef([]);
   const containerRef = useRef(null);
   const lastMousePos = useRef({ x: 0, y: 0 });
@@ -159,6 +166,10 @@ function App() {
   }, []);
 
   useEffect(() => {
+    // Save theme to localStorage
+    try {
+      localStorage.setItem('pss_theme', theme);
+    } catch {}
     if (theme === 'auto') {
       document.documentElement.removeAttribute('data-theme');
       // Use prefers-color-scheme for auto
