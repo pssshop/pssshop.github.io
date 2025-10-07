@@ -211,14 +211,27 @@ function App() {
       <div className="container" style={{ position: 'relative' }} ref={containerRef}>
         <h1>Inventory</h1>
         <p className="intro-text">Prices displayed are my initial asking prices based on market research from pixyship and may change over time. Fair offers are welcome and discount agreements could be reached for purchasing multiple items.</p>
-        <input
-          type="text"
-          placeholder="Search..."
-          value={search}
-          onChange={e => setSearch(e.target.value)}
-          autoFocus
-          style={{ marginBottom: '1rem', width: '100%', padding: '0.5rem', fontSize: '1rem', boxSizing: 'border-box' }}
-        />
+        <div style={{ position: 'relative', marginBottom: '1rem' }}>
+          <input
+            type="text"
+            placeholder="Search..."
+            value={search}
+            onChange={e => setSearch(e.target.value)}
+            autoFocus
+            style={{ width: '100%', padding: '0.5rem 2.2rem 0.5rem 0.5rem', fontSize: '1rem', boxSizing: 'border-box' }}
+          />
+          {search && (
+            <button
+              type="button"
+              onClick={() => setSearch('')}
+              aria-label="Clear search"
+              title="Clear search"
+              className="search-clear-btn"
+            >
+              &#10006;
+            </button>
+          )}
+        </div>
         <div className="table-wrapper">
           <table>
             <thead>
