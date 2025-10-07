@@ -428,7 +428,7 @@ function App() {
                             }
                           }
                           return (
-                            <td key={key} className="price-col" style={{ textAlign: 'right', color: showEstimateOnly ? '#888' : (ctrlPressed ? color : undefined), fontStyle: showEstimateOnly ? 'italic' : undefined }} title={ctrlPressed && estimate ? `Pixyship Estimate: ${estimate}` : undefined}>
+                            <td key={key} className="price-col" style={{ textAlign: 'right', color: showEstimateOnly ? '#888' : (ctrlPressed ? color : undefined), fontStyle: showEstimateOnly ? 'italic' : undefined }} title={estimate ? `Pixyship Estimate: ${estimate}` : undefined}>
                               {ctrlPressed
                                 ? (showEstimateOnly ? displayEstimate : displayPrice)
                                 : displayPrice}
