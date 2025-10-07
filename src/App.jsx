@@ -294,11 +294,6 @@ function App() {
     return (
       <>
         <ThemeToggle theme={theme} setTheme={setTheme} />
-        {adminView && (
-          <div style={{position:'fixed',top:10,right:10,zIndex:200,fontWeight:'bold',color:'#872b2b',background:'#fffbe6',border:'1px solid #872b2b',borderRadius:6,padding:'0.4em 1em',boxShadow:'0 2px 8px #0002'}}>
-            Admin
-          </div>
-        )}
         <div className="container" style={{ position: 'relative' }} ref={containerRef}>
           <h1>Inventory</h1>
           <p className="intro-text">Prices displayed are my initial asking prices based on market research from pixyship and may change over time. Fair offers are welcome and discount agreements could be reached for purchasing multiple items.</p>
