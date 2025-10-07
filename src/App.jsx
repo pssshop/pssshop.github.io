@@ -210,7 +210,7 @@ function App() {
     return (
       <div className="container" style={{ position: 'relative' }} ref={containerRef}>
         <h1>Inventory</h1>
-        <p class="intro-text">Prices displayed are my initial asking prices based on market research from pixyship and may change over time. Fair offers are welcome and discount agreements could be reached for purchasing multiple items.</p>
+        <p className="intro-text">Prices displayed are my initial asking prices based on market research from pixyship and may change over time. Fair offers are welcome and discount agreements could be reached for purchasing multiple items.</p>
         <input
           type="text"
           placeholder="Search..."
