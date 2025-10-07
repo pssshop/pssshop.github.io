@@ -89,17 +89,6 @@
         "item_sprite_id": 9983
     },
     {
-        "item_id": "273648919",
-        "item_design_id": "435",
-        "bonus_type": "Pilot",
-        "bonus_value": "4",
-        "quantity": "1",
-        "name": "Aldara",
-        "rarity": "Hero",
-        "item_sub_type": "EquipmentAccessory",
-        "item_sprite_id": 9983
-    },
-    {
         "item_id": "271588605",
         "item_design_id": "435",
         "bonus_type": "Repair",
@@ -486,17 +475,6 @@
         "item_sprite_id": 5007
     },
     {
-        "item_id": "286748943",
-        "item_design_id": "163",
-        "bonus_type": "Pilot",
-        "bonus_value": "9.4",
-        "quantity": "1",
-        "name": "Golden Cai Dao",
-        "rarity": "Hero",
-        "item_sub_type": "EquipmentWeapon",
-        "item_sprite_id": 5007
-    },
-    {
         "item_id": "288183819",
         "item_design_id": "163",
         "bonus_type": "Pilot",
@@ -523,17 +501,6 @@
         "item_design_id": "163",
         "bonus_type": "Weapon",
         "bonus_value": "6.1",
-        "quantity": "1",
-        "name": "Golden Cai Dao",
-        "rarity": "Hero",
-        "item_sub_type": "EquipmentWeapon",
-        "item_sprite_id": 5007
-    },
-    {
-        "item_id": "284707234",
-        "item_design_id": "163",
-        "bonus_type": "Weapon",
-        "bonus_value": "5.9",
         "quantity": "1",
         "name": "Golden Cai Dao",
         "rarity": "Hero",
@@ -1070,17 +1037,6 @@
         "item_sprite_id": 13939
     },
     {
-        "item_id": "282963556",
-        "item_design_id": "933",
-        "bonus_type": "Hp",
-        "bonus_value": "1",
-        "quantity": "1",
-        "name": "Red Marksman Jacket",
-        "rarity": "Hero",
-        "item_sub_type": "EquipmentBody",
-        "item_sprite_id": 13939
-    },
-    {
         "item_id": "289376912",
         "item_design_id": "933",
         "bonus_type": "Hp",
@@ -1255,17 +1211,6 @@
         "rarity": "Hero",
         "item_sub_type": "EquipmentBody",
         "item_sprite_id": 3757
-    },
-    {
-        "item_id": "278754437",
-        "item_design_id": "790",
-        "bonus_type": "Weapon",
-        "bonus_value": "3.3",
-        "quantity": "1",
-        "name": "Visiri Gunner Helm Alpha",
-        "rarity": "Hero",
-        "item_sub_type": "EquipmentHead",
-        "item_sprite_id": 12777
     },
     {
         "item_id": "286032720",
