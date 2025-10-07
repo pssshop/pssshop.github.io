@@ -244,13 +244,13 @@ function App() {
                   style={{ cursor: 'pointer' }}
                   onClick={e => {
                     if (!ctrlPressed) {
-                      window.open(`https://pixyship.com/item/${item.item_design_id}`, '_blank', 'noopener,noreferrer');
+                      window.open(`https://pixyship.com/item/${item.item_design_id}?activeTab=tab-players-sales`, '_blank', 'noopener,noreferrer');
                     }
                   }}
                   tabIndex={0}
                   onKeyDown={e => {
                     if (e.key === 'Enter' || e.key === ' ') {
-                      window.open(`https://pixyship.com/item/${item.item_design_id}`, '_blank', 'noopener,noreferrer');
+                      window.open(`https://pixyship.com/item/${item.item_design_id}?activeTab=tab-players-sales`, '_blank', 'noopener,noreferrer');
                     }
                   }}
                   onMouseEnter={() => {
