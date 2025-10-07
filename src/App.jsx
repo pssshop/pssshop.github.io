@@ -2,12 +2,14 @@ import React, { useEffect, useState } from 'react';
 
 function App() {
   const [inventory, setInventory] = useState(null);
+  const [prices, setPrices] = useState(null);
   const [error, setError] = useState(null);
   const [sortConfig, setSortConfig] = useState({ key: null, direction: 'asc' });
   const [search, setSearch] = useState('');
 
   useEffect(() => {
     const inventoryPath = import.meta.env.DEV ? './docs/inventory.json' : './inventory.json';
+
     fetch(inventoryPath)
       .then((res) => {
         if (!res.ok) throw new Error('Failed to load inventory.json');
@@ -15,10 +17,19 @@ function App() {
       })
       .then(setInventory)
       .catch(setError);
-  }, []);
+
+    const pricesPath = import.meta.env.DEV ? './docs/prices.json' : './prices.json';
+    fetch(pricesPath)
+      .then((res) => {
+        if (!res.ok) throw new Error('Failed to load prices.json');
+        return res.json();
+      })
+      .then(setPrices)
+      .catch(setError);
+  });
 
   if (error) return <div style={{color: 'red'}}>Error: {error.message}</div>;
-  if (!inventory) return <div>Loading...</div>;
+  if (!inventory || !prices) return <div>Loading...</div>;
 
   // If inventory is an array of items
   if (Array.isArray(inventory)) {
@@ -26,7 +37,8 @@ function App() {
     const columns = [
       "name",
       "bonus",
-      "item_sub_type"
+      "item_sub_type",
+      "price"
     ];
 
     // Search filter
@@ -82,6 +94,7 @@ function App() {
       name: 'Name',
       bonus: 'Bonus',
       item_sub_type: 'Type',
+      price: 'Price',
     };
 
     // Helper to get rarity class
@@ -153,6 +166,14 @@ function App() {
                           data-bonus-value={item.bonus_value || ''}
                         >
                           {item.bonus_type ? highlightText(`${item.bonus_type} +${item.bonus_value}`) : ''}
+                        </td>
+                      );
+                    }
+                    if (key === 'price') {
+                      const price = prices[item.item_id];
+                      return (
+                        <td key={key}>
+                          {price ? highlightText(price) : ''}
                         </td>
                       );
                     }

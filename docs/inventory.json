@@ -30,7 +30,8 @@
         "name": "Hydrone 2.0",
         "rarity": "Special",
         "item_sub_type": "EquipmentAccessory",
-        "item_sprite_id": 19814
+        "item_sprite_id": 19814,
+        "item_price": 16500
     },
     {
         "item_id": "283574253",
@@ -129,7 +130,8 @@
         "name": "Captain's Skullmet",
         "rarity": "Hero",
         "item_sub_type": "EquipmentHead",
-        "item_sprite_id": 10047
+        "item_sprite_id": 10047,
+        "item_price": 2250
     },
     {
         "item_id": "289332308",
@@ -734,7 +736,8 @@
         "name": "Overhauled Armor",
         "rarity": "Hero",
         "item_sub_type": "EquipmentBody",
-        "item_sprite_id": 15251
+        "item_sprite_id": 15251,
+        "item_price": 2000
     },
     {
         "item_id": "290446371",
