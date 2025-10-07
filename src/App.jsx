@@ -297,14 +297,13 @@ function App() {
         <div className="container" style={{ position: 'relative' }} ref={containerRef}>
           <h1>Inventory</h1>
           <p className="intro-text">Prices displayed are my initial asking prices based on market research from pixyship and may change over time. Fair offers are welcome and discount agreements could be reached for purchasing multiple items.</p>
-          <div style={{ position: 'relative', marginBottom: '1rem' }}>
+          <div className="search-box">
             <input
               type="text"
               placeholder="Search..."
               value={search}
               onChange={e => setSearch(e.target.value)}
               autoFocus
-              style={{ width: '100%', padding: '0.5rem 2.2rem 0.5rem 0.5rem', fontSize: '1rem', boxSizing: 'border-box' }}
             />
             {search && (
               <button
