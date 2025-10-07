@@ -79,7 +79,7 @@ function ThemeToggle({ theme, setTheme }) {
 }
 
 function App() {
-  const [ctrlPressed, setCtrlPressed] = useState(false);
+  const [adminView, setAdminView] = useState(false);
   const [inventory, setInventory] = useState(null);
   const [prices, setPrices] = useState(null);
   const [error, setError] = useState(null);
@@ -100,18 +100,23 @@ function App() {
   const containerRef = useRef(null);
   const lastMousePos = useRef({ x: 0, y: 0 });
 
+
   useEffect(() => {
-    // Fix: Use e.getModifierState('Control') for reliable Ctrl detection
+    // F1 toggles admin view, Escape clears search and tooltip
     const handleKeyDown = (e) => {
-      const ctrl = e.getModifierState && e.getModifierState('Control') || e.key === 'Control';
-      setCtrlPressed(ctrl);
+      if (e.key === 'F1' && !e.repeat) {
+        e.preventDefault();
+        console.log(`Toggling admin view to ${!adminView}`);
+        setAdminView((prev) => !prev);
+      }
 
       if (e.key === 'Escape') {
         setTooltipVisible(false);
         setSearch('');
       }
 
-      if (ctrl && hoveredRow !== null) {
+      // Tooltip logic (only in admin view)
+      if (adminView && hoveredRow !== null) {
         const rowEl = rowRefs.current[hoveredRow];
         if (rowEl) {
           const rect = rowEl.getBoundingClientRect();
@@ -119,10 +124,6 @@ function App() {
           setTooltipPos({ top: rect.top + rect.height / 2, left: rect.left + rect.width / 2 });
         }
       }
-    };
-
-    const handleKeyUp = (e) => {
-      setCtrlPressed(false);
     };
 
     const handleClick = (e) => {
@@ -133,19 +134,13 @@ function App() {
     };
 
     document.addEventListener('keydown', handleKeyDown);
-    document.addEventListener('keyup', handleKeyUp);
-    window.addEventListener('keydown', handleKeyDown);
-    window.addEventListener('keyup', handleKeyUp);
     window.addEventListener('mousedown', handleClick);
 
     return () => {
       document.removeEventListener('keydown', handleKeyDown);
-      document.removeEventListener('keyup', handleKeyUp);
-      window.removeEventListener('keydown', handleKeyDown);
-      window.removeEventListener('keyup', handleKeyUp);
       window.removeEventListener('mousedown', handleClick);
     };
-  }, [hoveredRow, tooltipVisible]);
+  }, [hoveredRow, tooltipVisible, adminView]);
 
   useEffect(() => {
     const inventoryPath = import.meta.env.DEV ? './docs/inventory.json' : './inventory.json';
@@ -299,6 +294,11 @@ function App() {
     return (
       <>
         <ThemeToggle theme={theme} setTheme={setTheme} />
+        {adminView && (
+          <div style={{position:'fixed',top:10,right:10,zIndex:200,fontWeight:'bold',color:'#872b2b',background:'#fffbe6',border:'1px solid #872b2b',borderRadius:6,padding:'0.4em 1em',boxShadow:'0 2px 8px #0002'}}>
+            Admin View Active
+          </div>
+        )}
         <div className="container" style={{ position: 'relative' }} ref={containerRef}>
           <h1>Inventory</h1>
           <p className="intro-text">Prices displayed are my initial asking prices based on market research from pixyship and may change over time. Fair offers are welcome and discount agreements could be reached for purchasing multiple items.</p>
@@ -347,9 +347,7 @@ function App() {
                     className={getRarityClass(item.rarity)}
                     style={{ cursor: 'pointer' }}
                     onClick={e => {
-                      if (!ctrlPressed) {
                         window.open(`https://pixyship.com/item/${item.item_design_id}?activeTab=tab-players-sales`, '_blank', 'noopener,noreferrer');
-                      }
                     }}
                     tabIndex={0}
                     onKeyDown={e => {
@@ -359,7 +357,7 @@ function App() {
                     }}
                     onMouseEnter={() => {
                       setHoveredRow(idx);
-                      if (ctrlPressed) {
+                      if (adminView) {
                         const rowEl = rowRefs.current[idx];
                         if (rowEl) {
                           const rect = rowEl.getBoundingClientRect();
@@ -398,14 +396,19 @@ function App() {
                           }
                           let color = '';
                           let showEstimateOnly = priceNum === null && estimateNum !== null;
-                          // Only show Pixyship price and color when Ctrl is held
+                          // Only show Pixyship price and color in admin view
                           let displayPrice = '';
                           let displayEstimate = '';
-                          if (ctrlPressed) {
+                          let percentDiff = null;
+                          if (adminView) {
                             if (showEstimateOnly && estimateNum !== null) {
                               displayEstimate = highlightText(estimate);
                             } else if (price) {
                               displayPrice = highlightText(price);
+                            }
+                            // Show % difference if both prices exist
+                            if (!showEstimateOnly && priceNum !== null && estimateNum !== null) {
+                              percentDiff = ((priceNum - estimateNum) / estimateNum * 100).toFixed(1);
                             }
                           } else {
                             // Only show user's price if present and not showing estimate only
@@ -413,27 +416,33 @@ function App() {
                               displayPrice = highlightText(price);
                             }
                           }
-                          // Only show Pixyship price color when Ctrl is held
-                          if (ctrlPressed && !showEstimateOnly && priceNum !== null && estimateNum !== null) {
+                          // Only show Pixyship price color in admin view
+                          if (adminView && !showEstimateOnly && priceNum !== null && estimateNum !== null) {
                             let currentTheme = theme;
-                            if (currentTheme === 'dark' || currentTheme === 'auto' && window.matchMedia('(prefers-color-scheme: dark)').matches) {
-                              if (priceNum <= estimateNum) {
-                                color = '#318741ff'; // almost white
-                              } else {
-                                color = '#872b2bff'; // almost white
-                              }
+                            if (currentTheme === 'dark' || (currentTheme === 'auto' && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+                              color = priceNum <= estimateNum ? '#318741ff' : '#872b2bff';
                             } else {
-                              if (priceNum <= estimateNum) {
-                                color = '#2c4a00ff'; // default text color
-                              } else {
-                                color = '#330000ff'; // default text color
-                              }
+                              color = priceNum <= estimateNum ? '#2c4a00ff' : '#330000ff';
                             }
                           }
                           return (
-                            <td key={key} className="price-col" style={{ textAlign: 'right', color: showEstimateOnly ? '#888' : (ctrlPressed ? color : undefined), fontStyle: showEstimateOnly ? 'italic' : undefined }} title={estimate ? `Pixyship Estimate: ${estimate}` : undefined}>
-                              {ctrlPressed
-                                ? (showEstimateOnly ? displayEstimate : displayPrice)
+                            <td key={key} className="price-col" style={{ textAlign: 'right', color: showEstimateOnly ? '#888' : (adminView ? color : undefined), fontStyle: showEstimateOnly ? 'italic' : undefined }} title={estimate ? `Pixyship Estimate: ${estimate}` : undefined}>
+                              {adminView
+                                ? (
+                                  <>
+                                    {showEstimateOnly ? displayEstimate : displayPrice}
+                                    {percentDiff !== null && (
+                                      <span style={{
+                                        marginLeft: 8,
+                                        fontSize: '0.95em',
+                                        color: percentDiff < 0 ? '#318741ff' : '#872b2bff',
+                                        fontWeight: 'bold'
+                                      }}>
+                                        ({percentDiff > 0 ? '+' : ''}{percentDiff}%)
+                                      </span>
+                                    )}
+                                  </>
+                                )
                                 : displayPrice}
                             </td>
                           );
@@ -478,7 +487,7 @@ function App() {
 
   return (
     <div className="container">
-      <h1>Items for Trade</h1>
+      <h1>Inventory</h1>
       <pre>{JSON.stringify(inventory, null, 2)}</pre>
     </div>
   );
