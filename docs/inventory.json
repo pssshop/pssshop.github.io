@@ -1,5 +1,6 @@
 [
     {
+        "item_id": "290509714",
         "item_design_id": "1718",
         "bonus_type": "Ability",
         "bonus_value": "9.2",
@@ -10,6 +11,7 @@
         "item_sprite_id": 19814
     },
     {
+        "item_id": "290209620",
         "item_design_id": "1718",
         "bonus_type": "Engine",
         "bonus_value": "8.3",
@@ -20,6 +22,7 @@
         "item_sprite_id": 19814
     },
     {
+        "item_id": "market-561643628",
         "item_design_id": "1718",
         "bonus_type": "FireResistance",
         "bonus_value": "59.4",
@@ -30,6 +33,7 @@
         "item_sprite_id": 19814
     },
     {
+        "item_id": "283574253",
         "item_design_id": "1718",
         "bonus_type": "Hp",
         "bonus_value": "2",
@@ -40,6 +44,7 @@
         "item_sprite_id": 19814
     },
     {
+        "item_id": "290673718",
         "item_design_id": "1718",
         "bonus_type": "Pilot",
         "bonus_value": "5.2",
@@ -50,6 +55,7 @@
         "item_sprite_id": 19814
     },
     {
+        "item_id": "290352920",
         "item_design_id": "1749",
         "bonus_type": "Ability",
         "bonus_value": "11.4",
@@ -60,6 +66,7 @@
         "item_sprite_id": 20082
     },
     {
+        "item_id": "290608906",
         "item_design_id": "1749",
         "bonus_type": "Pilot",
         "bonus_value": "9.7",
@@ -70,6 +77,7 @@
         "item_sprite_id": 20082
     },
     {
+        "item_id": "290215817",
         "item_design_id": "435",
         "bonus_type": "Hp",
         "bonus_value": "2",
@@ -80,6 +88,7 @@
         "item_sprite_id": 9983
     },
     {
+        "item_id": "271588605",
         "item_design_id": "435",
         "bonus_type": "Repair",
         "bonus_value": "0.5",
@@ -90,6 +99,7 @@
         "item_sprite_id": 9983
     },
     {
+        "item_id": "287828556",
         "item_design_id": "435",
         "bonus_type": "Stamina",
         "bonus_value": "20",
@@ -100,6 +110,7 @@
         "item_sprite_id": 9983
     },
     {
+        "item_id": "289472191",
         "item_design_id": "514",
         "bonus_type": "Ability",
         "bonus_value": "14",
@@ -110,6 +121,7 @@
         "item_sprite_id": 10047
     },
     {
+        "item_id": "market-561612624",
         "item_design_id": "514",
         "bonus_type": "Attack",
         "bonus_value": "0.4",
@@ -120,6 +132,7 @@
         "item_sprite_id": 10047
     },
     {
+        "item_id": "289332308",
         "item_design_id": "514",
         "bonus_type": "FireResistance",
         "bonus_value": "53.3",
@@ -130,6 +143,7 @@
         "item_sprite_id": 10047
     },
     {
+        "item_id": "288342758",
         "item_design_id": "514",
         "bonus_type": "FireResistance",
         "bonus_value": "45.2",
@@ -140,6 +154,7 @@
         "item_sprite_id": 10047
     },
     {
+        "item_id": "290433552",
         "item_design_id": "514",
         "bonus_type": "FireResistance",
         "bonus_value": "29.2",
@@ -150,6 +165,7 @@
         "item_sprite_id": 10047
     },
     {
+        "item_id": "290520325",
         "item_design_id": "514",
         "bonus_type": "Hp",
         "bonus_value": "2",
@@ -160,6 +176,7 @@
         "item_sprite_id": 10047
     },
     {
+        "item_id": "288744293",
         "item_design_id": "514",
         "bonus_type": "Pilot",
         "bonus_value": "9.3",
@@ -170,6 +187,7 @@
         "item_sprite_id": 10047
     },
     {
+        "item_id": "289563179",
         "item_design_id": "514",
         "bonus_type": "Repair",
         "bonus_value": "0.4",
@@ -180,6 +198,7 @@
         "item_sprite_id": 10047
     },
     {
+        "item_id": "290082973",
         "item_design_id": "514",
         "bonus_type": "Stamina",
         "bonus_value": "16",
@@ -190,6 +209,7 @@
         "item_sprite_id": 10047
     },
     {
+        "item_id": "289327747",
         "item_design_id": "258",
         "bonus_type": "Ability",
         "bonus_value": "15.6",
@@ -200,6 +220,7 @@
         "item_sprite_id": 7615
     },
     {
+        "item_id": "288569706",
         "item_design_id": "258",
         "bonus_type": "Ability",
         "bonus_value": "13.4",
@@ -210,6 +231,7 @@
         "item_sprite_id": 7615
     },
     {
+        "item_id": "289867481",
         "item_design_id": "796",
         "bonus_type": "Pilot",
         "bonus_value": "7.5",
@@ -220,6 +242,7 @@
         "item_sprite_id": 12566
     },
     {
+        "item_id": "287922972",
         "item_design_id": "169",
         "bonus_type": "Ability",
         "bonus_value": "6.6",
@@ -230,6 +253,7 @@
         "item_sprite_id": 4819
     },
     {
+        "item_id": "287830605",
         "item_design_id": "169",
         "bonus_type": "Attack",
         "bonus_value": "0.3",
@@ -240,6 +264,7 @@
         "item_sprite_id": 4819
     },
     {
+        "item_id": "290106780",
         "item_design_id": "169",
         "bonus_type": "FireResistance",
         "bonus_value": "35.9",
@@ -250,6 +275,7 @@
         "item_sprite_id": 4819
     },
     {
+        "item_id": "288106577",
         "item_design_id": "169",
         "bonus_type": "Pilot",
         "bonus_value": "6.6",
@@ -260,6 +286,7 @@
         "item_sprite_id": 4819
     },
     {
+        "item_id": "290080183",
         "item_design_id": "169",
         "bonus_type": "Pilot",
         "bonus_value": "5.4",
@@ -270,6 +297,7 @@
         "item_sprite_id": 4819
     },
     {
+        "item_id": "288813337",
         "item_design_id": "169",
         "bonus_type": "Pilot",
         "bonus_value": "5.3",
@@ -280,6 +308,7 @@
         "item_sprite_id": 4819
     },
     {
+        "item_id": "288101803",
         "item_design_id": "169",
         "bonus_type": "Repair",
         "bonus_value": "0.4",
@@ -290,6 +319,7 @@
         "item_sprite_id": 4819
     },
     {
+        "item_id": "288890363",
         "item_design_id": "169",
         "bonus_type": "Science",
         "bonus_value": "8",
@@ -300,6 +330,7 @@
         "item_sprite_id": 4819
     },
     {
+        "item_id": "290422374",
         "item_design_id": "246",
         "bonus_type": "Science",
         "bonus_value": "5.5",
@@ -310,6 +341,7 @@
         "item_sprite_id": 7432
     },
     {
+        "item_id": "286411269",
         "item_design_id": "1215",
         "bonus_type": "Attack",
         "bonus_value": "0.3",
@@ -320,6 +352,7 @@
         "item_sprite_id": 16605
     },
     {
+        "item_id": "278156341",
         "item_design_id": "1215",
         "bonus_type": "Engine",
         "bonus_value": "4.3",
@@ -330,6 +363,7 @@
         "item_sprite_id": 16605
     },
     {
+        "item_id": "290628339",
         "item_design_id": "1215",
         "bonus_type": "FireResistance",
         "bonus_value": "51.3",
@@ -340,6 +374,7 @@
         "item_sprite_id": 16605
     },
     {
+        "item_id": "290617031",
         "item_design_id": "1215",
         "bonus_type": "Weapon",
         "bonus_value": "6.4",
@@ -350,6 +385,7 @@
         "item_sprite_id": 16605
     },
     {
+        "item_id": "286410130",
         "item_design_id": "163",
         "bonus_type": "Ability",
         "bonus_value": "13.3",
@@ -360,6 +396,7 @@
         "item_sprite_id": 5007
     },
     {
+        "item_id": "289558630",
         "item_design_id": "163",
         "bonus_type": "Ability",
         "bonus_value": "10.1",
@@ -370,6 +407,7 @@
         "item_sprite_id": 5007
     },
     {
+        "item_id": "288903652",
         "item_design_id": "163",
         "bonus_type": "Attack",
         "bonus_value": "0.3",
@@ -380,6 +418,7 @@
         "item_sprite_id": 5007
     },
     {
+        "item_id": "286196812",
         "item_design_id": "163",
         "bonus_type": "Attack",
         "bonus_value": "0.2",
@@ -390,6 +429,7 @@
         "item_sprite_id": 5007
     },
     {
+        "item_id": "289965509",
         "item_design_id": "163",
         "bonus_type": "FireResistance",
         "bonus_value": "52.9",
@@ -400,6 +440,7 @@
         "item_sprite_id": 5007
     },
     {
+        "item_id": "290085700",
         "item_design_id": "163",
         "bonus_type": "Hp",
         "bonus_value": "2",
@@ -410,6 +451,7 @@
         "item_sprite_id": 5007
     },
     {
+        "item_id": "289992880",
         "item_design_id": "163",
         "bonus_type": "Hp",
         "bonus_value": "1",
@@ -420,6 +462,7 @@
         "item_sprite_id": 5007
     },
     {
+        "item_id": "2000230503",
         "item_design_id": "163",
         "bonus_type": "Pilot",
         "bonus_value": "10.1",
@@ -430,6 +473,7 @@
         "item_sprite_id": 5007
     },
     {
+        "item_id": "288183819",
         "item_design_id": "163",
         "bonus_type": "Pilot",
         "bonus_value": "8.9",
@@ -440,6 +484,7 @@
         "item_sprite_id": 5007
     },
     {
+        "item_id": "287451396",
         "item_design_id": "163",
         "bonus_type": "Pilot",
         "bonus_value": "8",
@@ -450,6 +495,7 @@
         "item_sprite_id": 5007
     },
     {
+        "item_id": "290512075",
         "item_design_id": "163",
         "bonus_type": "Weapon",
         "bonus_value": "6.1",
@@ -460,6 +506,7 @@
         "item_sprite_id": 5007
     },
     {
+        "item_id": "289215025",
         "item_design_id": "163",
         "bonus_type": "Weapon",
         "bonus_value": "5.3",
@@ -470,6 +517,7 @@
         "item_sprite_id": 5007
     },
     {
+        "item_id": "289558507",
         "item_design_id": "1493",
         "bonus_type": "Engine",
         "bonus_value": "4.3",
@@ -480,6 +528,7 @@
         "item_sprite_id": 11219
     },
     {
+        "item_id": "288704781",
         "item_design_id": "1493",
         "bonus_type": "Pilot",
         "bonus_value": "6.8",
@@ -490,6 +539,7 @@
         "item_sprite_id": 11219
     },
     {
+        "item_id": "289327745",
         "item_design_id": "1493",
         "bonus_type": "Pilot",
         "bonus_value": "6.6",
@@ -500,6 +550,7 @@
         "item_sprite_id": 11219
     },
     {
+        "item_id": "285289779",
         "item_design_id": "1493",
         "bonus_type": "Science",
         "bonus_value": "5.7",
@@ -510,6 +561,7 @@
         "item_sprite_id": 11219
     },
     {
+        "item_id": "289561948",
         "item_design_id": "1493",
         "bonus_type": "Stamina",
         "bonus_value": "21",
@@ -520,6 +572,7 @@
         "item_sprite_id": 11219
     },
     {
+        "item_id": "282759250",
         "item_design_id": "678",
         "bonus_type": "Pilot",
         "bonus_value": "8.6",
@@ -530,6 +583,7 @@
         "item_sprite_id": 12025
     },
     {
+        "item_id": "288979293",
         "item_design_id": "678",
         "bonus_type": "Pilot",
         "bonus_value": "4.9",
@@ -540,6 +594,7 @@
         "item_sprite_id": 12025
     },
     {
+        "item_id": "282655372",
         "item_design_id": "678",
         "bonus_type": "Science",
         "bonus_value": "6.6",
@@ -550,6 +605,7 @@
         "item_sprite_id": 12025
     },
     {
+        "item_id": "290609882",
         "item_design_id": "727",
         "bonus_type": "Ability",
         "bonus_value": "12.4",
@@ -560,6 +616,7 @@
         "item_sprite_id": 12544
     },
     {
+        "item_id": "289463276",
         "item_design_id": "727",
         "bonus_type": "Hp",
         "bonus_value": "1",
@@ -570,6 +627,7 @@
         "item_sprite_id": 12544
     },
     {
+        "item_id": "290660308",
         "item_design_id": "727",
         "bonus_type": "Pilot",
         "bonus_value": "6.6",
@@ -580,6 +638,7 @@
         "item_sprite_id": 12544
     },
     {
+        "item_id": "289460206",
         "item_design_id": "727",
         "bonus_type": "Pilot",
         "bonus_value": "5.4",
@@ -590,6 +649,7 @@
         "item_sprite_id": 12544
     },
     {
+        "item_id": "282069553",
         "item_design_id": "727",
         "bonus_type": "Science",
         "bonus_value": "3.8",
@@ -600,6 +660,7 @@
         "item_sprite_id": 12544
     },
     {
+        "item_id": "288786514",
         "item_design_id": "727",
         "bonus_type": "Stamina",
         "bonus_value": "21",
@@ -610,6 +671,7 @@
         "item_sprite_id": 12544
     },
     {
+        "item_id": "290080938",
         "item_design_id": "1706",
         "bonus_type": "Engine",
         "bonus_value": "7.1",
@@ -620,6 +682,7 @@
         "item_sprite_id": 19675
     },
     {
+        "item_id": "290292320",
         "item_design_id": "1707",
         "bonus_type": "Ability",
         "bonus_value": "14.5",
@@ -630,6 +693,7 @@
         "item_sprite_id": 19677
     },
     {
+        "item_id": "289219708",
         "item_design_id": "1177",
         "bonus_type": "FireResistance",
         "bonus_value": "59.7",
@@ -640,6 +704,7 @@
         "item_sprite_id": 16441
     },
     {
+        "item_id": "283080486",
         "item_design_id": "1177",
         "bonus_type": "Hp",
         "bonus_value": "2",
@@ -650,6 +715,7 @@
         "item_sprite_id": 16441
     },
     {
+        "item_id": "278957068",
         "item_design_id": "1177",
         "bonus_type": "Stamina",
         "bonus_value": "20",
@@ -660,6 +726,7 @@
         "item_sprite_id": 16441
     },
     {
+        "item_id": "market-561608405",
         "item_design_id": "1001",
         "bonus_type": "Ability",
         "bonus_value": "14",
@@ -670,6 +737,7 @@
         "item_sprite_id": 15251
     },
     {
+        "item_id": "290446371",
         "item_design_id": "1000",
         "bonus_type": "Ability",
         "bonus_value": "11.6",
@@ -680,6 +748,7 @@
         "item_sprite_id": 15249
     },
     {
+        "item_id": "290616635",
         "item_design_id": "1010",
         "bonus_type": "Science",
         "bonus_value": "9.1",
@@ -690,6 +759,7 @@
         "item_sprite_id": 15253
     },
     {
+        "item_id": "287610996",
         "item_design_id": "960",
         "bonus_type": "Ability",
         "bonus_value": "13.3",
@@ -700,6 +770,7 @@
         "item_sprite_id": 14738
     },
     {
+        "item_id": "281659702",
         "item_design_id": "960",
         "bonus_type": "Hp",
         "bonus_value": "1",
@@ -710,6 +781,7 @@
         "item_sprite_id": 14738
     },
     {
+        "item_id": "283790200",
         "item_design_id": "960",
         "bonus_type": "Hp",
         "bonus_value": "1",
@@ -720,6 +792,7 @@
         "item_sprite_id": 14738
     },
     {
+        "item_id": "287583956",
         "item_design_id": "960",
         "bonus_type": "Hp",
         "bonus_value": "1",
@@ -730,6 +803,7 @@
         "item_sprite_id": 14738
     },
     {
+        "item_id": "290610208",
         "item_design_id": "960",
         "bonus_type": "Pilot",
         "bonus_value": "6.5",
@@ -740,6 +814,7 @@
         "item_sprite_id": 14738
     },
     {
+        "item_id": "290289550",
         "item_design_id": "960",
         "bonus_type": "Science",
         "bonus_value": "5.6",
@@ -750,6 +825,7 @@
         "item_sprite_id": 14738
     },
     {
+        "item_id": "290482749",
         "item_design_id": "952",
         "bonus_type": "Ability",
         "bonus_value": "14.9",
@@ -760,6 +836,7 @@
         "item_sprite_id": 14565
     },
     {
+        "item_id": "290658424",
         "item_design_id": "952",
         "bonus_type": "FireResistance",
         "bonus_value": "60.9",
@@ -770,6 +847,7 @@
         "item_sprite_id": 14565
     },
     {
+        "item_id": "290655301",
         "item_design_id": "954",
         "bonus_type": "Ability",
         "bonus_value": "15.7",
@@ -780,6 +858,7 @@
         "item_sprite_id": 14569
     },
     {
+        "item_id": "288601419",
         "item_design_id": "954",
         "bonus_type": "Attack",
         "bonus_value": "0.5",
@@ -790,6 +869,7 @@
         "item_sprite_id": 14569
     },
     {
+        "item_id": "280463342",
         "item_design_id": "954",
         "bonus_type": "Hp",
         "bonus_value": "2",
@@ -800,6 +880,7 @@
         "item_sprite_id": 14569
     },
     {
+        "item_id": "290520327",
         "item_design_id": "954",
         "bonus_type": "Hp",
         "bonus_value": "1",
@@ -810,6 +891,7 @@
         "item_sprite_id": 14569
     },
     {
+        "item_id": "286627155",
         "item_design_id": "675",
         "bonus_type": "Pilot",
         "bonus_value": "10.1",
@@ -820,6 +902,7 @@
         "item_sprite_id": 11922
     },
     {
+        "item_id": "290608467",
         "item_design_id": "675",
         "bonus_type": "Pilot",
         "bonus_value": "10",
@@ -830,6 +913,7 @@
         "item_sprite_id": 11922
     },
     {
+        "item_id": "290107717",
         "item_design_id": "675",
         "bonus_type": "Pilot",
         "bonus_value": "7.9",
@@ -840,6 +924,7 @@
         "item_sprite_id": 11922
     },
     {
+        "item_id": "290399347",
         "item_design_id": "676",
         "bonus_type": "Hp",
         "bonus_value": "2",
@@ -850,6 +935,7 @@
         "item_sprite_id": 11926
     },
     {
+        "item_id": "287703268",
         "item_design_id": "676",
         "bonus_type": "Pilot",
         "bonus_value": "4.9",
@@ -860,6 +946,7 @@
         "item_sprite_id": 11926
     },
     {
+        "item_id": "287774547",
         "item_design_id": "676",
         "bonus_type": "Repair",
         "bonus_value": "0.3",
@@ -870,6 +957,7 @@
         "item_sprite_id": 11926
     },
     {
+        "item_id": "275223227",
         "item_design_id": "490",
         "bonus_type": "FireResistance",
         "bonus_value": "37.9",
@@ -880,6 +968,7 @@
         "item_sprite_id": 10288
     },
     {
+        "item_id": "278518325",
         "item_design_id": "490",
         "bonus_type": "Hp",
         "bonus_value": "1",
@@ -890,6 +979,7 @@
         "item_sprite_id": 10288
     },
     {
+        "item_id": "283265580",
         "item_design_id": "490",
         "bonus_type": "Stamina",
         "bonus_value": "19",
@@ -900,6 +990,7 @@
         "item_sprite_id": 10288
     },
     {
+        "item_id": "290215812",
         "item_design_id": "933",
         "bonus_type": "Ability",
         "bonus_value": "14.4",
@@ -910,6 +1001,7 @@
         "item_sprite_id": 13939
     },
     {
+        "item_id": "286413410",
         "item_design_id": "933",
         "bonus_type": "Attack",
         "bonus_value": "0.3",
@@ -920,6 +1012,7 @@
         "item_sprite_id": 13939
     },
     {
+        "item_id": "290080423",
         "item_design_id": "933",
         "bonus_type": "Attack",
         "bonus_value": "0.2",
@@ -930,6 +1023,7 @@
         "item_sprite_id": 13939
     },
     {
+        "item_id": "290448244",
         "item_design_id": "933",
         "bonus_type": "Hp",
         "bonus_value": "2",
@@ -940,6 +1034,7 @@
         "item_sprite_id": 13939
     },
     {
+        "item_id": "289376912",
         "item_design_id": "933",
         "bonus_type": "Hp",
         "bonus_value": "1",
@@ -950,6 +1045,7 @@
         "item_sprite_id": 13939
     },
     {
+        "item_id": "290582904",
         "item_design_id": "933",
         "bonus_type": "Hp",
         "bonus_value": "1",
@@ -960,6 +1056,7 @@
         "item_sprite_id": 13939
     },
     {
+        "item_id": "289564418",
         "item_design_id": "933",
         "bonus_type": "Pilot",
         "bonus_value": "9.6",
@@ -970,6 +1067,7 @@
         "item_sprite_id": 13939
     },
     {
+        "item_id": "290080298",
         "item_design_id": "933",
         "bonus_type": "Repair",
         "bonus_value": "0.4",
@@ -980,6 +1078,7 @@
         "item_sprite_id": 13939
     },
     {
+        "item_id": "282819114",
         "item_design_id": "1494",
         "bonus_type": "Science",
         "bonus_value": "6.2",
@@ -990,6 +1089,7 @@
         "item_sprite_id": 12218
     },
     {
+        "item_id": "290618307",
         "item_design_id": "1494",
         "bonus_type": "Weapon",
         "bonus_value": "5.9",
@@ -1000,6 +1100,7 @@
         "item_sprite_id": 12218
     },
     {
+        "item_id": "285929317",
         "item_design_id": "808",
         "bonus_type": "Ability",
         "bonus_value": "7.2",
@@ -1010,6 +1111,7 @@
         "item_sprite_id": 13020
     },
     {
+        "item_id": "278826883",
         "item_design_id": "808",
         "bonus_type": "Pilot",
         "bonus_value": "9.1",
@@ -1020,6 +1122,7 @@
         "item_sprite_id": 13020
     },
     {
+        "item_id": "289635338",
         "item_design_id": "808",
         "bonus_type": "Repair",
         "bonus_value": "0.6",
@@ -1030,6 +1133,7 @@
         "item_sprite_id": 13020
     },
     {
+        "item_id": "290537181",
         "item_design_id": "802",
         "bonus_type": "Ability",
         "bonus_value": "14",
@@ -1040,6 +1144,7 @@
         "item_sprite_id": 3757
     },
     {
+        "item_id": "282819134",
         "item_design_id": "802",
         "bonus_type": "Attack",
         "bonus_value": "0.3",
@@ -1050,6 +1155,7 @@
         "item_sprite_id": 3757
     },
     {
+        "item_id": "287604209",
         "item_design_id": "802",
         "bonus_type": "Attack",
         "bonus_value": "0.2",
@@ -1060,6 +1166,7 @@
         "item_sprite_id": 3757
     },
     {
+        "item_id": "287691216",
         "item_design_id": "802",
         "bonus_type": "FireResistance",
         "bonus_value": "42.1",
@@ -1070,6 +1177,7 @@
         "item_sprite_id": 3757
     },
     {
+        "item_id": "284678287",
         "item_design_id": "802",
         "bonus_type": "FireResistance",
         "bonus_value": "22.4",
@@ -1080,6 +1188,7 @@
         "item_sprite_id": 3757
     },
     {
+        "item_id": "288647585",
         "item_design_id": "802",
         "bonus_type": "Repair",
         "bonus_value": "0.3",
@@ -1090,6 +1199,7 @@
         "item_sprite_id": 3757
     },
     {
+        "item_id": "289606481",
         "item_design_id": "802",
         "bonus_type": "Repair",
         "bonus_value": "0.3",
@@ -1100,6 +1210,7 @@
         "item_sprite_id": 3757
     },
     {
+        "item_id": "286032720",
         "item_design_id": "799",
         "bonus_type": "Ability",
         "bonus_value": "13",
@@ -1110,6 +1221,7 @@
         "item_sprite_id": 12887
     },
     {
+        "item_id": "289564618",
         "item_design_id": "799",
         "bonus_type": "Ability",
         "bonus_value": "10",
