@@ -14,30 +14,39 @@ h1 {
 }
 
 .container {
+  width: 100%;
   max-width: 900px;
   margin: 0 auto 20px;
+  padding: 0;
+  box-sizing: border-box;
   border-radius: 8px;
   box-shadow: 0 2px 8px rgba(0,0,0,0.07);
-  padding: 0;
 }
 
-/* Table wrapper for horizontal scroll if needed */
 .table-wrapper {
   width: 100%;
   overflow-x: auto;
+  box-sizing: border-box;
 }
 
 table {
   width: 100%;
+  /* table-layout: fixed; */
   border-collapse: collapse;
-  min-width: 600px;
-  margin: 0 auto;
+  box-sizing: border-box;
+  margin:0 auto;
 }
 
 th, td {
   border-bottom: 1px solid #e0e0e0;
   padding: 0.75rem 0.5rem;
   text-align: left;
+}
+
+thead th, tbody td {
+  word-break: break-word;
+  overflow-wrap: break-word;
+  padding: 6px 4px;
 }
 
 tr {
@@ -150,7 +159,7 @@ tr:nth-child(even) {
     }
 
     tr:nth-child(even) {
-        background: #16171a;
+        background: #202225;
     }
 
     tr:nth-child(odd) {
@@ -172,12 +181,13 @@ tr:nth-child(even) {
 /* Responsive table for mobile */
 @media (max-width: 700px) {
     .container {
-        padding: 0.25rem;
+        padding: 0;
     }
 
     table {
         min-width: 0;
         font-size: 1rem;
+        table-layout: auto;
     }
 
     th, td {
@@ -185,6 +195,17 @@ tr:nth-child(even) {
         border-bottom: 1px solid #e0e0e0;
         border-right: none;
         border-left: none;
+        width: auto;
+        min-width: 0;
+        max-width: 1fr;
+        word-break: break-word;
+        overflow-wrap: break-word;
+    }
+
+    td.price-col {
+      white-space: nowrap;
+      word-break: normal;
+      overflow-wrap: normal;
     }
 
     th {
@@ -193,5 +214,26 @@ tr:nth-child(even) {
 
     .table-wrapper {
         box-shadow: none;
+        padding: 0;
+    }
+
+    th:nth-child(3), td:nth-child(3) {
+      display: none;
+    }
+
+    td.price-col {
+      white-space: nowrap;
+      word-break: normal;
+      overflow-wrap: normal;
+    }
+
+    .rarity-legendary,
+    .rarity-special,
+    .rarity-hero,
+    .rarity-epic,
+    .rarity-unique,
+    .rarity-elite,
+    .rarity-common {
+      border-left-width:2px!important;
     }
 }

@@ -287,7 +287,7 @@ function App() {
                         price = Number(price).toLocaleString();
                       }
                       return (
-                        <td key={key} style={{ textAlign: 'right' }}>
+                        <td key={key} className="price-col" style={{ textAlign: 'right' }}>
                           {price ? highlightText(price) : ''}
                         </td>
                       );
