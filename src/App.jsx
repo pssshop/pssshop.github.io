@@ -18,6 +18,66 @@ function Tooltip({ visible, top, left, children }) {
   );
 }
 
+// Add theme toggle floating in top right
+function ThemeToggle({ theme, setTheme }) {
+  const [open, setOpen] = useState(false);
+  // Icon: use a simple sun/moon/auto icon based on theme
+  let icon;
+  if (theme === 'dark') {
+    icon = <span title="Dark mode" style={{fontSize:'1.4em'}}>🌙</span>;
+  } else if (theme === 'light') {
+    icon = <span title="Light mode" style={{fontSize:'1.4em'}}>☀️</span>;
+  } else {
+    icon = <span title="Auto" style={{fontSize:'1.4em'}}>🌓</span>;
+  }
+
+  // Open menu on click or hover
+  const handleToggleMenu = (e) => {
+    e.preventDefault();
+    setOpen((prev) => !prev);
+  };
+
+  // Determine theme for menu
+  const isDark = theme === 'dark' || (theme === 'auto' && window.matchMedia('(prefers-color-scheme: dark)').matches);
+
+  return (
+    <div
+      className="theme-toggle"
+      onMouseEnter={() => setOpen(true)}
+      onMouseLeave={() => setOpen(false)}
+      onClick={handleToggleMenu}
+      tabIndex={0}
+      aria-label="Theme toggle"
+      role="button"
+    >
+      {icon}
+      {open && (
+        <div
+          className={`theme-toggle-menu${isDark ? ' theme-toggle-menu-dark' : ''}`}
+          onMouseEnter={() => setOpen(true)}
+          onMouseLeave={() => setOpen(false)}
+        >
+          <button
+            type="button"
+            onClick={() => { setTheme('auto'); setOpen(false); }}
+            className={`theme-toggle-btn${theme==='auto' ? ' selected' : ''}${isDark ? ' dark' : ''}`}
+          >🌓 Auto</button>
+          <button
+            type="button"
+            onClick={() => { setTheme('light'); setOpen(false); }}
+            className={`theme-toggle-btn${theme==='light' ? ' selected' : ''}${isDark ? ' dark' : ''}`}
+          >☀️ Light</button>
+          <button
+            type="button"
+            onClick={() => { setTheme('dark'); setOpen(false); }}
+            className={`theme-toggle-btn${theme==='dark' ? ' selected' : ''}${isDark ? ' dark' : ''}`}
+          >🌙 Dark</button>
+        </div>
+      )}
+    </div>
+  );
+}
+
 function App() {
   const [ctrlPressed, setCtrlPressed] = useState(false);
   const [inventory, setInventory] = useState(null);
@@ -28,6 +88,7 @@ function App() {
   const [hoveredRow, setHoveredRow] = useState(null);
   const [tooltipPos, setTooltipPos] = useState({ top: 0, left: 0 });
   const [tooltipVisible, setTooltipVisible] = useState(false);
+  const [theme, setTheme] = useState('auto');
   const rowRefs = useRef([]);
   const containerRef = useRef(null);
   const lastMousePos = useRef({ x: 0, y: 0 });
@@ -96,6 +157,20 @@ function App() {
       .then(setPrices)
       .catch(setError);
   }, []);
+
+  useEffect(() => {
+    if (theme === 'auto') {
+      document.documentElement.removeAttribute('data-theme');
+      // Use prefers-color-scheme for auto
+      if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.documentElement.setAttribute('data-theme', 'dark');
+      } else {
+        document.documentElement.setAttribute('data-theme', 'light');
+      }
+    } else {
+      document.documentElement.setAttribute('data-theme', theme);
+    }
+  }, [theme]);
 
   if (error) return <div style={{color: 'red'}}>Error: {error.message}</div>;
   if (!inventory || !prices) return <div>Loading...</div>;
@@ -208,160 +283,165 @@ function App() {
     };
 
     return (
-      <div className="container" style={{ position: 'relative' }} ref={containerRef}>
-        <h1>Inventory</h1>
-        <p className="intro-text">Prices displayed are my initial asking prices based on market research from pixyship and may change over time. Fair offers are welcome and discount agreements could be reached for purchasing multiple items.</p>
-        <div style={{ position: 'relative', marginBottom: '1rem' }}>
-          <input
-            type="text"
-            placeholder="Search..."
-            value={search}
-            onChange={e => setSearch(e.target.value)}
-            autoFocus
-            style={{ width: '100%', padding: '0.5rem 2.2rem 0.5rem 0.5rem', fontSize: '1rem', boxSizing: 'border-box' }}
-          />
-          {search && (
-            <button
-              type="button"
-              onClick={() => setSearch('')}
-              aria-label="Clear search"
-              title="Clear search"
-              className="search-clear-btn"
-            >
-              &#10006;
-            </button>
-          )}
-        </div>
-        <div className="table-wrapper">
-          <table>
-            <thead>
-              <tr>
-                {columns.map((key) => (
-                  <th
-                    key={key}
-                    onClick={() => handleSort(key)}
-                    style={{ cursor: 'pointer', userSelect: 'none', textAlign: key === 'price' ? 'right' : undefined }}
-                  >
-                    {headerLabels[key]}
-                    {sortConfig.key === key ? (sortConfig.direction === 'asc' ? ' ▲' : ' ▼') : ''}
-                  </th>
-                ))}
-              </tr>
-            </thead>
-            <tbody>
-              {sorted.map((item, idx) => (
-                <tr
-                  key={idx}
-                  ref={el => rowRefs.current[idx] = el}
-                  className={getRarityClass(item.rarity)}
-                  style={{ cursor: 'pointer' }}
-                  onClick={e => {
-                    if (!ctrlPressed) {
-                      window.open(`https://pixyship.com/item/${item.item_design_id}?activeTab=tab-players-sales`, '_blank', 'noopener,noreferrer');
-                    }
-                  }}
-                  tabIndex={0}
-                  onKeyDown={e => {
-                    if (e.key === 'Enter' || e.key === ' ') {
-                      window.open(`https://pixyship.com/item/${item.item_design_id}?activeTab=tab-players-sales`, '_blank', 'noopener,noreferrer');
-                    }
-                  }}
-                  onMouseEnter={() => {
-                    setHoveredRow(idx);
-                    if (ctrlPressed) {
-                      const rowEl = rowRefs.current[idx];
-                      if (rowEl) {
-                        const rect = rowEl.getBoundingClientRect();
-                        setTooltipVisible(true);
-                        setTooltipPos({ top: rect.top + rect.height / 2, left: rect.left + rect.width / 2 });
-                      }
-                    } else {
-                      setTooltipVisible(false);
-                    }
-                  }}
-                >
-                  {columns.map((key) => {
-                    if (key === 'bonus') {
-                      return (
-                        <td
-                          key={key}
-                          data-bonus-type={item.bonus_type || ''}
-                          data-bonus-value={item.bonus_value || ''}
-                        >
-                          {item.bonus_type ? highlightText(`${item.bonus_type} +${item.bonus_value}`) : ''}
-                        </td>
-                      );
-                    }
-
-                    if (key === 'price') {
-                      // Use item_price from inventory.json if present, else prices.json
-                      let price = typeof item.item_price !== 'undefined' ? item.item_price : prices[item.item_id];
-                      let priceNum = price && !isNaN(Number(price)) ? Number(price) : null;
-                      if (priceNum !== null) {
-                        price = priceNum.toLocaleString();
-                      }
-                      let estimate = typeof item.pixyship_estimate !== 'undefined' ? item.pixyship_estimate : null;
-                      let estimateNum = estimate && !isNaN(Number(estimate)) ? Number(estimate) : null;
-                      if (estimateNum !== null) {
-                        estimate = estimateNum.toLocaleString();
-                      }
-                      let color = '';
-                      if (priceNum !== null && estimateNum !== null) {
-                        // Use extremely subtle color shift, almost default
-                        if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
-                          if (priceNum <= estimateNum) {
-                            color = '#e0ffe6'; // almost white
-                          } else {
-                            color = '#ffe0e0'; // almost white
-                          }
-                        } else {
-                          if (priceNum <= estimateNum) {
-                            color = '#222'; // default text color
-                          } else {
-                            color = '#222'; // default text color
-                          }
-                        }
-                      }
-                      return (
-                        <td key={key} className="price-col" style={{ textAlign: 'right', color: color || undefined }} title={estimate ? `Pixyship Estimate: ${estimate}` : undefined}>
-                          {price ? highlightText(price) : ''}
-                        </td>
-                      );
-                    }
-
-                    return (
-                      <td key={key}>
-                        {key === 'name' ? (
-                          <>
-                            <img
-                              src={`https://api.pixelstarships.com/FileService/DownloadSprite?spriteId=${item.item_sprite_id}`}
-                              alt={item.name}
-                              style={{ width: 24, height: 24, objectFit: 'contain', verticalAlign: 'middle', marginRight: 6 }}
-                            />
-                            {highlightText(`${item.name}${Number(item.quantity) > 1 ? ` x${item.quantity}` : ''}`)}
-                          </>
-                        ) : key === 'item_sub_type' && typeof item[key] === 'string'
-                          ? highlightText(item[key].replace(/^Equipment/, '').replace(/^\s+/, ''))
-                          : highlightText(item[key])}
-                      </td>
-                    );
-                  })}
+      <>
+        <ThemeToggle theme={theme} setTheme={setTheme} />
+        <div className="container" style={{ position: 'relative' }} ref={containerRef}>
+          <h1>Inventory</h1>
+          <p className="intro-text">Prices displayed are my initial asking prices based on market research from pixyship and may change over time. Fair offers are welcome and discount agreements could be reached for purchasing multiple items.</p>
+          <div style={{ position: 'relative', marginBottom: '1rem' }}>
+            <input
+              type="text"
+              placeholder="Search..."
+              value={search}
+              onChange={e => setSearch(e.target.value)}
+              autoFocus
+              style={{ width: '100%', padding: '0.5rem 2.2rem 0.5rem 0.5rem', fontSize: '1rem', boxSizing: 'border-box' }}
+            />
+            {search && (
+              <button
+                type="button"
+                onClick={() => setSearch('')}
+                aria-label="Clear search"
+                title="Clear search"
+                className="search-clear-btn"
+              >
+                &#10006;
+              </button>
+            )}
+          </div>
+          <div className="table-wrapper">
+            <table>
+              <thead>
+                <tr>
+                  {columns.map((key) => (
+                    <th
+                      key={key}
+                      onClick={() => handleSort(key)}
+                      style={{ cursor: 'pointer', userSelect: 'none', textAlign: key === 'price' ? 'right' : undefined }}
+                    >
+                      {headerLabels[key]}
+                      {sortConfig.key === key ? (sortConfig.direction === 'asc' ? ' ▲' : ' ▼') : ''}
+                    </th>
+                  ))}
                 </tr>
-              ))}
-            </tbody>
-          </table>
-        </div>
+              </thead>
+              <tbody>
+                {sorted.map((item, idx) => (
+                  <tr
+                    key={idx}
+                    ref={el => rowRefs.current[idx] = el}
+                    className={getRarityClass(item.rarity)}
+                    style={{ cursor: 'pointer' }}
+                    onClick={e => {
+                      if (!ctrlPressed) {
+                        window.open(`https://pixyship.com/item/${item.item_design_id}?activeTab=tab-players-sales`, '_blank', 'noopener,noreferrer');
+                      }
+                    }}
+                    tabIndex={0}
+                    onKeyDown={e => {
+                      if (e.key === 'Enter' || e.key === ' ') {
+                        window.open(`https://pixyship.com/item/${item.item_design_id}?activeTab=tab-players-sales`, '_blank', 'noopener,noreferrer');
+                      }
+                    }}
+                    onMouseEnter={() => {
+                      setHoveredRow(idx);
+                      if (ctrlPressed) {
+                        const rowEl = rowRefs.current[idx];
+                        if (rowEl) {
+                          const rect = rowEl.getBoundingClientRect();
+                          setTooltipVisible(true);
+                          setTooltipPos({ top: rect.top + rect.height / 2, left: rect.left + rect.width / 2 });
+                        }
+                      } else {
+                        setTooltipVisible(false);
+                      }
+                    }}
+                  >
+                    {columns.map((key) => {
+                      if (key === 'bonus') {
+                        return (
+                          <td
+                            key={key}
+                            data-bonus-type={item.bonus_type || ''}
+                            data-bonus-value={item.bonus_value || ''}
+                          >
+                            {item.bonus_type ? highlightText(`${item.bonus_type} +${item.bonus_value}`) : ''}
+                          </td>
+                        );
+                      }
 
-        <Tooltip
-          visible={tooltipVisible && sorted[hoveredRow] && hoveredRow !== null}
-          top={tooltipPos.top}
-          left={tooltipPos.left}
-        >
-          {sorted[hoveredRow] && hoveredRow !== null && (
-            <span className="pss-tooltip-text"><strong>Item ID:</strong> <span style={{ fontFamily: 'monospace' }}>{sorted[hoveredRow].item_id}</span></span>
-          )}
-        </Tooltip>
-      </div>
+                      if (key === 'price') {
+                        // Use item_price from inventory.json if present, else prices.json
+                        let price = typeof item.item_price !== 'undefined' ? item.item_price : prices[item.item_id];
+                        let priceNum = price && !isNaN(Number(price)) ? Number(price) : null;
+                        if (priceNum !== null) {
+                          price = priceNum.toLocaleString();
+                        }
+                        let estimate = typeof item.pixyship_estimate !== 'undefined' ? item.pixyship_estimate : null;
+                        let estimateNum = estimate && !isNaN(Number(estimate)) ? Number(estimate) : null;
+                        if (estimateNum !== null) {
+                          estimate = estimateNum.toLocaleString();
+                        }
+                        let color = '';
+                          if (priceNum !== null && estimateNum !== null) {
+                            // Use theme state to determine coloring
+                            let currentTheme = theme;
+
+                            if (currentTheme === 'dark' || currentTheme === 'auto' && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+                              if (priceNum <= estimateNum) {
+                                color = '#e0ffe6'; // almost white
+                              } else {
+                                color = '#ffe0e0'; // almost white
+                              }
+                            } else {
+                              if (priceNum <= estimateNum) {
+                                color = '#2c4a00ff'; // default text color
+                              } else {
+                                color = '#330000ff'; // default text color
+                              }
+                            }
+                          }
+                        return (
+                          <td key={key} className="price-col" style={{ textAlign: 'right', color: color || undefined }} title={estimate ? `Pixyship Estimate: ${estimate}` : undefined}>
+                            {price ? highlightText(price) : ''}
+                          </td>
+                        );
+                      }
+
+                      return (
+                        <td key={key}>
+                          {key === 'name' ? (
+                            <>
+                              <img
+                                src={`https://api.pixelstarships.com/FileService/DownloadSprite?spriteId=${item.item_sprite_id}`}
+                                alt={item.name}
+                                style={{ width: 24, height: 24, objectFit: 'contain', verticalAlign: 'middle', marginRight: 6 }}
+                              />
+                              {highlightText(`${item.name}${Number(item.quantity) > 1 ? ` x${item.quantity}` : ''}`)}
+                            </>
+                          ) : key === 'item_sub_type' && typeof item[key] === 'string'
+                            ? highlightText(item[key].replace(/^Equipment/, '').replace(/^\s+/, ''))
+                            : highlightText(item[key])}
+                        </td>
+                      );
+                    })}
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+
+          <Tooltip
+            visible={tooltipVisible && sorted[hoveredRow] && hoveredRow !== null}
+            top={tooltipPos.top}
+            left={tooltipPos.left}
+          >
+            {sorted[hoveredRow] && hoveredRow !== null && (
+              <span className="pss-tooltip-text"><strong>Item ID:</strong> <span style={{ fontFamily: 'monospace' }}>{sorted[hoveredRow].item_id}</span></span>
+            )}
+          </Tooltip>
+        </div>
+      </>
     );
   }
 

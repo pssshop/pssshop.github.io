@@ -140,61 +140,129 @@ tr:nth-child(even) {
   justify-content: center;
 }
 
-@media (prefers-color-scheme: dark) {
-    body {
-        background: #111215;
-        color: #e0e0e0;
-    }
+[data-theme="dark"] {
+  background: #181818;
+  color: #e0e0e0;
+}
 
-    .container {
-        background: #181a1b;
-        box-shadow: 0 2px 8px rgba(0,0,0,0.5);
-    }
+[data-theme="light"] {
+  background: #fff;
+  color: #222;
+}
 
-    input[type="text"] {
-        background: #23242a;
-        color: #f7f7fa;
-        border: 1px solid #444;
-        box-shadow: none;
-    }
+[data-theme="dark"] body {
+    background: #111215;
+    color: #e0e0e0;
+}
 
-    input[type="text"]::placeholder {
-        color: #aaa;
-        opacity: 1;
-    }
+[data-theme="dark"] .container {
+    background: #181a1b;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.5);
+}
 
-    table {
-        background: #181a1b;
-        color: #e0e0e0;
-    }
+[data-theme="dark"] input[type="text"] {
+    background: #23242a;
+    color: #f7f7fa;
+    border: 1px solid #444;
+    box-shadow: none;
+}
 
-    th, td {
-        border-bottom: 1px solid #504848ff;
-    }
+[data-theme="dark"] input[type="text"]::placeholder {
+    color: #aaa;
+    opacity: 1;
+}
 
-    th {
-        background: #23242a;
-        color: #f7f7fa;
-    }
+[data-theme="dark"] table {
+    background: #181a1b;
+    color: #e0e0e0;
+}
 
-    tr:nth-child(even) {
-        background: #202225;
-    }
+[data-theme="dark"] th, [data-theme="dark"] td {
+    border-bottom: 1px solid #504848ff;
+}
 
-    tr:nth-child(odd) {
-        background: #181a1b;
-    }
+[data-theme="dark"] th {
+    background: #23242a;
+    color: #f7f7fa;
+}
 
-    tr {
-        border-color: #222;
-    }
+[data-theme="dark"] tr:nth-child(even) {
+    background: #202225;
+}
 
-    .search-highlight {
-        background: #2a4a6a;
-        color: #fff;
-        box-shadow: 0 0 0 1px #1976d2 inset;
-    }
+[data-theme="dark"] tr:nth-child(odd) {
+    background: #181a1b;
+}
 
+[data-theme="dark"] tr {
+    border-color: #222;
+}
+
+[data-theme="dark"] .search-highlight {
+    background: #2a4a6a;
+    color: #fff;
+    box-shadow: 0 0 0 1px #1976d2 inset;
+}
+
+/* Theme toggle floating button - menu flush with icon */
+.theme-toggle {
+  position: fixed;
+  top: 16px;
+  right: 16px;
+  z-index: 200;
+  cursor: pointer;
+  display: inline-block;
+  background: none;
+  box-shadow: none;
+  border-radius: 0;
+  width: auto;
+  height: auto;
+  align-items: unset;
+  justify-content: unset;
+}
+.theme-toggle-menu {
+  position: absolute;
+  top: 100%; /* flush with icon bottom */
+  right: 0;
+  background: rgba(255,255,255,0.97);
+  color: #222;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.12);
+  padding: 12px 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  min-width: 110px;
+  font-size: 1rem;
+  align-items: flex-start;
+  margin-top: 0;
+}
+.theme-toggle-menu-dark {
+  background: rgba(32,32,32,0.97);
+  color: #eee;
+}
+.theme-toggle-btn {
+  background: none;
+  border: none;
+  padding: 6px 0;
+  font-weight: 400;
+  cursor: pointer;
+  width: 100%;
+  text-align: left;
+  color: inherit;
+  font-size: 1rem;
+}
+.theme-toggle-btn.selected {
+  font-weight: 700;
+}
+.theme-toggle-btn.dark {
+  color: #eee;
+}
+.theme-toggle-btn:not(.dark):hover {
+  background: #f0f0f0;
+}
+.theme-toggle-btn.dark:hover {
+  background: #222;
 }
 
 /* Responsive table for mobile */
