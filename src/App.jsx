@@ -106,7 +106,10 @@ function App() {
       const ctrl = e.getModifierState && e.getModifierState('Control') || e.key === 'Control';
       setCtrlPressed(ctrl);
 
-      if (e.key === 'Escape') setTooltipVisible(false);
+      if (e.key === 'Escape') {
+        setTooltipVisible(false);
+        setSearch('');
+      }
 
       if (ctrl && hoveredRow !== null) {
         const rowEl = rowRefs.current[hoveredRow];
