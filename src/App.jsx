@@ -382,27 +382,42 @@ function App() {
                       }
 
                       if (key === 'price') {
-                        // Use item_price from inventory.json if present, else prices.json
-                        let price = typeof item.item_price !== 'undefined' ? item.item_price : prices[item.item_id];
-                        let priceNum = price && !isNaN(Number(price)) ? Number(price) : null;
-                        if (priceNum !== null) {
-                          price = priceNum.toLocaleString();
-                        }
-                        let estimate = typeof item.pixyship_estimate !== 'undefined' ? item.pixyship_estimate : null;
-                        let estimateNum = estimate && !isNaN(Number(estimate)) ? Number(estimate) : null;
-                        if (estimateNum !== null) {
-                          estimate = estimateNum.toLocaleString();
-                        }
-                        let color = '';
-                          if (priceNum !== null && estimateNum !== null) {
-                            // Use theme state to determine coloring
+                          // Use item_price from inventory.json if present, else prices.json
+                          let price = typeof item.item_price !== 'undefined' ? item.item_price : prices[item.item_id];
+                          let priceNum = price && !isNaN(Number(price)) ? Number(price) : null;
+                          if (priceNum !== null) {
+                            price = priceNum.toLocaleString();
+                          }
+                          let estimate = typeof item.pixyship_estimate !== 'undefined' ? item.pixyship_estimate : null;
+                          let estimateNum = estimate && !isNaN(Number(estimate)) ? Number(estimate) : null;
+                          if (estimateNum !== null) {
+                            estimate = estimateNum.toLocaleString();
+                          }
+                          let color = '';
+                          let showEstimateOnly = priceNum === null && estimateNum !== null;
+                          // Only show Pixyship price and color when Ctrl is held
+                          let displayPrice = '';
+                          let displayEstimate = '';
+                          if (ctrlPressed) {
+                            if (showEstimateOnly && estimateNum !== null) {
+                              displayEstimate = highlightText(estimate);
+                            } else if (price) {
+                              displayPrice = highlightText(price);
+                            }
+                          } else {
+                            // Only show user's price if present and not showing estimate only
+                            if (!showEstimateOnly && price) {
+                              displayPrice = highlightText(price);
+                            }
+                          }
+                          // Only show Pixyship price color when Ctrl is held
+                          if (ctrlPressed && !showEstimateOnly && priceNum !== null && estimateNum !== null) {
                             let currentTheme = theme;
-
                             if (currentTheme === 'dark' || currentTheme === 'auto' && window.matchMedia('(prefers-color-scheme: dark)').matches) {
                               if (priceNum <= estimateNum) {
-                                color = '#e0ffe6'; // almost white
+                                color = '#318741ff'; // almost white
                               } else {
-                                color = '#ffe0e0'; // almost white
+                                color = '#872b2bff'; // almost white
                               }
                             } else {
                               if (priceNum <= estimateNum) {
@@ -412,11 +427,13 @@ function App() {
                               }
                             }
                           }
-                        return (
-                          <td key={key} className="price-col" style={{ textAlign: 'right', color: color || undefined }} title={estimate ? `Pixyship Estimate: ${estimate}` : undefined}>
-                            {price ? highlightText(price) : ''}
-                          </td>
-                        );
+                          return (
+                            <td key={key} className="price-col" style={{ textAlign: 'right', color: showEstimateOnly ? '#888' : (ctrlPressed ? color : undefined), fontStyle: showEstimateOnly ? 'italic' : undefined }} title={ctrlPressed && estimate ? `Pixyship Estimate: ${estimate}` : undefined}>
+                              {ctrlPressed
+                                ? (showEstimateOnly ? displayEstimate : displayPrice)
+                                : displayPrice}
+                            </td>
+                          );
                       }
 
                       return (

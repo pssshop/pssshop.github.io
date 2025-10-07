@@ -24,7 +24,7 @@
         "pixyship_estimate": 7402
     },
     {
-        "item_id": "market-561643628",
+        "item_id": "290723520",
         "item_design_id": "1718",
         "bonus_type": "FireResistance",
         "bonus_value": "59.4",
@@ -33,7 +33,6 @@
         "rarity": "Special",
         "item_sub_type": "EquipmentAccessory",
         "item_sprite_id": 19814,
-        "item_price": 16500,
         "pixyship_estimate": 13980
     },
     {
@@ -61,7 +60,7 @@
         "pixyship_estimate": 2144
     },
     {
-        "item_id": "290352920",
+        "item_id": "market-561694326",
         "item_design_id": "1749",
         "bonus_type": "Ability",
         "bonus_value": "11.4",
@@ -70,6 +69,7 @@
         "rarity": "Special",
         "item_sub_type": "EquipmentWeapon",
         "item_sprite_id": 20082,
+        "item_price": 11000,
         "pixyship_estimate": 6750
     },
     {
@@ -503,6 +503,18 @@
         "item_sub_type": "EquipmentWeapon",
         "item_sprite_id": 5007,
         "pixyship_estimate": 374
+    },
+    {
+        "item_id": "290720970",
+        "item_design_id": "163",
+        "bonus_type": "Pilot",
+        "bonus_value": "9.7",
+        "quantity": "1",
+        "name": "Golden Cai Dao",
+        "rarity": "Hero",
+        "item_sub_type": "EquipmentWeapon",
+        "item_sprite_id": 5007,
+        "pixyship_estimate": 564
     },
     {
         "item_id": "288183819",
