@@ -73,7 +73,7 @@
         "pixyship_estimate": 6750
     },
     {
-        "item_id": "290608906",
+        "item_id": "market-561754043",
         "item_design_id": "1749",
         "bonus_type": "Pilot",
         "bonus_value": "9.7",
@@ -82,6 +82,7 @@
         "rarity": "Special",
         "item_sub_type": "EquipmentWeapon",
         "item_sprite_id": 20082,
+        "item_price": 10000,
         "pixyship_estimate": 12938
     },
     {
@@ -506,10 +507,10 @@
         "pixyship_estimate": 374
     },
     {
-        "item_id": "290720970",
+        "item_id": "286748943",
         "item_design_id": "163",
         "bonus_type": "Pilot",
-        "bonus_value": "9.7",
+        "bonus_value": "9.4",
         "quantity": "1",
         "name": "Golden Cai Dao",
         "rarity": "Hero",
@@ -612,6 +613,18 @@
         "item_sub_type": "EquipmentWeapon",
         "item_sprite_id": 11219,
         "pixyship_estimate": 1320
+    },
+    {
+        "item_id": "285665508",
+        "item_design_id": "678",
+        "bonus_type": "Pilot",
+        "bonus_value": "9.7",
+        "quantity": "1",
+        "name": "King Husky",
+        "rarity": "Hero",
+        "item_sub_type": "EquipmentAccessory",
+        "item_sprite_id": 12025,
+        "pixyship_estimate": 3531
     },
     {
         "item_id": "282759250",
