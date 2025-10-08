@@ -193,7 +193,7 @@
         "pixyship_estimate": 3875
     },
     {
-        "item_id": "288744293",
+        "item_id": "market-561725744",
         "item_design_id": "514",
         "bonus_type": "Pilot",
         "bonus_value": "9.3",
@@ -202,6 +202,7 @@
         "rarity": "Hero",
         "item_sub_type": "EquipmentHead",
         "item_sprite_id": 10047,
+        "item_price": 1500,
         "pixyship_estimate": null
     },
     {
@@ -744,18 +745,6 @@
         "item_sub_type": "EquipmentBody",
         "item_sprite_id": 19675,
         "pixyship_estimate": 475
-    },
-    {
-        "item_id": "290292320",
-        "item_design_id": "1707",
-        "bonus_type": "Ability",
-        "bonus_value": "14.5",
-        "quantity": "1",
-        "name": "Mach Sabatons",
-        "rarity": "Hero",
-        "item_sub_type": "EquipmentLeg",
-        "item_sprite_id": 19677,
-        "pixyship_estimate": null
     },
     {
         "item_id": "289219708",
