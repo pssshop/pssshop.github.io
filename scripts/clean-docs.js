@@ -5,16 +5,16 @@ const docsDir = path.join(__dirname, '../docs');
 const keepFiles = ['favicon.png', 'inventory.json', 'prices.json'];
 
 if (!fs.existsSync(docsDir)) {
-  process.exit(0);
+    process.exit(0);
 }
 
-fs.readdirSync(docsDir).forEach(file => {
-  if (!keepFiles.includes(file)) {
-    const filePath = path.join(docsDir, file);
-    if (fs.lstatSync(filePath).isDirectory()) {
-      fs.rmSync(filePath, { recursive: true, force: true });
-    } else {
-      fs.unlinkSync(filePath);
+fs.readdirSync(docsDir).forEach((file) => {
+    if (!keepFiles.includes(file)) {
+        const filePath = path.join(docsDir, file);
+        if (fs.lstatSync(filePath).isDirectory()) {
+            fs.rmSync(filePath, { recursive: true, force: true });
+        } else {
+            fs.unlinkSync(filePath);
+        }
     }
-  }
 });
