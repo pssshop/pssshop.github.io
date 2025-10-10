@@ -1,6 +1,6 @@
 {
-    "generated": "2025-10-09 18:23:17",
-    "item_count": 113,
+    "generated": "2025-10-09 20:35:53",
+    "item_count": 115,
     "items": [
         {
             "item_id": "290509714",
@@ -27,7 +27,7 @@
             "pixyship_estimate": 7410
         },
         {
-            "item_id": "market-561811435",
+            "item_id": "market-561882886",
             "item_design_id": "1718",
             "bonus_type": "FireResistance",
             "bonus_value": "59.4",
@@ -36,7 +36,7 @@
             "rarity": "Special",
             "item_sub_type": "EquipmentAccessory",
             "item_sprite_id": 19814,
-            "item_price": 13500,
+            "item_price": 12000,
             "pixyship_estimate": 13980
         },
         {
@@ -373,7 +373,7 @@
             "rarity": "Hero",
             "item_sub_type": "EquipmentBody",
             "item_sprite_id": 4819,
-            "pixyship_estimate": 350
+            "pixyship_estimate": 342
         },
         {
             "item_id": "288890363",
@@ -434,6 +434,18 @@
             "item_sub_type": "EquipmentWeapon",
             "item_sprite_id": 16605,
             "pixyship_estimate": 338
+        },
+        {
+            "item_id": "290879502",
+            "item_design_id": "1215",
+            "bonus_type": "Hp",
+            "bonus_value": "2",
+            "quantity": "1",
+            "name": "Extendo-Clamp Plus",
+            "rarity": "Hero",
+            "item_sub_type": "EquipmentWeapon",
+            "item_sprite_id": 16605,
+            "pixyship_estimate": 998
         },
         {
             "item_id": "290617031",
@@ -1109,6 +1121,18 @@
         },
         {
             "item_id": "286413410",
+            "item_design_id": "933",
+            "bonus_type": "Attack",
+            "bonus_value": "0.3",
+            "quantity": "1",
+            "name": "Red Marksman Jacket",
+            "rarity": "Hero",
+            "item_sub_type": "EquipmentBody",
+            "item_sprite_id": 13939,
+            "pixyship_estimate": 215
+        },
+        {
+            "item_id": "290874836",
             "item_design_id": "933",
             "bonus_type": "Attack",
             "bonus_value": "0.3",
