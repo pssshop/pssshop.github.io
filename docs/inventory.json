@@ -1,5 +1,5 @@
 {
-    "generated": "2025-10-10 02:00:17",
+    "generated": "2025-10-10 02:26:11",
     "item_count": 116,
     "items": [
         {
@@ -605,16 +605,16 @@
             "pixyship_estimate": 233
         },
         {
-            "item_id": "288704781",
+            "item_id": "287962002",
             "item_design_id": "1493",
-            "bonus_type": "Pilot",
-            "bonus_value": "6.8",
+            "bonus_type": "Ability",
+            "bonus_value": "12",
             "quantity": "1",
             "name": "Immensity Gauntlet",
             "rarity": "Hero",
             "item_sub_type": "EquipmentWeapon",
             "item_sprite_id": 11219,
-            "pixyship_estimate": 676
+            "pixyship_estimate": 1261
         },
         {
             "item_id": "289327745",
@@ -1289,18 +1289,6 @@
             "pixyship_estimate": 206
         },
         {
-            "item_id": "290888645",
-            "item_design_id": "802",
-            "bonus_type": "Ability",
-            "bonus_value": "14",
-            "quantity": "1",
-            "name": "Unobtainium Heavy Assault Armor ",
-            "rarity": "Hero",
-            "item_sub_type": "EquipmentBody",
-            "item_sprite_id": 3757,
-            "pixyship_estimate": 5078
-        },
-        {
             "item_id": "282819134",
             "item_design_id": "802",
             "bonus_type": "Attack",
@@ -1323,6 +1311,18 @@
             "item_sub_type": "EquipmentBody",
             "item_sprite_id": 3757,
             "pixyship_estimate": 247
+        },
+        {
+            "item_id": "284013428",
+            "item_design_id": "802",
+            "bonus_type": "FireResistance",
+            "bonus_value": "42.3",
+            "quantity": "1",
+            "name": "Unobtainium Heavy Assault Armor ",
+            "rarity": "Hero",
+            "item_sub_type": "EquipmentBody",
+            "item_sprite_id": 3757,
+            "pixyship_estimate": 4214
         },
         {
             "item_id": "287691216",
