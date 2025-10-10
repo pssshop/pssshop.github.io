@@ -1,6 +1,6 @@
 {
-    "generated": "2025-10-10 02:26:11",
-    "item_count": 116,
+    "generated": "2025-10-10 09:55:00",
+    "item_count": 115,
     "items": [
         {
             "item_id": "290509714",
@@ -62,19 +62,6 @@
             "item_sub_type": "EquipmentAccessory",
             "item_sprite_id": 19814,
             "pixyship_estimate": 1366
-        },
-        {
-            "item_id": "market-561905438",
-            "item_design_id": "1749",
-            "bonus_type": "Ability",
-            "bonus_value": "11.4",
-            "quantity": "1",
-            "name": "Redshift Repeater",
-            "rarity": "Special",
-            "item_sub_type": "EquipmentWeapon",
-            "item_sprite_id": 20082,
-            "item_price": 7500,
-            "pixyship_estimate": 6750
         },
         {
             "item_id": "290826367",
@@ -614,7 +601,7 @@
             "rarity": "Hero",
             "item_sub_type": "EquipmentWeapon",
             "item_sprite_id": 11219,
-            "pixyship_estimate": 1261
+            "pixyship_estimate": 1260
         },
         {
             "item_id": "289327745",
@@ -638,7 +625,7 @@
             "rarity": "Hero",
             "item_sub_type": "EquipmentWeapon",
             "item_sprite_id": 11219,
-            "pixyship_estimate": 594
+            "pixyship_estimate": 587
         },
         {
             "item_id": "289561948",
@@ -701,7 +688,7 @@
             "pixyship_estimate": 638
         },
         {
-            "item_id": "290609882",
+            "item_id": "market-561911872",
             "item_design_id": "727",
             "bonus_type": "Ability",
             "bonus_value": "12.4",
@@ -710,6 +697,7 @@
             "rarity": "Hero",
             "item_sub_type": "EquipmentWeapon",
             "item_sprite_id": 12544,
+            "item_price": 5000,
             "pixyship_estimate": 5045
         },
         {
