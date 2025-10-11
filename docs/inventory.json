@@ -1,6 +1,6 @@
 {
-    "generated": "2025-10-11 03:24:18",
-    "item_count": 116,
+    "generated": "2025-10-11 03:49:32",
+    "item_count": 117,
     "items": [
         {
             "item_id": "290509714",
@@ -843,6 +843,18 @@
             "item_sub_type": "EquipmentLeg",
             "item_sprite_id": 15249,
             "pixyship_estimate": 1161
+        },
+        {
+            "item_id": "290959592",
+            "item_design_id": "1000",
+            "bonus_type": "Attack",
+            "bonus_value": "0.3",
+            "quantity": "1",
+            "name": "Overhauled Boots",
+            "rarity": "Hero",
+            "item_sub_type": "EquipmentLeg",
+            "item_sprite_id": 15249,
+            "pixyship_estimate": 363
         },
         {
             "item_id": "290616635",
