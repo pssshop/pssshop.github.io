@@ -1,6 +1,6 @@
 {
-    "generated": "2025-10-12 05:14:03",
-    "item_count": 123,
+    "generated": "2025-10-12 18:51:57",
+    "item_count": 122,
     "items": [
         {
             "item_id": "290509714",
@@ -24,7 +24,7 @@
             "rarity": "Special",
             "item_sub_type": "EquipmentAccessory",
             "item_sprite_id": 19814,
-            "pixyship_estimate": 5311
+            "pixyship_estimate": 5328
         },
         {
             "item_id": "291005430",
@@ -108,7 +108,7 @@
             "rarity": "Hero",
             "item_sub_type": "EquipmentAccessory",
             "item_sprite_id": 9983,
-            "pixyship_estimate": 2346
+            "pixyship_estimate": 2359
         },
         {
             "item_id": "290829568",
@@ -120,7 +120,7 @@
             "rarity": "Hero",
             "item_sub_type": "EquipmentAccessory",
             "item_sprite_id": 9983,
-            "pixyship_estimate": 1149
+            "pixyship_estimate": 1126
         },
         {
             "item_id": "289472191",
@@ -339,7 +339,7 @@
             "pixyship_estimate": 498
         },
         {
-            "item_id": "market-562059355",
+            "item_id": "291075334",
             "item_design_id": "169",
             "bonus_type": "Pilot",
             "bonus_value": "5.4",
@@ -348,7 +348,6 @@
             "rarity": "Hero",
             "item_sub_type": "EquipmentBody",
             "item_sprite_id": 4819,
-            "item_price": 500,
             "pixyship_estimate": 434
         },
         {
@@ -373,7 +372,7 @@
             "rarity": "Hero",
             "item_sub_type": "EquipmentBody",
             "item_sprite_id": 4819,
-            "pixyship_estimate": 759
+            "pixyship_estimate": 761
         },
         {
             "item_id": "291004614",
@@ -388,7 +387,7 @@
             "pixyship_estimate": 2111
         },
         {
-            "item_id": "market-562046397",
+            "item_id": "291060847",
             "item_design_id": "246",
             "bonus_type": "Science",
             "bonus_value": "5.5",
@@ -397,7 +396,6 @@
             "rarity": "Hero",
             "item_sub_type": "EquipmentHead",
             "item_sprite_id": 7432,
-            "item_price": 800,
             "pixyship_estimate": 822
         },
         {
@@ -410,7 +408,7 @@
             "rarity": "Hero",
             "item_sub_type": "EquipmentWeapon",
             "item_sprite_id": 16605,
-            "pixyship_estimate": 271
+            "pixyship_estimate": 273
         },
         {
             "item_id": "278156341",
@@ -447,18 +445,6 @@
             "item_sub_type": "EquipmentWeapon",
             "item_sprite_id": 16605,
             "pixyship_estimate": 730
-        },
-        {
-            "item_id": "290617031",
-            "item_design_id": "1215",
-            "bonus_type": "Weapon",
-            "bonus_value": "6.4",
-            "quantity": "1",
-            "name": "Extendo-Clamp Plus",
-            "rarity": "Hero",
-            "item_sub_type": "EquipmentWeapon",
-            "item_sprite_id": 16605,
-            "pixyship_estimate": 4212
         },
         {
             "item_id": "286410130",
@@ -581,7 +567,7 @@
             "pixyship_estimate": 292
         },
         {
-            "item_id": "287451396",
+            "item_id": "market-562133650",
             "item_design_id": "163",
             "bonus_type": "Pilot",
             "bonus_value": "8",
@@ -590,6 +576,7 @@
             "rarity": "Hero",
             "item_sub_type": "EquipmentWeapon",
             "item_sprite_id": 5007,
+            "item_price": 300,
             "pixyship_estimate": 243
         },
         {
@@ -602,7 +589,7 @@
             "rarity": "Hero",
             "item_sub_type": "EquipmentWeapon",
             "item_sprite_id": 5007,
-            "pixyship_estimate": 479
+            "pixyship_estimate": 483
         },
         {
             "item_id": "289215025",
@@ -650,7 +637,7 @@
             "rarity": "Hero",
             "item_sub_type": "EquipmentWeapon",
             "item_sprite_id": 11219,
-            "pixyship_estimate": 952
+            "pixyship_estimate": 951
         },
         {
             "item_id": "285289779",
@@ -854,7 +841,7 @@
             "rarity": "Hero",
             "item_sub_type": "EquipmentAccessory",
             "item_sprite_id": 16441,
-            "pixyship_estimate": 277
+            "pixyship_estimate": 278
         },
         {
             "item_id": "283080486",
@@ -941,6 +928,18 @@
             "pixyship_estimate": 1628
         },
         {
+            "item_id": "290448029",
+            "item_design_id": "960",
+            "bonus_type": "Hp",
+            "bonus_value": "2",
+            "quantity": "1",
+            "name": "Pink Elephant",
+            "rarity": "Hero",
+            "item_sub_type": "EquipmentAccessory",
+            "item_sprite_id": 14738,
+            "pixyship_estimate": 1077
+        },
+        {
             "item_id": "281659702",
             "item_design_id": "960",
             "bonus_type": "Hp",
@@ -987,18 +986,6 @@
             "item_sub_type": "EquipmentAccessory",
             "item_sprite_id": 14738,
             "pixyship_estimate": 1467
-        },
-        {
-            "item_id": "290289550",
-            "item_design_id": "960",
-            "bonus_type": "Science",
-            "bonus_value": "5.6",
-            "quantity": "1",
-            "name": "Pink Elephant",
-            "rarity": "Hero",
-            "item_sub_type": "EquipmentAccessory",
-            "item_sprite_id": 14738,
-            "pixyship_estimate": 4080
         },
         {
             "item_id": "290482749",
@@ -1166,7 +1153,7 @@
             "rarity": "Hero",
             "item_sub_type": "EquipmentAccessory",
             "item_sprite_id": 10288,
-            "pixyship_estimate": 217
+            "pixyship_estimate": 218
         },
         {
             "item_id": "278518325",
@@ -1178,7 +1165,7 @@
             "rarity": "Hero",
             "item_sub_type": "EquipmentAccessory",
             "item_sprite_id": 10288,
-            "pixyship_estimate": 402
+            "pixyship_estimate": 403
         },
         {
             "item_id": "283265580",
