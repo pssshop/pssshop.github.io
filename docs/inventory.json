@@ -1,5 +1,5 @@
 {
-    "generated": "2025-10-12 22:58:56",
+    "generated": "2025-10-12 23:12:55",
     "item_count": 122,
     "items": [
         {
@@ -618,16 +618,16 @@
             "pixyship_estimate": 1307
         },
         {
-            "item_id": "291033269",
+            "item_id": "288467320",
             "item_design_id": "1493",
             "bonus_type": "Engine",
-            "bonus_value": "6.7",
+            "bonus_value": "5.8",
             "quantity": "1",
             "name": "Immensity Gauntlet",
             "rarity": "Hero",
             "item_sub_type": "EquipmentWeapon",
             "item_sprite_id": 11219,
-            "pixyship_estimate": 1481
+            "pixyship_estimate": 871
         },
         {
             "item_id": "289327745",
