@@ -1,6 +1,6 @@
 {
-    "generated": "2025-10-12 18:51:57",
-    "item_count": 122,
+    "generated": "2025-10-12 20:55:44",
+    "item_count": 121,
     "items": [
         {
             "item_id": "290509714",
@@ -195,7 +195,7 @@
             "pixyship_estimate": 153
         },
         {
-            "item_id": "290520325",
+            "item_id": "market-562144298",
             "item_design_id": "514",
             "bonus_type": "Hp",
             "bonus_value": "2",
@@ -204,6 +204,7 @@
             "rarity": "Hero",
             "item_sub_type": "EquipmentHead",
             "item_sprite_id": 10047,
+            "item_price": 4000,
             "pixyship_estimate": 3829
         },
         {
@@ -300,7 +301,7 @@
             "rarity": "Hero",
             "item_sub_type": "EquipmentBody",
             "item_sprite_id": 4819,
-            "pixyship_estimate": 424
+            "pixyship_estimate": 422
         },
         {
             "item_id": "287830605",
@@ -686,18 +687,6 @@
             "item_sub_type": "EquipmentAccessory",
             "item_sprite_id": 12025,
             "pixyship_estimate": 2128
-        },
-        {
-            "item_id": "282759250",
-            "item_design_id": "678",
-            "bonus_type": "Pilot",
-            "bonus_value": "8.6",
-            "quantity": "1",
-            "name": "King Husky",
-            "rarity": "Hero",
-            "item_sub_type": "EquipmentAccessory",
-            "item_sprite_id": 12025,
-            "pixyship_estimate": 911
         },
         {
             "item_id": "288979293",
@@ -1216,7 +1205,7 @@
             "pixyship_estimate": 317
         },
         {
-            "item_id": "market-562062038",
+            "item_id": "291076677",
             "item_design_id": "933",
             "bonus_type": "Attack",
             "bonus_value": "0.2",
@@ -1225,7 +1214,6 @@
             "rarity": "Hero",
             "item_sub_type": "EquipmentBody",
             "item_sprite_id": 13939,
-            "item_price": 300,
             "pixyship_estimate": 219
         },
         {
