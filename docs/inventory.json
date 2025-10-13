@@ -1,6 +1,6 @@
 {
-    "generated": "2025-10-12 23:21:27",
-    "item_count": 122,
+    "generated": "2025-10-13 02:03:17",
+    "item_count": 117,
     "items": [
         {
             "item_id": "290509714",
@@ -52,6 +52,18 @@
         },
         {
             "item_id": "291019634",
+            "item_design_id": "1718",
+            "bonus_type": "Repair",
+            "bonus_value": "0.5",
+            "quantity": "1",
+            "name": "Hydrone 2.0",
+            "rarity": "Special",
+            "item_sub_type": "EquipmentAccessory",
+            "item_sprite_id": 19814,
+            "pixyship_estimate": 1344
+        },
+        {
+            "item_id": "291088691",
             "item_design_id": "1718",
             "bonus_type": "Repair",
             "bonus_value": "0.5",
@@ -364,18 +376,6 @@
             "pixyship_estimate": 297
         },
         {
-            "item_id": "288890363",
-            "item_design_id": "169",
-            "bonus_type": "Science",
-            "bonus_value": "8",
-            "quantity": "1",
-            "name": "Dark Matter Armor",
-            "rarity": "Hero",
-            "item_sub_type": "EquipmentBody",
-            "item_sprite_id": 4819,
-            "pixyship_estimate": 761
-        },
-        {
             "item_id": "market-562151351",
             "item_design_id": "246",
             "bonus_type": "Ability",
@@ -618,18 +618,6 @@
             "pixyship_estimate": 1307
         },
         {
-            "item_id": "288467320",
-            "item_design_id": "1493",
-            "bonus_type": "Engine",
-            "bonus_value": "5.8",
-            "quantity": "1",
-            "name": "Immensity Gauntlet",
-            "rarity": "Hero",
-            "item_sub_type": "EquipmentWeapon",
-            "item_sprite_id": 11219,
-            "pixyship_estimate": 871
-        },
-        {
             "item_id": "289327745",
             "item_design_id": "1493",
             "bonus_type": "Pilot",
@@ -640,18 +628,6 @@
             "item_sub_type": "EquipmentWeapon",
             "item_sprite_id": 11219,
             "pixyship_estimate": 951
-        },
-        {
-            "item_id": "285318087",
-            "item_design_id": "1493",
-            "bonus_type": "Science",
-            "bonus_value": "6.5",
-            "quantity": "1",
-            "name": "Immensity Gauntlet",
-            "rarity": "Hero",
-            "item_sub_type": "EquipmentWeapon",
-            "item_sprite_id": 11219,
-            "pixyship_estimate": 802
         },
         {
             "item_id": "285289779",
@@ -940,30 +916,6 @@
             "item_sub_type": "EquipmentAccessory",
             "item_sprite_id": 14738,
             "pixyship_estimate": 1077
-        },
-        {
-            "item_id": "281659702",
-            "item_design_id": "960",
-            "bonus_type": "Hp",
-            "bonus_value": "1",
-            "quantity": "1",
-            "name": "Pink Elephant",
-            "rarity": "Hero",
-            "item_sub_type": "EquipmentAccessory",
-            "item_sprite_id": 14738,
-            "pixyship_estimate": 465
-        },
-        {
-            "item_id": "283790200",
-            "item_design_id": "960",
-            "bonus_type": "Hp",
-            "bonus_value": "1",
-            "quantity": "1",
-            "name": "Pink Elephant",
-            "rarity": "Hero",
-            "item_sub_type": "EquipmentAccessory",
-            "item_sprite_id": 14738,
-            "pixyship_estimate": 465
         },
         {
             "item_id": "287583956",
@@ -1456,18 +1408,6 @@
             "item_sub_type": "EquipmentLeg",
             "item_sprite_id": 12887,
             "pixyship_estimate": 308
-        },
-        {
-            "item_id": "290942190",
-            "item_design_id": "799",
-            "bonus_type": "Hp",
-            "bonus_value": "2",
-            "quantity": "1",
-            "name": "Visiri Master Gunner Greaves",
-            "rarity": "Hero",
-            "item_sub_type": "EquipmentLeg",
-            "item_sprite_id": 12887,
-            "pixyship_estimate": 522
         }
     ]
 }
