@@ -1,6 +1,6 @@
 {
-    "generated": "2025-10-12 20:55:44",
-    "item_count": 121,
+    "generated": "2025-10-12 22:58:56",
+    "item_count": 122,
     "items": [
         {
             "item_id": "290509714",
@@ -376,7 +376,7 @@
             "pixyship_estimate": 761
         },
         {
-            "item_id": "291004614",
+            "item_id": "market-562151351",
             "item_design_id": "246",
             "bonus_type": "Ability",
             "bonus_value": "13.8",
@@ -385,6 +385,7 @@
             "rarity": "Hero",
             "item_sub_type": "EquipmentHead",
             "item_sprite_id": 7432,
+            "item_price": 2100,
             "pixyship_estimate": 2111
         },
         {
@@ -639,6 +640,18 @@
             "item_sub_type": "EquipmentWeapon",
             "item_sprite_id": 11219,
             "pixyship_estimate": 951
+        },
+        {
+            "item_id": "285318087",
+            "item_design_id": "1493",
+            "bonus_type": "Science",
+            "bonus_value": "6.5",
+            "quantity": "1",
+            "name": "Immensity Gauntlet",
+            "rarity": "Hero",
+            "item_sub_type": "EquipmentWeapon",
+            "item_sprite_id": 11219,
+            "pixyship_estimate": 802
         },
         {
             "item_id": "285289779",
@@ -938,7 +951,7 @@
             "rarity": "Hero",
             "item_sub_type": "EquipmentAccessory",
             "item_sprite_id": 14738,
-            "pixyship_estimate": 469
+            "pixyship_estimate": 465
         },
         {
             "item_id": "283790200",
@@ -950,7 +963,7 @@
             "rarity": "Hero",
             "item_sub_type": "EquipmentAccessory",
             "item_sprite_id": 14738,
-            "pixyship_estimate": 469
+            "pixyship_estimate": 465
         },
         {
             "item_id": "287583956",
@@ -962,7 +975,7 @@
             "rarity": "Hero",
             "item_sub_type": "EquipmentAccessory",
             "item_sprite_id": 14738,
-            "pixyship_estimate": 469
+            "pixyship_estimate": 465
         },
         {
             "item_id": "290610208",
