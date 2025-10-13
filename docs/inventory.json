@@ -1,5 +1,5 @@
 {
-    "generated": "2025-10-13 02:03:17",
+    "generated": "2025-10-13 03:51:57",
     "item_count": 117,
     "items": [
         {
@@ -615,7 +615,7 @@
             "rarity": "Hero",
             "item_sub_type": "EquipmentWeapon",
             "item_sprite_id": 11219,
-            "pixyship_estimate": 1307
+            "pixyship_estimate": 1299
         },
         {
             "item_id": "289327745",
