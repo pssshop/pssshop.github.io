@@ -1,6 +1,6 @@
 {
-    "generated": "2025-10-13 22:30:01",
-    "item_count": 118,
+    "generated": "2025-10-14 01:17:06",
+    "item_count": 119,
     "items": [
         {
             "item_id": "290509714",
@@ -207,7 +207,7 @@
             "pixyship_estimate": 153
         },
         {
-            "item_id": "291139811",
+            "item_id": "market-562245445",
             "item_design_id": "514",
             "bonus_type": "Hp",
             "bonus_value": "2",
@@ -216,6 +216,7 @@
             "rarity": "Hero",
             "item_sub_type": "EquipmentHead",
             "item_sprite_id": 10047,
+            "item_price": 4000,
             "pixyship_estimate": 3829
         },
         {
@@ -675,7 +676,7 @@
             "pixyship_estimate": 2128
         },
         {
-            "item_id": "288979293",
+            "item_id": "market-562245522",
             "item_design_id": "678",
             "bonus_type": "Pilot",
             "bonus_value": "4.9",
@@ -684,6 +685,7 @@
             "rarity": "Hero",
             "item_sub_type": "EquipmentAccessory",
             "item_sprite_id": 12025,
+            "item_price": 500,
             "pixyship_estimate": 430
         },
         {
@@ -1251,6 +1253,18 @@
             "pixyship_estimate": 193
         },
         {
+            "item_id": "284817390",
+            "item_design_id": "933",
+            "bonus_type": "Weapon",
+            "bonus_value": "3.4",
+            "quantity": "1",
+            "name": "Red Marksman Jacket",
+            "rarity": "Hero",
+            "item_sub_type": "EquipmentBody",
+            "item_sprite_id": 13939,
+            "pixyship_estimate": 2868
+        },
+        {
             "item_id": "282819114",
             "item_design_id": "1494",
             "bonus_type": "Science",
@@ -1347,7 +1361,7 @@
             "pixyship_estimate": 4492
         },
         {
-            "item_id": "287691216",
+            "item_id": "market-562245605",
             "item_design_id": "802",
             "bonus_type": "FireResistance",
             "bonus_value": "42.1",
@@ -1356,6 +1370,7 @@
             "rarity": "Hero",
             "item_sub_type": "EquipmentBody",
             "item_sprite_id": 3757,
+            "item_price": 400,
             "pixyship_estimate": 4563
         },
         {
