@@ -1,6 +1,6 @@
 {
-    "generated": "2025-10-14 01:58:11",
-    "item_count": 120,
+    "generated": "2025-10-14 17:16:27",
+    "item_count": 119,
     "items": [
         {
             "item_id": "290509714",
@@ -589,7 +589,7 @@
             "rarity": "Hero",
             "item_sub_type": "EquipmentWeapon",
             "item_sprite_id": 5007,
-            "pixyship_estimate": 243
+            "pixyship_estimate": 242
         },
         {
             "item_id": "290512075",
@@ -625,7 +625,7 @@
             "rarity": "Hero",
             "item_sub_type": "EquipmentWeapon",
             "item_sprite_id": 11219,
-            "pixyship_estimate": 1299
+            "pixyship_estimate": 1297
         },
         {
             "item_id": "289327745",
@@ -938,7 +938,7 @@
             "rarity": "Hero",
             "item_sub_type": "EquipmentAccessory",
             "item_sprite_id": 14738,
-            "pixyship_estimate": 1077
+            "pixyship_estimate": 1072
         },
         {
             "item_id": "287583956",
@@ -1371,19 +1371,6 @@
             "item_sub_type": "EquipmentBody",
             "item_sprite_id": 3757,
             "pixyship_estimate": 4492
-        },
-        {
-            "item_id": "market-562245605",
-            "item_design_id": "802",
-            "bonus_type": "FireResistance",
-            "bonus_value": "42.1",
-            "quantity": "1",
-            "name": "Unobtainium Heavy Assault Armor ",
-            "rarity": "Hero",
-            "item_sub_type": "EquipmentBody",
-            "item_sprite_id": 3757,
-            "item_price": 400,
-            "pixyship_estimate": 4563
         },
         {
             "item_id": "284678287",
