@@ -1,6 +1,6 @@
 {
-    "generated": "2025-10-14 01:56:02",
-    "item_count": 121,
+    "generated": "2025-10-14 01:58:11",
+    "item_count": 120,
     "items": [
         {
             "item_id": "290509714",
@@ -37,18 +37,6 @@
             "item_sub_type": "EquipmentAccessory",
             "item_sprite_id": 19814,
             "pixyship_estimate": 11539
-        },
-        {
-            "item_id": "290768922",
-            "item_design_id": "1718",
-            "bonus_type": "Pilot",
-            "bonus_value": "9.1",
-            "quantity": "1",
-            "name": "Hydrone 2.0",
-            "rarity": "Special",
-            "item_sub_type": "EquipmentAccessory",
-            "item_sprite_id": 19814,
-            "pixyship_estimate": 3657
         },
         {
             "item_id": "290673718",
