@@ -1,5 +1,5 @@
 {
-    "generated": "2025-10-15 10:52:49",
+    "generated": "2025-10-15 23:53:14",
     "item_count": 119,
     "items": [
         {
@@ -27,7 +27,7 @@
             "pixyship_estimate": 4568
         },
         {
-            "item_id": "291005430",
+            "item_id": "market-562353584",
             "item_design_id": "1718",
             "bonus_type": "FireResistance",
             "bonus_value": "59.4",
@@ -36,6 +36,7 @@
             "rarity": "Special",
             "item_sub_type": "EquipmentAccessory",
             "item_sprite_id": 19814,
+            "item_price": 11000,
             "pixyship_estimate": 10768
         },
         {
@@ -649,7 +650,7 @@
             "rarity": "Hero",
             "item_sub_type": "EquipmentWeapon",
             "item_sprite_id": 11219,
-            "pixyship_estimate": 644
+            "pixyship_estimate": 635
         },
         {
             "item_id": "285289779",
@@ -793,7 +794,7 @@
             "rarity": "Hero",
             "item_sub_type": "EquipmentWeapon",
             "item_sprite_id": 12544,
-            "pixyship_estimate": 433
+            "pixyship_estimate": 451
         },
         {
             "item_id": "288786514",
@@ -976,7 +977,7 @@
             "pixyship_estimate": 296
         },
         {
-            "item_id": "market-562297854",
+            "item_id": "291252659",
             "item_design_id": "952",
             "bonus_type": "Ability",
             "bonus_value": "14.9",
@@ -985,7 +986,6 @@
             "rarity": "Hero",
             "item_sub_type": "EquipmentHead",
             "item_sprite_id": 14565,
-            "item_price": 1100,
             "pixyship_estimate": null
         },
         {
@@ -1226,7 +1226,7 @@
             "rarity": "Hero",
             "item_sub_type": "EquipmentBody",
             "item_sprite_id": 13939,
-            "pixyship_estimate": 1529
+            "pixyship_estimate": 1521
         },
         {
             "item_id": "289376912",
@@ -1430,7 +1430,7 @@
             "rarity": "Hero",
             "item_sub_type": "EquipmentLeg",
             "item_sprite_id": 12887,
-            "pixyship_estimate": 307
+            "pixyship_estimate": 298
         }
     ]
 }
