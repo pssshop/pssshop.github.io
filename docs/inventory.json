@@ -1,6 +1,6 @@
 {
-    "generated": "2025-10-16 02:58:06",
-    "item_count": 122,
+    "generated": "2025-10-16 19:09:45",
+    "item_count": 121,
     "items": [
         {
             "item_id": "290509714",
@@ -27,7 +27,7 @@
             "pixyship_estimate": 4568
         },
         {
-            "item_id": "market-562353584",
+            "item_id": "291288868",
             "item_design_id": "1718",
             "bonus_type": "FireResistance",
             "bonus_value": "59.4",
@@ -36,7 +36,6 @@
             "rarity": "Special",
             "item_sub_type": "EquipmentAccessory",
             "item_sprite_id": 19814,
-            "item_price": 11000,
             "pixyship_estimate": 10768
         },
         {
@@ -76,7 +75,7 @@
             "pixyship_estimate": 1339
         },
         {
-            "item_id": "290826367",
+            "item_id": "market-562439484",
             "item_design_id": "1749",
             "bonus_type": "Pilot",
             "bonus_value": "9.7",
@@ -85,6 +84,7 @@
             "rarity": "Special",
             "item_sub_type": "EquipmentWeapon",
             "item_sprite_id": 20082,
+            "item_price": 12500,
             "pixyship_estimate": 11784
         },
         {
@@ -173,18 +173,6 @@
             "pixyship_estimate": 570
         },
         {
-            "item_id": "290693468",
-            "item_design_id": "514",
-            "bonus_type": "Attack",
-            "bonus_value": "0.4",
-            "quantity": "1",
-            "name": "Captain's Skullmet",
-            "rarity": "Hero",
-            "item_sub_type": "EquipmentHead",
-            "item_sprite_id": 10047,
-            "pixyship_estimate": 1735
-        },
-        {
             "item_id": "291010701",
             "item_design_id": "514",
             "bonus_type": "FireResistance",
@@ -233,7 +221,7 @@
             "pixyship_estimate": 300
         },
         {
-            "item_id": "market-562329345",
+            "item_id": "291285925",
             "item_design_id": "514",
             "bonus_type": "Hp",
             "bonus_value": "2",
@@ -242,7 +230,6 @@
             "rarity": "Hero",
             "item_sub_type": "EquipmentHead",
             "item_sprite_id": 10047,
-            "item_price": 4000,
             "pixyship_estimate": 3943
         },
         {
@@ -507,7 +494,7 @@
             "rarity": "Hero",
             "item_sub_type": "EquipmentWeapon",
             "item_sprite_id": 5007,
-            "pixyship_estimate": 354
+            "pixyship_estimate": 352
         },
         {
             "item_id": "286196812",
@@ -519,7 +506,7 @@
             "rarity": "Hero",
             "item_sub_type": "EquipmentWeapon",
             "item_sprite_id": 5007,
-            "pixyship_estimate": 310
+            "pixyship_estimate": 306
         },
         {
             "item_id": "289965509",
@@ -606,6 +593,18 @@
             "pixyship_estimate": 222
         },
         {
+            "item_id": "291303612",
+            "item_design_id": "163",
+            "bonus_type": "Pilot",
+            "bonus_value": "6.3",
+            "quantity": "1",
+            "name": "Golden Cai Dao",
+            "rarity": "Hero",
+            "item_sub_type": "EquipmentWeapon",
+            "item_sprite_id": 5007,
+            "pixyship_estimate": 167
+        },
+        {
             "item_id": "290512075",
             "item_design_id": "163",
             "bonus_type": "Weapon",
@@ -687,7 +686,7 @@
             "rarity": "Hero",
             "item_sub_type": "EquipmentWeapon",
             "item_sprite_id": 11219,
-            "pixyship_estimate": 738
+            "pixyship_estimate": 729
         },
         {
             "item_id": "291033383",
@@ -712,18 +711,6 @@
             "item_sub_type": "EquipmentAccessory",
             "item_sprite_id": 12025,
             "pixyship_estimate": 1773
-        },
-        {
-            "item_id": "291211293",
-            "item_design_id": "678",
-            "bonus_type": "Pilot",
-            "bonus_value": "4.9",
-            "quantity": "1",
-            "name": "King Husky",
-            "rarity": "Hero",
-            "item_sub_type": "EquipmentAccessory",
-            "item_sprite_id": 12025,
-            "pixyship_estimate": 416
         },
         {
             "item_id": "282655372",
@@ -771,7 +758,7 @@
             "rarity": "Hero",
             "item_sub_type": "EquipmentWeapon",
             "item_sprite_id": 12544,
-            "pixyship_estimate": 462
+            "pixyship_estimate": 465
         },
         {
             "item_id": "290660308",
@@ -903,7 +890,7 @@
             "rarity": "Hero",
             "item_sub_type": "EquipmentBody",
             "item_sprite_id": 15251,
-            "pixyship_estimate": 1367
+            "pixyship_estimate": 1409
         },
         {
             "item_id": "290446371",
@@ -1431,7 +1418,7 @@
             "rarity": "Hero",
             "item_sub_type": "EquipmentBody",
             "item_sprite_id": 3757,
-            "pixyship_estimate": 289
+            "pixyship_estimate": 283
         },
         {
             "item_id": "289606481",
@@ -1443,7 +1430,7 @@
             "rarity": "Hero",
             "item_sub_type": "EquipmentBody",
             "item_sprite_id": 3757,
-            "pixyship_estimate": 289
+            "pixyship_estimate": 283
         },
         {
             "item_id": "286032720",
