@@ -1,6 +1,6 @@
 {
-    "generated": "2025-10-16 20:30:12",
-    "item_count": 126,
+    "generated": "2025-10-16 23:59:51",
+    "item_count": 125,
     "items": [
         {
             "item_id": "290509714",
@@ -182,7 +182,7 @@
             "rarity": "Hero",
             "item_sub_type": "EquipmentAccessory",
             "item_sprite_id": 9983,
-            "pixyship_estimate": 990
+            "pixyship_estimate": 966
         },
         {
             "item_id": "289472191",
@@ -362,7 +362,7 @@
             "rarity": "Hero",
             "item_sub_type": "EquipmentBody",
             "item_sprite_id": 4819,
-            "pixyship_estimate": 529
+            "pixyship_estimate": 540
         },
         {
             "item_id": "290106780",
@@ -483,7 +483,7 @@
             "rarity": "Hero",
             "item_sub_type": "EquipmentWeapon",
             "item_sprite_id": 16605,
-            "pixyship_estimate": 696
+            "pixyship_estimate": 624
         },
         {
             "item_id": "286410130",
@@ -507,7 +507,7 @@
             "rarity": "Hero",
             "item_sub_type": "EquipmentWeapon",
             "item_sprite_id": 5007,
-            "pixyship_estimate": 304
+            "pixyship_estimate": 301
         },
         {
             "item_id": "288903652",
@@ -663,7 +663,7 @@
             "rarity": "Hero",
             "item_sub_type": "EquipmentWeapon",
             "item_sprite_id": 11219,
-            "pixyship_estimate": 1194
+            "pixyship_estimate": 1158
         },
         {
             "item_id": "291211292",
@@ -675,7 +675,7 @@
             "rarity": "Hero",
             "item_sub_type": "EquipmentWeapon",
             "item_sprite_id": 11219,
-            "pixyship_estimate": 672
+            "pixyship_estimate": 662
         },
         {
             "item_id": "289327745",
@@ -963,7 +963,7 @@
             "rarity": "Hero",
             "item_sub_type": "EquipmentAccessory",
             "item_sprite_id": 14738,
-            "pixyship_estimate": 1455
+            "pixyship_estimate": 1453
         },
         {
             "item_id": "291140898",
@@ -975,7 +975,7 @@
             "rarity": "Hero",
             "item_sub_type": "EquipmentAccessory",
             "item_sprite_id": 14738,
-            "pixyship_estimate": 1121
+            "pixyship_estimate": 1115
         },
         {
             "item_id": "290448029",
@@ -1011,7 +1011,7 @@
             "rarity": "Hero",
             "item_sub_type": "EquipmentAccessory",
             "item_sprite_id": 14738,
-            "pixyship_estimate": 302
+            "pixyship_estimate": 367
         },
         {
             "item_id": "291252659",
@@ -1311,7 +1311,7 @@
             "rarity": "Hero",
             "item_sub_type": "EquipmentBody",
             "item_sprite_id": 13939,
-            "pixyship_estimate": 204
+            "pixyship_estimate": 201
         },
         {
             "item_id": "290080298",
@@ -1338,18 +1338,6 @@
             "pixyship_estimate": 2695
         },
         {
-            "item_id": "282819114",
-            "item_design_id": "1494",
-            "bonus_type": "Science",
-            "bonus_value": "6.2",
-            "quantity": "1",
-            "name": "Starburst Bulwark",
-            "rarity": "Hero",
-            "item_sub_type": "EquipmentWeapon",
-            "item_sprite_id": 12218,
-            "pixyship_estimate": 687
-        },
-        {
             "item_id": "290618307",
             "item_design_id": "1494",
             "bonus_type": "Weapon",
@@ -1359,7 +1347,7 @@
             "rarity": "Hero",
             "item_sub_type": "EquipmentWeapon",
             "item_sprite_id": 12218,
-            "pixyship_estimate": 2889
+            "pixyship_estimate": 2834
         },
         {
             "item_id": "291315274",
