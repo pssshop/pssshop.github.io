@@ -394,6 +394,26 @@ function App() {
                             </span>
                         )}
                     </p>
+                    <div className="search-box">
+                        <input
+                            type="text"
+                            placeholder="Search..."
+                            value={search}
+                            onChange={(e) => setSearch(e.target.value)}
+                            autoFocus
+                        />
+                        {search && (
+                            <button
+                                type="button"
+                                onClick={() => setSearch('')}
+                                aria-label="Clear search"
+                                title="Clear search"
+                                className="search-clear-btn"
+                            >
+                                &#10006;
+                            </button>
+                        )}
+                    </div>
                     <div className="table-wrapper">
                         <table>
                             <thead>
