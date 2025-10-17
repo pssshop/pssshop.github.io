@@ -379,6 +379,33 @@ function App() {
                             >
                                 Export
                             </button>
+
+                            {/* Admin summary: total count and total price using admin overrides */}
+                            <div className="admin-summary">
+                                {(() => {
+                                    // compute totals
+                                    let totalCount = 0;
+                                    let totalPrice = 0;
+                                    items.forEach((it) => {
+                                        const id = String(it.item_id);
+                                        const qty = Number(it.quantity) || 1;
+                                        totalCount += qty;
+                                        // Determine canonical price for totals: admin edit -> item.item_price -> prices.json
+                                        const editVal = adminPriceEdits[id];
+                                        const editNum = typeof editVal !== 'undefined' && editVal !== null && editVal !== '' ? Number(editVal) : null;
+                                        const invNum = typeof it.item_price !== 'undefined' && it.item_price !== null && it.item_price !== '' ? Number(it.item_price) : null;
+                                        const priceJsonNum = typeof prices[id] !== 'undefined' && !isNaN(Number(prices[id])) ? Number(prices[id]) : null;
+                                        const usedPrice = editNum !== null ? editNum : (invNum !== null ? invNum : priceJsonNum);
+                                        if (usedPrice !== null && !isNaN(usedPrice)) totalPrice += usedPrice * qty;
+                                    });
+                                    return (
+                                        <div>
+                                            <div>Items: <strong>{totalCount}</strong></div>
+                                            <div>Price: <strong>{totalPrice.toLocaleString()}</strong></div>
+                                        </div>
+                                    );
+                                })()}
+                            </div>
                         </div>
                     )}
 
