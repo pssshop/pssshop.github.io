@@ -1,5 +1,5 @@
 {
-    "generated": "2025-10-16 23:59:51",
+    "generated": "2025-10-17 01:14:05",
     "item_count": 125,
     "items": [
         {
@@ -27,7 +27,7 @@
             "pixyship_estimate": 4568
         },
         {
-            "item_id": "291288868",
+            "item_id": "market-562473524",
             "item_design_id": "1718",
             "bonus_type": "FireResistance",
             "bonus_value": "59.4",
@@ -36,6 +36,7 @@
             "rarity": "Special",
             "item_sub_type": "EquipmentAccessory",
             "item_sprite_id": 19814,
+            "item_price": 10850,
             "pixyship_estimate": 10768
         },
         {
@@ -160,7 +161,7 @@
             "pixyship_estimate": 463
         },
         {
-            "item_id": "market-562396295",
+            "item_id": "291327327",
             "item_design_id": "435",
             "bonus_type": "Weapon",
             "bonus_value": "6.2",
@@ -169,7 +170,6 @@
             "rarity": "Hero",
             "item_sub_type": "EquipmentAccessory",
             "item_sprite_id": 9983,
-            "item_price": 4350,
             "pixyship_estimate": 2936
         },
         {
@@ -1011,7 +1011,7 @@
             "rarity": "Hero",
             "item_sub_type": "EquipmentAccessory",
             "item_sprite_id": 14738,
-            "pixyship_estimate": 367
+            "pixyship_estimate": 369
         },
         {
             "item_id": "291252659",
