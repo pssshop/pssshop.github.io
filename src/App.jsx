@@ -3,16 +3,7 @@ import { useEffect, useState, useRef } from 'react';
 function Tooltip({ visible, top, left, children }) {
     if (!visible) return null;
     return (
-        <div
-            className="pss-tooltip"
-            style={{
-                position: 'fixed',
-                top: top || 40,
-                left: left || 40,
-                transform: 'translate(-50%, -100%)',
-                zIndex: 100,
-            }}
-        >
+        <div className="pss-tooltip" style={{ top: top || 40, left: left || 40 }}>
             {children}
         </div>
     );
@@ -25,19 +16,19 @@ function ThemeToggle({ theme, setTheme }) {
     let icon;
     if (theme === 'dark') {
         icon = (
-            <span title="Dark mode" style={{ fontSize: '1.4em' }}>
+            <span title="Dark mode" className="theme-toggle-icon">
                 🌙
             </span>
         );
     } else if (theme === 'light') {
         icon = (
-            <span title="Light mode" style={{ fontSize: '1.4em' }}>
+            <span title="Light mode" className="theme-toggle-icon">
                 ☀️
             </span>
         );
     } else {
         icon = (
-            <span title="Auto" style={{ fontSize: '1.4em' }}>
+            <span title="Auto" className="theme-toggle-icon">
                 🌓
             </span>
         );
@@ -125,7 +116,7 @@ function App() {
     });
     const rowRefs = useRef([]);
     const containerRef = useRef(null);
-    const lastMousePos = useRef({ x: 0, y: 0 });
+    const [adminPriceEdits, setAdminPriceEdits] = useState({});
 
     useEffect(() => {
         // F1 toggles admin view, Escape clears search and tooltip
@@ -207,7 +198,58 @@ function App() {
         }
     }, [theme]);
 
-    if (error) return <div style={{ color: 'red' }}>Error: {error.message}</div>;
+    // Helper to update an admin edit
+    const handlePriceEdit = (itemId, value) => {
+        // allow empty string to clear override
+        setAdminPriceEdits((prev) => {
+            const next = { ...prev };
+            if (value === '' || value === null) {
+                delete next[itemId];
+            } else {
+                // store as string to preserve input, convert when exporting
+                next[itemId] = value;
+            }
+            return next;
+        });
+    };
+
+    // Build price mapping from current edits + inventory/prices
+    const buildPricesMapping = (items) => {
+        const out = {};
+        items.forEach((item) => {
+            const id = String(item.item_id);
+            const edit = adminPriceEdits[id];
+            let val;
+            if (typeof edit !== 'undefined' && edit !== null && edit !== '') {
+                const n = Number(edit);
+                if (!isNaN(n)) val = n;
+            } else if (typeof item.item_price !== 'undefined' && item.item_price !== null && item.item_price !== '') {
+                const n = Number(item.item_price);
+                if (!isNaN(n)) val = n;
+            } else if (typeof prices[id] !== 'undefined') {
+                const n = Number(prices[id]);
+                if (!isNaN(n)) val = n;
+            }
+            if (typeof val !== 'undefined') out[id] = val;
+        });
+        return out;
+    };
+
+    // Download generated prices.json
+    const downloadPricesJson = (items) => {
+        const mapping = buildPricesMapping(items);
+        const blob = new Blob([JSON.stringify(mapping, null, 4)], { type: 'application/json' });
+        const url = URL.createObjectURL(blob);
+        const a = document.createElement('a');
+        a.href = url;
+        a.download = 'prices.json';
+        document.body.appendChild(a);
+        a.click();
+        a.remove();
+        URL.revokeObjectURL(url);
+    };
+
+    if (error) return <div className="error-text">Error: {error.message}</div>;
     if (!inventory || !prices) return <div>Loading...</div>;
 
     // Use new inventory format: { generated, item_count, items: [...] }
@@ -323,8 +365,23 @@ function App() {
         return (
             <>
                 <ThemeToggle theme={theme} setTheme={setTheme} />
-                <div className="container" style={{ position: 'relative' }} ref={containerRef}>
+                <div className="container" ref={containerRef}>
                     <h1>Inventory</h1>
+                    {adminView && (
+                        <div className="admin-float">
+                            <button
+                                type="button"
+                                onClick={() => {
+                                    downloadPricesJson(items);
+                                }}
+                                title="Download prices.json"
+                                className="admin-toggle-button"
+                            >
+                                Export
+                            </button>
+                        </div>
+                    )}
+
                     <p className="intro-text">
                         Prices displayed are my initial asking prices based on market research from pixyship and may
                         change over time. Fair offers are welcome and discount agreements could be reached for
@@ -337,40 +394,12 @@ function App() {
                             </span>
                         )}
                     </p>
-                    <div className="search-box">
-                        <input
-                            type="text"
-                            placeholder="Search..."
-                            value={search}
-                            onChange={(e) => setSearch(e.target.value)}
-                            autoFocus
-                        />
-                        {search && (
-                            <button
-                                type="button"
-                                onClick={() => setSearch('')}
-                                aria-label="Clear search"
-                                title="Clear search"
-                                className="search-clear-btn"
-                            >
-                                &#10006;
-                            </button>
-                        )}
-                    </div>
                     <div className="table-wrapper">
                         <table>
                             <thead>
                                 <tr>
                                     {columns.map((key) => (
-                                        <th
-                                            key={key}
-                                            onClick={() => handleSort(key)}
-                                            style={{
-                                                cursor: 'pointer',
-                                                userSelect: 'none',
-                                                textAlign: key === 'price' ? 'right' : undefined,
-                                            }}
-                                        >
+                                        <th key={key} className={`th-cell ${key === 'price' ? 'th-price' : ''}`} onClick={() => handleSort(key)}>
                                             {headerLabels[key]}
                                             {sortConfig.key === key
                                                 ? sortConfig.direction === 'asc'
@@ -386,8 +415,7 @@ function App() {
                                     <tr
                                         key={idx}
                                         ref={(el) => (rowRefs.current[idx] = el)}
-                                        className={getRarityClass(item.rarity)}
-                                        style={{ cursor: 'pointer' }}
+                                        className={`${getRarityClass(item.rarity)} clickable-row`}
                                         onClick={(e) => {
                                             window.open(
                                                 `https://pixyship.com/item/${item.item_design_id}?activeTab=tab-players-sales`,
@@ -438,15 +466,41 @@ function App() {
                                             }
 
                                             if (key === 'price') {
-                                                // Use item_price from inventory.json if present, else prices.json
-                                                let price =
-                                                    typeof item.item_price !== 'undefined'
-                                                        ? item.item_price
-                                                        : prices[item.item_id];
-                                                let priceNum = price && !isNaN(Number(price)) ? Number(price) : null;
-                                                if (priceNum !== null) {
-                                                    price = priceNum.toLocaleString();
+                                                const id = String(item.item_id);
+                                                const editVal = adminPriceEdits[id];
+                                                const editNum =
+                                                    typeof editVal !== 'undefined' && editVal !== null && editVal !== ''
+                                                        ? Number(editVal)
+                                                        : null;
+                                                const inventoryNum =
+                                                    typeof item.item_price !== 'undefined' && item.item_price !== null && item.item_price !== ''
+                                                        ? Number(item.item_price)
+                                                        : null;
+                                                // When not in admin view prefer prices.json (the authoritative export file).
+                                                let basePriceNum;
+                                                if (adminView) {
+                                                    // In admin mode: edits override inventory, then prices.json
+                                                    basePriceNum =
+                                                        editNum !== null
+                                                            ? editNum
+                                                            : !isNaN(Number(inventoryNum))
+                                                                ? inventoryNum
+                                                                : !isNaN(Number(prices[id]))
+                                                                    ? Number(prices[id])
+                                                                    : null;
+                                                } else {
+                                                    // Non-admin view: prefer prices.json, fall back to inventory if missing
+                                                    basePriceNum =
+                                                        typeof prices[id] !== 'undefined' && !isNaN(Number(prices[id]))
+                                                            ? Number(prices[id])
+                                                            : !isNaN(Number(inventoryNum))
+                                                                ? inventoryNum
+                                                                : null;
                                                 }
+
+                                                const basePriceStr =
+                                                    basePriceNum !== null ? basePriceNum.toLocaleString() : null;
+
                                                 let estimate =
                                                     typeof item.pixyship_estimate !== 'undefined'
                                                         ? item.pixyship_estimate
@@ -456,40 +510,14 @@ function App() {
                                                 if (estimateNum !== null) {
                                                     estimate = estimateNum.toLocaleString();
                                                 }
+                                                let showEstimateOnly = basePriceNum === null && estimateNum !== null;
+
+                                                // Color & percent diff use basePriceNum
                                                 let color = '';
-                                                let showEstimateOnly = priceNum === null && estimateNum !== null;
-                                                // Only show Pixyship price and color in admin view
-                                                let displayPrice = '';
-                                                let displayEstimate = '';
                                                 let percentDiff = null;
-                                                if (adminView) {
-                                                    if (showEstimateOnly && estimateNum !== null) {
-                                                        displayEstimate = highlightText(estimate);
-                                                    } else if (price) {
-                                                        displayPrice = highlightText(price);
-                                                    }
-                                                    // Show % difference if both prices exist
-                                                    if (
-                                                        !showEstimateOnly &&
-                                                        priceNum !== null &&
-                                                        estimateNum !== null
-                                                    ) {
-                                                        percentDiff = (
-                                                            ((priceNum - estimateNum) / estimateNum) *
-                                                            100
-                                                        ).toFixed(1);
-                                                    }
-                                                } else {
-                                                    // Only show user's price if present and not showing estimate only
-                                                    if (!showEstimateOnly && price) {
-                                                        displayPrice = highlightText(price);
-                                                    }
-                                                }
-                                                // Only show Pixyship price color in admin view
                                                 if (
                                                     adminView &&
-                                                    !showEstimateOnly &&
-                                                    priceNum !== null &&
+                                                    basePriceNum !== null &&
                                                     estimateNum !== null
                                                 ) {
                                                     let currentTheme = theme;
@@ -498,48 +526,82 @@ function App() {
                                                         (currentTheme === 'auto' &&
                                                             window.matchMedia('(prefers-color-scheme: dark)').matches)
                                                     ) {
-                                                        color = priceNum <= estimateNum ? '#318741ff' : '#872b2bff';
+                                                        color = basePriceNum <= estimateNum ? '#318741ff' : '#872b2bff';
                                                     } else {
-                                                        color = priceNum <= estimateNum ? '#2c4a00ff' : '#330000ff';
+                                                        color = basePriceNum <= estimateNum ? '#2c4a00ff' : '#330000ff';
+                                                    }
+                                                    percentDiff = (((basePriceNum - estimateNum) / estimateNum) * 100).toFixed(1);
+                                                }
+
+                                                // prepare inventory display (left side in admin): prefer item.item_price, fallback to prices.json
+                                                const inventoryDisplayNum =
+                                                    typeof item.item_price !== 'undefined' && item.item_price !== null && item.item_price !== ''
+                                                        ? Number(item.item_price)
+                                                        : null;
+                                                const inventoryFallbackNum =
+                                                    inventoryDisplayNum === null && typeof prices[id] !== 'undefined' && !isNaN(Number(prices[id]))
+                                                        ? Number(prices[id])
+                                                        : null;
+
+                                                // compute percent diff based on inventory display (not admin override)
+                                                const inventoryCompareNum = inventoryDisplayNum !== null ? inventoryDisplayNum : inventoryFallbackNum;
+                                                let inventoryPercentDiff = null;
+                                                let inventoryPercentColor = '';
+                                                if (inventoryCompareNum !== null && estimateNum !== null) {
+                                                    inventoryPercentDiff = (((inventoryCompareNum - estimateNum) / estimateNum) * 100).toFixed(1);
+                                                    let currentTheme = theme;
+                                                    if (
+                                                        currentTheme === 'dark' ||
+                                                        (currentTheme === 'auto' && window.matchMedia('(prefers-color-scheme: dark)').matches)
+                                                    ) {
+                                                        inventoryPercentColor = inventoryCompareNum <= estimateNum ? '#318741ff' : '#872b2bff';
+                                                    } else {
+                                                        inventoryPercentColor = inventoryCompareNum <= estimateNum ? '#2c4a00ff' : '#330000ff';
                                                     }
                                                 }
+
                                                 return (
                                                     <td
                                                         key={key}
                                                         className="price-col"
-                                                        style={{
-                                                            textAlign: 'right',
-                                                            color: showEstimateOnly
-                                                                ? '#888'
-                                                                : adminView
-                                                                  ? color
-                                                                  : undefined,
-                                                            fontStyle: showEstimateOnly ? 'italic' : undefined,
-                                                        }}
                                                         title={estimate ? `Pixyship Estimate: ${estimate}` : undefined}
+                                                        style={{ fontStyle: showEstimateOnly ? 'italic' : undefined, '--admin-price-color': adminView ? color : undefined }}
                                                     >
                                                         {adminView ? (
-                                                            <>
-                                                                {showEstimateOnly ? displayEstimate : displayPrice}
-                                                                {percentDiff !== null && (
-                                                                    <span
-                                                                        style={{
-                                                                            marginLeft: 8,
-                                                                            fontSize: '0.95em',
-                                                                            color:
-                                                                                percentDiff < 0
-                                                                                    ? '#318741ff'
-                                                                                    : '#872b2bff',
-                                                                            fontWeight: 'bold',
-                                                                        }}
-                                                                    >
-                                                                        ({percentDiff > 0 ? '+' : ''}
-                                                                        {percentDiff}%)
+                                                            <div className="price-admin-row">
+                                                                <span className={inventoryDisplayNum === null && estimateNum === null ? 'muted' : ''}>
+                                                                    {adminView && estimateNum !== null
+                                                                        ? estimateNum.toLocaleString()
+                                                                        : (inventoryDisplayNum ?? inventoryFallbackNum ?? '')}
+                                                                </span>
+
+                                                                {inventoryPercentDiff !== null && (
+                                                                    <span className="inventory-percent" style={{ '--inventory-percent-color': inventoryPercentColor }}>
+                                                                        ({inventoryPercentDiff > 0 ? '+' : ''}
+                                                                        {inventoryPercentDiff}%)
                                                                     </span>
                                                                 )}
-                                                            </>
+
+                                                                <input
+                                                                    className="price-input"
+                                                                    type="text"
+                                                                    inputMode="numeric"
+                                                                    pattern="[0-9]*"
+                                                                    value={
+                                                                        typeof adminPriceEdits[id] !== 'undefined'
+                                                                            ? adminPriceEdits[id]
+                                                                            : (typeof prices[id] !== 'undefined' ? String(prices[id]) : (typeof item.item_price !== 'undefined' ? String(item.item_price) : ''))
+                                                                    }
+                                                                    onChange={(e) => {
+                                                                        e.stopPropagation();
+                                                                        handlePriceEdit(id, e.target.value);
+                                                                    }}
+                                                                    onClick={(e) => e.stopPropagation()}
+                                                                />
+                                                            </div>
                                                         ) : (
-                                                            displayPrice
+                                                            // Non-admin: show only prices.json value (no pixyship estimate)
+                                                            <>{highlightText(prices[id] ? String(prices[id]) : '')}</>
                                                         )}
                                                     </td>
                                                 );
@@ -552,13 +614,7 @@ function App() {
                                                             <img
                                                                 src={`https://api.pixelstarships.com/FileService/DownloadSprite?spriteId=${item.item_sprite_id}`}
                                                                 alt={item.name}
-                                                                style={{
-                                                                    width: 24,
-                                                                    height: 24,
-                                                                    objectFit: 'contain',
-                                                                    verticalAlign: 'middle',
-                                                                    marginRight: 6,
-                                                                }}
+                                                                className="item-img"
                                                             />
                                                             {highlightText(
                                                                 `${item.name}${Number(item.quantity) > 1 ? ` x${item.quantity}` : ''}`,
@@ -588,7 +644,7 @@ function App() {
                         {sorted[hoveredRow] && hoveredRow !== null && (
                             <span className="pss-tooltip-text">
                                 <strong>Item ID:</strong>{' '}
-                                <span style={{ fontFamily: 'monospace' }}>{sorted[hoveredRow].item_id}</span>
+                                <span className="monospace">{sorted[hoveredRow].item_id}</span>
                             </span>
                         )}
                     </Tooltip>
