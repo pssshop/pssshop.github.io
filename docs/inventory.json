@@ -1,6 +1,6 @@
 {
-    "generated": "2025-10-16 19:09:45",
-    "item_count": 121,
+    "generated": "2025-10-16 20:28:50",
+    "item_count": 124,
     "items": [
         {
             "item_id": "290509714",
@@ -73,6 +73,30 @@
             "item_sub_type": "EquipmentAccessory",
             "item_sprite_id": 19814,
             "pixyship_estimate": 1339
+        },
+        {
+            "item_id": "291315276",
+            "item_design_id": "1718",
+            "bonus_type": "Repair",
+            "bonus_value": "0.4",
+            "quantity": "1",
+            "name": "Hydrone 2.0",
+            "rarity": "Special",
+            "item_sub_type": "EquipmentAccessory",
+            "item_sprite_id": 19814,
+            "pixyship_estimate": 733
+        },
+        {
+            "item_id": "291315275",
+            "item_design_id": "1718",
+            "bonus_type": "Stamina",
+            "bonus_value": "9",
+            "quantity": "1",
+            "name": "Hydrone 2.0",
+            "rarity": "Special",
+            "item_sub_type": "EquipmentAccessory",
+            "item_sprite_id": 19814,
+            "pixyship_estimate": null
         },
         {
             "item_id": "market-562439484",
@@ -389,7 +413,7 @@
             "pixyship_estimate": 266
         },
         {
-            "item_id": "291142723",
+            "item_id": "market-562450219",
             "item_design_id": "246",
             "bonus_type": "Ability",
             "bonus_value": "13.8",
@@ -398,6 +422,7 @@
             "rarity": "Hero",
             "item_sub_type": "EquipmentHead",
             "item_sprite_id": 7432,
+            "item_price": 2350,
             "pixyship_estimate": 1550
         },
         {
@@ -1335,6 +1360,18 @@
             "item_sub_type": "EquipmentWeapon",
             "item_sprite_id": 12218,
             "pixyship_estimate": 2889
+        },
+        {
+            "item_id": "291315274",
+            "item_design_id": "808",
+            "bonus_type": "Ability",
+            "bonus_value": "15",
+            "quantity": "1",
+            "name": "Trooper Draconian Helmet",
+            "rarity": "Hero",
+            "item_sub_type": "EquipmentHead",
+            "item_sprite_id": 13020,
+            "pixyship_estimate": 2221
         },
         {
             "item_id": "278826883",
