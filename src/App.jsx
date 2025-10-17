@@ -496,90 +496,39 @@ function App() {
                                                     typeof item.item_price !== 'undefined' && item.item_price !== null && item.item_price !== ''
                                                         ? Number(item.item_price)
                                                         : null;
-                                                // When not in admin view prefer prices.json (the authoritative export file).
-                                                let basePriceNum;
-                                                if (adminView) {
-                                                    // In admin mode: edits override inventory, then prices.json
-                                                    basePriceNum =
-                                                        editNum !== null
-                                                            ? editNum
-                                                            : !isNaN(Number(inventoryNum))
-                                                                ? inventoryNum
-                                                                : !isNaN(Number(prices[id]))
-                                                                    ? Number(prices[id])
-                                                                    : null;
-                                                } else {
-                                                    // Non-admin view: prefer prices.json, fall back to inventory if missing
-                                                    basePriceNum =
-                                                        typeof prices[id] !== 'undefined' && !isNaN(Number(prices[id]))
-                                                            ? Number(prices[id])
-                                                            : !isNaN(Number(inventoryNum))
-                                                                ? inventoryNum
-                                                                : null;
-                                                }
+                                                // Determine the canonical "price" used for display and percent calculation:
+                                                // - Normal view: use prices.json value (authoritative)
+                                                // - Admin view: use the input value (if present), otherwise fall back to prices.json
+                                                const priceFromPricesJson = typeof prices[id] !== 'undefined' && !isNaN(Number(prices[id])) ? Number(prices[id]) : null;
+                                                const priceNum = adminView
+                                                    ? (editNum !== null ? editNum : priceFromPricesJson)
+                                                    : priceFromPricesJson;
 
-                                                const basePriceStr =
-                                                    basePriceNum !== null ? basePriceNum.toLocaleString() : null;
+                                                const priceStr = priceNum !== null ? priceNum.toLocaleString() : '';
 
-                                                let estimate =
-                                                    typeof item.pixyship_estimate !== 'undefined'
-                                                        ? item.pixyship_estimate
-                                                        : null;
-                                                let estimateNum =
-                                                    estimate && !isNaN(Number(estimate)) ? Number(estimate) : null;
-                                                if (estimateNum !== null) {
-                                                    estimate = estimateNum.toLocaleString();
-                                                }
-                                                let showEstimateOnly = basePriceNum === null && estimateNum !== null;
+                                                // Pixyship estimate (may be missing)
+                                                let estimate = typeof item.pixyship_estimate !== 'undefined' ? item.pixyship_estimate : null;
+                                                let estimateNum = estimate && !isNaN(Number(estimate)) ? Number(estimate) : null;
+                                                if (estimateNum !== null) estimate = estimateNum.toLocaleString();
 
-                                                // Color & percent diff use basePriceNum
-                                                let color = '';
+                                                // Whether we only have an estimate to show (no price available)
+                                                const showEstimateOnly = priceNum === null && estimateNum !== null;
+
+                                                // Single percent-diff: always (price vs estimate), regardless of admin mode.
                                                 let percentDiff = null;
-                                                if (
-                                                    adminView &&
-                                                    basePriceNum !== null &&
-                                                    estimateNum !== null
-                                                ) {
-                                                    let currentTheme = theme;
-                                                    if (
-                                                        currentTheme === 'dark' ||
-                                                        (currentTheme === 'auto' &&
-                                                            window.matchMedia('(prefers-color-scheme: dark)').matches)
-                                                    ) {
-                                                        color = basePriceNum <= estimateNum ? '#318741ff' : '#872b2bff';
-                                                    } else {
-                                                        color = basePriceNum <= estimateNum ? '#2c4a00ff' : '#330000ff';
-                                                    }
-                                                    percentDiff = (((basePriceNum - estimateNum) / estimateNum) * 100).toFixed(1);
-                                                }
-
-                                                // prepare inventory display (left side in admin): prefer item.item_price, fallback to prices.json
-                                                const inventoryDisplayNum =
-                                                    typeof item.item_price !== 'undefined' && item.item_price !== null && item.item_price !== ''
-                                                        ? Number(item.item_price)
-                                                        : null;
-                                                const inventoryFallbackNum =
-                                                    inventoryDisplayNum === null && typeof prices[id] !== 'undefined' && !isNaN(Number(prices[id]))
-                                                        ? Number(prices[id])
-                                                        : null;
-
-                                                // compute percent diff based on inventory display (not admin override)
-                                                const inventoryCompareNum = inventoryDisplayNum !== null ? inventoryDisplayNum : inventoryFallbackNum;
-                                                let inventoryPercentDiff = null;
-                                                let inventoryPercentColor = '';
-                                                if (inventoryCompareNum !== null && estimateNum !== null) {
-                                                    inventoryPercentDiff = (((inventoryCompareNum - estimateNum) / estimateNum) * 100).toFixed(1);
-                                                    let currentTheme = theme;
+                                                let color = '';
+                                                if (priceNum !== null && estimateNum !== null) {
+                                                    percentDiff = (((priceNum - estimateNum) / estimateNum) * 100).toFixed(1);
+                                                    const currentTheme = theme;
                                                     if (
                                                         currentTheme === 'dark' ||
                                                         (currentTheme === 'auto' && window.matchMedia('(prefers-color-scheme: dark)').matches)
                                                     ) {
-                                                        inventoryPercentColor = inventoryCompareNum <= estimateNum ? '#318741ff' : '#872b2bff';
+                                                        color = priceNum <= estimateNum ? '#318741ff' : '#872b2bff';
                                                     } else {
-                                                        inventoryPercentColor = inventoryCompareNum <= estimateNum ? '#2c4a00ff' : '#330000ff';
+                                                        color = priceNum <= estimateNum ? '#2c4a00ff' : '#330000ff';
                                                     }
                                                 }
-
                                                 return (
                                                     <td
                                                         key={key}
@@ -589,16 +538,13 @@ function App() {
                                                     >
                                                         {adminView ? (
                                                             <div className="price-admin-row">
-                                                                <span className={inventoryDisplayNum === null && estimateNum === null ? 'muted' : ''}>
-                                                                    {adminView && estimateNum !== null
-                                                                        ? estimateNum.toLocaleString()
-                                                                        : (inventoryDisplayNum ?? inventoryFallbackNum ?? '')}
+                                                                <span className={estimateNum === null ? 'muted' : ''}>
+                                                                    {estimateNum !== null ? estimateNum.toLocaleString() : ''}
                                                                 </span>
 
-                                                                {inventoryPercentDiff !== null && (
-                                                                    <span className="inventory-percent" style={{ '--inventory-percent-color': inventoryPercentColor }}>
-                                                                        ({inventoryPercentDiff > 0 ? '+' : ''}
-                                                                        {inventoryPercentDiff}%)
+                                                                {percentDiff !== null && (
+                                                                    <span className="inventory-percent" style={{ color: color }}>
+                                                                        ({percentDiff > 0 ? '+' : ''}{percentDiff}%)
                                                                     </span>
                                                                 )}
 
@@ -618,10 +564,12 @@ function App() {
                                                                     }}
                                                                     onClick={(e) => e.stopPropagation()}
                                                                 />
+
+
                                                             </div>
                                                         ) : (
-                                                            // Non-admin: show only prices.json value (no pixyship estimate)
-                                                            <>{highlightText(prices[id] ? String(prices[id]) : '')}</>
+                                                            // Non-admin: show authoritative prices.json value (no percent)
+                                                            <>{highlightText(priceStr)}</>
                                                         )}
                                                     </td>
                                                 );
