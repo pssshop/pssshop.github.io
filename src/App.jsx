@@ -266,27 +266,6 @@ function App() {
         });
     };
 
-    // Build price mapping from current edits + inventory/prices
-    const buildPricesMapping = (items) => {
-        const out = {};
-        items.forEach((item) => {
-            const id = String(item.item_id);
-            const edit = adminPriceEdits[id];
-            let val;
-            if (typeof edit !== 'undefined' && edit !== null && edit !== '') {
-                const n = Number(edit);
-                if (!isNaN(n)) val = n;
-            } else if (typeof item.item_price !== 'undefined' && item.item_price !== null && item.item_price !== '') {
-                const n = Number(item.item_price);
-                if (!isNaN(n)) val = n;
-            } else if (prices && prices[id] && typeof prices[id] === 'object' && prices[id].price !== undefined) {
-                const n = Number(prices[id].price);
-                if (!isNaN(n)) val = n;
-            }
-            if (typeof val !== 'undefined') out[id] = val;
-        });
-        return out;
-    };
 
     // Download generated prices.json
     const downloadPricesJson = (items) => {
@@ -296,7 +275,12 @@ function App() {
         const sevenDays = 7 * 24 * 60 * 60 * 1000;
         const out = {};
 
-        // Start with existing prices.json entries that are recent (<=7 days)
+        // Build a set of item IDs present in `items`
+        const itemIds = new Set((items || []).map((it) => String(it.item_id)));
+
+        // Start with existing prices.json entries that are recent (<=7 days).
+        // If the price belongs to an item in `items`, refresh lastUpdate to nowStr when keeping it.
+        // If it belongs to a non-item, include it but preserve its original lastUpdate (do not overwrite).
         Object.keys(prices || {}).forEach((key) => {
             const val = prices[key];
             if (val && typeof val === 'object' && val.price !== undefined) {
@@ -305,7 +289,11 @@ function App() {
                 if (!isNaN(p)) {
                     // keep if lastUpdate is within 7 days or missing
                     if (!lu || (now - lu) <= sevenDays) {
-                        out[key] = { price: p, lastUpdate: nowStr };
+                        if (itemIds.has(String(key))) {
+                            out[key] = { price: p, lastUpdate: nowStr };
+                        } else {
+                            out[key] = { price: p, lastUpdate: val.lastUpdate || nowStr };
+                        }
                     }
                 }
             }
@@ -317,7 +305,7 @@ function App() {
             const edit = adminPriceEdits[id];
             const editNum = typeof edit !== 'undefined' && edit !== null && edit !== '' ? Number(edit) : null;
             const invNum = typeof it.item_price !== 'undefined' && it.item_price !== null && it.item_price !== '' ? Number(it.item_price) : null;
-            const priceJsonVal = prices && prices[id] ? (prices[id] && typeof prices[id] === 'object' && prices[id].price !== undefined ? Number(prices[id].price) : Number(prices[id])) : null;
+            const priceJsonVal = prices && prices[id] && typeof prices[id] === 'object' && prices[id].price !== undefined ? Number(prices[id].price) : null;
             // Prefer admin override -> inventory.item_price -> prices.json
             const used = editNum !== null ? editNum : (invNum !== null ? invNum : priceJsonVal);
             if (used !== null && !isNaN(used)) {
