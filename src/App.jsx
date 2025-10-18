@@ -1,4 +1,4 @@
-import { useEffect, useState, useRef } from 'react';
+import { useEffect, useState, useRef, useMemo } from 'react';
 
 function Tooltip({ visible, top, left, children }) {
     if (!visible) return null;
@@ -49,7 +49,6 @@ function ThemeToggle({ theme, setTheme }) {
             onMouseEnter={() => setOpen(true)}
             onMouseLeave={() => setOpen(false)}
             onClick={handleToggleMenu}
-            tabIndex={0}
             aria-label="Theme toggle"
             role="button"
         >
@@ -118,12 +117,65 @@ function App() {
     const containerRef = useRef(null);
     const [adminPriceEdits, setAdminPriceEdits] = useState({});
 
+    // --- helpers ---
+    const parseNumber = (v) => {
+        const n = Number(v);
+        return Number.isFinite(n) ? n : null;
+    };
+
+    const getCanonicalPrice = (itemId, item, preferAdmin = false) => {
+        const id = String(itemId);
+        const edit = adminPriceEdits[id];
+        const editNum = typeof edit !== 'undefined' && edit !== null && edit !== '' ? parseNumber(edit) : null;
+        const invNum = typeof item?.item_price !== 'undefined' && item.item_price !== null && item.item_price !== '' ? parseNumber(item.item_price) : null;
+        const priceJson = typeof prices?.[id] !== 'undefined' && !isNaN(Number(prices[id])) ? parseNumber(prices[id]) : null;
+        if (preferAdmin) return editNum !== null ? editNum : (priceJson !== null ? priceJson : invNum);
+        // normal view prefers prices.json
+        return priceJson !== null ? priceJson : invNum;
+    };
+
+    const getEstimateNum = (item) => {
+        if (!item) return null;
+        const e = item.pixyship_estimate;
+        return typeof e !== 'undefined' && e !== null && e !== '' && !isNaN(Number(e)) ? parseNumber(e) : null;
+    };
+
+    const computePercentAndColor = (priceNum, estimateNum) => {
+        if (priceNum === null || estimateNum === null) return { percent: null, color: '' };
+        const percent = (((priceNum - estimateNum) / estimateNum) * 100).toFixed(1);
+        const isDark = theme === 'dark' || (theme === 'auto' && window.matchMedia('(prefers-color-scheme: dark)').matches);
+        const color = isDark ? (priceNum <= estimateNum ? '#318741ff' : '#872b2bff') : (priceNum <= estimateNum ? '#2c4a00ff' : '#330000ff');
+        return { percent, color };
+    };
+
+    // memoize totals and mapping
+    const totals = useMemo(() => {
+        let totalCount = 0;
+        let totalPrice = 0;
+        (inventory?.items || []).forEach((it) => {
+            const qty = Number(it.quantity) || 1;
+            totalCount += qty;
+            const used = getCanonicalPrice(it.item_id, it, true);
+            if (used !== null) totalPrice += used * qty;
+        });
+        return { totalCount, totalPrice };
+    }, [inventory, adminPriceEdits, prices]);
+
+    const pricesMapping = useMemo(() => {
+        const out = {};
+        (inventory?.items || []).forEach((it) => {
+            const id = String(it.item_id);
+            const val = getCanonicalPrice(it.item_id, it, true);
+            if (val !== null) out[id] = val;
+        });
+        return out;
+    }, [inventory, adminPriceEdits, prices]);
+
     useEffect(() => {
         // F1 toggles admin view, Escape clears search and tooltip
         const handleKeyDown = (e) => {
             if (e.key === 'F1' && !e.repeat) {
                 e.preventDefault();
-                console.log(`Toggling admin view to ${!adminView}`);
                 setAdminView((prev) => !prev);
             }
 
@@ -237,7 +289,7 @@ function App() {
 
     // Download generated prices.json
     const downloadPricesJson = (items) => {
-        const mapping = buildPricesMapping(items);
+        const mapping = pricesMapping; // memoized
         const blob = new Blob([JSON.stringify(mapping, null, 4)], { type: 'application/json' });
         const url = URL.createObjectURL(blob);
         const a = document.createElement('a');
@@ -382,29 +434,8 @@ function App() {
 
                             {/* Admin summary: total count and total price using admin overrides */}
                             <div className="admin-summary">
-                                {(() => {
-                                    // compute totals
-                                    let totalCount = 0;
-                                    let totalPrice = 0;
-                                    items.forEach((it) => {
-                                        const id = String(it.item_id);
-                                        const qty = Number(it.quantity) || 1;
-                                        totalCount += qty;
-                                        // Determine canonical price for totals: admin edit -> item.item_price -> prices.json
-                                        const editVal = adminPriceEdits[id];
-                                        const editNum = typeof editVal !== 'undefined' && editVal !== null && editVal !== '' ? Number(editVal) : null;
-                                        const invNum = typeof it.item_price !== 'undefined' && it.item_price !== null && it.item_price !== '' ? Number(it.item_price) : null;
-                                        const priceJsonNum = typeof prices[id] !== 'undefined' && !isNaN(Number(prices[id])) ? Number(prices[id]) : null;
-                                        const usedPrice = editNum !== null ? editNum : (invNum !== null ? invNum : priceJsonNum);
-                                        if (usedPrice !== null && !isNaN(usedPrice)) totalPrice += usedPrice * qty;
-                                    });
-                                    return (
-                                        <div>
-                                            <div>Items: <strong>{totalCount}</strong></div>
-                                            <div>Price: <strong>{totalPrice.toLocaleString()}</strong></div>
-                                        </div>
-                                    );
-                                })()}
+                                <div>Items: <strong>{totals.totalCount}</strong></div>
+                                <div>Price: <strong>{totals.totalPrice.toLocaleString()}</strong></div>
                             </div>
                         </div>
                     )}
@@ -470,16 +501,6 @@ function App() {
                                                 'noopener,noreferrer',
                                             );
                                         }}
-                                        tabIndex={0}
-                                        onKeyDown={(e) => {
-                                            if (e.key === 'Enter' || e.key === ' ') {
-                                                window.open(
-                                                    `https://pixyship.com/item/${item.item_design_id}?activeTab=tab-players-sales`,
-                                                    '_blank',
-                                                    'noopener,noreferrer',
-                                                );
-                                            }
-                                        }}
                                         onMouseEnter={() => {
                                             setHoveredRow(idx);
                                             if (adminView) {
@@ -514,48 +535,12 @@ function App() {
 
                                             if (key === 'price') {
                                                 const id = String(item.item_id);
-                                                const editVal = adminPriceEdits[id];
-                                                const editNum =
-                                                    typeof editVal !== 'undefined' && editVal !== null && editVal !== ''
-                                                        ? Number(editVal)
-                                                        : null;
-                                                const inventoryNum =
-                                                    typeof item.item_price !== 'undefined' && item.item_price !== null && item.item_price !== ''
-                                                        ? Number(item.item_price)
-                                                        : null;
-                                                // Determine the canonical "price" used for display and percent calculation:
-                                                // - Normal view: use prices.json value (authoritative)
-                                                // - Admin view: use the input value (if present), otherwise fall back to prices.json
-                                                const priceFromPricesJson = typeof prices[id] !== 'undefined' && !isNaN(Number(prices[id])) ? Number(prices[id]) : null;
-                                                const priceNum = adminView
-                                                    ? (editNum !== null ? editNum : priceFromPricesJson)
-                                                    : priceFromPricesJson;
-
+                                                const priceNum = getCanonicalPrice(id, item, adminView);
                                                 const priceStr = priceNum !== null ? priceNum.toLocaleString() : '';
-
-                                                // Pixyship estimate (may be missing)
-                                                let estimate = typeof item.pixyship_estimate !== 'undefined' ? item.pixyship_estimate : null;
-                                                let estimateNum = estimate && !isNaN(Number(estimate)) ? Number(estimate) : null;
-                                                if (estimateNum !== null) estimate = estimateNum.toLocaleString();
-
-                                                // Whether we only have an estimate to show (no price available)
+                                                const estimateNum = getEstimateNum(item);
+                                                const estimate = estimateNum !== null ? estimateNum.toLocaleString() : null;
                                                 const showEstimateOnly = priceNum === null && estimateNum !== null;
-
-                                                // Single percent-diff: always (price vs estimate), regardless of admin mode.
-                                                let percentDiff = null;
-                                                let color = '';
-                                                if (priceNum !== null && estimateNum !== null) {
-                                                    percentDiff = (((priceNum - estimateNum) / estimateNum) * 100).toFixed(1);
-                                                    const currentTheme = theme;
-                                                    if (
-                                                        currentTheme === 'dark' ||
-                                                        (currentTheme === 'auto' && window.matchMedia('(prefers-color-scheme: dark)').matches)
-                                                    ) {
-                                                        color = priceNum <= estimateNum ? '#318741ff' : '#872b2bff';
-                                                    } else {
-                                                        color = priceNum <= estimateNum ? '#2c4a00ff' : '#330000ff';
-                                                    }
-                                                }
+                                                const { percent: percentDiff, color } = computePercentAndColor(priceNum, estimateNum);
                                                 return (
                                                     <td
                                                         key={key}
