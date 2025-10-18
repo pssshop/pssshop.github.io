@@ -1,6 +1,6 @@
 {
-    "generated": "2025-10-18 02:17:19",
-    "item_count": 129,
+    "generated": "2025-10-18 02:34:35",
+    "item_count": 130,
     "items": [
         {
             "item_id": "290509714",
@@ -1166,6 +1166,18 @@
             "item_sub_type": "EquipmentBody",
             "item_sprite_id": 11926,
             "pixyship_estimate": 234
+        },
+        {
+            "item_id": "291401726",
+            "item_design_id": "676",
+            "bonus_type": "Repair",
+            "bonus_value": "0.5",
+            "quantity": "1",
+            "name": "Prototype Stealth Suit",
+            "rarity": "Hero",
+            "item_sub_type": "EquipmentBody",
+            "item_sprite_id": 11926,
+            "pixyship_estimate": 203
         },
         {
             "item_id": "287774547",
