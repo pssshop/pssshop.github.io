@@ -1,6 +1,6 @@
 {
-    "generated": "2025-10-18 00:10:01",
-    "item_count": 127,
+    "generated": "2025-10-18 02:17:19",
+    "item_count": 129,
     "items": [
         {
             "item_id": "290509714",
@@ -27,7 +27,7 @@
             "pixyship_estimate": 4568
         },
         {
-            "item_id": "market-562473524",
+            "item_id": "291397803",
             "item_design_id": "1718",
             "bonus_type": "FireResistance",
             "bonus_value": "59.4",
@@ -36,7 +36,6 @@
             "rarity": "Special",
             "item_sub_type": "EquipmentAccessory",
             "item_sprite_id": 19814,
-            "item_price": 10850,
             "pixyship_estimate": 8721
         },
         {
@@ -628,7 +627,7 @@
             "pixyship_estimate": 222
         },
         {
-            "item_id": "291303612",
+            "item_id": "market-562568653",
             "item_design_id": "163",
             "bonus_type": "Pilot",
             "bonus_value": "6.3",
@@ -637,6 +636,7 @@
             "rarity": "Hero",
             "item_sub_type": "EquipmentWeapon",
             "item_sprite_id": 5007,
+            "item_price": 165,
             "pixyship_estimate": 167
         },
         {
@@ -854,6 +854,18 @@
             "item_sub_type": "EquipmentBody",
             "item_sprite_id": 19675,
             "pixyship_estimate": 384
+        },
+        {
+            "item_id": "291401299",
+            "item_design_id": "1705",
+            "bonus_type": "Pilot",
+            "bonus_value": "9.5",
+            "quantity": "1",
+            "name": "Mach Helm",
+            "rarity": "Hero",
+            "item_sub_type": "EquipmentHead",
+            "item_sprite_id": 19673,
+            "pixyship_estimate": 6527
         },
         {
             "item_id": "291266996",
@@ -1192,6 +1204,18 @@
             "pixyship_estimate": 309
         },
         {
+            "item_id": "291401233",
+            "item_design_id": "490",
+            "bonus_type": "FireResistance",
+            "bonus_value": "38.6",
+            "quantity": "1",
+            "name": "QT Mechworks Drone",
+            "rarity": "Hero",
+            "item_sub_type": "EquipmentAccessory",
+            "item_sprite_id": 10288,
+            "pixyship_estimate": 232
+        },
+        {
             "item_id": "275223227",
             "item_design_id": "490",
             "bonus_type": "FireResistance",
@@ -1516,7 +1540,7 @@
             "pixyship_estimate": 334
         },
         {
-            "item_id": "291315322",
+            "item_id": "market-562569917",
             "item_design_id": "799",
             "bonus_type": "Science",
             "bonus_value": "5.5",
@@ -1525,6 +1549,7 @@
             "rarity": "Hero",
             "item_sub_type": "EquipmentLeg",
             "item_sprite_id": 12887,
+            "item_price": 150,
             "pixyship_estimate": 166
         }
     ]
