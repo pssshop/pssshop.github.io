@@ -8,7 +8,7 @@
   - `scripts/clean-docs.js`: Cleans the build output directory before each build, preserving only essential files.
   - `.husky/pre-commit`: Git hook to auto-build and stage `docs/` before commit.
   - `vite.config.js`: Vite config, outputs build to `docs/` for GitHub Pages hosting.
-  - `src/style.css`: Main CSS styles. Any additional styles should be added here when possible instead of inline styles.
+  - `src/style.css`: Main CSS styles. All additional styles should be added here with classes, instead of inline styles where possible.
 
 ## Developer Workflows
 - **Build:**
@@ -36,6 +36,10 @@
 - **React + Vite:** Main stack; Vite config outputs to `docs/` for static hosting.
 - **Husky:** Used for pre-commit build automation.
 - **GitHub Pages:** Serves the site from the `docs/` directory.
+
+## Copilot Speci
+- Answers should be short and focused. Do not provide long explanations unless specifically asked.
+- Ask before making new patterns outside of what already exists in the project
 
 ## Examples
 - To add a new item, update `docs/inventory.json` and `docs/prices.json`.
