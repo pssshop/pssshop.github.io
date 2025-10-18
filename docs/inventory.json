@@ -1,5 +1,5 @@
 {
-    "generated": "2025-10-18 03:11:55",
+    "generated": "2025-10-18 12:25:38",
     "item_count": 130,
     "items": [
         {
@@ -27,7 +27,7 @@
             "pixyship_estimate": 4568
         },
         {
-            "item_id": "291397803",
+            "item_id": "market-562612823",
             "item_design_id": "1718",
             "bonus_type": "FireResistance",
             "bonus_value": "59.4",
@@ -36,6 +36,7 @@
             "rarity": "Special",
             "item_sub_type": "EquipmentAccessory",
             "item_sprite_id": 19814,
+            "item_price": 10000,
             "pixyship_estimate": 8721
         },
         {
@@ -456,7 +457,7 @@
             "rarity": "Hero",
             "item_sub_type": "EquipmentWeapon",
             "item_sprite_id": 16605,
-            "pixyship_estimate": 186
+            "pixyship_estimate": 184
         },
         {
             "item_id": "278156341",
@@ -627,19 +628,6 @@
             "pixyship_estimate": 222
         },
         {
-            "item_id": "market-562568653",
-            "item_design_id": "163",
-            "bonus_type": "Pilot",
-            "bonus_value": "6.3",
-            "quantity": "1",
-            "name": "Golden Cai Dao",
-            "rarity": "Hero",
-            "item_sub_type": "EquipmentWeapon",
-            "item_sprite_id": 5007,
-            "item_price": 165,
-            "pixyship_estimate": 167
-        },
-        {
             "item_id": "290512075",
             "item_design_id": "163",
             "bonus_type": "Weapon",
@@ -709,7 +697,7 @@
             "rarity": "Hero",
             "item_sub_type": "EquipmentWeapon",
             "item_sprite_id": 11219,
-            "pixyship_estimate": 543
+            "pixyship_estimate": 542
         },
         {
             "item_id": "289561948",
@@ -913,7 +901,7 @@
             "rarity": "Hero",
             "item_sub_type": "EquipmentAccessory",
             "item_sprite_id": 16441,
-            "pixyship_estimate": 567
+            "pixyship_estimate": 568
         },
         {
             "item_id": "278957068",
@@ -1216,6 +1204,18 @@
             "pixyship_estimate": 309
         },
         {
+            "item_id": "291426658",
+            "item_design_id": "490",
+            "bonus_type": "Engine",
+            "bonus_value": "3.8",
+            "quantity": "1",
+            "name": "QT Mechworks Drone",
+            "rarity": "Hero",
+            "item_sub_type": "EquipmentAccessory",
+            "item_sprite_id": 10288,
+            "pixyship_estimate": 1962
+        },
+        {
             "item_id": "291401233",
             "item_design_id": "490",
             "bonus_type": "FireResistance",
@@ -1249,7 +1249,7 @@
             "rarity": "Hero",
             "item_sub_type": "EquipmentAccessory",
             "item_sprite_id": 10288,
-            "pixyship_estimate": 386
+            "pixyship_estimate": 389
         },
         {
             "item_id": "283265580",
