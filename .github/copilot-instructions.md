@@ -1,48 +1,63 @@
 # Copilot Instructions for pssshop
 
-## Project Overview
-- **Purpose:** PSSShop is a React + Vite webapp for browsing/searching a personal Pixel Starships inventory, with prices and market research data.
-- **Major Components:**
-  - `src/App.jsx`: Main UI logic, including search, sorting, theme toggle, and admin view.
-  - `docs/`: Static assets and build output. Includes `inventory.json` and `prices.json` for item data and pricing.
-  - `scripts/clean-docs.js`: Cleans the build output directory before each build, preserving only essential files.
-  - `.husky/pre-commit`: Git hook to auto-build and stage `docs/` before commit.
-  - `vite.config.js`: Vite config, outputs build to `docs/` for GitHub Pages hosting.
-  - `src/style.css`: Main CSS styles. All additional styles should be added here with classes, instead of inline styles where possible.
+Purpose: concise, actionable guidance so an AI coding assistant can be immediately productive with this React + Vite static site.
 
-## Developer Workflows
-- **Build:**
-  - Run `npm run build` (runs `scripts/clean-docs.js` then Vite build; output is in `docs/`).
-  - For local dev: `npm run dev` (Vite dev server).
-- **Pre-commit Automation:**
-  - Commits via terminal will auto-build and stage `docs/` via Husky pre-commit hook.
-  - VS Code GUI commits do not run hooks unless Husky is installed and configured.
-- **Deploy:**
-  - Push to `main` branch; GitHub Pages serves from `docs/`.
+Keep this short — open the referenced files when in doubt.
 
-## Project-Specific Patterns & Conventions
-- **Theme Toggle:** Floating icon in top right, toggles between light/dark/auto modes.
-- **Data Loading:**
-  - Loads `inventory.json` and `prices.json` from `docs/` (dev) or root (prod).
-  - All item data and prices are client-side, no backend.
-- **Build Output:**
-  - Only essential files (`favicon.png`, `inventory.json`, `prices.json`) are preserved in `docs/` between builds.
-- **Custom Sorting:**
-  - Price and bonus columns have custom sort logic in `App.jsx`.
-- **Search Highlighting:**
-  - Search terms are highlighted in results using a regex split in `App.jsx`.
+- Project overview
+  - Tech: React (JSX) + Vite; CSS in `src/style.css`. App is a static SPA built into `docs/` for GitHub Pages.
+  - Entry: `src/main.jsx` → `src/App.jsx` (main UI + logic). Data files live under `docs/` in dev.
 
-## Integration Points
-- **React + Vite:** Main stack; Vite config outputs to `docs/` for static hosting.
-- **Husky:** Used for pre-commit build automation.
-- **GitHub Pages:** Serves the site from the `docs/` directory.
+- Key files
+  - `src/App.jsx` — main UI, search/sort, theme toggle, admin mode, export (`downloadPricesJson`). First place to edit UI behavior.
+  - `src/style.css` — central stylesheet; prefer classes here over inline styles.
+  - `docs/inventory.json`, `docs/prices.json` — runtime data. `prices.json` may be numeric or objects `{ price, lastUpdate }`.
+  - `scripts/clean-docs.js` — cleans `docs/` before builds (preserves a few files).
+  - `vite.config.js` — build output set to `docs/` for GitHub Pages.
+  - `.husky/pre-commit` — runs `npm run build` and stages `docs/` before commit.
 
-## Copilot Speci
-- Answers should be short and focused. Do not provide long explanations unless specifically asked.
-- Ask before making new patterns outside of what already exists in the project
+- How it works (big picture)
+  - The SPA fetches `inventory.json` and `prices.json` at runtime and renders a searchable table.
+  - Admin mode (F1) enables inline price edits; Export builds `prices.json` as `{ id: { price, lastUpdate } }`, pruning stale entries (>7 days).
+  - Price precedence: admin edit → `prices.json` → inventory `item_price`.
 
-## Examples
-- To add a new item, update `docs/inventory.json` and `docs/prices.json`.
-- To change build output, edit `vite.config.js` and/or `scripts/clean-docs.js`.
-- To extend admin features, modify logic in `src/App.jsx` (see adminView state and icon).
+- Developer workflows
+  - Install / dev:
+    - npm install
+    - npm run dev (Vite dev server)
+    - npm run build (produces `docs/`)
+  - Pre-commit: Husky runs `npm run build` and stages `docs/`. Run build locally before committing UI changes.
+
+- Patterns & gotchas
+  - Expect `inventory` shape: `{ generated, item_count, items: [...] }` — use `inventory?.items || []`.
+  - `prices.json` supports both numeric and object forms. Exports use object form; update parsing and export code together.
+  - `adminPriceEdits` stores strings to preserve user input; convert to Number only on export.
+  - Rows are intentionally not tabbable — Tab should focus inline inputs. Keep this behavior.
+
+- Integration points
+  - Data loaded via `fetch()` in `src/App.jsx` (DEV uses `./docs/*`, PROD uses root).
+  - Export uses `downloadPricesJson(items)` to merge existing `prices`, admin edits, and inventory prices, then triggers a browser download.
+
+- Small concrete examples
+  - Add admin control: edit `src/App.jsx` inside the `adminView && ...` block and use `handlePriceEdit(id, value)`.
+  - Change pruning: update `sevenDays` in `downloadPricesJson`.
+  - To add `firstSeen`, set `firstSeen: existing?.firstSeen || nowStr` when writing new entries in `downloadPricesJson`.
+
+- Build / sanity checks
+  - No unit tests. Quick validation: run `npm run build` and verify it completes without errors.
+
+- Where to look first when things break
+  - `src/App.jsx` — largest, most-changing file for UI logic.
+  - If data fails to load, check fetch paths and `import.meta.env.DEV` logic.
+
+---
+
+Assistant reply style (project preference):
+
+- Default replies: short (3–5 bullet points).
+- Provide full/detailed responses only when explicitly requested (say "full" or "expand").
+- Keep edits, file lists, and commands concise unless the developer asks for more.
+
+Add this note so future AI contributors follow the repository owner's communication preference.
+
 

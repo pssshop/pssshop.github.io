@@ -128,19 +128,11 @@ function App() {
         const edit = adminPriceEdits[id];
         const editNum = typeof edit !== 'undefined' && edit !== null && edit !== '' ? parseNumber(edit) : null;
         const invNum = typeof item?.item_price !== 'undefined' && item.item_price !== null && item.item_price !== '' ? parseNumber(item.item_price) : null;
-        // prices.json may store either a plain number or an object { price, lastUpdate }
-        let priceJson = null;
-        if (prices?.[id] !== undefined) {
-            const p = prices[id];
-            if (p !== null && typeof p === 'object' && p.price !== undefined) {
-                priceJson = parseNumber(p.price);
-            } else {
-                priceJson = parseNumber(p);
-            }
-        }
-        if (preferAdmin) return editNum !== null ? editNum : (priceJson !== null ? priceJson : invNum);
-        // normal view prefers prices.json
-        return priceJson !== null ? priceJson : invNum;
+        // prices.json stores objects: { price, lastUpdate }
+        const priceJson = prices?.[id] && typeof prices[id] === 'object' && prices[id].price !== undefined ? parseNumber(prices[id].price) : null;
+        if (preferAdmin) return editNum !== null ? editNum : (invNum !== null ? invNum : priceJson);
+        // normal view: prefer inventory.item_price when present, fall back to prices.json
+        return invNum !== null ? invNum : priceJson;
     };
 
     const getEstimateNum = (item) => {
@@ -287,8 +279,8 @@ function App() {
             } else if (typeof item.item_price !== 'undefined' && item.item_price !== null && item.item_price !== '') {
                 const n = Number(item.item_price);
                 if (!isNaN(n)) val = n;
-            } else if (typeof prices[id] !== 'undefined') {
-                const n = Number(prices[id]);
+            } else if (prices && prices[id] && typeof prices[id] === 'object' && prices[id].price !== undefined) {
+                const n = Number(prices[id].price);
                 if (!isNaN(n)) val = n;
             }
             if (typeof val !== 'undefined') out[id] = val;
@@ -307,19 +299,14 @@ function App() {
         // Start with existing prices.json entries that are recent (<=7 days)
         Object.keys(prices || {}).forEach((key) => {
             const val = prices[key];
-            let p = null;
-            let lu = null;
             if (val && typeof val === 'object' && val.price !== undefined) {
-                p = Number(val.price);
-                lu = val.lastUpdate ? new Date(val.lastUpdate.replace(' ', 'T')) : null;
-            } else {
-                p = Number(val);
-                lu = null;
-            }
-            if (!isNaN(p)) {
-                // keep if lastUpdate is within 7 days or missing
-                if (!lu || (now - lu) <= sevenDays) {
-                    out[key] = { price: p, lastUpdate: nowStr };
+                const p = Number(val.price);
+                const lu = val.lastUpdate ? new Date(val.lastUpdate.replace(' ', 'T')) : null;
+                if (!isNaN(p)) {
+                    // keep if lastUpdate is within 7 days or missing
+                    if (!lu || (now - lu) <= sevenDays) {
+                        out[key] = { price: p, lastUpdate: nowStr };
+                    }
                 }
             }
         });
@@ -331,7 +318,8 @@ function App() {
             const editNum = typeof edit !== 'undefined' && edit !== null && edit !== '' ? Number(edit) : null;
             const invNum = typeof it.item_price !== 'undefined' && it.item_price !== null && it.item_price !== '' ? Number(it.item_price) : null;
             const priceJsonVal = prices && prices[id] ? (prices[id] && typeof prices[id] === 'object' && prices[id].price !== undefined ? Number(prices[id].price) : Number(prices[id])) : null;
-            const used = editNum !== null ? editNum : (priceJsonVal !== null ? priceJsonVal : invNum);
+            // Prefer admin override -> inventory.item_price -> prices.json
+            const used = editNum !== null ? editNum : (invNum !== null ? invNum : priceJsonVal);
             if (used !== null && !isNaN(used)) {
                 out[id] = { price: used, lastUpdate: nowStr };
             }
@@ -376,11 +364,20 @@ function App() {
                     if (a.bonus_type == b.bonus_type) return (Number(b.bonus_value) - Number(a.bonus_value)) * dir;
                     return a.bonus_type < b.bonus_type ? -1 * dir : dir;
                 } else if (sortConfig.key === 'price') {
-                    // Sort by item_price if present, else prices.json
-                    const aPrice =
-                        typeof a.item_price !== 'undefined' ? Number(a.item_price) : Number(prices[a.item_id]);
-                    const bPrice =
-                        typeof b.item_price !== 'undefined' ? Number(b.item_price) : Number(prices[b.item_id]);
+                    // Sort by item_price if present, else prices.json (object form)
+                    const getVal = (itm) => {
+                        if (typeof itm.item_price !== 'undefined' && itm.item_price !== null && itm.item_price !== '') {
+                            const n = Number(itm.item_price);
+                            return Number.isFinite(n) ? n : NaN;
+                        }
+                        if (prices && prices[itm.item_id] && typeof prices[itm.item_id] === 'object' && prices[itm.item_id].price !== undefined) {
+                            const n = Number(prices[itm.item_id].price);
+                            return Number.isFinite(n) ? n : NaN;
+                        }
+                        return NaN;
+                    };
+                    const aPrice = getVal(a);
+                    const bPrice = getVal(b);
                     const aBlank = isNaN(aPrice) || aPrice === 0;
                     const bBlank = isNaN(bPrice) || bPrice === 0;
                     if (aBlank && bBlank) return 0;
@@ -615,7 +612,7 @@ function App() {
                                                                     value={
                                                                         typeof adminPriceEdits[id] !== 'undefined'
                                                                             ? adminPriceEdits[id]
-                                                                            : (typeof prices[id] !== 'undefined' ? (prices[id] && typeof prices[id] === 'object' && prices[id].price !== undefined ? String(prices[id].price) : String(prices[id])) : (typeof item.item_price !== 'undefined' ? String(item.item_price) : ''))
+                                                                            : (typeof item.item_price !== 'undefined' ? String(item.item_price) : (prices && prices[id] && typeof prices[id] === 'object' && prices[id].price !== undefined ? String(prices[id].price) : ''))
                                                                     }
                                                                     onChange={(e) => {
                                                                         e.stopPropagation();
