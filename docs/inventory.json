@@ -1,6 +1,6 @@
 {
-    "generated": "2025-10-19 06:57:33",
-    "item_count": 131,
+    "generated": "2025-10-19 13:13:14",
+    "item_count": 130,
     "items": [
         {
             "item_id": "290509714",
@@ -27,7 +27,7 @@
             "pixyship_estimate": 4568
         },
         {
-            "item_id": "market-562614210",
+            "item_id": "market-562702272",
             "item_design_id": "1718",
             "bonus_type": "Hp",
             "bonus_value": "2",
@@ -493,7 +493,7 @@
             "rarity": "Hero",
             "item_sub_type": "EquipmentWeapon",
             "item_sprite_id": 5007,
-            "pixyship_estimate": 422
+            "pixyship_estimate": 415
         },
         {
             "item_id": "289558630",
@@ -1405,7 +1405,7 @@
             "rarity": "Hero",
             "item_sub_type": "EquipmentWeapon",
             "item_sprite_id": 12218,
-            "pixyship_estimate": 2834
+            "pixyship_estimate": 2826
         },
         {
             "item_id": "291315274",
@@ -1561,19 +1561,7 @@
             "rarity": "Hero",
             "item_sub_type": "EquipmentLeg",
             "item_sprite_id": 12887,
-            "pixyship_estimate": 334
-        },
-        {
-            "item_id": "291467663",
-            "item_design_id": "799",
-            "bonus_type": "Science",
-            "bonus_value": "5.5",
-            "quantity": "1",
-            "name": "Visiri Master Gunner Greaves",
-            "rarity": "Hero",
-            "item_sub_type": "EquipmentLeg",
-            "item_sprite_id": 12887,
-            "pixyship_estimate": 166
+            "pixyship_estimate": 342
         }
     ]
 }
