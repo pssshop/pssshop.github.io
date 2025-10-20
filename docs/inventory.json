@@ -1,6 +1,6 @@
 {
-    "generated": "2025-10-20 01:58:19",
-    "item_count": 134,
+    "generated": "2025-10-20 03:20:39",
+    "item_count": 140,
     "items": [
         {
             "item_id": "290509714",
@@ -134,6 +134,18 @@
             "item_sub_type": "EquipmentAccessory",
             "item_sprite_id": 9983,
             "pixyship_estimate": 1244
+        },
+        {
+            "item_id": "273648919",
+            "item_design_id": "435",
+            "bonus_type": "Pilot",
+            "bonus_value": "4",
+            "quantity": "1",
+            "name": "Aldara",
+            "rarity": "Hero",
+            "item_sub_type": "EquipmentAccessory",
+            "item_sprite_id": 9983,
+            "pixyship_estimate": 475
         },
         {
             "item_id": "271588605",
@@ -593,6 +605,18 @@
             "pixyship_estimate": 213
         },
         {
+            "item_id": "290720970",
+            "item_design_id": "163",
+            "bonus_type": "Pilot",
+            "bonus_value": "9.7",
+            "quantity": "1",
+            "name": "Golden Cai Dao",
+            "rarity": "Hero",
+            "item_sub_type": "EquipmentWeapon",
+            "item_sprite_id": 5007,
+            "pixyship_estimate": 308
+        },
+        {
             "item_id": "286748943",
             "item_design_id": "163",
             "bonus_type": "Pilot",
@@ -629,6 +653,18 @@
             "pixyship_estimate": 224
         },
         {
+            "item_id": "278658194",
+            "item_design_id": "163",
+            "bonus_type": "Science",
+            "bonus_value": "6.9",
+            "quantity": "1",
+            "name": "Golden Cai Dao",
+            "rarity": "Hero",
+            "item_sub_type": "EquipmentWeapon",
+            "item_sprite_id": 5007,
+            "pixyship_estimate": 187
+        },
+        {
             "item_id": "290512075",
             "item_design_id": "163",
             "bonus_type": "Weapon",
@@ -639,6 +675,18 @@
             "item_sub_type": "EquipmentWeapon",
             "item_sprite_id": 5007,
             "pixyship_estimate": 425
+        },
+        {
+            "item_id": "284707234",
+            "item_design_id": "163",
+            "bonus_type": "Weapon",
+            "bonus_value": "5.9",
+            "quantity": "1",
+            "name": "Golden Cai Dao",
+            "rarity": "Hero",
+            "item_sub_type": "EquipmentWeapon",
+            "item_sprite_id": 5007,
+            "pixyship_estimate": 360
         },
         {
             "item_id": "289215025",
@@ -1386,6 +1434,18 @@
             "pixyship_estimate": 1521
         },
         {
+            "item_id": "282963556",
+            "item_design_id": "933",
+            "bonus_type": "Hp",
+            "bonus_value": "1",
+            "quantity": "1",
+            "name": "Red Marksman Jacket",
+            "rarity": "Hero",
+            "item_sub_type": "EquipmentBody",
+            "item_sprite_id": 13939,
+            "pixyship_estimate": 474
+        },
+        {
             "item_id": "289376912",
             "item_design_id": "933",
             "bonus_type": "Hp",
@@ -1588,6 +1648,18 @@
             "item_sub_type": "EquipmentBody",
             "item_sprite_id": 3757,
             "pixyship_estimate": 282
+        },
+        {
+            "item_id": "278754437",
+            "item_design_id": "790",
+            "bonus_type": "Weapon",
+            "bonus_value": "3.3",
+            "quantity": "1",
+            "name": "Visiri Gunner Helm Alpha",
+            "rarity": "Hero",
+            "item_sub_type": "EquipmentHead",
+            "item_sprite_id": 12777,
+            "pixyship_estimate": 700
         },
         {
             "item_id": "286032720",
