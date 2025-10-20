@@ -1,6 +1,6 @@
 {
-    "generated": "2025-10-19 23:23:52",
-    "item_count": 132,
+    "generated": "2025-10-20 01:58:19",
+    "item_count": 134,
     "items": [
         {
             "item_id": "290509714",
@@ -857,6 +857,18 @@
             "pixyship_estimate": 384
         },
         {
+            "item_id": "291532390",
+            "item_design_id": "1706",
+            "bonus_type": "FireResistance",
+            "bonus_value": "45.1",
+            "quantity": "1",
+            "name": "Mach Flightsuit",
+            "rarity": "Hero",
+            "item_sub_type": "EquipmentBody",
+            "item_sprite_id": 19675,
+            "pixyship_estimate": 520
+        },
+        {
             "item_id": "market-562702566",
             "item_design_id": "1705",
             "bonus_type": "Pilot",
@@ -1242,6 +1254,18 @@
             "pixyship_estimate": 1962
         },
         {
+            "item_id": "289220939",
+            "item_design_id": "490",
+            "bonus_type": "FireResistance",
+            "bonus_value": "43.9",
+            "quantity": "1",
+            "name": "QT Mechworks Drone",
+            "rarity": "Hero",
+            "item_sub_type": "EquipmentAccessory",
+            "item_sprite_id": 10288,
+            "pixyship_estimate": 253
+        },
+        {
             "item_id": "291401233",
             "item_design_id": "490",
             "bonus_type": "FireResistance",
@@ -1419,7 +1443,7 @@
             "rarity": "Hero",
             "item_sub_type": "EquipmentBody",
             "item_sprite_id": 13939,
-            "pixyship_estimate": 2695
+            "pixyship_estimate": 2680
         },
         {
             "item_id": "290618307",
