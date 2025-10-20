@@ -1,6 +1,6 @@
 {
-    "generated": "2025-10-19 13:13:14",
-    "item_count": 130,
+    "generated": "2025-10-19 23:23:52",
+    "item_count": 132,
     "items": [
         {
             "item_id": "290509714",
@@ -244,7 +244,7 @@
             "pixyship_estimate": 300
         },
         {
-            "item_id": "291285925",
+            "item_id": "market-562702407",
             "item_design_id": "514",
             "bonus_type": "Hp",
             "bonus_value": "2",
@@ -253,6 +253,7 @@
             "rarity": "Hero",
             "item_sub_type": "EquipmentHead",
             "item_sprite_id": 10047,
+            "item_price": 4000,
             "pixyship_estimate": 3943
         },
         {
@@ -506,6 +507,18 @@
             "item_sub_type": "EquipmentWeapon",
             "item_sprite_id": 5007,
             "pixyship_estimate": 301
+        },
+        {
+            "item_id": "291527088",
+            "item_design_id": "163",
+            "bonus_type": "Attack",
+            "bonus_value": "0.4",
+            "quantity": "1",
+            "name": "Golden Cai Dao",
+            "rarity": "Hero",
+            "item_sub_type": "EquipmentWeapon",
+            "item_sprite_id": 5007,
+            "pixyship_estimate": 511
         },
         {
             "item_id": "288903652",
@@ -781,7 +794,7 @@
             "rarity": "Hero",
             "item_sub_type": "EquipmentWeapon",
             "item_sprite_id": 12544,
-            "pixyship_estimate": 465
+            "pixyship_estimate": 463
         },
         {
             "item_id": "290660308",
@@ -844,7 +857,7 @@
             "pixyship_estimate": 384
         },
         {
-            "item_id": "291401299",
+            "item_id": "market-562702566",
             "item_design_id": "1705",
             "bonus_type": "Pilot",
             "bonus_value": "9.5",
@@ -853,6 +866,7 @@
             "rarity": "Hero",
             "item_sub_type": "EquipmentHead",
             "item_sprite_id": 19673,
+            "item_price": 7500,
             "pixyship_estimate": 6527
         },
         {
@@ -872,6 +886,18 @@
             "item_design_id": "1705",
             "bonus_type": "Repair",
             "bonus_value": "0.5",
+            "quantity": "1",
+            "name": "Mach Helm",
+            "rarity": "Hero",
+            "item_sub_type": "EquipmentHead",
+            "item_sprite_id": 19673,
+            "pixyship_estimate": null
+        },
+        {
+            "item_id": "291507368",
+            "item_design_id": "1705",
+            "bonus_type": "Repair",
+            "bonus_value": "0.3",
             "quantity": "1",
             "name": "Mach Helm",
             "rarity": "Hero",
@@ -1021,7 +1047,7 @@
             "rarity": "Hero",
             "item_sub_type": "EquipmentAccessory",
             "item_sprite_id": 14738,
-            "pixyship_estimate": 454
+            "pixyship_estimate": 452
         },
         {
             "item_id": "290610208",
@@ -1093,7 +1119,7 @@
             "rarity": "Hero",
             "item_sub_type": "EquipmentBody",
             "item_sprite_id": 14569,
-            "pixyship_estimate": 2172
+            "pixyship_estimate": 2222
         },
         {
             "item_id": "290520327",
