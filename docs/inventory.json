@@ -1,5 +1,5 @@
 {
-    "generated": "2025-10-20 19:03:08",
+    "generated": "2025-10-21 01:00:45",
     "item_count": 135,
     "items": [
         {
@@ -27,7 +27,7 @@
             "pixyship_estimate": 4568
         },
         {
-            "item_id": "291576903",
+            "item_id": "market-562808949",
             "item_design_id": "1718",
             "bonus_type": "Hp",
             "bonus_value": "2",
@@ -36,6 +36,7 @@
             "rarity": "Special",
             "item_sub_type": "EquipmentAccessory",
             "item_sprite_id": 19814,
+            "item_price": 6300,
             "pixyship_estimate": 6285
         },
         {
@@ -243,7 +244,7 @@
             "pixyship_estimate": 300
         },
         {
-            "item_id": "291576902",
+            "item_id": "market-562808993",
             "item_design_id": "514",
             "bonus_type": "Hp",
             "bonus_value": "2",
@@ -252,6 +253,7 @@
             "rarity": "Hero",
             "item_sub_type": "EquipmentHead",
             "item_sprite_id": 10047,
+            "item_price": 4000,
             "pixyship_estimate": 3943
         },
         {
@@ -867,7 +869,7 @@
             "pixyship_estimate": 520
         },
         {
-            "item_id": "291576900",
+            "item_id": "market-562809079",
             "item_design_id": "1705",
             "bonus_type": "Pilot",
             "bonus_value": "9.5",
@@ -876,6 +878,7 @@
             "rarity": "Hero",
             "item_sub_type": "EquipmentHead",
             "item_sprite_id": 19673,
+            "item_price": 6950,
             "pixyship_estimate": 5615
         },
         {
@@ -1584,7 +1587,7 @@
             "rarity": "Hero",
             "item_sub_type": "EquipmentBody",
             "item_sprite_id": 3757,
-            "pixyship_estimate": 282
+            "pixyship_estimate": 285
         },
         {
             "item_id": "289606481",
@@ -1596,7 +1599,7 @@
             "rarity": "Hero",
             "item_sub_type": "EquipmentBody",
             "item_sprite_id": 3757,
-            "pixyship_estimate": 282
+            "pixyship_estimate": 285
         },
         {
             "item_id": "286032720",
