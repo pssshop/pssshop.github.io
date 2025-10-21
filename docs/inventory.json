@@ -1,5 +1,5 @@
 {
-    "generated": "2025-10-21 01:45:25",
+    "generated": "2025-10-21 10:06:55",
     "item_count": 134,
     "items": [
         {
@@ -244,19 +244,6 @@
             "pixyship_estimate": 300
         },
         {
-            "item_id": "market-562808993",
-            "item_design_id": "514",
-            "bonus_type": "Hp",
-            "bonus_value": "2",
-            "quantity": "1",
-            "name": "Captain's Skullmet",
-            "rarity": "Hero",
-            "item_sub_type": "EquipmentHead",
-            "item_sprite_id": 10047,
-            "item_price": 4000,
-            "pixyship_estimate": 3943
-        },
-        {
             "item_id": "290864528",
             "item_design_id": "514",
             "bonus_type": "Pilot",
@@ -386,7 +373,7 @@
             "rarity": "Hero",
             "item_sub_type": "EquipmentBody",
             "item_sprite_id": 4819,
-            "pixyship_estimate": 466
+            "pixyship_estimate": 469
         },
         {
             "item_id": "291075334",
@@ -554,7 +541,7 @@
             "rarity": "Hero",
             "item_sub_type": "EquipmentWeapon",
             "item_sprite_id": 5007,
-            "pixyship_estimate": 604
+            "pixyship_estimate": 610
         },
         {
             "item_id": "290085700",
@@ -854,7 +841,7 @@
             "rarity": "Hero",
             "item_sub_type": "EquipmentBody",
             "item_sprite_id": 19675,
-            "pixyship_estimate": 520
+            "pixyship_estimate": 553
         },
         {
             "item_id": "market-562809079",
@@ -927,7 +914,7 @@
             "rarity": "Hero",
             "item_sub_type": "EquipmentAccessory",
             "item_sprite_id": 16441,
-            "pixyship_estimate": 568
+            "pixyship_estimate": 557
         },
         {
             "item_id": "278957068",
@@ -1239,7 +1226,7 @@
             "rarity": "Hero",
             "item_sub_type": "EquipmentAccessory",
             "item_sprite_id": 10288,
-            "pixyship_estimate": 1962
+            "pixyship_estimate": 1968
         },
         {
             "item_id": "289220939",
@@ -1588,6 +1575,18 @@
             "item_sub_type": "EquipmentBody",
             "item_sprite_id": 3757,
             "pixyship_estimate": 285
+        },
+        {
+            "item_id": "291594252",
+            "item_design_id": "802",
+            "bonus_type": "Stamina",
+            "bonus_value": "8",
+            "quantity": "1",
+            "name": "Unobtainium Heavy Assault Armor ",
+            "rarity": "Hero",
+            "item_sub_type": "EquipmentBody",
+            "item_sprite_id": 3757,
+            "pixyship_estimate": 450
         },
         {
             "item_id": "286032720",
