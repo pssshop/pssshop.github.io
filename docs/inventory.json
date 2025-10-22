@@ -1,6 +1,6 @@
 {
-    "generated": "2025-10-21 22:32:00",
-    "item_count": 133,
+    "generated": "2025-10-21 23:53:31",
+    "item_count": 134,
     "items": [
         {
             "item_id": "290509714",
@@ -194,6 +194,18 @@
             "item_sub_type": "EquipmentHead",
             "item_sprite_id": 10047,
             "pixyship_estimate": 570
+        },
+        {
+            "item_id": "291644228",
+            "item_design_id": "514",
+            "bonus_type": "Attack",
+            "bonus_value": "0.3",
+            "quantity": "1",
+            "name": "Captain's Skullmet",
+            "rarity": "Hero",
+            "item_sub_type": "EquipmentHead",
+            "item_sprite_id": 10047,
+            "pixyship_estimate": 1006
         },
         {
             "item_id": "291010701",
