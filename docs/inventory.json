@@ -1,6 +1,6 @@
 {
-    "generated": "2025-10-22 02:48:09",
-    "item_count": 133,
+    "generated": "2025-10-22 02:52:52",
+    "item_count": 134,
     "items": [
         {
             "item_id": "290509714",
@@ -1420,6 +1420,18 @@
             "item_sub_type": "EquipmentAccessory",
             "item_sprite_id": 11874,
             "pixyship_estimate": 630
+        },
+        {
+            "item_id": "282819114",
+            "item_design_id": "1494",
+            "bonus_type": "Science",
+            "bonus_value": "6.2",
+            "quantity": "1",
+            "name": "Starburst Bulwark",
+            "rarity": "Hero",
+            "item_sub_type": "EquipmentWeapon",
+            "item_sprite_id": 12218,
+            "pixyship_estimate": 608
         },
         {
             "item_id": "290618307",
