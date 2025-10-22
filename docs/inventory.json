@@ -1,6 +1,6 @@
 {
-    "generated": "2025-10-21 21:28:43",
-    "item_count": 134,
+    "generated": "2025-10-21 22:32:00",
+    "item_count": 133,
     "items": [
         {
             "item_id": "290509714",
@@ -520,7 +520,7 @@
             "pixyship_estimate": 354
         },
         {
-            "item_id": "286196812",
+            "item_id": "market-562883062",
             "item_design_id": "163",
             "bonus_type": "Attack",
             "bonus_value": "0.2",
@@ -529,6 +529,7 @@
             "rarity": "Hero",
             "item_sub_type": "EquipmentWeapon",
             "item_sprite_id": 5007,
+            "item_price": 300,
             "pixyship_estimate": 313
         },
         {
@@ -748,18 +749,6 @@
             "pixyship_estimate": 4758
         },
         {
-            "item_id": "290891159",
-            "item_design_id": "727",
-            "bonus_type": "FireResistance",
-            "bonus_value": "55",
-            "quantity": "1",
-            "name": "La Paula",
-            "rarity": "Hero",
-            "item_sub_type": "EquipmentWeapon",
-            "item_sprite_id": 12544,
-            "pixyship_estimate": 1332
-        },
-        {
             "item_id": "289463276",
             "item_design_id": "727",
             "bonus_type": "Hp",
@@ -856,7 +845,7 @@
             "pixyship_estimate": 5615
         },
         {
-            "item_id": "291266996",
+            "item_id": "market-562882903",
             "item_design_id": "1705",
             "bonus_type": "Pilot",
             "bonus_value": "5.4",
@@ -865,6 +854,7 @@
             "rarity": "Hero",
             "item_sub_type": "EquipmentHead",
             "item_sprite_id": 19673,
+            "item_price": 3750,
             "pixyship_estimate": 3841
         },
         {
