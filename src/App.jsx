@@ -118,20 +118,43 @@ function App() {
     const [adminPriceEdits, setAdminPriceEdits] = useState({});
 
     // --- helpers ---
+    // Stable id derived from design + bonus to survive item_id churn
+    // Produces hypen-separated, slugified IDs like `1718-ability-92`
+    const slugify = (s) =>
+        String(s || '')
+            .toLowerCase()
+            .trim()
+            .replace(/[^a-z0-9]+/g, '-')
+            .replace(/^-+|-+$/g, '') || '';
+
+    const stableIdFor = (item) => {
+        if (!item) return null;
+        // fallback to raw item_id if design id missing
+        const design = item.item_design_id || item.item_design || '';
+        const bonusType = item.bonus_type || '';
+        let bonusValue = item.bonus_value;
+        // normalize numeric bonus values (e.g., 9.2 -> 92 or 9-2 -> 9-2). We'll remove decimals by replacing '.' with '-'
+        if (typeof bonusValue === 'number') bonusValue = String(bonusValue);
+        bonusValue = bonusValue == null ? '' : String(bonusValue);
+        // build parts and slugify each to keep stable and safe
+        const parts = [design, bonusType, bonusValue].map((p) => slugify(p)).filter(Boolean);
+        if (parts.length === 0) return null;
+        return parts.join('-');
+    };
+
     const parseNumber = (v) => {
         const n = Number(v);
         return Number.isFinite(n) ? n : null;
     };
 
-    const getCanonicalPrice = (itemId, item, preferAdmin = false) => {
-        const id = String(itemId);
-        const edit = adminPriceEdits[id];
+    const getCanonicalPrice = (rawItemId, item, preferAdmin = false) => {
+        const rawId = String(rawItemId);
+        const stableId = stableIdFor(item) || rawId;
+        const edit = adminPriceEdits[stableId];
         const editNum = typeof edit !== 'undefined' && edit !== null && edit !== '' ? parseNumber(edit) : null;
         const invNum = typeof item?.item_price !== 'undefined' && item.item_price !== null && item.item_price !== '' ? parseNumber(item.item_price) : null;
-        // prices.json stores objects: { price, lastUpdate }
-        const priceJson = prices?.[id] && typeof prices[id] === 'object' && prices[id].price !== undefined ? parseNumber(prices[id].price) : null;
+        const priceJson = prices?.[stableId] && typeof prices[stableId] === 'object' && prices[stableId].price !== undefined ? parseNumber(prices[stableId].price) : null;
         if (preferAdmin) return editNum !== null ? editNum : (invNum !== null ? invNum : priceJson);
-        // normal view: prefer inventory.item_price when present, fall back to prices.json
         return invNum !== null ? invNum : priceJson;
     };
 
@@ -165,9 +188,9 @@ function App() {
     const pricesMapping = useMemo(() => {
         const out = {};
         (inventory?.items || []).forEach((it) => {
-            const id = String(it.item_id);
+            const stable = stableIdFor(it) || String(it.item_id);
             const val = getCanonicalPrice(it.item_id, it, true);
-            if (val !== null) out[id] = val;
+            if (val !== null) out[stable] = val;
         });
         return out;
     }, [inventory, adminPriceEdits, prices]);
@@ -251,16 +274,16 @@ function App() {
         }
     }, [theme]);
 
-    // Helper to update an admin edit
-    const handlePriceEdit = (itemId, value) => {
+    // Helper to update an admin edit. Keys are stable ids.
+    const handlePriceEdit = (stableId, value) => {
         // allow empty string to clear override
         setAdminPriceEdits((prev) => {
             const next = { ...prev };
             if (value === '' || value === null) {
-                delete next[itemId];
+                delete next[stableId];
             } else {
                 // store as string to preserve input, convert when exporting
-                next[itemId] = value;
+                next[stableId] = value;
             }
             return next;
         });
@@ -275,8 +298,12 @@ function App() {
         const sevenDays = 7 * 24 * 60 * 60 * 1000;
         const out = {};
 
-        // Build a set of item IDs present in `items`
-        const itemIds = new Set((items || []).map((it) => String(it.item_id)));
+        // Build set of stable ids for inventory items
+        const stableIds = new Set();
+        (items || []).forEach((it) => {
+            const stable = stableIdFor(it) || String(it.item_id);
+            stableIds.add(stable);
+        });
 
         // Start with existing prices.json entries that are recent (<=7 days).
         // If the price belongs to an item in `items`, refresh lastUpdate to nowStr when keeping it.
@@ -287,13 +314,24 @@ function App() {
                 const p = Number(val.price);
                 const lu = val.lastUpdate ? new Date(val.lastUpdate.replace(' ', 'T')) : null;
                 if (!isNaN(p)) {
-                    // keep if lastUpdate is within 7 days or missing
+                    // If this existing price is for a stable id that exists in current inventory,
+                    // refresh its lastUpdate to now.
+                    if (stableIds.has(key)) {
+                        out[key] = { price: p, lastUpdate: nowStr };
+                        if (!globalThis.__pss_export_debug) globalThis.__pss_export_debug = { migrated: [], preserved: [], pruned: [], created: [] };
+                        globalThis.__pss_export_debug.created.push(key);
+                        return;
+                    }
+
+                    // For non-inventory keys, keep only if recent (<=7 days)
                     if (!lu || (now - lu) <= sevenDays) {
-                        if (itemIds.has(String(key))) {
-                            out[key] = { price: p, lastUpdate: nowStr };
-                        } else {
-                            out[key] = { price: p, lastUpdate: val.lastUpdate || nowStr };
-                        }
+                        out[key] = { price: p, lastUpdate: val.lastUpdate || nowStr };
+                        if (!globalThis.__pss_export_debug) globalThis.__pss_export_debug = { migrated: [], preserved: [], pruned: [], created: [] };
+                        globalThis.__pss_export_debug.preserved.push(key);
+                    } else {
+                        // older than seven days and not mapped to inventory -> pruned
+                        if (!globalThis.__pss_export_debug) globalThis.__pss_export_debug = { migrated: [], preserved: [], pruned: [], created: [] };
+                        globalThis.__pss_export_debug.pruned.push(key);
                     }
                 }
             }
@@ -301,15 +339,18 @@ function App() {
 
         // Ensure current items / admin edits are included (override existing)
         (items || []).forEach((it) => {
-            const id = String(it.item_id);
-            const edit = adminPriceEdits[id];
+            const raw = String(it.item_id);
+            const stableId = stableIdFor(it) || raw;
+            const edit = adminPriceEdits[stableId];
             const editNum = typeof edit !== 'undefined' && edit !== null && edit !== '' ? Number(edit) : null;
             const invNum = typeof it.item_price !== 'undefined' && it.item_price !== null && it.item_price !== '' ? Number(it.item_price) : null;
-            const priceJsonVal = prices && prices[id] && typeof prices[id] === 'object' && prices[id].price !== undefined ? Number(prices[id].price) : null;
+            const priceJsonVal = (prices && prices[stableId] && typeof prices[stableId] === 'object' && prices[stableId].price !== undefined)
+                ? Number(prices[stableId].price)
+                : null;
             // Prefer admin override -> inventory.item_price -> prices.json
             const used = editNum !== null ? editNum : (invNum !== null ? invNum : priceJsonVal);
-            if (used !== null && !isNaN(used)) {
-                out[id] = { price: used, lastUpdate: nowStr };
+                if (used !== null && !isNaN(used)) {
+                out[stableId] = { price: used, lastUpdate: nowStr, rawItemIds: [raw] };
             }
         });
 
@@ -352,14 +393,16 @@ function App() {
                     if (a.bonus_type == b.bonus_type) return (Number(b.bonus_value) - Number(a.bonus_value)) * dir;
                     return a.bonus_type < b.bonus_type ? -1 * dir : dir;
                 } else if (sortConfig.key === 'price') {
-                    // Sort by item_price if present, else prices.json (object form)
+                    // Sort by item_price if present, else prices.json (object form) using stable ids when available
                     const getVal = (itm) => {
                         if (typeof itm.item_price !== 'undefined' && itm.item_price !== null && itm.item_price !== '') {
                             const n = Number(itm.item_price);
                             return Number.isFinite(n) ? n : NaN;
                         }
-                        if (prices && prices[itm.item_id] && typeof prices[itm.item_id] === 'object' && prices[itm.item_id].price !== undefined) {
-                            const n = Number(prices[itm.item_id].price);
+
+                        const stableId = stableIdFor(itm) || String(itm.item_id);
+                        if (prices && prices[stableId] && typeof prices[stableId] === 'object' && prices[stableId].price !== undefined) {
+                            const n = Number(prices[stableId].price);
                             return Number.isFinite(n) ? n : NaN;
                         }
                         return NaN;
@@ -598,13 +641,19 @@ function App() {
                                                                     inputMode="numeric"
                                                                     pattern="[0-9]*"
                                                                     value={
-                                                                        typeof adminPriceEdits[id] !== 'undefined'
-                                                                            ? adminPriceEdits[id]
-                                                                            : (typeof item.item_price !== 'undefined' ? String(item.item_price) : (prices && prices[id] && typeof prices[id] === 'object' && prices[id].price !== undefined ? String(prices[id].price) : ''))
+                                                                        (() => {
+                                                                            const stableId = stableIdFor(item) || id;
+                                                                            if (typeof adminPriceEdits[stableId] !== 'undefined') return adminPriceEdits[stableId];
+                                                                            if (typeof item.item_price !== 'undefined') return String(item.item_price);
+                                                                            if (prices && prices[stableId] && typeof prices[stableId] === 'object' && prices[stableId].price !== undefined) return String(prices[stableId].price);
+                                                                            if (prices && prices[id] && typeof prices[id] === 'object' && prices[id].price !== undefined) return String(prices[id].price);
+                                                                            return '';
+                                                                        })()
                                                                     }
                                                                     onChange={(e) => {
                                                                         e.stopPropagation();
-                                                                        handlePriceEdit(id, e.target.value);
+                                                                        const stable = stableIdFor(item) || id;
+                                                                        handlePriceEdit(stable, e.target.value);
                                                                     }}
                                                                     onClick={(e) => e.stopPropagation()}
                                                                 />
@@ -655,8 +704,8 @@ function App() {
                     >
                         {sorted[hoveredRow] && hoveredRow !== null && (
                             <span className="pss-tooltip-text">
-                                <strong>Item ID:</strong>{' '}
-                                <span className="monospace">{sorted[hoveredRow].item_id}</span>
+                                <div><strong>Raw Item ID:</strong> <span className="monospace">{sorted[hoveredRow].item_id}</span></div>
+                                <div><strong>Stable ID:</strong> <span className="monospace">{stableIdFor(sorted[hoveredRow])}</span></div>
                             </span>
                         )}
                     </Tooltip>
