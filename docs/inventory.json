@@ -1,6 +1,6 @@
 {
-    "generated": "2025-10-22 21:32:39",
-    "item_count": 133,
+    "generated": "2025-10-22 22:28:22",
+    "item_count": 135,
     "items": [
         {
             "item_id": "290509714",
@@ -99,7 +99,7 @@
             "pixyship_estimate": null
         },
         {
-            "item_id": "291373399",
+            "item_id": "market-562959026",
             "item_design_id": "1749",
             "bonus_type": "Pilot",
             "bonus_value": "9.7",
@@ -108,6 +108,7 @@
             "rarity": "Special",
             "item_sub_type": "EquipmentWeapon",
             "item_sprite_id": 20082,
+            "item_price": 11500,
             "pixyship_estimate": 13995
         },
         {
@@ -519,7 +520,7 @@
             "pixyship_estimate": 354
         },
         {
-            "item_id": "market-562883062",
+            "item_id": "291698271",
             "item_design_id": "163",
             "bonus_type": "Attack",
             "bonus_value": "0.2",
@@ -528,7 +529,6 @@
             "rarity": "Hero",
             "item_sub_type": "EquipmentWeapon",
             "item_sprite_id": 5007,
-            "item_price": 300,
             "pixyship_estimate": 313
         },
         {
@@ -830,6 +830,18 @@
             "item_sub_type": "EquipmentHead",
             "item_sprite_id": 19673,
             "pixyship_estimate": 5615
+        },
+        {
+            "item_id": "291698272",
+            "item_design_id": "1705",
+            "bonus_type": "Pilot",
+            "bonus_value": "5.4",
+            "quantity": "1",
+            "name": "Mach Helm",
+            "rarity": "Hero",
+            "item_sub_type": "EquipmentHead",
+            "item_sprite_id": 19673,
+            "pixyship_estimate": 3841
         },
         {
             "item_id": "291010694",
@@ -1466,6 +1478,18 @@
             "item_sub_type": "EquipmentHead",
             "item_sprite_id": 13020,
             "pixyship_estimate": 198
+        },
+        {
+            "item_id": "291700593",
+            "item_design_id": "802",
+            "bonus_type": "Ability",
+            "bonus_value": "15.2",
+            "quantity": "1",
+            "name": "Unobtainium Heavy Assault Armor ",
+            "rarity": "Hero",
+            "item_sub_type": "EquipmentBody",
+            "item_sprite_id": 3757,
+            "pixyship_estimate": 7863
         },
         {
             "item_id": "282819134",
