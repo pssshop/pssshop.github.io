@@ -1,5 +1,5 @@
 {
-    "generated": "2025-10-22 22:28:22",
+    "generated": "2025-10-23 00:57:19",
     "item_count": 135,
     "items": [
         {
@@ -15,7 +15,7 @@
             "pixyship_estimate": 1765
         },
         {
-            "item_id": "290209620",
+            "item_id": "market-562961588",
             "item_design_id": "1718",
             "bonus_type": "Engine",
             "bonus_value": "8.3",
@@ -24,6 +24,7 @@
             "rarity": "Special",
             "item_sub_type": "EquipmentAccessory",
             "item_sprite_id": 19814,
+            "item_price": 4500,
             "pixyship_estimate": 4568
         },
         {
@@ -1480,7 +1481,7 @@
             "pixyship_estimate": 198
         },
         {
-            "item_id": "291700593",
+            "item_id": "market-562961041",
             "item_design_id": "802",
             "bonus_type": "Ability",
             "bonus_value": "15.2",
@@ -1489,6 +1490,7 @@
             "rarity": "Hero",
             "item_sub_type": "EquipmentBody",
             "item_sprite_id": 3757,
+            "item_price": 10000,
             "pixyship_estimate": 7863
         },
         {
