@@ -1,6 +1,6 @@
 {
-    "generated": "2025-10-23 00:57:19",
-    "item_count": 135,
+    "generated": "2025-10-23 02:36:51",
+    "item_count": 136,
     "items": [
         {
             "item_id": "290509714",
@@ -737,6 +737,18 @@
             "pixyship_estimate": 4758
         },
         {
+            "item_id": "291708669",
+            "item_design_id": "727",
+            "bonus_type": "Engine",
+            "bonus_value": "5.5",
+            "quantity": "1",
+            "name": "La Paula",
+            "rarity": "Hero",
+            "item_sub_type": "EquipmentWeapon",
+            "item_sprite_id": 12544,
+            "pixyship_estimate": 563
+        },
+        {
             "item_id": "289463276",
             "item_design_id": "727",
             "bonus_type": "Hp",
@@ -1154,7 +1166,7 @@
             "rarity": "Hero",
             "item_sub_type": "EquipmentBody",
             "item_sprite_id": 11926,
-            "pixyship_estimate": 234
+            "pixyship_estimate": 237
         },
         {
             "item_id": "291401726",
@@ -1491,7 +1503,7 @@
             "item_sub_type": "EquipmentBody",
             "item_sprite_id": 3757,
             "item_price": 10000,
-            "pixyship_estimate": 7863
+            "pixyship_estimate": 8088
         },
         {
             "item_id": "282819134",
