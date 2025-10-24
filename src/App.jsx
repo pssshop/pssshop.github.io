@@ -518,7 +518,8 @@ function App() {
                     <p className="intro-text">
                         Prices displayed are my initial asking prices based on market research from pixyship and may
                         change over time. Fair offers are welcome and discount agreements could be reached for
-                        purchasing multiple items. {inventory?.generated && (
+                        purchasing multiple items.<br />
+                        IGN:<strong>Low Mane</strong> Discord:<strong>eggfooyounguyen</strong>{inventory?.generated && (
                             <span
                                 className="updated-text"
                                 title={`Updated: ${new Date(inventory.generated.replace(' ', 'T')).toLocaleString()}`}

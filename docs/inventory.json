@@ -1,6 +1,6 @@
 {
-    "generated": "2025-10-23 21:16:31",
-    "item_count": 140,
+    "generated": "2025-10-23 22:53:06",
+    "item_count": 138,
     "items": [
         {
             "item_id": "290509714",
@@ -100,7 +100,7 @@
             "pixyship_estimate": null
         },
         {
-            "item_id": "market-562959026",
+            "item_id": "291754165",
             "item_design_id": "1749",
             "bonus_type": "Pilot",
             "bonus_value": "9.7",
@@ -109,7 +109,6 @@
             "rarity": "Special",
             "item_sub_type": "EquipmentWeapon",
             "item_sprite_id": 20082,
-            "item_price": 11500,
             "pixyship_estimate": 13995
         },
         {
@@ -629,18 +628,6 @@
             "pixyship_estimate": 224
         },
         {
-            "item_id": "278658194",
-            "item_design_id": "163",
-            "bonus_type": "Science",
-            "bonus_value": "6.9",
-            "quantity": "1",
-            "name": "Golden Cai Dao",
-            "rarity": "Hero",
-            "item_sub_type": "EquipmentWeapon",
-            "item_sprite_id": 5007,
-            "pixyship_estimate": 187
-        },
-        {
             "item_id": "290512075",
             "item_design_id": "163",
             "bonus_type": "Weapon",
@@ -651,18 +638,6 @@
             "item_sub_type": "EquipmentWeapon",
             "item_sprite_id": 5007,
             "pixyship_estimate": 425
-        },
-        {
-            "item_id": "284707234",
-            "item_design_id": "163",
-            "bonus_type": "Weapon",
-            "bonus_value": "5.9",
-            "quantity": "1",
-            "name": "Golden Cai Dao",
-            "rarity": "Hero",
-            "item_sub_type": "EquipmentWeapon",
-            "item_sprite_id": 5007,
-            "pixyship_estimate": 360
         },
         {
             "item_id": "289215025",
@@ -866,7 +841,7 @@
             "rarity": "Hero",
             "item_sub_type": "EquipmentBody",
             "item_sprite_id": 19675,
-            "pixyship_estimate": 553
+            "pixyship_estimate": 523
         },
         {
             "item_id": "291640563",
@@ -962,7 +937,7 @@
             "rarity": "Hero",
             "item_sub_type": "EquipmentBody",
             "item_sprite_id": 15251,
-            "pixyship_estimate": 1409
+            "pixyship_estimate": 1428
         },
         {
             "item_id": "291356101",
@@ -1397,18 +1372,6 @@
             "pixyship_estimate": 1375
         },
         {
-            "item_id": "282963556",
-            "item_design_id": "933",
-            "bonus_type": "Hp",
-            "bonus_value": "1",
-            "quantity": "1",
-            "name": "Red Marksman Jacket",
-            "rarity": "Hero",
-            "item_sub_type": "EquipmentBody",
-            "item_sprite_id": 13939,
-            "pixyship_estimate": 474
-        },
-        {
             "item_id": "289376912",
             "item_design_id": "933",
             "bonus_type": "Hp",
@@ -1443,6 +1406,18 @@
             "item_sub_type": "EquipmentBody",
             "item_sprite_id": 13939,
             "pixyship_estimate": 202
+        },
+        {
+            "item_id": "291753792",
+            "item_design_id": "933",
+            "bonus_type": "Pilot",
+            "bonus_value": "9.3",
+            "quantity": "1",
+            "name": "Red Marksman Jacket",
+            "rarity": "Hero",
+            "item_sub_type": "EquipmentBody",
+            "item_sprite_id": 13939,
+            "pixyship_estimate": 209
         },
         {
             "item_id": "290080298",
@@ -1541,7 +1516,7 @@
             "pixyship_estimate": 198
         },
         {
-            "item_id": "market-562961041",
+            "item_id": "291755373",
             "item_design_id": "802",
             "bonus_type": "Ability",
             "bonus_value": "15.2",
@@ -1550,7 +1525,6 @@
             "rarity": "Hero",
             "item_sub_type": "EquipmentBody",
             "item_sprite_id": 3757,
-            "item_price": 10000,
             "pixyship_estimate": 8088
         },
         {
