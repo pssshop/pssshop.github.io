@@ -1,6 +1,6 @@
 {
-    "generated": "2025-10-23 22:53:06",
-    "item_count": 138,
+    "generated": "2025-10-23 23:16:36",
+    "item_count": 139,
     "items": [
         {
             "item_id": "290509714",
@@ -15,7 +15,7 @@
             "pixyship_estimate": 1765
         },
         {
-            "item_id": "market-562961588",
+            "item_id": "291755799",
             "item_design_id": "1718",
             "bonus_type": "Engine",
             "bonus_value": "8.3",
@@ -24,7 +24,6 @@
             "rarity": "Special",
             "item_sub_type": "EquipmentAccessory",
             "item_sprite_id": 19814,
-            "item_price": 4500,
             "pixyship_estimate": 4568
         },
         {
@@ -1658,6 +1657,18 @@
             "item_sub_type": "EquipmentLeg",
             "item_sprite_id": 12887,
             "pixyship_estimate": 342
+        },
+        {
+            "item_id": "284813923",
+            "item_design_id": "799",
+            "bonus_type": "Weapon",
+            "bonus_value": "4.7",
+            "quantity": "1",
+            "name": "Visiri Master Gunner Greaves",
+            "rarity": "Hero",
+            "item_sub_type": "EquipmentLeg",
+            "item_sprite_id": 12887,
+            "pixyship_estimate": 1404
         }
     ]
 }
