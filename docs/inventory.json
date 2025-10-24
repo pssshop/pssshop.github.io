@@ -1,6 +1,6 @@
 {
-    "generated": "2025-10-23 02:36:51",
-    "item_count": 136,
+    "generated": "2025-10-23 21:16:31",
+    "item_count": 140,
     "items": [
         {
             "item_id": "290509714",
@@ -113,6 +113,18 @@
             "pixyship_estimate": 13995
         },
         {
+            "item_id": "291751594",
+            "item_design_id": "435",
+            "bonus_type": "Ability",
+            "bonus_value": "13.1",
+            "quantity": "1",
+            "name": "Aldara",
+            "rarity": "Hero",
+            "item_sub_type": "EquipmentAccessory",
+            "item_sprite_id": 9983,
+            "pixyship_estimate": 5785
+        },
+        {
             "item_id": "291268662",
             "item_design_id": "435",
             "bonus_type": "Engine",
@@ -158,7 +170,7 @@
             "rarity": "Hero",
             "item_sub_type": "EquipmentAccessory",
             "item_sprite_id": 9983,
-            "pixyship_estimate": 463
+            "pixyship_estimate": 456
         },
         {
             "item_id": "291327327",
@@ -266,7 +278,7 @@
             "rarity": "Hero",
             "item_sub_type": "EquipmentHead",
             "item_sprite_id": 10047,
-            "pixyship_estimate": 221
+            "pixyship_estimate": 275
         },
         {
             "item_id": "289563179",
@@ -278,7 +290,7 @@
             "rarity": "Hero",
             "item_sub_type": "EquipmentHead",
             "item_sprite_id": 10047,
-            "pixyship_estimate": 318
+            "pixyship_estimate": 341
         },
         {
             "item_id": "290082973",
@@ -338,7 +350,7 @@
             "rarity": "Hero",
             "item_sub_type": "EquipmentBody",
             "item_sprite_id": 4819,
-            "pixyship_estimate": 278
+            "pixyship_estimate": 286
         },
         {
             "item_id": "287830605",
@@ -350,7 +362,7 @@
             "rarity": "Hero",
             "item_sub_type": "EquipmentBody",
             "item_sprite_id": 4819,
-            "pixyship_estimate": 540
+            "pixyship_estimate": 553
         },
         {
             "item_id": "290106780",
@@ -434,7 +446,7 @@
             "rarity": "Hero",
             "item_sub_type": "EquipmentWeapon",
             "item_sprite_id": 16605,
-            "pixyship_estimate": 173
+            "pixyship_estimate": 174
         },
         {
             "item_id": "278156341",
@@ -554,7 +566,7 @@
             "rarity": "Hero",
             "item_sub_type": "EquipmentWeapon",
             "item_sprite_id": 5007,
-            "pixyship_estimate": 495
+            "pixyship_estimate": 501
         },
         {
             "item_id": "291005979",
@@ -566,7 +578,7 @@
             "rarity": "Hero",
             "item_sub_type": "EquipmentWeapon",
             "item_sprite_id": 5007,
-            "pixyship_estimate": 495
+            "pixyship_estimate": 501
         },
         {
             "item_id": "289992880",
@@ -617,6 +629,18 @@
             "pixyship_estimate": 224
         },
         {
+            "item_id": "278658194",
+            "item_design_id": "163",
+            "bonus_type": "Science",
+            "bonus_value": "6.9",
+            "quantity": "1",
+            "name": "Golden Cai Dao",
+            "rarity": "Hero",
+            "item_sub_type": "EquipmentWeapon",
+            "item_sprite_id": 5007,
+            "pixyship_estimate": 187
+        },
+        {
             "item_id": "290512075",
             "item_design_id": "163",
             "bonus_type": "Weapon",
@@ -627,6 +651,18 @@
             "item_sub_type": "EquipmentWeapon",
             "item_sprite_id": 5007,
             "pixyship_estimate": 425
+        },
+        {
+            "item_id": "284707234",
+            "item_design_id": "163",
+            "bonus_type": "Weapon",
+            "bonus_value": "5.9",
+            "quantity": "1",
+            "name": "Golden Cai Dao",
+            "rarity": "Hero",
+            "item_sub_type": "EquipmentWeapon",
+            "item_sprite_id": 5007,
+            "pixyship_estimate": 360
         },
         {
             "item_id": "289215025",
@@ -1286,7 +1322,7 @@
             "rarity": "Hero",
             "item_sub_type": "EquipmentAccessory",
             "item_sprite_id": 10288,
-            "pixyship_estimate": 237
+            "pixyship_estimate": 236
         },
         {
             "item_id": "290215812",
@@ -1359,6 +1395,18 @@
             "item_sub_type": "EquipmentBody",
             "item_sprite_id": 13939,
             "pixyship_estimate": 1375
+        },
+        {
+            "item_id": "282963556",
+            "item_design_id": "933",
+            "bonus_type": "Hp",
+            "bonus_value": "1",
+            "quantity": "1",
+            "name": "Red Marksman Jacket",
+            "rarity": "Hero",
+            "item_sub_type": "EquipmentBody",
+            "item_sprite_id": 13939,
+            "pixyship_estimate": 474
         },
         {
             "item_id": "289376912",
@@ -1539,7 +1587,7 @@
             "rarity": "Hero",
             "item_sub_type": "EquipmentBody",
             "item_sprite_id": 3757,
-            "pixyship_estimate": 592
+            "pixyship_estimate": 594
         },
         {
             "item_id": "291315321",
@@ -1551,7 +1599,7 @@
             "rarity": "Hero",
             "item_sub_type": "EquipmentBody",
             "item_sprite_id": 3757,
-            "pixyship_estimate": 665
+            "pixyship_estimate": 593
         },
         {
             "item_id": "284013428",
