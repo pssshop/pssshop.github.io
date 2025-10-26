@@ -1,6 +1,6 @@
 {
-    "generated": "2025-10-26 12:16:15",
-    "item_count": 144,
+    "generated": "2025-10-26 13:41:32",
+    "item_count": 143,
     "items": [
         {
             "item_id": "290509714",
@@ -760,7 +760,7 @@
             "pixyship_estimate": 688
         },
         {
-            "item_id": "290957301",
+            "item_id": "market-563308835",
             "item_design_id": "727",
             "bonus_type": "Ability",
             "bonus_value": "12.4",
@@ -769,6 +769,7 @@
             "rarity": "Hero",
             "item_sub_type": "EquipmentWeapon",
             "item_sprite_id": 12544,
+            "item_price": 4950,
             "pixyship_estimate": 4758
         },
         {
@@ -868,19 +869,7 @@
             "pixyship_estimate": 523
         },
         {
-            "item_id": "291640563",
-            "item_design_id": "1705",
-            "bonus_type": "Pilot",
-            "bonus_value": "9.5",
-            "quantity": "1",
-            "name": "Mach Helm",
-            "rarity": "Hero",
-            "item_sub_type": "EquipmentHead",
-            "item_sprite_id": 19673,
-            "pixyship_estimate": 5615
-        },
-        {
-            "item_id": "291698272",
+            "item_id": "market-563310429",
             "item_design_id": "1705",
             "bonus_type": "Pilot",
             "bonus_value": "5.4",
@@ -889,6 +878,7 @@
             "rarity": "Hero",
             "item_sub_type": "EquipmentHead",
             "item_sprite_id": 19673,
+            "item_price": 3450,
             "pixyship_estimate": 3841
         },
         {
