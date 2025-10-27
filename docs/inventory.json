@@ -1,6 +1,6 @@
 {
-    "generated": "2025-10-26 18:02:43",
-    "item_count": 143,
+    "generated": "2025-10-27 00:59:57",
+    "item_count": 145,
     "items": [
         {
             "item_id": "290509714",
@@ -338,6 +338,18 @@
             "item_sub_type": "EquipmentWeapon",
             "item_sprite_id": 7615,
             "pixyship_estimate": 614
+        },
+        {
+            "item_id": "291958669",
+            "item_design_id": "258",
+            "bonus_type": "Ability",
+            "bonus_value": "11",
+            "quantity": "1",
+            "name": "DMR MK II",
+            "rarity": "Hero",
+            "item_sub_type": "EquipmentWeapon",
+            "item_sprite_id": 7615,
+            "pixyship_estimate": 465
         },
         {
             "item_id": "289867481",
@@ -685,7 +697,7 @@
             "rarity": "Hero",
             "item_sub_type": "EquipmentWeapon",
             "item_sprite_id": 11219,
-            "pixyship_estimate": 1148
+            "pixyship_estimate": 1152
         },
         {
             "item_id": "289327745",
@@ -697,7 +709,7 @@
             "rarity": "Hero",
             "item_sub_type": "EquipmentWeapon",
             "item_sprite_id": 11219,
-            "pixyship_estimate": 616
+            "pixyship_estimate": 595
         },
         {
             "item_id": "285289779",
@@ -721,7 +733,7 @@
             "rarity": "Hero",
             "item_sub_type": "EquipmentWeapon",
             "item_sprite_id": 11219,
-            "pixyship_estimate": 1426
+            "pixyship_estimate": 1413
         },
         {
             "item_id": "291591598",
@@ -733,7 +745,7 @@
             "rarity": "Hero",
             "item_sub_type": "EquipmentWeapon",
             "item_sprite_id": 11219,
-            "pixyship_estimate": 633
+            "pixyship_estimate": 629
         },
         {
             "item_id": "285665508",
@@ -1287,7 +1299,7 @@
             "rarity": "Hero",
             "item_sub_type": "EquipmentAccessory",
             "item_sprite_id": 10288,
-            "pixyship_estimate": 259
+            "pixyship_estimate": 258
         },
         {
             "item_id": "291401233",
@@ -1299,7 +1311,7 @@
             "rarity": "Hero",
             "item_sub_type": "EquipmentAccessory",
             "item_sprite_id": 10288,
-            "pixyship_estimate": 227
+            "pixyship_estimate": 221
         },
         {
             "item_id": "275223227",
@@ -1311,7 +1323,7 @@
             "rarity": "Hero",
             "item_sub_type": "EquipmentAccessory",
             "item_sprite_id": 10288,
-            "pixyship_estimate": 226
+            "pixyship_estimate": 220
         },
         {
             "item_id": "278518325",
@@ -1696,6 +1708,18 @@
             "item_sub_type": "EquipmentLeg",
             "item_sprite_id": 12887,
             "pixyship_estimate": 398
+        },
+        {
+            "item_id": "291948040",
+            "item_design_id": "799",
+            "bonus_type": "Ability",
+            "bonus_value": "12.6",
+            "quantity": "1",
+            "name": "Visiri Master Gunner Greaves",
+            "rarity": "Hero",
+            "item_sub_type": "EquipmentLeg",
+            "item_sprite_id": 12887,
+            "pixyship_estimate": 354
         },
         {
             "item_id": "289564618",
