@@ -1,6 +1,6 @@
 {
-    "generated": "2025-10-27 01:08:55",
-    "item_count": 145,
+    "generated": "2025-10-27 01:09:27",
+    "item_count": 147,
     "items": [
         {
             "item_id": "290509714",
@@ -748,6 +748,18 @@
             "pixyship_estimate": 629
         },
         {
+            "item_id": "291959046",
+            "item_design_id": "678",
+            "bonus_type": "Attack",
+            "bonus_value": "0.4",
+            "quantity": "1",
+            "name": "King Husky",
+            "rarity": "Hero",
+            "item_sub_type": "EquipmentAccessory",
+            "item_sprite_id": 12025,
+            "pixyship_estimate": 1600
+        },
+        {
             "item_id": "285665508",
             "item_design_id": "678",
             "bonus_type": "Pilot",
@@ -1156,6 +1168,18 @@
             "item_sub_type": "EquipmentBody",
             "item_sprite_id": 14569,
             "pixyship_estimate": 552
+        },
+        {
+            "item_id": "291959045",
+            "item_design_id": "953",
+            "bonus_type": "Science",
+            "bonus_value": "8.4",
+            "quantity": "1",
+            "name": "Plague Surgeon Slacks",
+            "rarity": "Hero",
+            "item_sub_type": "EquipmentLeg",
+            "item_sprite_id": 14561,
+            "pixyship_estimate": null
         },
         {
             "item_id": "290608467",
