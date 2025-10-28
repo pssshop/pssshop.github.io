@@ -1,6 +1,6 @@
 {
-    "generated": "2025-10-27 01:11:37",
-    "item_count": 146,
+    "generated": "2025-10-28 02:17:45",
+    "item_count": 147,
     "items": [
         {
             "item_id": "290509714",
@@ -12,7 +12,7 @@
             "rarity": "Special",
             "item_sub_type": "EquipmentAccessory",
             "item_sprite_id": 19814,
-            "pixyship_estimate": 1765
+            "pixyship_estimate": 1764
         },
         {
             "item_id": "291755799",
@@ -24,10 +24,10 @@
             "rarity": "Special",
             "item_sub_type": "EquipmentAccessory",
             "item_sprite_id": 19814,
-            "pixyship_estimate": 4568
+            "pixyship_estimate": 4504
         },
         {
-            "item_id": "291920190",
+            "item_id": "market-563406389",
             "item_design_id": "1718",
             "bonus_type": "Hp",
             "bonus_value": "2",
@@ -36,6 +36,7 @@
             "rarity": "Special",
             "item_sub_type": "EquipmentAccessory",
             "item_sprite_id": 19814,
+            "item_price": 6350,
             "pixyship_estimate": 6285
         },
         {
@@ -99,7 +100,7 @@
             "pixyship_estimate": null
         },
         {
-            "item_id": "291920192",
+            "item_id": "market-563406339",
             "item_design_id": "1749",
             "bonus_type": "Pilot",
             "bonus_value": "9.7",
@@ -108,10 +109,11 @@
             "rarity": "Special",
             "item_sub_type": "EquipmentWeapon",
             "item_sprite_id": 20082,
+            "item_price": 10000,
             "pixyship_estimate": 13995
         },
         {
-            "item_id": "market-563308681",
+            "item_id": "291986196",
             "item_design_id": "435",
             "bonus_type": "Ability",
             "bonus_value": "13.1",
@@ -120,8 +122,7 @@
             "rarity": "Hero",
             "item_sub_type": "EquipmentAccessory",
             "item_sprite_id": 9983,
-            "item_price": 5650,
-            "pixyship_estimate": 5921
+            "pixyship_estimate": 5752
         },
         {
             "item_id": "291268662",
@@ -181,7 +182,7 @@
             "rarity": "Hero",
             "item_sub_type": "EquipmentAccessory",
             "item_sprite_id": 9983,
-            "pixyship_estimate": 456
+            "pixyship_estimate": 455
         },
         {
             "item_id": "291327327",
@@ -193,7 +194,7 @@
             "rarity": "Hero",
             "item_sub_type": "EquipmentAccessory",
             "item_sprite_id": 9983,
-            "pixyship_estimate": 2983
+            "pixyship_estimate": 2995
         },
         {
             "item_id": "290829568",
@@ -289,7 +290,7 @@
             "rarity": "Hero",
             "item_sub_type": "EquipmentHead",
             "item_sprite_id": 10047,
-            "pixyship_estimate": 275
+            "pixyship_estimate": 271
         },
         {
             "item_id": "289563179",
@@ -409,7 +410,7 @@
             "rarity": "Hero",
             "item_sub_type": "EquipmentBody",
             "item_sprite_id": 4819,
-            "pixyship_estimate": 469
+            "pixyship_estimate": 472
         },
         {
             "item_id": "291075334",
@@ -448,7 +449,7 @@
             "pixyship_estimate": 427
         },
         {
-            "item_id": "291386074",
+            "item_id": "market-563406592",
             "item_design_id": "246",
             "bonus_type": "Ability",
             "bonus_value": "13.8",
@@ -457,6 +458,7 @@
             "rarity": "Hero",
             "item_sub_type": "EquipmentHead",
             "item_sprite_id": 7432,
+            "item_price": 2500,
             "pixyship_estimate": 1550
         },
         {
@@ -517,7 +519,7 @@
             "rarity": "Hero",
             "item_sub_type": "EquipmentWeapon",
             "item_sprite_id": 16605,
-            "pixyship_estimate": 624
+            "pixyship_estimate": 626
         },
         {
             "item_id": "286410130",
@@ -541,7 +543,7 @@
             "rarity": "Hero",
             "item_sub_type": "EquipmentWeapon",
             "item_sprite_id": 5007,
-            "pixyship_estimate": 300
+            "pixyship_estimate": 303
         },
         {
             "item_id": "291527088",
@@ -697,7 +699,7 @@
             "rarity": "Hero",
             "item_sub_type": "EquipmentWeapon",
             "item_sprite_id": 11219,
-            "pixyship_estimate": 1152
+            "pixyship_estimate": 1161
         },
         {
             "item_id": "289327745",
@@ -784,7 +786,7 @@
             "pixyship_estimate": 688
         },
         {
-            "item_id": "market-563308835",
+            "item_id": "291986195",
             "item_design_id": "727",
             "bonus_type": "Ability",
             "bonus_value": "12.4",
@@ -793,7 +795,6 @@
             "rarity": "Hero",
             "item_sub_type": "EquipmentWeapon",
             "item_sprite_id": 12544,
-            "item_price": 4950,
             "pixyship_estimate": 4758
         },
         {
@@ -830,7 +831,7 @@
             "rarity": "Hero",
             "item_sub_type": "EquipmentWeapon",
             "item_sprite_id": 12544,
-            "pixyship_estimate": 881
+            "pixyship_estimate": 987
         },
         {
             "item_id": "289460206",
@@ -893,7 +894,7 @@
             "pixyship_estimate": 523
         },
         {
-            "item_id": "market-563310429",
+            "item_id": "291986568",
             "item_design_id": "1705",
             "bonus_type": "Pilot",
             "bonus_value": "5.4",
@@ -902,7 +903,6 @@
             "rarity": "Hero",
             "item_sub_type": "EquipmentHead",
             "item_sprite_id": 19673,
-            "item_price": 3450,
             "pixyship_estimate": 3841
         },
         {
@@ -930,6 +930,18 @@
             "pixyship_estimate": null
         },
         {
+            "item_id": "291960621",
+            "item_design_id": "1705",
+            "bonus_type": "Stamina",
+            "bonus_value": "14",
+            "quantity": "1",
+            "name": "Mach Helm",
+            "rarity": "Hero",
+            "item_sub_type": "EquipmentHead",
+            "item_sprite_id": 19673,
+            "pixyship_estimate": 694
+        },
+        {
             "item_id": "289219708",
             "item_design_id": "1177",
             "bonus_type": "FireResistance",
@@ -939,7 +951,7 @@
             "rarity": "Hero",
             "item_sub_type": "EquipmentAccessory",
             "item_sprite_id": 16441,
-            "pixyship_estimate": 253
+            "pixyship_estimate": 289
         },
         {
             "item_id": "283080486",
@@ -951,7 +963,7 @@
             "rarity": "Hero",
             "item_sub_type": "EquipmentAccessory",
             "item_sprite_id": 16441,
-            "pixyship_estimate": 551
+            "pixyship_estimate": 544
         },
         {
             "item_id": "278957068",
@@ -1467,7 +1479,7 @@
             "rarity": "Hero",
             "item_sub_type": "EquipmentBody",
             "item_sprite_id": 13939,
-            "pixyship_estimate": 207
+            "pixyship_estimate": 205
         },
         {
             "item_id": "291753792",
@@ -1479,7 +1491,7 @@
             "rarity": "Hero",
             "item_sub_type": "EquipmentBody",
             "item_sprite_id": 13939,
-            "pixyship_estimate": 202
+            "pixyship_estimate": 262
         },
         {
             "item_id": "290080298",
@@ -1683,7 +1695,7 @@
             "rarity": "Hero",
             "item_sub_type": "EquipmentBody",
             "item_sprite_id": 3757,
-            "pixyship_estimate": 285
+            "pixyship_estimate": 290
         },
         {
             "item_id": "289606481",
@@ -1695,7 +1707,7 @@
             "rarity": "Hero",
             "item_sub_type": "EquipmentBody",
             "item_sprite_id": 3757,
-            "pixyship_estimate": 285
+            "pixyship_estimate": 290
         },
         {
             "item_id": "291594252",
@@ -1719,7 +1731,7 @@
             "rarity": "Hero",
             "item_sub_type": "EquipmentLeg",
             "item_sprite_id": 12887,
-            "pixyship_estimate": 398
+            "pixyship_estimate": 410
         },
         {
             "item_id": "291948040",
@@ -1731,7 +1743,7 @@
             "rarity": "Hero",
             "item_sub_type": "EquipmentLeg",
             "item_sprite_id": 12887,
-            "pixyship_estimate": 354
+            "pixyship_estimate": 383
         },
         {
             "item_id": "289564618",
@@ -1743,7 +1755,7 @@
             "rarity": "Hero",
             "item_sub_type": "EquipmentLeg",
             "item_sprite_id": 12887,
-            "pixyship_estimate": 328
+            "pixyship_estimate": 355
         },
         {
             "item_id": "284813923",
