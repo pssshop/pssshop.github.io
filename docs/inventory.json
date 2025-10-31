@@ -1,6 +1,6 @@
 {
-    "generated": "2025-10-29 21:59:19",
-    "item_count": 147,
+    "generated": "2025-10-31 02:03:42",
+    "item_count": 150,
     "items": [
         {
             "item_id": "290509714",
@@ -132,7 +132,7 @@
             "rarity": "Hero",
             "item_sub_type": "EquipmentAccessory",
             "item_sprite_id": 9983,
-            "pixyship_estimate": 409
+            "pixyship_estimate": 410
         },
         {
             "item_id": "290215817",
@@ -180,7 +180,7 @@
             "rarity": "Hero",
             "item_sub_type": "EquipmentAccessory",
             "item_sprite_id": 9983,
-            "pixyship_estimate": 455
+            "pixyship_estimate": 456
         },
         {
             "item_id": "291327327",
@@ -204,7 +204,7 @@
             "rarity": "Hero",
             "item_sub_type": "EquipmentAccessory",
             "item_sprite_id": 9983,
-            "pixyship_estimate": 934
+            "pixyship_estimate": 913
         },
         {
             "item_id": "289472191",
@@ -301,6 +301,18 @@
             "item_sub_type": "EquipmentHead",
             "item_sprite_id": 10047,
             "pixyship_estimate": 341
+        },
+        {
+            "item_id": "292158477",
+            "item_design_id": "514",
+            "bonus_type": "Stamina",
+            "bonus_value": "18",
+            "quantity": "1",
+            "name": "Captain's Skullmet",
+            "rarity": "Hero",
+            "item_sub_type": "EquipmentHead",
+            "item_sprite_id": 10047,
+            "pixyship_estimate": 482
         },
         {
             "item_id": "290082973",
@@ -552,7 +564,7 @@
             "rarity": "Hero",
             "item_sub_type": "EquipmentWeapon",
             "item_sprite_id": 5007,
-            "pixyship_estimate": 511
+            "pixyship_estimate": 514
         },
         {
             "item_id": "288903652",
@@ -672,7 +684,7 @@
             "rarity": "Hero",
             "item_sub_type": "EquipmentWeapon",
             "item_sprite_id": 5007,
-            "pixyship_estimate": 425
+            "pixyship_estimate": 452
         },
         {
             "item_id": "289215025",
@@ -684,7 +696,7 @@
             "rarity": "Hero",
             "item_sub_type": "EquipmentWeapon",
             "item_sprite_id": 5007,
-            "pixyship_estimate": 257
+            "pixyship_estimate": 262
         },
         {
             "item_id": "287962002",
@@ -711,7 +723,7 @@
             "pixyship_estimate": 595
         },
         {
-            "item_id": "285289779",
+            "item_id": "292168037",
             "item_design_id": "1493",
             "bonus_type": "Science",
             "bonus_value": "5.7",
@@ -733,18 +745,6 @@
             "item_sub_type": "EquipmentWeapon",
             "item_sprite_id": 11219,
             "pixyship_estimate": 1413
-        },
-        {
-            "item_id": "291591598",
-            "item_design_id": "1493",
-            "bonus_type": "Weapon",
-            "bonus_value": "4.2",
-            "quantity": "1",
-            "name": "Immensity Gauntlet",
-            "rarity": "Hero",
-            "item_sub_type": "EquipmentWeapon",
-            "item_sprite_id": 11219,
-            "pixyship_estimate": 629
         },
         {
             "item_id": "291959046",
@@ -927,6 +927,18 @@
             "pixyship_estimate": null
         },
         {
+            "item_id": "292163966",
+            "item_design_id": "1705",
+            "bonus_type": "Repair",
+            "bonus_value": "0.3",
+            "quantity": "1",
+            "name": "Mach Helm",
+            "rarity": "Hero",
+            "item_sub_type": "EquipmentHead",
+            "item_sprite_id": 19673,
+            "pixyship_estimate": null
+        },
+        {
             "item_id": "291960621",
             "item_design_id": "1705",
             "bonus_type": "Stamina",
@@ -937,6 +949,18 @@
             "item_sub_type": "EquipmentHead",
             "item_sprite_id": 19673,
             "pixyship_estimate": 694
+        },
+        {
+            "item_id": "292118779",
+            "item_design_id": "1707",
+            "bonus_type": "Science",
+            "bonus_value": "3.9",
+            "quantity": "1",
+            "name": "Mach Sabatons",
+            "rarity": "Hero",
+            "item_sub_type": "EquipmentLeg",
+            "item_sprite_id": 19677,
+            "pixyship_estimate": null
         },
         {
             "item_id": "289219708",
@@ -960,7 +984,7 @@
             "rarity": "Hero",
             "item_sub_type": "EquipmentAccessory",
             "item_sprite_id": 16441,
-            "pixyship_estimate": 544
+            "pixyship_estimate": 515
         },
         {
             "item_id": "278957068",
@@ -975,7 +999,7 @@
             "pixyship_estimate": 176
         },
         {
-            "item_id": "290690226",
+            "item_id": "292168036",
             "item_design_id": "1001",
             "bonus_type": "Ability",
             "bonus_value": "14",
@@ -1008,7 +1032,7 @@
             "rarity": "Hero",
             "item_sub_type": "EquipmentLeg",
             "item_sprite_id": 15249,
-            "pixyship_estimate": 1116
+            "pixyship_estimate": 1156
         },
         {
             "item_id": "290959592",
@@ -1059,7 +1083,7 @@
             "pixyship_estimate": 1463
         },
         {
-            "item_id": "291140898",
+            "item_id": "292168035",
             "item_design_id": "960",
             "bonus_type": "Ability",
             "bonus_value": "12.1",
@@ -1092,7 +1116,7 @@
             "rarity": "Hero",
             "item_sub_type": "EquipmentAccessory",
             "item_sprite_id": 14738,
-            "pixyship_estimate": 451
+            "pixyship_estimate": 453
         },
         {
             "item_id": "290610208",
@@ -1116,7 +1140,7 @@
             "rarity": "Hero",
             "item_sub_type": "EquipmentHead",
             "item_sprite_id": 14565,
-            "pixyship_estimate": 585
+            "pixyship_estimate": null
         },
         {
             "item_id": "290658424",
@@ -1284,7 +1308,7 @@
             "rarity": "Hero",
             "item_sub_type": "EquipmentAccessory",
             "item_sprite_id": 10288,
-            "pixyship_estimate": 433
+            "pixyship_estimate": 428
         },
         {
             "item_id": "291785321",
@@ -1296,7 +1320,7 @@
             "rarity": "Hero",
             "item_sub_type": "EquipmentAccessory",
             "item_sprite_id": 10288,
-            "pixyship_estimate": 284
+            "pixyship_estimate": 288
         },
         {
             "item_id": "291426658",
@@ -1368,7 +1392,7 @@
             "rarity": "Hero",
             "item_sub_type": "EquipmentAccessory",
             "item_sprite_id": 10288,
-            "pixyship_estimate": 209
+            "pixyship_estimate": 204
         },
         {
             "item_id": "290215812",
@@ -1587,6 +1611,18 @@
             "pixyship_estimate": 232
         },
         {
+            "item_id": "292115333",
+            "item_design_id": "808",
+            "bonus_type": "Pilot",
+            "bonus_value": "8.6",
+            "quantity": "1",
+            "name": "Trooper Draconian Helmet",
+            "rarity": "Hero",
+            "item_sub_type": "EquipmentHead",
+            "item_sprite_id": 13020,
+            "pixyship_estimate": 198
+        },
+        {
             "item_id": "289635338",
             "item_design_id": "808",
             "bonus_type": "Repair",
@@ -1596,7 +1632,7 @@
             "rarity": "Hero",
             "item_sub_type": "EquipmentHead",
             "item_sprite_id": 13020,
-            "pixyship_estimate": 140
+            "pixyship_estimate": 130
         },
         {
             "item_id": "291920191",
@@ -1620,7 +1656,7 @@
             "rarity": "Hero",
             "item_sub_type": "EquipmentBody",
             "item_sprite_id": 3757,
-            "pixyship_estimate": 331
+            "pixyship_estimate": 387
         },
         {
             "item_id": "287604209",
