@@ -1,6 +1,6 @@
 {
-    "generated": "2025-11-01 11:37:38",
-    "item_count": 150,
+    "generated": "2025-11-01 11:50:08",
+    "item_count": 151,
     "items": [
         {
             "item_id": "290509714",
@@ -986,7 +986,7 @@
             "rarity": "Hero",
             "item_sub_type": "EquipmentAccessory",
             "item_sprite_id": 16441,
-            "pixyship_estimate": 176
+            "pixyship_estimate": 174
         },
         {
             "item_id": "292168036",
@@ -1145,7 +1145,7 @@
             "pixyship_estimate": 395
         },
         {
-            "item_id": "290655301",
+            "item_id": "market-563867755",
             "item_design_id": "954",
             "bonus_type": "Ability",
             "bonus_value": "15.7",
@@ -1154,6 +1154,7 @@
             "rarity": "Hero",
             "item_sub_type": "EquipmentBody",
             "item_sprite_id": 14569,
+            "item_price": 1950,
             "pixyship_estimate": 1226
         },
         {
@@ -1299,6 +1300,18 @@
             "item_sub_type": "EquipmentAccessory",
             "item_sprite_id": 10288,
             "pixyship_estimate": 428
+        },
+        {
+            "item_id": "292238108",
+            "item_design_id": "490",
+            "bonus_type": "Ability",
+            "bonus_value": "10.5",
+            "quantity": "1",
+            "name": "QT Mechworks Drone",
+            "rarity": "Hero",
+            "item_sub_type": "EquipmentAccessory",
+            "item_sprite_id": 10288,
+            "pixyship_estimate": 379
         },
         {
             "item_id": "291785321",
