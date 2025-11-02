@@ -703,7 +703,6 @@ function App() {
                             <span className="pss-tooltip-text">
                                 {(sorted[hoveredRow].item_enhancement_type || typeof sorted[hoveredRow].item_enhancement_value !== 'undefined') && (
                                     <div>
-                                        <strong>Enhancement:</strong>{' '}
                                         <span className="monospace">
                                             {sorted[hoveredRow].item_enhancement_type || ''}{
                                                 typeof sorted[hoveredRow].item_enhancement_value !== 'undefined' && sorted[hoveredRow].item_enhancement_value !== null
