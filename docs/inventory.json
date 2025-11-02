@@ -1,6 +1,6 @@
 {
-    "generated": "2025-11-01 11:50:08",
-    "item_count": 151,
+    "generated": "2025-11-01 22:42:37",
+    "item_count": 155,
     "items": [
         {
             "item_id": "290509714",
@@ -87,7 +87,7 @@
             "pixyship_estimate": null
         },
         {
-            "item_id": "market-563803658",
+            "item_id": "292255175",
             "item_design_id": "958",
             "bonus_type": "FireResistance",
             "bonus_value": "54.2",
@@ -96,7 +96,6 @@
             "rarity": "Special",
             "item_sub_type": "EquipmentWeapon",
             "item_sprite_id": 14596,
-            "item_price": 2250,
             "pixyship_estimate": null
         },
         {
@@ -397,7 +396,7 @@
             "rarity": "Hero",
             "item_sub_type": "EquipmentBody",
             "item_sprite_id": 4819,
-            "pixyship_estimate": 546
+            "pixyship_estimate": 565
         },
         {
             "item_id": "290106780",
@@ -541,7 +540,7 @@
             "rarity": "Hero",
             "item_sub_type": "EquipmentWeapon",
             "item_sprite_id": 5007,
-            "pixyship_estimate": 303
+            "pixyship_estimate": 301
         },
         {
             "item_id": "291527088",
@@ -589,7 +588,7 @@
             "rarity": "Hero",
             "item_sub_type": "EquipmentWeapon",
             "item_sprite_id": 5007,
-            "pixyship_estimate": 596
+            "pixyship_estimate": 604
         },
         {
             "item_id": "290085700",
@@ -712,7 +711,7 @@
             "pixyship_estimate": 595
         },
         {
-            "item_id": "292168037",
+            "item_id": "market-563888913",
             "item_design_id": "1493",
             "bonus_type": "Science",
             "bonus_value": "5.7",
@@ -721,7 +720,20 @@
             "rarity": "Hero",
             "item_sub_type": "EquipmentWeapon",
             "item_sprite_id": 11219,
+            "item_price": 650,
             "pixyship_estimate": 538
+        },
+        {
+            "item_id": "292260382",
+            "item_design_id": "1493",
+            "bonus_type": "Stamina",
+            "bonus_value": "14",
+            "quantity": "1",
+            "name": "Immensity Gauntlet",
+            "rarity": "Hero",
+            "item_sub_type": "EquipmentWeapon",
+            "item_sprite_id": 11219,
+            "pixyship_estimate": 466
         },
         {
             "item_id": "291033383",
@@ -748,7 +760,7 @@
             "pixyship_estimate": 1600
         },
         {
-            "item_id": "market-563803725",
+            "item_id": "292255174",
             "item_design_id": "678",
             "bonus_type": "Pilot",
             "bonus_value": "9.7",
@@ -757,7 +769,6 @@
             "rarity": "Hero",
             "item_sub_type": "EquipmentAccessory",
             "item_sprite_id": 12025,
-            "item_price": 2000,
             "pixyship_estimate": 1773
         },
         {
@@ -879,6 +890,18 @@
             "item_sub_type": "EquipmentBody",
             "item_sprite_id": 19675,
             "pixyship_estimate": 523
+        },
+        {
+            "item_id": "292259696",
+            "item_design_id": "1705",
+            "bonus_type": "Hp",
+            "bonus_value": "2",
+            "quantity": "1",
+            "name": "Mach Helm",
+            "rarity": "Hero",
+            "item_sub_type": "EquipmentHead",
+            "item_sprite_id": 19673,
+            "pixyship_estimate": null
         },
         {
             "item_id": "291986568",
@@ -1013,7 +1036,7 @@
             "pixyship_estimate": 469
         },
         {
-            "item_id": "290446371",
+            "item_id": "market-563888875",
             "item_design_id": "1000",
             "bonus_type": "Ability",
             "bonus_value": "11.6",
@@ -1022,6 +1045,7 @@
             "rarity": "Hero",
             "item_sub_type": "EquipmentLeg",
             "item_sprite_id": 15249,
+            "item_price": 1150,
             "pixyship_estimate": 1156
         },
         {
@@ -1614,6 +1638,18 @@
             "pixyship_estimate": 2221
         },
         {
+            "item_id": "292261096",
+            "item_design_id": "808",
+            "bonus_type": "FireResistance",
+            "bonus_value": "50.1",
+            "quantity": "1",
+            "name": "Trooper Draconian Helmet",
+            "rarity": "Hero",
+            "item_sub_type": "EquipmentHead",
+            "item_sprite_id": 13020,
+            "pixyship_estimate": 2441
+        },
+        {
             "item_id": "278826883",
             "item_design_id": "808",
             "bonus_type": "Pilot",
@@ -1647,7 +1683,7 @@
             "rarity": "Hero",
             "item_sub_type": "EquipmentHead",
             "item_sprite_id": 13020,
-            "pixyship_estimate": 130
+            "pixyship_estimate": 131
         },
         {
             "item_id": "291920191",
@@ -1707,7 +1743,7 @@
             "rarity": "Hero",
             "item_sub_type": "EquipmentBody",
             "item_sprite_id": 3757,
-            "pixyship_estimate": 593
+            "pixyship_estimate": 603
         },
         {
             "item_id": "284013428",
@@ -1768,6 +1804,18 @@
             "item_sub_type": "EquipmentBody",
             "item_sprite_id": 3757,
             "pixyship_estimate": null
+        },
+        {
+            "item_id": "292259724",
+            "item_design_id": "790",
+            "bonus_type": "Weapon",
+            "bonus_value": "3.9",
+            "quantity": "1",
+            "name": "Visiri Gunner Helm Alpha",
+            "rarity": "Hero",
+            "item_sub_type": "EquipmentHead",
+            "item_sprite_id": 12777,
+            "pixyship_estimate": 1119
         },
         {
             "item_id": "286032720",
