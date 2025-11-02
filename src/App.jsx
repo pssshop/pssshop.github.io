@@ -1,9 +1,9 @@
 import { useEffect, useState, useRef, useMemo } from 'react';
 
-function Tooltip({ visible, top, left, children }) {
+function Tooltip({ visible, top, left, children, innerRef }) {
     if (!visible) return null;
     return (
-        <div className="pss-tooltip" style={{ top: top || 40, left: left || 40 }}>
+        <div ref={innerRef} className="pss-tooltip" style={{ top: top || 40, left: left || 40 }}>
             {children}
         </div>
     );
@@ -115,6 +115,7 @@ function App() {
     });
     const rowRefs = useRef([]);
     const containerRef = useRef(null);
+    const tooltipRef = useRef(null);
     const [adminPriceEdits, setAdminPriceEdits] = useState({});
 
     // --- helpers ---
@@ -206,16 +207,6 @@ function App() {
             if (e.key === 'Escape') {
                 setTooltipVisible(false);
                 setSearch('');
-            }
-
-            // Tooltip logic (show when a row is hovered regardless of admin mode)
-            if (hoveredRow !== null) {
-                const rowEl = rowRefs.current[hoveredRow];
-                if (rowEl) {
-                    const rect = rowEl.getBoundingClientRect();
-                    setTooltipVisible(true);
-                    setTooltipPos({ top: rect.top + rect.height / 2, left: rect.left + rect.width / 2 });
-                }
             }
         };
 
@@ -577,18 +568,20 @@ function App() {
                                                 'noopener,noreferrer',
                                             );
                                         }}
-                                        onMouseEnter={() => {
-                                            setHoveredRow(idx);
-                                            const rowEl = rowRefs.current[idx];
-                                            if (rowEl) {
-                                                const rect = rowEl.getBoundingClientRect();
+                                        onMouseEnter={(e) => {
+                                                setHoveredRow(idx);
                                                 setTooltipVisible(true);
-                                                setTooltipPos({
-                                                    top: rect.top + rect.height / 2,
-                                                    left: rect.left + rect.width / 2,
-                                                });
-                                            }
-                                        }}
+                                                // position upper-right of cursor
+                                                setTooltipPos({ top: e.clientY - 24, left: e.clientX + 12 });
+                                            }}
+                                            onMouseMove={(e) => {
+                                                // update position as mouse moves so tooltip follows cursor
+                                                setTooltipPos({ top: e.clientY - 24, left: e.clientX + 12 });
+                                            }}
+                                            onMouseLeave={() => {
+                                                setTooltipVisible(false);
+                                                setHoveredRow(null);
+                                            }}
                                     >
                                         {columns.map((key) => {
                                             if (key === 'bonus') {
@@ -617,7 +610,6 @@ function App() {
                                                     <td
                                                         key={key}
                                                         className="price-col"
-                                                        title={estimate ? `Pixyship Estimate: ${estimate}` : undefined}
                                                         style={{ fontStyle: showEstimateOnly ? 'italic' : undefined, '--admin-price-color': adminView ? color : undefined }}
                                                     >
                                                         {adminView ? (
@@ -669,15 +661,17 @@ function App() {
                                                 <td key={key}>
                                                     {key === 'name' ? (
                                                         <>
-                                                            <img
-                                                                src={`https://api.pixelstarships.com/FileService/DownloadSprite?spriteId=${item.item_sprite_id}`}
-                                                                alt={item.name}
-                                                                className="item-img"
-                                                            />
-                                                            {highlightText(
-                                                                `${item.name}${Number(item.quantity) > 1 ? ` x${item.quantity}` : ''}`,
-                                                            )}
-                                                        </>
+                                                                <img
+                                                                    src={`https://api.pixelstarships.com/FileService/DownloadSprite?spriteId=${item.item_sprite_id}`}
+                                                                    alt={item.name}
+                                                                    className="item-img"
+                                                                />
+                                                                <span className="item-name-text">
+                                                                    {highlightText(
+                                                                        `${item.name}${Number(item.quantity) > 1 ? ` x${item.quantity}` : ''}`,
+                                                                    )}
+                                                                </span>
+                                                            </>
                                                     ) : key === 'item_sub_type' && typeof item[key] === 'string' ? (
                                                         highlightText(
                                                             item[key].replace(/^Equipment/, '').replace(/^\s+/, ''),
@@ -695,6 +689,7 @@ function App() {
                     </div>
 
                     <Tooltip
+                        innerRef={tooltipRef}
                         visible={tooltipVisible && sorted[hoveredRow] && hoveredRow !== null}
                         top={tooltipPos.top}
                         left={tooltipPos.left}
@@ -715,6 +710,12 @@ function App() {
 
                                 {adminView && (
                                     <>
+                                        {getEstimateNum(sorted[hoveredRow]) !== null && (
+                                            <div>
+                                                <strong>Pixyship Estimate:</strong>{' '}
+                                                <span className="monospace">{getEstimateNum(sorted[hoveredRow]).toLocaleString()}</span>
+                                            </div>
+                                        )}
                                         <div>
                                             <strong>Raw Item ID:</strong> <span className="monospace">{sorted[hoveredRow].item_id}</span>
                                         </div>
