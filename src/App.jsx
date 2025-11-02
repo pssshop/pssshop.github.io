@@ -208,8 +208,8 @@ function App() {
                 setSearch('');
             }
 
-            // Tooltip logic (only in admin view)
-            if (adminView && hoveredRow !== null) {
+            // Tooltip logic (show when a row is hovered regardless of admin mode)
+            if (hoveredRow !== null) {
                 const rowEl = rowRefs.current[hoveredRow];
                 if (rowEl) {
                     const rect = rowEl.getBoundingClientRect();
@@ -579,18 +579,14 @@ function App() {
                                         }}
                                         onMouseEnter={() => {
                                             setHoveredRow(idx);
-                                            if (adminView) {
-                                                const rowEl = rowRefs.current[idx];
-                                                if (rowEl) {
-                                                    const rect = rowEl.getBoundingClientRect();
-                                                    setTooltipVisible(true);
-                                                    setTooltipPos({
-                                                        top: rect.top + rect.height / 2,
-                                                        left: rect.left + rect.width / 2,
-                                                    });
-                                                }
-                                            } else {
-                                                setTooltipVisible(false);
+                                            const rowEl = rowRefs.current[idx];
+                                            if (rowEl) {
+                                                const rect = rowEl.getBoundingClientRect();
+                                                setTooltipVisible(true);
+                                                setTooltipPos({
+                                                    top: rect.top + rect.height / 2,
+                                                    left: rect.left + rect.width / 2,
+                                                });
                                             }
                                         }}
                                     >
@@ -705,8 +701,29 @@ function App() {
                     >
                         {sorted[hoveredRow] && hoveredRow !== null && (
                             <span className="pss-tooltip-text">
-                                <div><strong>Raw Item ID:</strong> <span className="monospace">{sorted[hoveredRow].item_id}</span></div>
-                                <div><strong>Stable ID:</strong> <span className="monospace">{stableIdFor(sorted[hoveredRow])}</span></div>
+                                {(sorted[hoveredRow].item_enhancement_type || typeof sorted[hoveredRow].item_enhancement_value !== 'undefined') && (
+                                    <div>
+                                        <strong>Enhancement:</strong>{' '}
+                                        <span className="monospace">
+                                            {sorted[hoveredRow].item_enhancement_type || ''}{
+                                                typeof sorted[hoveredRow].item_enhancement_value !== 'undefined' && sorted[hoveredRow].item_enhancement_value !== null
+                                                    ? ` +${String(sorted[hoveredRow].item_enhancement_value)}`
+                                                    : ''
+                                            }
+                                        </span>
+                                    </div>
+                                )}
+
+                                {adminView && (
+                                    <>
+                                        <div>
+                                            <strong>Raw Item ID:</strong> <span className="monospace">{sorted[hoveredRow].item_id}</span>
+                                        </div>
+                                        <div>
+                                            <strong>Stable ID:</strong> <span className="monospace">{stableIdFor(sorted[hoveredRow])}</span>
+                                        </div>
+                                    </>
+                                )}
                             </span>
                         )}
                     </Tooltip>

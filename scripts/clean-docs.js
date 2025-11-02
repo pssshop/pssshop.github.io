@@ -2,7 +2,7 @@ const fs = require('fs');
 const path = require('path');
 
 const docsDir = path.join(__dirname, '../docs');
-const keepFiles = ['favicon.png', 'inventory.json', 'prices.json'];
+const keepFiles = ['.nojekyll', 'favicon.png', 'inventory.json', 'prices.json'];
 
 if (!fs.existsSync(docsDir)) {
     process.exit(0);

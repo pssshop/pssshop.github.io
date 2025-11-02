@@ -57,6 +57,7 @@ Assistant reply style (project preference):
 - Default replies: short (3–5 bullet points).
 - Provide full/detailed responses only when explicitly requested (say "full" or "expand").
 - Keep edits, file lists, and commands concise unless the developer asks for more.
+- Important: do NOT attempt to execute or run project code, tests, or shell commands in the workspace. Only suggest commands, edits, or steps to run; never run them yourself or install packages.
 
 Add this note so future AI contributors follow the repository owner's communication preference.
 
