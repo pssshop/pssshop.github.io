@@ -1,6 +1,6 @@
 {
-    "generated": "2025-11-03 20:42:12",
-    "item_count": 158,
+    "generated": "2025-11-03 20:47:09",
+    "item_count": 155,
     "items": [
         {
             "item_id": "290509714",
@@ -185,10 +185,10 @@
             "pixyship_estimate": 1238
         },
         {
-            "item_id": "292339613",
+            "item_id": "273648919",
             "item_design_id": "435",
             "bonus_type": "Pilot",
-            "bonus_value": "8.1",
+            "bonus_value": "4",
             "quantity": "1",
             "name": "Aldara",
             "rarity": "Hero",
@@ -196,7 +196,7 @@
             "item_sprite_id": 9983,
             "item_enhancement_type": "Ability",
             "item_enhancement_value": 19.0,
-            "pixyship_estimate": 1341
+            "pixyship_estimate": 424
         },
         {
             "item_id": "271588605",
@@ -815,20 +815,6 @@
             "pixyship_estimate": 223
         },
         {
-            "item_id": "278658194",
-            "item_design_id": "163",
-            "bonus_type": "Science",
-            "bonus_value": "6.9",
-            "quantity": "1",
-            "name": "Golden Cai Dao",
-            "rarity": "Hero",
-            "item_sub_type": "EquipmentWeapon",
-            "item_sprite_id": 5007,
-            "item_enhancement_type": "Attack",
-            "item_enhancement_value": 0.6,
-            "pixyship_estimate": 187
-        },
-        {
             "item_id": "290512075",
             "item_design_id": "163",
             "bonus_type": "Weapon",
@@ -841,20 +827,6 @@
             "item_enhancement_type": "Attack",
             "item_enhancement_value": 0.6,
             "pixyship_estimate": 452
-        },
-        {
-            "item_id": "284707234",
-            "item_design_id": "163",
-            "bonus_type": "Weapon",
-            "bonus_value": "5.9",
-            "quantity": "1",
-            "name": "Golden Cai Dao",
-            "rarity": "Hero",
-            "item_sub_type": "EquipmentWeapon",
-            "item_sprite_id": 5007,
-            "item_enhancement_type": "Attack",
-            "item_enhancement_value": 0.6,
-            "pixyship_estimate": 379
         },
         {
             "item_id": "289215025",
@@ -1793,20 +1765,6 @@
             "item_enhancement_type": "Weapon",
             "item_enhancement_value": 8.0,
             "pixyship_estimate": 1368
-        },
-        {
-            "item_id": "282963556",
-            "item_design_id": "933",
-            "bonus_type": "Hp",
-            "bonus_value": "1",
-            "quantity": "1",
-            "name": "Red Marksman Jacket",
-            "rarity": "Hero",
-            "item_sub_type": "EquipmentBody",
-            "item_sprite_id": 13939,
-            "item_enhancement_type": "Weapon",
-            "item_enhancement_value": 8.0,
-            "pixyship_estimate": 463
         },
         {
             "item_id": "289376912",
