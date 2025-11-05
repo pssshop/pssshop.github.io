@@ -1,6 +1,6 @@
 {
-    "generated": "2025-11-04 03:07:17",
-    "item_count": 149,
+    "generated": "2025-11-04 21:56:43",
+    "item_count": 155,
     "items": [
         {
             "item_id": "290509714",
@@ -42,7 +42,7 @@
             "item_sprite_id": 19814,
             "item_enhancement_type": "Hp",
             "item_enhancement_value": 4.0,
-            "pixyship_estimate": 1230
+            "pixyship_estimate": 1434
         },
         {
             "item_id": "291019634",
@@ -182,6 +182,20 @@
             "item_enhancement_type": "Ability",
             "item_enhancement_value": 19.0,
             "pixyship_estimate": 1238
+        },
+        {
+            "item_id": "292339613",
+            "item_design_id": "435",
+            "bonus_type": "Pilot",
+            "bonus_value": "8.1",
+            "quantity": "1",
+            "name": "Aldara",
+            "rarity": "Hero",
+            "item_sub_type": "EquipmentAccessory",
+            "item_sprite_id": 9983,
+            "item_enhancement_type": "Ability",
+            "item_enhancement_value": 19.0,
+            "pixyship_estimate": 1341
         },
         {
             "item_id": "273648919",
@@ -502,7 +516,21 @@
             "item_sprite_id": 4819,
             "item_enhancement_type": "Hp",
             "item_enhancement_value": 3.0,
-            "pixyship_estimate": 556
+            "pixyship_estimate": 544
+        },
+        {
+            "item_id": "292407638",
+            "item_design_id": "169",
+            "bonus_type": "Attack",
+            "bonus_value": "0.2",
+            "quantity": "1",
+            "name": "Dark Matter Armor",
+            "rarity": "Hero",
+            "item_sub_type": "EquipmentBody",
+            "item_sprite_id": 4819,
+            "item_enhancement_type": "Hp",
+            "item_enhancement_value": 3.0,
+            "pixyship_estimate": 328
         },
         {
             "item_id": "290106780",
@@ -517,6 +545,20 @@
             "item_enhancement_type": "Hp",
             "item_enhancement_value": 3.0,
             "pixyship_estimate": 334
+        },
+        {
+            "item_id": "292409421",
+            "item_design_id": "169",
+            "bonus_type": "Pilot",
+            "bonus_value": "9.4",
+            "quantity": "1",
+            "name": "Dark Matter Armor",
+            "rarity": "Hero",
+            "item_sub_type": "EquipmentBody",
+            "item_sprite_id": 4819,
+            "item_enhancement_type": "Hp",
+            "item_enhancement_value": 3.0,
+            "pixyship_estimate": 837
         },
         {
             "item_id": "288106577",
@@ -558,7 +600,7 @@
             "item_sprite_id": 4819,
             "item_enhancement_type": "Hp",
             "item_enhancement_value": 3.0,
-            "pixyship_estimate": 272
+            "pixyship_estimate": 274
         },
         {
             "item_id": "291849593",
@@ -614,7 +656,7 @@
             "item_sprite_id": 16605,
             "item_enhancement_type": "Engine",
             "item_enhancement_value": 7.0,
-            "pixyship_estimate": 1674
+            "pixyship_estimate": 1668
         },
         {
             "item_id": "290628339",
@@ -785,6 +827,20 @@
             "pixyship_estimate": 201
         },
         {
+            "item_id": "290720970",
+            "item_design_id": "163",
+            "bonus_type": "Pilot",
+            "bonus_value": "9.7",
+            "quantity": "1",
+            "name": "Golden Cai Dao",
+            "rarity": "Hero",
+            "item_sub_type": "EquipmentWeapon",
+            "item_sprite_id": 5007,
+            "item_enhancement_type": "Attack",
+            "item_enhancement_value": 0.6,
+            "pixyship_estimate": 308
+        },
+        {
             "item_id": "286748943",
             "item_design_id": "163",
             "bonus_type": "Pilot",
@@ -825,6 +881,20 @@
             "item_enhancement_type": "Attack",
             "item_enhancement_value": 0.6,
             "pixyship_estimate": 223
+        },
+        {
+            "item_id": "278658194",
+            "item_design_id": "163",
+            "bonus_type": "Science",
+            "bonus_value": "6.9",
+            "quantity": "1",
+            "name": "Golden Cai Dao",
+            "rarity": "Hero",
+            "item_sub_type": "EquipmentWeapon",
+            "item_sprite_id": 5007,
+            "item_enhancement_type": "Attack",
+            "item_enhancement_value": 0.6,
+            "pixyship_estimate": 187
         },
         {
             "item_id": "290512075",
@@ -1090,7 +1160,7 @@
             "item_sprite_id": 19675,
             "item_enhancement_type": "Pilot",
             "item_enhancement_value": 12.0,
-            "pixyship_estimate": 494
+            "pixyship_estimate": 441
         },
         {
             "item_id": "292259696",
@@ -1229,7 +1299,7 @@
             "item_sprite_id": 15249,
             "item_enhancement_type": "Engine",
             "item_enhancement_value": 8.0,
-            "pixyship_estimate": 392
+            "pixyship_estimate": 547
         },
         {
             "item_id": "291653864",
@@ -1342,6 +1412,20 @@
             "item_enhancement_type": "Science",
             "item_enhancement_value": 9.0,
             "pixyship_estimate": 395
+        },
+        {
+            "item_id": "292423463",
+            "item_design_id": "952",
+            "bonus_type": "Weapon",
+            "bonus_value": "6.6",
+            "quantity": "1",
+            "name": "Plague Surgeon Mask",
+            "rarity": "Hero",
+            "item_sub_type": "EquipmentHead",
+            "item_sprite_id": 14565,
+            "item_enhancement_type": "Science",
+            "item_enhancement_value": 9.0,
+            "pixyship_estimate": null
         },
         {
             "item_id": "292296278",
@@ -1887,7 +1971,7 @@
             "item_sprite_id": 3757,
             "item_enhancement_type": "Ability",
             "item_enhancement_value": 20.0,
-            "pixyship_estimate": 8738
+            "pixyship_estimate": 8745
         },
         {
             "item_id": "282819134",
@@ -1985,7 +2069,7 @@
             "item_sprite_id": 3757,
             "item_enhancement_type": "Ability",
             "item_enhancement_value": 20.0,
-            "pixyship_estimate": 291
+            "pixyship_estimate": 292
         },
         {
             "item_id": "289606481",
@@ -1999,7 +2083,7 @@
             "item_sprite_id": 3757,
             "item_enhancement_type": "Ability",
             "item_enhancement_value": 20.0,
-            "pixyship_estimate": 291
+            "pixyship_estimate": 292
         },
         {
             "item_id": "291594252",
@@ -2041,7 +2125,7 @@
             "item_sprite_id": 12887,
             "item_enhancement_type": "Weapon",
             "item_enhancement_value": 7.0,
-            "pixyship_estimate": 401
+            "pixyship_estimate": 405
         },
         {
             "item_id": "291948040",
