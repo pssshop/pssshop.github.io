@@ -1,6 +1,6 @@
 {
-    "generated": "2025-11-05 23:26:24",
-    "item_count": 150,
+    "generated": "2025-11-05 23:37:22",
+    "item_count": 149,
     "items": [
         {
             "item_id": "290509714",
@@ -155,19 +155,6 @@
             "item_enhancement_type": "Ability",
             "item_enhancement_value": 19.0,
             "pixyship_estimate": 410
-        },
-        {
-            "item_id": "market-564211930",
-            "item_design_id": "435",
-            "bonus_type": "Hp",
-            "bonus_value": "2",
-            "quantity": "1",
-            "name": "Aldara",
-            "rarity": "Hero",
-            "item_sub_type": "EquipmentAccessory",
-            "item_sprite_id": 9983,
-            "item_price": 1300,
-            "pixyship_estimate": 1238
         },
         {
             "item_id": "273648919",
@@ -1261,7 +1248,7 @@
             "pixyship_estimate": 943
         },
         {
-            "item_id": "287583956",
+            "item_id": "market-564212405",
             "item_design_id": "960",
             "bonus_type": "Hp",
             "bonus_value": "1",
@@ -1270,8 +1257,7 @@
             "rarity": "Hero",
             "item_sub_type": "EquipmentAccessory",
             "item_sprite_id": 14738,
-            "item_enhancement_type": "Science",
-            "item_enhancement_value": 11.0,
+            "item_price": 450,
             "pixyship_estimate": 453
         },
         {
