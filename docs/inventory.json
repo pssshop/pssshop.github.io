@@ -1,6 +1,6 @@
 {
-    "generated": "2025-11-05 23:14:24",
-    "item_count": 152,
+    "generated": "2025-11-05 23:26:24",
+    "item_count": 150,
     "items": [
         {
             "item_id": "290509714",
@@ -157,21 +157,7 @@
             "pixyship_estimate": 410
         },
         {
-            "item_id": "290215817",
-            "item_design_id": "435",
-            "bonus_type": "Hp",
-            "bonus_value": "2",
-            "quantity": "1",
-            "name": "Aldara",
-            "rarity": "Hero",
-            "item_sub_type": "EquipmentAccessory",
-            "item_sprite_id": 9983,
-            "item_enhancement_type": "Ability",
-            "item_enhancement_value": 19.0,
-            "pixyship_estimate": 1238
-        },
-        {
-            "item_id": "market-564211319",
+            "item_id": "market-564211930",
             "item_design_id": "435",
             "bonus_type": "Hp",
             "bonus_value": "2",
@@ -2098,20 +2084,6 @@
             "item_enhancement_type": "Weapon",
             "item_enhancement_value": 7.0,
             "pixyship_estimate": 355
-        },
-        {
-            "item_id": "292480936",
-            "item_design_id": "799",
-            "bonus_type": "Stamina",
-            "bonus_value": "7",
-            "quantity": "1",
-            "name": "Visiri Master Gunner Greaves",
-            "rarity": "Hero",
-            "item_sub_type": "EquipmentLeg",
-            "item_sprite_id": 12887,
-            "item_enhancement_type": "Weapon",
-            "item_enhancement_value": 7.0,
-            "pixyship_estimate": 410
         },
         {
             "item_id": "284813923",
