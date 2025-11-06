@@ -1,6 +1,6 @@
 {
-    "generated": "2025-11-05 23:37:22",
-    "item_count": 149,
+    "generated": "2025-11-06 15:12:00",
+    "item_count": 153,
     "items": [
         {
             "item_id": "290509714",
@@ -42,7 +42,7 @@
             "item_sprite_id": 19814,
             "item_enhancement_type": "Hp",
             "item_enhancement_value": 4.0,
-            "pixyship_estimate": 1434
+            "pixyship_estimate": 1556
         },
         {
             "item_id": "291019634",
@@ -197,6 +197,20 @@
             "item_enhancement_type": "Ability",
             "item_enhancement_value": 19.0,
             "pixyship_estimate": 428
+        },
+        {
+            "item_id": "292500708",
+            "item_design_id": "435",
+            "bonus_type": "Science",
+            "bonus_value": "7.5",
+            "quantity": "1",
+            "name": "Aldara",
+            "rarity": "Hero",
+            "item_sub_type": "EquipmentAccessory",
+            "item_sprite_id": 9983,
+            "item_enhancement_type": "Ability",
+            "item_enhancement_value": 19.0,
+            "pixyship_estimate": 1457
         },
         {
             "item_id": "287828556",
@@ -504,7 +518,7 @@
             "item_sprite_id": 4819,
             "item_enhancement_type": "Hp",
             "item_enhancement_value": 3.0,
-            "pixyship_estimate": 353
+            "pixyship_estimate": 354
         },
         {
             "item_id": "288106577",
@@ -633,6 +647,20 @@
             "pixyship_estimate": 626
         },
         {
+            "item_id": "292491081",
+            "item_design_id": "1181",
+            "bonus_type": "Engine",
+            "bonus_value": "3.1",
+            "quantity": "1",
+            "name": "Giga-Loader",
+            "rarity": "Hero",
+            "item_sub_type": "EquipmentWeapon",
+            "item_sprite_id": 16432,
+            "item_enhancement_type": "Weapon",
+            "item_enhancement_value": 7.0,
+            "pixyship_estimate": 541
+        },
+        {
             "item_id": "286410130",
             "item_design_id": "163",
             "bonus_type": "Ability",
@@ -672,7 +700,7 @@
             "item_sprite_id": 5007,
             "item_enhancement_type": "Attack",
             "item_enhancement_value": 0.6,
-            "pixyship_estimate": 514
+            "pixyship_estimate": 512
         },
         {
             "item_id": "288903652",
@@ -686,7 +714,7 @@
             "item_sprite_id": 5007,
             "item_enhancement_type": "Attack",
             "item_enhancement_value": 0.6,
-            "pixyship_estimate": 353
+            "pixyship_estimate": 347
         },
         {
             "item_id": "291698271",
@@ -854,7 +882,7 @@
             "item_sprite_id": 11219,
             "item_enhancement_type": "Hp",
             "item_enhancement_value": 4.0,
-            "pixyship_estimate": 602
+            "pixyship_estimate": 604
         },
         {
             "item_id": "292319617",
@@ -1053,6 +1081,20 @@
             "pixyship_estimate": 441
         },
         {
+            "item_id": "292483198",
+            "item_design_id": "1705",
+            "bonus_type": "Engine",
+            "bonus_value": "5.8",
+            "quantity": "1",
+            "name": "Mach Helm",
+            "rarity": "Hero",
+            "item_sub_type": "EquipmentHead",
+            "item_sprite_id": 19673,
+            "item_enhancement_type": "Pilot",
+            "item_enhancement_value": 10.0,
+            "pixyship_estimate": null
+        },
+        {
             "item_id": "292259696",
             "item_design_id": "1705",
             "bonus_type": "Hp",
@@ -1065,19 +1107,6 @@
             "item_enhancement_type": "Pilot",
             "item_enhancement_value": 10.0,
             "pixyship_estimate": null
-        },
-        {
-            "item_id": "market-564211235",
-            "item_design_id": "1705",
-            "bonus_type": "Pilot",
-            "bonus_value": "5.4",
-            "quantity": "1",
-            "name": "Mach Helm",
-            "rarity": "Hero",
-            "item_sub_type": "EquipmentHead",
-            "item_sprite_id": 19673,
-            "item_price": 3750,
-            "pixyship_estimate": 3841
         },
         {
             "item_id": "291010694",
@@ -1232,6 +1261,20 @@
             "item_enhancement_type": "Science",
             "item_enhancement_value": 11.0,
             "pixyship_estimate": 1432
+        },
+        {
+            "item_id": "292505728",
+            "item_design_id": "960",
+            "bonus_type": "FireResistance",
+            "bonus_value": "47.3",
+            "quantity": "1",
+            "name": "Pink Elephant",
+            "rarity": "Hero",
+            "item_sub_type": "EquipmentAccessory",
+            "item_sprite_id": 14738,
+            "item_enhancement_type": "Science",
+            "item_enhancement_value": 11.0,
+            "pixyship_estimate": 483
         },
         {
             "item_id": "290448029",
@@ -1653,7 +1696,7 @@
             "pixyship_estimate": 1368
         },
         {
-            "item_id": "289376912",
+            "item_id": "290582904",
             "item_design_id": "933",
             "bonus_type": "Hp",
             "bonus_value": "1",
@@ -1667,7 +1710,7 @@
             "pixyship_estimate": 463
         },
         {
-            "item_id": "290582904",
+            "item_id": "market-564232545",
             "item_design_id": "933",
             "bonus_type": "Hp",
             "bonus_value": "1",
@@ -1676,8 +1719,7 @@
             "rarity": "Hero",
             "item_sub_type": "EquipmentBody",
             "item_sprite_id": 13939,
-            "item_enhancement_type": "Weapon",
-            "item_enhancement_value": 8.0,
+            "item_price": 500,
             "pixyship_estimate": 463
         },
         {
@@ -1793,6 +1835,20 @@
             "pixyship_estimate": 598
         },
         {
+            "item_id": "292503970",
+            "item_design_id": "791",
+            "bonus_type": "Repair",
+            "bonus_value": "0.5",
+            "quantity": "1",
+            "name": "Steampunk Visiri  Helm",
+            "rarity": "Hero",
+            "item_sub_type": "EquipmentHead",
+            "item_sprite_id": 12769,
+            "item_enhancement_type": "Repair",
+            "item_enhancement_value": 1.0,
+            "pixyship_estimate": 299
+        },
+        {
             "item_id": "291315274",
             "item_design_id": "808",
             "bonus_type": "Ability",
@@ -1863,7 +1919,7 @@
             "pixyship_estimate": 130
         },
         {
-            "item_id": "market-564148558",
+            "item_id": "292487567",
             "item_design_id": "802",
             "bonus_type": "Ability",
             "bonus_value": "15.2",
@@ -1872,7 +1928,8 @@
             "rarity": "Hero",
             "item_sub_type": "EquipmentBody",
             "item_sprite_id": 3757,
-            "item_price": 9450,
+            "item_enhancement_type": "Ability",
+            "item_enhancement_value": 20.0,
             "pixyship_estimate": 8469
         },
         {
@@ -1887,7 +1944,7 @@
             "item_sprite_id": 3757,
             "item_enhancement_type": "Ability",
             "item_enhancement_value": 20.0,
-            "pixyship_estimate": 380
+            "pixyship_estimate": 386
         },
         {
             "item_id": "287604209",
