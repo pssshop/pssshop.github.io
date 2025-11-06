@@ -1,5 +1,5 @@
 {
-    "generated": "2025-11-05 18:25:37",
+    "generated": "2025-11-05 23:14:24",
     "item_count": 152,
     "items": [
         {
@@ -28,7 +28,7 @@
             "item_sprite_id": 19814,
             "item_enhancement_type": "Hp",
             "item_enhancement_value": 4.0,
-            "pixyship_estimate": 6285
+            "pixyship_estimate": 6083
         },
         {
             "item_id": "290673718",
@@ -129,7 +129,7 @@
             "pixyship_estimate": 5766
         },
         {
-            "item_id": "market-564132694",
+            "item_id": "292480621",
             "item_design_id": "435",
             "bonus_type": "Ability",
             "bonus_value": "9.7",
@@ -138,7 +138,8 @@
             "rarity": "Hero",
             "item_sub_type": "EquipmentAccessory",
             "item_sprite_id": 9983,
-            "item_price": 2600,
+            "item_enhancement_type": "Ability",
+            "item_enhancement_value": 19.0,
             "pixyship_estimate": 2599
         },
         {
@@ -170,7 +171,7 @@
             "pixyship_estimate": 1238
         },
         {
-            "item_id": "292268303",
+            "item_id": "market-564211319",
             "item_design_id": "435",
             "bonus_type": "Hp",
             "bonus_value": "2",
@@ -179,8 +180,7 @@
             "rarity": "Hero",
             "item_sub_type": "EquipmentAccessory",
             "item_sprite_id": 9983,
-            "item_enhancement_type": "Ability",
-            "item_enhancement_value": 19.0,
+            "item_price": 1300,
             "pixyship_estimate": 1238
         },
         {
@@ -532,20 +532,6 @@
             "item_enhancement_type": "Hp",
             "item_enhancement_value": 3.0,
             "pixyship_estimate": 353
-        },
-        {
-            "item_id": "292409421",
-            "item_design_id": "169",
-            "bonus_type": "Pilot",
-            "bonus_value": "9.4",
-            "quantity": "1",
-            "name": "Dark Matter Armor",
-            "rarity": "Hero",
-            "item_sub_type": "EquipmentBody",
-            "item_sprite_id": 4819,
-            "item_enhancement_type": "Hp",
-            "item_enhancement_value": 3.0,
-            "pixyship_estimate": 822
         },
         {
             "item_id": "288106577",
@@ -1108,7 +1094,7 @@
             "pixyship_estimate": null
         },
         {
-            "item_id": "292434060",
+            "item_id": "market-564211235",
             "item_design_id": "1705",
             "bonus_type": "Pilot",
             "bonus_value": "5.4",
@@ -1117,8 +1103,7 @@
             "rarity": "Hero",
             "item_sub_type": "EquipmentHead",
             "item_sprite_id": 19673,
-            "item_enhancement_type": "Pilot",
-            "item_enhancement_value": 10.0,
+            "item_price": 3750,
             "pixyship_estimate": 3841
         },
         {
@@ -1245,7 +1230,7 @@
             "item_sprite_id": 15249,
             "item_enhancement_type": "Engine",
             "item_enhancement_value": 8.0,
-            "pixyship_estimate": 1586
+            "pixyship_estimate": 1591
         },
         {
             "item_id": "290616635",
@@ -2113,6 +2098,20 @@
             "item_enhancement_type": "Weapon",
             "item_enhancement_value": 7.0,
             "pixyship_estimate": 355
+        },
+        {
+            "item_id": "292480936",
+            "item_design_id": "799",
+            "bonus_type": "Stamina",
+            "bonus_value": "7",
+            "quantity": "1",
+            "name": "Visiri Master Gunner Greaves",
+            "rarity": "Hero",
+            "item_sub_type": "EquipmentLeg",
+            "item_sprite_id": 12887,
+            "item_enhancement_type": "Weapon",
+            "item_enhancement_value": 7.0,
+            "pixyship_estimate": 410
         },
         {
             "item_id": "284813923",
