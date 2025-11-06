@@ -1,6 +1,6 @@
 {
-    "generated": "2025-11-06 15:12:00",
-    "item_count": 153,
+    "generated": "2025-11-06 15:24:15",
+    "item_count": 152,
     "items": [
         {
             "item_id": "290509714",
@@ -1289,19 +1289,6 @@
             "item_enhancement_type": "Science",
             "item_enhancement_value": 11.0,
             "pixyship_estimate": 943
-        },
-        {
-            "item_id": "market-564212405",
-            "item_design_id": "960",
-            "bonus_type": "Hp",
-            "bonus_value": "1",
-            "quantity": "1",
-            "name": "Pink Elephant",
-            "rarity": "Hero",
-            "item_sub_type": "EquipmentAccessory",
-            "item_sprite_id": 14738,
-            "item_price": 450,
-            "pixyship_estimate": 453
         },
         {
             "item_id": "290610208",
