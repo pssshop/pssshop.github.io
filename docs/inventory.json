@@ -1,5 +1,5 @@
 {
-    "generated": "2025-11-12 02:11:49",
+    "generated": "2025-11-12 02:39:32",
     "item_count": 156,
     "items": [
         {
@@ -87,20 +87,7 @@
             "pixyship_estimate": null
         },
         {
-            "item_id": "market-564696038",
-            "item_design_id": "1749",
-            "bonus_type": "Ability",
-            "bonus_value": "13.3",
-            "quantity": "1",
-            "name": "Redshift Repeater",
-            "rarity": "Special",
-            "item_sub_type": "EquipmentWeapon",
-            "item_sprite_id": 20082,
-            "item_price": 9500,
-            "pixyship_estimate": 8028
-        },
-        {
-            "item_id": "292797028",
+            "item_id": "market-564697887",
             "item_design_id": "1749",
             "bonus_type": "Pilot",
             "bonus_value": "9.7",
@@ -109,8 +96,7 @@
             "rarity": "Special",
             "item_sub_type": "EquipmentWeapon",
             "item_sprite_id": 20082,
-            "item_enhancement_type": "Ability",
-            "item_enhancement_value": 21.0,
+            "item_price": 12500,
             "pixyship_estimate": 13995
         },
         {
@@ -1792,6 +1778,20 @@
             "item_enhancement_type": "Weapon",
             "item_enhancement_value": 8.0,
             "pixyship_estimate": 280
+        },
+        {
+            "item_id": "292833199",
+            "item_design_id": "933",
+            "bonus_type": "Science",
+            "bonus_value": "5.8",
+            "quantity": "1",
+            "name": "Red Marksman Jacket",
+            "rarity": "Hero",
+            "item_sub_type": "EquipmentBody",
+            "item_sprite_id": 13939,
+            "item_enhancement_type": "Weapon",
+            "item_enhancement_value": 8.0,
+            "pixyship_estimate": 228
         },
         {
             "item_id": "284817390",
