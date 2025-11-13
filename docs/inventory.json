@@ -1,5 +1,5 @@
 {
-    "generated": "2025-11-13 04:18:56",
+    "generated": "2025-11-13 10:46:06",
     "item_count": 159,
     "items": [
         {
@@ -101,20 +101,6 @@
             "pixyship_estimate": 13995
         },
         {
-            "item_id": "292112804",
-            "item_design_id": "435",
-            "bonus_type": "Ability",
-            "bonus_value": "13.1",
-            "quantity": "1",
-            "name": "Aldara",
-            "rarity": "Hero",
-            "item_sub_type": "EquipmentAccessory",
-            "item_sprite_id": 9983,
-            "item_enhancement_type": "Ability",
-            "item_enhancement_value": 19.0,
-            "pixyship_estimate": 6335
-        },
-        {
             "item_id": "291268662",
             "item_design_id": "435",
             "bonus_type": "Engine",
@@ -210,7 +196,7 @@
             "item_sprite_id": 9983,
             "item_enhancement_type": "Ability",
             "item_enhancement_value": 19.0,
-            "pixyship_estimate": 2727
+            "pixyship_estimate": 2526
         },
         {
             "item_id": "290829568",
@@ -224,7 +210,7 @@
             "item_sprite_id": 9983,
             "item_enhancement_type": "Ability",
             "item_enhancement_value": 19.0,
-            "pixyship_estimate": 946
+            "pixyship_estimate": 910
         },
         {
             "item_id": "289472191",
@@ -927,7 +913,7 @@
             "pixyship_estimate": 1085
         },
         {
-            "item_id": "292715248",
+            "item_id": "market-564780066",
             "item_design_id": "1493",
             "bonus_type": "Science",
             "bonus_value": "5.7",
@@ -936,8 +922,7 @@
             "rarity": "Hero",
             "item_sub_type": "EquipmentWeapon",
             "item_sprite_id": 11219,
-            "item_enhancement_type": "Hp",
-            "item_enhancement_value": 4.0,
+            "item_price": 650,
             "pixyship_estimate": 539
         },
         {
@@ -994,7 +979,7 @@
             "item_sprite_id": 12025,
             "item_enhancement_type": "Hp",
             "item_enhancement_value": 3.0,
-            "pixyship_estimate": 688
+            "pixyship_estimate": 703
         },
         {
             "item_id": "291708669",
@@ -1821,6 +1806,20 @@
             "item_enhancement_type": "Weapon",
             "item_enhancement_value": 8.0,
             "pixyship_estimate": 228
+        },
+        {
+            "item_id": "292917135",
+            "item_design_id": "933",
+            "bonus_type": "Stamina",
+            "bonus_value": "22",
+            "quantity": "1",
+            "name": "Red Marksman Jacket",
+            "rarity": "Hero",
+            "item_sub_type": "EquipmentBody",
+            "item_sprite_id": 13939,
+            "item_enhancement_type": "Weapon",
+            "item_enhancement_value": 8.0,
+            "pixyship_estimate": 349
         },
         {
             "item_id": "284817390",
