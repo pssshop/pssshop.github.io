@@ -1,6 +1,6 @@
 {
-    "generated": "2025-11-12 22:24:18",
-    "item_count": 156,
+    "generated": "2025-11-13 04:18:56",
+    "item_count": 159,
     "items": [
         {
             "item_id": "290509714",
@@ -17,7 +17,7 @@
             "pixyship_estimate": 1755
         },
         {
-            "item_id": "market-564697943",
+            "item_id": "292896124",
             "item_design_id": "1718",
             "bonus_type": "Hp",
             "bonus_value": "2",
@@ -26,7 +26,8 @@
             "rarity": "Special",
             "item_sub_type": "EquipmentAccessory",
             "item_sprite_id": 19814,
-            "item_price": 6450,
+            "item_enhancement_type": "Hp",
+            "item_enhancement_value": 4.0,
             "pixyship_estimate": 6007
         },
         {
@@ -55,7 +56,7 @@
             "item_sprite_id": 19814,
             "item_enhancement_type": "Hp",
             "item_enhancement_value": 4.0,
-            "pixyship_estimate": 1265
+            "pixyship_estimate": 1266
         },
         {
             "item_id": "291088691",
@@ -69,7 +70,7 @@
             "item_sprite_id": 19814,
             "item_enhancement_type": "Hp",
             "item_enhancement_value": 4.0,
-            "pixyship_estimate": 1265
+            "pixyship_estimate": 1266
         },
         {
             "item_id": "291315275",
@@ -86,7 +87,7 @@
             "pixyship_estimate": null
         },
         {
-            "item_id": "market-564697887",
+            "item_id": "292896123",
             "item_design_id": "1749",
             "bonus_type": "Pilot",
             "bonus_value": "9.7",
@@ -95,7 +96,8 @@
             "rarity": "Special",
             "item_sub_type": "EquipmentWeapon",
             "item_sprite_id": 20082,
-            "item_price": 12500,
+            "item_enhancement_type": "Ability",
+            "item_enhancement_value": 21.0,
             "pixyship_estimate": 13995
         },
         {
@@ -138,7 +140,7 @@
             "item_sprite_id": 9983,
             "item_enhancement_type": "Ability",
             "item_enhancement_value": 19.0,
-            "pixyship_estimate": 424
+            "pixyship_estimate": 411
         },
         {
             "item_id": "271588605",
@@ -545,6 +547,20 @@
             "item_enhancement_type": "Hp",
             "item_enhancement_value": 3.0,
             "pixyship_estimate": 467
+        },
+        {
+            "item_id": "292896869",
+            "item_design_id": "246",
+            "bonus_type": "Attack",
+            "bonus_value": "0.5",
+            "quantity": "1",
+            "name": "Dark Matter Helmet",
+            "rarity": "Hero",
+            "item_sub_type": "EquipmentHead",
+            "item_sprite_id": 7432,
+            "item_enhancement_type": "Hp",
+            "item_enhancement_value": 3.0,
+            "pixyship_estimate": 1948
         },
         {
             "item_id": "291060847",
@@ -1062,7 +1078,7 @@
             "item_sprite_id": 19675,
             "item_enhancement_type": "Pilot",
             "item_enhancement_value": 12.0,
-            "pixyship_estimate": 384
+            "pixyship_estimate": 331
         },
         {
             "item_id": "291532390",
@@ -1583,6 +1599,20 @@
             "pixyship_estimate": 387
         },
         {
+            "item_id": "292893215",
+            "item_design_id": "490",
+            "bonus_type": "Hp",
+            "bonus_value": "1",
+            "quantity": "1",
+            "name": "QT Mechworks Drone",
+            "rarity": "Hero",
+            "item_sub_type": "EquipmentAccessory",
+            "item_sprite_id": 10288,
+            "item_enhancement_type": "Engine",
+            "item_enhancement_value": 11.0,
+            "pixyship_estimate": 387
+        },
+        {
             "item_id": "283265580",
             "item_design_id": "490",
             "bonus_type": "Stamina",
@@ -1833,6 +1863,20 @@
             "item_enhancement_type": "Hp",
             "item_enhancement_value": 3.0,
             "pixyship_estimate": 628
+        },
+        {
+            "item_id": "290066986",
+            "item_design_id": "1494",
+            "bonus_type": "Science",
+            "bonus_value": "8",
+            "quantity": "1",
+            "name": "Starburst Bulwark",
+            "rarity": "Hero",
+            "item_sub_type": "EquipmentWeapon",
+            "item_sprite_id": 12218,
+            "item_enhancement_type": "Hp",
+            "item_enhancement_value": 4.0,
+            "pixyship_estimate": 852
         },
         {
             "item_id": "282819114",
