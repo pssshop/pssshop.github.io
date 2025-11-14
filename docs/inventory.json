@@ -1,6 +1,6 @@
 {
-    "generated": "2025-11-14 10:44:58",
-    "item_count": 157,
+    "generated": "2025-11-14 10:57:24",
+    "item_count": 158,
     "items": [
         {
             "item_id": "290509714",
@@ -491,6 +491,20 @@
             "item_enhancement_type": "Hp",
             "item_enhancement_value": 3.0,
             "pixyship_estimate": 403
+        },
+        {
+            "item_id": "293036670",
+            "item_design_id": "169",
+            "bonus_type": "FireResistance",
+            "bonus_value": "34.2",
+            "quantity": "1",
+            "name": "Dark Matter Armor",
+            "rarity": "Hero",
+            "item_sub_type": "EquipmentBody",
+            "item_sprite_id": 4819,
+            "item_enhancement_type": "Hp",
+            "item_enhancement_value": 3.0,
+            "pixyship_estimate": 396
         },
         {
             "item_id": "288106577",
