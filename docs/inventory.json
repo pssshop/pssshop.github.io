@@ -1,6 +1,6 @@
 {
-    "generated": "2025-11-15 01:59:17",
-    "item_count": 159,
+    "generated": "2025-11-15 02:01:52",
+    "item_count": 158,
     "items": [
         {
             "item_id": "290509714",
@@ -574,20 +574,6 @@
             "item_enhancement_type": "Hp",
             "item_enhancement_value": 3.0,
             "pixyship_estimate": 1948
-        },
-        {
-            "item_id": "291060847",
-            "item_design_id": "246",
-            "bonus_type": "Science",
-            "bonus_value": "5.5",
-            "quantity": "1",
-            "name": "Dark Matter Helmet",
-            "rarity": "Hero",
-            "item_sub_type": "EquipmentHead",
-            "item_sprite_id": 7432,
-            "item_enhancement_type": "Hp",
-            "item_enhancement_value": 3.0,
-            "pixyship_estimate": 354
         },
         {
             "item_id": "293110790",
