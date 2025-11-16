@@ -1,49 +1,49 @@
 {
     "435-repair-0-5": {
         "price": 475,
-        "lastUpdate": "2025-11-15 06:58:51",
+        "lastUpdate": "2025-11-15 22:19:34",
         "rawItemIds": [
             "271588605"
         ]
     },
     "490-fireresistance-37-9": {
         "price": 225,
-        "lastUpdate": "2025-11-15 06:58:51",
+        "lastUpdate": "2025-11-15 22:19:34",
         "rawItemIds": [
             "275223227"
         ]
     },
     "1215-engine-4-3": {
         "price": 2000,
-        "lastUpdate": "2025-11-15 06:58:51",
+        "lastUpdate": "2025-11-15 22:19:34",
         "rawItemIds": [
             "278156341"
         ]
     },
     "490-hp-1": {
         "price": 385,
-        "lastUpdate": "2025-11-15 06:58:51",
+        "lastUpdate": "2025-11-15 22:19:34",
         "rawItemIds": [
             "292893215"
         ]
     },
     "808-pilot-9-1": {
         "price": 750,
-        "lastUpdate": "2025-11-15 06:58:51",
+        "lastUpdate": "2025-11-15 22:19:34",
         "rawItemIds": [
             "278826883"
         ]
     },
     "1177-stamina-20": {
         "price": 250,
-        "lastUpdate": "2025-11-15 06:58:51",
+        "lastUpdate": "2025-11-15 22:19:34",
         "rawItemIds": [
             "278957068"
         ]
     },
     "954-hp-2": {
-        "price": 2000,
-        "lastUpdate": "2025-11-15 06:58:51",
+        "price": 2250,
+        "lastUpdate": "2025-11-15 22:19:34",
         "rawItemIds": [
             "280463342"
         ]
@@ -54,294 +54,294 @@
     },
     "678-science-6-6": {
         "price": 700,
-        "lastUpdate": "2025-11-15 06:58:51",
+        "lastUpdate": "2025-11-15 22:19:34",
         "rawItemIds": [
             "282655372"
         ]
     },
     "1494-science-6-2": {
         "price": 650,
-        "lastUpdate": "2025-11-15 06:58:51",
+        "lastUpdate": "2025-11-15 22:19:34",
         "rawItemIds": [
             "282819114"
         ]
     },
     "802-attack-0-3": {
         "price": 325,
-        "lastUpdate": "2025-11-15 06:58:51",
+        "lastUpdate": "2025-11-15 22:19:34",
         "rawItemIds": [
             "282819134"
         ]
     },
     "1177-hp-2": {
         "price": 1000,
-        "lastUpdate": "2025-11-15 06:58:51",
+        "lastUpdate": "2025-11-15 22:19:34",
         "rawItemIds": [
             "283080486"
         ]
     },
     "490-stamina-19": {
         "price": 250,
-        "lastUpdate": "2025-11-15 06:58:51",
+        "lastUpdate": "2025-11-15 22:19:34",
         "rawItemIds": [
             "283265580"
         ]
     },
     "802-fireresistance-42-3": {
         "price": 400,
-        "lastUpdate": "2025-11-15 06:58:51",
+        "lastUpdate": "2025-11-15 22:19:34",
         "rawItemIds": [
             "284013428"
         ]
     },
     "802-fireresistance-22-4": {
         "price": 275,
-        "lastUpdate": "2025-11-15 06:58:51",
+        "lastUpdate": "2025-11-15 22:19:34",
         "rawItemIds": [
             "284678287"
         ]
     },
     "933-weapon-3-4": {
         "price": 3000,
-        "lastUpdate": "2025-11-15 06:58:51",
+        "lastUpdate": "2025-11-15 22:19:34",
         "rawItemIds": [
             "284817390"
         ]
     },
     "1493-science-5-7": {
         "price": 650,
-        "lastUpdate": "2025-11-15 06:58:51",
+        "lastUpdate": "2025-11-15 22:19:34",
         "rawItemIds": [
             "293033499"
         ]
     },
     "799-ability-13": {
         "price": 450,
-        "lastUpdate": "2025-11-15 06:58:51",
+        "lastUpdate": "2025-11-15 22:19:34",
         "rawItemIds": [
             "286032720"
         ]
     },
     "163-ability-13-3": {
         "price": 500,
-        "lastUpdate": "2025-11-15 06:58:51",
+        "lastUpdate": "2025-11-15 22:19:34",
         "rawItemIds": [
             "286410130"
         ]
     },
     "1215-attack-0-3": {
         "price": 250,
-        "lastUpdate": "2025-11-15 06:58:51",
+        "lastUpdate": "2025-11-15 22:19:34",
         "rawItemIds": [
             "286411269"
         ]
     },
     "933-attack-0-3": {
         "price": 300,
-        "lastUpdate": "2025-11-15 06:58:51",
+        "lastUpdate": "2025-11-15 22:19:34",
         "rawItemIds": [
             "290874836"
         ]
     },
     "163-pilot-9-4": {
         "price": 350,
-        "lastUpdate": "2025-11-15 06:58:51",
+        "lastUpdate": "2025-11-15 22:19:34",
         "rawItemIds": [
             "286748943"
         ]
     },
     "802-engine-5-5": {
         "price": 750,
-        "lastUpdate": "2025-11-15 06:58:51",
+        "lastUpdate": "2025-11-15 22:19:34",
         "rawItemIds": [
             "287365154"
         ]
     },
     "802-attack-0-2": {
         "price": 250,
-        "lastUpdate": "2025-11-15 06:58:51",
+        "lastUpdate": "2025-11-15 22:19:34",
         "rawItemIds": [
             "287604209"
         ]
     },
     "960-ability-13-3": {
         "price": 1500,
-        "lastUpdate": "2025-11-15 06:58:51",
+        "lastUpdate": "2025-11-15 22:19:34",
         "rawItemIds": [
             "287610996"
         ]
     },
     "435-stamina-20": {
         "price": 450,
-        "lastUpdate": "2025-11-15 06:58:51",
+        "lastUpdate": "2025-11-15 22:19:34",
         "rawItemIds": [
             "287828556"
         ]
     },
     "169-attack-0-3": {
         "price": 500,
-        "lastUpdate": "2025-11-15 06:58:51",
+        "lastUpdate": "2025-11-15 22:19:34",
         "rawItemIds": [
             "287830605"
         ]
     },
     "169-ability-6-6": {
         "price": 500,
-        "lastUpdate": "2025-11-15 06:58:51",
+        "lastUpdate": "2025-11-15 22:19:34",
         "rawItemIds": [
             "287922972"
         ]
     },
     "1493-ability-12": {
         "price": 1250,
-        "lastUpdate": "2025-11-15 06:58:51",
+        "lastUpdate": "2025-11-15 22:19:34",
         "rawItemIds": [
             "287962002"
         ]
     },
     "169-repair-0-4": {
         "price": 300,
-        "lastUpdate": "2025-11-15 06:58:51",
+        "lastUpdate": "2025-11-15 22:19:34",
         "rawItemIds": [
             "288101803"
         ]
     },
     "169-pilot-6-6": {
         "price": 500,
-        "lastUpdate": "2025-11-15 06:58:51",
+        "lastUpdate": "2025-11-15 22:19:34",
         "rawItemIds": [
             "288106577"
         ]
     },
     "163-pilot-8-9": {
         "price": 300,
-        "lastUpdate": "2025-11-15 06:58:51",
+        "lastUpdate": "2025-11-15 22:19:34",
         "rawItemIds": [
             "288183819"
         ]
     },
     "514-fireresistance-45-2": {
         "price": 800,
-        "lastUpdate": "2025-11-15 06:58:51",
+        "lastUpdate": "2025-11-15 22:19:34",
         "rawItemIds": [
             "288342758"
         ]
     },
     "258-ability-13-4": {
         "price": 650,
-        "lastUpdate": "2025-11-15 06:58:51",
+        "lastUpdate": "2025-11-15 22:19:34",
         "rawItemIds": [
             "288569706"
         ]
     },
     "954-attack-0-5": {
         "price": 500,
-        "lastUpdate": "2025-11-15 06:58:51",
+        "lastUpdate": "2025-11-15 22:19:34",
         "rawItemIds": [
             "288601419"
         ]
     },
     "802-repair-0-3": {
         "price": 300,
-        "lastUpdate": "2025-11-15 06:58:51",
+        "lastUpdate": "2025-11-15 22:19:34",
         "rawItemIds": [
             "289606481"
         ]
     },
     "727-stamina-21": {
         "price": 500,
-        "lastUpdate": "2025-11-15 06:58:51",
+        "lastUpdate": "2025-11-15 22:19:34",
         "rawItemIds": [
             "288786514"
         ]
     },
     "163-attack-0-3": {
         "price": 400,
-        "lastUpdate": "2025-11-15 06:58:51",
+        "lastUpdate": "2025-11-15 22:19:34",
         "rawItemIds": [
             "288903652"
         ]
     },
     "163-weapon-5-3": {
         "price": 255,
-        "lastUpdate": "2025-11-15 06:58:51",
+        "lastUpdate": "2025-11-15 22:19:34",
         "rawItemIds": [
             "289215025"
         ]
     },
     "1177-fireresistance-59-7": {
         "price": 450,
-        "lastUpdate": "2025-11-15 06:58:51",
+        "lastUpdate": "2025-11-15 22:19:34",
         "rawItemIds": [
             "289219708"
         ]
     },
     "490-fireresistance-43-9": {
         "price": 260,
-        "lastUpdate": "2025-11-15 06:58:51",
+        "lastUpdate": "2025-11-15 22:19:34",
         "rawItemIds": [
             "289220939"
         ]
     },
     "1493-pilot-6-6": {
         "price": 725,
-        "lastUpdate": "2025-11-15 06:58:51",
+        "lastUpdate": "2025-11-15 22:19:34",
         "rawItemIds": [
             "289327745"
         ]
     },
     "258-ability-15-6": {
         "price": 1500,
-        "lastUpdate": "2025-11-15 06:58:51",
+        "lastUpdate": "2025-11-15 22:19:34",
         "rawItemIds": [
             "289327747"
         ]
     },
     "514-fireresistance-53-3": {
         "price": 1250,
-        "lastUpdate": "2025-11-15 06:58:51",
+        "lastUpdate": "2025-11-15 22:19:34",
         "rawItemIds": [
             "289332308"
         ]
     },
     "933-hp-1": {
         "price": 500,
-        "lastUpdate": "2025-11-15 06:58:51",
+        "lastUpdate": "2025-11-15 22:19:34",
         "rawItemIds": [
             "292543626"
         ]
     },
     "727-pilot-5-4": {
         "price": 1000,
-        "lastUpdate": "2025-11-15 06:58:51",
+        "lastUpdate": "2025-11-15 22:19:34",
         "rawItemIds": [
             "289460206"
         ]
     },
     "727-hp-1": {
         "price": 500,
-        "lastUpdate": "2025-11-15 06:58:51",
+        "lastUpdate": "2025-11-15 22:19:34",
         "rawItemIds": [
             "289463276"
         ]
     },
     "514-ability-14": {
         "price": 750,
-        "lastUpdate": "2025-11-15 06:58:51",
+        "lastUpdate": "2025-11-15 22:19:34",
         "rawItemIds": [
             "289472191"
         ]
     },
     "163-ability-10-1": {
         "price": 300,
-        "lastUpdate": "2025-11-15 06:58:51",
+        "lastUpdate": "2025-11-15 22:19:34",
         "rawItemIds": [
             "289558630"
         ]
     },
     "514-repair-0-4": {
         "price": 250,
-        "lastUpdate": "2025-11-15 06:58:51",
+        "lastUpdate": "2025-11-15 22:19:34",
         "rawItemIds": [
             "289563179"
         ]
@@ -352,133 +352,133 @@
     },
     "799-ability-10": {
         "price": 300,
-        "lastUpdate": "2025-11-15 06:58:51",
+        "lastUpdate": "2025-11-15 22:19:34",
         "rawItemIds": [
             "289564618"
         ]
     },
     "808-repair-0-6": {
         "price": 250,
-        "lastUpdate": "2025-11-15 06:58:51",
+        "lastUpdate": "2025-11-15 22:19:34",
         "rawItemIds": [
             "289635338"
         ]
     },
     "796-pilot-7-5": {
         "price": 250,
-        "lastUpdate": "2025-11-15 06:58:51",
+        "lastUpdate": "2025-11-15 22:19:34",
         "rawItemIds": [
             "289867481"
         ]
     },
     "163-hp-1": {
         "price": 200,
-        "lastUpdate": "2025-11-15 06:58:51",
+        "lastUpdate": "2025-11-15 22:19:34",
         "rawItemIds": [
             "289992880"
         ]
     },
     "933-repair-0-4": {
         "price": 200,
-        "lastUpdate": "2025-11-15 06:58:51",
+        "lastUpdate": "2025-11-15 22:19:34",
         "rawItemIds": [
             "292456209"
         ]
     },
     "1706-engine-7-1": {
         "price": 350,
-        "lastUpdate": "2025-11-15 06:58:51",
+        "lastUpdate": "2025-11-15 22:19:34",
         "rawItemIds": [
             "290080938"
         ]
     },
     "514-stamina-16": {
         "price": 400,
-        "lastUpdate": "2025-11-15 06:58:51",
+        "lastUpdate": "2025-11-15 22:19:34",
         "rawItemIds": [
             "290082973"
         ]
     },
     "163-hp-2": {
         "price": 450,
-        "lastUpdate": "2025-11-15 06:58:51",
+        "lastUpdate": "2025-11-15 22:19:34",
         "rawItemIds": [
             "292263812"
         ]
     },
     "169-fireresistance-35-9": {
         "price": 350,
-        "lastUpdate": "2025-11-15 06:58:51",
+        "lastUpdate": "2025-11-15 22:19:34",
         "rawItemIds": [
             "290106780"
         ]
     },
     "675-pilot-7-9": {
         "price": 250,
-        "lastUpdate": "2025-11-15 06:58:51",
+        "lastUpdate": "2025-11-15 22:19:34",
         "rawItemIds": [
             "290107717"
         ]
     },
     "933-ability-14-4": {
         "price": 1250,
-        "lastUpdate": "2025-11-15 06:58:51",
+        "lastUpdate": "2025-11-15 22:19:34",
         "rawItemIds": [
             "290215812"
         ]
     },
     "676-hp-2": {
         "price": 1450,
-        "lastUpdate": "2025-11-15 06:58:51",
+        "lastUpdate": "2025-11-15 22:19:34",
         "rawItemIds": [
             "290399347"
         ]
     },
     "514-fireresistance-29-2": {
         "price": 250,
-        "lastUpdate": "2025-11-15 06:58:51",
+        "lastUpdate": "2025-11-15 22:19:34",
         "rawItemIds": [
             "290433552"
         ]
     },
     "960-hp-2": {
         "price": 1100,
-        "lastUpdate": "2025-11-15 06:58:51",
+        "lastUpdate": "2025-11-15 22:19:34",
         "rawItemIds": [
             "290448029"
         ]
     },
     "933-hp-2": {
         "price": 1550,
-        "lastUpdate": "2025-11-15 06:58:51",
+        "lastUpdate": "2025-11-15 22:19:34",
         "rawItemIds": [
             "290448244"
         ]
     },
     "1718-ability-9-2": {
         "price": 2500,
-        "lastUpdate": "2025-11-15 06:58:51",
+        "lastUpdate": "2025-11-15 22:19:34",
         "rawItemIds": [
             "290509714"
         ]
     },
     "163-weapon-6-1": {
         "price": 425,
-        "lastUpdate": "2025-11-15 06:58:51",
+        "lastUpdate": "2025-11-15 22:19:34",
         "rawItemIds": [
             "290512075"
         ]
     },
     "954-hp-1": {
         "price": 700,
-        "lastUpdate": "2025-11-15 06:58:51",
+        "lastUpdate": "2025-11-15 22:19:34",
         "rawItemIds": [
             "290520327"
         ]
     },
     "675-pilot-10": {
         "price": 500,
-        "lastUpdate": "2025-11-15 06:58:51",
+        "lastUpdate": "2025-11-15 22:19:34",
         "rawItemIds": [
             "292715247"
         ]
@@ -489,56 +489,56 @@
     },
     "1215-fireresistance-51-3": {
         "price": 300,
-        "lastUpdate": "2025-11-15 06:58:51",
+        "lastUpdate": "2025-11-15 22:19:34",
         "rawItemIds": [
             "290628339"
         ]
     },
     "954-ability-15-7": {
         "price": 1950,
-        "lastUpdate": "2025-11-15 06:58:51",
+        "lastUpdate": "2025-11-15 22:19:34",
         "rawItemIds": [
             "292296278"
         ]
     },
     "952-fireresistance-60-9": {
         "price": 1000,
-        "lastUpdate": "2025-11-15 06:58:51",
+        "lastUpdate": "2025-11-15 22:19:34",
         "rawItemIds": [
             "290658424"
         ]
     },
     "727-pilot-6-6": {
         "price": 1250,
-        "lastUpdate": "2025-11-15 06:58:51",
+        "lastUpdate": "2025-11-15 22:19:34",
         "rawItemIds": [
             "290660308"
         ]
     },
     "1718-pilot-5-2": {
         "price": 2000,
-        "lastUpdate": "2025-11-15 06:58:51",
+        "lastUpdate": "2025-11-15 22:19:34",
         "rawItemIds": [
             "290673718"
         ]
     },
     "1001-ability-14": {
         "price": 1425,
-        "lastUpdate": "2025-11-15 06:58:51",
+        "lastUpdate": "2025-11-15 22:19:34",
         "rawItemIds": [
             "292168036"
         ]
     },
     "514-repair-0-5": {
         "price": 300,
-        "lastUpdate": "2025-11-15 06:58:51",
+        "lastUpdate": "2025-11-15 22:19:34",
         "rawItemIds": [
             "290825235"
         ]
     },
     "435-weapon-4-9": {
         "price": 1100,
-        "lastUpdate": "2025-11-15 06:58:51",
+        "lastUpdate": "2025-11-15 22:19:34",
         "rawItemIds": [
             "290829568"
         ]
@@ -549,175 +549,172 @@
     },
     "514-pilot-9-3": {
         "price": 1250,
-        "lastUpdate": "2025-11-15 06:58:51",
+        "lastUpdate": "2025-11-15 22:19:34",
         "rawItemIds": [
             "292442826"
         ]
     },
     "1215-hp-2": {
         "price": 750,
-        "lastUpdate": "2025-11-15 06:58:51",
+        "lastUpdate": "2025-11-15 22:19:34",
         "rawItemIds": [
             "290879502"
         ]
     },
     "1000-attack-0-3": {
         "price": 375,
-        "lastUpdate": "2025-11-15 06:58:51",
+        "lastUpdate": "2025-11-15 22:19:34",
         "rawItemIds": [
             "290959592"
         ]
     },
     "1705-repair-0-5": {
         "price": 250,
-        "lastUpdate": "2025-11-15 06:58:51",
+        "lastUpdate": "2025-11-15 22:19:34",
         "rawItemIds": [
             "291010694"
         ]
     },
     "514-fireresistance-55-1": {
         "price": 1500,
-        "lastUpdate": "2025-11-15 06:58:51",
+        "lastUpdate": "2025-11-15 22:19:34",
         "rawItemIds": [
             "291010701"
         ]
     },
     "1718-repair-0-5": {
         "price": 2000,
-        "lastUpdate": "2025-11-15 06:58:51",
+        "lastUpdate": "2025-11-15 22:19:34",
         "rawItemIds": [
             "291088691"
         ]
     },
     "1493-weapon-5-3": {
         "price": 1700,
-        "lastUpdate": "2025-11-15 06:58:51",
+        "lastUpdate": "2025-11-15 22:19:34",
         "rawItemIds": [
             "291033383"
         ]
     },
     "246-science-5-5": {
         "price": 500,
-        "lastUpdate": "2025-11-15 06:58:51",
-        "rawItemIds": [
-            "291060847"
-        ]
+        "lastUpdate": "2025-11-15 06:58:51"
     },
     "169-pilot-5-4": {
         "price": 500,
-        "lastUpdate": "2025-11-15 06:58:51",
+        "lastUpdate": "2025-11-15 22:19:34",
         "rawItemIds": [
             "291075334"
         ]
     },
     "933-attack-0-2": {
         "price": 225,
-        "lastUpdate": "2025-11-15 06:58:51",
+        "lastUpdate": "2025-11-15 22:19:34",
         "rawItemIds": [
             "291265547"
         ]
     },
     "163-pilot-8": {
         "price": 275,
-        "lastUpdate": "2025-11-15 06:58:51",
+        "lastUpdate": "2025-11-15 22:19:34",
         "rawItemIds": [
             "291128872"
         ]
     },
     "952-ability-14-9": {
         "price": 1000,
-        "lastUpdate": "2025-11-15 06:58:51",
+        "lastUpdate": "2025-11-15 22:19:34",
         "rawItemIds": [
             "292574030"
         ]
     },
     "435-engine-3": {
         "price": 350,
-        "lastUpdate": "2025-11-15 06:58:51",
+        "lastUpdate": "2025-11-15 22:19:34",
         "rawItemIds": [
             "291268662"
         ]
     },
     "808-ability-15": {
         "price": 3000,
-        "lastUpdate": "2025-11-15 06:58:51",
+        "lastUpdate": "2025-11-15 22:19:34",
         "rawItemIds": [
             "291315274"
         ]
     },
     "1718-stamina-9": {
         "price": 2000,
-        "lastUpdate": "2025-11-15 06:58:51",
+        "lastUpdate": "2025-11-15 22:19:34",
         "rawItemIds": [
             "291315275"
         ]
     },
     "802-fireresistance-61-1": {
         "price": 1000,
-        "lastUpdate": "2025-11-15 06:58:51",
+        "lastUpdate": "2025-11-15 22:19:34",
         "rawItemIds": [
             "291315321"
         ]
     },
     "435-weapon-6-2": {
         "price": 3500,
-        "lastUpdate": "2025-11-15 06:58:51",
+        "lastUpdate": "2025-11-15 22:19:34",
         "rawItemIds": [
             "291327327"
         ]
     },
     "1001-attack-0-3": {
         "price": 450,
-        "lastUpdate": "2025-11-15 06:58:51",
+        "lastUpdate": "2025-11-15 22:19:34",
         "rawItemIds": [
             "291356101"
         ]
     },
     "490-fireresistance-38-6": {
         "price": 225,
-        "lastUpdate": "2025-11-15 06:58:51",
+        "lastUpdate": "2025-11-15 22:19:34",
         "rawItemIds": [
             "291401233"
         ]
     },
     "676-repair-0-5": {
         "price": 250,
-        "lastUpdate": "2025-11-15 06:58:51",
+        "lastUpdate": "2025-11-15 22:19:34",
         "rawItemIds": [
             "291401726"
         ]
     },
     "490-engine-3-8": {
         "price": 2250,
-        "lastUpdate": "2025-11-15 06:58:51",
+        "lastUpdate": "2025-11-15 22:19:34",
         "rawItemIds": [
             "291426658"
         ]
     },
     "163-attack-0-4": {
         "price": 700,
-        "lastUpdate": "2025-11-15 06:58:51",
+        "lastUpdate": "2025-11-15 22:19:34",
         "rawItemIds": [
             "292982171"
         ]
     },
     "1706-fireresistance-45-1": {
         "price": 650,
-        "lastUpdate": "2025-11-15 06:58:51",
+        "lastUpdate": "2025-11-15 22:19:34",
         "rawItemIds": [
             "291532390"
         ]
     },
     "662-weapon-4-7": {
         "price": 700,
-        "lastUpdate": "2025-11-15 06:58:51",
+        "lastUpdate": "2025-11-15 22:19:34",
         "rawItemIds": [
             "291552129"
         ]
     },
     "802-stamina-8": {
         "price": 450,
-        "lastUpdate": "2025-11-15 06:58:51",
+        "lastUpdate": "2025-11-15 22:19:34",
         "rawItemIds": [
             "291594252"
         ]
@@ -728,28 +725,28 @@
     },
     "1000-hp-2": {
         "price": 2000,
-        "lastUpdate": "2025-11-15 06:58:51",
+        "lastUpdate": "2025-11-15 22:19:34",
         "rawItemIds": [
             "291653864"
         ]
     },
     "1749-pilot-9-7": {
         "price": 13500,
-        "lastUpdate": "2025-11-15 06:58:51",
+        "lastUpdate": "2025-11-15 22:19:34",
         "rawItemIds": [
             "292896123"
         ]
     },
     "802-ability-15-2": {
         "price": 9450,
-        "lastUpdate": "2025-11-15 06:58:51",
+        "lastUpdate": "2025-11-15 22:19:34",
         "rawItemIds": [
             "292487567"
         ]
     },
     "163-attack-0-2": {
         "price": 250,
-        "lastUpdate": "2025-11-15 06:58:51",
+        "lastUpdate": "2025-11-15 22:19:34",
         "rawItemIds": [
             "291698271"
         ]
@@ -760,7 +757,7 @@
     },
     "727-engine-5-5": {
         "price": 550,
-        "lastUpdate": "2025-11-15 06:58:51",
+        "lastUpdate": "2025-11-15 22:19:34",
         "rawItemIds": [
             "291708669"
         ]
@@ -771,147 +768,147 @@
     },
     "799-weapon-4-7": {
         "price": 1400,
-        "lastUpdate": "2025-11-15 06:58:51",
+        "lastUpdate": "2025-11-15 22:19:34",
         "rawItemIds": [
             "284813923"
         ]
     },
     "435-repair-0-4": {
         "price": 425,
-        "lastUpdate": "2025-11-15 06:58:51",
+        "lastUpdate": "2025-11-15 22:19:34",
         "rawItemIds": [
             "291818514"
         ]
     },
     "490-ability-11-4": {
         "price": 425,
-        "lastUpdate": "2025-11-15 06:58:51",
+        "lastUpdate": "2025-11-15 22:19:34",
         "rawItemIds": [
             "291785549"
         ]
     },
     "490-attack-0-5": {
         "price": 250,
-        "lastUpdate": "2025-11-15 06:58:51",
+        "lastUpdate": "2025-11-15 22:19:34",
         "rawItemIds": [
             "291785321"
         ]
     },
     "662-science-5-2": {
         "price": 400,
-        "lastUpdate": "2025-11-15 06:58:51",
+        "lastUpdate": "2025-11-15 22:19:34",
         "rawItemIds": [
             "291828504"
         ]
     },
     "169-science-5-6": {
         "price": 400,
-        "lastUpdate": "2025-11-15 06:58:51",
+        "lastUpdate": "2025-11-15 22:19:34",
         "rawItemIds": [
             "291849593"
         ]
     },
     "258-ability-11": {
         "price": 450,
-        "lastUpdate": "2025-11-15 06:58:51",
+        "lastUpdate": "2025-11-15 22:19:34",
         "rawItemIds": [
             "291958669"
         ]
     },
     "678-attack-0-4": {
         "price": 1500,
-        "lastUpdate": "2025-11-15 06:58:51",
+        "lastUpdate": "2025-11-15 22:19:34",
         "rawItemIds": [
             "291959046"
         ]
     },
     "799-ability-12-6": {
         "price": 350,
-        "lastUpdate": "2025-11-15 06:58:51",
+        "lastUpdate": "2025-11-15 22:19:34",
         "rawItemIds": [
             "291948040"
         ]
     },
     "514-stamina-18": {
         "price": 475,
-        "lastUpdate": "2025-11-15 06:58:51",
+        "lastUpdate": "2025-11-15 22:19:34",
         "rawItemIds": [
             "292158477"
         ]
     },
     "1493-stamina-14": {
         "price": 500,
-        "lastUpdate": "2025-11-15 06:58:51",
+        "lastUpdate": "2025-11-15 22:19:34",
         "rawItemIds": [
             "292260382"
         ]
     },
     "1705-hp-2": {
         "price": 1000,
-        "lastUpdate": "2025-11-15 06:58:51",
+        "lastUpdate": "2025-11-15 22:19:34",
         "rawItemIds": [
             "292259696"
         ]
     },
     "1705-stamina-14": {
         "price": 250,
-        "lastUpdate": "2025-11-15 06:58:51",
+        "lastUpdate": "2025-11-15 22:19:34",
         "rawItemIds": [
             "291960621"
         ]
     },
     "490-ability-10-5": {
         "price": 385,
-        "lastUpdate": "2025-11-15 06:58:51",
+        "lastUpdate": "2025-11-15 22:19:34",
         "rawItemIds": [
             "292238108"
         ]
     },
     "808-fireresistance-50-1": {
         "price": 2500,
-        "lastUpdate": "2025-11-15 06:58:51",
+        "lastUpdate": "2025-11-15 22:19:34",
         "rawItemIds": [
             "292261096"
         ]
     },
     "808-pilot-8-6": {
         "price": 500,
-        "lastUpdate": "2025-11-15 06:58:51",
+        "lastUpdate": "2025-11-15 22:19:34",
         "rawItemIds": [
             "292115333"
         ]
     },
     "790-weapon-3-9": {
         "price": 1250,
-        "lastUpdate": "2025-11-15 06:58:51",
+        "lastUpdate": "2025-11-15 22:19:34",
         "rawItemIds": [
             "292259724"
         ]
     },
     "435-pilot-4": {
         "price": 400,
-        "lastUpdate": "2025-11-15 06:58:51",
+        "lastUpdate": "2025-11-15 22:19:34",
         "rawItemIds": [
             "273648919"
         ]
     },
     "514-pilot-4-4": {
         "price": 250,
-        "lastUpdate": "2025-11-15 06:58:51",
+        "lastUpdate": "2025-11-15 22:19:34",
         "rawItemIds": [
             "292393645"
         ]
     },
     "169-attack-0-2": {
         "price": 325,
-        "lastUpdate": "2025-11-15 06:58:51",
+        "lastUpdate": "2025-11-15 22:19:34",
         "rawItemIds": [
             "292407638"
         ]
     },
     "1706-weapon-5-1": {
         "price": 350,
-        "lastUpdate": "2025-11-15 06:58:51",
+        "lastUpdate": "2025-11-15 22:19:34",
         "rawItemIds": [
             "292389637"
         ]
@@ -922,21 +919,21 @@
     },
     "790-fireresistance-49-2": {
         "price": 350,
-        "lastUpdate": "2025-11-15 06:58:51",
+        "lastUpdate": "2025-11-15 22:19:34",
         "rawItemIds": [
             "292473177"
         ]
     },
     "435-science-7-5": {
         "price": 1500,
-        "lastUpdate": "2025-11-15 06:58:51",
+        "lastUpdate": "2025-11-15 22:19:34",
         "rawItemIds": [
             "292500708"
         ]
     },
     "1181-engine-3-1": {
         "price": 500,
-        "lastUpdate": "2025-11-15 06:58:51",
+        "lastUpdate": "2025-11-15 22:19:34",
         "rawItemIds": [
             "292491081"
         ]
@@ -947,7 +944,7 @@
     },
     "960-fireresistance-47-3": {
         "price": 500,
-        "lastUpdate": "2025-11-15 06:58:51",
+        "lastUpdate": "2025-11-15 22:19:34",
         "rawItemIds": [
             "292505728"
         ]
@@ -958,121 +955,128 @@
     },
     "514-hp-1": {
         "price": 500,
-        "lastUpdate": "2025-11-15 06:58:51",
+        "lastUpdate": "2025-11-15 22:19:34",
         "rawItemIds": [
             "293033812"
         ]
     },
     "169-fireresistance-34-2": {
         "price": 400,
-        "lastUpdate": "2025-11-15 06:58:51",
+        "lastUpdate": "2025-11-15 22:19:34",
         "rawItemIds": [
             "293036670"
         ]
     },
     "246-attack-0-5": {
         "price": 1000,
-        "lastUpdate": "2025-11-15 06:58:51",
+        "lastUpdate": "2025-11-15 22:19:34",
         "rawItemIds": [
             "292896869"
         ]
     },
     "170-weapon-4-7": {
         "price": 800,
-        "lastUpdate": "2025-11-15 06:58:51",
+        "lastUpdate": "2025-11-15 22:19:34",
         "rawItemIds": [
             "293110790"
         ]
     },
     "163-ability-14-4": {
         "price": 500,
-        "lastUpdate": "2025-11-15 06:58:51",
+        "lastUpdate": "2025-11-15 22:19:34",
         "rawItemIds": [
             "292978011"
         ]
     },
     "1711-ability-10-8": {
         "price": 1500,
-        "lastUpdate": "2025-11-15 06:58:51",
+        "lastUpdate": "2025-11-15 22:19:34",
         "rawItemIds": [
             "293093424"
         ]
     },
     "1493-attack-0-2": {
         "price": 500,
-        "lastUpdate": "2025-11-15 06:58:51",
+        "lastUpdate": "2025-11-15 22:19:34",
         "rawItemIds": [
             "292509306"
         ]
     },
     "1493-pilot-6-8": {
         "price": 750,
-        "lastUpdate": "2025-11-15 06:58:51",
+        "lastUpdate": "2025-11-15 22:19:34",
         "rawItemIds": [
             "288704781"
         ]
     },
     "1493-science-7-5": {
         "price": 1250,
-        "lastUpdate": "2025-11-15 06:58:51",
+        "lastUpdate": "2025-11-15 22:19:34",
         "rawItemIds": [
             "291085422"
         ]
     },
     "678-ability-10-9": {
         "price": 1000,
-        "lastUpdate": "2025-11-15 06:58:51",
+        "lastUpdate": "2025-11-15 22:19:34",
         "rawItemIds": [
             "292950913"
         ]
     },
     "933-stamina-22": {
         "price": 350,
-        "lastUpdate": "2025-11-15 06:58:51",
+        "lastUpdate": "2025-11-15 22:19:34",
         "rawItemIds": [
             "292917135"
         ]
     },
     "1494-science-8": {
         "price": 1500,
-        "lastUpdate": "2025-11-15 06:58:51",
+        "lastUpdate": "2025-11-15 22:19:34",
         "rawItemIds": [
             "290066986"
         ]
     },
     "808-ability-8-2": {
         "price": 820,
-        "lastUpdate": "2025-11-15 06:58:51",
+        "lastUpdate": "2025-11-15 22:19:34",
         "rawItemIds": [
             "292767007"
         ]
     },
     "808-fireresistance-61-2": {
         "price": 6500,
-        "lastUpdate": "2025-11-15 06:58:51",
+        "lastUpdate": "2025-11-15 22:19:34",
         "rawItemIds": [
             "292926211"
         ]
     },
     "802-ability-9-4": {
-        "price": 2500,
-        "lastUpdate": "2025-11-15 06:58:51",
+        "price": 2650,
+        "lastUpdate": "2025-11-15 22:19:34",
         "rawItemIds": [
-            "293037250"
+            "market-564940296"
         ]
     },
     "802-hp-1": {
         "price": 500,
-        "lastUpdate": "2025-11-15 06:58:51",
+        "lastUpdate": "2025-11-15 22:19:34",
         "rawItemIds": [
             "292979484"
         ]
     },
     "790-hp-2": {
         "price": 650,
-        "lastUpdate": "2025-11-15 06:58:51",
+        "lastUpdate": "2025-11-15 22:19:34",
         "rawItemIds": [
             "292767008"
+        ]
+    },
+    "435-weapon-6-6": {
+        "price": 5000,
+        "lastUpdate": "2025-11-15 22:19:34",
+        "rawItemIds": [
+            "market-564941330"
         ]
     }
 }
