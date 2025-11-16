@@ -1,6 +1,6 @@
 {
-    "generated": "2025-11-16 03:56:33",
-    "item_count": 165,
+    "generated": "2025-11-16 11:56:21",
+    "item_count": 164,
     "items": [
         {
             "item_id": "290509714",
@@ -224,7 +224,7 @@
             "item_sprite_id": 10047,
             "item_enhancement_type": "Attack",
             "item_enhancement_value": 0.9,
-            "pixyship_estimate": 570
+            "pixyship_estimate": null
         },
         {
             "item_id": "291010701",
@@ -546,7 +546,7 @@
             "item_sprite_id": 4819,
             "item_enhancement_type": "Hp",
             "item_enhancement_value": 3.0,
-            "pixyship_estimate": 272
+            "pixyship_estimate": 271
         },
         {
             "item_id": "291849593",
@@ -969,19 +969,6 @@
             "pixyship_estimate": 1085
         },
         {
-            "item_id": "market-565002286",
-            "item_design_id": "1493",
-            "bonus_type": "Science",
-            "bonus_value": "5.7",
-            "quantity": "1",
-            "name": "Immensity Gauntlet",
-            "rarity": "Hero",
-            "item_sub_type": "EquipmentWeapon",
-            "item_sprite_id": 11219,
-            "item_price": 650,
-            "pixyship_estimate": 540
-        },
-        {
             "item_id": "292260382",
             "item_design_id": "1493",
             "bonus_type": "Stamina",
@@ -1371,7 +1358,7 @@
             "item_sprite_id": 14738,
             "item_enhancement_type": "Science",
             "item_enhancement_value": 11.0,
-            "pixyship_estimate": 1018
+            "pixyship_estimate": 1014
         },
         {
             "item_id": "292574030",
@@ -1850,7 +1837,7 @@
             "pixyship_estimate": 3047
         },
         {
-            "item_id": "291828504",
+            "item_id": "market-565044310",
             "item_design_id": "662",
             "bonus_type": "Science",
             "bonus_value": "5.2",
@@ -1859,8 +1846,7 @@
             "rarity": "Hero",
             "item_sub_type": "EquipmentAccessory",
             "item_sprite_id": 11874,
-            "item_enhancement_type": "Hp",
-            "item_enhancement_value": 3.0,
+            "item_price": 500,
             "pixyship_estimate": 407
         },
         {
@@ -2099,7 +2085,7 @@
             "item_sprite_id": 3757,
             "item_enhancement_type": "Ability",
             "item_enhancement_value": 20.0,
-            "pixyship_estimate": 605
+            "pixyship_estimate": 603
         },
         {
             "item_id": "291315321",
