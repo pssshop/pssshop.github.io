@@ -1,6 +1,6 @@
 {
-    "generated": "2025-11-16 11:56:21",
-    "item_count": 164,
+    "generated": "2025-11-16 15:11:51",
+    "item_count": 158,
     "items": [
         {
             "item_id": "290509714",
@@ -126,7 +126,7 @@
             "item_sprite_id": 9983,
             "item_enhancement_type": "Ability",
             "item_enhancement_value": 19.0,
-            "pixyship_estimate": 470
+            "pixyship_estimate": 443
         },
         {
             "item_id": "291818514",
@@ -140,7 +140,7 @@
             "item_sprite_id": 9983,
             "item_enhancement_type": "Ability",
             "item_enhancement_value": 19.0,
-            "pixyship_estimate": 429
+            "pixyship_estimate": 422
         },
         {
             "item_id": "292500708",
@@ -269,7 +269,7 @@
             "pixyship_estimate": null
         },
         {
-            "item_id": "290433552",
+            "item_id": "market-565079346",
             "item_design_id": "514",
             "bonus_type": "FireResistance",
             "bonus_value": "29.2",
@@ -278,8 +278,7 @@
             "rarity": "Hero",
             "item_sub_type": "EquipmentHead",
             "item_sprite_id": 10047,
-            "item_enhancement_type": "Attack",
-            "item_enhancement_value": 0.9,
+            "item_price": 650,
             "pixyship_estimate": null
         },
         {
@@ -1190,7 +1189,7 @@
             "item_sprite_id": 19673,
             "item_enhancement_type": "Pilot",
             "item_enhancement_value": 10.0,
-            "pixyship_estimate": 694
+            "pixyship_estimate": 866
         },
         {
             "item_id": "289219708",
@@ -1232,7 +1231,7 @@
             "item_sprite_id": 16441,
             "item_enhancement_type": "Weapon",
             "item_enhancement_value": 6.0,
-            "pixyship_estimate": 140
+            "pixyship_estimate": 138
         },
         {
             "item_id": "292168036",
@@ -1655,20 +1654,6 @@
             "pixyship_estimate": 200
         },
         {
-            "item_id": "293217773",
-            "item_design_id": "490",
-            "bonus_type": "Stamina",
-            "bonus_value": "17",
-            "quantity": "1",
-            "name": "QT Mechworks Drone",
-            "rarity": "Hero",
-            "item_sub_type": "EquipmentAccessory",
-            "item_sprite_id": 10288,
-            "item_enhancement_type": "Engine",
-            "item_enhancement_value": 11.0,
-            "pixyship_estimate": 232
-        },
-        {
             "item_id": "290215812",
             "item_design_id": "933",
             "bonus_type": "Ability",
@@ -1695,48 +1680,6 @@
             "item_enhancement_type": "Weapon",
             "item_enhancement_value": 8.0,
             "pixyship_estimate": 230
-        },
-        {
-            "item_id": "290874836",
-            "item_design_id": "933",
-            "bonus_type": "Attack",
-            "bonus_value": "0.3",
-            "quantity": "1",
-            "name": "Red Marksman Jacket",
-            "rarity": "Hero",
-            "item_sub_type": "EquipmentBody",
-            "item_sprite_id": 13939,
-            "item_enhancement_type": "Weapon",
-            "item_enhancement_value": 8.0,
-            "pixyship_estimate": 230
-        },
-        {
-            "item_id": "291076677",
-            "item_design_id": "933",
-            "bonus_type": "Attack",
-            "bonus_value": "0.2",
-            "quantity": "1",
-            "name": "Red Marksman Jacket",
-            "rarity": "Hero",
-            "item_sub_type": "EquipmentBody",
-            "item_sprite_id": 13939,
-            "item_enhancement_type": "Weapon",
-            "item_enhancement_value": 8.0,
-            "pixyship_estimate": 204
-        },
-        {
-            "item_id": "291265547",
-            "item_design_id": "933",
-            "bonus_type": "Attack",
-            "bonus_value": "0.2",
-            "quantity": "1",
-            "name": "Red Marksman Jacket",
-            "rarity": "Hero",
-            "item_sub_type": "EquipmentBody",
-            "item_sprite_id": 13939,
-            "item_enhancement_type": "Weapon",
-            "item_enhancement_value": 8.0,
-            "pixyship_estimate": 204
         },
         {
             "item_id": "290448244",
@@ -1779,34 +1722,6 @@
             "item_enhancement_type": "Weapon",
             "item_enhancement_value": 8.0,
             "pixyship_estimate": 483
-        },
-        {
-            "item_id": "292362081",
-            "item_design_id": "933",
-            "bonus_type": "Repair",
-            "bonus_value": "0.4",
-            "quantity": "1",
-            "name": "Red Marksman Jacket",
-            "rarity": "Hero",
-            "item_sub_type": "EquipmentBody",
-            "item_sprite_id": 13939,
-            "item_enhancement_type": "Weapon",
-            "item_enhancement_value": 8.0,
-            "pixyship_estimate": 213
-        },
-        {
-            "item_id": "292456209",
-            "item_design_id": "933",
-            "bonus_type": "Repair",
-            "bonus_value": "0.4",
-            "quantity": "1",
-            "name": "Red Marksman Jacket",
-            "rarity": "Hero",
-            "item_sub_type": "EquipmentBody",
-            "item_sprite_id": 13939,
-            "item_enhancement_type": "Weapon",
-            "item_enhancement_value": 8.0,
-            "pixyship_estimate": 213
         },
         {
             "item_id": "292917135",
@@ -2001,7 +1916,7 @@
             "item_sprite_id": 13020,
             "item_enhancement_type": "FireResistance",
             "item_enhancement_value": 70.0,
-            "pixyship_estimate": 130
+            "pixyship_estimate": 123
         },
         {
             "item_id": "292487567",
