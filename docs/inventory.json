@@ -1,5 +1,5 @@
 {
-    "generated": "2025-11-18 20:40:16",
+    "generated": "2025-11-18 23:04:58",
     "item_count": 160,
     "items": [
         {
@@ -15,6 +15,20 @@
             "item_enhancement_type": "Hp",
             "item_enhancement_value": 4.0,
             "pixyship_estimate": 1755
+        },
+        {
+            "item_id": "293658303",
+            "item_design_id": "1718",
+            "bonus_type": "FireResistance",
+            "bonus_value": "30",
+            "quantity": "1",
+            "name": "Hydrone 2.0",
+            "rarity": "Special",
+            "item_sub_type": "EquipmentAccessory",
+            "item_sprite_id": 19814,
+            "item_enhancement_type": "Hp",
+            "item_enhancement_value": 4.0,
+            "pixyship_estimate": 2338
         },
         {
             "item_id": "290673718",
@@ -197,19 +211,6 @@
             "item_enhancement_type": "Ability",
             "item_enhancement_value": 19.0,
             "pixyship_estimate": 2526
-        },
-        {
-            "item_id": "market-565241039",
-            "item_design_id": "435",
-            "bonus_type": "Weapon",
-            "bonus_value": "4.9",
-            "quantity": "1",
-            "name": "Aldara",
-            "rarity": "Hero",
-            "item_sub_type": "EquipmentAccessory",
-            "item_sprite_id": 9983,
-            "item_price": 900,
-            "pixyship_estimate": 909
         },
         {
             "item_id": "289472191",
@@ -562,7 +563,7 @@
             "pixyship_estimate": 467
         },
         {
-            "item_id": "292896869",
+            "item_id": "market-565257692",
             "item_design_id": "246",
             "bonus_type": "Attack",
             "bonus_value": "0.5",
@@ -571,8 +572,7 @@
             "rarity": "Hero",
             "item_sub_type": "EquipmentHead",
             "item_sprite_id": 7432,
-            "item_enhancement_type": "Hp",
-            "item_enhancement_value": 3.0,
+            "item_price": 2500,
             "pixyship_estimate": 1948
         },
         {
@@ -588,6 +588,20 @@
             "item_enhancement_type": "Stamina",
             "item_enhancement_value": 35.0,
             "pixyship_estimate": 2578
+        },
+        {
+            "item_id": "293652506",
+            "item_design_id": "1215",
+            "bonus_type": "Ability",
+            "bonus_value": "7.7",
+            "quantity": "1",
+            "name": "Extendo-Clamp Plus",
+            "rarity": "Hero",
+            "item_sub_type": "EquipmentWeapon",
+            "item_sprite_id": 16605,
+            "item_enhancement_type": "Engine",
+            "item_enhancement_value": 7.0,
+            "pixyship_estimate": 269
         },
         {
             "item_id": "286411269",
@@ -881,20 +895,6 @@
             "item_enhancement_type": "Attack",
             "item_enhancement_value": 0.6,
             "pixyship_estimate": 227
-        },
-        {
-            "item_id": "293643023",
-            "item_design_id": "163",
-            "bonus_type": "Repair",
-            "bonus_value": "0.6",
-            "quantity": "1",
-            "name": "Golden Cai Dao",
-            "rarity": "Hero",
-            "item_sub_type": "EquipmentWeapon",
-            "item_sprite_id": 5007,
-            "item_enhancement_type": "Attack",
-            "item_enhancement_value": 0.6,
-            "pixyship_estimate": 128
         },
         {
             "item_id": "290512075",
