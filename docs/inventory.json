@@ -1,6 +1,6 @@
 {
-    "generated": "2025-11-18 19:40:03",
-    "item_count": 158,
+    "generated": "2025-11-18 20:40:16",
+    "item_count": 160,
     "items": [
         {
             "item_id": "290509714",
@@ -880,7 +880,21 @@
             "item_sprite_id": 5007,
             "item_enhancement_type": "Attack",
             "item_enhancement_value": 0.6,
-            "pixyship_estimate": 228
+            "pixyship_estimate": 227
+        },
+        {
+            "item_id": "293643023",
+            "item_design_id": "163",
+            "bonus_type": "Repair",
+            "bonus_value": "0.6",
+            "quantity": "1",
+            "name": "Golden Cai Dao",
+            "rarity": "Hero",
+            "item_sub_type": "EquipmentWeapon",
+            "item_sprite_id": 5007,
+            "item_enhancement_type": "Attack",
+            "item_enhancement_value": 0.6,
+            "pixyship_estimate": 128
         },
         {
             "item_id": "290512075",
@@ -965,6 +979,20 @@
             "item_enhancement_type": "Hp",
             "item_enhancement_value": 4.0,
             "pixyship_estimate": 495
+        },
+        {
+            "item_id": "293647782",
+            "item_design_id": "1493",
+            "bonus_type": "Hp",
+            "bonus_value": "1",
+            "quantity": "1",
+            "name": "Immensity Gauntlet",
+            "rarity": "Hero",
+            "item_sub_type": "EquipmentWeapon",
+            "item_sprite_id": 11219,
+            "item_enhancement_type": "Hp",
+            "item_enhancement_value": 4.0,
+            "pixyship_estimate": 882
         },
         {
             "item_id": "288704781",
@@ -2153,7 +2181,7 @@
             "item_sprite_id": 12777,
             "item_enhancement_type": "Weapon",
             "item_enhancement_value": 7.0,
-            "pixyship_estimate": 1127
+            "pixyship_estimate": 1095
         },
         {
             "item_id": "286032720",
