@@ -1,6 +1,6 @@
 {
-    "generated": "2025-11-20 00:22:18",
-    "item_count": 157,
+    "generated": "2025-11-20 03:14:15",
+    "item_count": 158,
     "items": [
         {
             "item_id": "290509714",
@@ -112,7 +112,7 @@
             "item_sprite_id": 9983,
             "item_enhancement_type": "Ability",
             "item_enhancement_value": 19.0,
-            "pixyship_estimate": 414
+            "pixyship_estimate": 416
         },
         {
             "item_id": "291818514",
@@ -437,6 +437,20 @@
             "pixyship_estimate": 302
         },
         {
+            "item_id": "293765369",
+            "item_design_id": "169",
+            "bonus_type": "FireResistance",
+            "bonus_value": "62.5",
+            "quantity": "1",
+            "name": "Dark Matter Armor",
+            "rarity": "Hero",
+            "item_sub_type": "EquipmentBody",
+            "item_sprite_id": 4819,
+            "item_enhancement_type": "Hp",
+            "item_enhancement_value": 3.0,
+            "pixyship_estimate": 1758
+        },
+        {
             "item_id": "290106780",
             "item_design_id": "169",
             "bonus_type": "FireResistance",
@@ -658,7 +672,7 @@
             "item_sprite_id": 16432,
             "item_enhancement_type": "Weapon",
             "item_enhancement_value": 7.0,
-            "pixyship_estimate": 541
+            "pixyship_estimate": 611
         },
         {
             "item_id": "293642273",
@@ -703,7 +717,7 @@
             "pixyship_estimate": 466
         },
         {
-            "item_id": "289558630",
+            "item_id": "market-565333190",
             "item_design_id": "163",
             "bonus_type": "Ability",
             "bonus_value": "10.1",
@@ -712,8 +726,7 @@
             "rarity": "Hero",
             "item_sub_type": "EquipmentWeapon",
             "item_sprite_id": 5007,
-            "item_enhancement_type": "Attack",
-            "item_enhancement_value": 0.6,
+            "item_price": 300,
             "pixyship_estimate": 297
         },
         {
@@ -869,6 +882,20 @@
             "item_enhancement_type": "Attack",
             "item_enhancement_value": 0.6,
             "pixyship_estimate": 227
+        },
+        {
+            "item_id": "293771145",
+            "item_design_id": "163",
+            "bonus_type": "Weapon",
+            "bonus_value": "6.5",
+            "quantity": "1",
+            "name": "Golden Cai Dao",
+            "rarity": "Hero",
+            "item_sub_type": "EquipmentWeapon",
+            "item_sprite_id": 5007,
+            "item_enhancement_type": "Attack",
+            "item_enhancement_value": 0.6,
+            "pixyship_estimate": 671
         },
         {
             "item_id": "290512075",
@@ -1179,6 +1206,20 @@
             "pixyship_estimate": 517
         },
         {
+            "item_id": "293767678",
+            "item_design_id": "1705",
+            "bonus_type": "Ability",
+            "bonus_value": "8.4",
+            "quantity": "1",
+            "name": "Mach Helm",
+            "rarity": "Hero",
+            "item_sub_type": "EquipmentHead",
+            "item_sprite_id": 19673,
+            "item_enhancement_type": "Pilot",
+            "item_enhancement_value": 10.0,
+            "pixyship_estimate": null
+        },
+        {
             "item_id": "292259696",
             "item_design_id": "1705",
             "bonus_type": "Hp",
@@ -1375,20 +1416,6 @@
             "pixyship_estimate": 484
         },
         {
-            "item_id": "290448029",
-            "item_design_id": "960",
-            "bonus_type": "Hp",
-            "bonus_value": "2",
-            "quantity": "1",
-            "name": "Pink Elephant",
-            "rarity": "Hero",
-            "item_sub_type": "EquipmentAccessory",
-            "item_sprite_id": 14738,
-            "item_enhancement_type": "Science",
-            "item_enhancement_value": 11.0,
-            "pixyship_estimate": 1031
-        },
-        {
             "item_id": "292574030",
             "item_design_id": "952",
             "bonus_type": "Ability",
@@ -1401,20 +1428,6 @@
             "item_enhancement_type": "Science",
             "item_enhancement_value": 9.0,
             "pixyship_estimate": null
-        },
-        {
-            "item_id": "290658424",
-            "item_design_id": "952",
-            "bonus_type": "FireResistance",
-            "bonus_value": "60.9",
-            "quantity": "1",
-            "name": "Plague Surgeon Mask",
-            "rarity": "Hero",
-            "item_sub_type": "EquipmentHead",
-            "item_sprite_id": 14565,
-            "item_enhancement_type": "Science",
-            "item_enhancement_value": 9.0,
-            "pixyship_estimate": 395
         },
         {
             "item_id": "292296278",
@@ -1739,7 +1752,7 @@
             "pixyship_estimate": 3047
         },
         {
-            "item_id": "293458290",
+            "item_id": "market-565333029",
             "item_design_id": "662",
             "bonus_type": "Science",
             "bonus_value": "5.2",
@@ -1748,8 +1761,7 @@
             "rarity": "Hero",
             "item_sub_type": "EquipmentAccessory",
             "item_sprite_id": 11874,
-            "item_enhancement_type": "Hp",
-            "item_enhancement_value": 3.0,
+            "item_price": 500,
             "pixyship_estimate": 407
         },
         {
