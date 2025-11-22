@@ -1,5 +1,5 @@
 {
-    "generated": "2025-11-22 02:26:38",
+    "generated": "2025-11-22 03:05:38",
     "item_count": 158,
     "items": [
         {
@@ -17,24 +17,10 @@
             "pixyship_estimate": 1794
         },
         {
-            "item_id": "290673718",
-            "item_design_id": "1718",
-            "bonus_type": "Pilot",
-            "bonus_value": "5.2",
-            "quantity": "1",
-            "name": "Hydrone 2.0",
-            "rarity": "Special",
-            "item_sub_type": "EquipmentAccessory",
-            "item_sprite_id": 19814,
-            "item_enhancement_type": "Hp",
-            "item_enhancement_value": 4.0,
-            "pixyship_estimate": 1686
-        },
-        {
             "item_id": "291019634",
             "item_design_id": "1718",
-            "bonus_type": "Repair",
-            "bonus_value": "0.5",
+            "bonus_type": "Attack",
+            "bonus_value": "0.6",
             "quantity": "1",
             "name": "Hydrone 2.0",
             "rarity": "Special",
@@ -42,12 +28,12 @@
             "item_sprite_id": 19814,
             "item_enhancement_type": "Hp",
             "item_enhancement_value": 4.0,
-            "pixyship_estimate": 1266
+            "pixyship_estimate": 5877
         },
         {
             "item_id": "291088691",
             "item_design_id": "1718",
-            "bonus_type": "Repair",
+            "bonus_type": "Attack",
             "bonus_value": "0.5",
             "quantity": "1",
             "name": "Hydrone 2.0",
@@ -56,7 +42,21 @@
             "item_sprite_id": 19814,
             "item_enhancement_type": "Hp",
             "item_enhancement_value": 4.0,
-            "pixyship_estimate": 1266
+            "pixyship_estimate": 4369
+        },
+        {
+            "item_id": "293920704",
+            "item_design_id": "290",
+            "bonus_type": "Weapon",
+            "bonus_value": "5.5",
+            "quantity": "1",
+            "name": "Raven Swarm",
+            "rarity": "Special",
+            "item_sub_type": "EquipmentAccessory",
+            "item_sprite_id": 8031,
+            "item_enhancement_type": "Attack",
+            "item_enhancement_value": 0.6,
+            "pixyship_estimate": null
         },
         {
             "item_id": "292896123",
@@ -1287,7 +1287,7 @@
             "item_sprite_id": 16441,
             "item_enhancement_type": "Weapon",
             "item_enhancement_value": 6.0,
-            "pixyship_estimate": 517
+            "pixyship_estimate": 519
         },
         {
             "item_id": "278957068",
@@ -1371,7 +1371,7 @@
             "item_sprite_id": 15249,
             "item_enhancement_type": "Engine",
             "item_enhancement_value": 8.0,
-            "pixyship_estimate": 1591
+            "pixyship_estimate": 1556
         },
         {
             "item_id": "293267327",
@@ -1553,7 +1553,7 @@
             "item_sprite_id": 10288,
             "item_enhancement_type": "Engine",
             "item_enhancement_value": 11.0,
-            "pixyship_estimate": 593
+            "pixyship_estimate": 638
         },
         {
             "item_id": "291785549",
@@ -1567,7 +1567,7 @@
             "item_sprite_id": 10288,
             "item_enhancement_type": "Engine",
             "item_enhancement_value": 11.0,
-            "pixyship_estimate": 452
+            "pixyship_estimate": 470
         },
         {
             "item_id": "292238108",
@@ -1679,7 +1679,7 @@
             "item_sprite_id": 13939,
             "item_enhancement_type": "Weapon",
             "item_enhancement_value": 8.0,
-            "pixyship_estimate": 1136
+            "pixyship_estimate": 1177
         },
         {
             "item_id": "286413410",
@@ -1721,7 +1721,7 @@
             "item_sprite_id": 13939,
             "item_enhancement_type": "Weapon",
             "item_enhancement_value": 8.0,
-            "pixyship_estimate": 483
+            "pixyship_estimate": 515
         },
         {
             "item_id": "292543626",
@@ -1735,7 +1735,7 @@
             "item_sprite_id": 13939,
             "item_enhancement_type": "Weapon",
             "item_enhancement_value": 8.0,
-            "pixyship_estimate": 483
+            "pixyship_estimate": 515
         },
         {
             "item_id": "293660626",
