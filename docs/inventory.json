@@ -1,5 +1,5 @@
 {
-    "generated": "2025-11-23 00:54:39",
+    "generated": "2025-11-23 13:08:54",
     "item_count": 164,
     "items": [
         {
@@ -15,20 +15,6 @@
             "item_enhancement_type": "Hp",
             "item_enhancement_value": 4.0,
             "pixyship_estimate": 1794
-        },
-        {
-            "item_id": "291088691",
-            "item_design_id": "1718",
-            "bonus_type": "Attack",
-            "bonus_value": "0.5",
-            "quantity": "1",
-            "name": "Hydrone 2.0",
-            "rarity": "Special",
-            "item_sub_type": "EquipmentAccessory",
-            "item_sprite_id": 19814,
-            "item_enhancement_type": "Hp",
-            "item_enhancement_value": 4.0,
-            "pixyship_estimate": 4369
         },
         {
             "item_id": "293658303",
@@ -227,20 +213,6 @@
             "pixyship_estimate": null
         },
         {
-            "item_id": "291010701",
-            "item_design_id": "514",
-            "bonus_type": "FireResistance",
-            "bonus_value": "55.1",
-            "quantity": "1",
-            "name": "Captain's Skullmet",
-            "rarity": "Hero",
-            "item_sub_type": "EquipmentHead",
-            "item_sprite_id": 10047,
-            "item_enhancement_type": "Attack",
-            "item_enhancement_value": 0.9,
-            "pixyship_estimate": null
-        },
-        {
             "item_id": "288342758",
             "item_design_id": "514",
             "bonus_type": "FireResistance",
@@ -407,6 +379,20 @@
             "item_enhancement_type": "Attack",
             "item_enhancement_value": 0.7,
             "pixyship_estimate": 657
+        },
+        {
+            "item_id": "294024425",
+            "item_design_id": "258",
+            "bonus_type": "FireResistance",
+            "bonus_value": "56.3",
+            "quantity": "1",
+            "name": "DMR MK II",
+            "rarity": "Hero",
+            "item_sub_type": "EquipmentWeapon",
+            "item_sprite_id": 7615,
+            "item_enhancement_type": "Attack",
+            "item_enhancement_value": 0.7,
+            "pixyship_estimate": null
         },
         {
             "item_id": "289867481",
@@ -829,10 +815,10 @@
             "pixyship_estimate": 536
         },
         {
-            "item_id": "292982171",
+            "item_id": "288903652",
             "item_design_id": "163",
             "bonus_type": "Attack",
-            "bonus_value": "0.4",
+            "bonus_value": "0.3",
             "quantity": "1",
             "name": "Golden Cai Dao",
             "rarity": "Hero",
@@ -840,7 +826,7 @@
             "item_sprite_id": 5007,
             "item_enhancement_type": "Attack",
             "item_enhancement_value": 0.6,
-            "pixyship_estimate": 536
+            "pixyship_estimate": 408
         },
         {
             "item_id": "291698271",
@@ -857,6 +843,20 @@
             "pixyship_estimate": 305
         },
         {
+            "item_id": "289965509",
+            "item_design_id": "163",
+            "bonus_type": "FireResistance",
+            "bonus_value": "52.9",
+            "quantity": "1",
+            "name": "Golden Cai Dao",
+            "rarity": "Hero",
+            "item_sub_type": "EquipmentWeapon",
+            "item_sprite_id": 5007,
+            "item_enhancement_type": "Attack",
+            "item_enhancement_value": 0.6,
+            "pixyship_estimate": 614
+        },
+        {
             "item_id": "293642336",
             "item_design_id": "163",
             "bonus_type": "FireResistance",
@@ -868,7 +868,7 @@
             "item_sprite_id": 5007,
             "item_enhancement_type": "Attack",
             "item_enhancement_value": 0.6,
-            "pixyship_estimate": 218
+            "pixyship_estimate": 212
         },
         {
             "item_id": "293886107",
@@ -882,7 +882,7 @@
             "item_sprite_id": 5007,
             "item_enhancement_type": "Attack",
             "item_enhancement_value": 0.6,
-            "pixyship_estimate": 211
+            "pixyship_estimate": 210
         },
         {
             "item_id": "290085700",
@@ -913,10 +913,10 @@
             "pixyship_estimate": 490
         },
         {
-            "item_id": "292263812",
+            "item_id": "293989669",
             "item_design_id": "163",
             "bonus_type": "Hp",
-            "bonus_value": "2",
+            "bonus_value": "1",
             "quantity": "1",
             "name": "Golden Cai Dao",
             "rarity": "Hero",
@@ -924,7 +924,7 @@
             "item_sprite_id": 5007,
             "item_enhancement_type": "Attack",
             "item_enhancement_value": 0.6,
-            "pixyship_estimate": 490
+            "pixyship_estimate": 201
         },
         {
             "item_id": "market-565571963",
@@ -1248,20 +1248,6 @@
             "pixyship_estimate": 353
         },
         {
-            "item_id": "290080938",
-            "item_design_id": "1706",
-            "bonus_type": "Engine",
-            "bonus_value": "7.1",
-            "quantity": "1",
-            "name": "Mach Flightsuit",
-            "rarity": "Hero",
-            "item_sub_type": "EquipmentBody",
-            "item_sprite_id": 19675,
-            "item_enhancement_type": "Pilot",
-            "item_enhancement_value": 12.0,
-            "pixyship_estimate": 331
-        },
-        {
             "item_id": "291532390",
             "item_design_id": "1706",
             "bonus_type": "FireResistance",
@@ -1371,7 +1357,7 @@
             "item_sprite_id": 16441,
             "item_enhancement_type": "Weapon",
             "item_enhancement_value": 6.0,
-            "pixyship_estimate": 518
+            "pixyship_estimate": 517
         },
         {
             "item_id": "278957068",
@@ -1472,7 +1458,7 @@
             "pixyship_estimate": null
         },
         {
-            "item_id": "287610996",
+            "item_id": "market-565589618",
             "item_design_id": "960",
             "bonus_type": "Ability",
             "bonus_value": "13.3",
@@ -1481,8 +1467,7 @@
             "rarity": "Hero",
             "item_sub_type": "EquipmentAccessory",
             "item_sprite_id": 14738,
-            "item_enhancement_type": "Science",
-            "item_enhancement_value": 11.0,
+            "item_price": 1500,
             "pixyship_estimate": 1419
         },
         {
@@ -1679,7 +1664,7 @@
             "item_sprite_id": 10288,
             "item_enhancement_type": "Engine",
             "item_enhancement_value": 11.0,
-            "pixyship_estimate": 275
+            "pixyship_estimate": 298
         },
         {
             "item_id": "291426658",
@@ -2015,7 +2000,7 @@
             "item_sprite_id": 3757,
             "item_enhancement_type": "Ability",
             "item_enhancement_value": 20.0,
-            "pixyship_estimate": 7176
+            "pixyship_estimate": 8712
         },
         {
             "item_id": "market-565571848",
@@ -2253,6 +2238,20 @@
             "item_enhancement_type": "Weapon",
             "item_enhancement_value": 7.0,
             "pixyship_estimate": 1247
+        },
+        {
+            "item_id": "286032720",
+            "item_design_id": "799",
+            "bonus_type": "Ability",
+            "bonus_value": "13",
+            "quantity": "1",
+            "name": "Visiri Master Gunner Greaves",
+            "rarity": "Hero",
+            "item_sub_type": "EquipmentLeg",
+            "item_sprite_id": 12887,
+            "item_enhancement_type": "Weapon",
+            "item_enhancement_value": 7.0,
+            "pixyship_estimate": 393
         },
         {
             "item_id": "291948040",
