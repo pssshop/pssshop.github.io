@@ -1,5 +1,5 @@
 {
-    "generated": "2025-11-22 19:53:32",
+    "generated": "2025-11-22 20:43:07",
     "item_count": 165,
     "items": [
         {
@@ -17,20 +17,6 @@
             "pixyship_estimate": 1794
         },
         {
-            "item_id": "291019634",
-            "item_design_id": "1718",
-            "bonus_type": "Attack",
-            "bonus_value": "0.6",
-            "quantity": "1",
-            "name": "Hydrone 2.0",
-            "rarity": "Special",
-            "item_sub_type": "EquipmentAccessory",
-            "item_sprite_id": 19814,
-            "item_enhancement_type": "Hp",
-            "item_enhancement_value": 4.0,
-            "pixyship_estimate": 5877
-        },
-        {
             "item_id": "291088691",
             "item_design_id": "1718",
             "bonus_type": "Attack",
@@ -45,10 +31,10 @@
             "pixyship_estimate": 4369
         },
         {
-            "item_id": "290673718",
+            "item_id": "293658303",
             "item_design_id": "1718",
             "bonus_type": "FireResistance",
-            "bonus_value": "61",
+            "bonus_value": "30",
             "quantity": "1",
             "name": "Hydrone 2.0",
             "rarity": "Special",
@@ -56,7 +42,21 @@
             "item_sprite_id": 19814,
             "item_enhancement_type": "Hp",
             "item_enhancement_value": 4.0,
-            "pixyship_estimate": 10233
+            "pixyship_estimate": 2343
+        },
+        {
+            "item_id": "293972288",
+            "item_design_id": "1718",
+            "bonus_type": "Stamina",
+            "bonus_value": "17",
+            "quantity": "1",
+            "name": "Hydrone 2.0",
+            "rarity": "Special",
+            "item_sub_type": "EquipmentAccessory",
+            "item_sprite_id": 19814,
+            "item_enhancement_type": "Hp",
+            "item_enhancement_value": 4.0,
+            "pixyship_estimate": 1909
         },
         {
             "item_id": "293920704",
@@ -843,20 +843,6 @@
             "pixyship_estimate": 526
         },
         {
-            "item_id": "288903652",
-            "item_design_id": "163",
-            "bonus_type": "Attack",
-            "bonus_value": "0.3",
-            "quantity": "1",
-            "name": "Golden Cai Dao",
-            "rarity": "Hero",
-            "item_sub_type": "EquipmentWeapon",
-            "item_sprite_id": 5007,
-            "item_enhancement_type": "Attack",
-            "item_enhancement_value": 0.6,
-            "pixyship_estimate": 407
-        },
-        {
             "item_id": "291698271",
             "item_design_id": "163",
             "bonus_type": "Attack",
@@ -869,6 +855,20 @@
             "item_enhancement_type": "Attack",
             "item_enhancement_value": 0.6,
             "pixyship_estimate": 305
+        },
+        {
+            "item_id": "293642336",
+            "item_design_id": "163",
+            "bonus_type": "FireResistance",
+            "bonus_value": "27",
+            "quantity": "1",
+            "name": "Golden Cai Dao",
+            "rarity": "Hero",
+            "item_sub_type": "EquipmentWeapon",
+            "item_sprite_id": 5007,
+            "item_enhancement_type": "Attack",
+            "item_enhancement_value": 0.6,
+            "pixyship_estimate": 218
         },
         {
             "item_id": "293886107",
@@ -927,7 +927,7 @@
             "pixyship_estimate": 490
         },
         {
-            "item_id": "293660762",
+            "item_id": "market-565571963",
             "item_design_id": "163",
             "bonus_type": "Hp",
             "bonus_value": "1",
@@ -936,8 +936,7 @@
             "rarity": "Hero",
             "item_sub_type": "EquipmentWeapon",
             "item_sprite_id": 5007,
-            "item_enhancement_type": "Attack",
-            "item_enhancement_value": 0.6,
+            "item_price": 200,
             "pixyship_estimate": 201
         },
         {
@@ -1753,7 +1752,7 @@
             "pixyship_estimate": 361
         },
         {
-            "item_id": "292893215",
+            "item_id": "market-565572007",
             "item_design_id": "490",
             "bonus_type": "Hp",
             "bonus_value": "1",
@@ -1762,8 +1761,7 @@
             "rarity": "Hero",
             "item_sub_type": "EquipmentAccessory",
             "item_sprite_id": 10288,
-            "item_enhancement_type": "Engine",
-            "item_enhancement_value": 11.0,
+            "item_price": 385,
             "pixyship_estimate": 361
         },
         {
@@ -2033,7 +2031,7 @@
             "pixyship_estimate": 7176
         },
         {
-            "item_id": "293914095",
+            "item_id": "market-565571848",
             "item_design_id": "802",
             "bonus_type": "Ability",
             "bonus_value": "9.4",
@@ -2042,8 +2040,7 @@
             "rarity": "Hero",
             "item_sub_type": "EquipmentBody",
             "item_sprite_id": 3757,
-            "item_enhancement_type": "Ability",
-            "item_enhancement_value": 20.0,
+            "item_price": 2650,
             "pixyship_estimate": 2319
         },
         {
