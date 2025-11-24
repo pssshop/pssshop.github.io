@@ -1,5 +1,5 @@
 {
-    "generated": "2025-11-24 14:02:34",
+    "generated": "2025-11-24 14:05:16",
     "item_count": 160,
     "items": [
         {
@@ -325,7 +325,7 @@
             "pixyship_estimate": 300
         },
         {
-            "item_id": "289563179",
+            "item_id": "market-565735547",
             "item_design_id": "514",
             "bonus_type": "Repair",
             "bonus_value": "0.4",
@@ -334,8 +334,7 @@
             "rarity": "Hero",
             "item_sub_type": "EquipmentHead",
             "item_sprite_id": 10047,
-            "item_enhancement_type": "Attack",
-            "item_enhancement_value": 0.9,
+            "item_price": 450,
             "pixyship_estimate": 486
         },
         {
@@ -577,7 +576,7 @@
             "pixyship_estimate": 402
         },
         {
-            "item_id": "288101803",
+            "item_id": "market-565735434",
             "item_design_id": "169",
             "bonus_type": "Repair",
             "bonus_value": "0.4",
@@ -586,8 +585,7 @@
             "rarity": "Hero",
             "item_sub_type": "EquipmentBody",
             "item_sprite_id": 4819,
-            "item_enhancement_type": "Hp",
-            "item_enhancement_value": 3.0,
+            "item_price": 400,
             "pixyship_estimate": 274
         },
         {
