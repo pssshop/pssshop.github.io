@@ -1,6 +1,6 @@
 {
-    "generated": "2025-11-24 14:05:16",
-    "item_count": 160,
+    "generated": "2025-11-25 03:18:40",
+    "item_count": 165,
     "items": [
         {
             "item_id": "290509714",
@@ -85,6 +85,20 @@
             "item_enhancement_type": "Ability",
             "item_enhancement_value": 19.0,
             "pixyship_estimate": 408
+        },
+        {
+            "item_id": "294126030",
+            "item_design_id": "435",
+            "bonus_type": "FireResistance",
+            "bonus_value": "62.8",
+            "quantity": "1",
+            "name": "Aldara",
+            "rarity": "Hero",
+            "item_sub_type": "EquipmentAccessory",
+            "item_sprite_id": 9983,
+            "item_enhancement_type": "Ability",
+            "item_enhancement_value": 19.0,
+            "pixyship_estimate": 3012
         },
         {
             "item_id": "273648919",
@@ -224,7 +238,7 @@
             "item_sprite_id": 10047,
             "item_enhancement_type": "Attack",
             "item_enhancement_value": 0.9,
-            "pixyship_estimate": 409
+            "pixyship_estimate": 414
         },
         {
             "item_id": "288342758",
@@ -447,7 +461,7 @@
             "item_sprite_id": 4819,
             "item_enhancement_type": "Hp",
             "item_enhancement_value": 3.0,
-            "pixyship_estimate": 565
+            "pixyship_estimate": 568
         },
         {
             "item_id": "292407638",
@@ -475,7 +489,7 @@
             "item_sprite_id": 4819,
             "item_enhancement_type": "Hp",
             "item_enhancement_value": 3.0,
-            "pixyship_estimate": 1758
+            "pixyship_estimate": 1743
         },
         {
             "item_id": "293972241",
@@ -489,7 +503,7 @@
             "item_sprite_id": 4819,
             "item_enhancement_type": "Hp",
             "item_enhancement_value": 3.0,
-            "pixyship_estimate": 1398
+            "pixyship_estimate": 1379
         },
         {
             "item_id": "290106780",
@@ -531,7 +545,7 @@
             "item_sprite_id": 4819,
             "item_enhancement_type": "Hp",
             "item_enhancement_value": 3.0,
-            "pixyship_estimate": 680
+            "pixyship_estimate": 678
         },
         {
             "item_id": "288106577",
@@ -617,6 +631,34 @@
             "pixyship_estimate": 1948
         },
         {
+            "item_id": "294126246",
+            "item_design_id": "246",
+            "bonus_type": "Science",
+            "bonus_value": "7",
+            "quantity": "1",
+            "name": "Dark Matter Helmet",
+            "rarity": "Hero",
+            "item_sub_type": "EquipmentHead",
+            "item_sprite_id": 7432,
+            "item_enhancement_type": "Hp",
+            "item_enhancement_value": 3.0,
+            "pixyship_estimate": 686
+        },
+        {
+            "item_id": "294105620",
+            "item_design_id": "246",
+            "bonus_type": "Science",
+            "bonus_value": "3.7",
+            "quantity": "1",
+            "name": "Dark Matter Helmet",
+            "rarity": "Hero",
+            "item_sub_type": "EquipmentHead",
+            "item_sprite_id": 7432,
+            "item_enhancement_type": "Hp",
+            "item_enhancement_value": 3.0,
+            "pixyship_estimate": null
+        },
+        {
             "item_id": "293962542",
             "item_design_id": "246",
             "bonus_type": "Stamina",
@@ -629,6 +671,20 @@
             "item_enhancement_type": "Hp",
             "item_enhancement_value": 3.0,
             "pixyship_estimate": 701
+        },
+        {
+            "item_id": "294108882",
+            "item_design_id": "246",
+            "bonus_type": "Stamina",
+            "bonus_value": "10",
+            "quantity": "1",
+            "name": "Dark Matter Helmet",
+            "rarity": "Hero",
+            "item_sub_type": "EquipmentHead",
+            "item_sprite_id": 7432,
+            "item_enhancement_type": "Hp",
+            "item_enhancement_value": 3.0,
+            "pixyship_estimate": 394
         },
         {
             "item_id": "293110790",
@@ -1035,6 +1091,20 @@
             "item_enhancement_type": "Hp",
             "item_enhancement_value": 4.0,
             "pixyship_estimate": 1230
+        },
+        {
+            "item_id": "294116940",
+            "item_design_id": "1493",
+            "bonus_type": "Hp",
+            "bonus_value": "2",
+            "quantity": "1",
+            "name": "Immensity Gauntlet",
+            "rarity": "Hero",
+            "item_sub_type": "EquipmentWeapon",
+            "item_sprite_id": 11219,
+            "item_enhancement_type": "Hp",
+            "item_enhancement_value": 4.0,
+            "pixyship_estimate": 4144
         },
         {
             "item_id": "293647782",
@@ -1818,7 +1888,7 @@
             "item_sprite_id": 12218,
             "item_enhancement_type": "Hp",
             "item_enhancement_value": 4.0,
-            "pixyship_estimate": 646
+            "pixyship_estimate": 643
         },
         {
             "item_id": "293422710",
@@ -1832,7 +1902,7 @@
             "item_sprite_id": 12596,
             "item_enhancement_type": "Science",
             "item_enhancement_value": 8.0,
-            "pixyship_estimate": 8992
+            "pixyship_estimate": 8849
         },
         {
             "item_id": "291315274",
@@ -2140,7 +2210,7 @@
             "item_sprite_id": 12777,
             "item_enhancement_type": "Weapon",
             "item_enhancement_value": 7.0,
-            "pixyship_estimate": 362
+            "pixyship_estimate": 329
         },
         {
             "item_id": "292767008",
