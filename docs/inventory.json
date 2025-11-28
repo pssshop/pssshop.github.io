@@ -1,6 +1,6 @@
 {
-    "generated": "2025-11-27 23:00:23",
-    "item_count": 182,
+    "generated": "2025-11-28 02:47:45",
+    "item_count": 185,
     "items": [
         {
             "item_id": "290509714",
@@ -59,7 +59,7 @@
             "pixyship_estimate": null
         },
         {
-            "item_id": "292896123",
+            "item_id": "market-566028494",
             "item_design_id": "1749",
             "bonus_type": "Pilot",
             "bonus_value": "9.7",
@@ -68,8 +68,7 @@
             "rarity": "Special",
             "item_sub_type": "EquipmentWeapon",
             "item_sprite_id": 20082,
-            "item_enhancement_type": "Ability",
-            "item_enhancement_value": 21.0,
+            "item_price": 13500,
             "pixyship_estimate": 13995
         },
         {
@@ -954,6 +953,20 @@
             "pixyship_estimate": 305
         },
         {
+            "item_id": "294301759",
+            "item_design_id": "163",
+            "bonus_type": "FireResistance",
+            "bonus_value": "56.9",
+            "quantity": "1",
+            "name": "Golden Cai Dao",
+            "rarity": "Hero",
+            "item_sub_type": "EquipmentWeapon",
+            "item_sprite_id": 5007,
+            "item_enhancement_type": "Attack",
+            "item_enhancement_value": 0.6,
+            "pixyship_estimate": 817
+        },
+        {
             "item_id": "292930100",
             "item_design_id": "163",
             "bonus_type": "FireResistance",
@@ -1217,7 +1230,7 @@
             "item_sprite_id": 11219,
             "item_enhancement_type": "Hp",
             "item_enhancement_value": 4.0,
-            "pixyship_estimate": 1292
+            "pixyship_estimate": 1290
         },
         {
             "item_id": "292950913",
@@ -1850,6 +1863,20 @@
             "pixyship_estimate": 298
         },
         {
+            "item_id": "294300580",
+            "item_design_id": "490",
+            "bonus_type": "Engine",
+            "bonus_value": "5.8",
+            "quantity": "1",
+            "name": "QT Mechworks Drone",
+            "rarity": "Hero",
+            "item_sub_type": "EquipmentAccessory",
+            "item_sprite_id": 10288,
+            "item_enhancement_type": "Engine",
+            "item_enhancement_value": 11.0,
+            "pixyship_estimate": 4455
+        },
+        {
             "item_id": "291426658",
             "item_design_id": "490",
             "bonus_type": "Engine",
@@ -1861,7 +1888,7 @@
             "item_sprite_id": 10288,
             "item_enhancement_type": "Engine",
             "item_enhancement_value": 11.0,
-            "pixyship_estimate": 1818
+            "pixyship_estimate": 1823
         },
         {
             "item_id": "293946635",
@@ -2016,6 +2043,20 @@
             "item_enhancement_type": "Weapon",
             "item_enhancement_value": 8.0,
             "pixyship_estimate": 3047
+        },
+        {
+            "item_id": "294297838",
+            "item_design_id": "1494",
+            "bonus_type": "FireResistance",
+            "bonus_value": "63.1",
+            "quantity": "1",
+            "name": "Starburst Bulwark",
+            "rarity": "Hero",
+            "item_sub_type": "EquipmentWeapon",
+            "item_sprite_id": 12218,
+            "item_enhancement_type": "Hp",
+            "item_enhancement_value": 4.0,
+            "pixyship_estimate": 4486
         },
         {
             "item_id": "294189205",
