@@ -1,6 +1,6 @@
 {
-    "generated": "2025-11-28 12:13:13",
-    "item_count": 182,
+    "generated": "2025-11-28 12:36:19",
+    "item_count": 184,
     "items": [
         {
             "item_id": "290509714",
@@ -196,6 +196,20 @@
             "item_enhancement_type": "Ability",
             "item_enhancement_value": 19.0,
             "pixyship_estimate": 3399
+        },
+        {
+            "item_id": "294323122",
+            "item_design_id": "435",
+            "bonus_type": "Weapon",
+            "bonus_value": "6.2",
+            "quantity": "1",
+            "name": "Aldara",
+            "rarity": "Hero",
+            "item_sub_type": "EquipmentAccessory",
+            "item_sprite_id": 9983,
+            "item_enhancement_type": "Ability",
+            "item_enhancement_value": 19.0,
+            "pixyship_estimate": 2551
         },
         {
             "item_id": "289472191",
@@ -490,6 +504,34 @@
             "item_enhancement_type": "Hp",
             "item_enhancement_value": 3.0,
             "pixyship_estimate": 1379
+        },
+        {
+            "item_id": "294323647",
+            "item_design_id": "169",
+            "bonus_type": "FireResistance",
+            "bonus_value": "42.2",
+            "quantity": "1",
+            "name": "Dark Matter Armor",
+            "rarity": "Hero",
+            "item_sub_type": "EquipmentBody",
+            "item_sprite_id": 4819,
+            "item_enhancement_type": "Hp",
+            "item_enhancement_value": 3.0,
+            "pixyship_estimate": 496
+        },
+        {
+            "item_id": "294323822",
+            "item_design_id": "169",
+            "bonus_type": "FireResistance",
+            "bonus_value": "36.2",
+            "quantity": "1",
+            "name": "Dark Matter Armor",
+            "rarity": "Hero",
+            "item_sub_type": "EquipmentBody",
+            "item_sprite_id": 4819,
+            "item_enhancement_type": "Hp",
+            "item_enhancement_value": 3.0,
+            "pixyship_estimate": 406
         },
         {
             "item_id": "290106780",
@@ -1164,6 +1206,20 @@
             "pixyship_estimate": 1230
         },
         {
+            "item_id": "294323402",
+            "item_design_id": "1493",
+            "bonus_type": "FireResistance",
+            "bonus_value": "59",
+            "quantity": "1",
+            "name": "Immensity Gauntlet",
+            "rarity": "Hero",
+            "item_sub_type": "EquipmentWeapon",
+            "item_sprite_id": 11219,
+            "item_enhancement_type": "Hp",
+            "item_enhancement_value": 4.0,
+            "pixyship_estimate": 6092
+        },
+        {
             "item_id": "294116940",
             "item_design_id": "1493",
             "bonus_type": "Hp",
@@ -1472,20 +1528,6 @@
             "pixyship_estimate": 519
         },
         {
-            "item_id": "278957068",
-            "item_design_id": "1177",
-            "bonus_type": "Stamina",
-            "bonus_value": "20",
-            "quantity": "1",
-            "name": "Noscope-360",
-            "rarity": "Hero",
-            "item_sub_type": "EquipmentAccessory",
-            "item_sprite_id": 16441,
-            "item_enhancement_type": "Weapon",
-            "item_enhancement_value": 6.0,
-            "pixyship_estimate": 122
-        },
-        {
             "item_id": "294237306",
             "item_design_id": "1177",
             "bonus_type": "Weapon",
@@ -1738,20 +1780,6 @@
             "pixyship_estimate": 235
         },
         {
-            "item_id": "290107717",
-            "item_design_id": "675",
-            "bonus_type": "Pilot",
-            "bonus_value": "7.9",
-            "quantity": "1",
-            "name": "Prototype Stealth Hood",
-            "rarity": "Hero",
-            "item_sub_type": "EquipmentHead",
-            "item_sprite_id": 11922,
-            "item_enhancement_type": "Attack",
-            "item_enhancement_value": 0.7,
-            "pixyship_estimate": 148
-        },
-        {
             "item_id": "293265751",
             "item_design_id": "677",
             "bonus_type": "FireResistance",
@@ -1778,20 +1806,6 @@
             "item_enhancement_type": "Attack",
             "item_enhancement_value": 0.7,
             "pixyship_estimate": 1153
-        },
-        {
-            "item_id": "291401726",
-            "item_design_id": "676",
-            "bonus_type": "Repair",
-            "bonus_value": "0.5",
-            "quantity": "1",
-            "name": "Prototype Stealth Suit",
-            "rarity": "Hero",
-            "item_sub_type": "EquipmentBody",
-            "item_sprite_id": 11926,
-            "item_enhancement_type": "Attack",
-            "item_enhancement_value": 0.7,
-            "pixyship_estimate": 173
         },
         {
             "item_id": "293918793",
@@ -2072,6 +2086,20 @@
             "item_enhancement_type": "Hp",
             "item_enhancement_value": 4.0,
             "pixyship_estimate": 643
+        },
+        {
+            "item_id": "294323123",
+            "item_design_id": "740",
+            "bonus_type": "Science",
+            "bonus_value": "8.2",
+            "quantity": "1",
+            "name": "Storm Lance",
+            "rarity": "Hero",
+            "item_sub_type": "EquipmentWeapon",
+            "item_sprite_id": 12596,
+            "item_enhancement_type": "Science",
+            "item_enhancement_value": 8.0,
+            "pixyship_estimate": 8849
         },
         {
             "item_id": "291315274",
