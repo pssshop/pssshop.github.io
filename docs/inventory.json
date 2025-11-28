@@ -1,6 +1,6 @@
 {
-    "generated": "2025-11-28 02:47:45",
-    "item_count": 185,
+    "generated": "2025-11-28 12:13:13",
+    "item_count": 182,
     "items": [
         {
             "item_id": "290509714",
@@ -196,19 +196,6 @@
             "item_enhancement_type": "Ability",
             "item_enhancement_value": 19.0,
             "pixyship_estimate": 3399
-        },
-        {
-            "item_id": "market-565957691",
-            "item_design_id": "435",
-            "bonus_type": "Weapon",
-            "bonus_value": "6.2",
-            "quantity": "1",
-            "name": "Aldara",
-            "rarity": "Hero",
-            "item_sub_type": "EquipmentAccessory",
-            "item_sprite_id": 9983,
-            "item_price": 3250,
-            "pixyship_estimate": 2551
         },
         {
             "item_id": "289472191",
@@ -740,7 +727,7 @@
             "item_sprite_id": 16605,
             "item_enhancement_type": "Engine",
             "item_enhancement_value": 7.0,
-            "pixyship_estimate": 189
+            "pixyship_estimate": 210
         },
         {
             "item_id": "278156341",
@@ -754,7 +741,7 @@
             "item_sprite_id": 16605,
             "item_enhancement_type": "Engine",
             "item_enhancement_value": 7.0,
-            "pixyship_estimate": 1726
+            "pixyship_estimate": 1718
         },
         {
             "item_id": "290628339",
@@ -965,6 +952,20 @@
             "item_enhancement_type": "Attack",
             "item_enhancement_value": 0.6,
             "pixyship_estimate": 817
+        },
+        {
+            "item_id": "289965509",
+            "item_design_id": "163",
+            "bonus_type": "FireResistance",
+            "bonus_value": "52.9",
+            "quantity": "1",
+            "name": "Golden Cai Dao",
+            "rarity": "Hero",
+            "item_sub_type": "EquipmentWeapon",
+            "item_sprite_id": 5007,
+            "item_enhancement_type": "Attack",
+            "item_enhancement_value": 0.6,
+            "pixyship_estimate": 576
         },
         {
             "item_id": "292930100",
@@ -1259,20 +1260,6 @@
             "item_enhancement_type": "Hp",
             "item_enhancement_value": 3.0,
             "pixyship_estimate": 1559
-        },
-        {
-            "item_id": "294247944",
-            "item_design_id": "678",
-            "bonus_type": "FireResistance",
-            "bonus_value": "42.6",
-            "quantity": "1",
-            "name": "King Husky",
-            "rarity": "Hero",
-            "item_sub_type": "EquipmentAccessory",
-            "item_sprite_id": 12025,
-            "item_enhancement_type": "Hp",
-            "item_enhancement_value": 3.0,
-            "pixyship_estimate": 2321
         },
         {
             "item_id": "282655372",
@@ -2045,20 +2032,6 @@
             "pixyship_estimate": 3047
         },
         {
-            "item_id": "294297838",
-            "item_design_id": "1494",
-            "bonus_type": "FireResistance",
-            "bonus_value": "63.1",
-            "quantity": "1",
-            "name": "Starburst Bulwark",
-            "rarity": "Hero",
-            "item_sub_type": "EquipmentWeapon",
-            "item_sprite_id": 12218,
-            "item_enhancement_type": "Hp",
-            "item_enhancement_value": 4.0,
-            "pixyship_estimate": 4486
-        },
-        {
             "item_id": "294189205",
             "item_design_id": "1494",
             "bonus_type": "Repair",
@@ -2099,19 +2072,6 @@
             "item_enhancement_type": "Hp",
             "item_enhancement_value": 4.0,
             "pixyship_estimate": 643
-        },
-        {
-            "item_id": "market-565957668",
-            "item_design_id": "740",
-            "bonus_type": "Science",
-            "bonus_value": "8.2",
-            "quantity": "1",
-            "name": "Storm Lance",
-            "rarity": "Hero",
-            "item_sub_type": "EquipmentWeapon",
-            "item_sprite_id": 12596,
-            "item_price": 9450,
-            "pixyship_estimate": 8849
         },
         {
             "item_id": "291315274",
@@ -2475,7 +2435,7 @@
             "item_sprite_id": 12777,
             "item_enhancement_type": "Weapon",
             "item_enhancement_value": 7.0,
-            "pixyship_estimate": 592
+            "pixyship_estimate": 695
         },
         {
             "item_id": "293914096",
