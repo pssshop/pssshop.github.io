@@ -1,6 +1,6 @@
 {
-    "generated": "2025-11-30 07:10:00",
-    "item_count": 187,
+    "generated": "2025-11-30 16:37:37",
+    "item_count": 185,
     "items": [
         {
             "item_id": "290509714",
@@ -632,7 +632,7 @@
             "pixyship_estimate": 1948
         },
         {
-            "item_id": "market-566152362",
+            "item_id": "294448715",
             "item_design_id": "246",
             "bonus_type": "Attack",
             "bonus_value": "0.5",
@@ -641,7 +641,8 @@
             "rarity": "Hero",
             "item_sub_type": "EquipmentHead",
             "item_sprite_id": 7432,
-            "item_price": 2500,
+            "item_enhancement_type": "Hp",
+            "item_enhancement_value": 3.0,
             "pixyship_estimate": 1948
         },
         {
@@ -1191,20 +1192,6 @@
             "pixyship_estimate": 1230
         },
         {
-            "item_id": "294116940",
-            "item_design_id": "1493",
-            "bonus_type": "Hp",
-            "bonus_value": "2",
-            "quantity": "1",
-            "name": "Immensity Gauntlet",
-            "rarity": "Hero",
-            "item_sub_type": "EquipmentWeapon",
-            "item_sprite_id": 11219,
-            "item_enhancement_type": "Hp",
-            "item_enhancement_value": 4.0,
-            "pixyship_estimate": 4100
-        },
-        {
             "item_id": "293647782",
             "item_design_id": "1493",
             "bonus_type": "Hp",
@@ -1538,7 +1525,7 @@
             "item_sprite_id": 16441,
             "item_enhancement_type": "Weapon",
             "item_enhancement_value": 6.0,
-            "pixyship_estimate": 1053
+            "pixyship_estimate": 1052
         },
         {
             "item_id": "294237307",
@@ -1552,7 +1539,7 @@
             "item_sprite_id": 16441,
             "item_enhancement_type": "Weapon",
             "item_enhancement_value": 6.0,
-            "pixyship_estimate": 1053
+            "pixyship_estimate": 1052
         },
         {
             "item_id": "294237222",
@@ -1678,7 +1665,7 @@
             "item_sprite_id": 14738,
             "item_enhancement_type": "Science",
             "item_enhancement_value": 11.0,
-            "pixyship_estimate": 1439
+            "pixyship_estimate": 1635
         },
         {
             "item_id": "292505728",
@@ -1723,7 +1710,7 @@
             "pixyship_estimate": null
         },
         {
-            "item_id": "292296278",
+            "item_id": "market-566232170",
             "item_design_id": "954",
             "bonus_type": "Ability",
             "bonus_value": "15.7",
@@ -1732,8 +1719,7 @@
             "rarity": "Hero",
             "item_sub_type": "EquipmentBody",
             "item_sprite_id": 14569,
-            "item_enhancement_type": "Science",
-            "item_enhancement_value": 11.0,
+            "item_price": 1950,
             "pixyship_estimate": 1876
         },
         {
@@ -2266,20 +2252,6 @@
             "item_enhancement_type": "Ability",
             "item_enhancement_value": 20.0,
             "pixyship_estimate": 8712
-        },
-        {
-            "item_id": "294048649",
-            "item_design_id": "802",
-            "bonus_type": "Ability",
-            "bonus_value": "9.4",
-            "quantity": "1",
-            "name": "Unobtainium Heavy Assault Armor ",
-            "rarity": "Hero",
-            "item_sub_type": "EquipmentBody",
-            "item_sprite_id": 3757,
-            "item_enhancement_type": "Ability",
-            "item_enhancement_value": 20.0,
-            "pixyship_estimate": 2319
         },
         {
             "item_id": "293267669",
