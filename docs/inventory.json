@@ -1,6 +1,6 @@
 {
-    "generated": "2025-11-30 16:37:37",
-    "item_count": 185,
+    "generated": "2025-11-30 16:49:32",
+    "item_count": 183,
     "items": [
         {
             "item_id": "290509714",
@@ -69,7 +69,7 @@
             "item_sprite_id": 9983,
             "item_enhancement_type": "Ability",
             "item_enhancement_value": 19.0,
-            "pixyship_estimate": 407
+            "pixyship_estimate": 414
         },
         {
             "item_id": "294126030",
@@ -1500,20 +1500,6 @@
             "pixyship_estimate": 519
         },
         {
-            "item_id": "294413208",
-            "item_design_id": "1177",
-            "bonus_type": "Pilot",
-            "bonus_value": "3.7",
-            "quantity": "1",
-            "name": "Noscope-360",
-            "rarity": "Hero",
-            "item_sub_type": "EquipmentAccessory",
-            "item_sprite_id": 16441,
-            "item_enhancement_type": "Weapon",
-            "item_enhancement_value": 6.0,
-            "pixyship_estimate": 136
-        },
-        {
             "item_id": "294237306",
             "item_design_id": "1177",
             "bonus_type": "Weapon",
@@ -1710,19 +1696,6 @@
             "pixyship_estimate": null
         },
         {
-            "item_id": "market-566232170",
-            "item_design_id": "954",
-            "bonus_type": "Ability",
-            "bonus_value": "15.7",
-            "quantity": "1",
-            "name": "Plague Surgeon Robe",
-            "rarity": "Hero",
-            "item_sub_type": "EquipmentBody",
-            "item_sprite_id": 14569,
-            "item_price": 1950,
-            "pixyship_estimate": 1876
-        },
-        {
             "item_id": "288601419",
             "item_design_id": "954",
             "bonus_type": "Attack",
@@ -1821,7 +1794,7 @@
             "pixyship_estimate": 454
         },
         {
-            "item_id": "292238108",
+            "item_id": "market-566232857",
             "item_design_id": "490",
             "bonus_type": "Ability",
             "bonus_value": "10.5",
@@ -1830,8 +1803,7 @@
             "rarity": "Hero",
             "item_sub_type": "EquipmentAccessory",
             "item_sprite_id": 10288,
-            "item_enhancement_type": "Engine",
-            "item_enhancement_value": 11.0,
+            "item_price": 385,
             "pixyship_estimate": 397
         },
         {
