@@ -1,5 +1,5 @@
 {
-    "generated": "2025-12-01 19:38:20",
+    "generated": "2025-12-02 01:10:33",
     "item_count": 185,
     "items": [
         {
@@ -475,7 +475,7 @@
             "item_sprite_id": 4819,
             "item_enhancement_type": "Hp",
             "item_enhancement_value": 3.0,
-            "pixyship_estimate": 565
+            "pixyship_estimate": 563
         },
         {
             "item_id": "292407638",
@@ -671,19 +671,6 @@
             "item_sprite_id": 7432,
             "item_enhancement_type": "Hp",
             "item_enhancement_value": 3.0,
-            "pixyship_estimate": 1948
-        },
-        {
-            "item_id": "market-566301845",
-            "item_design_id": "246",
-            "bonus_type": "Attack",
-            "bonus_value": "0.5",
-            "quantity": "1",
-            "name": "Dark Matter Helmet",
-            "rarity": "Hero",
-            "item_sub_type": "EquipmentHead",
-            "item_sprite_id": 7432,
-            "item_price": 2000,
             "pixyship_estimate": 1948
         },
         {
@@ -2071,6 +2058,20 @@
             "item_enhancement_type": "Weapon",
             "item_enhancement_value": 8.0,
             "pixyship_estimate": 3047
+        },
+        {
+            "item_id": "294520472",
+            "item_design_id": "1494",
+            "bonus_type": "Hp",
+            "bonus_value": "1",
+            "quantity": "1",
+            "name": "Starburst Bulwark",
+            "rarity": "Hero",
+            "item_sub_type": "EquipmentWeapon",
+            "item_sprite_id": 12218,
+            "item_enhancement_type": "Hp",
+            "item_enhancement_value": 4.0,
+            "pixyship_estimate": 854
         },
         {
             "item_id": "294189205",
