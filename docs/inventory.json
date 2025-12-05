@@ -1,5 +1,5 @@
 {
-    "generated": "2025-12-04 11:36:20",
+    "generated": "2025-12-05 00:08:48",
     "item_count": 176,
     "items": [
         {
@@ -56,6 +56,20 @@
             "item_sprite_id": 19814,
             "item_enhancement_type": "Hp",
             "item_enhancement_value": 4.0,
+            "pixyship_estimate": null
+        },
+        {
+            "item_id": "294656310",
+            "item_design_id": "1218",
+            "bonus_type": "Science",
+            "bonus_value": "8.4",
+            "quantity": "1",
+            "name": "Inferno Ward",
+            "rarity": "Special",
+            "item_sub_type": "EquipmentWeapon",
+            "item_sprite_id": 16651,
+            "item_enhancement_type": "FireResistance",
+            "item_enhancement_value": 75.0,
             "pixyship_estimate": null
         },
         {
@@ -182,7 +196,7 @@
             "item_sprite_id": 9983,
             "item_enhancement_type": "Ability",
             "item_enhancement_value": 19.0,
-            "pixyship_estimate": 3732
+            "pixyship_estimate": 3640
         },
         {
             "item_id": "293386236",
@@ -196,7 +210,7 @@
             "item_sprite_id": 9983,
             "item_enhancement_type": "Ability",
             "item_enhancement_value": 19.0,
-            "pixyship_estimate": 3399
+            "pixyship_estimate": 3276
         },
         {
             "item_id": "294553876",
@@ -210,7 +224,7 @@
             "item_sprite_id": 9983,
             "item_enhancement_type": "Ability",
             "item_enhancement_value": 19.0,
-            "pixyship_estimate": 2548
+            "pixyship_estimate": 2356
         },
         {
             "item_id": "289472191",
@@ -490,7 +504,7 @@
             "item_sprite_id": 4819,
             "item_enhancement_type": "Hp",
             "item_enhancement_value": 3.0,
-            "pixyship_estimate": 1192
+            "pixyship_estimate": 1259
         },
         {
             "item_id": "287922972",
@@ -983,7 +997,7 @@
             "pixyship_estimate": 374
         },
         {
-            "item_id": "market-566436529",
+            "item_id": "294658366",
             "item_design_id": "163",
             "bonus_type": "Attack",
             "bonus_value": "0.2",
@@ -992,7 +1006,8 @@
             "rarity": "Hero",
             "item_sub_type": "EquipmentWeapon",
             "item_sprite_id": 5007,
-            "item_price": 250,
+            "item_enhancement_type": "Attack",
+            "item_enhancement_value": 0.6,
             "pixyship_estimate": 290
         },
         {
@@ -1234,20 +1249,6 @@
             "pixyship_estimate": 918
         },
         {
-            "item_id": "291959046",
-            "item_design_id": "678",
-            "bonus_type": "Attack",
-            "bonus_value": "0.4",
-            "quantity": "1",
-            "name": "King Husky",
-            "rarity": "Hero",
-            "item_sub_type": "EquipmentAccessory",
-            "item_sprite_id": 12025,
-            "item_enhancement_type": "Hp",
-            "item_enhancement_value": 3.0,
-            "pixyship_estimate": 1559
-        },
-        {
             "item_id": "282655372",
             "item_design_id": "678",
             "bonus_type": "Science",
@@ -1304,7 +1305,7 @@
             "pixyship_estimate": 754
         },
         {
-            "item_id": "288786514",
+            "item_id": "market-566467576",
             "item_design_id": "727",
             "bonus_type": "Stamina",
             "bonus_value": "21",
@@ -1313,8 +1314,7 @@
             "rarity": "Hero",
             "item_sub_type": "EquipmentWeapon",
             "item_sprite_id": 12544,
-            "item_enhancement_type": "Ability",
-            "item_enhancement_value": 17.0,
+            "item_price": 420,
             "pixyship_estimate": 353
         },
         {
@@ -1556,7 +1556,7 @@
             "pixyship_estimate": null
         },
         {
-            "item_id": "market-566436159",
+            "item_id": "294658238",
             "item_design_id": "960",
             "bonus_type": "Ability",
             "bonus_value": "13.3",
@@ -1565,7 +1565,8 @@
             "rarity": "Hero",
             "item_sub_type": "EquipmentAccessory",
             "item_sprite_id": 14738,
-            "item_price": 1500,
+            "item_enhancement_type": "Science",
+            "item_enhancement_value": 11.0,
             "pixyship_estimate": 1634
         },
         {
@@ -1594,7 +1595,7 @@
             "item_sprite_id": 14738,
             "item_enhancement_type": "Science",
             "item_enhancement_value": 11.0,
-            "pixyship_estimate": 293
+            "pixyship_estimate": 294
         },
         {
             "item_id": "292574030",
