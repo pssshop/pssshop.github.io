@@ -1,6 +1,6 @@
 {
-    "generated": "2025-12-07 16:51:08",
-    "item_count": 177,
+    "generated": "2025-12-07 17:19:19",
+    "item_count": 179,
     "items": [
         {
             "item_id": "290509714",
@@ -113,6 +113,20 @@
             "item_enhancement_type": "Ability",
             "item_enhancement_value": 19.0,
             "pixyship_estimate": 3012
+        },
+        {
+            "item_id": "294806650",
+            "item_design_id": "435",
+            "bonus_type": "Pilot",
+            "bonus_value": "6.6",
+            "quantity": "1",
+            "name": "Aldara",
+            "rarity": "Hero",
+            "item_sub_type": "EquipmentAccessory",
+            "item_sprite_id": 9983,
+            "item_enhancement_type": "Ability",
+            "item_enhancement_value": 19.0,
+            "pixyship_estimate": 832
         },
         {
             "item_id": "271588605",
@@ -1919,6 +1933,20 @@
             "item_enhancement_type": "Weapon",
             "item_enhancement_value": 8.0,
             "pixyship_estimate": 283
+        },
+        {
+            "item_id": "294806211",
+            "item_design_id": "933",
+            "bonus_type": "Stamina",
+            "bonus_value": "8",
+            "quantity": "1",
+            "name": "Red Marksman Jacket",
+            "rarity": "Hero",
+            "item_sub_type": "EquipmentBody",
+            "item_sprite_id": 13939,
+            "item_enhancement_type": "Weapon",
+            "item_enhancement_value": 8.0,
+            "pixyship_estimate": 269
         },
         {
             "item_id": "284817390",
