@@ -1,5 +1,5 @@
 {
-    "generated": "2025-12-13 13:07:04",
+    "generated": "2025-12-13 13:16:41",
     "item_count": 180,
     "items": [
         {
@@ -437,7 +437,7 @@
             "pixyship_estimate": null
         },
         {
-            "item_id": "294894476",
+            "item_id": "market-567189908",
             "item_design_id": "796",
             "bonus_type": "Pilot",
             "bonus_value": "7.5",
@@ -446,8 +446,7 @@
             "rarity": "Hero",
             "item_sub_type": "EquipmentHead",
             "item_sprite_id": 12566,
-            "item_enhancement_type": "Attack",
-            "item_enhancement_value": 0.8,
+            "item_price": 500,
             "pixyship_estimate": null
         },
         {
@@ -1836,7 +1835,7 @@
             "pixyship_estimate": 294
         },
         {
-            "item_id": "291401233",
+            "item_id": "market-567190008",
             "item_design_id": "490",
             "bonus_type": "FireResistance",
             "bonus_value": "38.6",
@@ -1845,8 +1844,7 @@
             "rarity": "Hero",
             "item_sub_type": "EquipmentAccessory",
             "item_sprite_id": 10288,
-            "item_enhancement_type": "Engine",
-            "item_enhancement_value": 11.0,
+            "item_price": 250,
             "pixyship_estimate": 248
         },
         {
