@@ -1,6 +1,6 @@
 {
-    "generated": "2025-12-16 14:09:22",
-    "item_count": 183,
+    "generated": "2025-12-16 14:16:41",
+    "item_count": 181,
     "items": [
         {
             "item_id": "290509714",
@@ -577,20 +577,6 @@
             "pixyship_estimate": 428
         },
         {
-            "item_id": "288106577",
-            "item_design_id": "169",
-            "bonus_type": "Pilot",
-            "bonus_value": "6.6",
-            "quantity": "1",
-            "name": "Dark Matter Armor",
-            "rarity": "Hero",
-            "item_sub_type": "EquipmentBody",
-            "item_sprite_id": 4819,
-            "item_enhancement_type": "Hp",
-            "item_enhancement_value": 3.0,
-            "pixyship_estimate": 507
-        },
-        {
             "item_id": "293350064",
             "item_design_id": "169",
             "bonus_type": "Repair",
@@ -1149,20 +1135,6 @@
             "item_enhancement_type": "Hp",
             "item_enhancement_value": 4.0,
             "pixyship_estimate": 873
-        },
-        {
-            "item_id": "288704781",
-            "item_design_id": "1493",
-            "bonus_type": "Pilot",
-            "bonus_value": "6.8",
-            "quantity": "1",
-            "name": "Immensity Gauntlet",
-            "rarity": "Hero",
-            "item_sub_type": "EquipmentWeapon",
-            "item_sprite_id": 11219,
-            "item_enhancement_type": "Hp",
-            "item_enhancement_value": 4.0,
-            "pixyship_estimate": 697
         },
         {
             "item_id": "292574090",
