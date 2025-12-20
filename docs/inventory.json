@@ -1,5 +1,5 @@
 {
-    "generated": "2025-12-19 13:31:53",
+    "generated": "2025-12-19 23:59:09",
     "item_count": 181,
     "items": [
         {
@@ -675,7 +675,7 @@
             "pixyship_estimate": 1413
         },
         {
-            "item_id": "295180539",
+            "item_id": "market-567719439",
             "item_design_id": "170",
             "bonus_type": "Weapon",
             "bonus_value": "4.7",
@@ -684,8 +684,7 @@
             "rarity": "Hero",
             "item_sub_type": "EquipmentLeg",
             "item_sprite_id": 4823,
-            "item_enhancement_type": "Stamina",
-            "item_enhancement_value": 35.0,
+            "item_price": 350,
             "pixyship_estimate": 3826
         },
         {
@@ -1498,7 +1497,7 @@
             "item_sprite_id": 15251,
             "item_enhancement_type": "Engine",
             "item_enhancement_value": 8.0,
-            "pixyship_estimate": 600
+            "pixyship_estimate": 557
         },
         {
             "item_id": "295134074",
@@ -1599,7 +1598,7 @@
             "pixyship_estimate": null
         },
         {
-            "item_id": "294658238",
+            "item_id": "market-567715245",
             "item_design_id": "960",
             "bonus_type": "Ability",
             "bonus_value": "13.3",
@@ -1608,8 +1607,7 @@
             "rarity": "Hero",
             "item_sub_type": "EquipmentAccessory",
             "item_sprite_id": 14738,
-            "item_enhancement_type": "Science",
-            "item_enhancement_value": 11.0,
+            "item_price": 1600,
             "pixyship_estimate": 1573
         },
         {
@@ -1624,7 +1622,7 @@
             "item_sprite_id": 14738,
             "item_enhancement_type": "Science",
             "item_enhancement_value": 11.0,
-            "pixyship_estimate": 516
+            "pixyship_estimate": 513
         },
         {
             "item_id": "292574030",
@@ -1904,7 +1902,7 @@
             "item_sprite_id": 13939,
             "item_enhancement_type": "Weapon",
             "item_enhancement_value": 8.0,
-            "pixyship_estimate": 231
+            "pixyship_estimate": 230
         },
         {
             "item_id": "290448244",
@@ -2047,7 +2045,7 @@
             "pixyship_estimate": 1975
         },
         {
-            "item_id": "294492778",
+            "item_id": "market-567714994",
             "item_design_id": "740",
             "bonus_type": "Science",
             "bonus_value": "8.2",
@@ -2056,8 +2054,7 @@
             "rarity": "Hero",
             "item_sub_type": "EquipmentWeapon",
             "item_sprite_id": 12596,
-            "item_enhancement_type": "Science",
-            "item_enhancement_value": 8.0,
+            "item_price": 9000,
             "pixyship_estimate": 8357
         },
         {
@@ -2173,20 +2170,6 @@
             "pixyship_estimate": 112
         },
         {
-            "item_id": "295649316",
-            "item_design_id": "802",
-            "bonus_type": "Ability",
-            "bonus_value": "15.2",
-            "quantity": "1",
-            "name": "Unobtainium Heavy Assault Armor ",
-            "rarity": "Hero",
-            "item_sub_type": "EquipmentBody",
-            "item_sprite_id": 3757,
-            "item_enhancement_type": "Ability",
-            "item_enhancement_value": 20.0,
-            "pixyship_estimate": 9813
-        },
-        {
             "item_id": "294772275",
             "item_design_id": "802",
             "bonus_type": "Ability",
@@ -2254,7 +2237,7 @@
             "item_sprite_id": 3757,
             "item_enhancement_type": "Ability",
             "item_enhancement_value": 20.0,
-            "pixyship_estimate": 800
+            "pixyship_estimate": 799
         },
         {
             "item_id": "291315321",
@@ -2353,6 +2336,20 @@
             "item_enhancement_type": "Ability",
             "item_enhancement_value": 20.0,
             "pixyship_estimate": 332
+        },
+        {
+            "item_id": "295715716",
+            "item_design_id": "790",
+            "bonus_type": "Ability",
+            "bonus_value": "6.8",
+            "quantity": "1",
+            "name": "Visiri Gunner Helm Alpha",
+            "rarity": "Hero",
+            "item_sub_type": "EquipmentHead",
+            "item_sprite_id": 12777,
+            "item_enhancement_type": "Weapon",
+            "item_enhancement_value": 7.0,
+            "pixyship_estimate": 194
         },
         {
             "item_id": "292473177",
