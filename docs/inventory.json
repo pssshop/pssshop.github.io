@@ -1,5 +1,5 @@
 {
-    "generated": "2025-12-21 13:50:10",
+    "generated": "2025-12-21 14:13:50",
     "item_count": 179,
     "items": [
         {
@@ -451,7 +451,7 @@
             "pixyship_estimate": null
         },
         {
-            "item_id": "295281036",
+            "item_id": "market-567849846",
             "item_design_id": "796",
             "bonus_type": "Pilot",
             "bonus_value": "7.5",
@@ -460,8 +460,7 @@
             "rarity": "Hero",
             "item_sub_type": "EquipmentHead",
             "item_sprite_id": 12566,
-            "item_enhancement_type": "Attack",
-            "item_enhancement_value": 0.8,
+            "item_price": 420,
             "pixyship_estimate": null
         },
         {
@@ -899,7 +898,7 @@
             "pixyship_estimate": 369
         },
         {
-            "item_id": "294984414",
+            "item_id": "market-567849825",
             "item_design_id": "163",
             "bonus_type": "Attack",
             "bonus_value": "0.2",
@@ -908,8 +907,7 @@
             "rarity": "Hero",
             "item_sub_type": "EquipmentWeapon",
             "item_sprite_id": 5007,
-            "item_enhancement_type": "Attack",
-            "item_enhancement_value": 0.6,
+            "item_price": 265,
             "pixyship_estimate": 272
         },
         {
@@ -1893,7 +1891,7 @@
             "pixyship_estimate": 367
         },
         {
-            "item_id": "295362887",
+            "item_id": "market-567849781",
             "item_design_id": "490",
             "bonus_type": "Repair",
             "bonus_value": "0.6",
@@ -1902,8 +1900,7 @@
             "rarity": "Hero",
             "item_sub_type": "EquipmentAccessory",
             "item_sprite_id": 10288,
-            "item_enhancement_type": "Engine",
-            "item_enhancement_value": 11.0,
+            "item_price": 225,
             "pixyship_estimate": 221
         },
         {
