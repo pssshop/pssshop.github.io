@@ -1,6 +1,6 @@
 {
-    "generated": "2025-12-21 14:13:50",
-    "item_count": 179,
+    "generated": "2025-12-21 20:43:00",
+    "item_count": 178,
     "items": [
         {
             "item_id": "290509714",
@@ -140,7 +140,7 @@
             "item_sprite_id": 9983,
             "item_enhancement_type": "Ability",
             "item_enhancement_value": 19.0,
-            "pixyship_estimate": 342
+            "pixyship_estimate": 341
         },
         {
             "item_id": "291818514",
@@ -154,7 +154,7 @@
             "item_sprite_id": 9983,
             "item_enhancement_type": "Ability",
             "item_enhancement_value": 19.0,
-            "pixyship_estimate": 402
+            "pixyship_estimate": 394
         },
         {
             "item_id": "292500708",
@@ -490,20 +490,6 @@
             "item_enhancement_type": "Hp",
             "item_enhancement_value": 3.0,
             "pixyship_estimate": 337
-        },
-        {
-            "item_id": "293765369",
-            "item_design_id": "169",
-            "bonus_type": "FireResistance",
-            "bonus_value": "62.5",
-            "quantity": "1",
-            "name": "Dark Matter Armor",
-            "rarity": "Hero",
-            "item_sub_type": "EquipmentBody",
-            "item_sprite_id": 4819,
-            "item_enhancement_type": "Hp",
-            "item_enhancement_value": 3.0,
-            "pixyship_estimate": 2138
         },
         {
             "item_id": "293972241",
@@ -2461,7 +2447,7 @@
             "item_sprite_id": 12887,
             "item_enhancement_type": "Weapon",
             "item_enhancement_value": 7.0,
-            "pixyship_estimate": 380
+            "pixyship_estimate": 379
         },
         {
             "item_id": "289564618",
@@ -2475,7 +2461,7 @@
             "item_sprite_id": 12887,
             "item_enhancement_type": "Weapon",
             "item_enhancement_value": 7.0,
-            "pixyship_estimate": 346
+            "pixyship_estimate": 361
         },
         {
             "item_id": "294541621",
