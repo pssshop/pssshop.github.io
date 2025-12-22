@@ -1,5 +1,5 @@
 {
-    "generated": "2025-12-21 20:57:41",
+    "generated": "2025-12-22 01:14:46",
     "item_count": 176,
     "items": [
         {
@@ -671,10 +671,10 @@
             "item_sprite_id": 16605,
             "item_enhancement_type": "Engine",
             "item_enhancement_value": 7.0,
-            "pixyship_estimate": 256
+            "pixyship_estimate": 252
         },
         {
-            "item_id": "286411269",
+            "item_id": "market-567874673",
             "item_design_id": "1215",
             "bonus_type": "Attack",
             "bonus_value": "0.3",
@@ -683,8 +683,7 @@
             "rarity": "Hero",
             "item_sub_type": "EquipmentWeapon",
             "item_sprite_id": 16605,
-            "item_enhancement_type": "Engine",
-            "item_enhancement_value": 7.0,
+            "item_price": 250,
             "pixyship_estimate": 212
         },
         {
@@ -1093,6 +1092,20 @@
             "pixyship_estimate": 262
         },
         {
+            "item_id": "295919159",
+            "item_design_id": "1493",
+            "bonus_type": "Ability",
+            "bonus_value": "11.6",
+            "quantity": "1",
+            "name": "Immensity Gauntlet",
+            "rarity": "Hero",
+            "item_sub_type": "EquipmentWeapon",
+            "item_sprite_id": 11219,
+            "item_enhancement_type": "Hp",
+            "item_enhancement_value": 4.0,
+            "pixyship_estimate": 991
+        },
+        {
             "item_id": "293946636",
             "item_design_id": "1493",
             "bonus_type": "Engine",
@@ -1258,7 +1271,7 @@
             "item_sprite_id": 12544,
             "item_enhancement_type": "Ability",
             "item_enhancement_value": 17.0,
-            "pixyship_estimate": 573
+            "pixyship_estimate": 562
         },
         {
             "item_id": "289463276",
@@ -1847,19 +1860,6 @@
             "item_enhancement_type": "Engine",
             "item_enhancement_value": 11.0,
             "pixyship_estimate": 297
-        },
-        {
-            "item_id": "market-567873475",
-            "item_design_id": "490",
-            "bonus_type": "FireResistance",
-            "bonus_value": "38.6",
-            "quantity": "1",
-            "name": "QT Mechworks Drone",
-            "rarity": "Hero",
-            "item_sub_type": "EquipmentAccessory",
-            "item_sprite_id": 10288,
-            "item_price": 275,
-            "pixyship_estimate": 266
         },
         {
             "item_id": "278518325",
