@@ -1,6 +1,6 @@
 {
-    "generated": "2025-12-21 20:43:00",
-    "item_count": 178,
+    "generated": "2025-12-21 20:48:34",
+    "item_count": 177,
     "items": [
         {
             "item_id": "290509714",
@@ -1429,6 +1429,20 @@
             "pixyship_estimate": 3293
         },
         {
+            "item_id": "295908105",
+            "item_design_id": "1707",
+            "bonus_type": "Hp",
+            "bonus_value": "2",
+            "quantity": "1",
+            "name": "Mach Sabatons",
+            "rarity": "Hero",
+            "item_sub_type": "EquipmentLeg",
+            "item_sprite_id": 19677,
+            "item_enhancement_type": "Pilot",
+            "item_enhancement_value": 10.0,
+            "pixyship_estimate": 3293
+        },
+        {
             "item_id": "294874333",
             "item_design_id": "1707",
             "bonus_type": "Science",
@@ -1665,20 +1679,6 @@
             "item_enhancement_type": "Science",
             "item_enhancement_value": 9.0,
             "pixyship_estimate": 395
-        },
-        {
-            "item_id": "288601419",
-            "item_design_id": "954",
-            "bonus_type": "Attack",
-            "bonus_value": "0.5",
-            "quantity": "1",
-            "name": "Plague Surgeon Robe",
-            "rarity": "Hero",
-            "item_sub_type": "EquipmentBody",
-            "item_sprite_id": 14569,
-            "item_enhancement_type": "Science",
-            "item_enhancement_value": 11.0,
-            "pixyship_estimate": null
         },
         {
             "item_id": "280463342",
@@ -2294,20 +2294,6 @@
             "item_enhancement_type": "Ability",
             "item_enhancement_value": 20.0,
             "pixyship_estimate": 423
-        },
-        {
-            "item_id": "293265750",
-            "item_design_id": "802",
-            "bonus_type": "Pilot",
-            "bonus_value": "9.2",
-            "quantity": "1",
-            "name": "Unobtainium Heavy Assault Armor ",
-            "rarity": "Hero",
-            "item_sub_type": "EquipmentBody",
-            "item_sprite_id": 3757,
-            "item_enhancement_type": "Ability",
-            "item_enhancement_value": 20.0,
-            "pixyship_estimate": 1533
         },
         {
             "item_id": "288647585",
