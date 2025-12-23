@@ -1,6 +1,6 @@
 {
-    "generated": "2025-12-22 22:34:30",
-    "item_count": 178,
+    "generated": "2025-12-23 07:53:55",
+    "item_count": 182,
     "items": [
         {
             "item_id": "290509714",
@@ -336,7 +336,7 @@
             "item_sprite_id": 10047,
             "item_enhancement_type": "Attack",
             "item_enhancement_value": 0.9,
-            "pixyship_estimate": 597
+            "pixyship_estimate": null
         },
         {
             "item_id": "293033812",
@@ -507,6 +507,34 @@
             "pixyship_estimate": 1560
         },
         {
+            "item_id": "296009546",
+            "item_design_id": "169",
+            "bonus_type": "FireResistance",
+            "bonus_value": "54.1",
+            "quantity": "1",
+            "name": "Dark Matter Armor",
+            "rarity": "Hero",
+            "item_sub_type": "EquipmentBody",
+            "item_sprite_id": 4819,
+            "item_enhancement_type": "Hp",
+            "item_enhancement_value": 3.0,
+            "pixyship_estimate": 1176
+        },
+        {
+            "item_id": "296000509",
+            "item_design_id": "169",
+            "bonus_type": "FireResistance",
+            "bonus_value": "53",
+            "quantity": "1",
+            "name": "Dark Matter Armor",
+            "rarity": "Hero",
+            "item_sub_type": "EquipmentBody",
+            "item_sprite_id": 4819,
+            "item_enhancement_type": "Hp",
+            "item_enhancement_value": 3.0,
+            "pixyship_estimate": 1068
+        },
+        {
             "item_id": "294323647",
             "item_design_id": "169",
             "bonus_type": "FireResistance",
@@ -575,6 +603,20 @@
             "item_enhancement_type": "Hp",
             "item_enhancement_value": 3.0,
             "pixyship_estimate": 472
+        },
+        {
+            "item_id": "296002866",
+            "item_design_id": "246",
+            "bonus_type": "Ability",
+            "bonus_value": "9.2",
+            "quantity": "1",
+            "name": "Dark Matter Helmet",
+            "rarity": "Hero",
+            "item_sub_type": "EquipmentHead",
+            "item_sprite_id": 7432,
+            "item_enhancement_type": "Hp",
+            "item_enhancement_value": 3.0,
+            "pixyship_estimate": 794
         },
         {
             "item_id": "294150631",
@@ -672,7 +714,7 @@
             "item_sprite_id": 16605,
             "item_enhancement_type": "Engine",
             "item_enhancement_value": 7.0,
-            "pixyship_estimate": 252
+            "pixyship_estimate": 253
         },
         {
             "item_id": "278156341",
@@ -1147,7 +1189,7 @@
             "item_sprite_id": 11219,
             "item_enhancement_type": "Hp",
             "item_enhancement_value": 4.0,
-            "pixyship_estimate": 2213
+            "pixyship_estimate": 2214
         },
         {
             "item_id": "291085422",
@@ -1161,7 +1203,7 @@
             "item_sprite_id": 11219,
             "item_enhancement_type": "Hp",
             "item_enhancement_value": 4.0,
-            "pixyship_estimate": 1115
+            "pixyship_estimate": 1113
         },
         {
             "item_id": "295839001",
@@ -1414,6 +1456,20 @@
             "item_enhancement_type": "Pilot",
             "item_enhancement_value": 10.0,
             "pixyship_estimate": 866
+        },
+        {
+            "item_id": "296022209",
+            "item_design_id": "1705",
+            "bonus_type": "Weapon",
+            "bonus_value": "4.4",
+            "quantity": "1",
+            "name": "Mach Helm",
+            "rarity": "Hero",
+            "item_sub_type": "EquipmentHead",
+            "item_sprite_id": 19673,
+            "item_enhancement_type": "Pilot",
+            "item_enhancement_value": 10.0,
+            "pixyship_estimate": 220
         },
         {
             "item_id": "295548713",
@@ -1694,6 +1750,20 @@
             "item_enhancement_type": "Science",
             "item_enhancement_value": 9.0,
             "pixyship_estimate": 395
+        },
+        {
+            "item_id": "296005525",
+            "item_design_id": "954",
+            "bonus_type": "FireResistance",
+            "bonus_value": "36.8",
+            "quantity": "1",
+            "name": "Plague Surgeon Robe",
+            "rarity": "Hero",
+            "item_sub_type": "EquipmentBody",
+            "item_sprite_id": 14569,
+            "item_enhancement_type": "Science",
+            "item_enhancement_value": 11.0,
+            "pixyship_estimate": 1367
         },
         {
             "item_id": "280463342",
@@ -1990,20 +2060,6 @@
             "pixyship_estimate": 207
         },
         {
-            "item_id": "294806211",
-            "item_design_id": "933",
-            "bonus_type": "Stamina",
-            "bonus_value": "8",
-            "quantity": "1",
-            "name": "Red Marksman Jacket",
-            "rarity": "Hero",
-            "item_sub_type": "EquipmentBody",
-            "item_sprite_id": 13939,
-            "item_enhancement_type": "Weapon",
-            "item_enhancement_value": 8.0,
-            "pixyship_estimate": 274
-        },
-        {
             "item_id": "294189205",
             "item_design_id": "1494",
             "bonus_type": "Repair",
@@ -2172,7 +2228,7 @@
             "pixyship_estimate": 204
         },
         {
-            "item_id": "289635338",
+            "item_id": "market-567985749",
             "item_design_id": "808",
             "bonus_type": "Repair",
             "bonus_value": "0.6",
@@ -2181,8 +2237,7 @@
             "rarity": "Hero",
             "item_sub_type": "EquipmentHead",
             "item_sprite_id": 13020,
-            "item_enhancement_type": "FireResistance",
-            "item_enhancement_value": 70.0,
+            "item_price": 250,
             "pixyship_estimate": 112
         },
         {
@@ -2351,7 +2406,7 @@
             "item_sprite_id": 12777,
             "item_enhancement_type": "Weapon",
             "item_enhancement_value": 7.0,
-            "pixyship_estimate": 563
+            "pixyship_estimate": 564
         },
         {
             "item_id": "279935396",
