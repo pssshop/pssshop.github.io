@@ -1,6 +1,6 @@
 {
-    "generated": "2025-12-28 11:37:39",
-    "item_count": 191,
+    "generated": "2025-12-28 12:59:22",
+    "item_count": 196,
     "items": [
         {
             "item_id": "290509714",
@@ -127,6 +127,20 @@
             "item_enhancement_type": "Ability",
             "item_enhancement_value": 19.0,
             "pixyship_estimate": 2993
+        },
+        {
+            "item_id": "292339613",
+            "item_design_id": "435",
+            "bonus_type": "Pilot",
+            "bonus_value": "8.1",
+            "quantity": "1",
+            "name": "Aldara",
+            "rarity": "Hero",
+            "item_sub_type": "EquipmentAccessory",
+            "item_sprite_id": 9983,
+            "item_enhancement_type": "Ability",
+            "item_enhancement_value": 19.0,
+            "pixyship_estimate": 1392
         },
         {
             "item_id": "273648919",
@@ -955,6 +969,20 @@
             "pixyship_estimate": 630
         },
         {
+            "item_id": "296382862",
+            "item_design_id": "163",
+            "bonus_type": "Attack",
+            "bonus_value": "0.3",
+            "quantity": "1",
+            "name": "Golden Cai Dao",
+            "rarity": "Hero",
+            "item_sub_type": "EquipmentWeapon",
+            "item_sprite_id": 5007,
+            "item_enhancement_type": "Attack",
+            "item_enhancement_value": 0.6,
+            "pixyship_estimate": 357
+        },
+        {
             "item_id": "294301759",
             "item_design_id": "163",
             "bonus_type": "FireResistance",
@@ -1375,6 +1403,20 @@
             "pixyship_estimate": 722
         },
         {
+            "item_id": "290660308",
+            "item_design_id": "727",
+            "bonus_type": "Pilot",
+            "bonus_value": "6.6",
+            "quantity": "1",
+            "name": "La Paula",
+            "rarity": "Hero",
+            "item_sub_type": "EquipmentWeapon",
+            "item_sprite_id": 12544,
+            "item_enhancement_type": "Ability",
+            "item_enhancement_value": 17.0,
+            "pixyship_estimate": 868
+        },
+        {
             "item_id": "296180343",
             "item_design_id": "727",
             "bonus_type": "Science",
@@ -1429,6 +1471,20 @@
             "item_enhancement_type": "Ability",
             "item_enhancement_value": 17.0,
             "pixyship_estimate": 374
+        },
+        {
+            "item_id": "291532390",
+            "item_design_id": "1706",
+            "bonus_type": "FireResistance",
+            "bonus_value": "45.1",
+            "quantity": "1",
+            "name": "Mach Flightsuit",
+            "rarity": "Hero",
+            "item_sub_type": "EquipmentBody",
+            "item_sprite_id": 19675,
+            "item_enhancement_type": "Pilot",
+            "item_enhancement_value": 12.0,
+            "pixyship_estimate": 524
         },
         {
             "item_id": "296222638",
@@ -2518,6 +2574,20 @@
             "item_enhancement_type": "Ability",
             "item_enhancement_value": 20.0,
             "pixyship_estimate": 599
+        },
+        {
+            "item_id": "296382861",
+            "item_design_id": "790",
+            "bonus_type": "FireResistance",
+            "bonus_value": "53.4",
+            "quantity": "1",
+            "name": "Visiri Gunner Helm Alpha",
+            "rarity": "Hero",
+            "item_sub_type": "EquipmentHead",
+            "item_sprite_id": 12777,
+            "item_enhancement_type": "Weapon",
+            "item_enhancement_value": 7.0,
+            "pixyship_estimate": 394
         },
         {
             "item_id": "292473177",
