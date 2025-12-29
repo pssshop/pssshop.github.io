@@ -1,6 +1,6 @@
 {
-    "generated": "2025-12-29 06:27:20",
-    "item_count": 195,
+    "generated": "2025-12-29 06:38:21",
+    "item_count": 193,
     "items": [
         {
             "item_id": "290509714",
@@ -1263,7 +1263,7 @@
             "pixyship_estimate": 5509
         },
         {
-            "item_id": "295555175",
+            "item_id": "market-568553247",
             "item_design_id": "1493",
             "bonus_type": "FireResistance",
             "bonus_value": "38.7",
@@ -1272,8 +1272,7 @@
             "rarity": "Hero",
             "item_sub_type": "EquipmentWeapon",
             "item_sprite_id": 11219,
-            "item_enhancement_type": "Hp",
-            "item_enhancement_value": 4.0,
+            "item_price": 1500,
             "pixyship_estimate": 1296
         },
         {
@@ -1709,34 +1708,6 @@
             "item_enhancement_type": "Weapon",
             "item_enhancement_value": 6.0,
             "pixyship_estimate": 425
-        },
-        {
-            "item_id": "296290026",
-            "item_design_id": "1177",
-            "bonus_type": "Engine",
-            "bonus_value": "6.1",
-            "quantity": "1",
-            "name": "Noscope-360",
-            "rarity": "Hero",
-            "item_sub_type": "EquipmentAccessory",
-            "item_sprite_id": 16441,
-            "item_enhancement_type": "Weapon",
-            "item_enhancement_value": 6.0,
-            "pixyship_estimate": 144
-        },
-        {
-            "item_id": "296290027",
-            "item_design_id": "1177",
-            "bonus_type": "Engine",
-            "bonus_value": "4.1",
-            "quantity": "1",
-            "name": "Noscope-360",
-            "rarity": "Hero",
-            "item_sub_type": "EquipmentAccessory",
-            "item_sprite_id": 16441,
-            "item_enhancement_type": "Weapon",
-            "item_enhancement_value": 6.0,
-            "pixyship_estimate": 124
         },
         {
             "item_id": "289219708",
@@ -2396,7 +2367,7 @@
             "pixyship_estimate": 2716
         },
         {
-            "item_id": "295524702",
+            "item_id": "market-568553314",
             "item_design_id": "808",
             "bonus_type": "FireResistance",
             "bonus_value": "24.3",
@@ -2405,8 +2376,7 @@
             "rarity": "Hero",
             "item_sub_type": "EquipmentHead",
             "item_sprite_id": 13020,
-            "item_enhancement_type": "FireResistance",
-            "item_enhancement_value": 70.0,
+            "item_price": 950,
             "pixyship_estimate": 934
         },
         {
