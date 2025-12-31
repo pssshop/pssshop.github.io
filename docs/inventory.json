@@ -1,6 +1,6 @@
 {
-    "generated": "2025-12-31 03:44:17",
-    "item_count": 200,
+    "generated": "2025-12-31 06:16:52",
+    "item_count": 203,
     "items": [
         {
             "item_id": "290509714",
@@ -238,7 +238,7 @@
             "item_sprite_id": 9983,
             "item_enhancement_type": "Ability",
             "item_enhancement_value": 19.0,
-            "pixyship_estimate": 3137
+            "pixyship_estimate": 3172
         },
         {
             "item_id": "296209728",
@@ -252,7 +252,7 @@
             "item_sprite_id": 9983,
             "item_enhancement_type": "Ability",
             "item_enhancement_value": 19.0,
-            "pixyship_estimate": 3137
+            "pixyship_estimate": 3172
         },
         {
             "item_id": "295403694",
@@ -997,6 +997,20 @@
             "pixyship_estimate": 618
         },
         {
+            "item_id": "296567110",
+            "item_design_id": "163",
+            "bonus_type": "Attack",
+            "bonus_value": "0.4",
+            "quantity": "1",
+            "name": "Golden Cai Dao",
+            "rarity": "Hero",
+            "item_sub_type": "EquipmentWeapon",
+            "item_sprite_id": 5007,
+            "item_enhancement_type": "Attack",
+            "item_enhancement_value": 0.6,
+            "pixyship_estimate": 618
+        },
+        {
             "item_id": "296382862",
             "item_design_id": "163",
             "bonus_type": "Attack",
@@ -1176,7 +1190,7 @@
             "item_sprite_id": 5007,
             "item_enhancement_type": "Attack",
             "item_enhancement_value": 0.6,
-            "pixyship_estimate": 254
+            "pixyship_estimate": 240
         },
         {
             "item_id": "290512075",
@@ -1302,7 +1316,7 @@
             "item_sprite_id": 11219,
             "item_enhancement_type": "Hp",
             "item_enhancement_value": 4.0,
-            "pixyship_estimate": 5509
+            "pixyship_estimate": 5524
         },
         {
             "item_id": "293647782",
@@ -1473,6 +1487,20 @@
             "pixyship_estimate": 562
         },
         {
+            "item_id": "296565897",
+            "item_design_id": "727",
+            "bonus_type": "FireResistance",
+            "bonus_value": "25.8",
+            "quantity": "1",
+            "name": "La Paula",
+            "rarity": "Hero",
+            "item_sub_type": "EquipmentWeapon",
+            "item_sprite_id": 12544,
+            "item_enhancement_type": "Ability",
+            "item_enhancement_value": 17.0,
+            "pixyship_estimate": 368
+        },
+        {
             "item_id": "290660308",
             "item_design_id": "727",
             "bonus_type": "Pilot",
@@ -1554,7 +1582,7 @@
             "item_sprite_id": 19675,
             "item_enhancement_type": "Pilot",
             "item_enhancement_value": 12.0,
-            "pixyship_estimate": 372
+            "pixyship_estimate": 390
         },
         {
             "item_id": "295744301",
@@ -1568,7 +1596,7 @@
             "item_sprite_id": 19675,
             "item_enhancement_type": "Pilot",
             "item_enhancement_value": 12.0,
-            "pixyship_estimate": 343
+            "pixyship_estimate": 348
         },
         {
             "item_id": "296435550",
@@ -2143,6 +2171,20 @@
             "item_enhancement_type": "Engine",
             "item_enhancement_value": 11.0,
             "pixyship_estimate": 1554
+        },
+        {
+            "item_id": "296568432",
+            "item_design_id": "490",
+            "bonus_type": "Engine",
+            "bonus_value": "3.7",
+            "quantity": "1",
+            "name": "QT Mechworks Drone",
+            "rarity": "Hero",
+            "item_sub_type": "EquipmentAccessory",
+            "item_sprite_id": 10288,
+            "item_enhancement_type": "Engine",
+            "item_enhancement_value": 11.0,
+            "pixyship_estimate": 1473
         },
         {
             "item_id": "293946635",
