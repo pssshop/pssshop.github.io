@@ -1,6 +1,6 @@
 {
-    "generated": "2025-12-31 06:35:28",
-    "item_count": 203,
+    "generated": "2025-12-31 15:14:56",
+    "item_count": 201,
     "items": [
         {
             "item_id": "290509714",
@@ -182,7 +182,7 @@
             "item_sprite_id": 9983,
             "item_enhancement_type": "Ability",
             "item_enhancement_value": 19.0,
-            "pixyship_estimate": 372
+            "pixyship_estimate": 370
         },
         {
             "item_id": "291818514",
@@ -238,7 +238,7 @@
             "item_sprite_id": 9983,
             "item_enhancement_type": "Ability",
             "item_enhancement_value": 19.0,
-            "pixyship_estimate": 3172
+            "pixyship_estimate": 3213
         },
         {
             "item_id": "296209728",
@@ -252,7 +252,7 @@
             "item_sprite_id": 9983,
             "item_enhancement_type": "Ability",
             "item_enhancement_value": 19.0,
-            "pixyship_estimate": 3172
+            "pixyship_estimate": 3213
         },
         {
             "item_id": "295403694",
@@ -997,19 +997,6 @@
             "pixyship_estimate": 618
         },
         {
-            "item_id": "market-568738298",
-            "item_design_id": "163",
-            "bonus_type": "Attack",
-            "bonus_value": "0.4",
-            "quantity": "1",
-            "name": "Golden Cai Dao",
-            "rarity": "Hero",
-            "item_sub_type": "EquipmentWeapon",
-            "item_sprite_id": 5007,
-            "item_price": 625,
-            "pixyship_estimate": 618
-        },
-        {
             "item_id": "296382862",
             "item_design_id": "163",
             "bonus_type": "Attack",
@@ -1526,19 +1513,6 @@
             "item_enhancement_type": "Ability",
             "item_enhancement_value": 17.0,
             "pixyship_estimate": 827
-        },
-        {
-            "item_id": "market-568738215",
-            "item_design_id": "727",
-            "bonus_type": "Science",
-            "bonus_value": "4.6",
-            "quantity": "1",
-            "name": "La Paula",
-            "rarity": "Hero",
-            "item_sub_type": "EquipmentWeapon",
-            "item_sprite_id": 12544,
-            "item_price": 775,
-            "pixyship_estimate": 772
         },
         {
             "item_id": "294684742",
