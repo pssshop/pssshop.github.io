@@ -367,6 +367,13 @@ function App() {
 
         // Search filter
         const filtered = items.filter((item) => {
+            // Hide items with no price in normal (non-admin) view
+            if (!adminView) {
+                const priceNum = getCanonicalPrice(String(item.item_id), item, false);
+                const hasPrice = priceNum !== null && priceNum !== 0;
+                if (!hasPrice) return false;
+            }
+
             // For the 'bonus' column, search the combined string
             const bonusString = item.bonus_type ? `${item.bonus_type} +${item.bonus_value}` : '';
             return (
