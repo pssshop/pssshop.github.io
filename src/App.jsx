@@ -365,7 +365,7 @@ function App() {
         // Columns to show in specific order
         const columns = ['name', 'bonus', 'item_sub_type', 'price'];
 
-        // Search filter
+        // Search filter (everything is always filtered)
         const filtered = items.filter((item) => {
             // Hide items with no price in normal (non-admin) view
             if (!adminView) {
