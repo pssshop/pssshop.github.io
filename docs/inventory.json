@@ -1,6 +1,6 @@
 {
-    "generated": "2026-01-02 22:21:01",
-    "item_count": 204,
+    "generated": "2026-01-02 23:02:13",
+    "item_count": 202,
     "items": [
         {
             "item_id": "290509714",
@@ -1318,20 +1318,6 @@
             "pixyship_estimate": 426
         },
         {
-            "item_id": "293946636",
-            "item_design_id": "1493",
-            "bonus_type": "Engine",
-            "bonus_value": "6.6",
-            "quantity": "1",
-            "name": "Immensity Gauntlet",
-            "rarity": "Hero",
-            "item_sub_type": "EquipmentWeapon",
-            "item_sprite_id": 11219,
-            "item_enhancement_type": "Hp",
-            "item_enhancement_value": 4.0,
-            "pixyship_estimate": 1161
-        },
-        {
             "item_id": "293647782",
             "item_design_id": "1493",
             "bonus_type": "Hp",
@@ -2144,20 +2130,6 @@
             "pixyship_estimate": 298
         },
         {
-            "item_id": "294300580",
-            "item_design_id": "490",
-            "bonus_type": "Engine",
-            "bonus_value": "5.8",
-            "quantity": "1",
-            "name": "QT Mechworks Drone",
-            "rarity": "Hero",
-            "item_sub_type": "EquipmentAccessory",
-            "item_sprite_id": 10288,
-            "item_enhancement_type": "Engine",
-            "item_enhancement_value": 11.0,
-            "pixyship_estimate": 3929
-        },
-        {
             "item_id": "291426658",
             "item_design_id": "490",
             "bonus_type": "Engine",
@@ -2172,7 +2144,7 @@
             "pixyship_estimate": 1678
         },
         {
-            "item_id": "296568432",
+            "item_id": "market-568946965",
             "item_design_id": "490",
             "bonus_type": "Engine",
             "bonus_value": "3.7",
@@ -2181,8 +2153,7 @@
             "rarity": "Hero",
             "item_sub_type": "EquipmentAccessory",
             "item_sprite_id": 10288,
-            "item_enhancement_type": "Engine",
-            "item_enhancement_value": 11.0,
+            "item_price": 2250,
             "pixyship_estimate": 1458
         },
         {
