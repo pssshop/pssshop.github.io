@@ -1,6 +1,6 @@
 {
-    "generated": "2026-01-03 01:55:16",
-    "item_count": 204,
+    "generated": "2026-01-03 13:49:02",
+    "item_count": 203,
     "items": [
         {
             "item_id": "290509714",
@@ -269,7 +269,7 @@
             "pixyship_estimate": 4403
         },
         {
-            "item_id": "market-568879374",
+            "item_id": "296772349",
             "item_design_id": "435",
             "bonus_type": "Weapon",
             "bonus_value": "6.6",
@@ -278,7 +278,8 @@
             "rarity": "Hero",
             "item_sub_type": "EquipmentAccessory",
             "item_sprite_id": 9983,
-            "item_price": 4250,
+            "item_enhancement_type": "Ability",
+            "item_enhancement_value": 19.0,
             "pixyship_estimate": 4403
         },
         {
@@ -461,7 +462,7 @@
             "item_sprite_id": 10047,
             "item_enhancement_type": "Attack",
             "item_enhancement_value": 0.9,
-            "pixyship_estimate": 297
+            "pixyship_estimate": 296
         },
         {
             "item_id": "292158477",
@@ -630,20 +631,6 @@
             "item_enhancement_type": "Hp",
             "item_enhancement_value": 3.0,
             "pixyship_estimate": 447
-        },
-        {
-            "item_id": "293753268",
-            "item_design_id": "169",
-            "bonus_type": "Pilot",
-            "bonus_value": "8.9",
-            "quantity": "1",
-            "name": "Dark Matter Armor",
-            "rarity": "Hero",
-            "item_sub_type": "EquipmentBody",
-            "item_sprite_id": 4819,
-            "item_enhancement_type": "Hp",
-            "item_enhancement_value": 3.0,
-            "pixyship_estimate": 757
         },
         {
             "item_id": "291849593",
@@ -825,7 +812,7 @@
             "item_sprite_id": 16605,
             "item_enhancement_type": "Engine",
             "item_enhancement_value": 7.0,
-            "pixyship_estimate": 324
+            "pixyship_estimate": 312
         },
         {
             "item_id": "290879502",
@@ -839,7 +826,7 @@
             "item_sprite_id": 16605,
             "item_enhancement_type": "Engine",
             "item_enhancement_value": 7.0,
-            "pixyship_estimate": 670
+            "pixyship_estimate": 611
         },
         {
             "item_id": "296406487",
@@ -1063,7 +1050,7 @@
             "item_sprite_id": 5007,
             "item_enhancement_type": "Attack",
             "item_enhancement_value": 0.6,
-            "pixyship_estimate": 522
+            "pixyship_estimate": 517
         },
         {
             "item_id": "292263812",
@@ -1077,7 +1064,7 @@
             "item_sprite_id": 5007,
             "item_enhancement_type": "Attack",
             "item_enhancement_value": 0.6,
-            "pixyship_estimate": 522
+            "pixyship_estimate": 517
         },
         {
             "item_id": "294510963",
@@ -1091,20 +1078,7 @@
             "item_sprite_id": 5007,
             "item_enhancement_type": "Attack",
             "item_enhancement_value": 0.6,
-            "pixyship_estimate": 522
-        },
-        {
-            "item_id": "market-568954965",
-            "item_design_id": "163",
-            "bonus_type": "Hp",
-            "bonus_value": "2",
-            "quantity": "1",
-            "name": "Golden Cai Dao",
-            "rarity": "Hero",
-            "item_sub_type": "EquipmentWeapon",
-            "item_sprite_id": 5007,
-            "item_price": 500,
-            "pixyship_estimate": 522
+            "pixyship_estimate": 517
         },
         {
             "item_id": "286748943",
@@ -1233,7 +1207,7 @@
             "pixyship_estimate": 269
         },
         {
-            "item_id": "296284091",
+            "item_id": "market-568959268",
             "item_design_id": "163",
             "bonus_type": "Weapon",
             "bonus_value": "5.3",
@@ -1242,8 +1216,7 @@
             "rarity": "Hero",
             "item_sub_type": "EquipmentWeapon",
             "item_sprite_id": 5007,
-            "item_enhancement_type": "Attack",
-            "item_enhancement_value": 0.6,
+            "item_price": 250,
             "pixyship_estimate": 247
         },
         {
@@ -1331,20 +1304,6 @@
             "pixyship_estimate": 426
         },
         {
-            "item_id": "293647782",
-            "item_design_id": "1493",
-            "bonus_type": "Hp",
-            "bonus_value": "1",
-            "quantity": "1",
-            "name": "Immensity Gauntlet",
-            "rarity": "Hero",
-            "item_sub_type": "EquipmentWeapon",
-            "item_sprite_id": 11219,
-            "item_enhancement_type": "Hp",
-            "item_enhancement_value": 4.0,
-            "pixyship_estimate": 880
-        },
-        {
             "item_id": "294872442",
             "item_design_id": "1493",
             "bonus_type": "Pilot",
@@ -1426,7 +1385,7 @@
             "item_sprite_id": 11219,
             "item_enhancement_type": "Hp",
             "item_enhancement_value": 4.0,
-            "pixyship_estimate": 335
+            "pixyship_estimate": 330
         },
         {
             "item_id": "295327964",
@@ -1511,6 +1470,20 @@
             "item_enhancement_type": "Ability",
             "item_enhancement_value": 17.0,
             "pixyship_estimate": 334
+        },
+        {
+            "item_id": "290660308",
+            "item_design_id": "727",
+            "bonus_type": "Pilot",
+            "bonus_value": "6.6",
+            "quantity": "1",
+            "name": "La Paula",
+            "rarity": "Hero",
+            "item_sub_type": "EquipmentWeapon",
+            "item_sprite_id": 12544,
+            "item_enhancement_type": "Ability",
+            "item_enhancement_value": 17.0,
+            "pixyship_estimate": 1044
         },
         {
             "item_id": "296180343",
@@ -1653,7 +1626,7 @@
             "pixyship_estimate": 1113
         },
         {
-            "item_id": "296641832",
+            "item_id": "market-568974413",
             "item_design_id": "1705",
             "bonus_type": "Pilot",
             "bonus_value": "10.3",
@@ -1662,8 +1635,7 @@
             "rarity": "Hero",
             "item_sub_type": "EquipmentHead",
             "item_sprite_id": 19673,
-            "item_enhancement_type": "Pilot",
-            "item_enhancement_value": 10.0,
+            "item_price": 11500,
             "pixyship_estimate": 9380
         },
         {
@@ -2604,6 +2576,20 @@
             "pixyship_estimate": 443
         },
         {
+            "item_id": "291315321",
+            "item_design_id": "802",
+            "bonus_type": "FireResistance",
+            "bonus_value": "61.1",
+            "quantity": "1",
+            "name": "Unobtainium Heavy Assault Armor ",
+            "rarity": "Hero",
+            "item_sub_type": "EquipmentBody",
+            "item_sprite_id": 3757,
+            "item_enhancement_type": "Ability",
+            "item_enhancement_value": 20.0,
+            "pixyship_estimate": 997
+        },
+        {
             "item_id": "294180623",
             "item_design_id": "802",
             "bonus_type": "FireResistance",
@@ -2741,7 +2727,7 @@
             "item_sprite_id": 12777,
             "item_enhancement_type": "Weapon",
             "item_enhancement_value": 7.0,
-            "pixyship_estimate": 190
+            "pixyship_estimate": 140
         },
         {
             "item_id": "296284028",
@@ -2755,7 +2741,7 @@
             "item_sprite_id": 12777,
             "item_enhancement_type": "Weapon",
             "item_enhancement_value": 7.0,
-            "pixyship_estimate": 190
+            "pixyship_estimate": 140
         },
         {
             "item_id": "292259724",
