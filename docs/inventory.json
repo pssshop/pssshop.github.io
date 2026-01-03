@@ -1,5 +1,5 @@
 {
-    "generated": "2026-01-02 23:35:42",
+    "generated": "2026-01-03 01:55:16",
     "item_count": 204,
     "items": [
         {
@@ -1052,20 +1052,6 @@
             "pixyship_estimate": 692
         },
         {
-            "item_id": "290085700",
-            "item_design_id": "163",
-            "bonus_type": "Hp",
-            "bonus_value": "2",
-            "quantity": "1",
-            "name": "Golden Cai Dao",
-            "rarity": "Hero",
-            "item_sub_type": "EquipmentWeapon",
-            "item_sprite_id": 5007,
-            "item_enhancement_type": "Attack",
-            "item_enhancement_value": 0.6,
-            "pixyship_estimate": 522
-        },
-        {
             "item_id": "291005979",
             "item_design_id": "163",
             "bonus_type": "Hp",
@@ -1105,6 +1091,19 @@
             "item_sprite_id": 5007,
             "item_enhancement_type": "Attack",
             "item_enhancement_value": 0.6,
+            "pixyship_estimate": 522
+        },
+        {
+            "item_id": "market-568954965",
+            "item_design_id": "163",
+            "bonus_type": "Hp",
+            "bonus_value": "2",
+            "quantity": "1",
+            "name": "Golden Cai Dao",
+            "rarity": "Hero",
+            "item_sub_type": "EquipmentWeapon",
+            "item_sprite_id": 5007,
+            "item_price": 500,
             "pixyship_estimate": 522
         },
         {
@@ -1218,6 +1217,20 @@
             "item_enhancement_type": "Attack",
             "item_enhancement_value": 0.6,
             "pixyship_estimate": 275
+        },
+        {
+            "item_id": "296768455",
+            "item_design_id": "163",
+            "bonus_type": "Weapon",
+            "bonus_value": "5.4",
+            "quantity": "1",
+            "name": "Golden Cai Dao",
+            "rarity": "Hero",
+            "item_sub_type": "EquipmentWeapon",
+            "item_sprite_id": 5007,
+            "item_enhancement_type": "Attack",
+            "item_enhancement_value": 0.6,
+            "pixyship_estimate": 269
         },
         {
             "item_id": "296284091",
@@ -2032,20 +2045,6 @@
             "pixyship_estimate": 762
         },
         {
-            "item_id": "280463342",
-            "item_design_id": "954",
-            "bonus_type": "Hp",
-            "bonus_value": "2",
-            "quantity": "1",
-            "name": "Plague Surgeon Robe",
-            "rarity": "Hero",
-            "item_sub_type": "EquipmentBody",
-            "item_sprite_id": 14569,
-            "item_enhancement_type": "Science",
-            "item_enhancement_value": 11.0,
-            "pixyship_estimate": 2019
-        },
-        {
             "item_id": "295694769",
             "item_design_id": "675",
             "bonus_type": "Pilot",
@@ -2549,7 +2548,7 @@
             "pixyship_estimate": 166
         },
         {
-            "item_id": "market-568873437",
+            "item_id": "296766930",
             "item_design_id": "802",
             "bonus_type": "Ability",
             "bonus_value": "6.1",
@@ -2558,7 +2557,8 @@
             "rarity": "Hero",
             "item_sub_type": "EquipmentBody",
             "item_sprite_id": 3757,
-            "item_price": 2500,
+            "item_enhancement_type": "Ability",
+            "item_enhancement_value": 20.0,
             "pixyship_estimate": 2219
         },
         {
