@@ -1,6 +1,6 @@
 {
-    "generated": "2026-01-04 01:11:23",
-    "item_count": 207,
+    "generated": "2026-01-04 01:43:39",
+    "item_count": 209,
     "items": [
         {
             "item_id": "290509714",
@@ -365,6 +365,20 @@
             "item_enhancement_type": "Attack",
             "item_enhancement_value": 0.9,
             "pixyship_estimate": 1350
+        },
+        {
+            "item_id": "296838452",
+            "item_design_id": "514",
+            "bonus_type": "FireResistance",
+            "bonus_value": "49.2",
+            "quantity": "1",
+            "name": "Captain's Skullmet",
+            "rarity": "Hero",
+            "item_sub_type": "EquipmentHead",
+            "item_sprite_id": 10047,
+            "item_enhancement_type": "Attack",
+            "item_enhancement_value": 0.9,
+            "pixyship_estimate": 765
         },
         {
             "item_id": "294552181",
@@ -801,10 +815,10 @@
             "pixyship_estimate": 190
         },
         {
-            "item_id": "296837081",
+            "item_id": "278156341",
             "item_design_id": "1215",
             "bonus_type": "Engine",
-            "bonus_value": "7.5",
+            "bonus_value": "4.3",
             "quantity": "1",
             "name": "Extendo-Clamp Plus",
             "rarity": "Hero",
@@ -812,7 +826,7 @@
             "item_sprite_id": 16605,
             "item_enhancement_type": "Engine",
             "item_enhancement_value": 7.0,
-            "pixyship_estimate": 8662
+            "pixyship_estimate": 1782
         },
         {
             "item_id": "290628339",
@@ -2295,6 +2309,20 @@
             "item_enhancement_type": "Weapon",
             "item_enhancement_value": 8.0,
             "pixyship_estimate": 399
+        },
+        {
+            "item_id": "290448244",
+            "item_design_id": "933",
+            "bonus_type": "Hp",
+            "bonus_value": "2",
+            "quantity": "1",
+            "name": "Red Marksman Jacket",
+            "rarity": "Hero",
+            "item_sub_type": "EquipmentBody",
+            "item_sprite_id": 13939,
+            "item_enhancement_type": "Weapon",
+            "item_enhancement_value": 8.0,
+            "pixyship_estimate": 1365
         },
         {
             "item_id": "282963556",
