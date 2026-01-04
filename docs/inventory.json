@@ -1,6 +1,6 @@
 {
-    "generated": "2026-01-04 01:43:39",
-    "item_count": 209,
+    "generated": "2026-01-04 09:48:26",
+    "item_count": 212,
     "items": [
         {
             "item_id": "290509714",
@@ -56,7 +56,7 @@
             "item_sprite_id": 19814,
             "item_enhancement_type": "Hp",
             "item_enhancement_value": 4.0,
-            "pixyship_estimate": 1633
+            "pixyship_estimate": 1649
         },
         {
             "item_id": "296759025",
@@ -630,7 +630,7 @@
             "item_sprite_id": 4819,
             "item_enhancement_type": "Hp",
             "item_enhancement_value": 3.0,
-            "pixyship_estimate": 448
+            "pixyship_estimate": 482
         },
         {
             "item_id": "290106780",
@@ -644,7 +644,7 @@
             "item_sprite_id": 4819,
             "item_enhancement_type": "Hp",
             "item_enhancement_value": 3.0,
-            "pixyship_estimate": 447
+            "pixyship_estimate": 478
         },
         {
             "item_id": "291849593",
@@ -885,6 +885,20 @@
             "pixyship_estimate": 535
         },
         {
+            "item_id": "294242826",
+            "item_design_id": "1181",
+            "bonus_type": "Hp",
+            "bonus_value": "2",
+            "quantity": "1",
+            "name": "Giga-Loader",
+            "rarity": "Hero",
+            "item_sub_type": "EquipmentWeapon",
+            "item_sprite_id": 16432,
+            "item_enhancement_type": "Weapon",
+            "item_enhancement_value": 7.0,
+            "pixyship_estimate": 1999
+        },
+        {
             "item_id": "296070916",
             "item_design_id": "1181",
             "bonus_type": "Pilot",
@@ -1064,7 +1078,7 @@
             "item_sprite_id": 5007,
             "item_enhancement_type": "Attack",
             "item_enhancement_value": 0.6,
-            "pixyship_estimate": 938
+            "pixyship_estimate": 1016
         },
         {
             "item_id": "289965509",
@@ -1249,7 +1263,7 @@
             "pixyship_estimate": 269
         },
         {
-            "item_id": "market-568959268",
+            "item_id": "296856288",
             "item_design_id": "163",
             "bonus_type": "Weapon",
             "bonus_value": "5.3",
@@ -1258,7 +1272,8 @@
             "rarity": "Hero",
             "item_sub_type": "EquipmentWeapon",
             "item_sprite_id": 5007,
-            "item_price": 250,
+            "item_enhancement_type": "Attack",
+            "item_enhancement_value": 0.6,
             "pixyship_estimate": 247
         },
         {
@@ -1682,7 +1697,7 @@
             "pixyship_estimate": 1113
         },
         {
-            "item_id": "market-568974413",
+            "item_id": "296856289",
             "item_design_id": "1705",
             "bonus_type": "Pilot",
             "bonus_value": "10.3",
@@ -1691,7 +1706,8 @@
             "rarity": "Hero",
             "item_sub_type": "EquipmentHead",
             "item_sprite_id": 19673,
-            "item_price": 11500,
+            "item_enhancement_type": "Pilot",
+            "item_enhancement_value": 10.0,
             "pixyship_estimate": 9380
         },
         {
@@ -2210,7 +2226,7 @@
             "item_sprite_id": 10288,
             "item_enhancement_type": "Engine",
             "item_enhancement_value": 11.0,
-            "pixyship_estimate": 867
+            "pixyship_estimate": 938
         },
         {
             "item_id": "293946635",
@@ -2294,7 +2310,7 @@
             "item_sprite_id": 13939,
             "item_enhancement_type": "Weapon",
             "item_enhancement_value": 8.0,
-            "pixyship_estimate": 241
+            "pixyship_estimate": 240
         },
         {
             "item_id": "296697197",
@@ -2829,6 +2845,20 @@
             "pixyship_estimate": 140
         },
         {
+            "item_id": "294247673",
+            "item_design_id": "790",
+            "bonus_type": "Weapon",
+            "bonus_value": "4.1",
+            "quantity": "1",
+            "name": "Visiri Gunner Helm Alpha",
+            "rarity": "Hero",
+            "item_sub_type": "EquipmentHead",
+            "item_sprite_id": 12777,
+            "item_enhancement_type": "Weapon",
+            "item_enhancement_value": 7.0,
+            "pixyship_estimate": 1425
+        },
+        {
             "item_id": "292259724",
             "item_design_id": "790",
             "bonus_type": "Weapon",
@@ -2841,6 +2871,20 @@
             "item_enhancement_type": "Weapon",
             "item_enhancement_value": 7.0,
             "pixyship_estimate": 1346
+        },
+        {
+            "item_id": "278754437",
+            "item_design_id": "790",
+            "bonus_type": "Weapon",
+            "bonus_value": "3.3",
+            "quantity": "1",
+            "name": "Visiri Gunner Helm Alpha",
+            "rarity": "Hero",
+            "item_sub_type": "EquipmentHead",
+            "item_sprite_id": 12777,
+            "item_enhancement_type": "Weapon",
+            "item_enhancement_value": 7.0,
+            "pixyship_estimate": 1040
         },
         {
             "item_id": "296286076",
