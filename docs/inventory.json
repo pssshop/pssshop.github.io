@@ -1,6 +1,6 @@
 {
-    "generated": "2026-01-03 23:57:51",
-    "item_count": 207,
+    "generated": "2026-01-04 00:31:52",
+    "item_count": 206,
     "items": [
         {
             "item_id": "290509714",
@@ -785,20 +785,6 @@
             "item_enhancement_type": "Engine",
             "item_enhancement_value": 7.0,
             "pixyship_estimate": 270
-        },
-        {
-            "item_id": "296549590",
-            "item_design_id": "1215",
-            "bonus_type": "Ability",
-            "bonus_value": "6.6",
-            "quantity": "1",
-            "name": "Extendo-Clamp Plus",
-            "rarity": "Hero",
-            "item_sub_type": "EquipmentWeapon",
-            "item_sprite_id": 16605,
-            "item_enhancement_type": "Engine",
-            "item_enhancement_value": 7.0,
-            "pixyship_estimate": 278
         },
         {
             "item_id": "296700620",
