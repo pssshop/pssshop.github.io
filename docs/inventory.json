@@ -1,6 +1,6 @@
 {
-    "generated": "2026-01-03 13:49:02",
-    "item_count": 203,
+    "generated": "2026-01-03 21:15:23",
+    "item_count": 206,
     "items": [
         {
             "item_id": "290509714",
@@ -28,7 +28,7 @@
             "item_sprite_id": 19814,
             "item_enhancement_type": "Hp",
             "item_enhancement_value": 4.0,
-            "pixyship_estimate": 2310
+            "pixyship_estimate": 2312
         },
         {
             "item_id": "296299339",
@@ -913,6 +913,20 @@
             "pixyship_estimate": 522
         },
         {
+            "item_id": "296809473",
+            "item_design_id": "1181",
+            "bonus_type": "Weapon",
+            "bonus_value": "5.8",
+            "quantity": "1",
+            "name": "Giga-Loader",
+            "rarity": "Hero",
+            "item_sub_type": "EquipmentWeapon",
+            "item_sprite_id": 16432,
+            "item_enhancement_type": "Weapon",
+            "item_enhancement_value": 7.0,
+            "pixyship_estimate": 10978
+        },
+        {
             "item_id": "293642273",
             "item_design_id": "163",
             "bonus_type": "Ability",
@@ -1357,10 +1371,24 @@
             "item_sprite_id": 11219,
             "item_enhancement_type": "Hp",
             "item_enhancement_value": 4.0,
-            "pixyship_estimate": 493
+            "pixyship_estimate": 489
         },
         {
             "item_id": "292260382",
+            "item_design_id": "1493",
+            "bonus_type": "Stamina",
+            "bonus_value": "14",
+            "quantity": "1",
+            "name": "Immensity Gauntlet",
+            "rarity": "Hero",
+            "item_sub_type": "EquipmentWeapon",
+            "item_sprite_id": 11219,
+            "item_enhancement_type": "Hp",
+            "item_enhancement_value": 4.0,
+            "pixyship_estimate": 433
+        },
+        {
+            "item_id": "296805949",
             "item_design_id": "1493",
             "bonus_type": "Stamina",
             "bonus_value": "14",
@@ -2322,6 +2350,20 @@
             "item_enhancement_type": "Weapon",
             "item_enhancement_value": 8.0,
             "pixyship_estimate": 216
+        },
+        {
+            "item_id": "296805355",
+            "item_design_id": "933",
+            "bonus_type": "Science",
+            "bonus_value": "9",
+            "quantity": "1",
+            "name": "Red Marksman Jacket",
+            "rarity": "Hero",
+            "item_sub_type": "EquipmentBody",
+            "item_sprite_id": 13939,
+            "item_enhancement_type": "Weapon",
+            "item_enhancement_value": 8.0,
+            "pixyship_estimate": 197
         },
         {
             "item_id": "296475207",
