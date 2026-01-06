@@ -1,6 +1,6 @@
 {
-    "generated": "2026-01-05 20:53:16",
-    "item_count": 221,
+    "generated": "2026-01-05 21:52:14",
+    "item_count": 220,
     "items": [
         {
             "item_id": "290509714",
@@ -43,19 +43,6 @@
             "item_enhancement_type": "Hp",
             "item_enhancement_value": 4.0,
             "pixyship_estimate": 2458
-        },
-        {
-            "item_id": "market-569135297",
-            "item_design_id": "1718",
-            "bonus_type": "Pilot",
-            "bonus_value": "6.8",
-            "quantity": "1",
-            "name": "Hydrone 2.0",
-            "rarity": "Special",
-            "item_sub_type": "EquipmentAccessory",
-            "item_sprite_id": 19814,
-            "item_price": 3000,
-            "pixyship_estimate": 1649
         },
         {
             "item_id": "296759025",
@@ -128,7 +115,7 @@
             "pixyship_estimate": 984
         },
         {
-            "item_id": "296901259",
+            "item_id": "market-569157185",
             "item_design_id": "1718",
             "bonus_type": "Weapon",
             "bonus_value": "4.1",
@@ -137,8 +124,7 @@
             "rarity": "Special",
             "item_sub_type": "EquipmentAccessory",
             "item_sprite_id": 19814,
-            "item_enhancement_type": "Hp",
-            "item_enhancement_value": 4.0,
+            "item_price": 2500,
             "pixyship_estimate": 1559
         },
         {
