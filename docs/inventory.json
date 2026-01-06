@@ -1,6 +1,6 @@
 {
-    "generated": "2026-01-06 03:39:45",
-    "item_count": 221,
+    "generated": "2026-01-06 10:56:16",
+    "item_count": 219,
     "items": [
         {
             "item_id": "290509714",
@@ -113,19 +113,6 @@
             "item_enhancement_type": "Hp",
             "item_enhancement_value": 4.0,
             "pixyship_estimate": 984
-        },
-        {
-            "item_id": "market-569157185",
-            "item_design_id": "1718",
-            "bonus_type": "Weapon",
-            "bonus_value": "4.1",
-            "quantity": "1",
-            "name": "Hydrone 2.0",
-            "rarity": "Special",
-            "item_sub_type": "EquipmentAccessory",
-            "item_sprite_id": 19814,
-            "item_price": 2500,
-            "pixyship_estimate": 1559
         },
         {
             "item_id": "294656310",
@@ -1608,7 +1595,7 @@
             "item_sprite_id": 12544,
             "item_enhancement_type": "Ability",
             "item_enhancement_value": 17.0,
-            "pixyship_estimate": 629
+            "pixyship_estimate": 628
         },
         {
             "item_id": "294684742",
@@ -2547,20 +2534,6 @@
             "item_enhancement_type": "Weapon",
             "item_enhancement_value": 8.0,
             "pixyship_estimate": 610
-        },
-        {
-            "item_id": "296605600",
-            "item_design_id": "1494",
-            "bonus_type": "Attack",
-            "bonus_value": "0.4",
-            "quantity": "1",
-            "name": "Starburst Bulwark",
-            "rarity": "Hero",
-            "item_sub_type": "EquipmentWeapon",
-            "item_sprite_id": 12218,
-            "item_enhancement_type": "Hp",
-            "item_enhancement_value": 4.0,
-            "pixyship_estimate": 1358
         },
         {
             "item_id": "294189205",
