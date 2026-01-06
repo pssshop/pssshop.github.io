@@ -1,6 +1,6 @@
 {
-    "generated": "2026-01-05 14:40:08",
-    "item_count": 219,
+    "generated": "2026-01-05 20:53:16",
+    "item_count": 221,
     "items": [
         {
             "item_id": "290509714",
@@ -45,7 +45,7 @@
             "pixyship_estimate": 2458
         },
         {
-            "item_id": "289591800",
+            "item_id": "market-569135297",
             "item_design_id": "1718",
             "bonus_type": "Pilot",
             "bonus_value": "6.8",
@@ -54,8 +54,7 @@
             "rarity": "Special",
             "item_sub_type": "EquipmentAccessory",
             "item_sprite_id": 19814,
-            "item_enhancement_type": "Hp",
-            "item_enhancement_value": 4.0,
+            "item_price": 3000,
             "pixyship_estimate": 1649
         },
         {
@@ -127,6 +126,20 @@
             "item_enhancement_type": "Hp",
             "item_enhancement_value": 4.0,
             "pixyship_estimate": 984
+        },
+        {
+            "item_id": "296901259",
+            "item_design_id": "1718",
+            "bonus_type": "Weapon",
+            "bonus_value": "4.1",
+            "quantity": "1",
+            "name": "Hydrone 2.0",
+            "rarity": "Special",
+            "item_sub_type": "EquipmentAccessory",
+            "item_sprite_id": 19814,
+            "item_enhancement_type": "Hp",
+            "item_enhancement_value": 4.0,
+            "pixyship_estimate": 1559
         },
         {
             "item_id": "294656310",
@@ -238,7 +251,7 @@
             "item_sprite_id": 9983,
             "item_enhancement_type": "Ability",
             "item_enhancement_value": 19.0,
-            "pixyship_estimate": 431
+            "pixyship_estimate": 427
         },
         {
             "item_id": "287828556",
@@ -602,7 +615,7 @@
             "item_sprite_id": 4819,
             "item_enhancement_type": "Hp",
             "item_enhancement_value": 3.0,
-            "pixyship_estimate": 1380
+            "pixyship_estimate": 1444
         },
         {
             "item_id": "294323647",
@@ -1078,7 +1091,7 @@
             "item_sprite_id": 5007,
             "item_enhancement_type": "Attack",
             "item_enhancement_value": 0.6,
-            "pixyship_estimate": 364
+            "pixyship_estimate": 363
         },
         {
             "item_id": "294301759",
@@ -1501,7 +1514,7 @@
             "pixyship_estimate": 1262
         },
         {
-            "item_id": "292950913",
+            "item_id": "market-569135413",
             "item_design_id": "678",
             "bonus_type": "Ability",
             "bonus_value": "10.9",
@@ -1510,8 +1523,7 @@
             "rarity": "Hero",
             "item_sub_type": "EquipmentAccessory",
             "item_sprite_id": 12025,
-            "item_enhancement_type": "Hp",
-            "item_enhancement_value": 3.0,
+            "item_price": 1000,
             "pixyship_estimate": 942
         },
         {
@@ -2187,6 +2199,20 @@
             "pixyship_estimate": 324
         },
         {
+            "item_id": "296950835",
+            "item_design_id": "676",
+            "bonus_type": "Ability",
+            "bonus_value": "9.3",
+            "quantity": "1",
+            "name": "Prototype Stealth Suit",
+            "rarity": "Hero",
+            "item_sub_type": "EquipmentBody",
+            "item_sprite_id": 11926,
+            "item_enhancement_type": "Attack",
+            "item_enhancement_value": 0.7,
+            "pixyship_estimate": 390
+        },
+        {
             "item_id": "290399347",
             "item_design_id": "676",
             "bonus_type": "Hp",
@@ -2352,7 +2378,7 @@
             "item_sprite_id": 10288,
             "item_enhancement_type": "Engine",
             "item_enhancement_value": 11.0,
-            "pixyship_estimate": 364
+            "pixyship_estimate": 362
         },
         {
             "item_id": "296719278",
