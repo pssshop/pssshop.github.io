@@ -1,6 +1,6 @@
 {
-    "generated": "2026-01-08 09:05:01",
-    "item_count": 227,
+    "generated": "2026-01-08 09:22:55",
+    "item_count": 228,
     "items": [
         {
             "item_id": "290509714",
@@ -1146,6 +1146,20 @@
             "item_enhancement_type": "Attack",
             "item_enhancement_value": 0.6,
             "pixyship_estimate": 517
+        },
+        {
+            "item_id": "290512074",
+            "item_design_id": "163",
+            "bonus_type": "Pilot",
+            "bonus_value": "10.5",
+            "quantity": "1",
+            "name": "Golden Cai Dao",
+            "rarity": "Hero",
+            "item_sub_type": "EquipmentWeapon",
+            "item_sprite_id": 5007,
+            "item_enhancement_type": "Attack",
+            "item_enhancement_value": 0.6,
+            "pixyship_estimate": 593
         },
         {
             "item_id": "286748943",
