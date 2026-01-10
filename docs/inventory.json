@@ -1,5 +1,5 @@
 {
-    "generated": "2026-01-09 22:47:05",
+    "generated": "2026-01-09 23:55:12",
     "item_count": 228,
     "items": [
         {
@@ -168,7 +168,7 @@
             "item_sprite_id": 9983,
             "item_enhancement_type": "Ability",
             "item_enhancement_value": 19.0,
-            "pixyship_estimate": 4350
+            "pixyship_estimate": 4367
         },
         {
             "item_id": "273648919",
@@ -1007,7 +1007,7 @@
             "item_sprite_id": 16432,
             "item_enhancement_type": "Weapon",
             "item_enhancement_value": 7.0,
-            "pixyship_estimate": 10978
+            "pixyship_estimate": 10682
         },
         {
             "item_id": "293642273",
@@ -1680,6 +1680,20 @@
             "item_enhancement_type": "Ability",
             "item_enhancement_value": 17.0,
             "pixyship_estimate": 394
+        },
+        {
+            "item_id": "297195211",
+            "item_design_id": "727",
+            "bonus_type": "Weapon",
+            "bonus_value": "6.5",
+            "quantity": "1",
+            "name": "La Paula",
+            "rarity": "Hero",
+            "item_sub_type": "EquipmentWeapon",
+            "item_sprite_id": 12544,
+            "item_enhancement_type": "Ability",
+            "item_enhancement_value": 17.0,
+            "pixyship_estimate": 4433
         },
         {
             "item_id": "291532390",
@@ -2466,20 +2480,6 @@
             "pixyship_estimate": 166
         },
         {
-            "item_id": "296996370",
-            "item_design_id": "933",
-            "bonus_type": "Attack",
-            "bonus_value": "0.5",
-            "quantity": "1",
-            "name": "Red Marksman Jacket",
-            "rarity": "Hero",
-            "item_sub_type": "EquipmentBody",
-            "item_sprite_id": 13939,
-            "item_enhancement_type": "Weapon",
-            "item_enhancement_value": 8.0,
-            "pixyship_estimate": 219
-        },
-        {
             "item_id": "286413410",
             "item_design_id": "933",
             "bonus_type": "Attack",
@@ -2634,7 +2634,7 @@
             "pixyship_estimate": 610
         },
         {
-            "item_id": "297028702",
+            "item_id": "market-569483561",
             "item_design_id": "662",
             "bonus_type": "FireResistance",
             "bonus_value": "51.9",
@@ -2643,8 +2643,7 @@
             "rarity": "Hero",
             "item_sub_type": "EquipmentAccessory",
             "item_sprite_id": 11874,
-            "item_enhancement_type": "Hp",
-            "item_enhancement_value": 3.0,
+            "item_price": 5000,
             "pixyship_estimate": 4548
         },
         {
@@ -2770,7 +2769,7 @@
             "item_sprite_id": 13020,
             "item_enhancement_type": "FireResistance",
             "item_enhancement_value": 70.0,
-            "pixyship_estimate": 332
+            "pixyship_estimate": 335
         },
         {
             "item_id": "292115333",
@@ -2784,7 +2783,7 @@
             "item_sprite_id": 13020,
             "item_enhancement_type": "FireResistance",
             "item_enhancement_value": 70.0,
-            "pixyship_estimate": 230
+            "pixyship_estimate": 232
         },
         {
             "item_id": "296766930",
