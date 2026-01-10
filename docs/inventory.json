@@ -1,5 +1,5 @@
 {
-    "generated": "2026-01-10 06:25:17",
+    "generated": "2026-01-10 13:25:19",
     "item_count": 228,
     "items": [
         {
@@ -196,7 +196,7 @@
             "item_sprite_id": 9983,
             "item_enhancement_type": "Ability",
             "item_enhancement_value": 19.0,
-            "pixyship_estimate": 435
+            "pixyship_estimate": 415
         },
         {
             "item_id": "291818514",
@@ -210,7 +210,7 @@
             "item_sprite_id": 9983,
             "item_enhancement_type": "Ability",
             "item_enhancement_value": 19.0,
-            "pixyship_estimate": 426
+            "pixyship_estimate": 421
         },
         {
             "item_id": "287828556",
@@ -1456,7 +1456,7 @@
             "item_sprite_id": 11219,
             "item_enhancement_type": "Hp",
             "item_enhancement_value": 4.0,
-            "pixyship_estimate": 2158
+            "pixyship_estimate": 2162
         },
         {
             "item_id": "291085422",
@@ -1470,7 +1470,7 @@
             "item_sprite_id": 11219,
             "item_enhancement_type": "Hp",
             "item_enhancement_value": 4.0,
-            "pixyship_estimate": 1023
+            "pixyship_estimate": 1027
         },
         {
             "item_id": "296671727",
@@ -2453,6 +2453,20 @@
             "pixyship_estimate": 835
         },
         {
+            "item_id": "297228651",
+            "item_design_id": "490",
+            "bonus_type": "Hp",
+            "bonus_value": "2",
+            "quantity": "1",
+            "name": "QT Mechworks Drone",
+            "rarity": "Hero",
+            "item_sub_type": "EquipmentAccessory",
+            "item_sprite_id": 10288,
+            "item_enhancement_type": "Engine",
+            "item_enhancement_value": 11.0,
+            "pixyship_estimate": 835
+        },
+        {
             "item_id": "278518325",
             "item_design_id": "490",
             "bonus_type": "Hp",
@@ -2994,7 +3008,7 @@
             "item_sprite_id": 12777,
             "item_enhancement_type": "Weapon",
             "item_enhancement_value": 7.0,
-            "pixyship_estimate": 631
+            "pixyship_estimate": 634
         },
         {
             "item_id": "297099516",
@@ -3008,7 +3022,7 @@
             "item_sprite_id": 12777,
             "item_enhancement_type": "Weapon",
             "item_enhancement_value": 7.0,
-            "pixyship_estimate": 631
+            "pixyship_estimate": 634
         },
         {
             "item_id": "293914096",
@@ -3106,19 +3120,6 @@
             "item_sprite_id": 12887,
             "item_enhancement_type": "Weapon",
             "item_enhancement_value": 7.0,
-            "pixyship_estimate": 562
-        },
-        {
-            "item_id": "market-569508329",
-            "item_design_id": "799",
-            "bonus_type": "Ability",
-            "bonus_value": "13.6",
-            "quantity": "1",
-            "name": "Visiri Master Gunner Greaves",
-            "rarity": "Hero",
-            "item_sub_type": "EquipmentLeg",
-            "item_sprite_id": 12887,
-            "item_price": 750,
             "pixyship_estimate": 562
         },
         {
