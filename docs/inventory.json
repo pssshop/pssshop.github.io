@@ -1,5 +1,5 @@
 {
-    "generated": "2026-01-09 21:51:31",
+    "generated": "2026-01-09 22:47:05",
     "item_count": 228,
     "items": [
         {
@@ -745,7 +745,7 @@
             "pixyship_estimate": 692
         },
         {
-            "item_id": "294126246",
+            "item_id": "market-569483131",
             "item_design_id": "246",
             "bonus_type": "Science",
             "bonus_value": "7",
@@ -754,8 +754,7 @@
             "rarity": "Hero",
             "item_sub_type": "EquipmentHead",
             "item_sprite_id": 7432,
-            "item_enhancement_type": "Hp",
-            "item_enhancement_value": 3.0,
+            "item_price": 1050,
             "pixyship_estimate": 1032
         },
         {
@@ -2718,7 +2717,7 @@
             "pixyship_estimate": 1838
         },
         {
-            "item_id": "market-569391643",
+            "item_id": "297192452",
             "item_design_id": "808",
             "bonus_type": "FireResistance",
             "bonus_value": "61.2",
@@ -2727,7 +2726,8 @@
             "rarity": "Hero",
             "item_sub_type": "EquipmentHead",
             "item_sprite_id": 13020,
-            "item_price": 12500,
+            "item_enhancement_type": "FireResistance",
+            "item_enhancement_value": 70.0,
             "pixyship_estimate": 7372
         },
         {
@@ -2913,7 +2913,7 @@
             "pixyship_estimate": 706
         },
         {
-            "item_id": "market-569391698",
+            "item_id": "297192451",
             "item_design_id": "802",
             "bonus_type": "Science",
             "bonus_value": "7.6",
@@ -2922,7 +2922,8 @@
             "rarity": "Hero",
             "item_sub_type": "EquipmentBody",
             "item_sprite_id": 3757,
-            "item_price": 700,
+            "item_enhancement_type": "Ability",
+            "item_enhancement_value": 20.0,
             "pixyship_estimate": 712
         },
         {
