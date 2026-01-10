@@ -1,5 +1,5 @@
 {
-    "generated": "2026-01-10 13:25:19",
+    "generated": "2026-01-10 13:30:36",
     "item_count": 228,
     "items": [
         {
@@ -2731,7 +2731,7 @@
             "pixyship_estimate": 1838
         },
         {
-            "item_id": "297192452",
+            "item_id": "market-569537675",
             "item_design_id": "808",
             "bonus_type": "FireResistance",
             "bonus_value": "61.2",
@@ -2740,8 +2740,7 @@
             "rarity": "Hero",
             "item_sub_type": "EquipmentHead",
             "item_sprite_id": 13020,
-            "item_enhancement_type": "FireResistance",
-            "item_enhancement_value": 70.0,
+            "item_price": 10000,
             "pixyship_estimate": 7372
         },
         {
