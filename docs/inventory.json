@@ -1,5 +1,5 @@
 {
-    "generated": "2026-01-10 00:10:21",
+    "generated": "2026-01-10 06:25:17",
     "item_count": 228,
     "items": [
         {
@@ -42,7 +42,7 @@
             "item_sprite_id": 19814,
             "item_enhancement_type": "Hp",
             "item_enhancement_value": 4.0,
-            "pixyship_estimate": 2458
+            "pixyship_estimate": 2717
         },
         {
             "item_id": "296299338",
@@ -743,19 +743,6 @@
             "item_enhancement_type": "Hp",
             "item_enhancement_value": 3.0,
             "pixyship_estimate": 692
-        },
-        {
-            "item_id": "market-569483131",
-            "item_design_id": "246",
-            "bonus_type": "Science",
-            "bonus_value": "7",
-            "quantity": "1",
-            "name": "Dark Matter Helmet",
-            "rarity": "Hero",
-            "item_sub_type": "EquipmentHead",
-            "item_sprite_id": 7432,
-            "item_price": 1050,
-            "pixyship_estimate": 1032
         },
         {
             "item_id": "293962542",
@@ -1610,6 +1597,20 @@
             "item_enhancement_type": "Ability",
             "item_enhancement_value": 17.0,
             "pixyship_estimate": 362
+        },
+        {
+            "item_id": "297208520",
+            "item_design_id": "727",
+            "bonus_type": "FireResistance",
+            "bonus_value": "40.9",
+            "quantity": "1",
+            "name": "La Paula",
+            "rarity": "Hero",
+            "item_sub_type": "EquipmentWeapon",
+            "item_sprite_id": 12544,
+            "item_enhancement_type": "Ability",
+            "item_enhancement_value": 17.0,
+            "pixyship_estimate": 647
         },
         {
             "item_id": "296565897",
@@ -2522,20 +2523,6 @@
             "pixyship_estimate": 1372
         },
         {
-            "item_id": "282963556",
-            "item_design_id": "933",
-            "bonus_type": "Hp",
-            "bonus_value": "1",
-            "quantity": "1",
-            "name": "Red Marksman Jacket",
-            "rarity": "Hero",
-            "item_sub_type": "EquipmentBody",
-            "item_sprite_id": 13939,
-            "item_enhancement_type": "Weapon",
-            "item_enhancement_value": 8.0,
-            "pixyship_estimate": 581
-        },
-        {
             "item_id": "292543626",
             "item_design_id": "933",
             "bonus_type": "Hp",
@@ -2575,6 +2562,19 @@
             "item_sprite_id": 13939,
             "item_enhancement_type": "Weapon",
             "item_enhancement_value": 8.0,
+            "pixyship_estimate": 581
+        },
+        {
+            "item_id": "market-569508436",
+            "item_design_id": "933",
+            "bonus_type": "Hp",
+            "bonus_value": "1",
+            "quantity": "1",
+            "name": "Red Marksman Jacket",
+            "rarity": "Hero",
+            "item_sub_type": "EquipmentBody",
+            "item_sprite_id": 13939,
+            "item_price": 850,
             "pixyship_estimate": 581
         },
         {
@@ -2661,7 +2661,7 @@
             "pixyship_estimate": 322
         },
         {
-            "item_id": "market-569400058",
+            "item_id": "297197478",
             "item_design_id": "1494",
             "bonus_type": "Science",
             "bonus_value": "8",
@@ -2670,7 +2670,8 @@
             "rarity": "Hero",
             "item_sub_type": "EquipmentWeapon",
             "item_sprite_id": 12218,
-            "item_price": 1450,
+            "item_enhancement_type": "Hp",
+            "item_enhancement_value": 4.0,
             "pixyship_estimate": 1427
         },
         {
@@ -2867,7 +2868,7 @@
             "item_sprite_id": 3757,
             "item_enhancement_type": "Ability",
             "item_enhancement_value": 20.0,
-            "pixyship_estimate": 624
+            "pixyship_estimate": 675
         },
         {
             "item_id": "292979484",
@@ -3108,7 +3109,7 @@
             "pixyship_estimate": 562
         },
         {
-            "item_id": "296896528",
+            "item_id": "market-569508329",
             "item_design_id": "799",
             "bonus_type": "Ability",
             "bonus_value": "13.6",
@@ -3117,8 +3118,7 @@
             "rarity": "Hero",
             "item_sub_type": "EquipmentLeg",
             "item_sprite_id": 12887,
-            "item_enhancement_type": "Weapon",
-            "item_enhancement_value": 7.0,
+            "item_price": 750,
             "pixyship_estimate": 562
         },
         {
