@@ -1,6 +1,6 @@
 {
-    "generated": "2026-01-10 13:30:36",
-    "item_count": 228,
+    "generated": "2026-01-11 04:11:49",
+    "item_count": 234,
     "items": [
         {
             "item_id": "290509714",
@@ -31,7 +31,21 @@
             "pixyship_estimate": 2312
         },
         {
-            "item_id": "296299339",
+            "item_id": "289585417",
+            "item_design_id": "1718",
+            "bonus_type": "Pilot",
+            "bonus_value": "8.4",
+            "quantity": "1",
+            "name": "Hydrone 2.0",
+            "rarity": "Special",
+            "item_sub_type": "EquipmentAccessory",
+            "item_sprite_id": 19814,
+            "item_enhancement_type": "Hp",
+            "item_enhancement_value": 4.0,
+            "pixyship_estimate": 3484
+        },
+        {
+            "item_id": "market-569571516",
             "item_design_id": "1718",
             "bonus_type": "Pilot",
             "bonus_value": "7.7",
@@ -40,8 +54,7 @@
             "rarity": "Special",
             "item_sub_type": "EquipmentAccessory",
             "item_sprite_id": 19814,
-            "item_enhancement_type": "Hp",
-            "item_enhancement_value": 4.0,
+            "item_price": 3000,
             "pixyship_estimate": 2717
         },
         {
@@ -686,7 +699,7 @@
             "item_sprite_id": 7432,
             "item_enhancement_type": "Hp",
             "item_enhancement_value": 3.0,
-            "pixyship_estimate": 2022
+            "pixyship_estimate": 1701
         },
         {
             "item_id": "296002866",
@@ -868,7 +881,7 @@
             "item_sprite_id": 16605,
             "item_enhancement_type": "Engine",
             "item_enhancement_value": 7.0,
-            "pixyship_estimate": 308
+            "pixyship_estimate": 284
         },
         {
             "item_id": "290879502",
@@ -1050,7 +1063,7 @@
             "item_sprite_id": 5007,
             "item_enhancement_type": "Attack",
             "item_enhancement_value": 0.6,
-            "pixyship_estimate": 298
+            "pixyship_estimate": 299
         },
         {
             "item_id": "296567110",
@@ -1568,7 +1581,7 @@
             "item_sprite_id": 12025,
             "item_enhancement_type": "Hp",
             "item_enhancement_value": 3.0,
-            "pixyship_estimate": 2726
+            "pixyship_estimate": 2723
         },
         {
             "item_id": "296694924",
@@ -1610,7 +1623,7 @@
             "item_sprite_id": 12544,
             "item_enhancement_type": "Ability",
             "item_enhancement_value": 17.0,
-            "pixyship_estimate": 647
+            "pixyship_estimate": 637
         },
         {
             "item_id": "296565897",
@@ -1694,7 +1707,7 @@
             "item_sprite_id": 12544,
             "item_enhancement_type": "Ability",
             "item_enhancement_value": 17.0,
-            "pixyship_estimate": 4433
+            "pixyship_estimate": 4409
         },
         {
             "item_id": "291532390",
@@ -2215,6 +2228,34 @@
             "pixyship_estimate": 522
         },
         {
+            "item_id": "297267937",
+            "item_design_id": "960",
+            "bonus_type": "Hp",
+            "bonus_value": "2",
+            "quantity": "1",
+            "name": "Pink Elephant",
+            "rarity": "Hero",
+            "item_sub_type": "EquipmentAccessory",
+            "item_sprite_id": 14738,
+            "item_enhancement_type": "Science",
+            "item_enhancement_value": 11.0,
+            "pixyship_estimate": 1101
+        },
+        {
+            "item_id": "297260299",
+            "item_design_id": "960",
+            "bonus_type": "Pilot",
+            "bonus_value": "5.5",
+            "quantity": "1",
+            "name": "Pink Elephant",
+            "rarity": "Hero",
+            "item_sub_type": "EquipmentAccessory",
+            "item_sprite_id": 14738,
+            "item_enhancement_type": "Science",
+            "item_enhancement_value": 11.0,
+            "pixyship_estimate": 323
+        },
+        {
             "item_id": "292574030",
             "item_design_id": "952",
             "bonus_type": "Ability",
@@ -2255,6 +2296,20 @@
             "item_enhancement_type": "Science",
             "item_enhancement_value": 11.0,
             "pixyship_estimate": 762
+        },
+        {
+            "item_id": "297267130",
+            "item_design_id": "953",
+            "bonus_type": "Hp",
+            "bonus_value": "1",
+            "quantity": "1",
+            "name": "Plague Surgeon Slacks",
+            "rarity": "Hero",
+            "item_sub_type": "EquipmentLeg",
+            "item_sprite_id": 14561,
+            "item_enhancement_type": "Science",
+            "item_enhancement_value": 12.0,
+            "pixyship_estimate": 561
         },
         {
             "item_id": "296932394",
@@ -2366,7 +2421,7 @@
             "item_sprite_id": 10288,
             "item_enhancement_type": "Engine",
             "item_enhancement_value": 11.0,
-            "pixyship_estimate": 1678
+            "pixyship_estimate": 1601
         },
         {
             "item_id": "296831108",
@@ -2380,7 +2435,7 @@
             "item_sprite_id": 10288,
             "item_enhancement_type": "Engine",
             "item_enhancement_value": 11.0,
-            "pixyship_estimate": 1458
+            "pixyship_estimate": 1429
         },
         {
             "item_id": "289878771",
@@ -2394,7 +2449,7 @@
             "item_sprite_id": 10288,
             "item_enhancement_type": "Engine",
             "item_enhancement_value": 11.0,
-            "pixyship_estimate": 408
+            "pixyship_estimate": 524
         },
         {
             "item_id": "293946635",
@@ -2408,7 +2463,7 @@
             "item_sprite_id": 10288,
             "item_enhancement_type": "Engine",
             "item_enhancement_value": 11.0,
-            "pixyship_estimate": 326
+            "pixyship_estimate": 449
         },
         {
             "item_id": "291527410",
@@ -2422,7 +2477,7 @@
             "item_sprite_id": 10288,
             "item_enhancement_type": "Engine",
             "item_enhancement_value": 11.0,
-            "pixyship_estimate": 312
+            "pixyship_estimate": 407
         },
         {
             "item_id": "289220939",
@@ -2436,7 +2491,7 @@
             "item_sprite_id": 10288,
             "item_enhancement_type": "Engine",
             "item_enhancement_value": 11.0,
-            "pixyship_estimate": 314
+            "pixyship_estimate": 379
         },
         {
             "item_id": "297092979",
@@ -2493,6 +2548,20 @@
             "item_enhancement_type": "Engine",
             "item_enhancement_value": 11.0,
             "pixyship_estimate": 166
+        },
+        {
+            "item_id": "297263069",
+            "item_design_id": "490",
+            "bonus_type": "Weapon",
+            "bonus_value": "3.1",
+            "quantity": "1",
+            "name": "QT Mechworks Drone",
+            "rarity": "Hero",
+            "item_sub_type": "EquipmentAccessory",
+            "item_sprite_id": 10288,
+            "item_enhancement_type": "Engine",
+            "item_enhancement_value": 11.0,
+            "pixyship_estimate": 161
         },
         {
             "item_id": "286413410",
@@ -2648,7 +2717,7 @@
             "pixyship_estimate": 610
         },
         {
-            "item_id": "market-569483561",
+            "item_id": "297253574",
             "item_design_id": "662",
             "bonus_type": "FireResistance",
             "bonus_value": "51.9",
@@ -2657,7 +2726,8 @@
             "rarity": "Hero",
             "item_sub_type": "EquipmentAccessory",
             "item_sprite_id": 11874,
-            "item_price": 5000,
+            "item_enhancement_type": "Hp",
+            "item_enhancement_value": 3.0,
             "pixyship_estimate": 4548
         },
         {
@@ -2700,7 +2770,21 @@
             "item_sprite_id": 12218,
             "item_enhancement_type": "Hp",
             "item_enhancement_value": 4.0,
-            "pixyship_estimate": 958
+            "pixyship_estimate": 1001
+        },
+        {
+            "item_id": "297256279",
+            "item_design_id": "740",
+            "bonus_type": "Stamina",
+            "bonus_value": "17",
+            "quantity": "1",
+            "name": "Storm Lance",
+            "rarity": "Hero",
+            "item_sub_type": "EquipmentWeapon",
+            "item_sprite_id": 12596,
+            "item_enhancement_type": "Science",
+            "item_enhancement_value": 8.0,
+            "pixyship_estimate": 243
         },
         {
             "item_id": "291315274",
@@ -2825,7 +2909,7 @@
             "item_sprite_id": 3757,
             "item_enhancement_type": "Ability",
             "item_enhancement_value": 20.0,
-            "pixyship_estimate": 511
+            "pixyship_estimate": 512
         },
         {
             "item_id": "282819134",
@@ -3119,7 +3203,7 @@
             "item_sprite_id": 12887,
             "item_enhancement_type": "Weapon",
             "item_enhancement_value": 7.0,
-            "pixyship_estimate": 562
+            "pixyship_estimate": 636
         },
         {
             "item_id": "286032720",
@@ -3133,7 +3217,7 @@
             "item_sprite_id": 12887,
             "item_enhancement_type": "Weapon",
             "item_enhancement_value": 7.0,
-            "pixyship_estimate": 530
+            "pixyship_estimate": 550
         },
         {
             "item_id": "291948040",
@@ -3147,7 +3231,7 @@
             "item_sprite_id": 12887,
             "item_enhancement_type": "Weapon",
             "item_enhancement_value": 7.0,
-            "pixyship_estimate": 467
+            "pixyship_estimate": 479
         },
         {
             "item_id": "289564618",
