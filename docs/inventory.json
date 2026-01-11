@@ -1,5 +1,5 @@
 {
-    "generated": "2026-01-11 06:50:17",
+    "generated": "2026-01-11 15:44:57",
     "item_count": 236,
     "items": [
         {
@@ -688,7 +688,7 @@
             "pixyship_estimate": 484
         },
         {
-            "item_id": "296936138",
+            "item_id": "market-569632327",
             "item_design_id": "169",
             "bonus_type": "Stamina",
             "bonus_value": "19",
@@ -697,8 +697,7 @@
             "rarity": "Hero",
             "item_sub_type": "EquipmentBody",
             "item_sprite_id": 4819,
-            "item_enhancement_type": "Hp",
-            "item_enhancement_value": 3.0,
+            "item_price": 450,
             "pixyship_estimate": 484
         },
         {
@@ -895,7 +894,7 @@
             "item_sprite_id": 16605,
             "item_enhancement_type": "Engine",
             "item_enhancement_value": 7.0,
-            "pixyship_estimate": 284
+            "pixyship_estimate": 285
         },
         {
             "item_id": "290879502",
@@ -1010,7 +1009,7 @@
             "pixyship_estimate": 441
         },
         {
-            "item_id": "297137500",
+            "item_id": "market-569597188",
             "item_design_id": "1181",
             "bonus_type": "Weapon",
             "bonus_value": "5.8",
@@ -1019,8 +1018,7 @@
             "rarity": "Hero",
             "item_sub_type": "EquipmentWeapon",
             "item_sprite_id": 16432,
-            "item_enhancement_type": "Weapon",
-            "item_enhancement_value": 7.0,
+            "item_price": 11500,
             "pixyship_estimate": 10682
         },
         {
@@ -2830,7 +2828,7 @@
             "pixyship_estimate": 1838
         },
         {
-            "item_id": "market-569537675",
+            "item_id": "297302725",
             "item_design_id": "808",
             "bonus_type": "FireResistance",
             "bonus_value": "61.2",
@@ -2839,7 +2837,8 @@
             "rarity": "Hero",
             "item_sub_type": "EquipmentHead",
             "item_sprite_id": 13020,
-            "item_price": 10000,
+            "item_enhancement_type": "FireResistance",
+            "item_enhancement_value": 70.0,
             "pixyship_estimate": 7372
         },
         {
