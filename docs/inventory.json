@@ -1,6 +1,6 @@
 {
-    "generated": "2026-01-11 04:11:49",
-    "item_count": 234,
+    "generated": "2026-01-11 05:11:15",
+    "item_count": 235,
     "items": [
         {
             "item_id": "290509714",
@@ -1371,7 +1371,7 @@
             "item_sprite_id": 11219,
             "item_enhancement_type": "Hp",
             "item_enhancement_value": 4.0,
-            "pixyship_estimate": 976
+            "pixyship_estimate": 977
         },
         {
             "item_id": "295919159",
@@ -1385,7 +1385,7 @@
             "item_sprite_id": 11219,
             "item_enhancement_type": "Hp",
             "item_enhancement_value": 4.0,
-            "pixyship_estimate": 953
+            "pixyship_estimate": 954
         },
         {
             "item_id": "296280716",
@@ -1399,7 +1399,7 @@
             "item_sprite_id": 11219,
             "item_enhancement_type": "Hp",
             "item_enhancement_value": 4.0,
-            "pixyship_estimate": 886
+            "pixyship_estimate": 888
         },
         {
             "item_id": "292509306",
@@ -1441,7 +1441,7 @@
             "item_sprite_id": 11219,
             "item_enhancement_type": "Hp",
             "item_enhancement_value": 4.0,
-            "pixyship_estimate": 707
+            "pixyship_estimate": 775
         },
         {
             "item_id": "297148877",
@@ -2029,7 +2029,7 @@
             "item_sprite_id": 16441,
             "item_enhancement_type": "Weapon",
             "item_enhancement_value": 6.0,
-            "pixyship_estimate": 408
+            "pixyship_estimate": 381
         },
         {
             "item_id": "289219708",
@@ -2839,7 +2839,7 @@
             "item_sprite_id": 13020,
             "item_enhancement_type": "FireResistance",
             "item_enhancement_value": 70.0,
-            "pixyship_estimate": 2558
+            "pixyship_estimate": 2436
         },
         {
             "item_id": "296507975",
@@ -3035,7 +3035,7 @@
             "item_sprite_id": 3757,
             "item_enhancement_type": "Ability",
             "item_enhancement_value": 20.0,
-            "pixyship_estimate": 990
+            "pixyship_estimate": 991
         },
         {
             "item_id": "296382861",
@@ -3134,6 +3134,20 @@
             "item_enhancement_type": "Weapon",
             "item_enhancement_value": 7.0,
             "pixyship_estimate": 136
+        },
+        {
+            "item_id": "297268655",
+            "item_design_id": "790",
+            "bonus_type": "Weapon",
+            "bonus_value": "6.4",
+            "quantity": "1",
+            "name": "Visiri Gunner Helm Alpha",
+            "rarity": "Hero",
+            "item_sub_type": "EquipmentHead",
+            "item_sprite_id": 12777,
+            "item_enhancement_type": "Weapon",
+            "item_enhancement_value": 7.0,
+            "pixyship_estimate": 6364
         },
         {
             "item_id": "297022042",
