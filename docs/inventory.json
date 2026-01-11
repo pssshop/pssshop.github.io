@@ -1,6 +1,6 @@
 {
-    "generated": "2026-01-11 05:11:15",
-    "item_count": 235,
+    "generated": "2026-01-11 06:03:04",
+    "item_count": 236,
     "items": [
         {
             "item_id": "290509714",
@@ -154,6 +154,20 @@
             "item_enhancement_type": "Ability",
             "item_enhancement_value": 21.0,
             "pixyship_estimate": 10352
+        },
+        {
+            "item_id": "297271832",
+            "item_design_id": "435",
+            "bonus_type": "Ability",
+            "bonus_value": "15.2",
+            "quantity": "1",
+            "name": "Aldara",
+            "rarity": "Hero",
+            "item_sub_type": "EquipmentAccessory",
+            "item_sprite_id": 9983,
+            "item_enhancement_type": "Ability",
+            "item_enhancement_value": 19.0,
+            "pixyship_estimate": 10825
         },
         {
             "item_id": "296385051",
