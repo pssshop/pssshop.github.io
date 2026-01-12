@@ -1,6 +1,6 @@
 {
-    "generated": "2026-01-12 00:01:38",
-    "item_count": 218,
+    "generated": "2026-01-12 05:23:40",
+    "item_count": 220,
     "items": [
         {
             "item_id": "290509714",
@@ -127,6 +127,20 @@
             "item_enhancement_type": "FireResistance",
             "item_enhancement_value": 75.0,
             "pixyship_estimate": 1215
+        },
+        {
+            "item_id": "297337896",
+            "item_design_id": "290",
+            "bonus_type": "Hp",
+            "bonus_value": "2",
+            "quantity": "1",
+            "name": "Raven Swarm",
+            "rarity": "Special",
+            "item_sub_type": "EquipmentAccessory",
+            "item_sprite_id": 8031,
+            "item_enhancement_type": "Attack",
+            "item_enhancement_value": 0.6,
+            "pixyship_estimate": 2875
         },
         {
             "item_id": "293920704",
@@ -1426,7 +1440,7 @@
             "item_sprite_id": 11219,
             "item_enhancement_type": "Hp",
             "item_enhancement_value": 4.0,
-            "pixyship_estimate": 304
+            "pixyship_estimate": 298
         },
         {
             "item_id": "292574090",
@@ -1486,6 +1500,20 @@
         },
         {
             "item_id": "296805949",
+            "item_design_id": "1493",
+            "bonus_type": "Stamina",
+            "bonus_value": "14",
+            "quantity": "1",
+            "name": "Immensity Gauntlet",
+            "rarity": "Hero",
+            "item_sub_type": "EquipmentWeapon",
+            "item_sprite_id": 11219,
+            "item_enhancement_type": "Hp",
+            "item_enhancement_value": 4.0,
+            "pixyship_estimate": 433
+        },
+        {
+            "item_id": "297330434",
             "item_design_id": "1493",
             "bonus_type": "Stamina",
             "bonus_value": "14",
@@ -1902,7 +1930,7 @@
             "item_sprite_id": 16441,
             "item_enhancement_type": "Weapon",
             "item_enhancement_value": 6.0,
-            "pixyship_estimate": 381
+            "pixyship_estimate": 369
         },
         {
             "item_id": "289219708",
