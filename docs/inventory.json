@@ -1,6 +1,6 @@
 {
-    "generated": "2026-01-12 05:25:23",
-    "item_count": 220,
+    "generated": "2026-01-12 07:25:05",
+    "item_count": 221,
     "items": [
         {
             "item_id": "290509714",
@@ -982,19 +982,6 @@
             "pixyship_estimate": 816
         },
         {
-            "item_id": "market-569597188",
-            "item_design_id": "1181",
-            "bonus_type": "Weapon",
-            "bonus_value": "5.8",
-            "quantity": "1",
-            "name": "Giga-Loader",
-            "rarity": "Hero",
-            "item_sub_type": "EquipmentWeapon",
-            "item_sprite_id": 16432,
-            "item_price": 11500,
-            "pixyship_estimate": 10682
-        },
-        {
             "item_id": "293642273",
             "item_design_id": "163",
             "bonus_type": "Ability",
@@ -1650,7 +1637,7 @@
             "item_sprite_id": 12544,
             "item_enhancement_type": "Ability",
             "item_enhancement_value": 17.0,
-            "pixyship_estimate": 1041
+            "pixyship_estimate": 1059
         },
         {
             "item_id": "297323532",
@@ -1961,6 +1948,20 @@
             "pixyship_estimate": 529
         },
         {
+            "item_id": "297342999",
+            "item_design_id": "1177",
+            "bonus_type": "Weapon",
+            "bonus_value": "5.8",
+            "quantity": "1",
+            "name": "Noscope-360",
+            "rarity": "Hero",
+            "item_sub_type": "EquipmentAccessory",
+            "item_sprite_id": 16441,
+            "item_enhancement_type": "Weapon",
+            "item_enhancement_value": 6.0,
+            "pixyship_estimate": 4068
+        },
+        {
             "item_id": "294237306",
             "item_design_id": "1177",
             "bonus_type": "Weapon",
@@ -2267,6 +2268,20 @@
             "item_enhancement_type": "Engine",
             "item_enhancement_value": 11.0,
             "pixyship_estimate": 429
+        },
+        {
+            "item_id": "297342997",
+            "item_design_id": "490",
+            "bonus_type": "Attack",
+            "bonus_value": "0.4",
+            "quantity": "1",
+            "name": "QT Mechworks Drone",
+            "rarity": "Hero",
+            "item_sub_type": "EquipmentAccessory",
+            "item_sprite_id": 10288,
+            "item_enhancement_type": "Engine",
+            "item_enhancement_value": 11.0,
+            "pixyship_estimate": 268
         },
         {
             "item_id": "291426658",
