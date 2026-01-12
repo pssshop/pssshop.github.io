@@ -1,6 +1,6 @@
 {
-    "generated": "2026-01-11 22:38:36",
-    "item_count": 228,
+    "generated": "2026-01-11 23:11:19",
+    "item_count": 224,
     "items": [
         {
             "item_id": "290509714",
@@ -45,7 +45,7 @@
             "pixyship_estimate": 3353
         },
         {
-            "item_id": "market-569571516",
+            "item_id": "297323199",
             "item_design_id": "1718",
             "bonus_type": "Pilot",
             "bonus_value": "7.7",
@@ -54,7 +54,8 @@
             "rarity": "Special",
             "item_sub_type": "EquipmentAccessory",
             "item_sprite_id": 19814,
-            "item_price": 3000,
+            "item_enhancement_type": "Hp",
+            "item_enhancement_value": 4.0,
             "pixyship_estimate": 2717
         },
         {
@@ -925,7 +926,7 @@
             "pixyship_estimate": 186
         },
         {
-            "item_id": "292491081",
+            "item_id": "market-569658826",
             "item_design_id": "1181",
             "bonus_type": "Engine",
             "bonus_value": "3.1",
@@ -934,8 +935,7 @@
             "rarity": "Hero",
             "item_sub_type": "EquipmentWeapon",
             "item_sprite_id": 16432,
-            "item_enhancement_type": "Weapon",
-            "item_enhancement_value": 7.0,
+            "item_price": 250,
             "pixyship_estimate": 535
         },
         {
@@ -1666,6 +1666,20 @@
             "pixyship_estimate": 1041
         },
         {
+            "item_id": "297323532",
+            "item_design_id": "727",
+            "bonus_type": "Science",
+            "bonus_value": "7.8",
+            "quantity": "1",
+            "name": "La Paula",
+            "rarity": "Hero",
+            "item_sub_type": "EquipmentWeapon",
+            "item_sprite_id": 12544,
+            "item_enhancement_type": "Ability",
+            "item_enhancement_value": 17.0,
+            "pixyship_estimate": 2101
+        },
+        {
             "item_id": "296180343",
             "item_design_id": "727",
             "bonus_type": "Science",
@@ -1776,34 +1790,6 @@
             "item_enhancement_type": "Pilot",
             "item_enhancement_value": 12.0,
             "pixyship_estimate": 436
-        },
-        {
-            "item_id": "296435550",
-            "item_design_id": "1706",
-            "bonus_type": "Science",
-            "bonus_value": "5",
-            "quantity": "1",
-            "name": "Mach Flightsuit",
-            "rarity": "Hero",
-            "item_sub_type": "EquipmentBody",
-            "item_sprite_id": 19675,
-            "item_enhancement_type": "Pilot",
-            "item_enhancement_value": 12.0,
-            "pixyship_estimate": 446
-        },
-        {
-            "item_id": "292389637",
-            "item_design_id": "1706",
-            "bonus_type": "Weapon",
-            "bonus_value": "5.1",
-            "quantity": "1",
-            "name": "Mach Flightsuit",
-            "rarity": "Hero",
-            "item_sub_type": "EquipmentBody",
-            "item_sprite_id": 19675,
-            "item_enhancement_type": "Pilot",
-            "item_enhancement_value": 12.0,
-            "pixyship_estimate": 384
         },
         {
             "item_id": "294229086",
@@ -1944,48 +1930,6 @@
             "item_enhancement_type": "Pilot",
             "item_enhancement_value": 10.0,
             "pixyship_estimate": 374
-        },
-        {
-            "item_id": "294874333",
-            "item_design_id": "1707",
-            "bonus_type": "Science",
-            "bonus_value": "6.4",
-            "quantity": "1",
-            "name": "Mach Sabatons",
-            "rarity": "Hero",
-            "item_sub_type": "EquipmentLeg",
-            "item_sprite_id": 19677,
-            "item_enhancement_type": "Pilot",
-            "item_enhancement_value": 10.0,
-            "pixyship_estimate": 297
-        },
-        {
-            "item_id": "297009218",
-            "item_design_id": "1707",
-            "bonus_type": "Weapon",
-            "bonus_value": "5.7",
-            "quantity": "1",
-            "name": "Mach Sabatons",
-            "rarity": "Hero",
-            "item_sub_type": "EquipmentLeg",
-            "item_sprite_id": 19677,
-            "item_enhancement_type": "Pilot",
-            "item_enhancement_value": 10.0,
-            "pixyship_estimate": 273
-        },
-        {
-            "item_id": "295365271",
-            "item_design_id": "1707",
-            "bonus_type": "Weapon",
-            "bonus_value": "4.2",
-            "quantity": "1",
-            "name": "Mach Sabatons",
-            "rarity": "Hero",
-            "item_sub_type": "EquipmentLeg",
-            "item_sprite_id": 19677,
-            "item_enhancement_type": "Pilot",
-            "item_enhancement_value": 10.0,
-            "pixyship_estimate": 285
         },
         {
             "item_id": "294842557",
