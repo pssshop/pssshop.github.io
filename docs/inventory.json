@@ -1,5 +1,5 @@
 {
-    "generated": "2026-01-11 23:37:33",
+    "generated": "2026-01-11 23:42:36",
     "item_count": 218,
     "items": [
         {
@@ -2535,7 +2535,7 @@
             "pixyship_estimate": 1001
         },
         {
-            "item_id": "297256279",
+            "item_id": "market-569660610",
             "item_design_id": "740",
             "bonus_type": "Stamina",
             "bonus_value": "17",
@@ -2544,8 +2544,7 @@
             "rarity": "Hero",
             "item_sub_type": "EquipmentWeapon",
             "item_sprite_id": 12596,
-            "item_enhancement_type": "Science",
-            "item_enhancement_value": 8.0,
+            "item_price": 250,
             "pixyship_estimate": 243
         },
         {
