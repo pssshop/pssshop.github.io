@@ -1,6 +1,6 @@
 {
-    "generated": "2026-01-12 07:52:10",
-    "item_count": 222,
+    "generated": "2026-01-12 16:12:34",
+    "item_count": 218,
     "items": [
         {
             "item_id": "290509714",
@@ -266,7 +266,7 @@
             "item_sprite_id": 9983,
             "item_enhancement_type": "Ability",
             "item_enhancement_value": 19.0,
-            "pixyship_estimate": 480
+            "pixyship_estimate": 461
         },
         {
             "item_id": "295085352",
@@ -549,20 +549,6 @@
             "pixyship_estimate": 2365
         },
         {
-            "item_id": "295980065",
-            "item_design_id": "796",
-            "bonus_type": "Pilot",
-            "bonus_value": "7.5",
-            "quantity": "1",
-            "name": "Daft Dad Kittus Helmet",
-            "rarity": "Hero",
-            "item_sub_type": "EquipmentHead",
-            "item_sprite_id": 12566,
-            "item_enhancement_type": "Attack",
-            "item_enhancement_value": 0.8,
-            "pixyship_estimate": 179
-        },
-        {
             "item_id": "293972240",
             "item_design_id": "169",
             "bonus_type": "Ability",
@@ -717,7 +703,7 @@
             "pixyship_estimate": 512
         },
         {
-            "item_id": "market-569632327",
+            "item_id": "297365792",
             "item_design_id": "169",
             "bonus_type": "Stamina",
             "bonus_value": "19",
@@ -726,7 +712,8 @@
             "rarity": "Hero",
             "item_sub_type": "EquipmentBody",
             "item_sprite_id": 4819,
-            "item_price": 450,
+            "item_enhancement_type": "Hp",
+            "item_enhancement_value": 3.0,
             "pixyship_estimate": 512
         },
         {
@@ -924,20 +911,6 @@
             "item_enhancement_type": "Engine",
             "item_enhancement_value": 7.0,
             "pixyship_estimate": 607
-        },
-        {
-            "item_id": "296406487",
-            "item_design_id": "1215",
-            "bonus_type": "Hp",
-            "bonus_value": "1",
-            "quantity": "1",
-            "name": "Extendo-Clamp Plus",
-            "rarity": "Hero",
-            "item_sub_type": "EquipmentWeapon",
-            "item_sprite_id": 16605,
-            "item_enhancement_type": "Engine",
-            "item_enhancement_value": 7.0,
-            "pixyship_estimate": 186
         },
         {
             "item_id": "294242826",
@@ -1665,20 +1638,6 @@
             "item_enhancement_type": "Ability",
             "item_enhancement_value": 17.0,
             "pixyship_estimate": 2101
-        },
-        {
-            "item_id": "296180343",
-            "item_design_id": "727",
-            "bonus_type": "Science",
-            "bonus_value": "5.4",
-            "quantity": "1",
-            "name": "La Paula",
-            "rarity": "Hero",
-            "item_sub_type": "EquipmentWeapon",
-            "item_sprite_id": 12544,
-            "item_enhancement_type": "Ability",
-            "item_enhancement_value": 17.0,
-            "pixyship_estimate": 628
         },
         {
             "item_id": "294684742",
@@ -2507,7 +2466,7 @@
             "pixyship_estimate": 581
         },
         {
-            "item_id": "296293994",
+            "item_id": "market-569697620",
             "item_design_id": "933",
             "bonus_type": "Repair",
             "bonus_value": "0.6",
@@ -2516,8 +2475,7 @@
             "rarity": "Hero",
             "item_sub_type": "EquipmentBody",
             "item_sprite_id": 13939,
-            "item_enhancement_type": "Weapon",
-            "item_enhancement_value": 8.0,
+            "item_price": 250,
             "pixyship_estimate": 216
         },
         {
@@ -2589,19 +2547,6 @@
             "item_enhancement_type": "Hp",
             "item_enhancement_value": 4.0,
             "pixyship_estimate": 1001
-        },
-        {
-            "item_id": "market-569660610",
-            "item_design_id": "740",
-            "bonus_type": "Stamina",
-            "bonus_value": "17",
-            "quantity": "1",
-            "name": "Storm Lance",
-            "rarity": "Hero",
-            "item_sub_type": "EquipmentWeapon",
-            "item_sprite_id": 12596,
-            "item_price": 250,
-            "pixyship_estimate": 243
         },
         {
             "item_id": "291315274",
