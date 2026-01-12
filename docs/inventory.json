@@ -1,5 +1,5 @@
 {
-    "generated": "2026-01-12 07:29:06",
+    "generated": "2026-01-12 07:49:46",
     "item_count": 222,
     "items": [
         {
@@ -982,7 +982,7 @@
             "pixyship_estimate": 816
         },
         {
-            "item_id": "297343898",
+            "item_id": "market-569685905",
             "item_design_id": "1181",
             "bonus_type": "Weapon",
             "bonus_value": "5.8",
@@ -991,8 +991,7 @@
             "rarity": "Hero",
             "item_sub_type": "EquipmentWeapon",
             "item_sprite_id": 16432,
-            "item_enhancement_type": "Weapon",
-            "item_enhancement_value": 7.0,
+            "item_price": 11111,
             "pixyship_estimate": 10682
         },
         {
