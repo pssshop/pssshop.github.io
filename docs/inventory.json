@@ -1,6 +1,6 @@
 {
-    "generated": "2026-01-13 03:14:50",
-    "item_count": 216,
+    "generated": "2026-01-13 05:03:07",
+    "item_count": 219,
     "items": [
         {
             "item_id": "290509714",
@@ -869,6 +869,20 @@
             "item_enhancement_type": "Stamina",
             "item_enhancement_value": 35.0,
             "pixyship_estimate": 164
+        },
+        {
+            "item_id": "297394399",
+            "item_design_id": "508",
+            "bonus_type": "Stamina",
+            "bonus_value": "14",
+            "quantity": "1",
+            "name": "Detritus Master Helm",
+            "rarity": "Hero",
+            "item_sub_type": "EquipmentHead",
+            "item_sprite_id": 10306,
+            "item_enhancement_type": "Repair",
+            "item_enhancement_value": 1.0,
+            "pixyship_estimate": 153
         },
         {
             "item_id": "market-569718465",
@@ -2017,6 +2031,20 @@
             "pixyship_estimate": 1123
         },
         {
+            "item_id": "297394572",
+            "item_design_id": "1000",
+            "bonus_type": "Hp",
+            "bonus_value": "2",
+            "quantity": "1",
+            "name": "Overhauled Boots",
+            "rarity": "Hero",
+            "item_sub_type": "EquipmentLeg",
+            "item_sprite_id": 15249,
+            "item_enhancement_type": "Engine",
+            "item_enhancement_value": 8.0,
+            "pixyship_estimate": 1552
+        },
+        {
             "item_id": "293267327",
             "item_design_id": "1010",
             "bonus_type": "FireResistance",
@@ -2700,6 +2728,20 @@
             "item_enhancement_type": "Ability",
             "item_enhancement_value": 20.0,
             "pixyship_estimate": 675
+        },
+        {
+            "item_id": "297395881",
+            "item_design_id": "802",
+            "bonus_type": "Hp",
+            "bonus_value": "2",
+            "quantity": "1",
+            "name": "Unobtainium Heavy Assault Armor ",
+            "rarity": "Hero",
+            "item_sub_type": "EquipmentBody",
+            "item_sprite_id": 3757,
+            "item_enhancement_type": "Ability",
+            "item_enhancement_value": 20.0,
+            "pixyship_estimate": 990
         },
         {
             "item_id": "292979484",
