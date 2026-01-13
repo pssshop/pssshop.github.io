@@ -1,6 +1,6 @@
 {
-    "generated": "2026-01-13 07:57:52",
-    "item_count": 217,
+    "generated": "2026-01-13 08:01:38",
+    "item_count": 219,
     "items": [
         {
             "item_id": "290509714",
@@ -1849,6 +1849,20 @@
             "pixyship_estimate": 2837
         },
         {
+            "item_id": "297402586",
+            "item_design_id": "1707",
+            "bonus_type": "Repair",
+            "bonus_value": "0.2",
+            "quantity": "1",
+            "name": "Mach Sabatons",
+            "rarity": "Hero",
+            "item_sub_type": "EquipmentLeg",
+            "item_sprite_id": 19677,
+            "item_enhancement_type": "Pilot",
+            "item_enhancement_value": 10.0,
+            "pixyship_estimate": 359
+        },
+        {
             "item_id": "294842557",
             "item_design_id": "1177",
             "bonus_type": "Ability",
@@ -1959,6 +1973,20 @@
             "item_enhancement_type": "Engine",
             "item_enhancement_value": 8.0,
             "pixyship_estimate": 407
+        },
+        {
+            "item_id": "297402592",
+            "item_design_id": "1001",
+            "bonus_type": "Engine",
+            "bonus_value": "4.7",
+            "quantity": "1",
+            "name": "Overhauled Armor",
+            "rarity": "Hero",
+            "item_sub_type": "EquipmentBody",
+            "item_sprite_id": 15251,
+            "item_enhancement_type": "Engine",
+            "item_enhancement_value": 8.0,
+            "pixyship_estimate": 2358
         },
         {
             "item_id": "287200512",
