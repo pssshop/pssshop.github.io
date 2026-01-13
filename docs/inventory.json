@@ -1,6 +1,6 @@
 {
-    "generated": "2026-01-12 16:12:34",
-    "item_count": 218,
+    "generated": "2026-01-12 19:44:02",
+    "item_count": 215,
     "items": [
         {
             "item_id": "290509714",
@@ -857,7 +857,7 @@
             "pixyship_estimate": 164
         },
         {
-            "item_id": "293652506",
+            "item_id": "market-569718465",
             "item_design_id": "1215",
             "bonus_type": "Ability",
             "bonus_value": "7.7",
@@ -866,8 +866,7 @@
             "rarity": "Hero",
             "item_sub_type": "EquipmentWeapon",
             "item_sprite_id": 16605,
-            "item_enhancement_type": "Engine",
-            "item_enhancement_value": 7.0,
+            "item_price": 270,
             "pixyship_estimate": 270
         },
         {
@@ -1178,20 +1177,6 @@
             "pixyship_estimate": 390
         },
         {
-            "item_id": "291128872",
-            "item_design_id": "163",
-            "bonus_type": "Pilot",
-            "bonus_value": "8",
-            "quantity": "1",
-            "name": "Golden Cai Dao",
-            "rarity": "Hero",
-            "item_sub_type": "EquipmentWeapon",
-            "item_sprite_id": 5007,
-            "item_enhancement_type": "Attack",
-            "item_enhancement_value": 0.6,
-            "pixyship_estimate": 263
-        },
-        {
             "item_id": "295643530",
             "item_design_id": "163",
             "bonus_type": "Weapon",
@@ -1288,20 +1273,6 @@
             "item_enhancement_type": "Attack",
             "item_enhancement_value": 0.6,
             "pixyship_estimate": 247
-        },
-        {
-            "item_id": "296505367",
-            "item_design_id": "1711",
-            "bonus_type": "Hp",
-            "bonus_value": "1",
-            "quantity": "1",
-            "name": "Hand Solo",
-            "rarity": "Hero",
-            "item_sub_type": "EquipmentWeapon",
-            "item_sprite_id": 19668,
-            "item_enhancement_type": "Pilot",
-            "item_enhancement_value": 7.0,
-            "pixyship_estimate": 256
         },
         {
             "item_id": "296435947",
@@ -1903,7 +1874,7 @@
             "item_sprite_id": 16441,
             "item_enhancement_type": "Weapon",
             "item_enhancement_value": 6.0,
-            "pixyship_estimate": 365
+            "pixyship_estimate": 366
         },
         {
             "item_id": "283080486",
@@ -2464,19 +2435,6 @@
             "item_enhancement_type": "Weapon",
             "item_enhancement_value": 8.0,
             "pixyship_estimate": 581
-        },
-        {
-            "item_id": "market-569697620",
-            "item_design_id": "933",
-            "bonus_type": "Repair",
-            "bonus_value": "0.6",
-            "quantity": "1",
-            "name": "Red Marksman Jacket",
-            "rarity": "Hero",
-            "item_sub_type": "EquipmentBody",
-            "item_sprite_id": 13939,
-            "item_price": 250,
-            "pixyship_estimate": 216
         },
         {
             "item_id": "293660626",
