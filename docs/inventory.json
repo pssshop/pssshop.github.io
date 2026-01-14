@@ -1,6 +1,6 @@
 {
-    "generated": "2026-01-14 06:31:05",
-    "item_count": 220,
+    "generated": "2026-01-14 07:57:22",
+    "item_count": 219,
     "items": [
         {
             "item_id": "290509714",
@@ -857,20 +857,6 @@
             "pixyship_estimate": 164
         },
         {
-            "item_id": "297394399",
-            "item_design_id": "508",
-            "bonus_type": "Stamina",
-            "bonus_value": "14",
-            "quantity": "1",
-            "name": "Detritus Master Helm",
-            "rarity": "Hero",
-            "item_sub_type": "EquipmentHead",
-            "item_sprite_id": 10306,
-            "item_enhancement_type": "Repair",
-            "item_enhancement_value": 1.0,
-            "pixyship_estimate": 153
-        },
-        {
             "item_id": "278156341",
             "item_design_id": "1215",
             "bonus_type": "Engine",
@@ -1011,7 +997,7 @@
             "pixyship_estimate": 450
         },
         {
-            "item_id": "market-569765398",
+            "item_id": "297457369",
             "item_design_id": "163",
             "bonus_type": "Ability",
             "bonus_value": "10.1",
@@ -1020,7 +1006,8 @@
             "rarity": "Hero",
             "item_sub_type": "EquipmentWeapon",
             "item_sprite_id": 5007,
-            "item_price": 300,
+            "item_enhancement_type": "Attack",
+            "item_enhancement_value": 0.6,
             "pixyship_estimate": 299
         },
         {
@@ -1357,7 +1344,7 @@
             "item_sprite_id": 11219,
             "item_enhancement_type": "Hp",
             "item_enhancement_value": 4.0,
-            "pixyship_estimate": 1520
+            "pixyship_estimate": 1524
         },
         {
             "item_id": "288704781",
@@ -2759,7 +2746,7 @@
             "pixyship_estimate": 990
         },
         {
-            "item_id": "292979484",
+            "item_id": "market-569835589",
             "item_design_id": "802",
             "bonus_type": "Hp",
             "bonus_value": "1",
@@ -2768,8 +2755,7 @@
             "rarity": "Hero",
             "item_sub_type": "EquipmentBody",
             "item_sprite_id": 3757,
-            "item_enhancement_type": "Ability",
-            "item_enhancement_value": 20.0,
+            "item_price": 400,
             "pixyship_estimate": 338
         },
         {
