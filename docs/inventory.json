@@ -1,6 +1,6 @@
 {
-    "generated": "2026-01-16 10:41:43",
-    "item_count": 218,
+    "generated": "2026-01-16 11:31:34",
+    "item_count": 217,
     "items": [
         {
             "item_id": "290509714",
@@ -1373,7 +1373,7 @@
             "pixyship_estimate": 737
         },
         {
-            "item_id": "297148877",
+            "item_id": "market-569992661",
             "item_design_id": "1493",
             "bonus_type": "Repair",
             "bonus_value": "0.3",
@@ -1382,8 +1382,7 @@
             "rarity": "Hero",
             "item_sub_type": "EquipmentWeapon",
             "item_sprite_id": 11219,
-            "item_enhancement_type": "Hp",
-            "item_enhancement_value": 4.0,
+            "item_price": 350,
             "pixyship_estimate": 303
         },
         {
@@ -1455,20 +1454,6 @@
             "item_enhancement_type": "Hp",
             "item_enhancement_value": 4.0,
             "pixyship_estimate": 433
-        },
-        {
-            "item_id": "295333908",
-            "item_design_id": "1493",
-            "bonus_type": "Stamina",
-            "bonus_value": "7",
-            "quantity": "1",
-            "name": "Immensity Gauntlet",
-            "rarity": "Hero",
-            "item_sub_type": "EquipmentWeapon",
-            "item_sprite_id": 11219,
-            "item_enhancement_type": "Hp",
-            "item_enhancement_value": 4.0,
-            "pixyship_estimate": 301
         },
         {
             "item_id": "295327964",
