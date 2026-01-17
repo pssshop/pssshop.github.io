@@ -1,6 +1,6 @@
 {
-    "generated": "2026-01-17 10:36:08",
-    "item_count": 217,
+    "generated": "2026-01-17 13:03:59",
+    "item_count": 219,
     "items": [
         {
             "item_id": "290509714",
@@ -617,6 +617,20 @@
             "item_enhancement_type": "Hp",
             "item_enhancement_value": 3.0,
             "pixyship_estimate": 479
+        },
+        {
+            "item_id": "297620338",
+            "item_design_id": "169",
+            "bonus_type": "Engine",
+            "bonus_value": "6.1",
+            "quantity": "1",
+            "name": "Dark Matter Armor",
+            "rarity": "Hero",
+            "item_sub_type": "EquipmentBody",
+            "item_sprite_id": 4819,
+            "item_enhancement_type": "Hp",
+            "item_enhancement_value": 3.0,
+            "pixyship_estimate": 950
         },
         {
             "item_id": "297308926",
@@ -1889,7 +1903,7 @@
             "item_sprite_id": 16441,
             "item_enhancement_type": "Weapon",
             "item_enhancement_value": 6.0,
-            "pixyship_estimate": 4068
+            "pixyship_estimate": 4079
         },
         {
             "item_id": "294237306",
@@ -2451,7 +2465,7 @@
             "pixyship_estimate": 610
         },
         {
-            "item_id": "294551448",
+            "item_id": "market-570074152",
             "item_design_id": "662",
             "bonus_type": "FireResistance",
             "bonus_value": "49.2",
@@ -2460,9 +2474,22 @@
             "rarity": "Hero",
             "item_sub_type": "EquipmentAccessory",
             "item_sprite_id": 11874,
+            "item_price": 3000,
+            "pixyship_estimate": 3023
+        },
+        {
+            "item_id": "297622738",
+            "item_design_id": "662",
+            "bonus_type": "Science",
+            "bonus_value": "8.3",
+            "quantity": "1",
+            "name": "Rocket Pig",
+            "rarity": "Hero",
+            "item_sub_type": "EquipmentAccessory",
+            "item_sprite_id": 11874,
             "item_enhancement_type": "Hp",
             "item_enhancement_value": 3.0,
-            "pixyship_estimate": 3023
+            "pixyship_estimate": 882
         },
         {
             "item_id": "294189205",
@@ -2532,7 +2559,7 @@
             "item_sprite_id": 13020,
             "item_enhancement_type": "FireResistance",
             "item_enhancement_value": 70.0,
-            "pixyship_estimate": 3155
+            "pixyship_estimate": 3140
         },
         {
             "item_id": "295368791",
