@@ -1,6 +1,6 @@
 {
-    "generated": "2026-01-17 13:03:59",
-    "item_count": 219,
+    "generated": "2026-01-17 16:27:05",
+    "item_count": 220,
     "items": [
         {
             "item_id": "290509714",
@@ -672,7 +672,7 @@
             "item_sprite_id": 4819,
             "item_enhancement_type": "Hp",
             "item_enhancement_value": 3.0,
-            "pixyship_estimate": 2981
+            "pixyship_estimate": 2999
         },
         {
             "item_id": "294323647",
@@ -2463,6 +2463,20 @@
             "item_enhancement_type": "Weapon",
             "item_enhancement_value": 8.0,
             "pixyship_estimate": 610
+        },
+        {
+            "item_id": "296352047",
+            "item_design_id": "662",
+            "bonus_type": "FireResistance",
+            "bonus_value": "57.3",
+            "quantity": "1",
+            "name": "Rocket Pig",
+            "rarity": "Hero",
+            "item_sub_type": "EquipmentAccessory",
+            "item_sprite_id": 11874,
+            "item_enhancement_type": "Hp",
+            "item_enhancement_value": 3.0,
+            "pixyship_estimate": 5205
         },
         {
             "item_id": "market-570074152",
