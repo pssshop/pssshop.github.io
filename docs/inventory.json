@@ -1,6 +1,6 @@
 {
-    "generated": "2026-01-17 16:27:05",
-    "item_count": 220,
+    "generated": "2026-01-17 22:17:43",
+    "item_count": 222,
     "items": [
         {
             "item_id": "290509714",
@@ -757,6 +757,20 @@
             "item_enhancement_type": "Hp",
             "item_enhancement_value": 3.0,
             "pixyship_estimate": 512
+        },
+        {
+            "item_id": "296838236",
+            "item_design_id": "169",
+            "bonus_type": "Weapon",
+            "bonus_value": "5.3",
+            "quantity": "1",
+            "name": "Dark Matter Armor",
+            "rarity": "Hero",
+            "item_sub_type": "EquipmentBody",
+            "item_sprite_id": 4819,
+            "item_enhancement_type": "Hp",
+            "item_enhancement_value": 3.0,
+            "pixyship_estimate": 665
         },
         {
             "item_id": "297508917",
@@ -1584,6 +1598,20 @@
             "pixyship_estimate": 376
         },
         {
+            "item_id": "297632089",
+            "item_design_id": "727",
+            "bonus_type": "Repair",
+            "bonus_value": "0.3",
+            "quantity": "1",
+            "name": "La Paula",
+            "rarity": "Hero",
+            "item_sub_type": "EquipmentWeapon",
+            "item_sprite_id": 12544,
+            "item_enhancement_type": "Ability",
+            "item_enhancement_value": 17.0,
+            "pixyship_estimate": 317
+        },
+        {
             "item_id": "297616224",
             "item_design_id": "727",
             "bonus_type": "Science",
@@ -1903,7 +1931,7 @@
             "item_sprite_id": 16441,
             "item_enhancement_type": "Weapon",
             "item_enhancement_value": 6.0,
-            "pixyship_estimate": 4079
+            "pixyship_estimate": 4015
         },
         {
             "item_id": "294237306",
@@ -2340,7 +2368,7 @@
             "pixyship_estimate": 817
         },
         {
-            "item_id": "market-570023281",
+            "item_id": "297643226",
             "item_design_id": "490",
             "bonus_type": "Hp",
             "bonus_value": "2",
@@ -2349,7 +2377,8 @@
             "rarity": "Hero",
             "item_sub_type": "EquipmentAccessory",
             "item_sprite_id": 10288,
-            "item_price": 1000,
+            "item_enhancement_type": "Engine",
+            "item_enhancement_value": 11.0,
             "pixyship_estimate": 817
         },
         {
