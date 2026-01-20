@@ -410,8 +410,13 @@ function App() {
                     const aBlank = isNaN(aPrice) || aPrice === 0;
                     const bBlank = isNaN(bPrice) || bPrice === 0;
                     if (aBlank && bBlank) return 0;
-                    if (aBlank) return 1;
-                    if (bBlank) return -1;
+                    if (dir === 1) { // ascending: blanks/zeroes first
+                        if (aBlank) return -1;
+                        if (bBlank) return 1;
+                    } else { // descending: blanks/zeroes last
+                        if (aBlank) return 1;
+                        if (bBlank) return -1;
+                    }
                     if (aPrice < bPrice) return -1 * dir;
                     if (aPrice > bPrice) return 1 * dir;
                     return 0;
