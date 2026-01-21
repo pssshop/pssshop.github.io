@@ -1,5 +1,5 @@
 {
-    "generated": "2026-01-20 20:59:03",
+    "generated": "2026-01-20 23:04:55",
     "item_count": 225,
     "items": [
         {
@@ -967,20 +967,6 @@
             "item_enhancement_type": "Engine",
             "item_enhancement_value": 7.0,
             "pixyship_estimate": 285
-        },
-        {
-            "item_id": "290879502",
-            "item_design_id": "1215",
-            "bonus_type": "Hp",
-            "bonus_value": "2",
-            "quantity": "1",
-            "name": "Extendo-Clamp Plus",
-            "rarity": "Hero",
-            "item_sub_type": "EquipmentWeapon",
-            "item_sprite_id": 16605,
-            "item_enhancement_type": "Engine",
-            "item_enhancement_value": 7.0,
-            "pixyship_estimate": 666
         },
         {
             "item_id": "294242826",
@@ -2618,6 +2604,20 @@
             "pixyship_estimate": 216
         },
         {
+            "item_id": "297808578",
+            "item_design_id": "740",
+            "bonus_type": "Pilot",
+            "bonus_value": "8.3",
+            "quantity": "1",
+            "name": "Storm Lance",
+            "rarity": "Hero",
+            "item_sub_type": "EquipmentWeapon",
+            "item_sprite_id": 12596,
+            "item_enhancement_type": "Science",
+            "item_enhancement_value": 8.0,
+            "pixyship_estimate": 251
+        },
+        {
             "item_id": "291315274",
             "item_design_id": "808",
             "bonus_type": "Ability",
@@ -2825,7 +2825,7 @@
             "item_sprite_id": 3757,
             "item_enhancement_type": "Ability",
             "item_enhancement_value": 20.0,
-            "pixyship_estimate": 990
+            "pixyship_estimate": 993
         },
         {
             "item_id": "297505133",
