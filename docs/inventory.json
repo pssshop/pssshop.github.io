@@ -1,6 +1,6 @@
 {
-    "generated": "2026-01-20 23:04:55",
-    "item_count": 225,
+    "generated": "2026-01-21 07:43:04",
+    "item_count": 226,
     "items": [
         {
             "item_id": "290509714",
@@ -56,7 +56,7 @@
             "item_sprite_id": 19814,
             "item_enhancement_type": "Hp",
             "item_enhancement_value": 4.0,
-            "pixyship_estimate": 4771
+            "pixyship_estimate": 4776
         },
         {
             "item_id": "293972288",
@@ -645,6 +645,20 @@
             "item_enhancement_type": "Hp",
             "item_enhancement_value": 3.0,
             "pixyship_estimate": 479
+        },
+        {
+            "item_id": "297828966",
+            "item_design_id": "169",
+            "bonus_type": "Engine",
+            "bonus_value": "7.2",
+            "quantity": "1",
+            "name": "Dark Matter Armor",
+            "rarity": "Hero",
+            "item_sub_type": "EquipmentBody",
+            "item_sprite_id": 4819,
+            "item_enhancement_type": "Hp",
+            "item_enhancement_value": 3.0,
+            "pixyship_estimate": 613
         },
         {
             "item_id": "297620338",
@@ -1483,7 +1497,7 @@
             "item_sprite_id": 11219,
             "item_enhancement_type": "Hp",
             "item_enhancement_value": 4.0,
-            "pixyship_estimate": 460
+            "pixyship_estimate": 459
         },
         {
             "item_id": "292260382",
@@ -1931,7 +1945,7 @@
             "item_sprite_id": 16441,
             "item_enhancement_type": "Weapon",
             "item_enhancement_value": 6.0,
-            "pixyship_estimate": 529
+            "pixyship_estimate": 537
         },
         {
             "item_id": "297342999",
@@ -2535,7 +2549,7 @@
             "pixyship_estimate": 3023
         },
         {
-            "item_id": "market-570269794",
+            "item_id": "297828939",
             "item_design_id": "662",
             "bonus_type": "Science",
             "bonus_value": "8.3",
@@ -2544,7 +2558,8 @@
             "rarity": "Hero",
             "item_sub_type": "EquipmentAccessory",
             "item_sprite_id": 11874,
-            "item_price": 1750,
+            "item_enhancement_type": "Hp",
+            "item_enhancement_value": 3.0,
             "pixyship_estimate": 882
         },
         {
