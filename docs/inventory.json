@@ -1,6 +1,6 @@
 {
-    "generated": "2026-01-20 17:01:40",
-    "item_count": 223,
+    "generated": "2026-01-20 20:59:03",
+    "item_count": 225,
     "items": [
         {
             "item_id": "290509714",
@@ -127,6 +127,20 @@
             "item_enhancement_type": "Attack",
             "item_enhancement_value": 0.6,
             "pixyship_estimate": 2875
+        },
+        {
+            "item_id": "297801535",
+            "item_design_id": "290",
+            "bonus_type": "Hp",
+            "bonus_value": "1",
+            "quantity": "1",
+            "name": "Raven Swarm",
+            "rarity": "Special",
+            "item_sub_type": "EquipmentAccessory",
+            "item_sprite_id": 8031,
+            "item_enhancement_type": "Attack",
+            "item_enhancement_value": 0.6,
+            "pixyship_estimate": 1769
         },
         {
             "item_id": "293920704",
@@ -281,6 +295,20 @@
             "item_enhancement_type": "Ability",
             "item_enhancement_value": 19.0,
             "pixyship_estimate": 415
+        },
+        {
+            "item_id": "297804374",
+            "item_design_id": "435",
+            "bonus_type": "Science",
+            "bonus_value": "5.3",
+            "quantity": "1",
+            "name": "Aldara",
+            "rarity": "Hero",
+            "item_sub_type": "EquipmentAccessory",
+            "item_sprite_id": 9983,
+            "item_enhancement_type": "Ability",
+            "item_enhancement_value": 19.0,
+            "pixyship_estimate": 653
         },
         {
             "item_id": "287828556",
@@ -672,7 +700,7 @@
             "item_sprite_id": 4819,
             "item_enhancement_type": "Hp",
             "item_enhancement_value": 3.0,
-            "pixyship_estimate": 2999
+            "pixyship_estimate": 3154
         },
         {
             "item_id": "294323647",
@@ -868,7 +896,7 @@
             "item_sprite_id": 7432,
             "item_enhancement_type": "Hp",
             "item_enhancement_value": 3.0,
-            "pixyship_estimate": 675
+            "pixyship_estimate": 765
         },
         {
             "item_id": "296152197",
@@ -1693,7 +1721,7 @@
             "item_sprite_id": 12544,
             "item_enhancement_type": "Ability",
             "item_enhancement_value": 17.0,
-            "pixyship_estimate": 4409
+            "pixyship_estimate": 3501
         },
         {
             "item_id": "291532390",
