@@ -1,5 +1,5 @@
 {
-    "generated": "2026-01-22 21:33:12",
+    "generated": "2026-01-22 21:41:28",
     "item_count": 228,
     "items": [
         {
@@ -1092,7 +1092,7 @@
             "item_sprite_id": 5007,
             "item_enhancement_type": "Attack",
             "item_enhancement_value": 0.6,
-            "pixyship_estimate": 663
+            "pixyship_estimate": 664
         },
         {
             "item_id": "296671726",
@@ -1106,7 +1106,7 @@
             "item_sprite_id": 5007,
             "item_enhancement_type": "Attack",
             "item_enhancement_value": 0.6,
-            "pixyship_estimate": 663
+            "pixyship_estimate": 664
         },
         {
             "item_id": "296382862",
