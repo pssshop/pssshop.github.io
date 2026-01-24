@@ -1,6 +1,6 @@
 {
-    "generated": "2026-01-23 23:29:12",
-    "item_count": 229,
+    "generated": "2026-01-24 11:53:09",
+    "item_count": 228,
     "items": [
         {
             "item_id": "290509714",
@@ -31,7 +31,7 @@
             "pixyship_estimate": 3310
         },
         {
-            "item_id": "market-570473481",
+            "item_id": "297974689",
             "item_design_id": "1718",
             "bonus_type": "Pilot",
             "bonus_value": "7.7",
@@ -40,7 +40,8 @@
             "rarity": "Special",
             "item_sub_type": "EquipmentAccessory",
             "item_sprite_id": 19814,
-            "item_price": 3000,
+            "item_enhancement_type": "Hp",
+            "item_enhancement_value": 4.0,
             "pixyship_estimate": 2696
         },
         {
@@ -142,7 +143,7 @@
             "pixyship_estimate": 711
         },
         {
-            "item_id": "297614060",
+            "item_id": "market-570547973",
             "item_design_id": "1749",
             "bonus_type": "Pilot",
             "bonus_value": "9.7",
@@ -151,8 +152,7 @@
             "rarity": "Special",
             "item_sub_type": "EquipmentWeapon",
             "item_sprite_id": 20082,
-            "item_enhancement_type": "Ability",
-            "item_enhancement_value": 21.0,
+            "item_price": 11500,
             "pixyship_estimate": 10352
         },
         {
@@ -293,7 +293,7 @@
             "item_sprite_id": 9983,
             "item_enhancement_type": "Ability",
             "item_enhancement_value": 19.0,
-            "pixyship_estimate": 415
+            "pixyship_estimate": 414
         },
         {
             "item_id": "297804374",
@@ -321,7 +321,7 @@
             "item_sprite_id": 9983,
             "item_enhancement_type": "Ability",
             "item_enhancement_value": 19.0,
-            "pixyship_estimate": 459
+            "pixyship_estimate": 468
         },
         {
             "item_id": "295085352",
@@ -1665,7 +1665,7 @@
             "item_sprite_id": 12544,
             "item_enhancement_type": "Ability",
             "item_enhancement_value": 17.0,
-            "pixyship_estimate": 1986
+            "pixyship_estimate": 872
         },
         {
             "item_id": "294684742",
@@ -2113,7 +2113,7 @@
             "item_sprite_id": 14738,
             "item_enhancement_type": "Science",
             "item_enhancement_value": 11.0,
-            "pixyship_estimate": 323
+            "pixyship_estimate": 316
         },
         {
             "item_id": "292574030",
@@ -2578,7 +2578,7 @@
             "pixyship_estimate": 3445
         },
         {
-            "item_id": "297828939",
+            "item_id": "market-570549113",
             "item_design_id": "662",
             "bonus_type": "Science",
             "bonus_value": "8.3",
@@ -2587,8 +2587,7 @@
             "rarity": "Hero",
             "item_sub_type": "EquipmentAccessory",
             "item_sprite_id": 11874,
-            "item_enhancement_type": "Hp",
-            "item_enhancement_value": 3.0,
+            "item_price": 1750,
             "pixyship_estimate": 882
         },
         {
@@ -2816,20 +2815,6 @@
             "pixyship_estimate": 358
         },
         {
-            "item_id": "294172589",
-            "item_design_id": "802",
-            "bonus_type": "Attack",
-            "bonus_value": "0.3",
-            "quantity": "1",
-            "name": "Unobtainium Heavy Assault Armor ",
-            "rarity": "Hero",
-            "item_sub_type": "EquipmentBody",
-            "item_sprite_id": 3757,
-            "item_enhancement_type": "Ability",
-            "item_enhancement_value": 20.0,
-            "pixyship_estimate": 358
-        },
-        {
             "item_id": "291315321",
             "item_design_id": "802",
             "bonus_type": "FireResistance",
@@ -2939,7 +2924,7 @@
             "item_sprite_id": 3757,
             "item_enhancement_type": "Ability",
             "item_enhancement_value": 20.0,
-            "pixyship_estimate": 1222
+            "pixyship_estimate": 1221
         },
         {
             "item_id": "297836389",
