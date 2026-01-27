@@ -1,6 +1,6 @@
 {
-    "generated": "2026-01-26 09:49:21",
-    "item_count": 233,
+    "generated": "2026-01-26 20:20:39",
+    "item_count": 232,
     "items": [
         {
             "item_id": "290509714",
@@ -210,7 +210,7 @@
             "item_sprite_id": 9983,
             "item_enhancement_type": "Ability",
             "item_enhancement_value": 19.0,
-            "pixyship_estimate": 868
+            "pixyship_estimate": 866
         },
         {
             "item_id": "297392191",
@@ -224,7 +224,7 @@
             "item_sprite_id": 9983,
             "item_enhancement_type": "Ability",
             "item_enhancement_value": 19.0,
-            "pixyship_estimate": 868
+            "pixyship_estimate": 866
         },
         {
             "item_id": "297931833",
@@ -280,7 +280,7 @@
             "item_sprite_id": 9983,
             "item_enhancement_type": "Ability",
             "item_enhancement_value": 19.0,
-            "pixyship_estimate": 410
+            "pixyship_estimate": 409
         },
         {
             "item_id": "291818514",
@@ -295,20 +295,6 @@
             "item_enhancement_type": "Ability",
             "item_enhancement_value": 19.0,
             "pixyship_estimate": 414
-        },
-        {
-            "item_id": "297804374",
-            "item_design_id": "435",
-            "bonus_type": "Science",
-            "bonus_value": "5.3",
-            "quantity": "1",
-            "name": "Aldara",
-            "rarity": "Hero",
-            "item_sub_type": "EquipmentAccessory",
-            "item_sprite_id": 9983,
-            "item_enhancement_type": "Ability",
-            "item_enhancement_value": 19.0,
-            "pixyship_estimate": 650
         },
         {
             "item_id": "287828556",
@@ -1190,7 +1176,7 @@
             "item_sprite_id": 5007,
             "item_enhancement_type": "Attack",
             "item_enhancement_value": 0.6,
-            "pixyship_estimate": 687
+            "pixyship_estimate": 681
         },
         {
             "item_id": "291005979",
@@ -1609,7 +1595,7 @@
             "item_sprite_id": 12544,
             "item_enhancement_type": "Ability",
             "item_enhancement_value": 17.0,
-            "pixyship_estimate": 360
+            "pixyship_estimate": 355
         },
         {
             "item_id": "298044973",
@@ -1987,7 +1973,7 @@
             "item_sprite_id": 16441,
             "item_enhancement_type": "Weapon",
             "item_enhancement_value": 6.0,
-            "pixyship_estimate": 537
+            "pixyship_estimate": 538
         },
         {
             "item_id": "297342999",
@@ -2214,7 +2200,7 @@
             "pixyship_estimate": 762
         },
         {
-            "item_id": "market-570683080",
+            "item_id": "market-570769554",
             "item_design_id": "953",
             "bonus_type": "Hp",
             "bonus_value": "1",
@@ -2223,7 +2209,7 @@
             "rarity": "Hero",
             "item_sub_type": "EquipmentLeg",
             "item_sprite_id": 14561,
-            "item_price": 1000,
+            "item_price": 750,
             "pixyship_estimate": 562
         },
         {
@@ -2490,7 +2476,7 @@
             "item_sprite_id": 10288,
             "item_enhancement_type": "Engine",
             "item_enhancement_value": 11.0,
-            "pixyship_estimate": 836
+            "pixyship_estimate": 834
         },
         {
             "item_id": "297643226",
@@ -2504,7 +2490,7 @@
             "item_sprite_id": 10288,
             "item_enhancement_type": "Engine",
             "item_enhancement_value": 11.0,
-            "pixyship_estimate": 836
+            "pixyship_estimate": 834
         },
         {
             "item_id": "278518325",
