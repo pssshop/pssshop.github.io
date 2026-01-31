@@ -1,6 +1,6 @@
 {
-    "generated": "2026-01-30 19:35:33",
-    "item_count": 231,
+    "generated": "2026-01-30 22:36:39",
+    "item_count": 233,
     "items": [
         {
             "item_id": "290509714",
@@ -280,7 +280,7 @@
             "item_sprite_id": 9983,
             "item_enhancement_type": "Ability",
             "item_enhancement_value": 19.0,
-            "pixyship_estimate": 409
+            "pixyship_estimate": 407
         },
         {
             "item_id": "291818514",
@@ -294,7 +294,7 @@
             "item_sprite_id": 9983,
             "item_enhancement_type": "Ability",
             "item_enhancement_value": 19.0,
-            "pixyship_estimate": 412
+            "pixyship_estimate": 394
         },
         {
             "item_id": "287828556",
@@ -717,7 +717,7 @@
             "pixyship_estimate": 312
         },
         {
-            "item_id": "market-571076108",
+            "item_id": "298388352",
             "item_design_id": "169",
             "bonus_type": "Repair",
             "bonus_value": "0.3",
@@ -726,7 +726,8 @@
             "rarity": "Hero",
             "item_sub_type": "EquipmentBody",
             "item_sprite_id": 4819,
-            "item_price": 275,
+            "item_enhancement_type": "Hp",
+            "item_enhancement_value": 3.0,
             "pixyship_estimate": 267
         },
         {
@@ -1091,7 +1092,7 @@
             "item_sprite_id": 5007,
             "item_enhancement_type": "Attack",
             "item_enhancement_value": 0.6,
-            "pixyship_estimate": 664
+            "pixyship_estimate": 625
         },
         {
             "item_id": "296671726",
@@ -1105,7 +1106,7 @@
             "item_sprite_id": 5007,
             "item_enhancement_type": "Attack",
             "item_enhancement_value": 0.6,
-            "pixyship_estimate": 664
+            "pixyship_estimate": 625
         },
         {
             "item_id": "296382862",
@@ -1458,7 +1459,7 @@
             "pixyship_estimate": 737
         },
         {
-            "item_id": "market-571076009",
+            "item_id": "298388350",
             "item_design_id": "1493",
             "bonus_type": "Pilot",
             "bonus_value": "5.8",
@@ -1467,7 +1468,8 @@
             "rarity": "Hero",
             "item_sub_type": "EquipmentWeapon",
             "item_sprite_id": 11219,
-            "item_price": 750,
+            "item_enhancement_type": "Hp",
+            "item_enhancement_value": 4.0,
             "pixyship_estimate": 603
         },
         {
@@ -1581,6 +1583,20 @@
             "item_enhancement_type": "Hp",
             "item_enhancement_value": 3.0,
             "pixyship_estimate": 942
+        },
+        {
+            "item_id": "298388353",
+            "item_design_id": "678",
+            "bonus_type": "Science",
+            "bonus_value": "8.8",
+            "quantity": "1",
+            "name": "King Husky",
+            "rarity": "Hero",
+            "item_sub_type": "EquipmentAccessory",
+            "item_sprite_id": 12025,
+            "item_enhancement_type": "Hp",
+            "item_enhancement_value": 3.0,
+            "pixyship_estimate": 2069
         },
         {
             "item_id": "297139296",
@@ -1835,6 +1851,20 @@
             "pixyship_estimate": 317
         },
         {
+            "item_id": "298388468",
+            "item_design_id": "1706",
+            "bonus_type": "Weapon",
+            "bonus_value": "2.5",
+            "quantity": "1",
+            "name": "Mach Flightsuit",
+            "rarity": "Hero",
+            "item_sub_type": "EquipmentBody",
+            "item_sprite_id": 19675,
+            "item_enhancement_type": "Pilot",
+            "item_enhancement_value": 12.0,
+            "pixyship_estimate": 353
+        },
+        {
             "item_id": "294229086",
             "item_design_id": "1705",
             "bonus_type": "Ability",
@@ -1986,7 +2016,7 @@
             "item_sprite_id": 16441,
             "item_enhancement_type": "Weapon",
             "item_enhancement_value": 6.0,
-            "pixyship_estimate": 354
+            "pixyship_estimate": 272
         },
         {
             "item_id": "283080486",
