@@ -1,6 +1,6 @@
 {
-    "generated": "2026-01-30 22:52:50",
-    "item_count": 232,
+    "generated": "2026-01-31 13:47:11",
+    "item_count": 234,
     "items": [
         {
             "item_id": "290509714",
@@ -14,7 +14,7 @@
             "item_sprite_id": 19814,
             "item_enhancement_type": "Hp",
             "item_enhancement_value": 4.0,
-            "pixyship_estimate": 2108
+            "pixyship_estimate": 2112
         },
         {
             "item_id": "289585417",
@@ -28,7 +28,7 @@
             "item_sprite_id": 19814,
             "item_enhancement_type": "Hp",
             "item_enhancement_value": 4.0,
-            "pixyship_estimate": 3146
+            "pixyship_estimate": 3162
         },
         {
             "item_id": "297974689",
@@ -42,7 +42,7 @@
             "item_sprite_id": 19814,
             "item_enhancement_type": "Hp",
             "item_enhancement_value": 4.0,
-            "pixyship_estimate": 2605
+            "pixyship_estimate": 2632
         },
         {
             "item_id": "293972288",
@@ -308,7 +308,7 @@
             "item_sprite_id": 9983,
             "item_enhancement_type": "Ability",
             "item_enhancement_value": 19.0,
-            "pixyship_estimate": 409
+            "pixyship_estimate": 406
         },
         {
             "item_id": "295085352",
@@ -955,6 +955,20 @@
             "pixyship_estimate": 164
         },
         {
+            "item_id": "298396285",
+            "item_design_id": "1215",
+            "bonus_type": "Engine",
+            "bonus_value": "7.2",
+            "quantity": "1",
+            "name": "Extendo-Clamp Plus",
+            "rarity": "Hero",
+            "item_sub_type": "EquipmentWeapon",
+            "item_sprite_id": 16605,
+            "item_enhancement_type": "Engine",
+            "item_enhancement_value": 7.0,
+            "pixyship_estimate": 6564
+        },
+        {
             "item_id": "290628339",
             "item_design_id": "1215",
             "bonus_type": "FireResistance",
@@ -967,6 +981,20 @@
             "item_enhancement_type": "Engine",
             "item_enhancement_value": 7.0,
             "pixyship_estimate": 285
+        },
+        {
+            "item_id": "298393450",
+            "item_design_id": "1181",
+            "bonus_type": "FireResistance",
+            "bonus_value": "48.7",
+            "quantity": "1",
+            "name": "Giga-Loader",
+            "rarity": "Hero",
+            "item_sub_type": "EquipmentWeapon",
+            "item_sprite_id": 16432,
+            "item_enhancement_type": "Weapon",
+            "item_enhancement_value": 7.0,
+            "pixyship_estimate": 800
         },
         {
             "item_id": "294242826",
@@ -1133,7 +1161,7 @@
             "item_sprite_id": 5007,
             "item_enhancement_type": "Attack",
             "item_enhancement_value": 0.6,
-            "pixyship_estimate": 1671
+            "pixyship_estimate": 1674
         },
         {
             "item_id": "294301759",
@@ -1147,7 +1175,7 @@
             "item_sprite_id": 5007,
             "item_enhancement_type": "Attack",
             "item_enhancement_value": 0.6,
-            "pixyship_estimate": 816
+            "pixyship_estimate": 817
         },
         {
             "item_id": "289965509",
@@ -1161,7 +1189,7 @@
             "item_sprite_id": 5007,
             "item_enhancement_type": "Attack",
             "item_enhancement_value": 0.6,
-            "pixyship_estimate": 607
+            "pixyship_estimate": 606
         },
         {
             "item_id": "291005979",
@@ -2001,7 +2029,7 @@
             "item_sprite_id": 16441,
             "item_enhancement_type": "Weapon",
             "item_enhancement_value": 6.0,
-            "pixyship_estimate": 364
+            "pixyship_estimate": 359
         },
         {
             "item_id": "289219708",
@@ -2114,19 +2142,6 @@
             "item_enhancement_type": "Engine",
             "item_enhancement_value": 8.0,
             "pixyship_estimate": 1528
-        },
-        {
-            "item_id": "market-571171724",
-            "item_design_id": "1000",
-            "bonus_type": "Attack",
-            "bonus_value": "0.3",
-            "quantity": "1",
-            "name": "Overhauled Boots",
-            "rarity": "Hero",
-            "item_sub_type": "EquipmentLeg",
-            "item_sprite_id": 15249,
-            "item_price": 500,
-            "pixyship_estimate": 341
         },
         {
             "item_id": "293177217",
@@ -2853,7 +2868,7 @@
             "item_sprite_id": 13020,
             "item_enhancement_type": "FireResistance",
             "item_enhancement_value": 70.0,
-            "pixyship_estimate": 157
+            "pixyship_estimate": 145
         },
         {
             "item_id": "298381597",
@@ -2955,6 +2970,20 @@
         },
         {
             "item_id": "297505133",
+            "item_design_id": "802",
+            "bonus_type": "Hp",
+            "bonus_value": "1",
+            "quantity": "1",
+            "name": "Unobtainium Heavy Assault Armor ",
+            "rarity": "Hero",
+            "item_sub_type": "EquipmentBody",
+            "item_sprite_id": 3757,
+            "item_enhancement_type": "Ability",
+            "item_enhancement_value": 20.0,
+            "pixyship_estimate": 363
+        },
+        {
+            "item_id": "298393480",
             "item_design_id": "802",
             "bonus_type": "Hp",
             "bonus_value": "1",
