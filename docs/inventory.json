@@ -1,6 +1,6 @@
 {
-    "generated": "2026-02-01 00:56:52",
-    "item_count": 240,
+    "generated": "2026-02-01 12:43:25",
+    "item_count": 241,
     "items": [
         {
             "item_id": "290509714",
@@ -210,7 +210,7 @@
             "item_sprite_id": 9983,
             "item_enhancement_type": "Ability",
             "item_enhancement_value": 19.0,
-            "pixyship_estimate": 4382
+            "pixyship_estimate": 4704
         },
         {
             "item_id": "297489337",
@@ -1595,7 +1595,7 @@
             "item_sprite_id": 11219,
             "item_enhancement_type": "Hp",
             "item_enhancement_value": 4.0,
-            "pixyship_estimate": 411
+            "pixyship_estimate": 412
         },
         {
             "item_id": "296805949",
@@ -1609,7 +1609,7 @@
             "item_sprite_id": 11219,
             "item_enhancement_type": "Hp",
             "item_enhancement_value": 4.0,
-            "pixyship_estimate": 411
+            "pixyship_estimate": 412
         },
         {
             "item_id": "295327964",
@@ -1693,7 +1693,7 @@
             "item_sprite_id": 12544,
             "item_enhancement_type": "Ability",
             "item_enhancement_value": 17.0,
-            "pixyship_estimate": 462
+            "pixyship_estimate": 486
         },
         {
             "item_id": "298044973",
@@ -1990,20 +1990,6 @@
             "pixyship_estimate": 509
         },
         {
-            "item_id": "296222719",
-            "item_design_id": "1707",
-            "bonus_type": "Ability",
-            "bonus_value": "9",
-            "quantity": "1",
-            "name": "Mach Sabatons",
-            "rarity": "Hero",
-            "item_sub_type": "EquipmentLeg",
-            "item_sprite_id": 19677,
-            "item_enhancement_type": "Pilot",
-            "item_enhancement_value": 10.0,
-            "pixyship_estimate": 974
-        },
-        {
             "item_id": "295548713",
             "item_design_id": "1707",
             "bonus_type": "Attack",
@@ -2057,7 +2043,7 @@
             "item_sprite_id": 16441,
             "item_enhancement_type": "Weapon",
             "item_enhancement_value": 6.0,
-            "pixyship_estimate": 359
+            "pixyship_estimate": 356
         },
         {
             "item_id": "289219708",
@@ -2183,7 +2169,7 @@
             "item_sprite_id": 15249,
             "item_enhancement_type": "Engine",
             "item_enhancement_value": 8.0,
-            "pixyship_estimate": 1123
+            "pixyship_estimate": 1116
         },
         {
             "item_id": "297394572",
@@ -2676,6 +2662,20 @@
             "pixyship_estimate": 332
         },
         {
+            "item_id": "298467082",
+            "item_design_id": "933",
+            "bonus_type": "Attack",
+            "bonus_value": "0.6",
+            "quantity": "1",
+            "name": "Red Marksman Jacket",
+            "rarity": "Hero",
+            "item_sub_type": "EquipmentBody",
+            "item_sprite_id": 13939,
+            "item_enhancement_type": "Weapon",
+            "item_enhancement_value": 8.0,
+            "pixyship_estimate": 328
+        },
+        {
             "item_id": "286413410",
             "item_design_id": "933",
             "bonus_type": "Attack",
@@ -2843,6 +2843,20 @@
             "pixyship_estimate": 828
         },
         {
+            "item_id": "298469910",
+            "item_design_id": "740",
+            "bonus_type": "Hp",
+            "bonus_value": "2",
+            "quantity": "1",
+            "name": "Storm Lance",
+            "rarity": "Hero",
+            "item_sub_type": "EquipmentWeapon",
+            "item_sprite_id": 12596,
+            "item_enhancement_type": "Science",
+            "item_enhancement_value": 8.0,
+            "pixyship_estimate": 898
+        },
+        {
             "item_id": "291315274",
             "item_design_id": "808",
             "bonus_type": "Ability",
@@ -2951,7 +2965,7 @@
             "item_sprite_id": 13020,
             "item_enhancement_type": "FireResistance",
             "item_enhancement_value": 70.0,
-            "pixyship_estimate": 256
+            "pixyship_estimate": 249
         },
         {
             "item_id": "292115333",
@@ -2965,7 +2979,7 @@
             "item_sprite_id": 13020,
             "item_enhancement_type": "FireResistance",
             "item_enhancement_value": 70.0,
-            "pixyship_estimate": 145
+            "pixyship_estimate": 143
         },
         {
             "item_id": "298381597",
