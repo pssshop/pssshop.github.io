@@ -1,6 +1,6 @@
 {
-    "generated": "2026-02-01 12:43:25",
-    "item_count": 241,
+    "generated": "2026-02-01 14:03:11",
+    "item_count": 266,
     "items": [
         {
             "item_id": "290509714",
@@ -185,6 +185,20 @@
             "pixyship_estimate": 10784
         },
         {
+            "item_id": "298507198",
+            "item_design_id": "435",
+            "bonus_type": "Attack",
+            "bonus_value": "0.3",
+            "quantity": "1",
+            "name": "Aldara",
+            "rarity": "Hero",
+            "item_sub_type": "EquipmentAccessory",
+            "item_sprite_id": 9983,
+            "item_enhancement_type": "Ability",
+            "item_enhancement_value": 19.0,
+            "pixyship_estimate": 418
+        },
+        {
             "item_id": "296385051",
             "item_design_id": "435",
             "bonus_type": "Engine",
@@ -309,6 +323,34 @@
             "item_enhancement_type": "Ability",
             "item_enhancement_value": 19.0,
             "pixyship_estimate": 394
+        },
+        {
+            "item_id": "298507197",
+            "item_design_id": "435",
+            "bonus_type": "Repair",
+            "bonus_value": "0.4",
+            "quantity": "1",
+            "name": "Aldara",
+            "rarity": "Hero",
+            "item_sub_type": "EquipmentAccessory",
+            "item_sprite_id": 9983,
+            "item_enhancement_type": "Ability",
+            "item_enhancement_value": 19.0,
+            "pixyship_estimate": 394
+        },
+        {
+            "item_id": "298507196",
+            "item_design_id": "435",
+            "bonus_type": "Science",
+            "bonus_value": "6.4",
+            "quantity": "1",
+            "name": "Aldara",
+            "rarity": "Hero",
+            "item_sub_type": "EquipmentAccessory",
+            "item_sprite_id": 9983,
+            "item_enhancement_type": "Ability",
+            "item_enhancement_value": 19.0,
+            "pixyship_estimate": 681
         },
         {
             "item_id": "287828556",
@@ -589,6 +631,20 @@
             "item_enhancement_type": "Attack",
             "item_enhancement_value": 0.7,
             "pixyship_estimate": 2365
+        },
+        {
+            "item_id": "298506554",
+            "item_design_id": "258",
+            "bonus_type": "Hp",
+            "bonus_value": "2",
+            "quantity": "1",
+            "name": "DMR MK II",
+            "rarity": "Hero",
+            "item_sub_type": "EquipmentWeapon",
+            "item_sprite_id": 7615,
+            "item_enhancement_type": "Attack",
+            "item_enhancement_value": 0.7,
+            "pixyship_estimate": 1088
         },
         {
             "item_id": "293972240",
@@ -983,7 +1039,49 @@
             "pixyship_estimate": 164
         },
         {
-            "item_id": "market-571232076",
+            "item_id": "298507271",
+            "item_design_id": "1215",
+            "bonus_type": "Attack",
+            "bonus_value": "0.4",
+            "quantity": "1",
+            "name": "Extendo-Clamp Plus",
+            "rarity": "Hero",
+            "item_sub_type": "EquipmentWeapon",
+            "item_sprite_id": 16605,
+            "item_enhancement_type": "Engine",
+            "item_enhancement_value": 7.0,
+            "pixyship_estimate": 215
+        },
+        {
+            "item_id": "298507217",
+            "item_design_id": "1215",
+            "bonus_type": "Attack",
+            "bonus_value": "0.2",
+            "quantity": "1",
+            "name": "Extendo-Clamp Plus",
+            "rarity": "Hero",
+            "item_sub_type": "EquipmentWeapon",
+            "item_sprite_id": 16605,
+            "item_enhancement_type": "Engine",
+            "item_enhancement_value": 7.0,
+            "pixyship_estimate": 189
+        },
+        {
+            "item_id": "298507273",
+            "item_design_id": "1215",
+            "bonus_type": "Attack",
+            "bonus_value": "0.2",
+            "quantity": "1",
+            "name": "Extendo-Clamp Plus",
+            "rarity": "Hero",
+            "item_sub_type": "EquipmentWeapon",
+            "item_sprite_id": 16605,
+            "item_enhancement_type": "Engine",
+            "item_enhancement_value": 7.0,
+            "pixyship_estimate": 189
+        },
+        {
+            "item_id": "298507195",
             "item_design_id": "1215",
             "bonus_type": "Engine",
             "bonus_value": "7.2",
@@ -992,8 +1090,23 @@
             "rarity": "Hero",
             "item_sub_type": "EquipmentWeapon",
             "item_sprite_id": 16605,
-            "item_price": 10000,
+            "item_enhancement_type": "Engine",
+            "item_enhancement_value": 7.0,
             "pixyship_estimate": 6564
+        },
+        {
+            "item_id": "298507216",
+            "item_design_id": "1215",
+            "bonus_type": "FireResistance",
+            "bonus_value": "58.2",
+            "quantity": "1",
+            "name": "Extendo-Clamp Plus",
+            "rarity": "Hero",
+            "item_sub_type": "EquipmentWeapon",
+            "item_sprite_id": 16605,
+            "item_enhancement_type": "Engine",
+            "item_enhancement_value": 7.0,
+            "pixyship_estimate": 341
         },
         {
             "item_id": "290628339",
@@ -1008,6 +1121,34 @@
             "item_enhancement_type": "Engine",
             "item_enhancement_value": 7.0,
             "pixyship_estimate": 285
+        },
+        {
+            "item_id": "298507239",
+            "item_design_id": "1215",
+            "bonus_type": "Repair",
+            "bonus_value": "0.5",
+            "quantity": "1",
+            "name": "Extendo-Clamp Plus",
+            "rarity": "Hero",
+            "item_sub_type": "EquipmentWeapon",
+            "item_sprite_id": 16605,
+            "item_enhancement_type": "Engine",
+            "item_enhancement_value": 7.0,
+            "pixyship_estimate": 184
+        },
+        {
+            "item_id": "298507272",
+            "item_design_id": "1215",
+            "bonus_type": "Stamina",
+            "bonus_value": "16",
+            "quantity": "1",
+            "name": "Extendo-Clamp Plus",
+            "rarity": "Hero",
+            "item_sub_type": "EquipmentWeapon",
+            "item_sprite_id": 16605,
+            "item_enhancement_type": "Engine",
+            "item_enhancement_value": 7.0,
+            "pixyship_estimate": 242
         },
         {
             "item_id": "298393450",
@@ -1766,6 +1907,20 @@
             "pixyship_estimate": 1018
         },
         {
+            "item_id": "298507208",
+            "item_design_id": "727",
+            "bonus_type": "Pilot",
+            "bonus_value": "3.8",
+            "quantity": "1",
+            "name": "La Paula",
+            "rarity": "Hero",
+            "item_sub_type": "EquipmentWeapon",
+            "item_sprite_id": 12544,
+            "item_enhancement_type": "Ability",
+            "item_enhancement_value": 17.0,
+            "pixyship_estimate": 879
+        },
+        {
             "item_id": "297585706",
             "item_design_id": "727",
             "bonus_type": "Repair",
@@ -1808,6 +1963,20 @@
             "pixyship_estimate": 872
         },
         {
+            "item_id": "298507207",
+            "item_design_id": "727",
+            "bonus_type": "Science",
+            "bonus_value": "7.2",
+            "quantity": "1",
+            "name": "La Paula",
+            "rarity": "Hero",
+            "item_sub_type": "EquipmentWeapon",
+            "item_sprite_id": 12544,
+            "item_enhancement_type": "Ability",
+            "item_enhancement_value": 17.0,
+            "pixyship_estimate": 1467
+        },
+        {
             "item_id": "294684742",
             "item_design_id": "727",
             "bonus_type": "Stamina",
@@ -1820,6 +1989,20 @@
             "item_enhancement_type": "Ability",
             "item_enhancement_value": 17.0,
             "pixyship_estimate": 497
+        },
+        {
+            "item_id": "298507209",
+            "item_design_id": "727",
+            "bonus_type": "Stamina",
+            "bonus_value": "13",
+            "quantity": "1",
+            "name": "La Paula",
+            "rarity": "Hero",
+            "item_sub_type": "EquipmentWeapon",
+            "item_sprite_id": 12544,
+            "item_enhancement_type": "Ability",
+            "item_enhancement_value": 17.0,
+            "pixyship_estimate": 348
         },
         {
             "item_id": "294900687",
@@ -2032,6 +2215,20 @@
             "pixyship_estimate": 359
         },
         {
+            "item_id": "298507205",
+            "item_design_id": "1177",
+            "bonus_type": "Ability",
+            "bonus_value": "12.8",
+            "quantity": "1",
+            "name": "Noscope-360",
+            "rarity": "Hero",
+            "item_sub_type": "EquipmentAccessory",
+            "item_sprite_id": 16441,
+            "item_enhancement_type": "Weapon",
+            "item_enhancement_value": 6.0,
+            "pixyship_estimate": 513
+        },
+        {
             "item_id": "294842557",
             "item_design_id": "1177",
             "bonus_type": "Ability",
@@ -2044,6 +2241,48 @@
             "item_enhancement_type": "Weapon",
             "item_enhancement_value": 6.0,
             "pixyship_estimate": 356
+        },
+        {
+            "item_id": "298507203",
+            "item_design_id": "1177",
+            "bonus_type": "Attack",
+            "bonus_value": "0.4",
+            "quantity": "1",
+            "name": "Noscope-360",
+            "rarity": "Hero",
+            "item_sub_type": "EquipmentAccessory",
+            "item_sprite_id": 16441,
+            "item_enhancement_type": "Weapon",
+            "item_enhancement_value": 6.0,
+            "pixyship_estimate": 185
+        },
+        {
+            "item_id": "298507204",
+            "item_design_id": "1177",
+            "bonus_type": "Attack",
+            "bonus_value": "0.3",
+            "quantity": "1",
+            "name": "Noscope-360",
+            "rarity": "Hero",
+            "item_sub_type": "EquipmentAccessory",
+            "item_sprite_id": 16441,
+            "item_enhancement_type": "Weapon",
+            "item_enhancement_value": 6.0,
+            "pixyship_estimate": 138
+        },
+        {
+            "item_id": "298507201",
+            "item_design_id": "1177",
+            "bonus_type": "Attack",
+            "bonus_value": "0.2",
+            "quantity": "1",
+            "name": "Noscope-360",
+            "rarity": "Hero",
+            "item_sub_type": "EquipmentAccessory",
+            "item_sprite_id": 16441,
+            "item_enhancement_type": "Weapon",
+            "item_enhancement_value": 6.0,
+            "pixyship_estimate": 157
         },
         {
             "item_id": "289219708",
@@ -2072,6 +2311,20 @@
             "item_enhancement_type": "Weapon",
             "item_enhancement_value": 6.0,
             "pixyship_estimate": 533
+        },
+        {
+            "item_id": "298507200",
+            "item_design_id": "1177",
+            "bonus_type": "Hp",
+            "bonus_value": "1",
+            "quantity": "1",
+            "name": "Noscope-360",
+            "rarity": "Hero",
+            "item_sub_type": "EquipmentAccessory",
+            "item_sprite_id": 16441,
+            "item_enhancement_type": "Weapon",
+            "item_enhancement_value": 6.0,
+            "pixyship_estimate": 245
         },
         {
             "item_id": "297342999",
@@ -2662,6 +2915,20 @@
             "pixyship_estimate": 332
         },
         {
+            "item_id": "298507199",
+            "item_design_id": "490",
+            "bonus_type": "Hp",
+            "bonus_value": "1",
+            "quantity": "1",
+            "name": "QT Mechworks Drone",
+            "rarity": "Hero",
+            "item_sub_type": "EquipmentAccessory",
+            "item_sprite_id": 10288,
+            "item_enhancement_type": "Engine",
+            "item_enhancement_value": 11.0,
+            "pixyship_estimate": 332
+        },
+        {
             "item_id": "298467082",
             "item_design_id": "933",
             "bonus_type": "Attack",
@@ -2774,6 +3041,20 @@
             "pixyship_estimate": 610
         },
         {
+            "item_id": "298507206",
+            "item_design_id": "662",
+            "bonus_type": "Engine",
+            "bonus_value": "7",
+            "quantity": "1",
+            "name": "Rocket Pig",
+            "rarity": "Hero",
+            "item_sub_type": "EquipmentAccessory",
+            "item_sprite_id": 11874,
+            "item_enhancement_type": "Hp",
+            "item_enhancement_value": 3.0,
+            "pixyship_estimate": 833
+        },
+        {
             "item_id": "296352047",
             "item_design_id": "662",
             "bonus_type": "FireResistance",
@@ -2801,6 +3082,20 @@
             "pixyship_estimate": 3445
         },
         {
+            "item_id": "298507213",
+            "item_design_id": "1494",
+            "bonus_type": "Attack",
+            "bonus_value": "0.2",
+            "quantity": "1",
+            "name": "Starburst Bulwark",
+            "rarity": "Hero",
+            "item_sub_type": "EquipmentWeapon",
+            "item_sprite_id": 12218,
+            "item_enhancement_type": "Hp",
+            "item_enhancement_value": 4.0,
+            "pixyship_estimate": 514
+        },
+        {
             "item_id": "294189205",
             "item_design_id": "1494",
             "bonus_type": "Repair",
@@ -2813,6 +3108,34 @@
             "item_enhancement_type": "Hp",
             "item_enhancement_value": 4.0,
             "pixyship_estimate": 319
+        },
+        {
+            "item_id": "298507212",
+            "item_design_id": "1494",
+            "bonus_type": "Repair",
+            "bonus_value": "0.4",
+            "quantity": "1",
+            "name": "Starburst Bulwark",
+            "rarity": "Hero",
+            "item_sub_type": "EquipmentWeapon",
+            "item_sprite_id": 12218,
+            "item_enhancement_type": "Hp",
+            "item_enhancement_value": 4.0,
+            "pixyship_estimate": 319
+        },
+        {
+            "item_id": "298507215",
+            "item_design_id": "1494",
+            "bonus_type": "Science",
+            "bonus_value": "8.6",
+            "quantity": "1",
+            "name": "Starburst Bulwark",
+            "rarity": "Hero",
+            "item_sub_type": "EquipmentWeapon",
+            "item_sprite_id": 12218,
+            "item_enhancement_type": "Hp",
+            "item_enhancement_value": 4.0,
+            "pixyship_estimate": 1472
         },
         {
             "item_id": "297197478",
@@ -2841,6 +3164,20 @@
             "item_enhancement_type": "Hp",
             "item_enhancement_value": 4.0,
             "pixyship_estimate": 828
+        },
+        {
+            "item_id": "298507214",
+            "item_design_id": "1494",
+            "bonus_type": "Weapon",
+            "bonus_value": "5.9",
+            "quantity": "1",
+            "name": "Starburst Bulwark",
+            "rarity": "Hero",
+            "item_sub_type": "EquipmentWeapon",
+            "item_sprite_id": 12218,
+            "item_enhancement_type": "Hp",
+            "item_enhancement_value": 4.0,
+            "pixyship_estimate": 2618
         },
         {
             "item_id": "298469910",
@@ -2911,6 +3248,20 @@
             "item_enhancement_type": "FireResistance",
             "item_enhancement_value": 70.0,
             "pixyship_estimate": 710
+        },
+        {
+            "item_id": "298507274",
+            "item_design_id": "808",
+            "bonus_type": "Attack",
+            "bonus_value": "0.5",
+            "quantity": "1",
+            "name": "Trooper Draconian Helmet",
+            "rarity": "Hero",
+            "item_sub_type": "EquipmentHead",
+            "item_sprite_id": 13020,
+            "item_enhancement_type": "FireResistance",
+            "item_enhancement_value": 70.0,
+            "pixyship_estimate": 577
         },
         {
             "item_id": "market-571282501",
