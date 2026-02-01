@@ -1,6 +1,6 @@
 {
-    "generated": "2026-02-01 14:09:01",
-    "item_count": 266,
+    "generated": "2026-02-01 14:19:12",
+    "item_count": 271,
     "items": [
         {
             "item_id": "290509714",
@@ -185,6 +185,20 @@
             "pixyship_estimate": 10784
         },
         {
+            "item_id": "298508315",
+            "item_design_id": "435",
+            "bonus_type": "Attack",
+            "bonus_value": "0.5",
+            "quantity": "1",
+            "name": "Aldara",
+            "rarity": "Hero",
+            "item_sub_type": "EquipmentAccessory",
+            "item_sprite_id": 9983,
+            "item_enhancement_type": "Ability",
+            "item_enhancement_value": 19.0,
+            "pixyship_estimate": 955
+        },
+        {
             "item_id": "298507198",
             "item_design_id": "435",
             "bonus_type": "Attack",
@@ -213,6 +227,20 @@
             "pixyship_estimate": 474
         },
         {
+            "item_id": "298508312",
+            "item_design_id": "435",
+            "bonus_type": "Engine",
+            "bonus_value": "2.7",
+            "quantity": "1",
+            "name": "Aldara",
+            "rarity": "Hero",
+            "item_sub_type": "EquipmentAccessory",
+            "item_sprite_id": 9983,
+            "item_enhancement_type": "Ability",
+            "item_enhancement_value": 19.0,
+            "pixyship_estimate": 270
+        },
+        {
             "item_id": "294126030",
             "item_design_id": "435",
             "bonus_type": "FireResistance",
@@ -225,6 +253,20 @@
             "item_enhancement_type": "Ability",
             "item_enhancement_value": 19.0,
             "pixyship_estimate": 4704
+        },
+        {
+            "item_id": "298508311",
+            "item_design_id": "435",
+            "bonus_type": "FireResistance",
+            "bonus_value": "45.5",
+            "quantity": "1",
+            "name": "Aldara",
+            "rarity": "Hero",
+            "item_sub_type": "EquipmentAccessory",
+            "item_sprite_id": 9983,
+            "item_enhancement_type": "Ability",
+            "item_enhancement_value": 19.0,
+            "pixyship_estimate": 1857
         },
         {
             "item_id": "297489337",
@@ -353,6 +395,20 @@
             "pixyship_estimate": 681
         },
         {
+            "item_id": "298508313",
+            "item_design_id": "435",
+            "bonus_type": "Science",
+            "bonus_value": "5.8",
+            "quantity": "1",
+            "name": "Aldara",
+            "rarity": "Hero",
+            "item_sub_type": "EquipmentAccessory",
+            "item_sprite_id": 9983,
+            "item_enhancement_type": "Ability",
+            "item_enhancement_value": 19.0,
+            "pixyship_estimate": 794
+        },
+        {
             "item_id": "287828556",
             "item_design_id": "435",
             "bonus_type": "Stamina",
@@ -393,6 +449,20 @@
             "item_enhancement_type": "Ability",
             "item_enhancement_value": 19.0,
             "pixyship_estimate": 4403
+        },
+        {
+            "item_id": "298508314",
+            "item_design_id": "435",
+            "bonus_type": "Weapon",
+            "bonus_value": "5.8",
+            "quantity": "1",
+            "name": "Aldara",
+            "rarity": "Hero",
+            "item_sub_type": "EquipmentAccessory",
+            "item_sprite_id": 9983,
+            "item_enhancement_type": "Ability",
+            "item_enhancement_value": 19.0,
+            "pixyship_estimate": 1607
         },
         {
             "item_id": "295403694",
