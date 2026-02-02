@@ -1,6 +1,6 @@
 {
-    "generated": "2026-02-01 18:05:37",
-    "item_count": 263,
+    "generated": "2026-02-01 19:37:34",
+    "item_count": 262,
     "items": [
         {
             "item_id": "290509714",
@@ -1093,20 +1093,6 @@
             "item_enhancement_type": "Hp",
             "item_enhancement_value": 3.0,
             "pixyship_estimate": 2065
-        },
-        {
-            "item_id": "295826702",
-            "item_design_id": "170",
-            "bonus_type": "Weapon",
-            "bonus_value": "4.7",
-            "quantity": "1",
-            "name": "Dark Matter Legging",
-            "rarity": "Hero",
-            "item_sub_type": "EquipmentLeg",
-            "item_sprite_id": 4823,
-            "item_enhancement_type": "Stamina",
-            "item_enhancement_value": 35.0,
-            "pixyship_estimate": 164
         },
         {
             "item_id": "298507195",
