@@ -1,6 +1,6 @@
 {
-    "generated": "2026-02-04 12:21:25",
-    "item_count": 258,
+    "generated": "2026-02-04 17:29:36",
+    "item_count": 259,
     "items": [
         {
             "item_id": "290509714",
@@ -660,20 +660,6 @@
             "pixyship_estimate": 750
         },
         {
-            "item_id": "294023255",
-            "item_design_id": "258",
-            "bonus_type": "Attack",
-            "bonus_value": "0.5",
-            "quantity": "1",
-            "name": "DMR MK II",
-            "rarity": "Hero",
-            "item_sub_type": "EquipmentWeapon",
-            "item_sprite_id": 7615,
-            "item_enhancement_type": "Attack",
-            "item_enhancement_value": 0.7,
-            "pixyship_estimate": 3605
-        },
-        {
             "item_id": "294024425",
             "item_design_id": "258",
             "bonus_type": "FireResistance",
@@ -1259,7 +1245,7 @@
             "item_sprite_id": 5007,
             "item_enhancement_type": "Attack",
             "item_enhancement_value": 0.6,
-            "pixyship_estimate": 627
+            "pixyship_estimate": 629
         },
         {
             "item_id": "296671726",
@@ -1273,7 +1259,7 @@
             "item_sprite_id": 5007,
             "item_enhancement_type": "Attack",
             "item_enhancement_value": 0.6,
-            "pixyship_estimate": 627
+            "pixyship_estimate": 629
         },
         {
             "item_id": "298461610",
@@ -2211,7 +2197,7 @@
             "item_sprite_id": 16441,
             "item_enhancement_type": "Weapon",
             "item_enhancement_value": 6.0,
-            "pixyship_estimate": 272
+            "pixyship_estimate": 273
         },
         {
             "item_id": "283080486",
@@ -2463,7 +2449,7 @@
             "item_sprite_id": 14738,
             "item_enhancement_type": "Science",
             "item_enhancement_value": 11.0,
-            "pixyship_estimate": 547
+            "pixyship_estimate": 550
         },
         {
             "item_id": "297267937",
@@ -2743,7 +2729,7 @@
             "item_sprite_id": 10288,
             "item_enhancement_type": "Engine",
             "item_enhancement_value": 11.0,
-            "pixyship_estimate": 644
+            "pixyship_estimate": 649
         },
         {
             "item_id": "293946635",
@@ -2757,7 +2743,7 @@
             "item_sprite_id": 10288,
             "item_enhancement_type": "Engine",
             "item_enhancement_value": 11.0,
-            "pixyship_estimate": 543
+            "pixyship_estimate": 547
         },
         {
             "item_id": "291527410",
@@ -2771,7 +2757,7 @@
             "item_sprite_id": 10288,
             "item_enhancement_type": "Engine",
             "item_enhancement_value": 11.0,
-            "pixyship_estimate": 485
+            "pixyship_estimate": 489
         },
         {
             "item_id": "297092979",
@@ -3150,6 +3136,20 @@
             "item_enhancement_type": "FireResistance",
             "item_enhancement_value": 70.0,
             "pixyship_estimate": 710
+        },
+        {
+            "item_id": "298686007",
+            "item_design_id": "808",
+            "bonus_type": "FireResistance",
+            "bonus_value": "62.4",
+            "quantity": "1",
+            "name": "Trooper Draconian Helmet",
+            "rarity": "Hero",
+            "item_sub_type": "EquipmentHead",
+            "item_sprite_id": 13020,
+            "item_enhancement_type": "FireResistance",
+            "item_enhancement_value": 70.0,
+            "pixyship_estimate": 8667
         },
         {
             "item_id": "298536724",
@@ -3598,6 +3598,20 @@
             "item_enhancement_type": "Weapon",
             "item_enhancement_value": 7.0,
             "pixyship_estimate": 573
+        },
+        {
+            "item_id": "298685424",
+            "item_design_id": "799",
+            "bonus_type": "Stamina",
+            "bonus_value": "12",
+            "quantity": "1",
+            "name": "Visiri Master Gunner Greaves",
+            "rarity": "Hero",
+            "item_sub_type": "EquipmentLeg",
+            "item_sprite_id": 12887,
+            "item_enhancement_type": "Weapon",
+            "item_enhancement_value": 7.0,
+            "pixyship_estimate": 187
         },
         {
             "item_id": "284813923",
