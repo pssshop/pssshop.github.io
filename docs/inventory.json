@@ -1,6 +1,6 @@
 {
-    "generated": "2026-02-04 23:27:24",
-    "item_count": 256,
+    "generated": "2026-02-05 00:16:09",
+    "item_count": 257,
     "items": [
         {
             "item_id": "290509714",
@@ -1262,6 +1262,20 @@
             "pixyship_estimate": 676
         },
         {
+            "item_id": "298704746",
+            "item_design_id": "163",
+            "bonus_type": "Attack",
+            "bonus_value": "0.4",
+            "quantity": "1",
+            "name": "Golden Cai Dao",
+            "rarity": "Hero",
+            "item_sub_type": "EquipmentWeapon",
+            "item_sprite_id": 5007,
+            "item_enhancement_type": "Attack",
+            "item_enhancement_value": 0.6,
+            "pixyship_estimate": 676
+        },
+        {
             "item_id": "298461610",
             "item_design_id": "163",
             "bonus_type": "Attack",
@@ -2016,6 +2030,20 @@
             "item_enhancement_type": "Pilot",
             "item_enhancement_value": 12.0,
             "pixyship_estimate": 320
+        },
+        {
+            "item_id": "298704767",
+            "item_design_id": "1706",
+            "bonus_type": "Science",
+            "bonus_value": "7.9",
+            "quantity": "1",
+            "name": "Mach Flightsuit",
+            "rarity": "Hero",
+            "item_sub_type": "EquipmentBody",
+            "item_sprite_id": 19675,
+            "item_enhancement_type": "Pilot",
+            "item_enhancement_value": 12.0,
+            "pixyship_estimate": 333
         },
         {
             "item_id": "298388468",
@@ -3554,20 +3582,6 @@
             "item_enhancement_type": "Weapon",
             "item_enhancement_value": 7.0,
             "pixyship_estimate": 573
-        },
-        {
-            "item_id": "298685424",
-            "item_design_id": "799",
-            "bonus_type": "Stamina",
-            "bonus_value": "12",
-            "quantity": "1",
-            "name": "Visiri Master Gunner Greaves",
-            "rarity": "Hero",
-            "item_sub_type": "EquipmentLeg",
-            "item_sprite_id": 12887,
-            "item_enhancement_type": "Weapon",
-            "item_enhancement_value": 7.0,
-            "pixyship_estimate": 187
         },
         {
             "item_id": "284813923",
