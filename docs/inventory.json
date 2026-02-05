@@ -1,6 +1,6 @@
 {
-    "generated": "2026-02-04 17:29:36",
-    "item_count": 259,
+    "generated": "2026-02-04 23:27:24",
+    "item_count": 256,
     "items": [
         {
             "item_id": "290509714",
@@ -307,7 +307,7 @@
             "item_sprite_id": 9983,
             "item_enhancement_type": "Ability",
             "item_enhancement_value": 19.0,
-            "pixyship_estimate": 1568
+            "pixyship_estimate": 1843
         },
         {
             "item_id": "273648919",
@@ -1245,7 +1245,7 @@
             "item_sprite_id": 5007,
             "item_enhancement_type": "Attack",
             "item_enhancement_value": 0.6,
-            "pixyship_estimate": 629
+            "pixyship_estimate": 676
         },
         {
             "item_id": "296671726",
@@ -1259,7 +1259,7 @@
             "item_sprite_id": 5007,
             "item_enhancement_type": "Attack",
             "item_enhancement_value": 0.6,
-            "pixyship_estimate": 629
+            "pixyship_estimate": 676
         },
         {
             "item_id": "298461610",
@@ -1976,20 +1976,6 @@
             "pixyship_estimate": 4437
         },
         {
-            "item_id": "291532390",
-            "item_design_id": "1706",
-            "bonus_type": "FireResistance",
-            "bonus_value": "45.1",
-            "quantity": "1",
-            "name": "Mach Flightsuit",
-            "rarity": "Hero",
-            "item_sub_type": "EquipmentBody",
-            "item_sprite_id": 19675,
-            "item_enhancement_type": "Pilot",
-            "item_enhancement_value": 12.0,
-            "pixyship_estimate": 445
-        },
-        {
             "item_id": "288690342",
             "item_design_id": "1706",
             "bonus_type": "Hp",
@@ -2072,20 +2058,6 @@
             "item_enhancement_type": "Pilot",
             "item_enhancement_value": 10.0,
             "pixyship_estimate": 1113
-        },
-        {
-            "item_id": "297768136",
-            "item_design_id": "1705",
-            "bonus_type": "Pilot",
-            "bonus_value": "10.3",
-            "quantity": "1",
-            "name": "Mach Helm",
-            "rarity": "Hero",
-            "item_sub_type": "EquipmentHead",
-            "item_sprite_id": 19673,
-            "item_enhancement_type": "Pilot",
-            "item_enhancement_value": 10.0,
-            "pixyship_estimate": 9380
         },
         {
             "item_id": "295744519",
@@ -2183,7 +2155,7 @@
             "item_sprite_id": 16441,
             "item_enhancement_type": "Weapon",
             "item_enhancement_value": 6.0,
-            "pixyship_estimate": 354
+            "pixyship_estimate": 351
         },
         {
             "item_id": "289219708",
@@ -2281,7 +2253,7 @@
             "item_sprite_id": 16441,
             "item_enhancement_type": "Weapon",
             "item_enhancement_value": 6.0,
-            "pixyship_estimate": 872
+            "pixyship_estimate": 833
         },
         {
             "item_id": "291356101",
@@ -2788,7 +2760,7 @@
             "pixyship_estimate": 831
         },
         {
-            "item_id": "298461611",
+            "item_id": "market-571583955",
             "item_design_id": "490",
             "bonus_type": "Hp",
             "bonus_value": "1",
@@ -2797,22 +2769,7 @@
             "rarity": "Hero",
             "item_sub_type": "EquipmentAccessory",
             "item_sprite_id": 10288,
-            "item_enhancement_type": "Engine",
-            "item_enhancement_value": 11.0,
-            "pixyship_estimate": 332
-        },
-        {
-            "item_id": "298507199",
-            "item_design_id": "490",
-            "bonus_type": "Hp",
-            "bonus_value": "1",
-            "quantity": "1",
-            "name": "QT Mechworks Drone",
-            "rarity": "Hero",
-            "item_sub_type": "EquipmentAccessory",
-            "item_sprite_id": 10288,
-            "item_enhancement_type": "Engine",
-            "item_enhancement_value": 11.0,
+            "item_price": 325,
             "pixyship_estimate": 332
         },
         {
@@ -3180,7 +3137,7 @@
             "pixyship_estimate": 2447
         },
         {
-            "item_id": "296507975",
+            "item_id": "market-571582182",
             "item_design_id": "808",
             "bonus_type": "FireResistance",
             "bonus_value": "24.3",
@@ -3189,8 +3146,7 @@
             "rarity": "Hero",
             "item_sub_type": "EquipmentHead",
             "item_sprite_id": 13020,
-            "item_enhancement_type": "FireResistance",
-            "item_enhancement_value": 70.0,
+            "item_price": 900,
             "pixyship_estimate": 938
         },
         {
@@ -3541,7 +3497,7 @@
             "item_sprite_id": 12887,
             "item_enhancement_type": "Weapon",
             "item_enhancement_value": 7.0,
-            "pixyship_estimate": 712
+            "pixyship_estimate": 575
         },
         {
             "item_id": "286032720",
@@ -3555,7 +3511,7 @@
             "item_sprite_id": 12887,
             "item_enhancement_type": "Weapon",
             "item_enhancement_value": 7.0,
-            "pixyship_estimate": 534
+            "pixyship_estimate": 488
         },
         {
             "item_id": "291948040",
@@ -3569,7 +3525,7 @@
             "item_sprite_id": 12887,
             "item_enhancement_type": "Weapon",
             "item_enhancement_value": 7.0,
-            "pixyship_estimate": 458
+            "pixyship_estimate": 440
         },
         {
             "item_id": "298098398",
@@ -3625,7 +3581,7 @@
             "item_sprite_id": 12887,
             "item_enhancement_type": "Weapon",
             "item_enhancement_value": 7.0,
-            "pixyship_estimate": 1476
+            "pixyship_estimate": 1355
         }
     ]
 }
