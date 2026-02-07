@@ -1,6 +1,6 @@
 {
-    "generated": "2026-02-07 03:36:24",
-    "item_count": 260,
+    "generated": "2026-02-07 03:46:13",
+    "item_count": 261,
     "items": [
         {
             "item_id": "290509714",
@@ -183,6 +183,20 @@
             "item_enhancement_type": "Ability",
             "item_enhancement_value": 19.0,
             "pixyship_estimate": 10746
+        },
+        {
+            "item_id": "298817417",
+            "item_design_id": "435",
+            "bonus_type": "Attack",
+            "bonus_value": "0.6",
+            "quantity": "1",
+            "name": "Aldara",
+            "rarity": "Hero",
+            "item_sub_type": "EquipmentAccessory",
+            "item_sprite_id": 9983,
+            "item_enhancement_type": "Ability",
+            "item_enhancement_value": 19.0,
+            "pixyship_estimate": 783
         },
         {
             "item_id": "298708734",
@@ -2970,7 +2984,7 @@
             "pixyship_estimate": 5355
         },
         {
-            "item_id": "298817073",
+            "item_id": "market-571755544",
             "item_design_id": "662",
             "bonus_type": "FireResistance",
             "bonus_value": "48.3",
@@ -2979,8 +2993,7 @@
             "rarity": "Hero",
             "item_sub_type": "EquipmentAccessory",
             "item_sprite_id": 11874,
-            "item_enhancement_type": "Hp",
-            "item_enhancement_value": 3.0,
+            "item_price": 3150,
             "pixyship_estimate": 3473
         },
         {
