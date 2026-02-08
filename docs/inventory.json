@@ -1,6 +1,6 @@
 {
-    "generated": "2026-02-07 03:46:13",
-    "item_count": 261,
+    "generated": "2026-02-08 00:03:21",
+    "item_count": 262,
     "items": [
         {
             "item_id": "290509714",
@@ -157,6 +157,20 @@
             "pixyship_estimate": 711
         },
         {
+            "item_id": "298860773",
+            "item_design_id": "1749",
+            "bonus_type": "Attack",
+            "bonus_value": "0.5",
+            "quantity": "1",
+            "name": "Redshift Repeater",
+            "rarity": "Special",
+            "item_sub_type": "EquipmentWeapon",
+            "item_sprite_id": 20082,
+            "item_enhancement_type": "Ability",
+            "item_enhancement_value": 21.0,
+            "pixyship_estimate": 3256
+        },
+        {
             "item_id": "298073187",
             "item_design_id": "1749",
             "bonus_type": "Pilot",
@@ -266,7 +280,7 @@
             "item_sprite_id": 9983,
             "item_enhancement_type": "Ability",
             "item_enhancement_value": 19.0,
-            "pixyship_estimate": 4704
+            "pixyship_estimate": 4619
         },
         {
             "item_id": "298508311",
@@ -420,7 +434,7 @@
             "item_sprite_id": 9983,
             "item_enhancement_type": "Ability",
             "item_enhancement_value": 19.0,
-            "pixyship_estimate": 794
+            "pixyship_estimate": 784
         },
         {
             "item_id": "287828556",
@@ -476,7 +490,7 @@
             "item_sprite_id": 9983,
             "item_enhancement_type": "Ability",
             "item_enhancement_value": 19.0,
-            "pixyship_estimate": 1450
+            "pixyship_estimate": 1404
         },
         {
             "item_id": "market-571749915",
@@ -1679,7 +1693,7 @@
             "item_sprite_id": 11219,
             "item_enhancement_type": "Hp",
             "item_enhancement_value": 4.0,
-            "pixyship_estimate": 934
+            "pixyship_estimate": 931
         },
         {
             "item_id": "297669848",
@@ -3064,7 +3078,7 @@
             "item_sprite_id": 12218,
             "item_enhancement_type": "Hp",
             "item_enhancement_value": 4.0,
-            "pixyship_estimate": 1426
+            "pixyship_estimate": 1432
         },
         {
             "item_id": "297908173",
@@ -3204,7 +3218,7 @@
             "item_sprite_id": 13020,
             "item_enhancement_type": "FireResistance",
             "item_enhancement_value": 70.0,
-            "pixyship_estimate": 2447
+            "pixyship_estimate": 2449
         },
         {
             "item_id": "298801119",
