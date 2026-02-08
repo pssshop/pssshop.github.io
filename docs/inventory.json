@@ -1,5 +1,5 @@
 {
-    "generated": "2026-02-08 13:07:45",
+    "generated": "2026-02-08 13:16:55",
     "item_count": 261,
     "items": [
         {
@@ -2983,7 +2983,7 @@
             "pixyship_estimate": 5355
         },
         {
-            "item_id": "298875838",
+            "item_id": "market-571869608",
             "item_design_id": "662",
             "bonus_type": "FireResistance",
             "bonus_value": "48.3",
@@ -2992,8 +2992,7 @@
             "rarity": "Hero",
             "item_sub_type": "EquipmentAccessory",
             "item_sprite_id": 11874,
-            "item_enhancement_type": "Hp",
-            "item_enhancement_value": 3.0,
+            "item_price": 3500,
             "pixyship_estimate": 3473
         },
         {
