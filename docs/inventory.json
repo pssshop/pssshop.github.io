@@ -1,5 +1,5 @@
 {
-    "generated": "2026-02-16 04:30:42",
+    "generated": "2026-02-16 04:42:00",
     "item_count": 257,
     "items": [
         {
@@ -2551,6 +2551,20 @@
             "pixyship_estimate": 344
         },
         {
+            "item_id": "299312567",
+            "item_design_id": "676",
+            "bonus_type": "Engine",
+            "bonus_value": "5.3",
+            "quantity": "1",
+            "name": "Prototype Stealth Suit",
+            "rarity": "Hero",
+            "item_sub_type": "EquipmentBody",
+            "item_sprite_id": 11926,
+            "item_enhancement_type": "Attack",
+            "item_enhancement_value": 0.7,
+            "pixyship_estimate": 214
+        },
+        {
             "item_id": "297855855",
             "item_design_id": "676",
             "bonus_type": "FireResistance",
@@ -2857,20 +2871,6 @@
             "item_enhancement_type": "Weapon",
             "item_enhancement_value": 8.0,
             "pixyship_estimate": 374
-        },
-        {
-            "item_id": "298507206",
-            "item_design_id": "662",
-            "bonus_type": "Engine",
-            "bonus_value": "7",
-            "quantity": "1",
-            "name": "Rocket Pig",
-            "rarity": "Hero",
-            "item_sub_type": "EquipmentAccessory",
-            "item_sprite_id": 11874,
-            "item_enhancement_type": "Hp",
-            "item_enhancement_value": 3.0,
-            "pixyship_estimate": 833
         },
         {
             "item_id": "297253574",
