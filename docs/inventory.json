@@ -1,6 +1,6 @@
 {
-    "generated": "2026-02-16 12:14:57",
-    "item_count": 255,
+    "generated": "2026-02-16 12:17:38",
+    "item_count": 253,
     "items": [
         {
             "item_id": "290509714",
@@ -3386,34 +3386,6 @@
             "item_enhancement_type": "Weapon",
             "item_enhancement_value": 7.0,
             "pixyship_estimate": 241
-        },
-        {
-            "item_id": "296284028",
-            "item_design_id": "790",
-            "bonus_type": "Hp",
-            "bonus_value": "1",
-            "quantity": "1",
-            "name": "Visiri Gunner Helm Alpha",
-            "rarity": "Hero",
-            "item_sub_type": "EquipmentHead",
-            "item_sprite_id": 12777,
-            "item_enhancement_type": "Weapon",
-            "item_enhancement_value": 7.0,
-            "pixyship_estimate": 149
-        },
-        {
-            "item_id": "299068458",
-            "item_design_id": "790",
-            "bonus_type": "Hp",
-            "bonus_value": "1",
-            "quantity": "1",
-            "name": "Visiri Gunner Helm Alpha",
-            "rarity": "Hero",
-            "item_sub_type": "EquipmentHead",
-            "item_sprite_id": 12777,
-            "item_enhancement_type": "Weapon",
-            "item_enhancement_value": 7.0,
-            "pixyship_estimate": 149
         },
         {
             "item_id": "297268655",
