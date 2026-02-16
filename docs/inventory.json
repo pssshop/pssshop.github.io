@@ -1,6 +1,6 @@
 {
-    "generated": "2026-02-16 04:42:00",
-    "item_count": 257,
+    "generated": "2026-02-16 11:50:56",
+    "item_count": 255,
     "items": [
         {
             "item_id": "290509714",
@@ -1960,7 +1960,7 @@
             "item_sprite_id": 12544,
             "item_enhancement_type": "Ability",
             "item_enhancement_value": 17.0,
-            "pixyship_estimate": 4071
+            "pixyship_estimate": 4437
         },
         {
             "item_id": "296222638",
@@ -2408,7 +2408,7 @@
             "item_sprite_id": 14738,
             "item_enhancement_type": "Science",
             "item_enhancement_value": 11.0,
-            "pixyship_estimate": 1115
+            "pixyship_estimate": 1124
         },
         {
             "item_id": "297260299",
@@ -2632,7 +2632,7 @@
             "item_sprite_id": 10288,
             "item_enhancement_type": "Engine",
             "item_enhancement_value": 11.0,
-            "pixyship_estimate": 521
+            "pixyship_estimate": 490
         },
         {
             "item_id": "291785549",
@@ -2646,7 +2646,7 @@
             "item_sprite_id": 10288,
             "item_enhancement_type": "Engine",
             "item_enhancement_value": 11.0,
-            "pixyship_estimate": 372
+            "pixyship_estimate": 370
         },
         {
             "item_id": "294507989",
@@ -2730,7 +2730,7 @@
             "item_sprite_id": 10288,
             "item_enhancement_type": "Engine",
             "item_enhancement_value": 11.0,
-            "pixyship_estimate": 831
+            "pixyship_estimate": 833
         },
         {
             "item_id": "298467082",
@@ -2887,19 +2887,6 @@
             "pixyship_estimate": 4348
         },
         {
-            "item_id": "market-572484797",
-            "item_design_id": "662",
-            "bonus_type": "FireResistance",
-            "bonus_value": "48.3",
-            "quantity": "1",
-            "name": "Rocket Pig",
-            "rarity": "Hero",
-            "item_sub_type": "EquipmentAccessory",
-            "item_sprite_id": 11874,
-            "item_price": 3500,
-            "pixyship_estimate": 3473
-        },
-        {
             "item_id": "298507213",
             "item_design_id": "1494",
             "bonus_type": "Attack",
@@ -2968,19 +2955,6 @@
             "item_enhancement_type": "Hp",
             "item_enhancement_value": 4.0,
             "pixyship_estimate": 1472
-        },
-        {
-            "item_id": "market-572488164",
-            "item_design_id": "1494",
-            "bonus_type": "Science",
-            "bonus_value": "8",
-            "quantity": "1",
-            "name": "Starburst Bulwark",
-            "rarity": "Hero",
-            "item_sub_type": "EquipmentWeapon",
-            "item_sprite_id": 12218,
-            "item_price": 1430,
-            "pixyship_estimate": 1432
         },
         {
             "item_id": "288906532",
@@ -3581,7 +3555,7 @@
             "item_sprite_id": 12887,
             "item_enhancement_type": "Weapon",
             "item_enhancement_value": 7.0,
-            "pixyship_estimate": 578
+            "pixyship_estimate": 577
         },
         {
             "item_id": "284813923",
