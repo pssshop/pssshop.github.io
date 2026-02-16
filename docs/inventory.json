@@ -1,5 +1,5 @@
 {
-    "generated": "2026-02-15 22:21:53",
+    "generated": "2026-02-16 03:08:53",
     "item_count": 257,
     "items": [
         {
@@ -1078,7 +1078,7 @@
             "item_sprite_id": 7432,
             "item_enhancement_type": "Hp",
             "item_enhancement_value": 3.0,
-            "pixyship_estimate": 2328
+            "pixyship_estimate": 2055
         },
         {
             "item_id": "298507216",
@@ -1498,7 +1498,7 @@
             "item_sprite_id": 5007,
             "item_enhancement_type": "Attack",
             "item_enhancement_value": 0.6,
-            "pixyship_estimate": 219
+            "pixyship_estimate": 215
         },
         {
             "item_id": "284707234",
@@ -1512,7 +1512,7 @@
             "item_sprite_id": 5007,
             "item_enhancement_type": "Attack",
             "item_enhancement_value": 0.6,
-            "pixyship_estimate": 241
+            "pixyship_estimate": 232
         },
         {
             "item_id": "296768455",
@@ -1526,7 +1526,7 @@
             "item_sprite_id": 5007,
             "item_enhancement_type": "Attack",
             "item_enhancement_value": 0.6,
-            "pixyship_estimate": 271
+            "pixyship_estimate": 249
         },
         {
             "item_id": "296435947",
@@ -1725,7 +1725,7 @@
             "pixyship_estimate": 942
         },
         {
-            "item_id": "298388353",
+            "item_id": "market-572484423",
             "item_design_id": "678",
             "bonus_type": "Science",
             "bonus_value": "8.8",
@@ -1734,8 +1734,7 @@
             "rarity": "Hero",
             "item_sub_type": "EquipmentAccessory",
             "item_sprite_id": 12025,
-            "item_enhancement_type": "Hp",
-            "item_enhancement_value": 3.0,
+            "item_price": 2050,
             "pixyship_estimate": 2069
         },
         {
@@ -1865,7 +1864,21 @@
             "pixyship_estimate": 273
         },
         {
-            "item_id": "market-572399312",
+            "item_id": "299299439",
+            "item_design_id": "727",
+            "bonus_type": "Repair",
+            "bonus_value": "0.4",
+            "quantity": "1",
+            "name": "La Paula",
+            "rarity": "Hero",
+            "item_sub_type": "EquipmentWeapon",
+            "item_sprite_id": 12544,
+            "item_enhancement_type": "Ability",
+            "item_enhancement_value": 17.0,
+            "pixyship_estimate": 325
+        },
+        {
+            "item_id": "299309391",
             "item_design_id": "727",
             "bonus_type": "Repair",
             "bonus_value": "0.3",
@@ -1874,7 +1887,8 @@
             "rarity": "Hero",
             "item_sub_type": "EquipmentWeapon",
             "item_sprite_id": 12544,
-            "item_price": 250,
+            "item_enhancement_type": "Ability",
+            "item_enhancement_value": 17.0,
             "pixyship_estimate": 316
         },
         {
@@ -2550,19 +2564,6 @@
             "pixyship_estimate": 344
         },
         {
-            "item_id": "market-572391706",
-            "item_design_id": "676",
-            "bonus_type": "Engine",
-            "bonus_value": "5.3",
-            "quantity": "1",
-            "name": "Prototype Stealth Suit",
-            "rarity": "Hero",
-            "item_sub_type": "EquipmentBody",
-            "item_sprite_id": 11926,
-            "item_price": 200,
-            "pixyship_estimate": 214
-        },
-        {
             "item_id": "297855855",
             "item_design_id": "676",
             "bonus_type": "FireResistance",
@@ -3022,7 +3023,7 @@
             "item_sprite_id": 12218,
             "item_enhancement_type": "Hp",
             "item_enhancement_value": 4.0,
-            "pixyship_estimate": 2108
+            "pixyship_estimate": 2099
         },
         {
             "item_id": "298469910",
