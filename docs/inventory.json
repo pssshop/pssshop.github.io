@@ -1,5 +1,5 @@
 {
-    "generated": "2026-02-16 03:08:53",
+    "generated": "2026-02-16 04:30:42",
     "item_count": 257,
     "items": [
         {
@@ -1725,19 +1725,6 @@
             "pixyship_estimate": 942
         },
         {
-            "item_id": "market-572484423",
-            "item_design_id": "678",
-            "bonus_type": "Science",
-            "bonus_value": "8.8",
-            "quantity": "1",
-            "name": "King Husky",
-            "rarity": "Hero",
-            "item_sub_type": "EquipmentAccessory",
-            "item_sprite_id": 12025,
-            "item_price": 2050,
-            "pixyship_estimate": 2069
-        },
-        {
             "item_id": "297139296",
             "item_design_id": "727",
             "bonus_type": "Attack",
@@ -2900,7 +2887,7 @@
             "pixyship_estimate": 4348
         },
         {
-            "item_id": "298953435",
+            "item_id": "market-572484797",
             "item_design_id": "662",
             "bonus_type": "FireResistance",
             "bonus_value": "48.3",
@@ -2909,8 +2896,7 @@
             "rarity": "Hero",
             "item_sub_type": "EquipmentAccessory",
             "item_sprite_id": 11874,
-            "item_enhancement_type": "Hp",
-            "item_enhancement_value": 3.0,
+            "item_price": 3500,
             "pixyship_estimate": 3473
         },
         {
@@ -2984,7 +2970,7 @@
             "pixyship_estimate": 1472
         },
         {
-            "item_id": "297197478",
+            "item_id": "market-572488164",
             "item_design_id": "1494",
             "bonus_type": "Science",
             "bonus_value": "8",
@@ -2993,8 +2979,7 @@
             "rarity": "Hero",
             "item_sub_type": "EquipmentWeapon",
             "item_sprite_id": 12218,
-            "item_enhancement_type": "Hp",
-            "item_enhancement_value": 4.0,
+            "item_price": 1430,
             "pixyship_estimate": 1432
         },
         {
@@ -3208,7 +3193,7 @@
             "pixyship_estimate": 9223
         },
         {
-            "item_id": "297730179",
+            "item_id": "market-572485114",
             "item_design_id": "802",
             "bonus_type": "Ability",
             "bonus_value": "6.1",
@@ -3217,8 +3202,7 @@
             "rarity": "Hero",
             "item_sub_type": "EquipmentBody",
             "item_sprite_id": 3757,
-            "item_enhancement_type": "Ability",
-            "item_enhancement_value": 20.0,
+            "item_price": 2000,
             "pixyship_estimate": 2057
         },
         {
@@ -3262,6 +3246,20 @@
             "item_enhancement_type": "Ability",
             "item_enhancement_value": 20.0,
             "pixyship_estimate": 675
+        },
+        {
+            "item_id": "299312371",
+            "item_design_id": "802",
+            "bonus_type": "FireResistance",
+            "bonus_value": "54.2",
+            "quantity": "1",
+            "name": "Unobtainium Heavy Assault Armor ",
+            "rarity": "Hero",
+            "item_sub_type": "EquipmentBody",
+            "item_sprite_id": 3757,
+            "item_enhancement_type": "Ability",
+            "item_enhancement_value": 20.0,
+            "pixyship_estimate": 672
         },
         {
             "item_id": "297395881",
