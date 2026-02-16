@@ -1,5 +1,5 @@
 {
-    "generated": "2026-02-16 11:59:48",
+    "generated": "2026-02-16 12:14:57",
     "item_count": 255,
     "items": [
         {
@@ -59,7 +59,7 @@
             "pixyship_estimate": 3143
         },
         {
-            "item_id": "299182118",
+            "item_id": "market-572512211",
             "item_design_id": "1718",
             "bonus_type": "Pilot",
             "bonus_value": "7.7",
@@ -68,8 +68,7 @@
             "rarity": "Special",
             "item_sub_type": "EquipmentAccessory",
             "item_sprite_id": 19814,
-            "item_enhancement_type": "Hp",
-            "item_enhancement_value": 4.0,
+            "item_price": 3000,
             "pixyship_estimate": 2778
         },
         {
@@ -211,6 +210,20 @@
             "item_enhancement_type": "Ability",
             "item_enhancement_value": 19.0,
             "pixyship_estimate": 10746
+        },
+        {
+            "item_id": "299332626",
+            "item_design_id": "435",
+            "bonus_type": "Ability",
+            "bonus_value": "9.2",
+            "quantity": "1",
+            "name": "Aldara",
+            "rarity": "Hero",
+            "item_sub_type": "EquipmentAccessory",
+            "item_sprite_id": 9983,
+            "item_enhancement_type": "Ability",
+            "item_enhancement_value": 19.0,
+            "pixyship_estimate": 2312
         },
         {
             "item_id": "298817417",
@@ -757,6 +770,20 @@
             "item_enhancement_type": "Hp",
             "item_enhancement_value": 3.0,
             "pixyship_estimate": 1382
+        },
+        {
+            "item_id": "299332905",
+            "item_design_id": "169",
+            "bonus_type": "Ability",
+            "bonus_value": "9.2",
+            "quantity": "1",
+            "name": "Dark Matter Armor",
+            "rarity": "Hero",
+            "item_sub_type": "EquipmentBody",
+            "item_sprite_id": 4819,
+            "item_enhancement_type": "Hp",
+            "item_enhancement_value": 3.0,
+            "pixyship_estimate": 486
         },
         {
             "item_id": "297059560",
@@ -1613,7 +1640,7 @@
             "pixyship_estimate": 565
         },
         {
-            "item_id": "298083396",
+            "item_id": "market-572512309",
             "item_design_id": "1493",
             "bonus_type": "Pilot",
             "bonus_value": "3.9",
@@ -1622,8 +1649,7 @@
             "rarity": "Hero",
             "item_sub_type": "EquipmentWeapon",
             "item_sprite_id": 11219,
-            "item_enhancement_type": "Hp",
-            "item_enhancement_value": 4.0,
+            "item_price": 350,
             "pixyship_estimate": 339
         },
         {
@@ -1863,20 +1889,6 @@
             "item_enhancement_type": "Ability",
             "item_enhancement_value": 17.0,
             "pixyship_estimate": 325
-        },
-        {
-            "item_id": "299309391",
-            "item_design_id": "727",
-            "bonus_type": "Repair",
-            "bonus_value": "0.3",
-            "quantity": "1",
-            "name": "La Paula",
-            "rarity": "Hero",
-            "item_sub_type": "EquipmentWeapon",
-            "item_sprite_id": 12544,
-            "item_enhancement_type": "Ability",
-            "item_enhancement_value": 17.0,
-            "pixyship_estimate": 316
         },
         {
             "item_id": "297323532",
@@ -2549,20 +2561,6 @@
             "item_enhancement_type": "Attack",
             "item_enhancement_value": 0.7,
             "pixyship_estimate": 344
-        },
-        {
-            "item_id": "299312567",
-            "item_design_id": "676",
-            "bonus_type": "Engine",
-            "bonus_value": "5.3",
-            "quantity": "1",
-            "name": "Prototype Stealth Suit",
-            "rarity": "Hero",
-            "item_sub_type": "EquipmentBody",
-            "item_sprite_id": 11926,
-            "item_enhancement_type": "Attack",
-            "item_enhancement_value": 0.7,
-            "pixyship_estimate": 214
         },
         {
             "item_id": "297855855",
