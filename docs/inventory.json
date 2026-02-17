@@ -1,5 +1,5 @@
 {
-    "generated": "2026-02-16 12:17:38",
+    "generated": "2026-02-16 21:41:31",
     "item_count": 253,
     "items": [
         {
@@ -42,7 +42,7 @@
             "item_sprite_id": 19814,
             "item_enhancement_type": "Hp",
             "item_enhancement_value": 4.0,
-            "pixyship_estimate": 3793
+            "pixyship_estimate": 3651
         },
         {
             "item_id": "289585417",
@@ -56,7 +56,7 @@
             "item_sprite_id": 19814,
             "item_enhancement_type": "Hp",
             "item_enhancement_value": 4.0,
-            "pixyship_estimate": 3143
+            "pixyship_estimate": 2929
         },
         {
             "item_id": "market-572512211",
@@ -69,7 +69,7 @@
             "item_sub_type": "EquipmentAccessory",
             "item_sprite_id": 19814,
             "item_price": 3000,
-            "pixyship_estimate": 2778
+            "pixyship_estimate": 2712
         },
         {
             "item_id": "293972288",
@@ -405,7 +405,7 @@
             "item_sprite_id": 9983,
             "item_enhancement_type": "Ability",
             "item_enhancement_value": 19.0,
-            "pixyship_estimate": 405
+            "pixyship_estimate": 403
         },
         {
             "item_id": "291818514",
@@ -419,7 +419,7 @@
             "item_sprite_id": 9983,
             "item_enhancement_type": "Ability",
             "item_enhancement_value": 19.0,
-            "pixyship_estimate": 400
+            "pixyship_estimate": 391
         },
         {
             "item_id": "298507197",
@@ -433,7 +433,7 @@
             "item_sprite_id": 9983,
             "item_enhancement_type": "Ability",
             "item_enhancement_value": 19.0,
-            "pixyship_estimate": 400
+            "pixyship_estimate": 391
         },
         {
             "item_id": "299182119",
@@ -447,7 +447,7 @@
             "item_sprite_id": 9983,
             "item_enhancement_type": "Ability",
             "item_enhancement_value": 19.0,
-            "pixyship_estimate": 400
+            "pixyship_estimate": 391
         },
         {
             "item_id": "287828556",
@@ -503,7 +503,7 @@
             "item_sprite_id": 9983,
             "item_enhancement_type": "Ability",
             "item_enhancement_value": 19.0,
-            "pixyship_estimate": 1404
+            "pixyship_estimate": 1393
         },
         {
             "item_id": "298875835",
