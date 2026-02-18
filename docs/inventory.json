@@ -1,6 +1,6 @@
 {
-    "generated": "2026-02-17 19:40:40",
-    "item_count": 250,
+    "generated": "2026-02-17 20:32:41",
+    "item_count": 251,
     "items": [
         {
             "item_id": "290509714",
@@ -114,7 +114,7 @@
             "pixyship_estimate": 984
         },
         {
-            "item_id": "294656310",
+            "item_id": "market-572609782",
             "item_design_id": "1218",
             "bonus_type": "Science",
             "bonus_value": "8.4",
@@ -123,8 +123,7 @@
             "rarity": "Special",
             "item_sub_type": "EquipmentWeapon",
             "item_sprite_id": 16651,
-            "item_enhancement_type": "FireResistance",
-            "item_enhancement_value": 75.0,
+            "item_price": 1900,
             "pixyship_estimate": 1215
         },
         {
@@ -2015,6 +2014,20 @@
             "item_enhancement_type": "Pilot",
             "item_enhancement_value": 10.0,
             "pixyship_estimate": 1113
+        },
+        {
+            "item_id": "299417253",
+            "item_design_id": "1705",
+            "bonus_type": "Pilot",
+            "bonus_value": "4.4",
+            "quantity": "1",
+            "name": "Mach Helm",
+            "rarity": "Hero",
+            "item_sub_type": "EquipmentHead",
+            "item_sprite_id": 19673,
+            "item_enhancement_type": "Pilot",
+            "item_enhancement_value": 10.0,
+            "pixyship_estimate": 3041
         },
         {
             "item_id": "295744519",
