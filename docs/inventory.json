@@ -1,6 +1,6 @@
 {
-    "generated": "2026-02-16 21:41:31",
-    "item_count": 253,
+    "generated": "2026-02-17 19:40:40",
+    "item_count": 250,
     "items": [
         {
             "item_id": "290509714",
@@ -28,7 +28,7 @@
             "item_sprite_id": 19814,
             "item_enhancement_type": "Hp",
             "item_enhancement_value": 4.0,
-            "pixyship_estimate": 6520
+            "pixyship_estimate": 6537
         },
         {
             "item_id": "290768922",
@@ -59,7 +59,7 @@
             "pixyship_estimate": 2929
         },
         {
-            "item_id": "market-572512211",
+            "item_id": "market-572609131",
             "item_design_id": "1718",
             "bonus_type": "Pilot",
             "bonus_value": "7.7",
@@ -68,7 +68,7 @@
             "rarity": "Special",
             "item_sub_type": "EquipmentAccessory",
             "item_sprite_id": 19814,
-            "item_price": 3000,
+            "item_price": 2900,
             "pixyship_estimate": 2712
         },
         {
@@ -503,7 +503,7 @@
             "item_sprite_id": 9983,
             "item_enhancement_type": "Ability",
             "item_enhancement_value": 19.0,
-            "pixyship_estimate": 1393
+            "pixyship_estimate": 1373
         },
         {
             "item_id": "298875835",
@@ -783,7 +783,7 @@
             "item_sprite_id": 4819,
             "item_enhancement_type": "Hp",
             "item_enhancement_value": 3.0,
-            "pixyship_estimate": 486
+            "pixyship_estimate": 510
         },
         {
             "item_id": "297059560",
@@ -797,7 +797,7 @@
             "item_sprite_id": 4819,
             "item_enhancement_type": "Hp",
             "item_enhancement_value": 3.0,
-            "pixyship_estimate": 340
+            "pixyship_estimate": 394
         },
         {
             "item_id": "295229946",
@@ -867,7 +867,7 @@
             "item_sprite_id": 4819,
             "item_enhancement_type": "Hp",
             "item_enhancement_value": 3.0,
-            "pixyship_estimate": 618
+            "pixyship_estimate": 601
         },
         {
             "item_id": "294323822",
@@ -881,7 +881,7 @@
             "item_sprite_id": 4819,
             "item_enhancement_type": "Hp",
             "item_enhancement_value": 3.0,
-            "pixyship_estimate": 386
+            "pixyship_estimate": 320
         },
         {
             "item_id": "290106780",
@@ -895,7 +895,7 @@
             "item_sprite_id": 4819,
             "item_enhancement_type": "Hp",
             "item_enhancement_value": 3.0,
-            "pixyship_estimate": 385
+            "pixyship_estimate": 318
         },
         {
             "item_id": "291849593",
@@ -965,7 +965,7 @@
             "item_sprite_id": 4819,
             "item_enhancement_type": "Hp",
             "item_enhancement_value": 3.0,
-            "pixyship_estimate": 875
+            "pixyship_estimate": 858
         },
         {
             "item_id": "297508917",
@@ -979,7 +979,7 @@
             "item_sprite_id": 7432,
             "item_enhancement_type": "Hp",
             "item_enhancement_value": 3.0,
-            "pixyship_estimate": 3105
+            "pixyship_estimate": 2899
         },
         {
             "item_id": "297142218",
@@ -993,7 +993,7 @@
             "item_sprite_id": 7432,
             "item_enhancement_type": "Hp",
             "item_enhancement_value": 3.0,
-            "pixyship_estimate": 1686
+            "pixyship_estimate": 1391
         },
         {
             "item_id": "296002866",
@@ -1063,7 +1063,7 @@
             "item_sprite_id": 7432,
             "item_enhancement_type": "Hp",
             "item_enhancement_value": 3.0,
-            "pixyship_estimate": 741
+            "pixyship_estimate": 755
         },
         {
             "item_id": "293962542",
@@ -1091,21 +1091,7 @@
             "item_sprite_id": 7432,
             "item_enhancement_type": "Hp",
             "item_enhancement_value": 3.0,
-            "pixyship_estimate": 284
-        },
-        {
-            "item_id": "295429564",
-            "item_design_id": "246",
-            "bonus_type": "Weapon",
-            "bonus_value": "6.2",
-            "quantity": "1",
-            "name": "Dark Matter Helmet",
-            "rarity": "Hero",
-            "item_sub_type": "EquipmentHead",
-            "item_sprite_id": 7432,
-            "item_enhancement_type": "Hp",
-            "item_enhancement_value": 3.0,
-            "pixyship_estimate": 2055
+            "pixyship_estimate": 504
         },
         {
             "item_id": "298507216",
@@ -1162,20 +1148,6 @@
             "item_enhancement_type": "Weapon",
             "item_enhancement_value": 7.0,
             "pixyship_estimate": 800
-        },
-        {
-            "item_id": "294242826",
-            "item_design_id": "1181",
-            "bonus_type": "Hp",
-            "bonus_value": "2",
-            "quantity": "1",
-            "name": "Giga-Loader",
-            "rarity": "Hero",
-            "item_sub_type": "EquipmentWeapon",
-            "item_sprite_id": 16432,
-            "item_enhancement_type": "Weapon",
-            "item_enhancement_value": 7.0,
-            "pixyship_estimate": 2328
         },
         {
             "item_id": "291982058",
@@ -1542,7 +1514,7 @@
             "pixyship_estimate": 232
         },
         {
-            "item_id": "296768455",
+            "item_id": "market-572557086",
             "item_design_id": "163",
             "bonus_type": "Weapon",
             "bonus_value": "5.4",
@@ -1551,8 +1523,7 @@
             "rarity": "Hero",
             "item_sub_type": "EquipmentWeapon",
             "item_sprite_id": 5007,
-            "item_enhancement_type": "Attack",
-            "item_enhancement_value": 0.6,
+            "item_price": 250,
             "pixyship_estimate": 249
         },
         {
@@ -1623,7 +1594,7 @@
             "item_sprite_id": 11219,
             "item_enhancement_type": "Hp",
             "item_enhancement_value": 4.0,
-            "pixyship_estimate": 725
+            "pixyship_estimate": 748
         },
         {
             "item_id": "298388350",
@@ -1638,19 +1609,6 @@
             "item_enhancement_type": "Hp",
             "item_enhancement_value": 4.0,
             "pixyship_estimate": 565
-        },
-        {
-            "item_id": "market-572512309",
-            "item_design_id": "1493",
-            "bonus_type": "Pilot",
-            "bonus_value": "3.9",
-            "quantity": "1",
-            "name": "Immensity Gauntlet",
-            "rarity": "Hero",
-            "item_sub_type": "EquipmentWeapon",
-            "item_sprite_id": 11219,
-            "item_price": 350,
-            "pixyship_estimate": 339
         },
         {
             "item_id": "292574090",
@@ -1832,7 +1790,7 @@
             "item_sprite_id": 12544,
             "item_enhancement_type": "Ability",
             "item_enhancement_value": 17.0,
-            "pixyship_estimate": 334
+            "pixyship_estimate": 345
         },
         {
             "item_id": "297771537",
@@ -1916,7 +1874,7 @@
             "item_sprite_id": 12544,
             "item_enhancement_type": "Ability",
             "item_enhancement_value": 17.0,
-            "pixyship_estimate": 1465
+            "pixyship_estimate": 1423
         },
         {
             "item_id": "294684742",
@@ -2420,7 +2378,7 @@
             "item_sprite_id": 14738,
             "item_enhancement_type": "Science",
             "item_enhancement_value": 11.0,
-            "pixyship_estimate": 1124
+            "pixyship_estimate": 1112
         },
         {
             "item_id": "297260299",
@@ -2588,7 +2546,7 @@
             "item_sprite_id": 11926,
             "item_enhancement_type": "Attack",
             "item_enhancement_value": 0.7,
-            "pixyship_estimate": 1202
+            "pixyship_estimate": 1432
         },
         {
             "item_id": "298098563",
@@ -2952,7 +2910,7 @@
             "item_sprite_id": 12218,
             "item_enhancement_type": "Hp",
             "item_enhancement_value": 4.0,
-            "pixyship_estimate": 1472
+            "pixyship_estimate": 1671
         },
         {
             "item_id": "288906532",
@@ -2966,7 +2924,7 @@
             "item_sprite_id": 12218,
             "item_enhancement_type": "Hp",
             "item_enhancement_value": 4.0,
-            "pixyship_estimate": 1071
+            "pixyship_estimate": 1048
         },
         {
             "item_id": "294692290",
@@ -3022,7 +2980,7 @@
             "item_sprite_id": 13020,
             "item_enhancement_type": "FireResistance",
             "item_enhancement_value": 70.0,
-            "pixyship_estimate": 1241
+            "pixyship_estimate": 1239
         },
         {
             "item_id": "298452020",
@@ -3165,7 +3123,7 @@
             "pixyship_estimate": 9223
         },
         {
-            "item_id": "market-572485114",
+            "item_id": "299389786",
             "item_design_id": "802",
             "bonus_type": "Ability",
             "bonus_value": "6.1",
@@ -3174,7 +3132,8 @@
             "rarity": "Hero",
             "item_sub_type": "EquipmentBody",
             "item_sprite_id": 3757,
-            "item_price": 2000,
+            "item_enhancement_type": "Ability",
+            "item_enhancement_value": 20.0,
             "pixyship_estimate": 2057
         },
         {
@@ -3357,7 +3316,7 @@
             "item_sprite_id": 12777,
             "item_enhancement_type": "Weapon",
             "item_enhancement_value": 7.0,
-            "pixyship_estimate": 247
+            "pixyship_estimate": 256
         },
         {
             "item_id": "296939187",
@@ -3371,7 +3330,7 @@
             "item_sprite_id": 12777,
             "item_enhancement_type": "Weapon",
             "item_enhancement_value": 7.0,
-            "pixyship_estimate": 243
+            "pixyship_estimate": 252
         },
         {
             "item_id": "292473177",
@@ -3385,7 +3344,7 @@
             "item_sprite_id": 12777,
             "item_enhancement_type": "Weapon",
             "item_enhancement_value": 7.0,
-            "pixyship_estimate": 241
+            "pixyship_estimate": 250
         },
         {
             "item_id": "297268655",
@@ -3469,7 +3428,7 @@
             "item_sprite_id": 12887,
             "item_enhancement_type": "Weapon",
             "item_enhancement_value": 7.0,
-            "pixyship_estimate": 554
+            "pixyship_estimate": 597
         },
         {
             "item_id": "286032720",
@@ -3483,7 +3442,7 @@
             "item_sprite_id": 12887,
             "item_enhancement_type": "Weapon",
             "item_enhancement_value": 7.0,
-            "pixyship_estimate": 484
+            "pixyship_estimate": 488
         },
         {
             "item_id": "291948040",
@@ -3497,7 +3456,7 @@
             "item_sprite_id": 12887,
             "item_enhancement_type": "Weapon",
             "item_enhancement_value": 7.0,
-            "pixyship_estimate": 440
+            "pixyship_estimate": 443
         },
         {
             "item_id": "298098398",
@@ -3539,7 +3498,7 @@
             "item_sprite_id": 12887,
             "item_enhancement_type": "Weapon",
             "item_enhancement_value": 7.0,
-            "pixyship_estimate": 1355
+            "pixyship_estimate": 1599
         }
     ]
 }
