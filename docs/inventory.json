@@ -1,6 +1,6 @@
 {
-    "generated": "2026-02-22 01:32:32",
-    "item_count": 247,
+    "generated": "2026-02-22 06:21:56",
+    "item_count": 246,
     "items": [
         {
             "item_id": "290509714",
@@ -98,7 +98,7 @@
             "item_sprite_id": 19814,
             "item_enhancement_type": "Hp",
             "item_enhancement_value": 4.0,
-            "pixyship_estimate": 1268
+            "pixyship_estimate": 1267
         },
         {
             "item_id": "291315275",
@@ -171,7 +171,7 @@
             "pixyship_estimate": 10421
         },
         {
-            "item_id": "299267862",
+            "item_id": "market-572951110",
             "item_design_id": "1749",
             "bonus_type": "Pilot",
             "bonus_value": "9.7",
@@ -180,8 +180,7 @@
             "rarity": "Special",
             "item_sub_type": "EquipmentWeapon",
             "item_sprite_id": 20082,
-            "item_enhancement_type": "Ability",
-            "item_enhancement_value": 21.0,
+            "item_price": 9995,
             "pixyship_estimate": 10352
         },
         {
@@ -283,7 +282,7 @@
             "pixyship_estimate": 270
         },
         {
-            "item_id": "294126030",
+            "item_id": "market-572951234",
             "item_design_id": "435",
             "bonus_type": "FireResistance",
             "bonus_value": "62.8",
@@ -292,8 +291,7 @@
             "rarity": "Hero",
             "item_sub_type": "EquipmentAccessory",
             "item_sprite_id": 9983,
-            "item_enhancement_type": "Ability",
-            "item_enhancement_value": 19.0,
+            "item_price": 4750,
             "pixyship_estimate": 4619
         },
         {
@@ -1163,20 +1161,6 @@
             "item_enhancement_type": "Weapon",
             "item_enhancement_value": 7.0,
             "pixyship_estimate": 790
-        },
-        {
-            "item_id": "298602333",
-            "item_design_id": "1181",
-            "bonus_type": "Weapon",
-            "bonus_value": "5.8",
-            "quantity": "1",
-            "name": "Giga-Loader",
-            "rarity": "Hero",
-            "item_sub_type": "EquipmentWeapon",
-            "item_sprite_id": 16432,
-            "item_enhancement_type": "Weapon",
-            "item_enhancement_value": 7.0,
-            "pixyship_estimate": 11484
         },
         {
             "item_id": "293642273",
@@ -2618,7 +2602,7 @@
             "item_sprite_id": 10288,
             "item_enhancement_type": "Engine",
             "item_enhancement_value": 11.0,
-            "pixyship_estimate": 632
+            "pixyship_estimate": 635
         },
         {
             "item_id": "293946635",
@@ -2632,7 +2616,7 @@
             "item_sprite_id": 10288,
             "item_enhancement_type": "Engine",
             "item_enhancement_value": 11.0,
-            "pixyship_estimate": 533
+            "pixyship_estimate": 535
         },
         {
             "item_id": "291527410",
@@ -2646,7 +2630,7 @@
             "item_sprite_id": 10288,
             "item_enhancement_type": "Engine",
             "item_enhancement_value": 11.0,
-            "pixyship_estimate": 472
+            "pixyship_estimate": 474
         },
         {
             "item_id": "297092979",
