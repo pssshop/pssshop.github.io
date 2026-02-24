@@ -1,5 +1,5 @@
 {
-    "generated": "2026-02-23 03:05:57",
+    "generated": "2026-02-24 09:30:29",
     "item_count": 247,
     "items": [
         {
@@ -42,7 +42,7 @@
             "item_sprite_id": 19814,
             "item_enhancement_type": "Hp",
             "item_enhancement_value": 4.0,
-            "pixyship_estimate": 3485
+            "pixyship_estimate": 3495
         },
         {
             "item_id": "289585417",
@@ -171,7 +171,7 @@
             "pixyship_estimate": 10421
         },
         {
-            "item_id": "300067187",
+            "item_id": "300241341",
             "item_design_id": "1749",
             "bonus_type": "Pilot",
             "bonus_value": "9.7",
@@ -283,7 +283,7 @@
             "pixyship_estimate": 270
         },
         {
-            "item_id": "300067188",
+            "item_id": "300241342",
             "item_design_id": "435",
             "bonus_type": "FireResistance",
             "bonus_value": "62.8",
@@ -294,7 +294,7 @@
             "item_sprite_id": 9983,
             "item_enhancement_type": "Ability",
             "item_enhancement_value": 19.0,
-            "pixyship_estimate": 4619
+            "pixyship_estimate": 4381
         },
         {
             "item_id": "298508311",
@@ -364,7 +364,7 @@
             "item_sprite_id": 9983,
             "item_enhancement_type": "Ability",
             "item_enhancement_value": 19.0,
-            "pixyship_estimate": 1833
+            "pixyship_estimate": 1681
         },
         {
             "item_id": "273648919",
@@ -714,7 +714,7 @@
             "item_sprite_id": 7615,
             "item_enhancement_type": "Attack",
             "item_enhancement_value": 0.7,
-            "pixyship_estimate": 2365
+            "pixyship_estimate": 1792
         },
         {
             "item_id": "298506554",
@@ -980,7 +980,7 @@
             "item_sprite_id": 7432,
             "item_enhancement_type": "Hp",
             "item_enhancement_value": 3.0,
-            "pixyship_estimate": 1391
+            "pixyship_estimate": 1432
         },
         {
             "item_id": "296002866",
@@ -1596,7 +1596,7 @@
             "item_sprite_id": 11219,
             "item_enhancement_type": "Hp",
             "item_enhancement_value": 4.0,
-            "pixyship_estimate": 2040
+            "pixyship_estimate": 2069
         },
         {
             "item_id": "291085422",
@@ -2170,7 +2170,7 @@
             "item_sprite_id": 16441,
             "item_enhancement_type": "Weapon",
             "item_enhancement_value": 6.0,
-            "pixyship_estimate": 825
+            "pixyship_estimate": 851
         },
         {
             "item_id": "291356101",
@@ -2352,7 +2352,7 @@
             "item_sprite_id": 14738,
             "item_enhancement_type": "Science",
             "item_enhancement_value": 11.0,
-            "pixyship_estimate": 1086
+            "pixyship_estimate": 1100
         },
         {
             "item_id": "297260299",
@@ -2534,7 +2534,7 @@
             "item_sprite_id": 11926,
             "item_enhancement_type": "Attack",
             "item_enhancement_value": 0.7,
-            "pixyship_estimate": 298
+            "pixyship_estimate": 272
         },
         {
             "item_id": "295995628",
@@ -2814,7 +2814,7 @@
             "item_sprite_id": 11874,
             "item_enhancement_type": "Hp",
             "item_enhancement_value": 3.0,
-            "pixyship_estimate": 4348
+            "pixyship_estimate": 3012
         },
         {
             "item_id": "298507213",
@@ -2884,7 +2884,7 @@
             "item_sprite_id": 12218,
             "item_enhancement_type": "Hp",
             "item_enhancement_value": 4.0,
-            "pixyship_estimate": 1671
+            "pixyship_estimate": 1669
         },
         {
             "item_id": "288906532",
@@ -2968,7 +2968,7 @@
             "item_sprite_id": 13020,
             "item_enhancement_type": "FireResistance",
             "item_enhancement_value": 70.0,
-            "pixyship_estimate": 595
+            "pixyship_estimate": 511
         },
         {
             "item_id": "298452021",
@@ -3013,7 +3013,7 @@
             "pixyship_estimate": 3227
         },
         {
-            "item_id": "market-572968778",
+            "item_id": "300116541",
             "item_design_id": "808",
             "bonus_type": "FireResistance",
             "bonus_value": "50.1",
@@ -3022,7 +3022,8 @@
             "rarity": "Hero",
             "item_sub_type": "EquipmentHead",
             "item_sprite_id": 13020,
-            "item_price": 2500,
+            "item_enhancement_type": "FireResistance",
+            "item_enhancement_value": 70.0,
             "pixyship_estimate": 2449
         },
         {
@@ -3191,7 +3192,7 @@
             "item_sprite_id": 3757,
             "item_enhancement_type": "Ability",
             "item_enhancement_value": 20.0,
-            "pixyship_estimate": 363
+            "pixyship_estimate": 360
         },
         {
             "item_id": "298393480",
@@ -3205,7 +3206,7 @@
             "item_sprite_id": 3757,
             "item_enhancement_type": "Ability",
             "item_enhancement_value": 20.0,
-            "pixyship_estimate": 363
+            "pixyship_estimate": 360
         },
         {
             "item_id": "294822291",
@@ -3317,7 +3318,7 @@
             "item_sprite_id": 12777,
             "item_enhancement_type": "Weapon",
             "item_enhancement_value": 7.0,
-            "pixyship_estimate": 6560
+            "pixyship_estimate": 6752
         },
         {
             "item_id": "297022042",
