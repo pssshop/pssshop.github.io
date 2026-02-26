@@ -1,5 +1,5 @@
 {
-    "generated": "2026-02-26 00:16:59",
+    "generated": "2026-02-26 03:18:07",
     "item_count": 246,
     "items": [
         {
@@ -307,7 +307,7 @@
             "item_sprite_id": 9983,
             "item_enhancement_type": "Ability",
             "item_enhancement_value": 19.0,
-            "pixyship_estimate": 861
+            "pixyship_estimate": 848
         },
         {
             "item_id": "297392191",
@@ -321,7 +321,7 @@
             "item_sprite_id": 9983,
             "item_enhancement_type": "Ability",
             "item_enhancement_value": 19.0,
-            "pixyship_estimate": 773
+            "pixyship_estimate": 759
         },
         {
             "item_id": "297931833",
