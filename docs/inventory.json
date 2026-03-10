@@ -1,6 +1,6 @@
 {
-    "generated": "2026-03-10 00:48:40",
-    "item_count": 252,
+    "generated": "2026-03-10 00:51:03",
+    "item_count": 249,
     "items": [
         {
             "item_id": "290509714",
@@ -1081,20 +1081,6 @@
             "pixyship_estimate": 504
         },
         {
-            "item_id": "301591238",
-            "item_design_id": "1215",
-            "bonus_type": "Attack",
-            "bonus_value": "0.4",
-            "quantity": "1",
-            "name": "Extendo-Clamp Plus",
-            "rarity": "Hero",
-            "item_sub_type": "EquipmentWeapon",
-            "item_sprite_id": 16605,
-            "item_enhancement_type": "Engine",
-            "item_enhancement_value": 7.0,
-            "pixyship_estimate": 218
-        },
-        {
             "item_id": "298507216",
             "item_design_id": "1215",
             "bonus_type": "FireResistance",
@@ -1499,20 +1485,6 @@
             "item_enhancement_type": "Attack",
             "item_enhancement_value": 0.6,
             "pixyship_estimate": 232
-        },
-        {
-            "item_id": "300563281",
-            "item_design_id": "163",
-            "bonus_type": "Weapon",
-            "bonus_value": "5.4",
-            "quantity": "1",
-            "name": "Golden Cai Dao",
-            "rarity": "Hero",
-            "item_sub_type": "EquipmentWeapon",
-            "item_sprite_id": 5007,
-            "item_enhancement_type": "Attack",
-            "item_enhancement_value": 0.6,
-            "pixyship_estimate": 249
         },
         {
             "item_id": "296435947",
@@ -3139,6 +3111,20 @@
             "pixyship_estimate": 9314
         },
         {
+            "item_id": "301591438",
+            "item_design_id": "802",
+            "bonus_type": "Ability",
+            "bonus_value": "14.3",
+            "quantity": "1",
+            "name": "Unobtainium Heavy Assault Armor ",
+            "rarity": "Hero",
+            "item_sub_type": "EquipmentBody",
+            "item_sprite_id": 3757,
+            "item_enhancement_type": "Ability",
+            "item_enhancement_value": 20.0,
+            "pixyship_estimate": 7902
+        },
+        {
             "item_id": "299389786",
             "item_design_id": "802",
             "bonus_type": "Ability",
@@ -3487,34 +3473,6 @@
             "item_enhancement_type": "Weapon",
             "item_enhancement_value": 7.0,
             "pixyship_estimate": 562
-        },
-        {
-            "item_id": "300647762",
-            "item_design_id": "799",
-            "bonus_type": "Stamina",
-            "bonus_value": "11",
-            "quantity": "1",
-            "name": "Visiri Master Gunner Greaves",
-            "rarity": "Hero",
-            "item_sub_type": "EquipmentLeg",
-            "item_sprite_id": 12887,
-            "item_enhancement_type": "Weapon",
-            "item_enhancement_value": 7.0,
-            "pixyship_estimate": 268
-        },
-        {
-            "item_id": "301591242",
-            "item_design_id": "799",
-            "bonus_type": "Stamina",
-            "bonus_value": "9",
-            "quantity": "1",
-            "name": "Visiri Master Gunner Greaves",
-            "rarity": "Hero",
-            "item_sub_type": "EquipmentLeg",
-            "item_sprite_id": 12887,
-            "item_enhancement_type": "Weapon",
-            "item_enhancement_value": 7.0,
-            "pixyship_estimate": 112
         },
         {
             "item_id": "284813923",
