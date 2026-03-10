@@ -1,6 +1,6 @@
 {
-    "generated": "2026-03-10 00:51:03",
-    "item_count": 249,
+    "generated": "2026-03-10 02:08:58",
+    "item_count": 250,
     "items": [
         {
             "item_id": "290509714",
@@ -966,7 +966,7 @@
             "item_sprite_id": 7432,
             "item_enhancement_type": "Hp",
             "item_enhancement_value": 3.0,
-            "pixyship_estimate": 1432
+            "pixyship_estimate": 1534
         },
         {
             "item_id": "296002866",
@@ -3277,6 +3277,20 @@
             "item_enhancement_type": "Ability",
             "item_enhancement_value": 20.0,
             "pixyship_estimate": 356
+        },
+        {
+            "item_id": "301594591",
+            "item_design_id": "802",
+            "bonus_type": "Weapon",
+            "bonus_value": "6.6",
+            "quantity": "1",
+            "name": "Unobtainium Heavy Assault Armor ",
+            "rarity": "Hero",
+            "item_sub_type": "EquipmentBody",
+            "item_sprite_id": 3757,
+            "item_enhancement_type": "Ability",
+            "item_enhancement_value": 20.0,
+            "pixyship_estimate": 1724
         },
         {
             "item_id": "296556272",
