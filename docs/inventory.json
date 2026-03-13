@@ -1,5 +1,5 @@
 {
-    "generated": "2026-03-13 04:21:01",
+    "generated": "2026-03-13 04:32:09",
     "item_count": 249,
     "items": [
         {
@@ -1697,7 +1697,7 @@
             "pixyship_estimate": 942
         },
         {
-            "item_id": "301788477",
+            "item_id": "market-574446259",
             "item_design_id": "727",
             "bonus_type": "Attack",
             "bonus_value": "0.7",
@@ -1706,8 +1706,7 @@
             "rarity": "Hero",
             "item_sub_type": "EquipmentWeapon",
             "item_sprite_id": 12544,
-            "item_enhancement_type": "Ability",
-            "item_enhancement_value": 17.0,
+            "item_price": 10000,
             "pixyship_estimate": null
         },
         {
