@@ -1,6 +1,6 @@
 {
-    "generated": "2026-04-04 22:48:47",
-    "item_count": 241,
+    "generated": "2026-04-04 23:52:38",
+    "item_count": 239,
     "items": [
         {
             "item_id": "290509714",
@@ -937,20 +937,6 @@
             "item_enhancement_type": "Hp",
             "item_enhancement_value": 3.0,
             "pixyship_estimate": 553
-        },
-        {
-            "item_id": "296838236",
-            "item_design_id": "169",
-            "bonus_type": "Weapon",
-            "bonus_value": "5.3",
-            "quantity": "1",
-            "name": "Dark Matter Armor",
-            "rarity": "Hero",
-            "item_sub_type": "EquipmentBody",
-            "item_sprite_id": 4819,
-            "item_enhancement_type": "Hp",
-            "item_enhancement_value": 3.0,
-            "pixyship_estimate": 836
         },
         {
             "item_id": "297142218",
@@ -2057,20 +2043,6 @@
             "item_enhancement_type": "Weapon",
             "item_enhancement_value": 6.0,
             "pixyship_estimate": 300
-        },
-        {
-            "item_id": "283080486",
-            "item_design_id": "1177",
-            "bonus_type": "Hp",
-            "bonus_value": "2",
-            "quantity": "1",
-            "name": "Noscope-360",
-            "rarity": "Hero",
-            "item_sub_type": "EquipmentAccessory",
-            "item_sprite_id": 16441,
-            "item_enhancement_type": "Weapon",
-            "item_enhancement_value": 6.0,
-            "pixyship_estimate": 507
         },
         {
             "item_id": "297342999",
