@@ -1,6 +1,6 @@
 {
-    "generated": "2026-04-12 02:16:54",
-    "item_count": 233,
+    "generated": "2026-04-12 20:25:38",
+    "item_count": 232,
     "items": [
         {
             "item_id": "290509714",
@@ -45,7 +45,7 @@
             "pixyship_estimate": 2704
         },
         {
-            "item_id": "303451231",
+            "item_id": "market-576909022",
             "item_design_id": "1718",
             "bonus_type": "Pilot",
             "bonus_value": "7.7",
@@ -54,8 +54,7 @@
             "rarity": "Special",
             "item_sub_type": "EquipmentAccessory",
             "item_sprite_id": 19814,
-            "item_enhancement_type": "Hp",
-            "item_enhancement_value": 4.0,
+            "item_price": 2900,
             "pixyship_estimate": 2334
         },
         {
@@ -773,7 +772,7 @@
             "pixyship_estimate": 2690
         },
         {
-            "item_id": "303297264",
+            "item_id": "market-576944587",
             "item_design_id": "169",
             "bonus_type": "FireResistance",
             "bonus_value": "58",
@@ -782,8 +781,7 @@
             "rarity": "Hero",
             "item_sub_type": "EquipmentBody",
             "item_sprite_id": 4819,
-            "item_enhancement_type": "Hp",
-            "item_enhancement_value": 3.0,
+            "item_price": 2600,
             "pixyship_estimate": 2649
         },
         {
@@ -1414,7 +1412,7 @@
             "item_sprite_id": 11219,
             "item_enhancement_type": "Hp",
             "item_enhancement_value": 4.0,
-            "pixyship_estimate": 904
+            "pixyship_estimate": 905
         },
         {
             "item_id": "288704781",
@@ -2492,7 +2490,7 @@
             "item_sprite_id": 13939,
             "item_enhancement_type": "Weapon",
             "item_enhancement_value": 8.0,
-            "pixyship_estimate": 1351
+            "pixyship_estimate": 1379
         },
         {
             "item_id": "292543626",
@@ -2747,7 +2745,7 @@
             "pixyship_estimate": 7065
         },
         {
-            "item_id": "market-576840317",
+            "item_id": "303656981",
             "item_design_id": "808",
             "bonus_type": "FireResistance",
             "bonus_value": "61.2",
@@ -2756,7 +2754,8 @@
             "rarity": "Hero",
             "item_sub_type": "EquipmentHead",
             "item_sprite_id": 13020,
-            "item_price": 9000,
+            "item_enhancement_type": "FireResistance",
+            "item_enhancement_value": 70.0,
             "pixyship_estimate": 6494
         },
         {
@@ -2844,19 +2843,6 @@
             "pixyship_estimate": 8586
         },
         {
-            "item_id": "market-576899177",
-            "item_design_id": "802",
-            "bonus_type": "Ability",
-            "bonus_value": "14.3",
-            "quantity": "1",
-            "name": "Unobtainium Heavy Assault Armor ",
-            "rarity": "Hero",
-            "item_sub_type": "EquipmentBody",
-            "item_sprite_id": 3757,
-            "item_price": 7500,
-            "pixyship_estimate": 6960
-        },
-        {
             "item_id": "302216158",
             "item_design_id": "802",
             "bonus_type": "Ability",
@@ -2868,7 +2854,7 @@
             "item_sprite_id": 3757,
             "item_enhancement_type": "Ability",
             "item_enhancement_value": 20.0,
-            "pixyship_estimate": 2214
+            "pixyship_estimate": 2166
         },
         {
             "item_id": "299389786",
@@ -3036,7 +3022,7 @@
             "item_sprite_id": 3757,
             "item_enhancement_type": "Ability",
             "item_enhancement_value": 20.0,
-            "pixyship_estimate": 1724
+            "pixyship_estimate": 1621
         },
         {
             "item_id": "296556272",
@@ -3050,7 +3036,7 @@
             "item_sprite_id": 3757,
             "item_enhancement_type": "Ability",
             "item_enhancement_value": 20.0,
-            "pixyship_estimate": 1225
+            "pixyship_estimate": 547
         },
         {
             "item_id": "302366424",
