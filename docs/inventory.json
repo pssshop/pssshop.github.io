@@ -1,6 +1,6 @@
 {
-    "generated": "2026-04-13 04:11:11",
-    "item_count": 230,
+    "generated": "2026-04-13 20:48:29",
+    "item_count": 229,
     "items": [
         {
             "item_id": "290509714",
@@ -758,7 +758,7 @@
             "pixyship_estimate": 2690
         },
         {
-            "item_id": "market-576944587",
+            "item_id": "303738008",
             "item_design_id": "169",
             "bonus_type": "FireResistance",
             "bonus_value": "58",
@@ -767,7 +767,8 @@
             "rarity": "Hero",
             "item_sub_type": "EquipmentBody",
             "item_sprite_id": 4819,
-            "item_price": 2600,
+            "item_enhancement_type": "Hp",
+            "item_enhancement_value": 3.0,
             "pixyship_estimate": 2649
         },
         {
@@ -2588,7 +2589,7 @@
             "item_sprite_id": 12218,
             "item_enhancement_type": "Hp",
             "item_enhancement_value": 4.0,
-            "pixyship_estimate": 871
+            "pixyship_estimate": 818
         },
         {
             "item_id": "298507212",
@@ -2729,19 +2730,6 @@
             "item_enhancement_type": "FireResistance",
             "item_enhancement_value": 70.0,
             "pixyship_estimate": 6494
-        },
-        {
-            "item_id": "market-576969683",
-            "item_design_id": "808",
-            "bonus_type": "FireResistance",
-            "bonus_value": "50.1",
-            "quantity": "1",
-            "name": "Trooper Draconian Helmet",
-            "rarity": "Hero",
-            "item_sub_type": "EquipmentHead",
-            "item_sprite_id": 13020,
-            "item_price": 2650,
-            "pixyship_estimate": 2735
         },
         {
             "item_id": "298801119",
@@ -2951,7 +2939,7 @@
             "item_sprite_id": 3757,
             "item_enhancement_type": "Ability",
             "item_enhancement_value": 20.0,
-            "pixyship_estimate": 528
+            "pixyship_estimate": 527
         },
         {
             "item_id": "297192451",
@@ -2965,7 +2953,7 @@
             "item_sprite_id": 3757,
             "item_enhancement_type": "Ability",
             "item_enhancement_value": 20.0,
-            "pixyship_estimate": 529
+            "pixyship_estimate": 527
         },
         {
             "item_id": "298759204",
