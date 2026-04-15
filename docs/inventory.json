@@ -1,6 +1,6 @@
 {
-    "generated": "2026-04-14 04:19:06",
-    "item_count": 228,
+    "generated": "2026-04-14 20:05:52",
+    "item_count": 227,
     "items": [
         {
             "item_id": "302546137",
@@ -210,7 +210,7 @@
             "item_sprite_id": 9983,
             "item_enhancement_type": "Ability",
             "item_enhancement_value": 19.0,
-            "pixyship_estimate": 1357
+            "pixyship_estimate": 1355
         },
         {
             "item_id": "302863117",
@@ -1441,7 +1441,7 @@
             "item_sprite_id": 11219,
             "item_enhancement_type": "Hp",
             "item_enhancement_value": 4.0,
-            "pixyship_estimate": 493
+            "pixyship_estimate": 481
         },
         {
             "item_id": "296805949",
@@ -1455,7 +1455,7 @@
             "item_sprite_id": 11219,
             "item_enhancement_type": "Hp",
             "item_enhancement_value": 4.0,
-            "pixyship_estimate": 493
+            "pixyship_estimate": 481
         },
         {
             "item_id": "295327964",
@@ -2308,7 +2308,7 @@
             "item_sprite_id": 10288,
             "item_enhancement_type": "Engine",
             "item_enhancement_value": 11.0,
-            "pixyship_estimate": 502
+            "pixyship_estimate": 494
         },
         {
             "item_id": "291785549",
@@ -2322,7 +2322,7 @@
             "item_sprite_id": 10288,
             "item_enhancement_type": "Engine",
             "item_enhancement_value": 11.0,
-            "pixyship_estimate": 407
+            "pixyship_estimate": 404
         },
         {
             "item_id": "294507989",
@@ -2336,7 +2336,7 @@
             "item_sprite_id": 10288,
             "item_enhancement_type": "Engine",
             "item_enhancement_value": 11.0,
-            "pixyship_estimate": 347
+            "pixyship_estimate": 344
         },
         {
             "item_id": "302469123",
@@ -2980,7 +2980,7 @@
             "item_sprite_id": 3757,
             "item_enhancement_type": "Ability",
             "item_enhancement_value": 20.0,
-            "pixyship_estimate": 547
+            "pixyship_estimate": 545
         },
         {
             "item_id": "302366424",
@@ -3177,19 +3177,6 @@
             "item_enhancement_type": "Weapon",
             "item_enhancement_value": 7.0,
             "pixyship_estimate": 553
-        },
-        {
-            "item_id": "market-577056352",
-            "item_design_id": "799",
-            "bonus_type": "Weapon",
-            "bonus_value": "4.7",
-            "quantity": "1",
-            "name": "Visiri Master Gunner Greaves",
-            "rarity": "Hero",
-            "item_sub_type": "EquipmentLeg",
-            "item_sprite_id": 12887,
-            "item_price": 2550,
-            "pixyship_estimate": 2568
         }
     ]
 }
