@@ -1,5 +1,10 @@
 import { useEffect, useState, useRef, useMemo } from 'react';
 
+const ITEM_IMAGE_SIZE = 24;
+const SPRITE_LOOKUP_URL = 'https://api.pixelstarships.com/FileService/ListSprites2';
+const SPRITE_DOWNLOAD_URL = 'https://api.pixelstarships.com/FileService/DownloadSprite?spriteId=';
+const SPRITE_SHEET_BASE_URL = 'https://pixelstarships.s3.amazonaws.com';
+
 function Tooltip({ visible, top, left, children, innerRef }) {
     if (!visible) return null;
     return (
@@ -95,6 +100,111 @@ function ThemeToggle({ theme, setTheme }) {
     );
 }
 
+function getSpriteSheetUrl(imageFileId) {
+    return `${SPRITE_SHEET_BASE_URL}/${imageFileId}.png`;
+}
+
+function parseSpriteNumber(spriteNode, attributeName) {
+    const value = Number(spriteNode.getAttribute(attributeName));
+    return Number.isFinite(value) ? value : null;
+}
+
+function buildSpriteLookup(xmlText, spriteIds) {
+    if (spriteIds.size === 0) return {};
+
+    const xml = new DOMParser().parseFromString(xmlText, 'application/xml');
+    if (xml.querySelector('parsererror')) {
+        throw new Error('Failed to parse sprite metadata');
+    }
+
+    const spritesById = {};
+    const spriteNodes = xml.querySelectorAll('Sprite');
+    let foundCount = 0;
+
+    for (const spriteNode of spriteNodes) {
+        const spriteId = spriteNode.getAttribute('SpriteId');
+        if (!spriteIds.has(spriteId)) continue;
+
+        const imageFileId = spriteNode.getAttribute('ImageFileId');
+        const x = parseSpriteNumber(spriteNode, 'X');
+        const y = parseSpriteNumber(spriteNode, 'Y');
+        const width = parseSpriteNumber(spriteNode, 'Width');
+        const height = parseSpriteNumber(spriteNode, 'Height');
+
+        if (!imageFileId || x === null || y === null || width === null || height === null) {
+            continue;
+        }
+
+        spritesById[spriteId] = {
+            imageFileId,
+            sheetUrl: getSpriteSheetUrl(imageFileId),
+            x,
+            y,
+            width,
+            height,
+        };
+        foundCount += 1;
+
+        if (foundCount === spriteIds.size) {
+            break;
+        }
+    }
+
+    return spritesById;
+}
+
+function SpriteImage({ spriteId, alt, sprite, spriteLookupStatus }) {
+    const [sheetFailed, setSheetFailed] = useState(false);
+
+    useEffect(() => {
+        setSheetFailed(false);
+    }, [spriteId, sprite?.imageFileId]);
+
+    if (!spriteId) {
+        return <span className="item-img item-img-placeholder" aria-hidden="true" />;
+    }
+
+    if (spriteLookupStatus !== 'ready' && spriteLookupStatus !== 'error') {
+        return <span className="item-img item-img-placeholder" aria-hidden="true" />;
+    }
+
+    if (!sprite || sheetFailed || sprite.width <= 0 || sprite.height <= 0) {
+        return <img src={`${SPRITE_DOWNLOAD_URL}${spriteId}`} alt={alt} className="item-img" loading="lazy" />;
+    }
+
+    const scale = Math.min(ITEM_IMAGE_SIZE / sprite.width, ITEM_IMAGE_SIZE / sprite.height);
+    const stageStyle = {
+        width: `${sprite.width * scale}px`,
+        height: `${sprite.height * scale}px`,
+    };
+    const cropStyle = {
+        width: `${sprite.width}px`,
+        height: `${sprite.height}px`,
+        transform: `scale(${scale})`,
+    };
+    const sheetStyle = {
+        left: `${sprite.x * -1}px`,
+        top: `${sprite.y * -1}px`,
+    };
+
+    return (
+        <span className="item-img item-sprite" role="img" aria-label={alt}>
+            <span className="item-sprite-stage" style={stageStyle}>
+                <span className="item-sprite-crop" style={cropStyle}>
+                    <img
+                        src={sprite.sheetUrl}
+                        alt=""
+                        className="item-sprite-sheet"
+                        style={sheetStyle}
+                        loading="lazy"
+                        onError={() => setSheetFailed(true)}
+                    />
+                </span>
+            </span>
+        </span>
+    );
+}
+
 function App() {
     const [adminView, setAdminView] = useState(false);
     const [inventory, setInventory] = useState(null);
@@ -117,6 +227,8 @@ function App() {
     const containerRef = useRef(null);
     const tooltipRef = useRef(null);
     const [adminPriceEdits, setAdminPriceEdits] = useState({});
+    const [spritesById, setSpritesById] = useState({});
+    const [spriteLookupStatus, setSpriteLookupStatus] = useState('idle');
 
     // --- helpers ---
     // Stable id derived from design + bonus to survive item_id churn
@@ -196,6 +308,12 @@ function App() {
         return out;
     }, [inventory, adminPriceEdits, prices]);
 
+    const spriteIds = useMemo(
+        () =>
+            [...new Set((inventory?.items || []).map((item) => String(item.item_sprite_id || '')).filter(Boolean))],
+        [inventory],
+    );
+
     useEffect(() => {
         // F1 toggles admin view, Escape clears search and tooltip
         const handleKeyDown = (e) => {
@@ -264,6 +382,39 @@ function App() {
             document.documentElement.setAttribute('data-theme', theme);
         }
     }, [theme]);
+
+    useEffect(() => {
+        if (spriteIds.length === 0) {
+            setSpritesById({});
+            setSpriteLookupStatus('idle');
+            return;
+        }
+
+        const abortController = new AbortController();
+        const wantedSpriteIds = new Set(spriteIds);
+
+        setSpritesById({});
+        setSpriteLookupStatus('loading');
+
+        fetch(SPRITE_LOOKUP_URL, { signal: abortController.signal })
+            .then((res) => {
+                if (!res.ok) throw new Error('Failed to load sprite metadata');
+                return res.text();
+            })
+            .then((xmlText) => {
+                setSpritesById(buildSpriteLookup(xmlText, wantedSpriteIds));
+                setSpriteLookupStatus('ready');
+            })
+            .catch((err) => {
+                if (err.name === 'AbortError') return;
+                setSpritesById({});
+                setSpriteLookupStatus('error');
+            });
+
+        return () => {
+            abortController.abort();
+        };
+    }, [spriteIds]);
 
     // Helper to update an admin edit. Keys are stable ids.
     const handlePriceEdit = (stableId, value) => {
@@ -672,17 +823,18 @@ function App() {
                                                 <td key={key}>
                                                     {key === 'name' ? (
                                                         <>
-                                                                <img
-                                                                    src={`https://api.pixelstarships.com/FileService/DownloadSprite?spriteId=${item.item_sprite_id}`}
-                                                                    alt={item.name}
-                                                                    className="item-img"
-                                                                />
-                                                                <span className="item-name-text">
-                                                                    {highlightText(
-                                                                        `${item.name}${Number(item.quantity) > 1 ? ` x${item.quantity}` : ''}`,
-                                                                    )}
-                                                                </span>
-                                                            </>
+                                                            <SpriteImage
+                                                                spriteId={String(item.item_sprite_id || '')}
+                                                                alt={item.name}
+                                                                sprite={spritesById[String(item.item_sprite_id || '')]}
+                                                                spriteLookupStatus={spriteLookupStatus}
+                                                            />
+                                                            <span className="item-name-text">
+                                                                {highlightText(
+                                                                    `${item.name}${Number(item.quantity) > 1 ? ` x${item.quantity}` : ''}`,
+                                                                )}
+                                                            </span>
+                                                        </>
                                                     ) : key === 'item_sub_type' && typeof item[key] === 'string' ? (
                                                         highlightText(
                                                             item[key].replace(/^Equipment/, '').replace(/^\s+/, ''),
