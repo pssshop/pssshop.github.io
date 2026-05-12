@@ -1,5 +1,5 @@
 {
-    "generated": "2026-05-12 17:11:43",
+    "generated": "2026-05-12 17:14:57",
     "item_count": 232,
     "items": [
         {
@@ -325,7 +325,7 @@
             "pixyship_estimate": 361
         },
         {
-            "item_id": "299182119",
+            "item_id": "market-579380401",
             "item_design_id": "435",
             "bonus_type": "Repair",
             "bonus_value": "0.4",
@@ -334,8 +334,7 @@
             "rarity": "Hero",
             "item_sub_type": "EquipmentAccessory",
             "item_sprite_id": 9983,
-            "item_enhancement_type": "Ability",
-            "item_enhancement_value": 19.0,
+            "item_price": 375,
             "pixyship_estimate": 361
         },
         {
@@ -829,7 +828,7 @@
             "pixyship_estimate": 547
         },
         {
-            "item_id": "297365792",
+            "item_id": "market-579380420",
             "item_design_id": "169",
             "bonus_type": "Stamina",
             "bonus_value": "19",
@@ -838,8 +837,7 @@
             "rarity": "Hero",
             "item_sub_type": "EquipmentBody",
             "item_sprite_id": 4819,
-            "item_enhancement_type": "Hp",
-            "item_enhancement_value": 3.0,
+            "item_price": 500,
             "pixyship_estimate": 547
         },
         {
