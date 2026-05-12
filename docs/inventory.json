@@ -1,21 +1,7 @@
 {
-    "generated": "2026-05-12 02:06:06",
-    "item_count": 233,
+    "generated": "2026-05-12 17:11:43",
+    "item_count": 232,
     "items": [
-        {
-            "item_id": "302546137",
-            "item_design_id": "1718",
-            "bonus_type": "Pilot",
-            "bonus_value": "9.1",
-            "quantity": "1",
-            "name": "Hydrone 2.0",
-            "rarity": "Special",
-            "item_sub_type": "EquipmentAccessory",
-            "item_sprite_id": 19814,
-            "item_enhancement_type": "Hp",
-            "item_enhancement_value": 4.0,
-            "pixyship_estimate": 3424
-        },
         {
             "item_id": "304811239",
             "item_design_id": "1718",
@@ -224,7 +210,7 @@
             "item_sprite_id": 9983,
             "item_enhancement_type": "Ability",
             "item_enhancement_value": 19.0,
-            "pixyship_estimate": 911
+            "pixyship_estimate": 892
         },
         {
             "item_id": "302863117",
@@ -364,7 +350,7 @@
             "item_sprite_id": 9983,
             "item_enhancement_type": "Ability",
             "item_enhancement_value": 19.0,
-            "pixyship_estimate": 794
+            "pixyship_estimate": 795
         },
         {
             "item_id": "287828556",
@@ -1568,7 +1554,7 @@
             "item_sprite_id": 12544,
             "item_enhancement_type": "Ability",
             "item_enhancement_value": 17.0,
-            "pixyship_estimate": 1044
+            "pixyship_estimate": 1345
         },
         {
             "item_id": "298201807",
@@ -2198,7 +2184,7 @@
             "item_sprite_id": 14738,
             "item_enhancement_type": "Science",
             "item_enhancement_value": 11.0,
-            "pixyship_estimate": 317
+            "pixyship_estimate": 348
         },
         {
             "item_id": "292574030",
@@ -3206,7 +3192,7 @@
             "item_sprite_id": 12887,
             "item_enhancement_type": "Weapon",
             "item_enhancement_value": 7.0,
-            "pixyship_estimate": 527
+            "pixyship_estimate": 535
         },
         {
             "item_id": "291948040",
@@ -3220,7 +3206,7 @@
             "item_sprite_id": 12887,
             "item_enhancement_type": "Weapon",
             "item_enhancement_value": 7.0,
-            "pixyship_estimate": 522
+            "pixyship_estimate": 534
         },
         {
             "item_id": "298098398",
