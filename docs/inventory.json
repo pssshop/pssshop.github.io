@@ -1,6 +1,6 @@
 {
-    "generated": "2026-05-20 20:27:28",
-    "item_count": 231,
+    "generated": "2026-05-21 05:08:33",
+    "item_count": 232,
     "items": [
         {
             "item_id": "304811239",
@@ -1375,6 +1375,20 @@
             "pixyship_estimate": 463
         },
         {
+            "item_id": "305756737",
+            "item_design_id": "1493",
+            "bonus_type": "Science",
+            "bonus_value": "3.3",
+            "quantity": "1",
+            "name": "Immensity Gauntlet",
+            "rarity": "Hero",
+            "item_sub_type": "EquipmentWeapon",
+            "item_sprite_id": 11219,
+            "item_enhancement_type": "Hp",
+            "item_enhancement_value": 4.0,
+            "pixyship_estimate": 301
+        },
+        {
             "item_id": "292260382",
             "item_design_id": "1493",
             "bonus_type": "Stamina",
@@ -1708,7 +1722,7 @@
             "item_sprite_id": 19675,
             "item_enhancement_type": "Pilot",
             "item_enhancement_value": 12.0,
-            "pixyship_estimate": 3184
+            "pixyship_estimate": 3204
         },
         {
             "item_id": "296222638",
@@ -1750,7 +1764,7 @@
             "item_sprite_id": 19675,
             "item_enhancement_type": "Pilot",
             "item_enhancement_value": 12.0,
-            "pixyship_estimate": 308
+            "pixyship_estimate": 310
         },
         {
             "item_id": "298388468",
@@ -1764,7 +1778,7 @@
             "item_sprite_id": 19675,
             "item_enhancement_type": "Pilot",
             "item_enhancement_value": 12.0,
-            "pixyship_estimate": 353
+            "pixyship_estimate": 284
         },
         {
             "item_id": "294229086",
