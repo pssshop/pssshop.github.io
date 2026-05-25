@@ -1,5 +1,5 @@
 {
-    "generated": "2026-05-24 22:10:20",
+    "generated": "2026-05-24 22:15:00",
     "item_count": 231,
     "items": [
         {
@@ -2999,7 +2999,7 @@
             "pixyship_estimate": 582
         },
         {
-            "item_id": "302366424",
+            "item_id": "market-580389865",
             "item_design_id": "790",
             "bonus_type": "Attack",
             "bonus_value": "0.6",
@@ -3008,8 +3008,7 @@
             "rarity": "Hero",
             "item_sub_type": "EquipmentHead",
             "item_sprite_id": 12777,
-            "item_enhancement_type": "Weapon",
-            "item_enhancement_value": 7.0,
+            "item_price": 250,
             "pixyship_estimate": 252
         },
         {
@@ -3181,7 +3180,7 @@
             "pixyship_estimate": 277
         },
         {
-            "item_id": "305976393",
+            "item_id": "market-580389836",
             "item_design_id": "799",
             "bonus_type": "Attack",
             "bonus_value": "0.7",
@@ -3190,8 +3189,7 @@
             "rarity": "Hero",
             "item_sub_type": "EquipmentLeg",
             "item_sprite_id": 12887,
-            "item_enhancement_type": "Weapon",
-            "item_enhancement_value": 7.0,
+            "item_price": 500,
             "pixyship_estimate": 326
         },
         {
