@@ -1,5 +1,5 @@
 {
-    "generated": "2026-06-11 00:35:38",
+    "generated": "2026-06-11 02:27:17",
     "item_count": 239,
     "items": [
         {
@@ -966,7 +966,7 @@
             "item_sprite_id": 16432,
             "item_enhancement_type": "Weapon",
             "item_enhancement_value": 7.0,
-            "pixyship_estimate": 711
+            "pixyship_estimate": 608
         },
         {
             "item_id": "294242827",
@@ -980,7 +980,7 @@
             "item_sprite_id": 16432,
             "item_enhancement_type": "Weapon",
             "item_enhancement_value": 7.0,
-            "pixyship_estimate": 711
+            "pixyship_estimate": 608
         },
         {
             "item_id": "293642273",
