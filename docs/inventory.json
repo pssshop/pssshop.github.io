@@ -1,6 +1,6 @@
 {
-    "generated": "2026-06-10 23:41:12",
-    "item_count": 238,
+    "generated": "2026-06-11 00:35:38",
+    "item_count": 239,
     "items": [
         {
             "item_id": "304811239",
@@ -280,7 +280,7 @@
             "item_sprite_id": 9983,
             "item_enhancement_type": "Ability",
             "item_enhancement_value": 19.0,
-            "pixyship_estimate": 351
+            "pixyship_estimate": 357
         },
         {
             "item_id": "291818514",
@@ -2661,6 +2661,20 @@
             "item_enhancement_type": "Hp",
             "item_enhancement_value": 4.0,
             "pixyship_estimate": 993
+        },
+        {
+            "item_id": "306964895",
+            "item_design_id": "1494",
+            "bonus_type": "Engine",
+            "bonus_value": "5.7",
+            "quantity": "1",
+            "name": "Starburst Bulwark",
+            "rarity": "Hero",
+            "item_sub_type": "EquipmentWeapon",
+            "item_sprite_id": 12218,
+            "item_enhancement_type": "Hp",
+            "item_enhancement_value": 4.0,
+            "pixyship_estimate": 760
         },
         {
             "item_id": "298507212",
