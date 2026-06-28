@@ -1,6 +1,6 @@
 {
-    "generated": "2026-06-28 10:56:19",
-    "item_count": 248,
+    "generated": "2026-06-28 13:06:59",
+    "item_count": 250,
     "items": [
         {
             "item_id": "304811239",
@@ -2691,6 +2691,20 @@
             "pixyship_estimate": 354
         },
         {
+            "item_id": "308637652",
+            "item_design_id": "933",
+            "bonus_type": "Repair",
+            "bonus_value": "0.3",
+            "quantity": "1",
+            "name": "Red Marksman Jacket",
+            "rarity": "Hero",
+            "item_sub_type": "EquipmentBody",
+            "item_sprite_id": 13939,
+            "item_enhancement_type": "Weapon",
+            "item_enhancement_value": 8.0,
+            "pixyship_estimate": 215
+        },
+        {
             "item_id": "293660626",
             "item_design_id": "933",
             "bonus_type": "Stamina",
@@ -2745,6 +2759,20 @@
             "item_enhancement_type": "Weapon",
             "item_enhancement_value": 8.0,
             "pixyship_estimate": 377
+        },
+        {
+            "item_id": "308639620",
+            "item_design_id": "662",
+            "bonus_type": "Weapon",
+            "bonus_value": "6.2",
+            "quantity": "1",
+            "name": "Rocket Pig",
+            "rarity": "Hero",
+            "item_sub_type": "EquipmentAccessory",
+            "item_sprite_id": 11874,
+            "item_enhancement_type": "Hp",
+            "item_enhancement_value": 3.0,
+            "pixyship_estimate": 1721
         },
         {
             "item_id": "298507213",
