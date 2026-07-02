@@ -1,21 +1,7 @@
 {
-    "generated": "2026-07-02 00:03:24",
-    "item_count": 249,
+    "generated": "2026-07-02 00:45:44",
+    "item_count": 248,
     "items": [
-        {
-            "item_id": "291088691",
-            "item_design_id": "1718",
-            "bonus_type": "Attack",
-            "bonus_value": "0.5",
-            "quantity": "1",
-            "name": "Hydrone 2.0",
-            "rarity": "Special",
-            "item_sub_type": "EquipmentAccessory",
-            "item_sprite_id": 19814,
-            "item_enhancement_type": "Hp",
-            "item_enhancement_value": 4.0,
-            "pixyship_estimate": 4199
-        },
         {
             "item_id": "304811239",
             "item_design_id": "1718",
@@ -799,20 +785,6 @@
             "item_enhancement_type": "Hp",
             "item_enhancement_value": 3.0,
             "pixyship_estimate": 568
-        },
-        {
-            "item_id": "293756568",
-            "item_design_id": "246",
-            "bonus_type": "Attack",
-            "bonus_value": "0.5",
-            "quantity": "1",
-            "name": "Dark Matter Helmet",
-            "rarity": "Hero",
-            "item_sub_type": "EquipmentHead",
-            "item_sprite_id": 7432,
-            "item_enhancement_type": "Hp",
-            "item_enhancement_value": 3.0,
-            "pixyship_estimate": 1483
         },
         {
             "item_id": "298072964",
@@ -3487,6 +3459,20 @@
             "item_enhancement_type": "Weapon",
             "item_enhancement_value": 7.0,
             "pixyship_estimate": 2261
+        },
+        {
+            "item_id": "308940909",
+            "item_design_id": "380",
+            "bonus_type": "Attack",
+            "bonus_value": "0.4",
+            "quantity": "1",
+            "name": "ZD Helmet",
+            "rarity": "Hero",
+            "item_sub_type": "EquipmentHead",
+            "item_sprite_id": 9289,
+            "item_enhancement_type": "Attack",
+            "item_enhancement_value": 0.7,
+            "pixyship_estimate": 2923
         }
     ]
 }
