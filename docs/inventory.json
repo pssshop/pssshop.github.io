@@ -1,21 +1,7 @@
 {
-    "generated": "2026-07-03 14:05:00",
-    "item_count": 251,
+    "generated": "2026-07-03 21:13:23",
+    "item_count": 244,
     "items": [
-        {
-            "item_id": "291088691",
-            "item_design_id": "1718",
-            "bonus_type": "Attack",
-            "bonus_value": "0.5",
-            "quantity": "1",
-            "name": "Hydrone 2.0",
-            "rarity": "Special",
-            "item_sub_type": "EquipmentAccessory",
-            "item_sprite_id": 19814,
-            "item_enhancement_type": "Hp",
-            "item_enhancement_value": 4.0,
-            "pixyship_estimate": 4199
-        },
         {
             "item_id": "304811239",
             "item_design_id": "1718",
@@ -29,19 +15,6 @@
             "item_enhancement_type": "Hp",
             "item_enhancement_value": 4.0,
             "pixyship_estimate": 2702
-        },
-        {
-            "item_id": "market-584225700",
-            "item_design_id": "1718",
-            "bonus_type": "Pilot",
-            "bonus_value": "7.7",
-            "quantity": "1",
-            "name": "Hydrone 2.0",
-            "rarity": "Special",
-            "item_sub_type": "EquipmentAccessory",
-            "item_sprite_id": 19814,
-            "item_price": 3000,
-            "pixyship_estimate": 2487
         },
         {
             "item_id": "303755507",
@@ -715,19 +688,6 @@
             "pixyship_estimate": 390
         },
         {
-            "item_id": "market-584225847",
-            "item_design_id": "169",
-            "bonus_type": "Pilot",
-            "bonus_value": "6.6",
-            "quantity": "1",
-            "name": "Dark Matter Armor",
-            "rarity": "Hero",
-            "item_sub_type": "EquipmentBody",
-            "item_sprite_id": 4819,
-            "item_price": 1000,
-            "pixyship_estimate": 683
-        },
-        {
             "item_id": "304428246",
             "item_design_id": "169",
             "bonus_type": "Science",
@@ -810,20 +770,6 @@
             "item_enhancement_type": "Hp",
             "item_enhancement_value": 3.0,
             "pixyship_estimate": 568
-        },
-        {
-            "item_id": "293756568",
-            "item_design_id": "246",
-            "bonus_type": "Attack",
-            "bonus_value": "0.5",
-            "quantity": "1",
-            "name": "Dark Matter Helmet",
-            "rarity": "Hero",
-            "item_sub_type": "EquipmentHead",
-            "item_sprite_id": 7432,
-            "item_enhancement_type": "Hp",
-            "item_enhancement_value": 3.0,
-            "pixyship_estimate": 1483
         },
         {
             "item_id": "298072964",
@@ -1260,19 +1206,6 @@
             "pixyship_estimate": 360
         },
         {
-            "item_id": "market-584225772",
-            "item_design_id": "163",
-            "bonus_type": "Pilot",
-            "bonus_value": "8.9",
-            "quantity": "1",
-            "name": "Golden Cai Dao",
-            "rarity": "Hero",
-            "item_sub_type": "EquipmentWeapon",
-            "item_sprite_id": 5007,
-            "item_price": 400,
-            "pixyship_estimate": 308
-        },
-        {
             "item_id": "296730119",
             "item_design_id": "163",
             "bonus_type": "Weapon",
@@ -1397,20 +1330,6 @@
             "item_enhancement_type": "Hp",
             "item_enhancement_value": 4.0,
             "pixyship_estimate": 536
-        },
-        {
-            "item_id": "294323402",
-            "item_design_id": "1493",
-            "bonus_type": "FireResistance",
-            "bonus_value": "59",
-            "quantity": "1",
-            "name": "Immensity Gauntlet",
-            "rarity": "Hero",
-            "item_sub_type": "EquipmentWeapon",
-            "item_sprite_id": 11219,
-            "item_enhancement_type": "Hp",
-            "item_enhancement_value": 4.0,
-            "pixyship_estimate": 5032
         },
         {
             "item_id": "297669848",
@@ -2701,20 +2620,6 @@
             "pixyship_estimate": 4654
         },
         {
-            "item_id": "296352047",
-            "item_design_id": "662",
-            "bonus_type": "FireResistance",
-            "bonus_value": "57.3",
-            "quantity": "1",
-            "name": "Rocket Pig",
-            "rarity": "Hero",
-            "item_sub_type": "EquipmentAccessory",
-            "item_sprite_id": 11874,
-            "item_enhancement_type": "Hp",
-            "item_enhancement_value": 3.0,
-            "pixyship_estimate": 4073
-        },
-        {
             "item_id": "309024988",
             "item_design_id": "662",
             "bonus_type": "Weapon",
@@ -3272,7 +3177,7 @@
             "item_sprite_id": 12777,
             "item_enhancement_type": "Weapon",
             "item_enhancement_value": 7.0,
-            "pixyship_estimate": 567
+            "pixyship_estimate": 630
         },
         {
             "item_id": "307798148",
@@ -3286,7 +3191,7 @@
             "item_sprite_id": 12777,
             "item_enhancement_type": "Weapon",
             "item_enhancement_value": 7.0,
-            "pixyship_estimate": 567
+            "pixyship_estimate": 630
         },
         {
             "item_id": "309022242",
@@ -3300,7 +3205,7 @@
             "item_sprite_id": 12777,
             "item_enhancement_type": "Weapon",
             "item_enhancement_value": 7.0,
-            "pixyship_estimate": 567
+            "pixyship_estimate": 630
         },
         {
             "item_id": "300434037",
