@@ -1,6 +1,6 @@
 {
-    "generated": "2026-07-03 21:13:23",
-    "item_count": 244,
+    "generated": "2026-07-04 00:14:53",
+    "item_count": 245,
     "items": [
         {
             "item_id": "304811239",
@@ -225,20 +225,6 @@
             "item_enhancement_type": "Ability",
             "item_enhancement_value": 19.0,
             "pixyship_estimate": 421
-        },
-        {
-            "item_id": "273648919",
-            "item_design_id": "435",
-            "bonus_type": "Pilot",
-            "bonus_value": "4",
-            "quantity": "1",
-            "name": "Aldara",
-            "rarity": "Hero",
-            "item_sub_type": "EquipmentAccessory",
-            "item_sprite_id": 9983,
-            "item_enhancement_type": "Ability",
-            "item_enhancement_value": 19.0,
-            "pixyship_estimate": 482
         },
         {
             "item_id": "271588605",
@@ -688,6 +674,20 @@
             "pixyship_estimate": 390
         },
         {
+            "item_id": "308978479",
+            "item_design_id": "169",
+            "bonus_type": "Pilot",
+            "bonus_value": "8.1",
+            "quantity": "1",
+            "name": "Dark Matter Armor",
+            "rarity": "Hero",
+            "item_sub_type": "EquipmentBody",
+            "item_sprite_id": 4819,
+            "item_enhancement_type": "Hp",
+            "item_enhancement_value": 3.0,
+            "pixyship_estimate": 612
+        },
+        {
             "item_id": "304428246",
             "item_design_id": "169",
             "bonus_type": "Science",
@@ -814,7 +814,7 @@
             "pixyship_estimate": 793
         },
         {
-            "item_id": "300012146",
+            "item_id": "market-584269239",
             "item_design_id": "246",
             "bonus_type": "Pilot",
             "bonus_value": "5.4",
@@ -823,8 +823,7 @@
             "rarity": "Hero",
             "item_sub_type": "EquipmentHead",
             "item_sprite_id": 7432,
-            "item_enhancement_type": "Hp",
-            "item_enhancement_value": 3.0,
+            "item_price": 540,
             "pixyship_estimate": 298
         },
         {
@@ -2830,7 +2829,7 @@
             "pixyship_estimate": 288
         },
         {
-            "item_id": "292115333",
+            "item_id": "market-584269374",
             "item_design_id": "808",
             "bonus_type": "Pilot",
             "bonus_value": "8.6",
@@ -2839,8 +2838,7 @@
             "rarity": "Hero",
             "item_sub_type": "EquipmentHead",
             "item_sprite_id": 13020,
-            "item_enhancement_type": "FireResistance",
-            "item_enhancement_value": 70.0,
+            "item_price": 500,
             "pixyship_estimate": 234
         },
         {
@@ -3108,6 +3106,20 @@
             "item_enhancement_type": "Ability",
             "item_enhancement_value": 20.0,
             "pixyship_estimate": 642
+        },
+        {
+            "item_id": "309087941",
+            "item_design_id": "802",
+            "bonus_type": "Weapon",
+            "bonus_value": "2.6",
+            "quantity": "1",
+            "name": "Unobtainium Heavy Assault Armor ",
+            "rarity": "Hero",
+            "item_sub_type": "EquipmentBody",
+            "item_sprite_id": 3757,
+            "item_enhancement_type": "Ability",
+            "item_enhancement_value": 20.0,
+            "pixyship_estimate": 276
         },
         {
             "item_id": "306409409",
