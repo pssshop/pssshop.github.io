@@ -1,6 +1,6 @@
 {
-    "generated": "2026-07-05 02:46:44",
-    "item_count": 251,
+    "generated": "2026-07-05 05:34:20",
+    "item_count": 249,
     "items": [
         {
             "item_id": "304811239",
@@ -85,6 +85,20 @@
             "item_enhancement_type": "Ability",
             "item_enhancement_value": 19.0,
             "pixyship_estimate": 2057
+        },
+        {
+            "item_id": "309220561",
+            "item_design_id": "435",
+            "bonus_type": "Attack",
+            "bonus_value": "0.7",
+            "quantity": "1",
+            "name": "Aldara",
+            "rarity": "Hero",
+            "item_sub_type": "EquipmentAccessory",
+            "item_sprite_id": 9983,
+            "item_enhancement_type": "Ability",
+            "item_enhancement_value": 19.0,
+            "pixyship_estimate": 797
         },
         {
             "item_id": "298817417",
@@ -687,34 +701,6 @@
             "item_enhancement_type": "Hp",
             "item_enhancement_value": 3.0,
             "pixyship_estimate": 390
-        },
-        {
-            "item_id": "309087737",
-            "item_design_id": "169",
-            "bonus_type": "Pilot",
-            "bonus_value": "9.4",
-            "quantity": "1",
-            "name": "Dark Matter Armor",
-            "rarity": "Hero",
-            "item_sub_type": "EquipmentBody",
-            "item_sprite_id": 4819,
-            "item_enhancement_type": "Hp",
-            "item_enhancement_value": 3.0,
-            "pixyship_estimate": 929
-        },
-        {
-            "item_id": "293753268",
-            "item_design_id": "169",
-            "bonus_type": "Pilot",
-            "bonus_value": "8.9",
-            "quantity": "1",
-            "name": "Dark Matter Armor",
-            "rarity": "Hero",
-            "item_sub_type": "EquipmentBody",
-            "item_sprite_id": 4819,
-            "item_enhancement_type": "Hp",
-            "item_enhancement_value": 3.0,
-            "pixyship_estimate": 1061
         },
         {
             "item_id": "308978479",
@@ -1400,20 +1386,6 @@
             "item_enhancement_type": "Hp",
             "item_enhancement_value": 4.0,
             "pixyship_estimate": 536
-        },
-        {
-            "item_id": "308136666",
-            "item_design_id": "1493",
-            "bonus_type": "Pilot",
-            "bonus_value": "7.4",
-            "quantity": "1",
-            "name": "Immensity Gauntlet",
-            "rarity": "Hero",
-            "item_sub_type": "EquipmentWeapon",
-            "item_sprite_id": 11219,
-            "item_enhancement_type": "Hp",
-            "item_enhancement_value": 4.0,
-            "pixyship_estimate": 1400
         },
         {
             "item_id": "297669848",
@@ -2883,7 +2855,7 @@
             "item_sprite_id": 13020,
             "item_enhancement_type": "FireResistance",
             "item_enhancement_value": 70.0,
-            "pixyship_estimate": 6344
+            "pixyship_estimate": 6302
         },
         {
             "item_id": "298801119",
