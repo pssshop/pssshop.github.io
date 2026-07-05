@@ -1,6 +1,6 @@
 {
-    "generated": "2026-07-05 05:34:20",
-    "item_count": 249,
+    "generated": "2026-07-05 14:42:11",
+    "item_count": 251,
     "items": [
         {
             "item_id": "304811239",
@@ -295,6 +295,20 @@
             "item_enhancement_type": "Ability",
             "item_enhancement_value": 19.0,
             "pixyship_estimate": 2453
+        },
+        {
+            "item_id": "309224141",
+            "item_design_id": "435",
+            "bonus_type": "Science",
+            "bonus_value": "5.7",
+            "quantity": "1",
+            "name": "Aldara",
+            "rarity": "Hero",
+            "item_sub_type": "EquipmentAccessory",
+            "item_sprite_id": 9983,
+            "item_enhancement_type": "Ability",
+            "item_enhancement_value": 19.0,
+            "pixyship_estimate": 649
         },
         {
             "item_id": "303297262",
@@ -983,7 +997,7 @@
             "pixyship_estimate": 1127
         },
         {
-            "item_id": "market-584399136",
+            "item_id": "309261204",
             "item_design_id": "1181",
             "bonus_type": "Pilot",
             "bonus_value": "5.9",
@@ -992,7 +1006,8 @@
             "rarity": "Hero",
             "item_sub_type": "EquipmentWeapon",
             "item_sprite_id": 16432,
-            "item_price": 500,
+            "item_enhancement_type": "Weapon",
+            "item_enhancement_value": 7.0,
             "pixyship_estimate": 507
         },
         {
@@ -1175,7 +1190,7 @@
             "item_sprite_id": 5007,
             "item_enhancement_type": "Attack",
             "item_enhancement_value": 0.6,
-            "pixyship_estimate": 787
+            "pixyship_estimate": 848
         },
         {
             "item_id": "289965509",
@@ -2407,7 +2422,7 @@
             "item_sprite_id": 11926,
             "item_enhancement_type": "Attack",
             "item_enhancement_value": 0.7,
-            "pixyship_estimate": 316
+            "pixyship_estimate": 297
         },
         {
             "item_id": "293918793",
@@ -2606,6 +2621,20 @@
             "pixyship_estimate": 230
         },
         {
+            "item_id": "309224515",
+            "item_design_id": "933",
+            "bonus_type": "Repair",
+            "bonus_value": "0.3",
+            "quantity": "1",
+            "name": "Red Marksman Jacket",
+            "rarity": "Hero",
+            "item_sub_type": "EquipmentBody",
+            "item_sprite_id": 13939,
+            "item_enhancement_type": "Weapon",
+            "item_enhancement_value": 8.0,
+            "pixyship_estimate": 230
+        },
+        {
             "item_id": "293660626",
             "item_design_id": "933",
             "bonus_type": "Stamina",
@@ -2729,7 +2758,7 @@
             "item_sprite_id": 12218,
             "item_enhancement_type": "Hp",
             "item_enhancement_value": 4.0,
-            "pixyship_estimate": 472
+            "pixyship_estimate": 443
         },
         {
             "item_id": "299729417",
@@ -2743,7 +2772,7 @@
             "item_sprite_id": 12218,
             "item_enhancement_type": "Hp",
             "item_enhancement_value": 4.0,
-            "pixyship_estimate": 472
+            "pixyship_estimate": 443
         },
         {
             "item_id": "288906532",
@@ -3247,7 +3276,7 @@
             "item_sprite_id": 12777,
             "item_enhancement_type": "Weapon",
             "item_enhancement_value": 7.0,
-            "pixyship_estimate": 630
+            "pixyship_estimate": 629
         },
         {
             "item_id": "307798148",
@@ -3261,7 +3290,7 @@
             "item_sprite_id": 12777,
             "item_enhancement_type": "Weapon",
             "item_enhancement_value": 7.0,
-            "pixyship_estimate": 630
+            "pixyship_estimate": 629
         },
         {
             "item_id": "309022242",
@@ -3275,7 +3304,7 @@
             "item_sprite_id": 12777,
             "item_enhancement_type": "Weapon",
             "item_enhancement_value": 7.0,
-            "pixyship_estimate": 630
+            "pixyship_estimate": 629
         },
         {
             "item_id": "300434037",
