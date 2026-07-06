@@ -1,6 +1,6 @@
 {
-    "generated": "2026-07-05 14:42:11",
-    "item_count": 251,
+    "generated": "2026-07-06 04:26:45",
+    "item_count": 254,
     "items": [
         {
             "item_id": "304811239",
@@ -322,7 +322,7 @@
             "item_sprite_id": 9983,
             "item_enhancement_type": "Ability",
             "item_enhancement_value": 19.0,
-            "pixyship_estimate": 659
+            "pixyship_estimate": 649
         },
         {
             "item_id": "306788563",
@@ -365,6 +365,20 @@
             "item_enhancement_type": "Ability",
             "item_enhancement_value": 19.0,
             "pixyship_estimate": 1686
+        },
+        {
+            "item_id": "309306302",
+            "item_design_id": "435",
+            "bonus_type": "Weapon",
+            "bonus_value": "2.3",
+            "quantity": "1",
+            "name": "Aldara",
+            "rarity": "Hero",
+            "item_sub_type": "EquipmentAccessory",
+            "item_sprite_id": 9983,
+            "item_enhancement_type": "Ability",
+            "item_enhancement_value": 19.0,
+            "pixyship_estimate": 452
         },
         {
             "item_id": "289472191",
@@ -1288,7 +1302,7 @@
             "item_sprite_id": 5007,
             "item_enhancement_type": "Attack",
             "item_enhancement_value": 0.6,
-            "pixyship_estimate": 738
+            "pixyship_estimate": 735
         },
         {
             "item_id": "293771145",
@@ -1541,6 +1555,20 @@
             "item_enhancement_type": "Ability",
             "item_enhancement_value": 17.0,
             "pixyship_estimate": 1399
+        },
+        {
+            "item_id": "309320718",
+            "item_design_id": "727",
+            "bonus_type": "Engine",
+            "bonus_value": "5.5",
+            "quantity": "1",
+            "name": "La Paula",
+            "rarity": "Hero",
+            "item_sub_type": "EquipmentWeapon",
+            "item_sprite_id": 12544,
+            "item_enhancement_type": "Ability",
+            "item_enhancement_value": 17.0,
+            "pixyship_estimate": 1136
         },
         {
             "item_id": "298201807",
@@ -2115,6 +2143,20 @@
             "item_enhancement_type": "Engine",
             "item_enhancement_value": 8.0,
             "pixyship_estimate": 1748
+        },
+        {
+            "item_id": "309267204",
+            "item_design_id": "1000",
+            "bonus_type": "Weapon",
+            "bonus_value": "3.2",
+            "quantity": "1",
+            "name": "Overhauled Boots",
+            "rarity": "Hero",
+            "item_sub_type": "EquipmentLeg",
+            "item_sprite_id": 15249,
+            "item_enhancement_type": "Engine",
+            "item_enhancement_value": 8.0,
+            "pixyship_estimate": 568
         },
         {
             "item_id": "298452073",
@@ -3346,7 +3388,7 @@
             "item_sprite_id": 12777,
             "item_enhancement_type": "Weapon",
             "item_enhancement_value": 7.0,
-            "pixyship_estimate": 1189
+            "pixyship_estimate": 1211
         },
         {
             "item_id": "294247673",
@@ -3360,7 +3402,7 @@
             "item_sprite_id": 12777,
             "item_enhancement_type": "Weapon",
             "item_enhancement_value": 7.0,
-            "pixyship_estimate": 1134
+            "pixyship_estimate": 1158
         },
         {
             "item_id": "292259724",
@@ -3374,7 +3416,7 @@
             "item_sprite_id": 12777,
             "item_enhancement_type": "Weapon",
             "item_enhancement_value": 7.0,
-            "pixyship_estimate": 1088
+            "pixyship_estimate": 1104
         },
         {
             "item_id": "298875836",
@@ -3388,7 +3430,7 @@
             "item_sprite_id": 12777,
             "item_enhancement_type": "Weapon",
             "item_enhancement_value": 7.0,
-            "pixyship_estimate": 879
+            "pixyship_estimate": 878
         },
         {
             "item_id": "296286076",
