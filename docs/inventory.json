@@ -1,5 +1,5 @@
 {
-    "generated": "2026-07-06 21:35:29",
+    "generated": "2026-07-06 22:06:03",
     "item_count": 256,
     "items": [
         {
@@ -15,20 +15,6 @@
             "item_enhancement_type": "Hp",
             "item_enhancement_value": 4.0,
             "pixyship_estimate": 1982
-        },
-        {
-            "item_id": "299475315",
-            "item_design_id": "1218",
-            "bonus_type": "Science",
-            "bonus_value": "8.4",
-            "quantity": "1",
-            "name": "Inferno Ward",
-            "rarity": "Special",
-            "item_sub_type": "EquipmentWeapon",
-            "item_sprite_id": 16651,
-            "item_enhancement_type": "FireResistance",
-            "item_enhancement_value": 75.0,
-            "pixyship_estimate": 1215
         },
         {
             "item_id": "297801535",
@@ -2843,6 +2829,20 @@
             "item_enhancement_type": "Hp",
             "item_enhancement_value": 4.0,
             "pixyship_estimate": 870
+        },
+        {
+            "item_id": "297908173",
+            "item_design_id": "1494",
+            "bonus_type": "Science",
+            "bonus_value": "6.2",
+            "quantity": "1",
+            "name": "Starburst Bulwark",
+            "rarity": "Hero",
+            "item_sub_type": "EquipmentWeapon",
+            "item_sprite_id": 12218,
+            "item_enhancement_type": "Hp",
+            "item_enhancement_value": 4.0,
+            "pixyship_estimate": 752
         },
         {
             "item_id": "298469910",
