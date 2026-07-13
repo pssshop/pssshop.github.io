@@ -1,6 +1,6 @@
 {
-    "generated": "2026-07-12 22:27:41",
-    "item_count": 261,
+    "generated": "2026-07-12 22:37:58",
+    "item_count": 256,
     "items": [
         {
             "item_id": "303755507",
@@ -2087,34 +2087,6 @@
             "pixyship_estimate": 381
         },
         {
-            "item_id": "287200512",
-            "item_design_id": "1000",
-            "bonus_type": "Ability",
-            "bonus_value": "13",
-            "quantity": "1",
-            "name": "Overhauled Boots",
-            "rarity": "Hero",
-            "item_sub_type": "EquipmentLeg",
-            "item_sprite_id": 15249,
-            "item_enhancement_type": "Engine",
-            "item_enhancement_value": 8.0,
-            "pixyship_estimate": 1231
-        },
-        {
-            "item_id": "309413115",
-            "item_design_id": "1000",
-            "bonus_type": "Ability",
-            "bonus_value": "5.6",
-            "quantity": "1",
-            "name": "Overhauled Boots",
-            "rarity": "Hero",
-            "item_sub_type": "EquipmentLeg",
-            "item_sprite_id": 15249,
-            "item_enhancement_type": "Engine",
-            "item_enhancement_value": 8.0,
-            "pixyship_estimate": 743
-        },
-        {
             "item_id": "304428247",
             "item_design_id": "1000",
             "bonus_type": "Attack",
@@ -2183,48 +2155,6 @@
             "item_enhancement_type": "Engine",
             "item_enhancement_value": 8.0,
             "pixyship_estimate": 568
-        },
-        {
-            "item_id": "298452073",
-            "item_design_id": "1010",
-            "bonus_type": "Ability",
-            "bonus_value": "10.9",
-            "quantity": "1",
-            "name": "Overhauled Helm",
-            "rarity": "Hero",
-            "item_sub_type": "EquipmentHead",
-            "item_sprite_id": 15253,
-            "item_enhancement_type": "Engine",
-            "item_enhancement_value": 8.0,
-            "pixyship_estimate": 1195
-        },
-        {
-            "item_id": "298452076",
-            "item_design_id": "1010",
-            "bonus_type": "Ability",
-            "bonus_value": "8.8",
-            "quantity": "1",
-            "name": "Overhauled Helm",
-            "rarity": "Hero",
-            "item_sub_type": "EquipmentHead",
-            "item_sprite_id": 15253,
-            "item_enhancement_type": "Engine",
-            "item_enhancement_value": 8.0,
-            "pixyship_estimate": 769
-        },
-        {
-            "item_id": "309851765",
-            "item_design_id": "1010",
-            "bonus_type": "Ability",
-            "bonus_value": "8.5",
-            "quantity": "1",
-            "name": "Overhauled Helm",
-            "rarity": "Hero",
-            "item_sub_type": "EquipmentHead",
-            "item_sprite_id": 15253,
-            "item_enhancement_type": "Engine",
-            "item_enhancement_value": 8.0,
-            "pixyship_estimate": 794
         },
         {
             "item_id": "298452078",
