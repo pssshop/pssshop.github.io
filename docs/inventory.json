@@ -1,6 +1,6 @@
 {
-    "generated": "2026-07-14 02:02:16",
-    "item_count": 254,
+    "generated": "2026-07-14 11:13:18",
+    "item_count": 252,
     "items": [
         {
             "item_id": "303755507",
@@ -1290,19 +1290,6 @@
             "pixyship_estimate": 538
         },
         {
-            "item_id": "market-585627306",
-            "item_design_id": "163",
-            "bonus_type": "Pilot",
-            "bonus_value": "10.5",
-            "quantity": "1",
-            "name": "Golden Cai Dao",
-            "rarity": "Hero",
-            "item_sub_type": "EquipmentWeapon",
-            "item_sprite_id": 5007,
-            "item_price": 2000,
-            "pixyship_estimate": 484
-        },
-        {
             "item_id": "296730119",
             "item_design_id": "163",
             "bonus_type": "Weapon",
@@ -1651,19 +1638,6 @@
             "item_enhancement_type": "Ability",
             "item_enhancement_value": 17.0,
             "pixyship_estimate": 833
-        },
-        {
-            "item_id": "market-585607280",
-            "item_design_id": "727",
-            "bonus_type": "Pilot",
-            "bonus_value": "6.6",
-            "quantity": "1",
-            "name": "La Paula",
-            "rarity": "Hero",
-            "item_sub_type": "EquipmentWeapon",
-            "item_sprite_id": 12544,
-            "item_price": 1050,
-            "pixyship_estimate": 753
         },
         {
             "item_id": "297585706",
@@ -2923,7 +2897,7 @@
             "item_sprite_id": 13020,
             "item_enhancement_type": "FireResistance",
             "item_enhancement_value": 70.0,
-            "pixyship_estimate": 261
+            "pixyship_estimate": 333
         },
         {
             "item_id": "309198670",
