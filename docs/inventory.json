@@ -1,5 +1,5 @@
 {
-    "generated": "2026-07-13 21:58:03",
+    "generated": "2026-07-13 23:33:40",
     "item_count": 255,
     "items": [
         {
@@ -437,7 +437,7 @@
             "pixyship_estimate": 643
         },
         {
-            "item_id": "309494143",
+            "item_id": "market-585607216",
             "item_design_id": "514",
             "bonus_type": "Pilot",
             "bonus_value": "4.4",
@@ -446,8 +446,7 @@
             "rarity": "Hero",
             "item_sub_type": "EquipmentHead",
             "item_sprite_id": 10047,
-            "item_enhancement_type": "Attack",
-            "item_enhancement_value": 0.9,
+            "item_price": 625,
             "pixyship_estimate": 331
         },
         {
@@ -574,7 +573,7 @@
             "item_sprite_id": 7615,
             "item_enhancement_type": "Attack",
             "item_enhancement_value": 0.7,
-            "pixyship_estimate": 1024
+            "pixyship_estimate": 1022
         },
         {
             "item_id": "301789772",
@@ -899,7 +898,7 @@
             "pixyship_estimate": 1460
         },
         {
-            "item_id": "309198669",
+            "item_id": "market-585607058",
             "item_design_id": "246",
             "bonus_type": "Pilot",
             "bonus_value": "5.4",
@@ -908,8 +907,7 @@
             "rarity": "Hero",
             "item_sub_type": "EquipmentHead",
             "item_sprite_id": 7432,
-            "item_enhancement_type": "Hp",
-            "item_enhancement_value": 3.0,
+            "item_price": 750,
             "pixyship_estimate": 299
         },
         {
@@ -1669,7 +1667,7 @@
             "pixyship_estimate": 833
         },
         {
-            "item_id": "290660308",
+            "item_id": "market-585607280",
             "item_design_id": "727",
             "bonus_type": "Pilot",
             "bonus_value": "6.6",
@@ -1678,8 +1676,7 @@
             "rarity": "Hero",
             "item_sub_type": "EquipmentWeapon",
             "item_sprite_id": 12544,
-            "item_enhancement_type": "Ability",
-            "item_enhancement_value": 17.0,
+            "item_price": 1050,
             "pixyship_estimate": 753
         },
         {
