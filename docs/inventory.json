@@ -1,5 +1,5 @@
 {
-    "generated": "2026-07-14 11:13:18",
+    "generated": "2026-07-14 12:09:32",
     "item_count": 252,
     "items": [
         {
@@ -2508,6 +2508,20 @@
             "pixyship_estimate": 236
         },
         {
+            "item_id": "286512370",
+            "item_design_id": "933",
+            "bonus_type": "FireResistance",
+            "bonus_value": "43.9",
+            "quantity": "1",
+            "name": "Red Marksman Jacket",
+            "rarity": "Hero",
+            "item_sub_type": "EquipmentBody",
+            "item_sprite_id": 13939,
+            "item_enhancement_type": "Weapon",
+            "item_enhancement_value": 8.0,
+            "pixyship_estimate": 368
+        },
+        {
             "item_id": "308604223",
             "item_design_id": "933",
             "bonus_type": "Hp",
@@ -2660,20 +2674,6 @@
             "item_enhancement_type": "Weapon",
             "item_enhancement_value": 8.0,
             "pixyship_estimate": 377
-        },
-        {
-            "item_id": "308667880",
-            "item_design_id": "933",
-            "bonus_type": "Weapon",
-            "bonus_value": "5.2",
-            "quantity": "1",
-            "name": "Red Marksman Jacket",
-            "rarity": "Hero",
-            "item_sub_type": "EquipmentBody",
-            "item_sprite_id": 13939,
-            "item_enhancement_type": "Weapon",
-            "item_enhancement_value": 8.0,
-            "pixyship_estimate": 4654
         },
         {
             "item_id": "309024988",
