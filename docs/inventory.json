@@ -1,5 +1,5 @@
 {
-    "generated": "2026-07-15 03:48:03",
+    "generated": "2026-07-15 10:52:53",
     "item_count": 253,
     "items": [
         {
@@ -2490,7 +2490,7 @@
             "item_sprite_id": 10288,
             "item_enhancement_type": "Engine",
             "item_enhancement_value": 11.0,
-            "pixyship_estimate": 377
+            "pixyship_estimate": 389
         },
         {
             "item_id": "309116419",
