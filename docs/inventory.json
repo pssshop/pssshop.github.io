@@ -1,5 +1,5 @@
 {
-    "generated": "2026-07-15 00:29:28",
+    "generated": "2026-07-15 00:30:30",
     "item_count": 250,
     "items": [
         {
@@ -1766,10 +1766,10 @@
             "pixyship_estimate": 470
         },
         {
-            "item_id": "309657025",
+            "item_id": "291532390",
             "item_design_id": "1706",
-            "bonus_type": "Hp",
-            "bonus_value": "2",
+            "bonus_type": "FireResistance",
+            "bonus_value": "45.1",
             "quantity": "1",
             "name": "Mach Flightsuit",
             "rarity": "Hero",
@@ -1777,7 +1777,7 @@
             "item_sprite_id": 19675,
             "item_enhancement_type": "Pilot",
             "item_enhancement_value": 12.0,
-            "pixyship_estimate": 1785
+            "pixyship_estimate": 272
         },
         {
             "item_id": "market-585679450",
