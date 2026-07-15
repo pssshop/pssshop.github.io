@@ -1,26 +1,12 @@
 {
-    "generated": "2026-07-14 23:58:00",
+    "generated": "2026-07-15 00:29:28",
     "item_count": 250,
     "items": [
         {
-            "item_id": "310055493",
-            "item_design_id": "1718",
-            "bonus_type": "Science",
-            "bonus_value": "6.7",
-            "quantity": "1",
-            "name": "Hydrone 2.0",
-            "rarity": "Special",
-            "item_sub_type": "EquipmentAccessory",
-            "item_sprite_id": 19814,
-            "item_enhancement_type": "Hp",
-            "item_enhancement_value": 4.0,
-            "pixyship_estimate": 1910
-        },
-        {
             "item_id": "303755507",
             "item_design_id": "1718",
-            "bonus_type": "Stamina",
-            "bonus_value": "9",
+            "bonus_type": "Attack",
+            "bonus_value": "0.7",
             "quantity": "1",
             "name": "Hydrone 2.0",
             "rarity": "Special",
@@ -28,7 +14,21 @@
             "item_sprite_id": 19814,
             "item_enhancement_type": "Hp",
             "item_enhancement_value": 4.0,
-            "pixyship_estimate": 1982
+            "pixyship_estimate": 16448
+        },
+        {
+            "item_id": "310055493",
+            "item_design_id": "1718",
+            "bonus_type": "Pilot",
+            "bonus_value": "10",
+            "quantity": "1",
+            "name": "Hydrone 2.0",
+            "rarity": "Special",
+            "item_sub_type": "EquipmentAccessory",
+            "item_sprite_id": 19814,
+            "item_enhancement_type": "Hp",
+            "item_enhancement_value": 4.0,
+            "pixyship_estimate": 3939
         },
         {
             "item_id": "297801535",
@@ -62,7 +62,7 @@
             "item_id": "309804916",
             "item_design_id": "2353",
             "bonus_type": "Stamina",
-            "bonus_value": "17",
+            "bonus_value": "15",
             "quantity": "1",
             "name": "2026 Amethyst Drone",
             "rarity": "Hero",
@@ -1768,8 +1768,8 @@
         {
             "item_id": "309657025",
             "item_design_id": "1706",
-            "bonus_type": "Weapon",
-            "bonus_value": "2.7",
+            "bonus_type": "Hp",
+            "bonus_value": "2",
             "quantity": "1",
             "name": "Mach Flightsuit",
             "rarity": "Hero",
@@ -1777,7 +1777,7 @@
             "item_sprite_id": 19675,
             "item_enhancement_type": "Pilot",
             "item_enhancement_value": 12.0,
-            "pixyship_estimate": 231
+            "pixyship_estimate": 1785
         },
         {
             "item_id": "market-585679450",
