@@ -1,5 +1,5 @@
 {
-    "generated": "2026-07-15 10:52:53",
+    "generated": "2026-07-15 12:12:33",
     "item_count": 253,
     "items": [
         {
@@ -3008,7 +3008,7 @@
             "item_sprite_id": 3757,
             "item_enhancement_type": "Ability",
             "item_enhancement_value": 20.0,
-            "pixyship_estimate": 890
+            "pixyship_estimate": 907
         },
         {
             "item_id": "291315321",
@@ -3092,7 +3092,7 @@
             "item_sprite_id": 3757,
             "item_enhancement_type": "Ability",
             "item_enhancement_value": 20.0,
-            "pixyship_estimate": 314
+            "pixyship_estimate": 337
         },
         {
             "item_id": "298393480",
@@ -3106,7 +3106,7 @@
             "item_sprite_id": 3757,
             "item_enhancement_type": "Ability",
             "item_enhancement_value": 20.0,
-            "pixyship_estimate": 314
+            "pixyship_estimate": 337
         },
         {
             "item_id": "307244582",
@@ -3120,7 +3120,7 @@
             "item_sprite_id": 3757,
             "item_enhancement_type": "Ability",
             "item_enhancement_value": 20.0,
-            "pixyship_estimate": 211
+            "pixyship_estimate": 200
         },
         {
             "item_id": "294822291",
