@@ -1,6 +1,6 @@
 {
-    "generated": "2026-07-15 22:52:21",
-    "item_count": 247,
+    "generated": "2026-07-15 23:32:19",
+    "item_count": 249,
     "items": [
         {
             "item_id": "310063281",
@@ -57,6 +57,20 @@
             "item_enhancement_type": "Hp",
             "item_enhancement_value": 4.0,
             "pixyship_estimate": 2747
+        },
+        {
+            "item_id": "310125193",
+            "item_design_id": "1718",
+            "bonus_type": "Pilot",
+            "bonus_value": "3.7",
+            "quantity": "1",
+            "name": "Hydrone 2.0",
+            "rarity": "Special",
+            "item_sub_type": "EquipmentAccessory",
+            "item_sprite_id": 19814,
+            "item_enhancement_type": "Hp",
+            "item_enhancement_value": 4.0,
+            "pixyship_estimate": 1769
         },
         {
             "item_id": "297801535",
@@ -759,7 +773,7 @@
             "pixyship_estimate": 1096
         },
         {
-            "item_id": "310028774",
+            "item_id": "market-585855292",
             "item_design_id": "169",
             "bonus_type": "Pilot",
             "bonus_value": "7.4",
@@ -768,8 +782,7 @@
             "rarity": "Hero",
             "item_sub_type": "EquipmentBody",
             "item_sprite_id": 4819,
-            "item_enhancement_type": "Hp",
-            "item_enhancement_value": 3.0,
+            "item_price": 2000,
             "pixyship_estimate": 985
         },
         {
@@ -941,7 +954,7 @@
             "pixyship_estimate": 1460
         },
         {
-            "item_id": "310055359",
+            "item_id": "market-585855378",
             "item_design_id": "246",
             "bonus_type": "Pilot",
             "bonus_value": "5.4",
@@ -950,8 +963,7 @@
             "rarity": "Hero",
             "item_sub_type": "EquipmentHead",
             "item_sprite_id": 7432,
-            "item_enhancement_type": "Hp",
-            "item_enhancement_value": 3.0,
+            "item_price": 750,
             "pixyship_estimate": 299
         },
         {
@@ -2901,7 +2913,7 @@
             "pixyship_estimate": 333
         },
         {
-            "item_id": "309198670",
+            "item_id": "market-585855411",
             "item_design_id": "808",
             "bonus_type": "Pilot",
             "bonus_value": "8.6",
@@ -2910,8 +2922,7 @@
             "rarity": "Hero",
             "item_sub_type": "EquipmentHead",
             "item_sprite_id": 13020,
-            "item_enhancement_type": "FireResistance",
-            "item_enhancement_value": 70.0,
+            "item_price": 860,
             "pixyship_estimate": 439
         },
         {
@@ -3095,6 +3106,20 @@
             "item_enhancement_type": "Ability",
             "item_enhancement_value": 20.0,
             "pixyship_estimate": 337
+        },
+        {
+            "item_id": "310125714",
+            "item_design_id": "802",
+            "bonus_type": "Pilot",
+            "bonus_value": "9.5",
+            "quantity": "1",
+            "name": "Unobtainium Heavy Assault Armor ",
+            "rarity": "Hero",
+            "item_sub_type": "EquipmentBody",
+            "item_sprite_id": 3757,
+            "item_enhancement_type": "Ability",
+            "item_enhancement_value": 20.0,
+            "pixyship_estimate": 1870
         },
         {
             "item_id": "294822291",
