@@ -1,5 +1,5 @@
 {
-    "generated": "2026-07-15 23:32:19",
+    "generated": "2026-07-16 11:54:07",
     "item_count": 249,
     "items": [
         {
@@ -728,7 +728,7 @@
             "item_sprite_id": 4819,
             "item_enhancement_type": "Hp",
             "item_enhancement_value": 3.0,
-            "pixyship_estimate": 612
+            "pixyship_estimate": 620
         },
         {
             "item_id": "294323822",
@@ -1569,6 +1569,20 @@
             "pixyship_estimate": 4127
         },
         {
+            "item_id": "310131640",
+            "item_design_id": "727",
+            "bonus_type": "Ability",
+            "bonus_value": "5.5",
+            "quantity": "1",
+            "name": "La Paula",
+            "rarity": "Hero",
+            "item_sub_type": "EquipmentWeapon",
+            "item_sprite_id": 12544,
+            "item_enhancement_type": "Ability",
+            "item_enhancement_value": 17.0,
+            "pixyship_estimate": 840
+        },
+        {
             "item_id": "302546136",
             "item_design_id": "727",
             "bonus_type": "Attack",
@@ -1639,6 +1653,20 @@
             "pixyship_estimate": 521
         },
         {
+            "item_id": "310135365",
+            "item_design_id": "727",
+            "bonus_type": "Engine",
+            "bonus_value": "4.4",
+            "quantity": "1",
+            "name": "La Paula",
+            "rarity": "Hero",
+            "item_sub_type": "EquipmentWeapon",
+            "item_sprite_id": 12544,
+            "item_enhancement_type": "Ability",
+            "item_enhancement_value": 17.0,
+            "pixyship_estimate": 421
+        },
+        {
             "item_id": "298044973",
             "item_design_id": "727",
             "bonus_type": "Engine",
@@ -1706,7 +1734,7 @@
             "item_sprite_id": 12544,
             "item_enhancement_type": "Ability",
             "item_enhancement_value": 17.0,
-            "pixyship_estimate": 253
+            "pixyship_estimate": 254
         },
         {
             "item_id": "303098793",
@@ -2224,7 +2252,7 @@
             "item_sprite_id": 14738,
             "item_enhancement_type": "Science",
             "item_enhancement_value": 11.0,
-            "pixyship_estimate": 1596
+            "pixyship_estimate": 1602
         },
         {
             "item_id": "308336870",
@@ -2239,20 +2267,6 @@
             "item_enhancement_type": "Science",
             "item_enhancement_value": 11.0,
             "pixyship_estimate": 406
-        },
-        {
-            "item_id": "297260299",
-            "item_design_id": "960",
-            "bonus_type": "Pilot",
-            "bonus_value": "5.5",
-            "quantity": "1",
-            "name": "Pink Elephant",
-            "rarity": "Hero",
-            "item_sub_type": "EquipmentAccessory",
-            "item_sprite_id": 14738,
-            "item_enhancement_type": "Science",
-            "item_enhancement_value": 11.0,
-            "pixyship_estimate": 397
         },
         {
             "item_id": "292574030",
@@ -2434,7 +2448,7 @@
             "item_sprite_id": 10288,
             "item_enhancement_type": "Engine",
             "item_enhancement_value": 11.0,
-            "pixyship_estimate": 699
+            "pixyship_estimate": 698
         },
         {
             "item_id": "293918793",
@@ -2673,20 +2687,6 @@
             "item_enhancement_type": "Weapon",
             "item_enhancement_value": 8.0,
             "pixyship_estimate": 286
-        },
-        {
-            "item_id": "299068457",
-            "item_design_id": "933",
-            "bonus_type": "Stamina",
-            "bonus_value": "7",
-            "quantity": "1",
-            "name": "Red Marksman Jacket",
-            "rarity": "Hero",
-            "item_sub_type": "EquipmentBody",
-            "item_sprite_id": 13939,
-            "item_enhancement_type": "Weapon",
-            "item_enhancement_value": 8.0,
-            "pixyship_estimate": 136
         },
         {
             "item_id": "309024988",
