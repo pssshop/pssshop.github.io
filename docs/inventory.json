@@ -1,6 +1,6 @@
 {
-    "generated": "2026-07-16 11:54:07",
-    "item_count": 249,
+    "generated": "2026-07-17 11:45:51",
+    "item_count": 250,
     "items": [
         {
             "item_id": "310063281",
@@ -99,6 +99,20 @@
             "item_enhancement_type": "FireResistance",
             "item_enhancement_value": 80.0,
             "pixyship_estimate": 729
+        },
+        {
+            "item_id": "310198949",
+            "item_design_id": "1496",
+            "bonus_type": "Ability",
+            "bonus_value": "11.8",
+            "quantity": "1",
+            "name": "Summit's Edge",
+            "rarity": "Special",
+            "item_sub_type": "EquipmentWeapon",
+            "item_sprite_id": 18246,
+            "item_enhancement_type": "Hp",
+            "item_enhancement_value": 4.0,
+            "pixyship_estimate": 2855
         },
         {
             "item_id": "309804916",
@@ -224,7 +238,7 @@
             "item_sprite_id": 9983,
             "item_enhancement_type": "Ability",
             "item_enhancement_value": 19.0,
-            "pixyship_estimate": 1400
+            "pixyship_estimate": 1408
         },
         {
             "item_id": "302863117",
@@ -238,7 +252,7 @@
             "item_sprite_id": 9983,
             "item_enhancement_type": "Ability",
             "item_enhancement_value": 19.0,
-            "pixyship_estimate": 1516
+            "pixyship_estimate": 1532
         },
         {
             "item_id": "297489337",
@@ -476,7 +490,7 @@
             "item_sprite_id": 10047,
             "item_enhancement_type": "Attack",
             "item_enhancement_value": 0.9,
-            "pixyship_estimate": 3838
+            "pixyship_estimate": 3034
         },
         {
             "item_id": "293033812",
@@ -759,21 +773,7 @@
             "pixyship_estimate": 415
         },
         {
-            "item_id": "310115206",
-            "item_design_id": "169",
-            "bonus_type": "Pilot",
-            "bonus_value": "7.9",
-            "quantity": "1",
-            "name": "Dark Matter Armor",
-            "rarity": "Hero",
-            "item_sub_type": "EquipmentBody",
-            "item_sprite_id": 4819,
-            "item_enhancement_type": "Hp",
-            "item_enhancement_value": 3.0,
-            "pixyship_estimate": 1096
-        },
-        {
-            "item_id": "market-585855292",
+            "item_id": "310201451",
             "item_design_id": "169",
             "bonus_type": "Pilot",
             "bonus_value": "7.4",
@@ -782,7 +782,8 @@
             "rarity": "Hero",
             "item_sub_type": "EquipmentBody",
             "item_sprite_id": 4819,
-            "item_price": 2000,
+            "item_enhancement_type": "Hp",
+            "item_enhancement_value": 3.0,
             "pixyship_estimate": 985
         },
         {
@@ -954,7 +955,7 @@
             "pixyship_estimate": 1460
         },
         {
-            "item_id": "market-585855378",
+            "item_id": "310201452",
             "item_design_id": "246",
             "bonus_type": "Pilot",
             "bonus_value": "5.4",
@@ -963,7 +964,8 @@
             "rarity": "Hero",
             "item_sub_type": "EquipmentHead",
             "item_sprite_id": 7432,
-            "item_price": 750,
+            "item_enhancement_type": "Hp",
+            "item_enhancement_value": 3.0,
             "pixyship_estimate": 299
         },
         {
@@ -1496,7 +1498,7 @@
             "item_sprite_id": 11219,
             "item_enhancement_type": "Hp",
             "item_enhancement_value": 4.0,
-            "pixyship_estimate": 455
+            "pixyship_estimate": 441
         },
         {
             "item_id": "296805949",
@@ -1510,7 +1512,7 @@
             "item_sprite_id": 11219,
             "item_enhancement_type": "Hp",
             "item_enhancement_value": 4.0,
-            "pixyship_estimate": 455
+            "pixyship_estimate": 441
         },
         {
             "item_id": "308854086",
@@ -1930,7 +1932,7 @@
             "item_sprite_id": 19673,
             "item_enhancement_type": "Pilot",
             "item_enhancement_value": 10.0,
-            "pixyship_estimate": 509
+            "pixyship_estimate": 639
         },
         {
             "item_id": "308603357",
@@ -2336,7 +2338,7 @@
             "item_sprite_id": 14569,
             "item_enhancement_type": "Science",
             "item_enhancement_value": 11.0,
-            "pixyship_estimate": 216
+            "pixyship_estimate": 220
         },
         {
             "item_id": "308731474",
@@ -2493,6 +2495,20 @@
             "pixyship_estimate": 450
         },
         {
+            "item_id": "293946635",
+            "item_design_id": "490",
+            "bonus_type": "FireResistance",
+            "bonus_value": "45.8",
+            "quantity": "1",
+            "name": "QT Mechworks Drone",
+            "rarity": "Hero",
+            "item_sub_type": "EquipmentAccessory",
+            "item_sprite_id": 10288,
+            "item_enhancement_type": "Engine",
+            "item_enhancement_value": 11.0,
+            "pixyship_estimate": 378
+        },
+        {
             "item_id": "291527410",
             "item_design_id": "490",
             "bonus_type": "FireResistance",
@@ -2504,7 +2520,7 @@
             "item_sprite_id": 10288,
             "item_enhancement_type": "Engine",
             "item_enhancement_value": 11.0,
-            "pixyship_estimate": 389
+            "pixyship_estimate": 383
         },
         {
             "item_id": "309116419",
@@ -2913,7 +2929,7 @@
             "pixyship_estimate": 333
         },
         {
-            "item_id": "market-585855411",
+            "item_id": "310201454",
             "item_design_id": "808",
             "bonus_type": "Pilot",
             "bonus_value": "8.6",
@@ -2922,7 +2938,8 @@
             "rarity": "Hero",
             "item_sub_type": "EquipmentHead",
             "item_sprite_id": 13020,
-            "item_price": 860,
+            "item_enhancement_type": "FireResistance",
+            "item_enhancement_value": 70.0,
             "pixyship_estimate": 439
         },
         {
