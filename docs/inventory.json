@@ -1,6 +1,6 @@
 {
-    "generated": "2026-07-22 03:08:44",
-    "item_count": 256,
+    "generated": "2026-07-23 01:34:52",
+    "item_count": 257,
     "items": [
         {
             "item_id": "310063281",
@@ -913,6 +913,20 @@
             "pixyship_estimate": 480
         },
         {
+            "item_id": "310610869",
+            "item_design_id": "246",
+            "bonus_type": "Attack",
+            "bonus_value": "0.5",
+            "quantity": "1",
+            "name": "Dark Matter Helmet",
+            "rarity": "Hero",
+            "item_sub_type": "EquipmentHead",
+            "item_sprite_id": 7432,
+            "item_enhancement_type": "Hp",
+            "item_enhancement_value": 3.0,
+            "pixyship_estimate": 1273
+        },
+        {
             "item_id": "298072964",
             "item_design_id": "246",
             "bonus_type": "FireResistance",
@@ -1641,7 +1655,7 @@
             "pixyship_estimate": 369
         },
         {
-            "item_id": "298329145",
+            "item_id": "market-586562029",
             "item_design_id": "727",
             "bonus_type": "Attack",
             "bonus_value": "0.2",
@@ -1650,8 +1664,7 @@
             "rarity": "Hero",
             "item_sub_type": "EquipmentWeapon",
             "item_sprite_id": 12544,
-            "item_enhancement_type": "Ability",
-            "item_enhancement_value": 17.0,
+            "item_price": 300,
             "pixyship_estimate": 1176
         },
         {
@@ -1792,7 +1805,7 @@
             "item_sprite_id": 12544,
             "item_enhancement_type": "Ability",
             "item_enhancement_value": 17.0,
-            "pixyship_estimate": 1416
+            "pixyship_estimate": 1408
         },
         {
             "item_id": "298507207",
@@ -1806,7 +1819,7 @@
             "item_sprite_id": 12544,
             "item_enhancement_type": "Ability",
             "item_enhancement_value": 17.0,
-            "pixyship_estimate": 957
+            "pixyship_estimate": 1039
         },
         {
             "item_id": "294684742",
@@ -2005,6 +2018,20 @@
             "pixyship_estimate": 382
         },
         {
+            "item_id": "307798644",
+            "item_design_id": "1707",
+            "bonus_type": "Attack",
+            "bonus_value": "0.4",
+            "quantity": "1",
+            "name": "Mach Sabatons",
+            "rarity": "Hero",
+            "item_sub_type": "EquipmentLeg",
+            "item_sprite_id": 19677,
+            "item_enhancement_type": "Pilot",
+            "item_enhancement_value": 10.0,
+            "pixyship_estimate": 382
+        },
+        {
             "item_id": "295548713",
             "item_design_id": "1707",
             "bonus_type": "Repair",
@@ -2044,7 +2071,7 @@
             "item_sprite_id": 16441,
             "item_enhancement_type": "Weapon",
             "item_enhancement_value": 6.0,
-            "pixyship_estimate": 351
+            "pixyship_estimate": 352
         },
         {
             "item_id": "289219708",
@@ -2394,7 +2421,7 @@
             "item_sprite_id": 11922,
             "item_enhancement_type": "Attack",
             "item_enhancement_value": 0.7,
-            "pixyship_estimate": 1612
+            "pixyship_estimate": 2900
         },
         {
             "item_id": "310070970",
@@ -2605,20 +2632,6 @@
             "item_enhancement_type": "Weapon",
             "item_enhancement_value": 8.0,
             "pixyship_estimate": 513
-        },
-        {
-            "item_id": "286413410",
-            "item_design_id": "933",
-            "bonus_type": "Attack",
-            "bonus_value": "0.3",
-            "quantity": "1",
-            "name": "Red Marksman Jacket",
-            "rarity": "Hero",
-            "item_sub_type": "EquipmentBody",
-            "item_sprite_id": 13939,
-            "item_enhancement_type": "Weapon",
-            "item_enhancement_value": 8.0,
-            "pixyship_estimate": 305
         },
         {
             "item_id": "286512370",
@@ -2940,7 +2953,7 @@
             "item_sprite_id": 13020,
             "item_enhancement_type": "FireResistance",
             "item_enhancement_value": 70.0,
-            "pixyship_estimate": 7420
+            "pixyship_estimate": 7419
         },
         {
             "item_id": "303656981",
@@ -3234,7 +3247,7 @@
             "item_sprite_id": 3757,
             "item_enhancement_type": "Ability",
             "item_enhancement_value": 20.0,
-            "pixyship_estimate": 483
+            "pixyship_estimate": 451
         },
         {
             "item_id": "298759204",
@@ -3346,7 +3359,7 @@
             "item_sprite_id": 12777,
             "item_enhancement_type": "Weapon",
             "item_enhancement_value": 7.0,
-            "pixyship_estimate": 577
+            "pixyship_estimate": 574
         },
         {
             "item_id": "307798148",
@@ -3360,7 +3373,7 @@
             "item_sprite_id": 12777,
             "item_enhancement_type": "Weapon",
             "item_enhancement_value": 7.0,
-            "pixyship_estimate": 577
+            "pixyship_estimate": 574
         },
         {
             "item_id": "309022242",
@@ -3374,7 +3387,7 @@
             "item_sprite_id": 12777,
             "item_enhancement_type": "Weapon",
             "item_enhancement_value": 7.0,
-            "pixyship_estimate": 577
+            "pixyship_estimate": 574
         },
         {
             "item_id": "300434037",
