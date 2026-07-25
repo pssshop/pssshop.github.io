@@ -1,6 +1,6 @@
 {
-    "generated": "2026-07-24 11:11:30",
-    "item_count": 270,
+    "generated": "2026-07-25 05:53:59",
+    "item_count": 273,
     "items": [
         {
             "item_id": "310063281",
@@ -17,7 +17,7 @@
             "pixyship_estimate": 3007
         },
         {
-            "item_id": "market-586768834",
+            "item_id": "310743785",
             "item_design_id": "1718",
             "bonus_type": "Engine",
             "bonus_value": "8",
@@ -26,8 +26,51 @@
             "rarity": "Special",
             "item_sub_type": "EquipmentAccessory",
             "item_sprite_id": 19814,
-            "item_price": 6750,
+            "item_enhancement_type": "Hp",
+            "item_enhancement_value": 4.0,
             "pixyship_estimate": 4357
+        },
+        {
+            "item_id": "310414092",
+            "item_design_id": "1718",
+            "bonus_type": "Hp",
+            "bonus_value": "2",
+            "quantity": "1",
+            "name": "Hydrone 2.0",
+            "rarity": "Special",
+            "item_sub_type": "EquipmentAccessory",
+            "item_sprite_id": 19814,
+            "item_enhancement_type": "Hp",
+            "item_enhancement_value": 4.0,
+            "pixyship_estimate": 7405
+        },
+        {
+            "item_id": "310750482",
+            "item_design_id": "1718",
+            "bonus_type": "Hp",
+            "bonus_value": "2",
+            "quantity": "1",
+            "name": "Hydrone 2.0",
+            "rarity": "Special",
+            "item_sub_type": "EquipmentAccessory",
+            "item_sprite_id": 19814,
+            "item_enhancement_type": "Hp",
+            "item_enhancement_value": 4.0,
+            "pixyship_estimate": 7405
+        },
+        {
+            "item_id": "310125193",
+            "item_design_id": "1718",
+            "bonus_type": "Pilot",
+            "bonus_value": "9.9",
+            "quantity": "1",
+            "name": "Hydrone 2.0",
+            "rarity": "Special",
+            "item_sub_type": "EquipmentAccessory",
+            "item_sprite_id": 19814,
+            "item_enhancement_type": "Hp",
+            "item_enhancement_value": 4.0,
+            "pixyship_estimate": 3809
         },
         {
             "item_id": "299074707",
@@ -42,34 +85,6 @@
             "item_enhancement_type": "Hp",
             "item_enhancement_value": 4.0,
             "pixyship_estimate": 3079
-        },
-        {
-            "item_id": "310125193",
-            "item_design_id": "1718",
-            "bonus_type": "Pilot",
-            "bonus_value": "3.7",
-            "quantity": "1",
-            "name": "Hydrone 2.0",
-            "rarity": "Special",
-            "item_sub_type": "EquipmentAccessory",
-            "item_sprite_id": 19814,
-            "item_enhancement_type": "Hp",
-            "item_enhancement_value": 4.0,
-            "pixyship_estimate": 1769
-        },
-        {
-            "item_id": "310414092",
-            "item_design_id": "1718",
-            "bonus_type": "Repair",
-            "bonus_value": "0.4",
-            "quantity": "1",
-            "name": "Hydrone 2.0",
-            "rarity": "Special",
-            "item_sub_type": "EquipmentAccessory",
-            "item_sprite_id": 19814,
-            "item_enhancement_type": "Hp",
-            "item_enhancement_value": 4.0,
-            "pixyship_estimate": 1786
         },
         {
             "item_id": "297801535",
@@ -88,8 +103,8 @@
         {
             "item_id": "304406577",
             "item_design_id": "962",
-            "bonus_type": "Repair",
-            "bonus_value": "0.3",
+            "bonus_type": "Hp",
+            "bonus_value": "1",
             "quantity": "1",
             "name": "Recycled Air Disease Inhibitor",
             "rarity": "Special",
@@ -97,7 +112,7 @@
             "item_sprite_id": 14851,
             "item_enhancement_type": "FireResistance",
             "item_enhancement_value": 80.0,
-            "pixyship_estimate": 729
+            "pixyship_estimate": 1223
         },
         {
             "item_id": "310198949",
@@ -116,8 +131,8 @@
         {
             "item_id": "310414094",
             "item_design_id": "2353",
-            "bonus_type": "Ability",
-            "bonus_value": "14.4",
+            "bonus_type": "FireResistance",
+            "bonus_value": "60",
             "quantity": "1",
             "name": "2026 Amethyst Drone",
             "rarity": "Hero",
@@ -125,7 +140,7 @@
             "item_sprite_id": 29477,
             "item_enhancement_type": "Attack",
             "item_enhancement_value": 0.7,
-            "pixyship_estimate": null
+            "pixyship_estimate": 7500
         },
         {
             "item_id": "303500155",
@@ -853,7 +868,7 @@
             "item_sprite_id": 4819,
             "item_enhancement_type": "Hp",
             "item_enhancement_value": 3.0,
-            "pixyship_estimate": 407
+            "pixyship_estimate": 410
         },
         {
             "item_id": "290106780",
@@ -867,7 +882,7 @@
             "item_sprite_id": 4819,
             "item_enhancement_type": "Hp",
             "item_enhancement_value": 3.0,
-            "pixyship_estimate": 415
+            "pixyship_estimate": 418
         },
         {
             "item_id": "310414095",
@@ -1208,8 +1223,8 @@
         {
             "item_id": "309261204",
             "item_design_id": "1181",
-            "bonus_type": "Pilot",
-            "bonus_value": "5.9",
+            "bonus_type": "Hp",
+            "bonus_value": "1",
             "quantity": "1",
             "name": "Giga-Loader",
             "rarity": "Hero",
@@ -1217,7 +1232,7 @@
             "item_sprite_id": 16432,
             "item_enhancement_type": "Weapon",
             "item_enhancement_value": 7.0,
-            "pixyship_estimate": 537
+            "pixyship_estimate": 737
         },
         {
             "item_id": "291982058",
@@ -1399,7 +1414,7 @@
             "item_sprite_id": 5007,
             "item_enhancement_type": "Attack",
             "item_enhancement_value": 0.6,
-            "pixyship_estimate": 584
+            "pixyship_estimate": 583
         },
         {
             "item_id": "291005979",
@@ -2016,6 +2031,20 @@
             "item_enhancement_type": "Ability",
             "item_enhancement_value": 17.0,
             "pixyship_estimate": 496
+        },
+        {
+            "item_id": "288653977",
+            "item_design_id": "1706",
+            "bonus_type": "Hp",
+            "bonus_value": "2",
+            "quantity": "1",
+            "name": "Mach Flightsuit",
+            "rarity": "Hero",
+            "item_sub_type": "EquipmentBody",
+            "item_sprite_id": 19675,
+            "item_enhancement_type": "Pilot",
+            "item_enhancement_value": 12.0,
+            "pixyship_estimate": 1785
         },
         {
             "item_id": "310095433",
@@ -3054,6 +3083,20 @@
             "pixyship_estimate": 913
         },
         {
+            "item_id": "310705242",
+            "item_design_id": "740",
+            "bonus_type": "Hp",
+            "bonus_value": "3",
+            "quantity": "1",
+            "name": "Storm Lance",
+            "rarity": "Hero",
+            "item_sub_type": "EquipmentWeapon",
+            "item_sprite_id": 12596,
+            "item_enhancement_type": "Science",
+            "item_enhancement_value": 8.0,
+            "pixyship_estimate": 4180
+        },
+        {
             "item_id": "298469910",
             "item_design_id": "740",
             "bonus_type": "Hp",
@@ -3485,7 +3528,7 @@
             "item_sprite_id": 3757,
             "item_enhancement_type": "Ability",
             "item_enhancement_value": 20.0,
-            "pixyship_estimate": 305
+            "pixyship_estimate": 304
         },
         {
             "item_id": "306409409",
