@@ -1,6 +1,6 @@
 {
-    "generated": "2026-07-25 15:41:18",
-    "item_count": 272,
+    "generated": "2026-07-25 16:26:41",
+    "item_count": 277,
     "items": [
         {
             "item_id": "310063281",
@@ -17,6 +17,20 @@
             "pixyship_estimate": 3007
         },
         {
+            "item_id": "296624294",
+            "item_design_id": "1718",
+            "bonus_type": "Engine",
+            "bonus_value": "8.5",
+            "quantity": "1",
+            "name": "Hydrone 2.0",
+            "rarity": "Special",
+            "item_sub_type": "EquipmentAccessory",
+            "item_sprite_id": 19814,
+            "item_enhancement_type": "Hp",
+            "item_enhancement_value": 4.0,
+            "pixyship_estimate": 5658
+        },
+        {
             "item_id": "310743785",
             "item_design_id": "1718",
             "bonus_type": "Engine",
@@ -29,20 +43,6 @@
             "item_enhancement_type": "Hp",
             "item_enhancement_value": 4.0,
             "pixyship_estimate": 4357
-        },
-        {
-            "item_id": "310750482",
-            "item_design_id": "1718",
-            "bonus_type": "Hp",
-            "bonus_value": "2",
-            "quantity": "1",
-            "name": "Hydrone 2.0",
-            "rarity": "Special",
-            "item_sub_type": "EquipmentAccessory",
-            "item_sprite_id": 19814,
-            "item_enhancement_type": "Hp",
-            "item_enhancement_value": 4.0,
-            "pixyship_estimate": 7405
         },
         {
             "item_id": "310125193",
@@ -3809,6 +3809,76 @@
             "item_enhancement_type": "Attack",
             "item_enhancement_value": 0.7,
             "pixyship_estimate": 2923
+        },
+        {
+            "item_id": "306131752",
+            "item_design_id": "956",
+            "bonus_type": null,
+            "bonus_value": null,
+            "quantity": "1",
+            "name": "Dragonstar Imperial Diagram",
+            "rarity": "Epic",
+            "item_sub_type": "BlueprintShip",
+            "item_sprite_id": 14592,
+            "item_enhancement_type": null,
+            "item_enhancement_value": 0.0,
+            "pixyship_estimate": 2693
+        },
+        {
+            "item_id": "inbox-558",
+            "item_design_id": "558",
+            "bonus_type": null,
+            "bonus_value": null,
+            "quantity": "1",
+            "name": "Eclipse Blueprint",
+            "rarity": "Epic",
+            "item_sub_type": "BlueprintShip",
+            "item_sprite_id": 10627,
+            "item_enhancement_type": null,
+            "item_enhancement_value": 0.0,
+            "pixyship_estimate": 5803
+        },
+        {
+            "item_id": "inbox-525",
+            "item_design_id": "525",
+            "bonus_type": null,
+            "bonus_value": null,
+            "quantity": "1",
+            "name": "Oumaumau Blueprint",
+            "rarity": "Epic",
+            "item_sub_type": "BlueprintShip",
+            "item_sprite_id": 10627,
+            "item_enhancement_type": null,
+            "item_enhancement_value": 0.0,
+            "pixyship_estimate": 2300
+        },
+        {
+            "item_id": "inbox-1133",
+            "item_design_id": "1133",
+            "bonus_type": null,
+            "bonus_value": null,
+            "quantity": "1",
+            "name": "Spaceship Blueprint",
+            "rarity": "Epic",
+            "item_sub_type": "BlueprintShip",
+            "item_sprite_id": 16190,
+            "item_enhancement_type": null,
+            "item_enhancement_value": 0.0,
+            "pixyship_estimate": 142
+        },
+        {
+            "item_id": "inbox-822",
+            "item_design_id": "822",
+            "bonus_type": null,
+            "bonus_value": null,
+            "quantity": "2",
+            "name": "Turkey Blueprint",
+            "rarity": "Epic",
+            "item_sub_type": "BlueprintShip",
+            "item_sprite_id": 10627,
+            "item_enhancement_type": null,
+            "item_enhancement_value": 0.0,
+            "pixyship_estimate": 1727
         }
     ]
 }
