@@ -1,6 +1,6 @@
 {
-    "generated": "2026-07-25 16:51:08",
-    "item_count": 301,
+    "generated": "2026-07-25 16:53:22",
+    "item_count": 295,
     "items": [
         {
             "item_id": "inbox-350",
@@ -4105,34 +4105,6 @@
             "pixyship_estimate": 232
         },
         {
-            "item_id": "266797578",
-            "item_design_id": "101",
-            "bonus_type": null,
-            "bonus_value": null,
-            "quantity": "8",
-            "name": "Gold (Au)",
-            "rarity": "Unique",
-            "item_sub_type": "Artifact",
-            "item_sprite_id": 3604,
-            "item_enhancement_type": null,
-            "item_enhancement_value": 0.0,
-            "pixyship_estimate": 3
-        },
-        {
-            "item_id": "266705136",
-            "item_design_id": "778",
-            "bonus_type": null,
-            "bonus_value": null,
-            "quantity": "921",
-            "name": "Void Particle",
-            "rarity": "Unique",
-            "item_sub_type": "Artifact",
-            "item_sprite_id": 12751,
-            "item_enhancement_type": null,
-            "item_enhancement_value": 0.0,
-            "pixyship_estimate": 1
-        },
-        {
             "item_id": "inbox-392",
             "item_design_id": "392",
             "bonus_type": null,
@@ -4145,62 +4117,6 @@
             "item_enhancement_type": null,
             "item_enhancement_value": 3600.0,
             "pixyship_estimate": 29
-        },
-        {
-            "item_id": "266797593",
-            "item_design_id": "104",
-            "bonus_type": null,
-            "bonus_value": null,
-            "quantity": "20",
-            "name": "Titanium (Ti)",
-            "rarity": "Elite",
-            "item_sub_type": "Artifact",
-            "item_sprite_id": 3606,
-            "item_enhancement_type": null,
-            "item_enhancement_value": 0.0,
-            "pixyship_estimate": 41
-        },
-        {
-            "item_id": "266702992",
-            "item_design_id": "102",
-            "bonus_type": null,
-            "bonus_value": null,
-            "quantity": "13",
-            "name": "Carbon (C)",
-            "rarity": "Common",
-            "item_sub_type": "Artifact",
-            "item_sprite_id": 3742,
-            "item_enhancement_type": null,
-            "item_enhancement_value": 0.0,
-            "pixyship_estimate": 24
-        },
-        {
-            "item_id": "267161122",
-            "item_design_id": "103",
-            "bonus_type": null,
-            "bonus_value": null,
-            "quantity": "33",
-            "name": "Scrap Iron (Fe)",
-            "rarity": "Common",
-            "item_sub_type": "Artifact",
-            "item_sprite_id": 3741,
-            "item_enhancement_type": null,
-            "item_enhancement_value": 0.0,
-            "pixyship_estimate": 23
-        },
-        {
-            "item_id": "266785922",
-            "item_design_id": "105",
-            "bonus_type": null,
-            "bonus_value": null,
-            "quantity": "9",
-            "name": "Silicon (Si)",
-            "rarity": "Common",
-            "item_sub_type": "Artifact",
-            "item_sprite_id": 3603,
-            "item_enhancement_type": null,
-            "item_enhancement_value": 0.0,
-            "pixyship_estimate": 36
         },
         {
             "item_id": "inbox-306",
