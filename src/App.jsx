@@ -527,9 +527,11 @@ function App() {
 
             // For the 'bonus' column, search the combined string
             const bonusString = item.bonus_type ? `${item.bonus_type} +${item.bonus_value}` : '';
+            const subType = item.item_sub_type || '';
             return (
                 (item.name && item.name.toLowerCase().includes(search.toLowerCase())) ||
-                (bonusString && bonusString.toLowerCase().includes(search.toLowerCase()))
+                (bonusString && bonusString.toLowerCase().includes(search.toLowerCase())) ||
+                (subType.toLowerCase().includes(search.toLowerCase()))
             );
         });
 
