@@ -1,7 +1,49 @@
 {
-    "generated": "2026-07-25 16:26:41",
-    "item_count": 277,
+    "generated": "2026-07-25 16:31:41",
+    "item_count": 289,
     "items": [
+        {
+            "item_id": "inbox-350",
+            "item_design_id": "350",
+            "bonus_type": null,
+            "bonus_value": null,
+            "quantity": "1",
+            "name": "Galactic Navigation Map",
+            "rarity": "Legendary",
+            "item_sub_type": "InstantTraining",
+            "item_sprite_id": 8967,
+            "item_enhancement_type": null,
+            "item_enhancement_value": 0.0,
+            "pixyship_estimate": 565
+        },
+        {
+            "item_id": "inbox-708",
+            "item_design_id": "708",
+            "bonus_type": null,
+            "bonus_value": null,
+            "quantity": "16",
+            "name": "Sharpshooter\u2019s Cheatbook",
+            "rarity": "Legendary",
+            "item_sub_type": "InstantTraining",
+            "item_sprite_id": 12216,
+            "item_enhancement_type": null,
+            "item_enhancement_value": 0.0,
+            "pixyship_estimate": 768
+        },
+        {
+            "item_id": "inbox-707",
+            "item_design_id": "707",
+            "bonus_type": null,
+            "bonus_value": null,
+            "quantity": "2",
+            "name": "How To Shoot Your Shot'",
+            "rarity": "Special",
+            "item_sub_type": "InstantTraining",
+            "item_sprite_id": 12215,
+            "item_enhancement_type": null,
+            "item_enhancement_value": 0.0,
+            "pixyship_estimate": 226
+        },
         {
             "item_id": "310063281",
             "item_design_id": "1718",
@@ -1165,6 +1207,20 @@
             "pixyship_estimate": null
         },
         {
+            "item_id": "270037032",
+            "item_design_id": "341",
+            "bonus_type": null,
+            "bonus_value": null,
+            "quantity": "1",
+            "name": "Drumsticks",
+            "rarity": "Hero",
+            "item_sub_type": "InstantTraining",
+            "item_sprite_id": 8951,
+            "item_enhancement_type": null,
+            "item_enhancement_value": 0.0,
+            "pixyship_estimate": 91
+        },
+        {
             "item_id": "307930739",
             "item_design_id": "1215",
             "bonus_type": "Attack",
@@ -1289,6 +1345,20 @@
             "item_enhancement_type": "Weapon",
             "item_enhancement_value": 7.0,
             "pixyship_estimate": 6857
+        },
+        {
+            "item_id": "270243639",
+            "item_design_id": "334",
+            "bonus_type": null,
+            "bonus_value": null,
+            "quantity": "53",
+            "name": "Ginkgo",
+            "rarity": "Hero",
+            "item_sub_type": "InstantTraining",
+            "item_sprite_id": 8986,
+            "item_enhancement_type": null,
+            "item_enhancement_value": 0.0,
+            "pixyship_estimate": 118
         },
         {
             "item_id": "293642273",
@@ -1555,6 +1625,20 @@
             "item_enhancement_type": "Attack",
             "item_enhancement_value": 0.6,
             "pixyship_estimate": 401
+        },
+        {
+            "item_id": "inbox-300",
+            "item_design_id": "300",
+            "bonus_type": null,
+            "bonus_value": null,
+            "quantity": "1",
+            "name": "HGH",
+            "rarity": "Hero",
+            "item_sub_type": "InstantTraining",
+            "item_sprite_id": 8246,
+            "item_enhancement_type": null,
+            "item_enhancement_value": 0.0,
+            "pixyship_estimate": 151
         },
         {
             "item_id": "308854085",
@@ -2031,6 +2115,20 @@
             "item_enhancement_type": "Ability",
             "item_enhancement_value": 17.0,
             "pixyship_estimate": 496
+        },
+        {
+            "item_id": "inbox-363",
+            "item_design_id": "363",
+            "bonus_type": null,
+            "bonus_value": null,
+            "quantity": "2",
+            "name": "Lost Repair Guide",
+            "rarity": "Hero",
+            "item_sub_type": "InstantTraining",
+            "item_sprite_id": 8958,
+            "item_enhancement_type": null,
+            "item_enhancement_value": 0.0,
+            "pixyship_estimate": 87
         },
         {
             "item_id": "288653977",
@@ -2789,6 +2887,20 @@
             "pixyship_estimate": 380
         },
         {
+            "item_id": "inbox-376",
+            "item_design_id": "376",
+            "bonus_type": null,
+            "bonus_value": null,
+            "quantity": "5",
+            "name": "Rare Engineering Tool Kit",
+            "rarity": "Hero",
+            "item_sub_type": "InstantTraining",
+            "item_sprite_id": 8979,
+            "item_enhancement_type": null,
+            "item_enhancement_value": 0.0,
+            "pixyship_estimate": 127
+        },
+        {
             "item_id": "309116419",
             "item_design_id": "933",
             "bonus_type": "Ability",
@@ -2985,6 +3097,20 @@
             "pixyship_estimate": 1992
         },
         {
+            "item_id": "270723494",
+            "item_design_id": "356",
+            "bonus_type": null,
+            "bonus_value": null,
+            "quantity": "6",
+            "name": "Solution of Brain Juice",
+            "rarity": "Hero",
+            "item_sub_type": "InstantTraining",
+            "item_sprite_id": 8972,
+            "item_enhancement_type": null,
+            "item_enhancement_value": 0.0,
+            "pixyship_estimate": 116
+        },
+        {
             "item_id": "298507213",
             "item_design_id": "1494",
             "bonus_type": "Attack",
@@ -3095,6 +3221,34 @@
             "item_enhancement_type": "Science",
             "item_enhancement_value": 8.0,
             "pixyship_estimate": 870
+        },
+        {
+            "item_id": "281926548",
+            "item_design_id": "386",
+            "bonus_type": null,
+            "bonus_value": null,
+            "quantity": "1",
+            "name": "Super Growth Supplement",
+            "rarity": "Hero",
+            "item_sub_type": "ReducePrestige",
+            "item_sprite_id": 9437,
+            "item_enhancement_type": null,
+            "item_enhancement_value": 172800.0,
+            "pixyship_estimate": 168
+        },
+        {
+            "item_id": "inbox-348",
+            "item_design_id": "348",
+            "bonus_type": null,
+            "bonus_value": null,
+            "quantity": "19",
+            "name": "System Map",
+            "rarity": "Hero",
+            "item_sub_type": "InstantTraining",
+            "item_sprite_id": 8965,
+            "item_enhancement_type": null,
+            "item_enhancement_value": 0.0,
+            "pixyship_estimate": 92
         },
         {
             "item_id": "291315274",
@@ -3515,6 +3669,20 @@
             "item_enhancement_type": "Ability",
             "item_enhancement_value": 20.0,
             "pixyship_estimate": 304
+        },
+        {
+            "item_id": "271172263",
+            "item_design_id": "706",
+            "bonus_type": null,
+            "bonus_value": null,
+            "quantity": "7",
+            "name": "Veteran\u2019s Guidebook",
+            "rarity": "Hero",
+            "item_sub_type": "InstantTraining",
+            "item_sprite_id": 12214,
+            "item_enhancement_type": null,
+            "item_enhancement_value": 0.0,
+            "pixyship_estimate": 120
         },
         {
             "item_id": "306409409",
