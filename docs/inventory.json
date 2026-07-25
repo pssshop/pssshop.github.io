@@ -1,5 +1,5 @@
 {
-    "generated": "2026-07-25 06:28:03",
+    "generated": "2026-07-25 06:57:45",
     "item_count": 273,
     "items": [
         {
@@ -31,20 +31,6 @@
             "pixyship_estimate": 4357
         },
         {
-            "item_id": "310414092",
-            "item_design_id": "1718",
-            "bonus_type": "Hp",
-            "bonus_value": "2",
-            "quantity": "1",
-            "name": "Hydrone 2.0",
-            "rarity": "Special",
-            "item_sub_type": "EquipmentAccessory",
-            "item_sprite_id": 19814,
-            "item_enhancement_type": "Hp",
-            "item_enhancement_value": 4.0,
-            "pixyship_estimate": 7405
-        },
-        {
             "item_id": "310750482",
             "item_design_id": "1718",
             "bonus_type": "Hp",
@@ -71,6 +57,20 @@
             "item_enhancement_type": "Hp",
             "item_enhancement_value": 4.0,
             "pixyship_estimate": 3809
+        },
+        {
+            "item_id": "296710359",
+            "item_design_id": "1718",
+            "bonus_type": "Pilot",
+            "bonus_value": "9.2",
+            "quantity": "1",
+            "name": "Hydrone 2.0",
+            "rarity": "Special",
+            "item_sub_type": "EquipmentAccessory",
+            "item_sprite_id": 19814,
+            "item_enhancement_type": "Hp",
+            "item_enhancement_value": 4.0,
+            "pixyship_estimate": 3079
         },
         {
             "item_id": "299074707",
@@ -519,6 +519,20 @@
             "item_enhancement_type": "Attack",
             "item_enhancement_value": 0.9,
             "pixyship_estimate": 598
+        },
+        {
+            "item_id": "289378617",
+            "item_design_id": "514",
+            "bonus_type": "Pilot",
+            "bonus_value": "9.9",
+            "quantity": "1",
+            "name": "Captain's Skullmet",
+            "rarity": "Hero",
+            "item_sub_type": "EquipmentHead",
+            "item_sprite_id": 10047,
+            "item_enhancement_type": "Attack",
+            "item_enhancement_value": 0.9,
+            "pixyship_estimate": 728
         },
         {
             "item_id": "288962622",
@@ -2605,20 +2619,6 @@
             "item_enhancement_type": "Science",
             "item_enhancement_value": 12.0,
             "pixyship_estimate": 1957
-        },
-        {
-            "item_id": "302031709",
-            "item_design_id": "675",
-            "bonus_type": "Attack",
-            "bonus_value": "0.7",
-            "quantity": "1",
-            "name": "Prototype Stealth Hood",
-            "rarity": "Hero",
-            "item_sub_type": "EquipmentHead",
-            "item_sprite_id": 11922,
-            "item_enhancement_type": "Attack",
-            "item_enhancement_value": 0.7,
-            "pixyship_estimate": 2900
         },
         {
             "item_id": "310070970",
