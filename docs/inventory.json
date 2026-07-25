@@ -1,6 +1,6 @@
 {
-    "generated": "2026-07-25 16:38:19",
-    "item_count": 289,
+    "generated": "2026-07-25 16:43:02",
+    "item_count": 292,
     "items": [
         {
             "item_id": "inbox-350",
@@ -3979,6 +3979,20 @@
             "pixyship_estimate": 2923
         },
         {
+            "item_id": "inbox-385",
+            "item_design_id": "385",
+            "bonus_type": null,
+            "bonus_value": null,
+            "quantity": "30",
+            "name": "Concentrated Growth Supplement",
+            "rarity": "Epic",
+            "item_sub_type": "ReducePrestige",
+            "item_sprite_id": 9436,
+            "item_enhancement_type": null,
+            "item_enhancement_value": 36000.0,
+            "pixyship_estimate": 224
+        },
+        {
             "item_id": "306131752",
             "item_design_id": "956",
             "bonus_type": null,
@@ -4047,6 +4061,34 @@
             "item_enhancement_type": null,
             "item_enhancement_value": 0.0,
             "pixyship_estimate": 1727
+        },
+        {
+            "item_id": "inbox-392",
+            "item_design_id": "392",
+            "bonus_type": null,
+            "bonus_value": null,
+            "quantity": "32",
+            "name": "Standard Growth Supplement",
+            "rarity": "Elite",
+            "item_sub_type": "ReducePrestige",
+            "item_sprite_id": 9434,
+            "item_enhancement_type": null,
+            "item_enhancement_value": 3600.0,
+            "pixyship_estimate": 29
+        },
+        {
+            "item_id": "inbox-306",
+            "item_design_id": "306",
+            "bonus_type": null,
+            "bonus_value": null,
+            "quantity": "10",
+            "name": "Weak Growth Supplement",
+            "rarity": "Common",
+            "item_sub_type": "ReducePrestige",
+            "item_sprite_id": 9432,
+            "item_enhancement_type": null,
+            "item_enhancement_value": 900.0,
+            "pixyship_estimate": 15
         }
     ]
 }
