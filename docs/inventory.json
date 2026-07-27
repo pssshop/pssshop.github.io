@@ -1,6 +1,6 @@
 {
-    "generated": "2026-07-26 23:34:09",
-    "item_count": 303,
+    "generated": "2026-07-27 04:44:25",
+    "item_count": 300,
     "items": [
         {
             "item_id": "inbox-350",
@@ -840,7 +840,7 @@
             "item_sprite_id": 4819,
             "item_enhancement_type": "Hp",
             "item_enhancement_value": 3.0,
-            "pixyship_estimate": 1687
+            "pixyship_estimate": 1668
         },
         {
             "item_id": "297620338",
@@ -854,7 +854,7 @@
             "item_sprite_id": 4819,
             "item_enhancement_type": "Hp",
             "item_enhancement_value": 3.0,
-            "pixyship_estimate": 906
+            "pixyship_estimate": 911
         },
         {
             "item_id": "310301294",
@@ -969,7 +969,7 @@
             "pixyship_estimate": 985
         },
         {
-            "item_id": "309346537",
+            "item_id": "market-587146491",
             "item_design_id": "169",
             "bonus_type": "Repair",
             "bonus_value": "0.4",
@@ -978,8 +978,7 @@
             "rarity": "Hero",
             "item_sub_type": "EquipmentBody",
             "item_sprite_id": 4819,
-            "item_enhancement_type": "Hp",
-            "item_enhancement_value": 3.0,
+            "item_price": 265,
             "pixyship_estimate": 281
         },
         {
@@ -1261,20 +1260,6 @@
             "item_enhancement_type": "Engine",
             "item_enhancement_value": 7.0,
             "pixyship_estimate": 464
-        },
-        {
-            "item_id": "306233421",
-            "item_design_id": "1215",
-            "bonus_type": "FireResistance",
-            "bonus_value": "42.3",
-            "quantity": "1",
-            "name": "Extendo-Clamp Plus",
-            "rarity": "Hero",
-            "item_sub_type": "EquipmentWeapon",
-            "item_sprite_id": 16605,
-            "item_enhancement_type": "Engine",
-            "item_enhancement_value": 7.0,
-            "pixyship_estimate": 374
         },
         {
             "item_id": "309021576",
@@ -1596,7 +1581,7 @@
             "item_sprite_id": 5007,
             "item_enhancement_type": "Attack",
             "item_enhancement_value": 0.6,
-            "pixyship_estimate": 735
+            "pixyship_estimate": 734
         },
         {
             "item_id": "293771145",
@@ -2031,19 +2016,6 @@
             "item_enhancement_type": "Ability",
             "item_enhancement_value": 17.0,
             "pixyship_estimate": 251
-        },
-        {
-            "item_id": "market-587039754",
-            "item_design_id": "727",
-            "bonus_type": "Repair",
-            "bonus_value": "0.4",
-            "quantity": "1",
-            "name": "La Paula",
-            "rarity": "Hero",
-            "item_sub_type": "EquipmentWeapon",
-            "item_sprite_id": 12544,
-            "item_price": 200,
-            "pixyship_estimate": 236
         },
         {
             "item_id": "303098793",
@@ -3040,7 +3012,7 @@
             "pixyship_estimate": 384
         },
         {
-            "item_id": "309750781",
+            "item_id": "market-587129161",
             "item_design_id": "933",
             "bonus_type": "Repair",
             "bonus_value": "0.6",
@@ -3049,8 +3021,7 @@
             "rarity": "Hero",
             "item_sub_type": "EquipmentBody",
             "item_sprite_id": 13939,
-            "item_enhancement_type": "Weapon",
-            "item_enhancement_value": 8.0,
+            "item_price": 275,
             "pixyship_estimate": 285
         },
         {
@@ -3387,7 +3358,7 @@
             "item_sprite_id": 13020,
             "item_enhancement_type": "FireResistance",
             "item_enhancement_value": 70.0,
-            "pixyship_estimate": 960
+            "pixyship_estimate": 956
         },
         {
             "item_id": "309983240",
@@ -3936,19 +3907,6 @@
             "pixyship_estimate": 413
         },
         {
-            "item_id": "market-587039778",
-            "item_design_id": "799",
-            "bonus_type": "FireResistance",
-            "bonus_value": "52.7",
-            "quantity": "1",
-            "name": "Visiri Master Gunner Greaves",
-            "rarity": "Hero",
-            "item_sub_type": "EquipmentLeg",
-            "item_sprite_id": 12887,
-            "item_price": 300,
-            "pixyship_estimate": 314
-        },
-        {
             "item_id": "294541621",
             "item_design_id": "799",
             "bonus_type": "Hp",
@@ -4030,7 +3988,7 @@
             "item_sprite_id": 23740,
             "item_enhancement_type": "Engine",
             "item_enhancement_value": 7.0,
-            "pixyship_estimate": 2050
+            "pixyship_estimate": 2056
         },
         {
             "item_id": "308135989",
@@ -4044,7 +4002,7 @@
             "item_sprite_id": 23851,
             "item_enhancement_type": "Engine",
             "item_enhancement_value": 9.0,
-            "pixyship_estimate": 1470
+            "pixyship_estimate": 1471
         },
         {
             "item_id": "306347831",
@@ -4219,7 +4177,7 @@
             "item_design_id": "392",
             "bonus_type": null,
             "bonus_value": null,
-            "quantity": "35",
+            "quantity": "38",
             "name": "Standard Growth Supplement",
             "rarity": "Elite",
             "item_sub_type": "ReducePrestige",
