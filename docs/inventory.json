@@ -1,6 +1,6 @@
 {
-    "generated": "2026-07-27 15:20:21",
-    "item_count": 299,
+    "generated": "2026-07-28 01:00:17",
+    "item_count": 300,
     "items": [
         {
             "item_id": "inbox-350",
@@ -56,7 +56,7 @@
             "item_sprite_id": 19814,
             "item_enhancement_type": "Hp",
             "item_enhancement_value": 4.0,
-            "pixyship_estimate": 3017
+            "pixyship_estimate": 3018
         },
         {
             "item_id": "296624294",
@@ -420,7 +420,7 @@
             "item_sprite_id": 9983,
             "item_enhancement_type": "Ability",
             "item_enhancement_value": 19.0,
-            "pixyship_estimate": 638
+            "pixyship_estimate": 640
         },
         {
             "item_id": "303297262",
@@ -633,7 +633,7 @@
             "pixyship_estimate": 401
         },
         {
-            "item_id": "309198822",
+            "item_id": "market-587233837",
             "item_design_id": "514",
             "bonus_type": "Repair",
             "bonus_value": "0.4",
@@ -642,8 +642,7 @@
             "rarity": "Hero",
             "item_sub_type": "EquipmentHead",
             "item_sprite_id": 10047,
-            "item_enhancement_type": "Attack",
-            "item_enhancement_value": 0.9,
+            "item_price": 300,
             "pixyship_estimate": 434
         },
         {
@@ -1224,7 +1223,7 @@
             "item_design_id": "341",
             "bonus_type": null,
             "bonus_value": null,
-            "quantity": "1",
+            "quantity": "2",
             "name": "Drumsticks",
             "rarity": "Hero",
             "item_sub_type": "InstantTraining",
@@ -1350,7 +1349,7 @@
             "item_design_id": "334",
             "bonus_type": null,
             "bonus_value": null,
-            "quantity": "53",
+            "quantity": "54",
             "name": "Ginkgo",
             "rarity": "Hero",
             "item_sub_type": "InstantTraining",
@@ -1736,6 +1735,20 @@
             "item_enhancement_type": "Hp",
             "item_enhancement_value": 4.0,
             "pixyship_estimate": 501
+        },
+        {
+            "item_id": "310935282",
+            "item_design_id": "1493",
+            "bonus_type": "Pilot",
+            "bonus_value": "8",
+            "quantity": "1",
+            "name": "Immensity Gauntlet",
+            "rarity": "Hero",
+            "item_sub_type": "EquipmentWeapon",
+            "item_sprite_id": 11219,
+            "item_enhancement_type": "Hp",
+            "item_enhancement_value": 4.0,
+            "pixyship_estimate": 1658
         },
         {
             "item_id": "297669848",
@@ -2603,7 +2616,7 @@
             "item_sprite_id": 14738,
             "item_enhancement_type": "Science",
             "item_enhancement_value": 11.0,
-            "pixyship_estimate": 378
+            "pixyship_estimate": 401
         },
         {
             "item_id": "292574030",
@@ -2813,7 +2826,7 @@
             "item_sprite_id": 10288,
             "item_enhancement_type": "Engine",
             "item_enhancement_value": 11.0,
-            "pixyship_estimate": 697
+            "pixyship_estimate": 724
         },
         {
             "item_id": "293918793",
@@ -2827,7 +2840,7 @@
             "item_sprite_id": 10288,
             "item_enhancement_type": "Engine",
             "item_enhancement_value": 11.0,
-            "pixyship_estimate": 674
+            "pixyship_estimate": 678
         },
         {
             "item_id": "291785549",
@@ -3051,7 +3064,7 @@
             "item_sprite_id": 13939,
             "item_enhancement_type": "Weapon",
             "item_enhancement_value": 8.0,
-            "pixyship_estimate": 286
+            "pixyship_estimate": 287
         },
         {
             "item_id": "310450258",
@@ -3660,7 +3673,7 @@
             "item_design_id": "706",
             "bonus_type": null,
             "bonus_value": null,
-            "quantity": "8",
+            "quantity": "11",
             "name": "Veteran\u2019s Guidebook",
             "rarity": "Hero",
             "item_sub_type": "InstantTraining",
@@ -4164,7 +4177,7 @@
             "item_design_id": "392",
             "bonus_type": null,
             "bonus_value": null,
-            "quantity": "38",
+            "quantity": "40",
             "name": "Standard Growth Supplement",
             "rarity": "Elite",
             "item_sub_type": "ReducePrestige",
