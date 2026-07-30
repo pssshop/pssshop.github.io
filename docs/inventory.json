@@ -1,5 +1,5 @@
 {
-    "generated": "2026-07-29 23:22:54",
+    "generated": "2026-07-30 10:51:26",
     "item_count": 298,
     "items": [
         {
@@ -633,7 +633,7 @@
             "pixyship_estimate": 401
         },
         {
-            "item_id": "market-587378352",
+            "item_id": "311078345",
             "item_design_id": "514",
             "bonus_type": "Repair",
             "bonus_value": "0.4",
@@ -642,7 +642,8 @@
             "rarity": "Hero",
             "item_sub_type": "EquipmentHead",
             "item_sprite_id": 10047,
-            "item_price": 400,
+            "item_enhancement_type": "Attack",
+            "item_enhancement_value": 0.9,
             "pixyship_estimate": 434
         },
         {
@@ -2956,7 +2957,7 @@
             "pixyship_estimate": 520
         },
         {
-            "item_id": "286512370",
+            "item_id": "market-587485748",
             "item_design_id": "933",
             "bonus_type": "FireResistance",
             "bonus_value": "43.9",
@@ -2965,8 +2966,7 @@
             "rarity": "Hero",
             "item_sub_type": "EquipmentBody",
             "item_sprite_id": 13939,
-            "item_enhancement_type": "Weapon",
-            "item_enhancement_value": 8.0,
+            "item_price": 300,
             "pixyship_estimate": 265
         },
         {
@@ -3387,7 +3387,7 @@
             "item_sprite_id": 13020,
             "item_enhancement_type": "FireResistance",
             "item_enhancement_value": 70.0,
-            "pixyship_estimate": 439
+            "pixyship_estimate": 424
         },
         {
             "item_id": "298381597",
@@ -3614,7 +3614,7 @@
             "pixyship_estimate": 451
         },
         {
-            "item_id": "298759204",
+            "item_id": "market-587497716",
             "item_design_id": "802",
             "bonus_type": "Stamina",
             "bonus_value": "12",
@@ -3623,8 +3623,7 @@
             "rarity": "Hero",
             "item_sub_type": "EquipmentBody",
             "item_sprite_id": 3757,
-            "item_enhancement_type": "Ability",
-            "item_enhancement_value": 20.0,
+            "item_price": 300,
             "pixyship_estimate": 404
         },
         {
@@ -3674,7 +3673,7 @@
             "item_design_id": "706",
             "bonus_type": null,
             "bonus_value": null,
-            "quantity": "12",
+            "quantity": "14",
             "name": "Veteran\u2019s Guidebook",
             "rarity": "Hero",
             "item_sub_type": "InstantTraining",
@@ -4031,14 +4030,14 @@
             "item_sprite_id": 29499,
             "item_enhancement_type": "Attack",
             "item_enhancement_value": 1.0,
-            "pixyship_estimate": 2088
+            "pixyship_estimate": 2260
         },
         {
             "item_id": "inbox-385",
             "item_design_id": "385",
             "bonus_type": null,
             "bonus_value": null,
-            "quantity": "30",
+            "quantity": "80",
             "name": "Concentrated Growth Supplement",
             "rarity": "Epic",
             "item_sub_type": "ReducePrestige",
@@ -4164,7 +4163,7 @@
             "item_design_id": "306",
             "bonus_type": null,
             "bonus_value": null,
-            "quantity": "12",
+            "quantity": "14",
             "name": "Weak Growth Supplement",
             "rarity": "Common",
             "item_sub_type": "ReducePrestige",
