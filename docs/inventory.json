@@ -1,6 +1,6 @@
 {
-    "generated": "2026-07-29 04:06:32",
-    "item_count": 300,
+    "generated": "2026-07-29 23:18:35",
+    "item_count": 298,
     "items": [
         {
             "item_id": "inbox-350",
@@ -1350,7 +1350,7 @@
             "item_design_id": "334",
             "bonus_type": null,
             "bonus_value": null,
-            "quantity": "54",
+            "quantity": "55",
             "name": "Ginkgo",
             "rarity": "Hero",
             "item_sub_type": "InstantTraining",
@@ -2004,7 +2004,7 @@
             "pixyship_estimate": 895
         },
         {
-            "item_id": "market-587319472",
+            "item_id": "311050102",
             "item_design_id": "727",
             "bonus_type": "Repair",
             "bonus_value": "0.5",
@@ -2013,7 +2013,8 @@
             "rarity": "Hero",
             "item_sub_type": "EquipmentWeapon",
             "item_sprite_id": 12544,
-            "item_price": 300,
+            "item_enhancement_type": "Ability",
+            "item_enhancement_value": 17.0,
             "pixyship_estimate": 251
         },
         {
@@ -2129,20 +2130,6 @@
             "pixyship_estimate": 70
         },
         {
-            "item_id": "291532390",
-            "item_design_id": "1706",
-            "bonus_type": "FireResistance",
-            "bonus_value": "45.1",
-            "quantity": "1",
-            "name": "Mach Flightsuit",
-            "rarity": "Hero",
-            "item_sub_type": "EquipmentBody",
-            "item_sprite_id": 19675,
-            "item_enhancement_type": "Pilot",
-            "item_enhancement_value": 12.0,
-            "pixyship_estimate": 272
-        },
-        {
             "item_id": "288653977",
             "item_design_id": "1706",
             "bonus_type": "Hp",
@@ -2211,20 +2198,6 @@
             "item_enhancement_type": "Pilot",
             "item_enhancement_value": 10.0,
             "pixyship_estimate": 400
-        },
-        {
-            "item_id": "292259696",
-            "item_design_id": "1705",
-            "bonus_type": "Hp",
-            "bonus_value": "2",
-            "quantity": "1",
-            "name": "Mach Helm",
-            "rarity": "Hero",
-            "item_sub_type": "EquipmentHead",
-            "item_sprite_id": 19673,
-            "item_enhancement_type": "Pilot",
-            "item_enhancement_value": 10.0,
-            "pixyship_estimate": 1671
         },
         {
             "item_id": "295744519",
@@ -2490,7 +2463,7 @@
             "item_sprite_id": 15249,
             "item_enhancement_type": "Engine",
             "item_enhancement_value": 8.0,
-            "pixyship_estimate": 872
+            "pixyship_estimate": 860
         },
         {
             "item_id": "291653864",
@@ -2521,10 +2494,10 @@
             "pixyship_estimate": 648
         },
         {
-            "item_id": "310696151",
+            "item_id": "311067032",
             "item_design_id": "1000",
-            "bonus_type": "Weapon",
-            "bonus_value": "6.4",
+            "bonus_type": "Stamina",
+            "bonus_value": "10",
             "quantity": "1",
             "name": "Overhauled Boots",
             "rarity": "Hero",
@@ -2532,7 +2505,7 @@
             "item_sprite_id": 15249,
             "item_enhancement_type": "Engine",
             "item_enhancement_value": 8.0,
-            "pixyship_estimate": 307
+            "pixyship_estimate": 870
         },
         {
             "item_id": "309267204",
@@ -3127,7 +3100,7 @@
             "item_design_id": "356",
             "bonus_type": null,
             "bonus_value": null,
-            "quantity": "7",
+            "quantity": "8",
             "name": "Solution of Brain Juice",
             "rarity": "Hero",
             "item_sub_type": "InstantTraining",
@@ -3316,7 +3289,7 @@
             "item_sprite_id": 13020,
             "item_enhancement_type": "FireResistance",
             "item_enhancement_value": 70.0,
-            "pixyship_estimate": 856
+            "pixyship_estimate": 794
         },
         {
             "item_id": "298452021",
@@ -3386,7 +3359,7 @@
             "item_sprite_id": 13020,
             "item_enhancement_type": "FireResistance",
             "item_enhancement_value": 70.0,
-            "pixyship_estimate": 956
+            "pixyship_estimate": 1018
         },
         {
             "item_id": "309983240",
@@ -4114,7 +4087,7 @@
             "item_sprite_id": 10627,
             "item_enhancement_type": null,
             "item_enhancement_value": 0.0,
-            "pixyship_estimate": 5803
+            "pixyship_estimate": 5840
         },
         {
             "item_id": "inbox-525",
@@ -4128,7 +4101,7 @@
             "item_sprite_id": 10627,
             "item_enhancement_type": null,
             "item_enhancement_value": 0.0,
-            "pixyship_estimate": 2293
+            "pixyship_estimate": 2301
         },
         {
             "item_id": "inbox-1133",
@@ -4142,7 +4115,7 @@
             "item_sprite_id": 16190,
             "item_enhancement_type": null,
             "item_enhancement_value": 0.0,
-            "pixyship_estimate": 140
+            "pixyship_estimate": 135
         },
         {
             "item_id": "inbox-822",
