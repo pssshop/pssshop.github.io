@@ -1,5 +1,5 @@
 {
-    "generated": "2026-07-30 23:48:17",
+    "generated": "2026-07-31 04:43:25",
     "item_count": 299,
     "items": [
         {
@@ -28,7 +28,7 @@
             "item_sprite_id": 12216,
             "item_enhancement_type": null,
             "item_enhancement_value": 0.0,
-            "pixyship_estimate": 763
+            "pixyship_estimate": 762
         },
         {
             "item_id": "inbox-707",
@@ -966,7 +966,7 @@
             "item_sprite_id": 4819,
             "item_enhancement_type": "Hp",
             "item_enhancement_value": 3.0,
-            "pixyship_estimate": 985
+            "pixyship_estimate": 946
         },
         {
             "item_id": "310961213",
@@ -3629,7 +3629,7 @@
             "pixyship_estimate": 451
         },
         {
-            "item_id": "market-587497716",
+            "item_id": "311160805",
             "item_design_id": "802",
             "bonus_type": "Stamina",
             "bonus_value": "12",
@@ -3638,7 +3638,8 @@
             "rarity": "Hero",
             "item_sub_type": "EquipmentBody",
             "item_sprite_id": 3757,
-            "item_price": 300,
+            "item_enhancement_type": "Ability",
+            "item_enhancement_value": 20.0,
             "pixyship_estimate": 404
         },
         {
@@ -3695,7 +3696,7 @@
             "item_sprite_id": 12214,
             "item_enhancement_type": null,
             "item_enhancement_value": 0.0,
-            "pixyship_estimate": 104
+            "pixyship_estimate": 103
         },
         {
             "item_id": "306409409",
@@ -4017,7 +4018,7 @@
             "item_sprite_id": 29493,
             "item_enhancement_type": "Attack",
             "item_enhancement_value": 0.8,
-            "pixyship_estimate": 1900
+            "pixyship_estimate": 1892
         },
         {
             "item_id": "300762976",
@@ -4031,7 +4032,7 @@
             "item_sprite_id": 29505,
             "item_enhancement_type": "Attack",
             "item_enhancement_value": 0.7,
-            "pixyship_estimate": 1732
+            "pixyship_estimate": 1728
         },
         {
             "item_id": "298446846",
@@ -4045,7 +4046,7 @@
             "item_sprite_id": 29499,
             "item_enhancement_type": "Attack",
             "item_enhancement_value": 1.0,
-            "pixyship_estimate": 2260
+            "pixyship_estimate": 2268
         },
         {
             "item_id": "inbox-385",
