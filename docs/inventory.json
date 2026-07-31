@@ -1,6 +1,6 @@
 {
-    "generated": "2026-07-30 10:51:26",
-    "item_count": 298,
+    "generated": "2026-07-30 23:48:17",
+    "item_count": 299,
     "items": [
         {
             "item_id": "inbox-350",
@@ -1288,7 +1288,7 @@
             "item_sprite_id": 16432,
             "item_enhancement_type": "Weapon",
             "item_enhancement_value": 7.0,
-            "pixyship_estimate": 917
+            "pixyship_estimate": 1099
         },
         {
             "item_id": "309261204",
@@ -1316,7 +1316,7 @@
             "item_sprite_id": 16432,
             "item_enhancement_type": "Weapon",
             "item_enhancement_value": 7.0,
-            "pixyship_estimate": 571
+            "pixyship_estimate": 600
         },
         {
             "item_id": "294242827",
@@ -1330,7 +1330,7 @@
             "item_sprite_id": 16432,
             "item_enhancement_type": "Weapon",
             "item_enhancement_value": 7.0,
-            "pixyship_estimate": 571
+            "pixyship_estimate": 600
         },
         {
             "item_id": "308127387",
@@ -2128,7 +2128,7 @@
             "item_sprite_id": 8958,
             "item_enhancement_type": null,
             "item_enhancement_value": 0.0,
-            "pixyship_estimate": 70
+            "pixyship_estimate": 74
         },
         {
             "item_id": "288653977",
@@ -2789,6 +2789,20 @@
             "pixyship_estimate": 1521
         },
         {
+            "item_id": "311139908",
+            "item_design_id": "676",
+            "bonus_type": "Pilot",
+            "bonus_value": "10",
+            "quantity": "1",
+            "name": "Prototype Stealth Suit",
+            "rarity": "Hero",
+            "item_sub_type": "EquipmentBody",
+            "item_sprite_id": 11926,
+            "item_enhancement_type": "Attack",
+            "item_enhancement_value": 0.7,
+            "pixyship_estimate": 750
+        },
+        {
             "item_id": "300539138",
             "item_design_id": "676",
             "bonus_type": "Pilot",
@@ -2814,7 +2828,7 @@
             "item_sprite_id": 10288,
             "item_enhancement_type": "Engine",
             "item_enhancement_value": 11.0,
-            "pixyship_estimate": 725
+            "pixyship_estimate": 726
         },
         {
             "item_id": "293918793",
@@ -2870,7 +2884,7 @@
             "item_sprite_id": 10288,
             "item_enhancement_type": "Engine",
             "item_enhancement_value": 11.0,
-            "pixyship_estimate": 387
+            "pixyship_estimate": 435
         },
         {
             "item_id": "291527410",
@@ -2884,7 +2898,7 @@
             "item_sprite_id": 10288,
             "item_enhancement_type": "Engine",
             "item_enhancement_value": 11.0,
-            "pixyship_estimate": 380
+            "pixyship_estimate": 429
         },
         {
             "item_id": "311010852",
@@ -2898,7 +2912,7 @@
             "item_sprite_id": 10288,
             "item_enhancement_type": "Engine",
             "item_enhancement_value": 11.0,
-            "pixyship_estimate": 1122
+            "pixyship_estimate": 1111
         },
         {
             "item_id": "inbox-376",
@@ -2957,7 +2971,7 @@
             "pixyship_estimate": 520
         },
         {
-            "item_id": "market-587485748",
+            "item_id": "311144505",
             "item_design_id": "933",
             "bonus_type": "FireResistance",
             "bonus_value": "43.9",
@@ -2966,7 +2980,8 @@
             "rarity": "Hero",
             "item_sub_type": "EquipmentBody",
             "item_sprite_id": 13939,
-            "item_price": 300,
+            "item_enhancement_type": "Weapon",
+            "item_enhancement_value": 8.0,
             "pixyship_estimate": 265
         },
         {
@@ -3065,7 +3080,7 @@
             "item_sprite_id": 13939,
             "item_enhancement_type": "Weapon",
             "item_enhancement_value": 8.0,
-            "pixyship_estimate": 284
+            "pixyship_estimate": 285
         },
         {
             "item_id": "310450258",
@@ -3100,7 +3115,7 @@
             "item_design_id": "356",
             "bonus_type": null,
             "bonus_value": null,
-            "quantity": "8",
+            "quantity": "9",
             "name": "Solution of Brain Juice",
             "rarity": "Hero",
             "item_sub_type": "InstantTraining",
@@ -3240,7 +3255,7 @@
             "item_design_id": "348",
             "bonus_type": null,
             "bonus_value": null,
-            "quantity": "20",
+            "quantity": "21",
             "name": "System Map",
             "rarity": "Hero",
             "item_sub_type": "InstantTraining",
@@ -3673,7 +3688,7 @@
             "item_design_id": "706",
             "bonus_type": null,
             "bonus_value": null,
-            "quantity": "14",
+            "quantity": "15",
             "name": "Veteran\u2019s Guidebook",
             "rarity": "Hero",
             "item_sub_type": "InstantTraining",
@@ -3974,7 +3989,7 @@
             "item_sprite_id": 23740,
             "item_enhancement_type": "Engine",
             "item_enhancement_value": 7.0,
-            "pixyship_estimate": 2056
+            "pixyship_estimate": 2061
         },
         {
             "item_id": "308135989",
@@ -4086,7 +4101,7 @@
             "item_sprite_id": 10627,
             "item_enhancement_type": null,
             "item_enhancement_value": 0.0,
-            "pixyship_estimate": 5840
+            "pixyship_estimate": 5852
         },
         {
             "item_id": "inbox-525",
@@ -4149,7 +4164,7 @@
             "item_design_id": "392",
             "bonus_type": null,
             "bonus_value": null,
-            "quantity": "40",
+            "quantity": "41",
             "name": "Standard Growth Supplement",
             "rarity": "Elite",
             "item_sub_type": "ReducePrestige",
@@ -4163,7 +4178,7 @@
             "item_design_id": "306",
             "bonus_type": null,
             "bonus_value": null,
-            "quantity": "14",
+            "quantity": "16",
             "name": "Weak Growth Supplement",
             "rarity": "Common",
             "item_sub_type": "ReducePrestige",
