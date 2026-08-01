@@ -1,6 +1,6 @@
 {
-    "generated": "2026-07-31 20:58:03",
-    "item_count": 295,
+    "generated": "2026-08-01 00:32:46",
+    "item_count": 296,
     "items": [
         {
             "item_id": "inbox-350",
@@ -2831,6 +2831,20 @@
             "pixyship_estimate": 452
         },
         {
+            "item_id": "311228423",
+            "item_design_id": "490",
+            "bonus_type": "Attack",
+            "bonus_value": "0.7",
+            "quantity": "1",
+            "name": "QT Mechworks Drone",
+            "rarity": "Hero",
+            "item_sub_type": "EquipmentAccessory",
+            "item_sprite_id": 10288,
+            "item_enhancement_type": "Engine",
+            "item_enhancement_value": 11.0,
+            "pixyship_estimate": 911
+        },
+        {
             "item_id": "293946635",
             "item_design_id": "490",
             "bonus_type": "FireResistance",
@@ -3948,7 +3962,7 @@
             "item_sprite_id": 23851,
             "item_enhancement_type": "Engine",
             "item_enhancement_value": 9.0,
-            "pixyship_estimate": 1471
+            "pixyship_estimate": 2359
         },
         {
             "item_id": "306347831",
@@ -3969,7 +3983,7 @@
             "item_design_id": "2424",
             "bonus_type": null,
             "bonus_value": null,
-            "quantity": "1",
+            "quantity": "2",
             "name": "2026 Class A Greaves MKIII",
             "rarity": "Epic",
             "item_sub_type": "EquipmentLeg",
@@ -4032,7 +4046,7 @@
             "item_sprite_id": 14592,
             "item_enhancement_type": null,
             "item_enhancement_value": 0.0,
-            "pixyship_estimate": 2686
+            "pixyship_estimate": 2636
         },
         {
             "item_id": "inbox-558",
