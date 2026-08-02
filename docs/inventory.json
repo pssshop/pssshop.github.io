@@ -1,6 +1,6 @@
 {
-    "generated": "2026-08-02 13:37:19",
-    "item_count": 300,
+    "generated": "2026-08-02 13:49:00",
+    "item_count": 301,
     "items": [
         {
             "item_id": "inbox-350",
@@ -1767,6 +1767,20 @@
             "pixyship_estimate": 1658
         },
         {
+            "item_id": "294991044",
+            "item_design_id": "1493",
+            "bonus_type": "Science",
+            "bonus_value": "9.4",
+            "quantity": "1",
+            "name": "Immensity Gauntlet",
+            "rarity": "Hero",
+            "item_sub_type": "EquipmentWeapon",
+            "item_sprite_id": 11219,
+            "item_enhancement_type": "Hp",
+            "item_enhancement_value": 4.0,
+            "pixyship_estimate": 2902
+        },
+        {
             "item_id": "297669848",
             "item_design_id": "1493",
             "bonus_type": "Science",
@@ -2621,6 +2635,20 @@
             "pixyship_estimate": 393
         },
         {
+            "item_id": "311353424",
+            "item_design_id": "960",
+            "bonus_type": "Attack",
+            "bonus_value": "0.3",
+            "quantity": "1",
+            "name": "Pink Elephant",
+            "rarity": "Hero",
+            "item_sub_type": "EquipmentAccessory",
+            "item_sprite_id": 14738,
+            "item_enhancement_type": "Science",
+            "item_enhancement_value": 11.0,
+            "pixyship_estimate": 340
+        },
+        {
             "item_id": "288740907",
             "item_design_id": "960",
             "bonus_type": "Hp",
@@ -3276,20 +3304,6 @@
             "item_enhancement_type": "Science",
             "item_enhancement_value": 8.0,
             "pixyship_estimate": 870
-        },
-        {
-            "item_id": "311352937",
-            "item_design_id": "740",
-            "bonus_type": "Science",
-            "bonus_value": "7.7",
-            "quantity": "1",
-            "name": "Storm Lance",
-            "rarity": "Hero",
-            "item_sub_type": "EquipmentWeapon",
-            "item_sprite_id": 12596,
-            "item_enhancement_type": "Science",
-            "item_enhancement_value": 8.0,
-            "pixyship_estimate": 7845
         },
         {
             "item_id": "270723493",
