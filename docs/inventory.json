@@ -1,6 +1,6 @@
 {
-    "generated": "2026-08-02 13:34:52",
-    "item_count": 298,
+    "generated": "2026-08-02 13:37:19",
+    "item_count": 300,
     "items": [
         {
             "item_id": "inbox-350",
@@ -155,6 +155,34 @@
             "item_enhancement_type": "FireResistance",
             "item_enhancement_value": 80.0,
             "pixyship_estimate": 1223
+        },
+        {
+            "item_id": "311353009",
+            "item_design_id": "1749",
+            "bonus_type": "Attack",
+            "bonus_value": "0.3",
+            "quantity": "1",
+            "name": "Redshift Repeater",
+            "rarity": "Special",
+            "item_sub_type": "EquipmentWeapon",
+            "item_sprite_id": 20082,
+            "item_enhancement_type": "Ability",
+            "item_enhancement_value": 21.0,
+            "pixyship_estimate": 1447
+        },
+        {
+            "item_id": "311353010",
+            "item_design_id": "1749",
+            "bonus_type": "Repair",
+            "bonus_value": "0.5",
+            "quantity": "1",
+            "name": "Redshift Repeater",
+            "rarity": "Special",
+            "item_sub_type": "EquipmentWeapon",
+            "item_sprite_id": 20082,
+            "item_enhancement_type": "Ability",
+            "item_enhancement_value": 21.0,
+            "pixyship_estimate": 1345
         },
         {
             "item_id": "310198949",
@@ -1613,7 +1641,7 @@
             "pixyship_estimate": 118
         },
         {
-            "item_id": "inbox-1711",
+            "item_id": "311353011",
             "item_design_id": "1711",
             "bonus_type": "FireResistance",
             "bonus_value": "55.6",
