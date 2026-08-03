@@ -1,6 +1,6 @@
 {
-    "generated": "2026-08-03 04:05:17",
-    "item_count": 304,
+    "generated": "2026-08-03 11:39:37",
+    "item_count": 309,
     "items": [
         {
             "item_id": "310063281",
@@ -309,6 +309,20 @@
             "item_enhancement_type": "Ability",
             "item_enhancement_value": 19.0,
             "pixyship_estimate": 903
+        },
+        {
+            "item_id": "311420018",
+            "item_design_id": "435",
+            "bonus_type": "Hp",
+            "bonus_value": "2",
+            "quantity": "1",
+            "name": "Aldara",
+            "rarity": "Hero",
+            "item_sub_type": "EquipmentAccessory",
+            "item_sprite_id": 9983,
+            "item_enhancement_type": "Ability",
+            "item_enhancement_value": 19.0,
+            "pixyship_estimate": 1216
         },
         {
             "item_id": "297931833",
@@ -854,7 +868,7 @@
             "item_sprite_id": 4819,
             "item_enhancement_type": "Hp",
             "item_enhancement_value": 3.0,
-            "pixyship_estimate": 1003
+            "pixyship_estimate": 1006
         },
         {
             "item_id": "294323647",
@@ -910,7 +924,7 @@
             "item_sprite_id": 4819,
             "item_enhancement_type": "Hp",
             "item_enhancement_value": 3.0,
-            "pixyship_estimate": 1096
+            "pixyship_estimate": 1099
         },
         {
             "item_id": "310414095",
@@ -924,7 +938,7 @@
             "item_sprite_id": 4819,
             "item_enhancement_type": "Hp",
             "item_enhancement_value": 3.0,
-            "pixyship_estimate": 946
+            "pixyship_estimate": 952
         },
         {
             "item_id": "304428246",
@@ -2295,7 +2309,7 @@
             "item_sprite_id": 9906,
             "item_enhancement_type": "Attack",
             "item_enhancement_value": 0.7,
-            "pixyship_estimate": 431
+            "pixyship_estimate": 263
         },
         {
             "item_id": "298507205",
@@ -2562,6 +2576,20 @@
             "item_enhancement_type": "Science",
             "item_enhancement_value": 11.0,
             "pixyship_estimate": 340
+        },
+        {
+            "item_id": "311420017",
+            "item_design_id": "960",
+            "bonus_type": "FireResistance",
+            "bonus_value": "43.5",
+            "quantity": "1",
+            "name": "Pink Elephant",
+            "rarity": "Hero",
+            "item_sub_type": "EquipmentAccessory",
+            "item_sprite_id": 14738,
+            "item_enhancement_type": "Science",
+            "item_enhancement_value": 11.0,
+            "pixyship_estimate": 714
         },
         {
             "item_id": "288740907",
@@ -2886,6 +2914,20 @@
             "pixyship_estimate": 911
         },
         {
+            "item_id": "311419514",
+            "item_design_id": "490",
+            "bonus_type": "FireResistance",
+            "bonus_value": "51.5",
+            "quantity": "1",
+            "name": "QT Mechworks Drone",
+            "rarity": "Hero",
+            "item_sub_type": "EquipmentAccessory",
+            "item_sprite_id": 10288,
+            "item_enhancement_type": "Engine",
+            "item_enhancement_value": 11.0,
+            "pixyship_estimate": 491
+        },
+        {
             "item_id": "289878771",
             "item_design_id": "490",
             "bonus_type": "FireResistance",
@@ -2970,7 +3012,7 @@
             "pixyship_estimate": 520
         },
         {
-            "item_id": "market-587888477",
+            "item_id": "311416513",
             "item_design_id": "933",
             "bonus_type": "FireResistance",
             "bonus_value": "43.9",
@@ -2979,7 +3021,8 @@
             "rarity": "Hero",
             "item_sub_type": "EquipmentBody",
             "item_sprite_id": 13939,
-            "item_price": 300,
+            "item_enhancement_type": "Weapon",
+            "item_enhancement_value": 8.0,
             "pixyship_estimate": 265
         },
         {
@@ -3093,6 +3136,34 @@
             "item_enhancement_type": "Weapon",
             "item_enhancement_value": 8.0,
             "pixyship_estimate": 3491
+        },
+        {
+            "item_id": "311419515",
+            "item_design_id": "662",
+            "bonus_type": "Hp",
+            "bonus_value": "2",
+            "quantity": "1",
+            "name": "Rocket Pig",
+            "rarity": "Hero",
+            "item_sub_type": "EquipmentAccessory",
+            "item_sprite_id": 11874,
+            "item_enhancement_type": "Hp",
+            "item_enhancement_value": 3.0,
+            "pixyship_estimate": 2102
+        },
+        {
+            "item_id": "311420019",
+            "item_design_id": "662",
+            "bonus_type": "Pilot",
+            "bonus_value": "9.2",
+            "quantity": "1",
+            "name": "Rocket Pig",
+            "rarity": "Hero",
+            "item_sub_type": "EquipmentAccessory",
+            "item_sprite_id": 11874,
+            "item_enhancement_type": "Hp",
+            "item_enhancement_value": 3.0,
+            "pixyship_estimate": 1736
         },
         {
             "item_id": "309024988",
@@ -3960,7 +4031,7 @@
             "item_sprite_id": 29505,
             "item_enhancement_type": "Attack",
             "item_enhancement_value": 0.7,
-            "pixyship_estimate": 1713
+            "pixyship_estimate": 1709
         },
         {
             "item_id": "298446846",
