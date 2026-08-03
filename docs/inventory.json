@@ -1,5 +1,5 @@
 {
-    "generated": "2026-08-03 00:52:10",
+    "generated": "2026-08-03 01:13:09",
     "item_count": 305,
     "items": [
         {
@@ -3960,7 +3960,7 @@
             "item_sprite_id": 29493,
             "item_enhancement_type": "Attack",
             "item_enhancement_value": 0.8,
-            "pixyship_estimate": 1897
+            "pixyship_estimate": 1976
         },
         {
             "item_id": "300762976",
@@ -4243,11 +4243,11 @@
             "pixyship_estimate": 1727
         },
         {
-            "item_id": "272043175",
+            "item_id": "inbox-107",
             "item_design_id": "107",
             "bonus_type": null,
             "bonus_value": null,
-            "quantity": "4",
+            "quantity": "3",
             "name": "Unknown Material",
             "rarity": "Epic",
             "item_sub_type": "Artifact",
