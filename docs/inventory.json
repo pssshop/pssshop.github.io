@@ -1,6 +1,6 @@
 {
-    "generated": "2026-08-06 18:15:50",
-    "item_count": 305,
+    "generated": "2026-08-06 18:47:15",
+    "item_count": 304,
     "items": [
         {
             "item_id": "310063281",
@@ -141,20 +141,6 @@
             "item_enhancement_type": "Hp",
             "item_enhancement_value": 4.0,
             "pixyship_estimate": 3471
-        },
-        {
-            "item_id": "310414094",
-            "item_design_id": "2353",
-            "bonus_type": "FireResistance",
-            "bonus_value": "60",
-            "quantity": "1",
-            "name": "2026 Amethyst Drone",
-            "rarity": "Hero",
-            "item_sub_type": "EquipmentAccessory",
-            "item_sprite_id": 29477,
-            "item_enhancement_type": "Attack",
-            "item_enhancement_value": 0.7,
-            "pixyship_estimate": 7500
         },
         {
             "item_id": "303500155",
@@ -3348,7 +3334,7 @@
             "pixyship_estimate": 560
         },
         {
-            "item_id": "303560590",
+            "item_id": "market-588427165",
             "item_design_id": "808",
             "bonus_type": "FireResistance",
             "bonus_value": "62.4",
@@ -3357,8 +3343,7 @@
             "rarity": "Hero",
             "item_sub_type": "EquipmentHead",
             "item_sprite_id": 13020,
-            "item_enhancement_type": "FireResistance",
-            "item_enhancement_value": 70.0,
+            "item_price": 10000,
             "pixyship_estimate": 10908
         },
         {
@@ -3432,7 +3417,7 @@
             "pixyship_estimate": 424
         },
         {
-            "item_id": "298381597",
+            "item_id": "market-588426976",
             "item_design_id": "802",
             "bonus_type": "Ability",
             "bonus_value": "15.6",
@@ -3441,8 +3426,7 @@
             "rarity": "Hero",
             "item_sub_type": "EquipmentBody",
             "item_sprite_id": 3757,
-            "item_enhancement_type": "Ability",
-            "item_enhancement_value": 20.0,
+            "item_price": 10000,
             "pixyship_estimate": 9576
         },
         {
