@@ -1,6 +1,6 @@
 {
-    "generated": "2026-08-06 12:03:19",
-    "item_count": 307,
+    "generated": "2026-08-06 12:15:19",
+    "item_count": 304,
     "items": [
         {
             "item_id": "310063281",
@@ -60,20 +60,6 @@
         },
         {
             "item_id": "296710359",
-            "item_design_id": "1718",
-            "bonus_type": "Pilot",
-            "bonus_value": "9.2",
-            "quantity": "1",
-            "name": "Hydrone 2.0",
-            "rarity": "Special",
-            "item_sub_type": "EquipmentAccessory",
-            "item_sprite_id": 19814,
-            "item_enhancement_type": "Hp",
-            "item_enhancement_value": 4.0,
-            "pixyship_estimate": 3163
-        },
-        {
-            "item_id": "299074707",
             "item_design_id": "1718",
             "bonus_type": "Pilot",
             "bonus_value": "9.2",
@@ -927,34 +913,6 @@
             "pixyship_estimate": 418
         },
         {
-            "item_id": "311315942",
-            "item_design_id": "169",
-            "bonus_type": "Pilot",
-            "bonus_value": "7.9",
-            "quantity": "1",
-            "name": "Dark Matter Armor",
-            "rarity": "Hero",
-            "item_sub_type": "EquipmentBody",
-            "item_sprite_id": 4819,
-            "item_enhancement_type": "Hp",
-            "item_enhancement_value": 3.0,
-            "pixyship_estimate": 1151
-        },
-        {
-            "item_id": "310414095",
-            "item_design_id": "169",
-            "bonus_type": "Pilot",
-            "bonus_value": "7.4",
-            "quantity": "1",
-            "name": "Dark Matter Armor",
-            "rarity": "Hero",
-            "item_sub_type": "EquipmentBody",
-            "item_sprite_id": 4819,
-            "item_enhancement_type": "Hp",
-            "item_enhancement_value": 3.0,
-            "pixyship_estimate": 1042
-        },
-        {
             "item_id": "304428246",
             "item_design_id": "169",
             "bonus_type": "Science",
@@ -1695,20 +1653,6 @@
             "item_enhancement_type": "Hp",
             "item_enhancement_value": 4.0,
             "pixyship_estimate": 496
-        },
-        {
-            "item_id": "310935282",
-            "item_design_id": "1493",
-            "bonus_type": "Pilot",
-            "bonus_value": "8",
-            "quantity": "1",
-            "name": "Immensity Gauntlet",
-            "rarity": "Hero",
-            "item_sub_type": "EquipmentWeapon",
-            "item_sprite_id": 11219,
-            "item_enhancement_type": "Hp",
-            "item_enhancement_value": 4.0,
-            "pixyship_estimate": 1668
         },
         {
             "item_id": "294991044",
@@ -3249,6 +3193,20 @@
             "item_enhancement_type": "Hp",
             "item_enhancement_value": 4.0,
             "pixyship_estimate": 411
+        },
+        {
+            "item_id": "294421887",
+            "item_design_id": "1494",
+            "bonus_type": "FireResistance",
+            "bonus_value": "59.6",
+            "quantity": "1",
+            "name": "Starburst Bulwark",
+            "rarity": "Hero",
+            "item_sub_type": "EquipmentWeapon",
+            "item_sprite_id": 12218,
+            "item_enhancement_type": "Hp",
+            "item_enhancement_value": 4.0,
+            "pixyship_estimate": 3917
         },
         {
             "item_id": "298507212",
