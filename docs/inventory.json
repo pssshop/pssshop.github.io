@@ -1,5 +1,5 @@
 {
-    "generated": "2026-08-06 12:15:19",
+    "generated": "2026-08-06 13:21:46",
     "item_count": 304,
     "items": [
         {
@@ -409,7 +409,7 @@
             "pixyship_estimate": 620
         },
         {
-            "item_id": "311452822",
+            "item_id": "market-588402359",
             "item_design_id": "435",
             "bonus_type": "Weapon",
             "bonus_value": "6.7",
@@ -418,8 +418,7 @@
             "rarity": "Hero",
             "item_sub_type": "EquipmentAccessory",
             "item_sprite_id": 9983,
-            "item_enhancement_type": "Ability",
-            "item_enhancement_value": 19.0,
+            "item_price": 30000,
             "pixyship_estimate": 38082
         },
         {
@@ -1653,6 +1652,20 @@
             "item_enhancement_type": "Hp",
             "item_enhancement_value": 4.0,
             "pixyship_estimate": 496
+        },
+        {
+            "item_id": "294323402",
+            "item_design_id": "1493",
+            "bonus_type": "FireResistance",
+            "bonus_value": "59",
+            "quantity": "1",
+            "name": "Immensity Gauntlet",
+            "rarity": "Hero",
+            "item_sub_type": "EquipmentWeapon",
+            "item_sprite_id": 11219,
+            "item_enhancement_type": "Hp",
+            "item_enhancement_value": 4.0,
+            "pixyship_estimate": 4464
         },
         {
             "item_id": "294991044",
@@ -3195,20 +3208,6 @@
             "pixyship_estimate": 411
         },
         {
-            "item_id": "294421887",
-            "item_design_id": "1494",
-            "bonus_type": "FireResistance",
-            "bonus_value": "59.6",
-            "quantity": "1",
-            "name": "Starburst Bulwark",
-            "rarity": "Hero",
-            "item_sub_type": "EquipmentWeapon",
-            "item_sprite_id": 12218,
-            "item_enhancement_type": "Hp",
-            "item_enhancement_value": 4.0,
-            "pixyship_estimate": 3917
-        },
-        {
             "item_id": "298507212",
             "item_design_id": "1494",
             "bonus_type": "Repair",
@@ -3612,7 +3611,7 @@
             "item_sprite_id": 3757,
             "item_enhancement_type": "Ability",
             "item_enhancement_value": 20.0,
-            "pixyship_estimate": 2664
+            "pixyship_estimate": 2532
         },
         {
             "item_id": "294822291",
