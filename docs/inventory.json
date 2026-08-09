@@ -1,6 +1,6 @@
 {
-    "generated": "2026-08-09 12:50:31",
-    "item_count": 296,
+    "generated": "2026-08-09 13:10:16",
+    "item_count": 298,
     "items": [
         {
             "item_id": "310063281",
@@ -113,19 +113,6 @@
             "item_enhancement_type": "Ability",
             "item_enhancement_value": 21.0,
             "pixyship_estimate": 1235
-        },
-        {
-            "item_id": "market-588760316",
-            "item_design_id": "1496",
-            "bonus_type": "Ability",
-            "bonus_value": "11.8",
-            "quantity": "1",
-            "name": "Summit's Edge",
-            "rarity": "Special",
-            "item_sub_type": "EquipmentWeapon",
-            "item_sprite_id": 18246,
-            "item_price": 3000,
-            "pixyship_estimate": 3471
         },
         {
             "item_id": "303500155",
@@ -1878,7 +1865,7 @@
             "pixyship_estimate": 879
         },
         {
-            "item_id": "311850603",
+            "item_id": "market-588793087",
             "item_design_id": "727",
             "bonus_type": "Pilot",
             "bonus_value": "7.9",
@@ -1887,8 +1874,7 @@
             "rarity": "Hero",
             "item_sub_type": "EquipmentWeapon",
             "item_sprite_id": 12544,
-            "item_enhancement_type": "Ability",
-            "item_enhancement_value": 17.0,
+            "item_price": 2250,
             "pixyship_estimate": 2274
         },
         {
@@ -2172,6 +2158,20 @@
             "pixyship_estimate": 1270
         },
         {
+            "item_id": "311868706",
+            "item_design_id": "1707",
+            "bonus_type": "Attack",
+            "bonus_value": "0.7",
+            "quantity": "1",
+            "name": "Mach Sabatons",
+            "rarity": "Hero",
+            "item_sub_type": "EquipmentLeg",
+            "item_sprite_id": 19677,
+            "item_enhancement_type": "Pilot",
+            "item_enhancement_value": 10.0,
+            "pixyship_estimate": 361
+        },
+        {
             "item_id": "310609532",
             "item_design_id": "1707",
             "bonus_type": "Attack",
@@ -2226,6 +2226,20 @@
             "item_enhancement_type": "Pilot",
             "item_enhancement_value": 10.0,
             "pixyship_estimate": 323
+        },
+        {
+            "item_id": "311868696",
+            "item_design_id": "1707",
+            "bonus_type": "Science",
+            "bonus_value": "9.6",
+            "quantity": "1",
+            "name": "Mach Sabatons",
+            "rarity": "Hero",
+            "item_sub_type": "EquipmentLeg",
+            "item_sprite_id": 19677,
+            "item_enhancement_type": "Pilot",
+            "item_enhancement_value": 10.0,
+            "pixyship_estimate": 755
         },
         {
             "item_id": "311354539",
@@ -2620,6 +2634,20 @@
             "pixyship_estimate": 274
         },
         {
+            "item_id": "311868707",
+            "item_design_id": "676",
+            "bonus_type": "Ability",
+            "bonus_value": "14",
+            "quantity": "1",
+            "name": "Prototype Stealth Suit",
+            "rarity": "Hero",
+            "item_sub_type": "EquipmentBody",
+            "item_sprite_id": 11926,
+            "item_enhancement_type": "Attack",
+            "item_enhancement_value": 0.7,
+            "pixyship_estimate": 829
+        },
+        {
             "item_id": "311318196",
             "item_design_id": "676",
             "bonus_type": "Ability",
@@ -2645,7 +2673,7 @@
             "item_sprite_id": 11926,
             "item_enhancement_type": "Attack",
             "item_enhancement_value": 0.7,
-            "pixyship_estimate": 1117
+            "pixyship_estimate": 1118
         },
         {
             "item_id": "297855855",
@@ -2911,7 +2939,7 @@
             "item_sprite_id": 13939,
             "item_enhancement_type": "Weapon",
             "item_enhancement_value": 8.0,
-            "pixyship_estimate": 430
+            "pixyship_estimate": 434
         },
         {
             "item_id": "294349357",
@@ -2925,7 +2953,7 @@
             "item_sprite_id": 13939,
             "item_enhancement_type": "Weapon",
             "item_enhancement_value": 8.0,
-            "pixyship_estimate": 430
+            "pixyship_estimate": 434
         },
         {
             "item_id": "295524700",
@@ -2939,7 +2967,7 @@
             "item_sprite_id": 13939,
             "item_enhancement_type": "Weapon",
             "item_enhancement_value": 8.0,
-            "pixyship_estimate": 430
+            "pixyship_estimate": 434
         },
         {
             "item_id": "293660626",
@@ -3502,7 +3530,7 @@
             "pixyship_estimate": 316
         },
         {
-            "item_id": "310125714",
+            "item_id": "market-588792986",
             "item_design_id": "802",
             "bonus_type": "Pilot",
             "bonus_value": "9.5",
@@ -3511,8 +3539,7 @@
             "rarity": "Hero",
             "item_sub_type": "EquipmentBody",
             "item_sprite_id": 3757,
-            "item_enhancement_type": "Ability",
-            "item_enhancement_value": 20.0,
+            "item_price": 2750,
             "pixyship_estimate": 2664
         },
         {
