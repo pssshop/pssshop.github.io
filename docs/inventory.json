@@ -1,6 +1,6 @@
 {
-    "generated": "2026-08-09 07:38:14",
-    "item_count": 297,
+    "generated": "2026-08-09 12:04:33",
+    "item_count": 296,
     "items": [
         {
             "item_id": "310063281",
@@ -951,7 +951,7 @@
             "item_sprite_id": 7432,
             "item_enhancement_type": "Hp",
             "item_enhancement_value": 3.0,
-            "pixyship_estimate": 480
+            "pixyship_estimate": 513
         },
         {
             "item_id": "310610869",
@@ -2156,19 +2156,6 @@
             "item_enhancement_type": "Pilot",
             "item_enhancement_value": 10.0,
             "pixyship_estimate": 639
-        },
-        {
-            "item_id": "market-588715354",
-            "item_design_id": "1707",
-            "bonus_type": "Ability",
-            "bonus_value": "14.6",
-            "quantity": "1",
-            "name": "Mach Sabatons",
-            "rarity": "Hero",
-            "item_sub_type": "EquipmentLeg",
-            "item_sprite_id": 19677,
-            "item_price": 4000,
-            "pixyship_estimate": 2567
         },
         {
             "item_id": "302991517",
@@ -4113,7 +4100,7 @@
             "item_sprite_id": 10627,
             "item_enhancement_type": null,
             "item_enhancement_value": 0.0,
-            "pixyship_estimate": 1727
+            "pixyship_estimate": 1737
         },
         {
             "item_id": "272043175",
