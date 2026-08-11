@@ -1,6 +1,6 @@
 {
-    "generated": "2026-08-10 18:01:12",
-    "item_count": 294,
+    "generated": "2026-08-10 21:13:28",
+    "item_count": 295,
     "items": [
         {
             "item_id": "310063281",
@@ -756,7 +756,7 @@
             "item_sprite_id": 4819,
             "item_enhancement_type": "Hp",
             "item_enhancement_value": 3.0,
-            "pixyship_estimate": 911
+            "pixyship_estimate": 965
         },
         {
             "item_id": "297308926",
@@ -770,7 +770,7 @@
             "item_sprite_id": 4819,
             "item_enhancement_type": "Hp",
             "item_enhancement_value": 3.0,
-            "pixyship_estimate": 821
+            "pixyship_estimate": 822
         },
         {
             "item_id": "market-588919254",
@@ -797,7 +797,7 @@
             "item_sprite_id": 4819,
             "item_enhancement_type": "Hp",
             "item_enhancement_value": 3.0,
-            "pixyship_estimate": 2002
+            "pixyship_estimate": 1967
         },
         {
             "item_id": "303738008",
@@ -811,7 +811,7 @@
             "item_sprite_id": 4819,
             "item_enhancement_type": "Hp",
             "item_enhancement_value": 3.0,
-            "pixyship_estimate": 1982
+            "pixyship_estimate": 1948
         },
         {
             "item_id": "310667428",
@@ -1509,7 +1509,7 @@
             "item_sprite_id": 11219,
             "item_enhancement_type": "Hp",
             "item_enhancement_value": 4.0,
-            "pixyship_estimate": 2256
+            "pixyship_estimate": 2117
         },
         {
             "item_id": "296435947",
@@ -1523,7 +1523,7 @@
             "item_sprite_id": 11219,
             "item_enhancement_type": "Hp",
             "item_enhancement_value": 4.0,
-            "pixyship_estimate": 1267
+            "pixyship_estimate": 1242
         },
         {
             "item_id": "287962002",
@@ -1593,7 +1593,7 @@
             "item_sprite_id": 11219,
             "item_enhancement_type": "Hp",
             "item_enhancement_value": 4.0,
-            "pixyship_estimate": 589
+            "pixyship_estimate": 564
         },
         {
             "item_id": "294323402",
@@ -1607,7 +1607,7 @@
             "item_sprite_id": 11219,
             "item_enhancement_type": "Hp",
             "item_enhancement_value": 4.0,
-            "pixyship_estimate": 4260
+            "pixyship_estimate": 4599
         },
         {
             "item_id": "294991044",
@@ -1877,6 +1877,20 @@
         },
         {
             "item_id": "303098793",
+            "item_design_id": "727",
+            "bonus_type": "Science",
+            "bonus_value": "9.4",
+            "quantity": "1",
+            "name": "La Paula",
+            "rarity": "Hero",
+            "item_sub_type": "EquipmentWeapon",
+            "item_sprite_id": 12544,
+            "item_enhancement_type": "Ability",
+            "item_enhancement_value": 17.0,
+            "pixyship_estimate": 2689
+        },
+        {
+            "item_id": "311965972",
             "item_design_id": "727",
             "bonus_type": "Science",
             "bonus_value": "9.4",
@@ -2489,7 +2503,7 @@
             "item_sprite_id": 14738,
             "item_enhancement_type": "Science",
             "item_enhancement_value": 11.0,
-            "pixyship_estimate": 1670
+            "pixyship_estimate": 1778
         },
         {
             "item_id": "308336870",
@@ -3938,7 +3952,7 @@
             "item_design_id": "376",
             "bonus_type": null,
             "bonus_value": null,
-            "quantity": "11",
+            "quantity": "12",
             "name": "Rare Engineering Tool Kit",
             "rarity": "Hero",
             "item_sub_type": "InstantTraining",
