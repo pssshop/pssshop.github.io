@@ -1,6 +1,6 @@
 {
-    "generated": "2026-08-10 21:13:28",
-    "item_count": 295,
+    "generated": "2026-08-10 23:49:56",
+    "item_count": 296,
     "items": [
         {
             "item_id": "310063281",
@@ -182,7 +182,7 @@
             "item_sprite_id": 9983,
             "item_enhancement_type": "Ability",
             "item_enhancement_value": 19.0,
-            "pixyship_estimate": 307
+            "pixyship_estimate": 310
         },
         {
             "item_id": "311824390",
@@ -280,7 +280,7 @@
             "item_sprite_id": 9983,
             "item_enhancement_type": "Ability",
             "item_enhancement_value": 19.0,
-            "pixyship_estimate": 504
+            "pixyship_estimate": 503
         },
         {
             "item_id": "311886581",
@@ -910,6 +910,20 @@
             "item_enhancement_type": "Hp",
             "item_enhancement_value": 3.0,
             "pixyship_estimate": 386
+        },
+        {
+            "item_id": "311974084",
+            "item_design_id": "246",
+            "bonus_type": "Ability",
+            "bonus_value": "15",
+            "quantity": "1",
+            "name": "Dark Matter Helmet",
+            "rarity": "Hero",
+            "item_sub_type": "EquipmentHead",
+            "item_sprite_id": 7432,
+            "item_enhancement_type": "Hp",
+            "item_enhancement_value": 3.0,
+            "pixyship_estimate": 1251
         },
         {
             "item_id": "297142218",
@@ -2685,7 +2699,7 @@
             "item_sprite_id": 11926,
             "item_enhancement_type": "Attack",
             "item_enhancement_value": 0.7,
-            "pixyship_estimate": 1137
+            "pixyship_estimate": 1160
         },
         {
             "item_id": "297855855",
@@ -3413,7 +3427,7 @@
             "item_sprite_id": 3757,
             "item_enhancement_type": "Ability",
             "item_enhancement_value": 20.0,
-            "pixyship_estimate": 744
+            "pixyship_estimate": 775
         },
         {
             "item_id": "291315321",
@@ -3875,7 +3889,7 @@
             "item_sprite_id": 8967,
             "item_enhancement_type": null,
             "item_enhancement_value": 0.0,
-            "pixyship_estimate": 584
+            "pixyship_estimate": 588
         },
         {
             "item_id": "281540549",
@@ -3980,7 +3994,7 @@
             "item_design_id": "348",
             "bonus_type": null,
             "bonus_value": null,
-            "quantity": "23",
+            "quantity": "24",
             "name": "System Map",
             "rarity": "Hero",
             "item_sub_type": "InstantTraining",
@@ -4099,14 +4113,14 @@
             "item_sprite_id": 18618,
             "item_enhancement_type": null,
             "item_enhancement_value": 0.0,
-            "pixyship_estimate": 235
+            "pixyship_estimate": 234
         },
         {
             "item_id": "inbox-392",
             "item_design_id": "392",
             "bonus_type": null,
             "bonus_value": null,
-            "quantity": "1",
+            "quantity": "3",
             "name": "Standard Growth Supplement",
             "rarity": "Elite",
             "item_sub_type": "ReducePrestige",
