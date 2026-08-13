@@ -1,5 +1,5 @@
 {
-    "generated": "2026-08-12 21:59:16",
+    "generated": "2026-08-12 22:01:04",
     "item_count": 300,
     "items": [
         {
@@ -2536,7 +2536,7 @@
             "pixyship_estimate": 393
         },
         {
-            "item_id": "298452074",
+            "item_id": "market-589144847",
             "item_design_id": "1010",
             "bonus_type": "Hp",
             "bonus_value": "1",
@@ -2545,8 +2545,7 @@
             "rarity": "Hero",
             "item_sub_type": "EquipmentHead",
             "item_sprite_id": 15253,
-            "item_enhancement_type": "Engine",
-            "item_enhancement_value": 8.0,
+            "item_price": 1000,
             "pixyship_estimate": 382
         },
         {
