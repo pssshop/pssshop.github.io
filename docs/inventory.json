@@ -1,5 +1,5 @@
 {
-    "generated": "2026-08-12 11:08:07",
+    "generated": "2026-08-12 21:59:16",
     "item_count": 300,
     "items": [
         {
@@ -297,7 +297,7 @@
             "pixyship_estimate": 503
         },
         {
-            "item_id": "market-589033693",
+            "item_id": "312125630",
             "item_design_id": "435",
             "bonus_type": "Science",
             "bonus_value": "9.5",
@@ -306,7 +306,8 @@
             "rarity": "Hero",
             "item_sub_type": "EquipmentAccessory",
             "item_sprite_id": 9983,
-            "item_price": 7500,
+            "item_enhancement_type": "Ability",
+            "item_enhancement_value": 19.0,
             "pixyship_estimate": 7587
         },
         {
@@ -702,7 +703,7 @@
             "pixyship_estimate": 1285
         },
         {
-            "item_id": "310696155",
+            "item_id": "market-589113794",
             "item_design_id": "796",
             "bonus_type": "Attack",
             "bonus_value": "0.5",
@@ -711,8 +712,7 @@
             "rarity": "Hero",
             "item_sub_type": "EquipmentHead",
             "item_sprite_id": 12566,
-            "item_enhancement_type": "Attack",
-            "item_enhancement_value": 0.8,
+            "item_price": 2500,
             "pixyship_estimate": 2132
         },
         {
@@ -1948,7 +1948,7 @@
             "pixyship_estimate": 758
         },
         {
-            "item_id": "market-589003833",
+            "item_id": "312099960",
             "item_design_id": "727",
             "bonus_type": "Science",
             "bonus_value": "9.4",
@@ -1957,7 +1957,8 @@
             "rarity": "Hero",
             "item_sub_type": "EquipmentWeapon",
             "item_sprite_id": 12544,
-            "item_price": 5600,
+            "item_enhancement_type": "Ability",
+            "item_enhancement_value": 17.0,
             "pixyship_estimate": 758
         },
         {
@@ -2266,7 +2267,7 @@
             "item_sprite_id": 19677,
             "item_enhancement_type": "Pilot",
             "item_enhancement_value": 10.0,
-            "pixyship_estimate": 214
+            "pixyship_estimate": 213
         },
         {
             "item_id": "307798644",
@@ -2280,7 +2281,7 @@
             "item_sprite_id": 19677,
             "item_enhancement_type": "Pilot",
             "item_enhancement_value": 10.0,
-            "pixyship_estimate": 214
+            "pixyship_estimate": 213
         },
         {
             "item_id": "295548713",
@@ -2633,7 +2634,7 @@
             "pixyship_estimate": 275
         },
         {
-            "item_id": "market-589033728",
+            "item_id": "312125631",
             "item_design_id": "952",
             "bonus_type": "Science",
             "bonus_value": "7.9",
@@ -2642,7 +2643,8 @@
             "rarity": "Hero",
             "item_sub_type": "EquipmentHead",
             "item_sprite_id": 14565,
-            "item_price": 6000,
+            "item_enhancement_type": "Science",
+            "item_enhancement_value": 9.0,
             "pixyship_estimate": 3382
         },
         {
@@ -3021,7 +3023,7 @@
             "item_sprite_id": 13939,
             "item_enhancement_type": "Weapon",
             "item_enhancement_value": 8.0,
-            "pixyship_estimate": 1180
+            "pixyship_estimate": 1174
         },
         {
             "item_id": "292543626",
@@ -3735,7 +3737,7 @@
             "item_sprite_id": 12777,
             "item_enhancement_type": "Weapon",
             "item_enhancement_value": 7.0,
-            "pixyship_estimate": 7137
+            "pixyship_estimate": 7135
         },
         {
             "item_id": "307551163",
@@ -3749,7 +3751,7 @@
             "item_sprite_id": 12777,
             "item_enhancement_type": "Weapon",
             "item_enhancement_value": 7.0,
-            "pixyship_estimate": 5521
+            "pixyship_estimate": 5232
         },
         {
             "item_id": "297022042",
