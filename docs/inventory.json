@@ -1,5 +1,5 @@
 {
-    "generated": "2026-08-15 00:17:52",
+    "generated": "2026-08-15 13:13:19",
     "item_count": 296,
     "items": [
         {
@@ -283,7 +283,7 @@
             "pixyship_estimate": 495
         },
         {
-            "item_id": "312125630",
+            "item_id": "market-589369536",
             "item_design_id": "435",
             "bonus_type": "Science",
             "bonus_value": "9.5",
@@ -292,8 +292,7 @@
             "rarity": "Hero",
             "item_sub_type": "EquipmentAccessory",
             "item_sprite_id": 9983,
-            "item_enhancement_type": "Ability",
-            "item_enhancement_value": 19.0,
+            "item_price": 7500,
             "pixyship_estimate": 7587
         },
         {
@@ -406,7 +405,7 @@
             "item_sprite_id": 9983,
             "item_enhancement_type": "Ability",
             "item_enhancement_value": 19.0,
-            "pixyship_estimate": 1220
+            "pixyship_estimate": 1224
         },
         {
             "item_id": "309306302",
@@ -1777,7 +1776,7 @@
             "item_sprite_id": 12544,
             "item_enhancement_type": "Ability",
             "item_enhancement_value": 17.0,
-            "pixyship_estimate": 2022
+            "pixyship_estimate": 1825
         },
         {
             "item_id": "297139296",
@@ -1917,7 +1916,7 @@
             "item_sprite_id": 12544,
             "item_enhancement_type": "Ability",
             "item_enhancement_value": 17.0,
-            "pixyship_estimate": 758
+            "pixyship_estimate": 1496
         },
         {
             "item_id": "297323532",
@@ -1976,7 +1975,7 @@
             "pixyship_estimate": 198
         },
         {
-            "item_id": "market-589252652",
+            "item_id": "312302318",
             "item_design_id": "727",
             "bonus_type": "Weapon",
             "bonus_value": "6.4",
@@ -1985,8 +1984,9 @@
             "rarity": "Hero",
             "item_sub_type": "EquipmentWeapon",
             "item_sprite_id": 12544,
-            "item_price": 3500,
-            "pixyship_estimate": 3340
+            "item_enhancement_type": "Ability",
+            "item_enhancement_value": 17.0,
+            "pixyship_estimate": 3169
         },
         {
             "item_id": "311311986",
@@ -2000,7 +2000,7 @@
             "item_sprite_id": 12544,
             "item_enhancement_type": "Ability",
             "item_enhancement_value": 17.0,
-            "pixyship_estimate": 1741
+            "pixyship_estimate": 1678
         },
         {
             "item_id": "308731475",
@@ -2014,7 +2014,7 @@
             "item_sprite_id": 12544,
             "item_enhancement_type": "Ability",
             "item_enhancement_value": 17.0,
-            "pixyship_estimate": 701
+            "pixyship_estimate": 808
         },
         {
             "item_id": "311469718",
@@ -2241,6 +2241,20 @@
             "pixyship_estimate": 213
         },
         {
+            "item_id": "311362501",
+            "item_design_id": "1707",
+            "bonus_type": "Pilot",
+            "bonus_value": "5",
+            "quantity": "1",
+            "name": "Mach Sabatons",
+            "rarity": "Hero",
+            "item_sub_type": "EquipmentLeg",
+            "item_sprite_id": 19677,
+            "item_enhancement_type": "Pilot",
+            "item_enhancement_value": 10.0,
+            "pixyship_estimate": 3801
+        },
+        {
             "item_id": "295548713",
             "item_design_id": "1707",
             "bonus_type": "Repair",
@@ -2269,7 +2283,7 @@
             "pixyship_estimate": 262
         },
         {
-            "item_id": "311956399",
+            "item_id": "market-589351897",
             "item_design_id": "465",
             "bonus_type": "Pilot",
             "bonus_value": "8.2",
@@ -2278,8 +2292,7 @@
             "rarity": "Hero",
             "item_sub_type": "EquipmentWeapon",
             "item_sprite_id": 9906,
-            "item_enhancement_type": "Attack",
-            "item_enhancement_value": 0.7,
+            "item_price": 1850,
             "pixyship_estimate": 1380
         },
         {
@@ -2658,7 +2671,7 @@
             "item_sprite_id": 11922,
             "item_enhancement_type": "Attack",
             "item_enhancement_value": 0.7,
-            "pixyship_estimate": 227
+            "pixyship_estimate": 219
         },
         {
             "item_id": "310070970",
@@ -3680,7 +3693,7 @@
             "item_sprite_id": 12777,
             "item_enhancement_type": "Weapon",
             "item_enhancement_value": 7.0,
-            "pixyship_estimate": 5232
+            "pixyship_estimate": 5509
         },
         {
             "item_id": "297022042",
@@ -3750,7 +3763,7 @@
             "item_sprite_id": 12887,
             "item_enhancement_type": "Weapon",
             "item_enhancement_value": 7.0,
-            "pixyship_estimate": 522
+            "pixyship_estimate": 520
         },
         {
             "item_id": "309359300",
@@ -3764,7 +3777,7 @@
             "item_sprite_id": 12887,
             "item_enhancement_type": "Weapon",
             "item_enhancement_value": 7.0,
-            "pixyship_estimate": 454
+            "pixyship_estimate": 453
         },
         {
             "item_id": "286032720",
@@ -3862,7 +3875,7 @@
             "item_sprite_id": 23851,
             "item_enhancement_type": "Engine",
             "item_enhancement_value": 9.0,
-            "pixyship_estimate": 3772
+            "pixyship_estimate": 3796
         },
         {
             "item_id": "inbox-350",
@@ -3905,20 +3918,6 @@
             "item_enhancement_type": null,
             "item_enhancement_value": 0.0,
             "pixyship_estimate": 737
-        },
-        {
-            "item_id": "269129204",
-            "item_design_id": "223",
-            "bonus_type": null,
-            "bonus_value": null,
-            "quantity": "1",
-            "name": "Female Synth Leg",
-            "rarity": "Special",
-            "item_sub_type": "Artifact",
-            "item_sprite_id": 5513,
-            "item_enhancement_type": null,
-            "item_enhancement_value": 0.0,
-            "pixyship_estimate": 22
         },
         {
             "item_id": "inbox-707",
