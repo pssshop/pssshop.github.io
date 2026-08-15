@@ -1,6 +1,6 @@
 {
-    "generated": "2026-08-15 13:13:19",
-    "item_count": 296,
+    "generated": "2026-08-15 16:00:49",
+    "item_count": 295,
     "items": [
         {
             "item_id": "310063281",
@@ -154,7 +154,7 @@
             "item_sprite_id": 9983,
             "item_enhancement_type": "Ability",
             "item_enhancement_value": 19.0,
-            "pixyship_estimate": 815
+            "pixyship_estimate": 770
         },
         {
             "item_id": "298708734",
@@ -168,7 +168,7 @@
             "item_sprite_id": 9983,
             "item_enhancement_type": "Ability",
             "item_enhancement_value": 19.0,
-            "pixyship_estimate": 894
+            "pixyship_estimate": 772
         },
         {
             "item_id": "296385051",
@@ -266,7 +266,7 @@
             "item_sprite_id": 9983,
             "item_enhancement_type": "Ability",
             "item_enhancement_value": 19.0,
-            "pixyship_estimate": 1268
+            "pixyship_estimate": 1297
         },
         {
             "item_id": "297931833",
@@ -391,7 +391,7 @@
             "item_sprite_id": 9983,
             "item_enhancement_type": "Ability",
             "item_enhancement_value": 19.0,
-            "pixyship_estimate": 37863
+            "pixyship_estimate": 37949
         },
         {
             "item_id": "312041451",
@@ -2335,7 +2335,7 @@
             "item_sprite_id": 16441,
             "item_enhancement_type": "Weapon",
             "item_enhancement_value": 6.0,
-            "pixyship_estimate": 300
+            "pixyship_estimate": 285
         },
         {
             "item_id": "297342999",
@@ -2658,20 +2658,6 @@
             "item_enhancement_type": "Science",
             "item_enhancement_value": 12.0,
             "pixyship_estimate": 1957
-        },
-        {
-            "item_id": "312211897",
-            "item_design_id": "675",
-            "bonus_type": "FireResistance",
-            "bonus_value": "38.1",
-            "quantity": "1",
-            "name": "Prototype Stealth Hood",
-            "rarity": "Hero",
-            "item_sub_type": "EquipmentHead",
-            "item_sprite_id": 11922,
-            "item_enhancement_type": "Attack",
-            "item_enhancement_value": 0.7,
-            "pixyship_estimate": 219
         },
         {
             "item_id": "310070970",
