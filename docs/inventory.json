@@ -1,6 +1,6 @@
 {
-    "generated": "2026-08-17 10:58:10",
-    "item_count": 296,
+    "generated": "2026-08-17 13:49:48",
+    "item_count": 295,
     "items": [
         {
             "item_id": "310063281",
@@ -982,6 +982,20 @@
             "pixyship_estimate": 807
         },
         {
+            "item_id": "312485393",
+            "item_design_id": "246",
+            "bonus_type": "Attack",
+            "bonus_value": "0.3",
+            "quantity": "1",
+            "name": "Dark Matter Helmet",
+            "rarity": "Hero",
+            "item_sub_type": "EquipmentHead",
+            "item_sprite_id": 7432,
+            "item_enhancement_type": "Hp",
+            "item_enhancement_value": 3.0,
+            "pixyship_estimate": 332
+        },
+        {
             "item_id": "298072964",
             "item_design_id": "246",
             "bonus_type": "FireResistance",
@@ -1892,21 +1906,7 @@
             "pixyship_estimate": 797
         },
         {
-            "item_id": "311523846",
-            "item_design_id": "727",
-            "bonus_type": "Repair",
-            "bonus_value": "0.5",
-            "quantity": "1",
-            "name": "La Paula",
-            "rarity": "Hero",
-            "item_sub_type": "EquipmentWeapon",
-            "item_sprite_id": 12544,
-            "item_enhancement_type": "Ability",
-            "item_enhancement_value": 17.0,
-            "pixyship_estimate": 244
-        },
-        {
-            "item_id": "303098793",
+            "item_id": "market-589576951",
             "item_design_id": "727",
             "bonus_type": "Science",
             "bonus_value": "9.4",
@@ -1915,8 +1915,7 @@
             "rarity": "Hero",
             "item_sub_type": "EquipmentWeapon",
             "item_sprite_id": 12544,
-            "item_enhancement_type": "Ability",
-            "item_enhancement_value": 17.0,
+            "item_price": 5000,
             "pixyship_estimate": 1496
         },
         {
@@ -1960,20 +1959,6 @@
             "item_enhancement_type": "Ability",
             "item_enhancement_value": 17.0,
             "pixyship_estimate": 402
-        },
-        {
-            "item_id": "298507209",
-            "item_design_id": "727",
-            "bonus_type": "Stamina",
-            "bonus_value": "13",
-            "quantity": "1",
-            "name": "La Paula",
-            "rarity": "Hero",
-            "item_sub_type": "EquipmentWeapon",
-            "item_sprite_id": 12544,
-            "item_enhancement_type": "Ability",
-            "item_enhancement_value": 17.0,
-            "pixyship_estimate": 198
         },
         {
             "item_id": "312451807",
@@ -2351,7 +2336,7 @@
             "item_sprite_id": 16441,
             "item_enhancement_type": "Weapon",
             "item_enhancement_value": 6.0,
-            "pixyship_estimate": 3654
+            "pixyship_estimate": 3648
         },
         {
             "item_id": "294237306",
@@ -2981,7 +2966,7 @@
             "item_sprite_id": 13939,
             "item_enhancement_type": "Weapon",
             "item_enhancement_value": 8.0,
-            "pixyship_estimate": 434
+            "pixyship_estimate": 438
         },
         {
             "item_id": "294349357",
@@ -2995,7 +2980,7 @@
             "item_sprite_id": 13939,
             "item_enhancement_type": "Weapon",
             "item_enhancement_value": 8.0,
-            "pixyship_estimate": 434
+            "pixyship_estimate": 438
         },
         {
             "item_id": "295524700",
@@ -3009,7 +2994,7 @@
             "item_sprite_id": 13939,
             "item_enhancement_type": "Weapon",
             "item_enhancement_value": 8.0,
-            "pixyship_estimate": 434
+            "pixyship_estimate": 438
         },
         {
             "item_id": "293660626",
@@ -4023,7 +4008,7 @@
             "item_design_id": "106",
             "bonus_type": null,
             "bonus_value": null,
-            "quantity": "4",
+            "quantity": "5",
             "name": "Dark Matter (Dm)",
             "rarity": "Epic",
             "item_sub_type": "Artifact",
