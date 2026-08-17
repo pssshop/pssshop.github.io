@@ -1,6 +1,6 @@
 {
-    "generated": "2026-08-17 04:37:56",
-    "item_count": 298,
+    "generated": "2026-08-17 10:58:10",
+    "item_count": 296,
     "items": [
         {
             "item_id": "310063281",
@@ -283,7 +283,7 @@
             "pixyship_estimate": 495
         },
         {
-            "item_id": "294806650",
+            "item_id": "market-589552732",
             "item_design_id": "435",
             "bonus_type": "Pilot",
             "bonus_value": "6.6",
@@ -292,8 +292,7 @@
             "rarity": "Hero",
             "item_sub_type": "EquipmentAccessory",
             "item_sprite_id": 9983,
-            "item_enhancement_type": "Ability",
-            "item_enhancement_value": 19.0,
+            "item_price": 1500,
             "pixyship_estimate": 1249
         },
         {
@@ -798,7 +797,7 @@
             "item_sprite_id": 4819,
             "item_enhancement_type": "Hp",
             "item_enhancement_value": 3.0,
-            "pixyship_estimate": 1945
+            "pixyship_estimate": 1972
         },
         {
             "item_id": "303738008",
@@ -812,7 +811,7 @@
             "item_sprite_id": 4819,
             "item_enhancement_type": "Hp",
             "item_enhancement_value": 3.0,
-            "pixyship_estimate": 1927
+            "pixyship_estimate": 1955
         },
         {
             "item_id": "310667428",
@@ -883,20 +882,6 @@
             "item_enhancement_type": "Hp",
             "item_enhancement_value": 3.0,
             "pixyship_estimate": 2613
-        },
-        {
-            "item_id": "312194819",
-            "item_design_id": "169",
-            "bonus_type": "Pilot",
-            "bonus_value": "6.2",
-            "quantity": "1",
-            "name": "Dark Matter Armor",
-            "rarity": "Hero",
-            "item_sub_type": "EquipmentBody",
-            "item_sprite_id": 4819,
-            "item_enhancement_type": "Hp",
-            "item_enhancement_value": 3.0,
-            "pixyship_estimate": 727
         },
         {
             "item_id": "304428246",
@@ -980,7 +965,7 @@
             "item_sprite_id": 7432,
             "item_enhancement_type": "Hp",
             "item_enhancement_value": 3.0,
-            "pixyship_estimate": 535
+            "pixyship_estimate": 542
         },
         {
             "item_id": "310610869",
@@ -1708,7 +1693,7 @@
             "item_sprite_id": 11219,
             "item_enhancement_type": "Hp",
             "item_enhancement_value": 4.0,
-            "pixyship_estimate": 2418
+            "pixyship_estimate": 2398
         },
         {
             "item_id": "295327964",
@@ -2269,19 +2254,6 @@
             "item_enhancement_type": "Pilot",
             "item_enhancement_value": 10.0,
             "pixyship_estimate": 213
-        },
-        {
-            "item_id": "market-589529928",
-            "item_design_id": "1707",
-            "bonus_type": "Pilot",
-            "bonus_value": "5",
-            "quantity": "1",
-            "name": "Mach Sabatons",
-            "rarity": "Hero",
-            "item_sub_type": "EquipmentLeg",
-            "item_sprite_id": 19677,
-            "item_price": 5000,
-            "pixyship_estimate": 3801
         },
         {
             "item_id": "295548713",
