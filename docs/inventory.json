@@ -1,6 +1,6 @@
 {
-    "generated": "2026-08-17 13:49:48",
-    "item_count": 295,
+    "generated": "2026-08-17 20:45:26",
+    "item_count": 294,
     "items": [
         {
             "item_id": "310063281",
@@ -238,7 +238,7 @@
             "item_sprite_id": 9983,
             "item_enhancement_type": "Ability",
             "item_enhancement_value": 19.0,
-            "pixyship_estimate": 660
+            "pixyship_estimate": 661
         },
         {
             "item_id": "297392191",
@@ -252,7 +252,7 @@
             "item_sprite_id": 9983,
             "item_enhancement_type": "Ability",
             "item_enhancement_value": 19.0,
-            "pixyship_estimate": 585
+            "pixyship_estimate": 681
         },
         {
             "item_id": "311420018",
@@ -1696,20 +1696,6 @@
             "pixyship_estimate": 417
         },
         {
-            "item_id": "308854086",
-            "item_design_id": "1493",
-            "bonus_type": "Weapon",
-            "bonus_value": "5.6",
-            "quantity": "1",
-            "name": "Immensity Gauntlet",
-            "rarity": "Hero",
-            "item_sub_type": "EquipmentWeapon",
-            "item_sprite_id": 11219,
-            "item_enhancement_type": "Hp",
-            "item_enhancement_value": 4.0,
-            "pixyship_estimate": 2398
-        },
-        {
             "item_id": "295327964",
             "item_design_id": "678",
             "bonus_type": "Ability",
@@ -1791,7 +1777,7 @@
             "item_sprite_id": 12544,
             "item_enhancement_type": "Ability",
             "item_enhancement_value": 17.0,
-            "pixyship_estimate": 357
+            "pixyship_estimate": 332
         },
         {
             "item_id": "296626624",
@@ -1875,7 +1861,7 @@
             "item_sprite_id": 12544,
             "item_enhancement_type": "Ability",
             "item_enhancement_value": 17.0,
-            "pixyship_estimate": 490
+            "pixyship_estimate": 339
         },
         {
             "item_id": "297771537",
@@ -1972,7 +1958,7 @@
             "item_sprite_id": 12544,
             "item_enhancement_type": "Ability",
             "item_enhancement_value": 17.0,
-            "pixyship_estimate": 3881
+            "pixyship_estimate": 3874
         },
         {
             "item_id": "312302318",
@@ -1986,7 +1972,7 @@
             "item_sprite_id": 12544,
             "item_enhancement_type": "Ability",
             "item_enhancement_value": 17.0,
-            "pixyship_estimate": 3169
+            "pixyship_estimate": 3146
         },
         {
             "item_id": "311311986",
@@ -2658,7 +2644,7 @@
             "item_sprite_id": 11922,
             "item_enhancement_type": "Attack",
             "item_enhancement_value": 0.7,
-            "pixyship_estimate": 274
+            "pixyship_estimate": 275
         },
         {
             "item_id": "311868707",
