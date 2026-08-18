@@ -1,6 +1,6 @@
 {
-    "generated": "2026-08-17 20:45:26",
-    "item_count": 294,
+    "generated": "2026-08-17 20:56:50",
+    "item_count": 293,
     "items": [
         {
             "item_id": "310063281",
@@ -2336,7 +2336,7 @@
             "item_sprite_id": 16441,
             "item_enhancement_type": "Weapon",
             "item_enhancement_value": 6.0,
-            "pixyship_estimate": 1620
+            "pixyship_estimate": 1592
         },
         {
             "item_id": "295180538",
@@ -2350,7 +2350,7 @@
             "item_sprite_id": 16441,
             "item_enhancement_type": "Weapon",
             "item_enhancement_value": 6.0,
-            "pixyship_estimate": 1489
+            "pixyship_estimate": 1504
         },
         {
             "item_id": "296902314",
@@ -2364,7 +2364,7 @@
             "item_sprite_id": 16441,
             "item_enhancement_type": "Weapon",
             "item_enhancement_value": 6.0,
-            "pixyship_estimate": 854
+            "pixyship_estimate": 890
         },
         {
             "item_id": "296294929",
@@ -3305,20 +3305,6 @@
             "pixyship_estimate": 253
         },
         {
-            "item_id": "312440041",
-            "item_design_id": "808",
-            "bonus_type": "Science",
-            "bonus_value": "4.1",
-            "quantity": "1",
-            "name": "Trooper Draconian Helmet",
-            "rarity": "Hero",
-            "item_sub_type": "EquipmentHead",
-            "item_sprite_id": 13020,
-            "item_enhancement_type": "FireResistance",
-            "item_enhancement_value": 70.0,
-            "pixyship_estimate": 181
-        },
-        {
             "item_id": "market-589545153",
             "item_design_id": "802",
             "bonus_type": "Ability",
@@ -4106,7 +4092,7 @@
             "item_design_id": "306",
             "bonus_type": null,
             "bonus_value": null,
-            "quantity": "19",
+            "quantity": "20",
             "name": "Weak Growth Supplement",
             "rarity": "Common",
             "item_sub_type": "ReducePrestige",
