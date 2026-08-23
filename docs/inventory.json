@@ -1,5 +1,5 @@
 {
-    "generated": "2026-08-23 03:38:07",
+    "generated": "2026-08-23 04:18:22",
     "item_count": 295,
     "items": [
         {
@@ -2940,7 +2940,7 @@
             "item_sprite_id": 13939,
             "item_enhancement_type": "Weapon",
             "item_enhancement_value": 8.0,
-            "pixyship_estimate": 432
+            "pixyship_estimate": 436
         },
         {
             "item_id": "294349357",
@@ -2954,7 +2954,7 @@
             "item_sprite_id": 13939,
             "item_enhancement_type": "Weapon",
             "item_enhancement_value": 8.0,
-            "pixyship_estimate": 432
+            "pixyship_estimate": 436
         },
         {
             "item_id": "295524700",
@@ -2968,7 +2968,7 @@
             "item_sprite_id": 13939,
             "item_enhancement_type": "Weapon",
             "item_enhancement_value": 8.0,
-            "pixyship_estimate": 432
+            "pixyship_estimate": 436
         },
         {
             "item_id": "293660626",
@@ -3923,11 +3923,11 @@
             "pixyship_estimate": 232
         },
         {
-            "item_id": "270037032",
+            "item_id": "inbox-341",
             "item_design_id": "341",
             "bonus_type": null,
             "bonus_value": null,
-            "quantity": "13",
+            "quantity": "2",
             "name": "Drumsticks",
             "rarity": "Hero",
             "item_sub_type": "InstantTraining",
