@@ -1,5 +1,5 @@
 {
-    "generated": "2026-08-23 02:25:26",
+    "generated": "2026-08-23 03:38:07",
     "item_count": 295,
     "items": [
         {
@@ -633,6 +633,20 @@
             "pixyship_estimate": 492
         },
         {
+            "item_id": "310694931",
+            "item_design_id": "464",
+            "bonus_type": "Attack",
+            "bonus_value": "0.6",
+            "quantity": "1",
+            "name": "Chopsticlaw",
+            "rarity": "Hero",
+            "item_sub_type": "EquipmentWeapon",
+            "item_sprite_id": 9905,
+            "item_enhancement_type": "Attack",
+            "item_enhancement_value": 0.6,
+            "pixyship_estimate": 2015
+        },
+        {
             "item_id": "312749086",
             "item_design_id": "464",
             "bonus_type": "FireResistance",
@@ -1263,7 +1277,7 @@
             "pixyship_estimate": 355
         },
         {
-            "item_id": "market-590009661",
+            "item_id": "312932952",
             "item_design_id": "163",
             "bonus_type": "Attack",
             "bonus_value": "0.7",
@@ -1272,7 +1286,8 @@
             "rarity": "Hero",
             "item_sub_type": "EquipmentWeapon",
             "item_sprite_id": 5007,
-            "item_price": 2500,
+            "item_enhancement_type": "Attack",
+            "item_enhancement_value": 0.6,
             "pixyship_estimate": 2530
         },
         {
@@ -1596,20 +1611,6 @@
             "item_enhancement_type": "Hp",
             "item_enhancement_value": 4.0,
             "pixyship_estimate": 561
-        },
-        {
-            "item_id": "294323402",
-            "item_design_id": "1493",
-            "bonus_type": "FireResistance",
-            "bonus_value": "59",
-            "quantity": "1",
-            "name": "Immensity Gauntlet",
-            "rarity": "Hero",
-            "item_sub_type": "EquipmentWeapon",
-            "item_sprite_id": 11219,
-            "item_enhancement_type": "Hp",
-            "item_enhancement_value": 4.0,
-            "pixyship_estimate": 4813
         },
         {
             "item_id": "312801672",
