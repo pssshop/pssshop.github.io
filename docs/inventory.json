@@ -1,5 +1,5 @@
 {
-    "generated": "2026-08-24 04:00:42",
+    "generated": "2026-08-24 10:27:17",
     "item_count": 295,
     "items": [
         {
@@ -43,6 +43,20 @@
             "item_enhancement_type": "Hp",
             "item_enhancement_value": 4.0,
             "pixyship_estimate": 4292
+        },
+        {
+            "item_id": "313032929",
+            "item_design_id": "1718",
+            "bonus_type": "Hp",
+            "bonus_value": "2",
+            "quantity": "1",
+            "name": "Hydrone 2.0",
+            "rarity": "Special",
+            "item_sub_type": "EquipmentAccessory",
+            "item_sprite_id": 19814,
+            "item_enhancement_type": "Hp",
+            "item_enhancement_value": 4.0,
+            "pixyship_estimate": 7532
         },
         {
             "item_id": "297801535",
@@ -1301,7 +1315,7 @@
             "item_sprite_id": 5007,
             "item_enhancement_type": "Attack",
             "item_enhancement_value": 0.6,
-            "pixyship_estimate": 601
+            "pixyship_estimate": 600
         },
         {
             "item_id": "296671726",
@@ -1315,7 +1329,7 @@
             "item_sprite_id": 5007,
             "item_enhancement_type": "Attack",
             "item_enhancement_value": 0.6,
-            "pixyship_estimate": 601
+            "pixyship_estimate": 600
         },
         {
             "item_id": "298704746",
@@ -1329,7 +1343,7 @@
             "item_sprite_id": 5007,
             "item_enhancement_type": "Attack",
             "item_enhancement_value": 0.6,
-            "pixyship_estimate": 601
+            "pixyship_estimate": 600
         },
         {
             "item_id": "308854084",
@@ -1581,7 +1595,7 @@
             "item_sprite_id": 11219,
             "item_enhancement_type": "Hp",
             "item_enhancement_value": 4.0,
-            "pixyship_estimate": 2070
+            "pixyship_estimate": 2069
         },
         {
             "item_id": "293946636",
@@ -1595,7 +1609,7 @@
             "item_sprite_id": 11219,
             "item_enhancement_type": "Hp",
             "item_enhancement_value": 4.0,
-            "pixyship_estimate": 1490
+            "pixyship_estimate": 1488
         },
         {
             "item_id": "308417375",
@@ -1637,7 +1651,7 @@
             "item_sprite_id": 11219,
             "item_enhancement_type": "Hp",
             "item_enhancement_value": 4.0,
-            "pixyship_estimate": 3411
+            "pixyship_estimate": 3416
         },
         {
             "item_id": "292260382",
@@ -1680,19 +1694,6 @@
             "item_enhancement_type": "Hp",
             "item_enhancement_value": 3.0,
             "pixyship_estimate": 1288
-        },
-        {
-            "item_id": "market-590260348",
-            "item_design_id": "727",
-            "bonus_type": "Ability",
-            "bonus_value": "12.5",
-            "quantity": "1",
-            "name": "La Paula",
-            "rarity": "Hero",
-            "item_sub_type": "EquipmentWeapon",
-            "item_sprite_id": 12544,
-            "item_price": 5000,
-            "pixyship_estimate": 5334
         },
         {
             "item_id": "310131640",
@@ -3883,7 +3884,7 @@
             "item_design_id": "708",
             "bonus_type": null,
             "bonus_value": null,
-            "quantity": "13",
+            "quantity": "12",
             "name": "Sharpshooter\u2019s Cheatbook",
             "rarity": "Legendary",
             "item_sub_type": "InstantTraining",
@@ -3893,7 +3894,7 @@
             "pixyship_estimate": 750
         },
         {
-            "item_id": "market-590254769",
+            "item_id": "market-590290629",
             "item_design_id": "708",
             "bonus_type": null,
             "bonus_value": null,
