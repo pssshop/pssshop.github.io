@@ -1,6 +1,6 @@
 {
-    "generated": "2026-08-24 13:20:31",
-    "item_count": 296,
+    "generated": "2026-08-24 13:35:18",
+    "item_count": 295,
     "items": [
         {
             "item_id": "310063281",
@@ -3898,26 +3898,13 @@
             "item_design_id": "708",
             "bonus_type": null,
             "bonus_value": null,
-            "quantity": "10",
+            "quantity": "35",
             "name": "Sharpshooter\u2019s Cheatbook",
             "rarity": "Legendary",
             "item_sub_type": "InstantTraining",
             "item_sprite_id": 12216,
             "item_enhancement_type": null,
             "item_enhancement_value": 0.0,
-            "pixyship_estimate": 750
-        },
-        {
-            "item_id": "market-590304914",
-            "item_design_id": "708",
-            "bonus_type": null,
-            "bonus_value": null,
-            "quantity": "26",
-            "name": "Sharpshooter\u2019s Cheatbook",
-            "rarity": "Legendary",
-            "item_sub_type": "InstantTraining",
-            "item_sprite_id": 12216,
-            "item_price": 850,
             "pixyship_estimate": 750
         },
         {
