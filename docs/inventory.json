@@ -1,6 +1,6 @@
 {
-    "generated": "2026-08-24 10:27:17",
-    "item_count": 295,
+    "generated": "2026-08-24 11:19:44",
+    "item_count": 296,
     "items": [
         {
             "item_id": "310063281",
@@ -812,6 +812,20 @@
             "item_enhancement_type": "Hp",
             "item_enhancement_value": 3.0,
             "pixyship_estimate": 286
+        },
+        {
+            "item_id": "313055896",
+            "item_design_id": "169",
+            "bonus_type": "Attack",
+            "bonus_value": "0.7",
+            "quantity": "1",
+            "name": "Dark Matter Armor",
+            "rarity": "Hero",
+            "item_sub_type": "EquipmentBody",
+            "item_sprite_id": 4819,
+            "item_enhancement_type": "Hp",
+            "item_enhancement_value": 3.0,
+            "pixyship_estimate": 6446
         },
         {
             "item_id": "312041452",
@@ -4030,7 +4044,7 @@
             "item_sprite_id": 14592,
             "item_enhancement_type": null,
             "item_enhancement_value": 0.0,
-            "pixyship_estimate": 2763
+            "pixyship_estimate": 2766
         },
         {
             "item_id": "inbox-558",
