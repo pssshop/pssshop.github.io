@@ -1,5 +1,5 @@
 {
-    "generated": "2026-08-24 11:19:44",
+    "generated": "2026-08-24 11:23:55",
     "item_count": 296,
     "items": [
         {
@@ -812,20 +812,6 @@
             "item_enhancement_type": "Hp",
             "item_enhancement_value": 3.0,
             "pixyship_estimate": 286
-        },
-        {
-            "item_id": "313055896",
-            "item_design_id": "169",
-            "bonus_type": "Attack",
-            "bonus_value": "0.7",
-            "quantity": "1",
-            "name": "Dark Matter Armor",
-            "rarity": "Hero",
-            "item_sub_type": "EquipmentBody",
-            "item_sprite_id": 4819,
-            "item_enhancement_type": "Hp",
-            "item_enhancement_value": 3.0,
-            "pixyship_estimate": 6446
         },
         {
             "item_id": "312041452",
@@ -2688,6 +2674,20 @@
             "item_enhancement_type": "Attack",
             "item_enhancement_value": 0.7,
             "pixyship_estimate": 349
+        },
+        {
+            "item_id": "298590508",
+            "item_design_id": "676",
+            "bonus_type": "Hp",
+            "bonus_value": "2",
+            "quantity": "1",
+            "name": "Prototype Stealth Suit",
+            "rarity": "Hero",
+            "item_sub_type": "EquipmentBody",
+            "item_sprite_id": 11926,
+            "item_enhancement_type": "Attack",
+            "item_enhancement_value": 0.7,
+            "pixyship_estimate": 1021
         },
         {
             "item_id": "300539138",
