@@ -1,6 +1,6 @@
 {
-    "generated": "2026-08-26 04:21:10",
-    "item_count": 301,
+    "generated": "2026-08-26 12:12:26",
+    "item_count": 300,
     "items": [
         {
             "item_id": "310063281",
@@ -28,7 +28,7 @@
             "item_sprite_id": 19814,
             "item_enhancement_type": "Hp",
             "item_enhancement_value": 4.0,
-            "pixyship_estimate": 5659
+            "pixyship_estimate": 5647
         },
         {
             "item_id": "310743785",
@@ -42,20 +42,7 @@
             "item_sprite_id": 19814,
             "item_enhancement_type": "Hp",
             "item_enhancement_value": 4.0,
-            "pixyship_estimate": 4506
-        },
-        {
-            "item_id": "market-590467340",
-            "item_design_id": "1718",
-            "bonus_type": "FireResistance",
-            "bonus_value": "58.1",
-            "quantity": "1",
-            "name": "Hydrone 2.0",
-            "rarity": "Special",
-            "item_sub_type": "EquipmentAccessory",
-            "item_sprite_id": 19814,
-            "item_price": 8500,
-            "pixyship_estimate": 8460
+            "pixyship_estimate": 4503
         },
         {
             "item_id": "297801535",
@@ -992,7 +979,7 @@
             "item_sprite_id": 7432,
             "item_enhancement_type": "Hp",
             "item_enhancement_value": 3.0,
-            "pixyship_estimate": 536
+            "pixyship_estimate": 508
         },
         {
             "item_id": "310610869",
@@ -1006,7 +993,7 @@
             "item_sprite_id": 7432,
             "item_enhancement_type": "Hp",
             "item_enhancement_value": 3.0,
-            "pixyship_estimate": 975
+            "pixyship_estimate": 883
         },
         {
             "item_id": "312485393",
@@ -1020,7 +1007,7 @@
             "item_sprite_id": 7432,
             "item_enhancement_type": "Hp",
             "item_enhancement_value": 3.0,
-            "pixyship_estimate": 262
+            "pixyship_estimate": 281
         },
         {
             "item_id": "298072964",
@@ -1062,7 +1049,7 @@
             "item_sprite_id": 7432,
             "item_enhancement_type": "Hp",
             "item_enhancement_value": 3.0,
-            "pixyship_estimate": 1011
+            "pixyship_estimate": 965
         },
         {
             "item_id": "297052121",
@@ -2447,7 +2434,7 @@
             "item_sprite_id": 14738,
             "item_enhancement_type": "Science",
             "item_enhancement_value": 11.0,
-            "pixyship_estimate": 1794
+            "pixyship_estimate": 1828
         },
         {
             "item_id": "308336870",
@@ -3945,7 +3932,7 @@
             "item_sprite_id": 8967,
             "item_enhancement_type": null,
             "item_enhancement_value": 0.0,
-            "pixyship_estimate": 632
+            "pixyship_estimate": 634
         },
         {
             "item_id": "281540549",
@@ -3959,7 +3946,7 @@
             "item_sprite_id": 9439,
             "item_enhancement_type": null,
             "item_enhancement_value": 1209600.0,
-            "pixyship_estimate": 579
+            "pixyship_estimate": 581
         },
         {
             "item_id": "2000005036",
@@ -4099,7 +4086,7 @@
             "item_sprite_id": 3605,
             "item_enhancement_type": null,
             "item_enhancement_value": 0.0,
-            "pixyship_estimate": 192
+            "pixyship_estimate": 193
         },
         {
             "item_id": "306131752",
