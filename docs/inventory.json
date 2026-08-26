@@ -1,6 +1,6 @@
 {
-    "generated": "2026-08-26 02:14:55",
-    "item_count": 300,
+    "generated": "2026-08-26 02:37:34",
+    "item_count": 301,
     "items": [
         {
             "item_id": "310063281",
@@ -2574,6 +2574,20 @@
             "item_enhancement_type": "Science",
             "item_enhancement_value": 12.0,
             "pixyship_estimate": 1957
+        },
+        {
+            "item_id": "302031709",
+            "item_design_id": "675",
+            "bonus_type": "Attack",
+            "bonus_value": "0.7",
+            "quantity": "1",
+            "name": "Prototype Stealth Hood",
+            "rarity": "Hero",
+            "item_sub_type": "EquipmentHead",
+            "item_sprite_id": 11922,
+            "item_enhancement_type": "Attack",
+            "item_enhancement_value": 0.7,
+            "pixyship_estimate": 2900
         },
         {
             "item_id": "312851554",
