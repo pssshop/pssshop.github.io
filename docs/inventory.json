@@ -1,6 +1,6 @@
 {
-    "generated": "2026-08-26 02:00:17",
-    "item_count": 298,
+    "generated": "2026-08-26 02:01:33",
+    "item_count": 299,
     "items": [
         {
             "item_id": "310063281",
@@ -43,6 +43,20 @@
             "item_enhancement_type": "Hp",
             "item_enhancement_value": 4.0,
             "pixyship_estimate": 4506
+        },
+        {
+            "item_id": "297630552",
+            "item_design_id": "1718",
+            "bonus_type": "FireResistance",
+            "bonus_value": "58.1",
+            "quantity": "1",
+            "name": "Hydrone 2.0",
+            "rarity": "Special",
+            "item_sub_type": "EquipmentAccessory",
+            "item_sprite_id": 19814,
+            "item_enhancement_type": "Hp",
+            "item_enhancement_value": 4.0,
+            "pixyship_estimate": 8460
         },
         {
             "item_id": "297801535",
