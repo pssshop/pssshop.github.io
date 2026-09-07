@@ -1,6 +1,6 @@
 {
-    "generated": "2026-09-06 23:30:24",
-    "item_count": 304,
+    "generated": "2026-09-07 00:16:40",
+    "item_count": 302,
     "items": [
         {
             "item_id": "310063281",
@@ -1611,20 +1611,6 @@
             "item_enhancement_type": "Hp",
             "item_enhancement_value": 4.0,
             "pixyship_estimate": 588
-        },
-        {
-            "item_id": "312801672",
-            "item_design_id": "1493",
-            "bonus_type": "Pilot",
-            "bonus_value": "6.8",
-            "quantity": "1",
-            "name": "Immensity Gauntlet",
-            "rarity": "Hero",
-            "item_sub_type": "EquipmentWeapon",
-            "item_sprite_id": 11219,
-            "item_enhancement_type": "Hp",
-            "item_enhancement_value": 4.0,
-            "pixyship_estimate": 1046
         },
         {
             "item_id": "294991044",
@@ -3965,7 +3951,7 @@
             "pixyship_estimate": 782
         },
         {
-            "item_id": "269129204",
+            "item_id": "market-591746789",
             "item_design_id": "223",
             "bonus_type": null,
             "bonus_value": null,
@@ -3974,23 +3960,8 @@
             "rarity": "Special",
             "item_sub_type": "Artifact",
             "item_sprite_id": 5513,
-            "item_enhancement_type": null,
-            "item_enhancement_value": 0.0,
+            "item_price": 10,
             "pixyship_estimate": 22
-        },
-        {
-            "item_id": "inbox-707",
-            "item_design_id": "707",
-            "bonus_type": null,
-            "bonus_value": null,
-            "quantity": "2",
-            "name": "How To Shoot Your Shot'",
-            "rarity": "Special",
-            "item_sub_type": "InstantTraining",
-            "item_sprite_id": 12215,
-            "item_enhancement_type": null,
-            "item_enhancement_value": 0.0,
-            "pixyship_estimate": 259
         },
         {
             "item_id": "inbox-341",
