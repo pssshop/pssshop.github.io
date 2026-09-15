@@ -1,6 +1,6 @@
 {
-    "generated": "2026-09-14 23:59:09",
-    "item_count": 307,
+    "generated": "2026-09-15 00:00:43",
+    "item_count": 306,
     "items": [
         {
             "item_id": "310063281",
@@ -4089,20 +4089,6 @@
             "item_enhancement_type": null,
             "item_enhancement_value": 0.0,
             "pixyship_estimate": 95
-        },
-        {
-            "item_id": "269864211",
-            "item_design_id": "300",
-            "bonus_type": null,
-            "bonus_value": null,
-            "quantity": "11",
-            "name": "HGH",
-            "rarity": "Hero",
-            "item_sub_type": "InstantTraining",
-            "item_sprite_id": 8246,
-            "item_enhancement_type": null,
-            "item_enhancement_value": 0.0,
-            "pixyship_estimate": 125
         },
         {
             "item_id": "287340208",
