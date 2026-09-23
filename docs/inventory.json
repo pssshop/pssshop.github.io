@@ -1,5 +1,5 @@
 {
-    "generated": "2026-09-23 12:32:48",
+    "generated": "2026-09-23 12:34:30",
     "item_count": 315,
     "items": [
         {
@@ -3333,7 +3333,7 @@
             "pixyship_estimate": 771
         },
         {
-            "item_id": "312611553",
+            "item_id": "market-593250291",
             "item_design_id": "740",
             "bonus_type": "Hp",
             "bonus_value": "3",
@@ -3342,8 +3342,7 @@
             "rarity": "Hero",
             "item_sub_type": "EquipmentWeapon",
             "item_sprite_id": 12596,
-            "item_enhancement_type": "Science",
-            "item_enhancement_value": 8.0,
+            "item_price": 4000,
             "pixyship_estimate": 3347
         },
         {
