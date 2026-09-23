@@ -1,5 +1,5 @@
 {
-    "generated": "2026-09-23 12:25:25",
+    "generated": "2026-09-23 12:32:48",
     "item_count": 315,
     "items": [
         {
@@ -31,7 +31,7 @@
             "pixyship_estimate": 6076
         },
         {
-            "item_id": "316505386",
+            "item_id": "market-593249930",
             "item_design_id": "1718",
             "bonus_type": "FireResistance",
             "bonus_value": "56.6",
@@ -40,8 +40,7 @@
             "rarity": "Special",
             "item_sub_type": "EquipmentAccessory",
             "item_sprite_id": 19814,
-            "item_enhancement_type": "Hp",
-            "item_enhancement_value": 4.0,
+            "item_price": 7500,
             "pixyship_estimate": 7360
         },
         {
@@ -59,7 +58,7 @@
             "pixyship_estimate": 5210
         },
         {
-            "item_id": "316411126",
+            "item_id": "market-593250027",
             "item_design_id": "958",
             "bonus_type": "Hp",
             "bonus_value": "1",
@@ -68,8 +67,7 @@
             "rarity": "Special",
             "item_sub_type": "EquipmentWeapon",
             "item_sprite_id": 14596,
-            "item_enhancement_type": "Engine",
-            "item_enhancement_value": 9.0,
+            "item_price": 3500,
             "pixyship_estimate": 3216
         },
         {
