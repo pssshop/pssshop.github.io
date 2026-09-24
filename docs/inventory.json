@@ -1,5 +1,5 @@
 {
-    "generated": "2026-09-24 03:33:23",
+    "generated": "2026-09-24 13:31:57",
     "item_count": 310,
     "items": [
         {
@@ -28,7 +28,7 @@
             "item_sprite_id": 19814,
             "item_enhancement_type": "Hp",
             "item_enhancement_value": 4.0,
-            "pixyship_estimate": 7915
+            "pixyship_estimate": 7900
         },
         {
             "item_id": "296953881",
@@ -839,7 +839,7 @@
             "item_sprite_id": 4819,
             "item_enhancement_type": "Hp",
             "item_enhancement_value": 3.0,
-            "pixyship_estimate": 352
+            "pixyship_estimate": 344
         },
         {
             "item_id": "298919430",
@@ -1091,7 +1091,7 @@
             "item_sprite_id": 7615,
             "item_enhancement_type": "Attack",
             "item_enhancement_value": 0.7,
-            "pixyship_estimate": 1616
+            "pixyship_estimate": 1798
         },
         {
             "item_id": "298953434",
@@ -1427,7 +1427,7 @@
             "item_sprite_id": 5007,
             "item_enhancement_type": "Attack",
             "item_enhancement_value": 0.6,
-            "pixyship_estimate": 561
+            "pixyship_estimate": 560
         },
         {
             "item_id": "292263812",
@@ -1441,7 +1441,7 @@
             "item_sprite_id": 5007,
             "item_enhancement_type": "Attack",
             "item_enhancement_value": 0.6,
-            "pixyship_estimate": 561
+            "pixyship_estimate": 560
         },
         {
             "item_id": "294510963",
@@ -1455,7 +1455,7 @@
             "item_sprite_id": 5007,
             "item_enhancement_type": "Attack",
             "item_enhancement_value": 0.6,
-            "pixyship_estimate": 561
+            "pixyship_estimate": 560
         },
         {
             "item_id": "309024989",
@@ -1469,7 +1469,7 @@
             "item_sprite_id": 5007,
             "item_enhancement_type": "Attack",
             "item_enhancement_value": 0.6,
-            "pixyship_estimate": 561
+            "pixyship_estimate": 560
         },
         {
             "item_id": "310694932",
@@ -1483,7 +1483,7 @@
             "item_sprite_id": 5007,
             "item_enhancement_type": "Attack",
             "item_enhancement_value": 0.6,
-            "pixyship_estimate": 561
+            "pixyship_estimate": 560
         },
         {
             "item_id": "290512075",
@@ -1904,19 +1904,6 @@
             "item_enhancement_type": "Ability",
             "item_enhancement_value": 17.0,
             "pixyship_estimate": 865
-        },
-        {
-            "item_id": "market-593291143",
-            "item_design_id": "727",
-            "bonus_type": "Pilot",
-            "bonus_value": "5.4",
-            "quantity": "1",
-            "name": "La Paula",
-            "rarity": "Hero",
-            "item_sub_type": "EquipmentWeapon",
-            "item_sprite_id": 12544,
-            "item_price": 800,
-            "pixyship_estimate": 707
         },
         {
             "item_id": "298507207",
@@ -2365,6 +2352,20 @@
             "item_enhancement_type": "Weapon",
             "item_enhancement_value": 6.0,
             "pixyship_estimate": 1714
+        },
+        {
+            "item_id": "297342999",
+            "item_design_id": "1177",
+            "bonus_type": "Weapon",
+            "bonus_value": "5.8",
+            "quantity": "1",
+            "name": "Noscope-360",
+            "rarity": "Hero",
+            "item_sub_type": "EquipmentAccessory",
+            "item_sprite_id": 16441,
+            "item_enhancement_type": "Weapon",
+            "item_enhancement_value": 6.0,
+            "pixyship_estimate": 4105
         },
         {
             "item_id": "316643695",
@@ -3022,7 +3023,7 @@
             "item_sprite_id": 13939,
             "item_enhancement_type": "Weapon",
             "item_enhancement_value": 8.0,
-            "pixyship_estimate": 323
+            "pixyship_estimate": 448
         },
         {
             "item_id": "292543626",
@@ -4078,7 +4079,7 @@
             "item_design_id": "334",
             "bonus_type": null,
             "bonus_value": null,
-            "quantity": "24",
+            "quantity": "14",
             "name": "Ginkgo",
             "rarity": "Hero",
             "item_sub_type": "InstantTraining",
@@ -4092,7 +4093,7 @@
             "item_design_id": "300",
             "bonus_type": null,
             "bonus_value": null,
-            "quantity": "3",
+            "quantity": "11",
             "name": "HGH",
             "rarity": "Hero",
             "item_sub_type": "InstantTraining",
@@ -4211,7 +4212,7 @@
             "item_sprite_id": 3605,
             "item_enhancement_type": null,
             "item_enhancement_value": 0.0,
-            "pixyship_estimate": 206
+            "pixyship_estimate": 207
         },
         {
             "item_id": "306131752",
@@ -4267,7 +4268,7 @@
             "item_sprite_id": 16190,
             "item_enhancement_type": null,
             "item_enhancement_value": 0.0,
-            "pixyship_estimate": 121
+            "pixyship_estimate": 122
         },
         {
             "item_id": "inbox-822",
