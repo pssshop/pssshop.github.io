@@ -1,6 +1,6 @@
 {
-    "generated": "2026-09-25 17:29:10",
-    "item_count": 311,
+    "generated": "2026-09-26 00:15:00",
+    "item_count": 314,
     "items": [
         {
             "item_id": "291088691",
@@ -322,7 +322,7 @@
             "item_sprite_id": 9983,
             "item_enhancement_type": "Ability",
             "item_enhancement_value": 19.0,
-            "pixyship_estimate": 521
+            "pixyship_estimate": 520
         },
         {
             "item_id": "309224141",
@@ -491,6 +491,20 @@
             "item_enhancement_type": "Attack",
             "item_enhancement_value": 0.9,
             "pixyship_estimate": 728
+        },
+        {
+            "item_id": "316775941",
+            "item_design_id": "514",
+            "bonus_type": "Repair",
+            "bonus_value": "0.2",
+            "quantity": "1",
+            "name": "Captain's Skullmet",
+            "rarity": "Hero",
+            "item_sub_type": "EquipmentHead",
+            "item_sprite_id": 10047,
+            "item_enhancement_type": "Attack",
+            "item_enhancement_value": 0.9,
+            "pixyship_estimate": 171
         },
         {
             "item_id": "306131699",
@@ -1571,6 +1585,20 @@
             "pixyship_estimate": 602
         },
         {
+            "item_id": "316768252",
+            "item_design_id": "1711",
+            "bonus_type": "Pilot",
+            "bonus_value": "6.8",
+            "quantity": "1",
+            "name": "Hand Solo",
+            "rarity": "Hero",
+            "item_sub_type": "EquipmentWeapon",
+            "item_sprite_id": 19668,
+            "item_enhancement_type": "Pilot",
+            "item_enhancement_value": 7.0,
+            "pixyship_estimate": 5030
+        },
+        {
             "item_id": "296280716",
             "item_design_id": "1493",
             "bonus_type": "Ability",
@@ -1708,7 +1736,7 @@
             "item_sprite_id": 11219,
             "item_enhancement_type": "Hp",
             "item_enhancement_value": 4.0,
-            "pixyship_estimate": 1210
+            "pixyship_estimate": 1212
         },
         {
             "item_id": "308136666",
@@ -2282,7 +2310,7 @@
             "item_sprite_id": 16441,
             "item_enhancement_type": "Weapon",
             "item_enhancement_value": 6.0,
-            "pixyship_estimate": 1495
+            "pixyship_estimate": 1519
         },
         {
             "item_id": "316617431",
@@ -2310,7 +2338,7 @@
             "item_sprite_id": 16441,
             "item_enhancement_type": "Weapon",
             "item_enhancement_value": 6.0,
-            "pixyship_estimate": 318
+            "pixyship_estimate": 313
         },
         {
             "item_id": "315624463",
@@ -2842,7 +2870,7 @@
             "item_sprite_id": 10288,
             "item_enhancement_type": "Engine",
             "item_enhancement_value": 11.0,
-            "pixyship_estimate": 599
+            "pixyship_estimate": 559
         },
         {
             "item_id": "291785549",
@@ -2856,7 +2884,7 @@
             "item_sprite_id": 10288,
             "item_enhancement_type": "Engine",
             "item_enhancement_value": 11.0,
-            "pixyship_estimate": 578
+            "pixyship_estimate": 554
         },
         {
             "item_id": "293918793",
@@ -2912,7 +2940,7 @@
             "item_sprite_id": 10288,
             "item_enhancement_type": "Engine",
             "item_enhancement_value": 11.0,
-            "pixyship_estimate": 2242
+            "pixyship_estimate": 2254
         },
         {
             "item_id": "291527410",
@@ -2926,7 +2954,7 @@
             "item_sprite_id": 10288,
             "item_enhancement_type": "Engine",
             "item_enhancement_value": 11.0,
-            "pixyship_estimate": 502
+            "pixyship_estimate": 451
         },
         {
             "item_id": "293946635",
@@ -2940,7 +2968,7 @@
             "item_sprite_id": 10288,
             "item_enhancement_type": "Engine",
             "item_enhancement_value": 11.0,
-            "pixyship_estimate": 495
+            "pixyship_estimate": 451
         },
         {
             "item_id": "289878771",
@@ -2954,7 +2982,7 @@
             "item_sprite_id": 10288,
             "item_enhancement_type": "Engine",
             "item_enhancement_value": 11.0,
-            "pixyship_estimate": 503
+            "pixyship_estimate": 473
         },
         {
             "item_id": "311419514",
@@ -2968,7 +2996,7 @@
             "item_sprite_id": 10288,
             "item_enhancement_type": "Engine",
             "item_enhancement_value": 11.0,
-            "pixyship_estimate": 604
+            "pixyship_estimate": 599
         },
         {
             "item_id": "304577298",
@@ -3766,7 +3794,7 @@
             "item_sprite_id": 12777,
             "item_enhancement_type": "Weapon",
             "item_enhancement_value": 7.0,
-            "pixyship_estimate": 181
+            "pixyship_estimate": 179
         },
         {
             "item_id": "306733956",
@@ -4046,7 +4074,7 @@
             "item_sprite_id": 29505,
             "item_enhancement_type": "Attack",
             "item_enhancement_value": 0.7,
-            "pixyship_estimate": 3731
+            "pixyship_estimate": 3739
         },
         {
             "item_id": "270973497",
@@ -4075,6 +4103,20 @@
             "item_enhancement_type": null,
             "item_enhancement_value": 1209600.0,
             "pixyship_estimate": 634
+        },
+        {
+            "item_id": "269129204",
+            "item_design_id": "223",
+            "bonus_type": null,
+            "bonus_value": null,
+            "quantity": "1",
+            "name": "Female Synth Leg",
+            "rarity": "Special",
+            "item_sub_type": "Artifact",
+            "item_sprite_id": 5513,
+            "item_enhancement_type": null,
+            "item_enhancement_value": 0.0,
+            "pixyship_estimate": 22
         },
         {
             "item_id": "270037032",
@@ -4172,7 +4214,7 @@
             "item_sprite_id": 9437,
             "item_enhancement_type": null,
             "item_enhancement_value": 172800.0,
-            "pixyship_estimate": 139
+            "pixyship_estimate": 137
         },
         {
             "item_id": "inbox-348",
@@ -4193,7 +4235,7 @@
             "item_design_id": "706",
             "bonus_type": null,
             "bonus_value": null,
-            "quantity": "15",
+            "quantity": "16",
             "name": "Veteran\u2019s Guidebook",
             "rarity": "Hero",
             "item_sub_type": "InstantTraining",
@@ -4217,11 +4259,11 @@
             "pixyship_estimate": 35
         },
         {
-            "item_id": "273737329",
+            "item_id": "inbox-106",
             "item_design_id": "106",
             "bonus_type": null,
             "bonus_value": null,
-            "quantity": "4",
+            "quantity": "3",
             "name": "Dark Matter (Dm)",
             "rarity": "Epic",
             "item_sub_type": "Artifact",
