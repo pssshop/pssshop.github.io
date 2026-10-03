@@ -1,5 +1,5 @@
 {
-    "generated": "2026-10-02 23:25:57",
+    "generated": "2026-10-02 23:55:00",
     "item_count": 316,
     "items": [
         {
@@ -4088,7 +4088,7 @@
             "item_sprite_id": 29505,
             "item_enhancement_type": "Attack",
             "item_enhancement_value": 0.7,
-            "pixyship_estimate": 3747
+            "pixyship_estimate": 3733
         },
         {
             "item_id": "inbox-2396",
@@ -4263,7 +4263,7 @@
             "item_design_id": "706",
             "bonus_type": null,
             "bonus_value": null,
-            "quantity": "39",
+            "quantity": "41",
             "name": "Veteran\u2019s Guidebook",
             "rarity": "Hero",
             "item_sub_type": "InstantTraining",
@@ -4417,7 +4417,7 @@
             "item_design_id": "306",
             "bonus_type": null,
             "bonus_value": null,
-            "quantity": "5",
+            "quantity": "8",
             "name": "Weak Growth Supplement",
             "rarity": "Common",
             "item_sub_type": "ReducePrestige",
