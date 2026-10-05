@@ -1,6 +1,6 @@
 {
-    "generated": "2026-10-04 21:59:13",
-    "item_count": 312,
+    "generated": "2026-10-04 23:22:52",
+    "item_count": 308,
     "items": [
         {
             "item_id": "291019634",
@@ -1247,20 +1247,6 @@
             "item_enhancement_type": "Weapon",
             "item_enhancement_value": 7.0,
             "pixyship_estimate": 666
-        },
-        {
-            "item_id": "294242826",
-            "item_design_id": "1181",
-            "bonus_type": "Hp",
-            "bonus_value": "2",
-            "quantity": "1",
-            "name": "Giga-Loader",
-            "rarity": "Hero",
-            "item_sub_type": "EquipmentWeapon",
-            "item_sprite_id": 16432,
-            "item_enhancement_type": "Weapon",
-            "item_enhancement_value": 7.0,
-            "pixyship_estimate": 2037
         },
         {
             "item_id": "291982058",
@@ -3055,20 +3041,6 @@
             "pixyship_estimate": 261
         },
         {
-            "item_id": "308604223",
-            "item_design_id": "933",
-            "bonus_type": "Hp",
-            "bonus_value": "2",
-            "quantity": "1",
-            "name": "Red Marksman Jacket",
-            "rarity": "Hero",
-            "item_sub_type": "EquipmentBody",
-            "item_sprite_id": 13939,
-            "item_enhancement_type": "Weapon",
-            "item_enhancement_value": 8.0,
-            "pixyship_estimate": 1367
-        },
-        {
             "item_id": "306231998",
             "item_design_id": "933",
             "bonus_type": "Stamina",
@@ -4063,20 +4035,6 @@
             "pixyship_estimate": 674
         },
         {
-            "item_id": "281540549",
-            "item_design_id": "388",
-            "bonus_type": null,
-            "bonus_value": null,
-            "quantity": "1",
-            "name": "Instant Growth Accelerator",
-            "rarity": "Legendary",
-            "item_sub_type": "ReducePrestige",
-            "item_sprite_id": 9439,
-            "item_enhancement_type": null,
-            "item_enhancement_value": 1209600.0,
-            "pixyship_estimate": 647
-        },
-        {
             "item_id": "269129204",
             "item_design_id": "223",
             "bonus_type": null,
@@ -4203,11 +4161,11 @@
             "pixyship_estimate": 103
         },
         {
-            "item_id": "271172263",
+            "item_id": "inbox-706",
             "item_design_id": "706",
             "bonus_type": null,
             "bonus_value": null,
-            "quantity": "56",
+            "quantity": "22",
             "name": "Veteran\u2019s Guidebook",
             "rarity": "Hero",
             "item_sub_type": "InstantTraining",
@@ -4221,7 +4179,7 @@
             "item_design_id": "385",
             "bonus_type": null,
             "bonus_value": null,
-            "quantity": "41",
+            "quantity": "30",
             "name": "Concentrated Growth Supplement",
             "rarity": "Epic",
             "item_sub_type": "ReducePrestige",
@@ -4343,25 +4301,11 @@
             "pixyship_estimate": 12
         },
         {
-            "item_id": "268129456",
-            "item_design_id": "392",
-            "bonus_type": null,
-            "bonus_value": null,
-            "quantity": "2",
-            "name": "Standard Growth Supplement",
-            "rarity": "Elite",
-            "item_sub_type": "ReducePrestige",
-            "item_sprite_id": 9434,
-            "item_enhancement_type": null,
-            "item_enhancement_value": 3600.0,
-            "pixyship_estimate": 4
-        },
-        {
             "item_id": "270150251",
             "item_design_id": "306",
             "bonus_type": null,
             "bonus_value": null,
-            "quantity": "8",
+            "quantity": "5",
             "name": "Weak Growth Supplement",
             "rarity": "Common",
             "item_sub_type": "ReducePrestige",
