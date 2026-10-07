@@ -1,6 +1,6 @@
 {
-    "generated": "2026-10-07 04:28:24",
-    "item_count": 311,
+    "generated": "2026-10-07 04:59:33",
+    "item_count": 310,
     "items": [
         {
             "item_id": "291019634",
@@ -4063,20 +4063,6 @@
             "pixyship_estimate": 651
         },
         {
-            "item_id": "2000005036",
-            "item_design_id": "708",
-            "bonus_type": null,
-            "bonus_value": null,
-            "quantity": "1",
-            "name": "Sharpshooter\u2019s Cheatbook",
-            "rarity": "Legendary",
-            "item_sub_type": "InstantTraining",
-            "item_sprite_id": 12216,
-            "item_enhancement_type": null,
-            "item_enhancement_value": 0.0,
-            "pixyship_estimate": 852
-        },
-        {
             "item_id": "269129204",
             "item_design_id": "223",
             "bonus_type": null,
@@ -4203,11 +4189,11 @@
             "pixyship_estimate": 104
         },
         {
-            "item_id": "inbox-706",
+            "item_id": "271172263",
             "item_design_id": "706",
             "bonus_type": null,
             "bonus_value": null,
-            "quantity": "28",
+            "quantity": "8",
             "name": "Veteran\u2019s Guidebook",
             "rarity": "Hero",
             "item_sub_type": "InstantTraining",
