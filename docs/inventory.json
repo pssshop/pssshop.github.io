@@ -1,6 +1,6 @@
 {
-    "generated": "2026-10-08 21:26:47",
-    "item_count": 308,
+    "generated": "2026-10-09 01:56:47",
+    "item_count": 303,
     "items": [
         {
             "item_id": "317548919",
@@ -378,7 +378,7 @@
             "item_sprite_id": 9983,
             "item_enhancement_type": "Ability",
             "item_enhancement_value": 19.0,
-            "pixyship_estimate": 992
+            "pixyship_estimate": 984
         },
         {
             "item_id": "289472191",
@@ -982,19 +982,6 @@
             "pixyship_estimate": 2309
         },
         {
-            "item_id": "market-594614792",
-            "item_design_id": "246",
-            "bonus_type": "Stamina",
-            "bonus_value": "19",
-            "quantity": "1",
-            "name": "Dark Matter Helmet",
-            "rarity": "Hero",
-            "item_sub_type": "EquipmentHead",
-            "item_sprite_id": 7432,
-            "item_price": 285,
-            "pixyship_estimate": 634
-        },
-        {
             "item_id": "313887299",
             "item_design_id": "246",
             "bonus_type": "Weapon",
@@ -1552,7 +1539,7 @@
             "item_sprite_id": 11219,
             "item_enhancement_type": "Hp",
             "item_enhancement_value": 4.0,
-            "pixyship_estimate": 955
+            "pixyship_estimate": 981
         },
         {
             "item_id": "295919159",
@@ -1566,7 +1553,7 @@
             "item_sprite_id": 11219,
             "item_enhancement_type": "Hp",
             "item_enhancement_value": 4.0,
-            "pixyship_estimate": 1034
+            "pixyship_estimate": 1064
         },
         {
             "item_id": "287962002",
@@ -1580,7 +1567,7 @@
             "item_sprite_id": 11219,
             "item_enhancement_type": "Hp",
             "item_enhancement_value": 4.0,
-            "pixyship_estimate": 1074
+            "pixyship_estimate": 1137
         },
         {
             "item_id": "296435947",
@@ -1594,7 +1581,7 @@
             "item_sprite_id": 11219,
             "item_enhancement_type": "Hp",
             "item_enhancement_value": 4.0,
-            "pixyship_estimate": 1369
+            "pixyship_estimate": 1412
         },
         {
             "item_id": "308854085",
@@ -1636,7 +1623,7 @@
             "item_sprite_id": 11219,
             "item_enhancement_type": "Hp",
             "item_enhancement_value": 4.0,
-            "pixyship_estimate": 619
+            "pixyship_estimate": 630
         },
         {
             "item_id": "293946636",
@@ -1748,7 +1735,7 @@
             "item_sprite_id": 11219,
             "item_enhancement_type": "Hp",
             "item_enhancement_value": 4.0,
-            "pixyship_estimate": 4065
+            "pixyship_estimate": 3918
         },
         {
             "item_id": "295327964",
@@ -1777,20 +1764,6 @@
             "item_enhancement_type": "Ability",
             "item_enhancement_value": 17.0,
             "pixyship_estimate": 1420
-        },
-        {
-            "item_id": "297139296",
-            "item_design_id": "727",
-            "bonus_type": "Attack",
-            "bonus_value": "0.4",
-            "quantity": "1",
-            "name": "La Paula",
-            "rarity": "Hero",
-            "item_sub_type": "EquipmentWeapon",
-            "item_sprite_id": 12544,
-            "item_enhancement_type": "Ability",
-            "item_enhancement_value": 17.0,
-            "pixyship_estimate": 336
         },
         {
             "item_id": "302546136",
@@ -3137,7 +3110,7 @@
             "pixyship_estimate": 3341
         },
         {
-            "item_id": "298507212",
+            "item_id": "market-594631843",
             "item_design_id": "1494",
             "bonus_type": "Repair",
             "bonus_value": "0.4",
@@ -3146,22 +3119,7 @@
             "rarity": "Hero",
             "item_sub_type": "EquipmentWeapon",
             "item_sprite_id": 12218,
-            "item_enhancement_type": "Hp",
-            "item_enhancement_value": 4.0,
-            "pixyship_estimate": 374
-        },
-        {
-            "item_id": "299729417",
-            "item_design_id": "1494",
-            "bonus_type": "Repair",
-            "bonus_value": "0.4",
-            "quantity": "1",
-            "name": "Starburst Bulwark",
-            "rarity": "Hero",
-            "item_sub_type": "EquipmentWeapon",
-            "item_sprite_id": 12218,
-            "item_enhancement_type": "Hp",
-            "item_enhancement_value": 4.0,
+            "item_price": 350,
             "pixyship_estimate": 374
         },
         {
@@ -3557,34 +3515,6 @@
             "pixyship_estimate": 704
         },
         {
-            "item_id": "297505133",
-            "item_design_id": "802",
-            "bonus_type": "Hp",
-            "bonus_value": "1",
-            "quantity": "1",
-            "name": "Unobtainium Heavy Assault Armor ",
-            "rarity": "Hero",
-            "item_sub_type": "EquipmentBody",
-            "item_sprite_id": 3757,
-            "item_enhancement_type": "Ability",
-            "item_enhancement_value": 20.0,
-            "pixyship_estimate": 341
-        },
-        {
-            "item_id": "298393480",
-            "item_design_id": "802",
-            "bonus_type": "Hp",
-            "bonus_value": "1",
-            "quantity": "1",
-            "name": "Unobtainium Heavy Assault Armor ",
-            "rarity": "Hero",
-            "item_sub_type": "EquipmentBody",
-            "item_sprite_id": 3757,
-            "item_enhancement_type": "Ability",
-            "item_enhancement_value": 20.0,
-            "pixyship_estimate": 341
-        },
-        {
             "item_id": "297395881",
             "item_design_id": "802",
             "bonus_type": "Hp",
@@ -3974,7 +3904,7 @@
             "item_sprite_id": 29260,
             "item_enhancement_type": "Attack",
             "item_enhancement_value": 0.8,
-            "pixyship_estimate": 4331
+            "pixyship_estimate": 4324
         },
         {
             "item_id": "300762976",
@@ -4002,7 +3932,7 @@
             "item_sprite_id": 29499,
             "item_enhancement_type": "Attack",
             "item_enhancement_value": 1.0,
-            "pixyship_estimate": 3989
+            "pixyship_estimate": 3995
         },
         {
             "item_id": "270973497",
@@ -4023,7 +3953,7 @@
             "item_design_id": "388",
             "bonus_type": null,
             "bonus_value": null,
-            "quantity": "1",
+            "quantity": "2",
             "name": "Instant Growth Accelerator",
             "rarity": "Legendary",
             "item_sub_type": "ReducePrestige",
@@ -4163,7 +4093,7 @@
             "item_design_id": "706",
             "bonus_type": null,
             "bonus_value": null,
-            "quantity": "8",
+            "quantity": "9",
             "name": "Veteran\u2019s Guidebook",
             "rarity": "Hero",
             "item_sub_type": "InstantTraining",
@@ -4177,7 +4107,7 @@
             "item_design_id": "385",
             "bonus_type": null,
             "bonus_value": null,
-            "quantity": "146",
+            "quantity": "112",
             "name": "Concentrated Growth Supplement",
             "rarity": "Epic",
             "item_sub_type": "ReducePrestige",
