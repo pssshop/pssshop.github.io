@@ -1,6 +1,6 @@
 {
-    "generated": "2026-10-09 20:58:58",
-    "item_count": 298,
+    "generated": "2026-10-10 02:09:00",
+    "item_count": 294,
     "items": [
         {
             "item_id": "317548919",
@@ -1134,7 +1134,7 @@
             "item_sprite_id": 16605,
             "item_enhancement_type": "Engine",
             "item_enhancement_value": 7.0,
-            "pixyship_estimate": 678
+            "pixyship_estimate": 730
         },
         {
             "item_id": "316701908",
@@ -1191,6 +1191,20 @@
             "item_enhancement_type": "Weapon",
             "item_enhancement_value": 7.0,
             "pixyship_estimate": 666
+        },
+        {
+            "item_id": "317612538",
+            "item_design_id": "1181",
+            "bonus_type": "Repair",
+            "bonus_value": "0.3",
+            "quantity": "1",
+            "name": "Giga-Loader",
+            "rarity": "Hero",
+            "item_sub_type": "EquipmentWeapon",
+            "item_sprite_id": 16432,
+            "item_enhancement_type": "Weapon",
+            "item_enhancement_value": 7.0,
+            "pixyship_estimate": 552
         },
         {
             "item_id": "291982058",
@@ -1652,7 +1666,7 @@
             "item_sprite_id": 11219,
             "item_enhancement_type": "Hp",
             "item_enhancement_value": 4.0,
-            "pixyship_estimate": 1174
+            "pixyship_estimate": 1167
         },
         {
             "item_id": "298284768",
@@ -1708,7 +1722,7 @@
             "item_sprite_id": 11219,
             "item_enhancement_type": "Hp",
             "item_enhancement_value": 4.0,
-            "pixyship_estimate": 1073
+            "pixyship_estimate": 1079
         },
         {
             "item_id": "295327964",
@@ -2422,7 +2436,7 @@
             "item_sprite_id": 14738,
             "item_enhancement_type": "Science",
             "item_enhancement_value": 11.0,
-            "pixyship_estimate": 648
+            "pixyship_estimate": 613
         },
         {
             "item_id": "288740907",
@@ -2436,7 +2450,7 @@
             "item_sprite_id": 14738,
             "item_enhancement_type": "Science",
             "item_enhancement_value": 11.0,
-            "pixyship_estimate": 1806
+            "pixyship_estimate": 1821
         },
         {
             "item_id": "292574030",
@@ -2493,19 +2507,6 @@
             "item_enhancement_type": "Science",
             "item_enhancement_value": 9.0,
             "pixyship_estimate": 576
-        },
-        {
-            "item_id": "market-594675087",
-            "item_design_id": "954",
-            "bonus_type": "FireResistance",
-            "bonus_value": "36.8",
-            "quantity": "1",
-            "name": "Plague Surgeon Robe",
-            "rarity": "Hero",
-            "item_sub_type": "EquipmentBody",
-            "item_sprite_id": 14569,
-            "item_price": 600,
-            "pixyship_estimate": 374
         },
         {
             "item_id": "298201808",
@@ -2648,20 +2649,6 @@
             "pixyship_estimate": 1048
         },
         {
-            "item_id": "311565041",
-            "item_design_id": "676",
-            "bonus_type": "Stamina",
-            "bonus_value": "14",
-            "quantity": "1",
-            "name": "Prototype Stealth Suit",
-            "rarity": "Hero",
-            "item_sub_type": "EquipmentBody",
-            "item_sprite_id": 11926,
-            "item_enhancement_type": "Attack",
-            "item_enhancement_value": 0.7,
-            "pixyship_estimate": 396
-        },
-        {
             "item_id": "317548918",
             "item_design_id": "1709",
             "bonus_type": "Pilot",
@@ -2715,7 +2702,7 @@
             "item_sprite_id": 10288,
             "item_enhancement_type": "Engine",
             "item_enhancement_value": 11.0,
-            "pixyship_estimate": 628
+            "pixyship_estimate": 647
         },
         {
             "item_id": "297972794",
@@ -2729,7 +2716,7 @@
             "item_sprite_id": 10288,
             "item_enhancement_type": "Engine",
             "item_enhancement_value": 11.0,
-            "pixyship_estimate": 650
+            "pixyship_estimate": 670
         },
         {
             "item_id": "311228423",
@@ -2743,7 +2730,7 @@
             "item_sprite_id": 10288,
             "item_enhancement_type": "Engine",
             "item_enhancement_value": 11.0,
-            "pixyship_estimate": 892
+            "pixyship_estimate": 894
         },
         {
             "item_id": "297855411",
@@ -2785,20 +2772,7 @@
             "item_sprite_id": 10288,
             "item_enhancement_type": "Engine",
             "item_enhancement_value": 11.0,
-            "pixyship_estimate": 447
-        },
-        {
-            "item_id": "market-594674585",
-            "item_design_id": "490",
-            "bonus_type": "FireResistance",
-            "bonus_value": "45.8",
-            "quantity": "1",
-            "name": "QT Mechworks Drone",
-            "rarity": "Hero",
-            "item_sub_type": "EquipmentAccessory",
-            "item_sprite_id": 10288,
-            "item_price": 420,
-            "pixyship_estimate": 451
+            "pixyship_estimate": 441
         },
         {
             "item_id": "289878771",
@@ -2812,7 +2786,7 @@
             "item_sprite_id": 10288,
             "item_enhancement_type": "Engine",
             "item_enhancement_value": 11.0,
-            "pixyship_estimate": 473
+            "pixyship_estimate": 472
         },
         {
             "item_id": "311419514",
@@ -2826,7 +2800,7 @@
             "item_sprite_id": 10288,
             "item_enhancement_type": "Engine",
             "item_enhancement_value": 11.0,
-            "pixyship_estimate": 605
+            "pixyship_estimate": 596
         },
         {
             "item_id": "304577298",
@@ -2840,7 +2814,7 @@
             "item_sprite_id": 13939,
             "item_enhancement_type": "Weapon",
             "item_enhancement_value": 8.0,
-            "pixyship_estimate": 359
+            "pixyship_estimate": 619
         },
         {
             "item_id": "309116419",
@@ -3095,20 +3069,6 @@
             "pixyship_estimate": 2835
         },
         {
-            "item_id": "312977619",
-            "item_design_id": "740",
-            "bonus_type": "Hp",
-            "bonus_value": "1",
-            "quantity": "1",
-            "name": "Storm Lance",
-            "rarity": "Hero",
-            "item_sub_type": "EquipmentWeapon",
-            "item_sprite_id": 12596,
-            "item_enhancement_type": "Science",
-            "item_enhancement_value": 8.0,
-            "pixyship_estimate": 352
-        },
-        {
             "item_id": "298469910",
             "item_design_id": "740",
             "bonus_type": "Hp",
@@ -3120,7 +3080,7 @@
             "item_sprite_id": 12596,
             "item_enhancement_type": "Science",
             "item_enhancement_value": 8.0,
-            "pixyship_estimate": 931
+            "pixyship_estimate": 911
         },
         {
             "item_id": "295368791",
@@ -3359,20 +3319,6 @@
             "item_enhancement_type": "Ability",
             "item_enhancement_value": 20.0,
             "pixyship_estimate": 954
-        },
-        {
-            "item_id": "284013428",
-            "item_design_id": "802",
-            "bonus_type": "FireResistance",
-            "bonus_value": "42.3",
-            "quantity": "1",
-            "name": "Unobtainium Heavy Assault Armor ",
-            "rarity": "Hero",
-            "item_sub_type": "EquipmentBody",
-            "item_sprite_id": 3757,
-            "item_enhancement_type": "Ability",
-            "item_enhancement_value": 20.0,
-            "pixyship_estimate": 369
         },
         {
             "item_id": "312440039",
@@ -3848,7 +3794,7 @@
             "item_sprite_id": 29505,
             "item_enhancement_type": "Attack",
             "item_enhancement_value": 0.7,
-            "pixyship_estimate": 3633
+            "pixyship_estimate": 3616
         },
         {
             "item_id": "298446846",
@@ -3911,7 +3857,7 @@
             "item_design_id": "341",
             "bonus_type": null,
             "bonus_value": null,
-            "quantity": "33",
+            "quantity": "34",
             "name": "Drumsticks",
             "rarity": "Hero",
             "item_sub_type": "InstantTraining",
@@ -4086,7 +4032,7 @@
             "item_sprite_id": 10627,
             "item_enhancement_type": null,
             "item_enhancement_value": 0.0,
-            "pixyship_estimate": 4850
+            "pixyship_estimate": 4829
         },
         {
             "item_id": "inbox-525",
@@ -4170,7 +4116,7 @@
             "item_sprite_id": 9432,
             "item_enhancement_type": null,
             "item_enhancement_value": 900.0,
-            "pixyship_estimate": 3
+            "pixyship_estimate": 2
         }
     ]
 }
