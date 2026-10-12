@@ -1,6 +1,6 @@
 {
-    "generated": "2026-10-11 14:21:14",
-    "item_count": 293,
+    "generated": "2026-10-11 21:21:43",
+    "item_count": 292,
     "items": [
         {
             "item_id": "317548919",
@@ -294,7 +294,7 @@
             "item_sprite_id": 9983,
             "item_enhancement_type": "Ability",
             "item_enhancement_value": 19.0,
-            "pixyship_estimate": 522
+            "pixyship_estimate": 518
         },
         {
             "item_id": "309224141",
@@ -325,19 +325,6 @@
             "pixyship_estimate": 3518
         },
         {
-            "item_id": "market-594837533",
-            "item_design_id": "435",
-            "bonus_type": "Stamina",
-            "bonus_value": "20",
-            "quantity": "1",
-            "name": "Aldara",
-            "rarity": "Hero",
-            "item_sub_type": "EquipmentAccessory",
-            "item_sprite_id": 9983,
-            "item_price": 500,
-            "pixyship_estimate": 656
-        },
-        {
             "item_id": "309306302",
             "item_design_id": "435",
             "bonus_type": "Weapon",
@@ -349,7 +336,7 @@
             "item_sprite_id": 9983,
             "item_enhancement_type": "Ability",
             "item_enhancement_value": 19.0,
-            "pixyship_estimate": 291
+            "pixyship_estimate": 294
         },
         {
             "item_id": "312041451",
@@ -2251,7 +2238,7 @@
             "item_sprite_id": 16441,
             "item_enhancement_type": "Weapon",
             "item_enhancement_value": 6.0,
-            "pixyship_estimate": 4109
+            "pixyship_estimate": 4107
         },
         {
             "item_id": "316643695",
@@ -2587,7 +2574,7 @@
             "item_sprite_id": 11926,
             "item_enhancement_type": "Attack",
             "item_enhancement_value": 0.7,
-            "pixyship_estimate": 1502
+            "pixyship_estimate": 1340
         },
         {
             "item_id": "297855855",
@@ -2979,7 +2966,7 @@
             "item_sprite_id": 12218,
             "item_enhancement_type": "Hp",
             "item_enhancement_value": 4.0,
-            "pixyship_estimate": 856
+            "pixyship_estimate": 872
         },
         {
             "item_id": "312450011",
