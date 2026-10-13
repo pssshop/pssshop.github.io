@@ -1,6 +1,6 @@
 {
-    "generated": "2026-10-12 21:04:19",
-    "item_count": 286,
+    "generated": "2026-10-12 22:21:01",
+    "item_count": 285,
     "items": [
         {
             "item_id": "317548919",
@@ -252,7 +252,7 @@
             "item_sprite_id": 9983,
             "item_enhancement_type": "Ability",
             "item_enhancement_value": 19.0,
-            "pixyship_estimate": 461
+            "pixyship_estimate": 480
         },
         {
             "item_id": "313225734",
@@ -449,19 +449,6 @@
             "item_enhancement_type": "Attack",
             "item_enhancement_value": 0.9,
             "pixyship_estimate": 728
-        },
-        {
-            "item_id": "market-595007763",
-            "item_design_id": "514",
-            "bonus_type": "Repair",
-            "bonus_value": "0.5",
-            "quantity": "1",
-            "name": "Captain's Skullmet",
-            "rarity": "Hero",
-            "item_sub_type": "EquipmentHead",
-            "item_sprite_id": 10047,
-            "item_price": 385,
-            "pixyship_estimate": 346
         },
         {
             "item_id": "293918553",
@@ -2895,7 +2882,7 @@
             "item_sprite_id": 12218,
             "item_enhancement_type": "Hp",
             "item_enhancement_value": 4.0,
-            "pixyship_estimate": 3062
+            "pixyship_estimate": 3054
         },
         {
             "item_id": "306235500",
@@ -2909,7 +2896,7 @@
             "item_sprite_id": 12218,
             "item_enhancement_type": "Hp",
             "item_enhancement_value": 4.0,
-            "pixyship_estimate": 4473
+            "pixyship_estimate": 3916
         },
         {
             "item_id": "312688041",
@@ -2923,7 +2910,7 @@
             "item_sprite_id": 12218,
             "item_enhancement_type": "Hp",
             "item_enhancement_value": 4.0,
-            "pixyship_estimate": 770
+            "pixyship_estimate": 742
         },
         {
             "item_id": "298507214",
@@ -3819,7 +3806,7 @@
             "item_sprite_id": 8979,
             "item_enhancement_type": null,
             "item_enhancement_value": 0.0,
-            "pixyship_estimate": 113
+            "pixyship_estimate": 114
         },
         {
             "item_id": "270723494",
