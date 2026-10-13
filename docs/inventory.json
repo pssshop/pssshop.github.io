@@ -1,6 +1,6 @@
 {
-    "generated": "2026-10-12 22:21:01",
-    "item_count": 285,
+    "generated": "2026-10-13 01:27:36",
+    "item_count": 281,
     "items": [
         {
             "item_id": "317548919",
@@ -630,7 +630,7 @@
             "item_sprite_id": 4819,
             "item_enhancement_type": "Hp",
             "item_enhancement_value": 3.0,
-            "pixyship_estimate": 523
+            "pixyship_estimate": 526
         },
         {
             "item_id": "310667428",
@@ -1750,7 +1750,7 @@
             "item_sprite_id": 12544,
             "item_enhancement_type": "Ability",
             "item_enhancement_value": 17.0,
-            "pixyship_estimate": 927
+            "pixyship_estimate": 923
         },
         {
             "item_id": "298507207",
@@ -2284,20 +2284,6 @@
             "pixyship_estimate": 256
         },
         {
-            "item_id": "293267327",
-            "item_design_id": "1010",
-            "bonus_type": "FireResistance",
-            "bonus_value": "30.9",
-            "quantity": "1",
-            "name": "Overhauled Helm",
-            "rarity": "Hero",
-            "item_sub_type": "EquipmentHead",
-            "item_sprite_id": 15253,
-            "item_enhancement_type": "Engine",
-            "item_enhancement_value": 8.0,
-            "pixyship_estimate": 393
-        },
-        {
             "item_id": "311420017",
             "item_design_id": "960",
             "bonus_type": "FireResistance",
@@ -2424,7 +2410,7 @@
             "pixyship_estimate": 218
         },
         {
-            "item_id": "311318196",
+            "item_id": "market-595051356",
             "item_design_id": "676",
             "bonus_type": "Ability",
             "bonus_value": "10",
@@ -2433,8 +2419,7 @@
             "rarity": "Hero",
             "item_sub_type": "EquipmentBody",
             "item_sprite_id": 11926,
-            "item_enhancement_type": "Attack",
-            "item_enhancement_value": 0.7,
+            "item_price": 400,
             "pixyship_estimate": 467
         },
         {
@@ -2718,20 +2703,6 @@
             "pixyship_estimate": 478
         },
         {
-            "item_id": "292543626",
-            "item_design_id": "933",
-            "bonus_type": "Hp",
-            "bonus_value": "1",
-            "quantity": "1",
-            "name": "Red Marksman Jacket",
-            "rarity": "Hero",
-            "item_sub_type": "EquipmentBody",
-            "item_sprite_id": 13939,
-            "item_enhancement_type": "Weapon",
-            "item_enhancement_value": 8.0,
-            "pixyship_estimate": 263
-        },
-        {
             "item_id": "294349357",
             "item_design_id": "933",
             "bonus_type": "Hp",
@@ -2760,6 +2731,19 @@
             "pixyship_estimate": 263
         },
         {
+            "item_id": "market-595051442",
+            "item_design_id": "933",
+            "bonus_type": "Hp",
+            "bonus_value": "1",
+            "quantity": "1",
+            "name": "Red Marksman Jacket",
+            "rarity": "Hero",
+            "item_sub_type": "EquipmentBody",
+            "item_sprite_id": 13939,
+            "item_price": 500,
+            "pixyship_estimate": 263
+        },
+        {
             "item_id": "317736845",
             "item_design_id": "933",
             "bonus_type": "Repair",
@@ -2774,7 +2758,7 @@
             "pixyship_estimate": 154
         },
         {
-            "item_id": "market-594924111",
+            "item_id": "317790094",
             "item_design_id": "933",
             "bonus_type": "Stamina",
             "bonus_value": "13",
@@ -2783,7 +2767,8 @@
             "rarity": "Hero",
             "item_sub_type": "EquipmentBody",
             "item_sprite_id": 13939,
-            "item_price": 350,
+            "item_enhancement_type": "Weapon",
+            "item_enhancement_value": 8.0,
             "pixyship_estimate": 214
         },
         {
@@ -2798,7 +2783,7 @@
             "item_sprite_id": 13939,
             "item_enhancement_type": "Weapon",
             "item_enhancement_value": 8.0,
-            "pixyship_estimate": 564
+            "pixyship_estimate": 565
         },
         {
             "item_id": "293660626",
@@ -2911,20 +2896,6 @@
             "item_enhancement_type": "Hp",
             "item_enhancement_value": 4.0,
             "pixyship_estimate": 742
-        },
-        {
-            "item_id": "298507214",
-            "item_design_id": "1494",
-            "bonus_type": "Weapon",
-            "bonus_value": "5.9",
-            "quantity": "1",
-            "name": "Starburst Bulwark",
-            "rarity": "Hero",
-            "item_sub_type": "EquipmentWeapon",
-            "item_sprite_id": 12218,
-            "item_enhancement_type": "Hp",
-            "item_enhancement_value": 4.0,
-            "pixyship_estimate": 2835
         },
         {
             "item_id": "298469910",
@@ -3487,20 +3458,6 @@
             "pixyship_estimate": 5163
         },
         {
-            "item_id": "300434037",
-            "item_design_id": "790",
-            "bonus_type": "Weapon",
-            "bonus_value": "6.4",
-            "quantity": "1",
-            "name": "Visiri Gunner Helm Alpha",
-            "rarity": "Hero",
-            "item_sub_type": "EquipmentHead",
-            "item_sprite_id": 12777,
-            "item_enhancement_type": "Weapon",
-            "item_enhancement_value": 7.0,
-            "pixyship_estimate": 5987
-        },
-        {
             "item_id": "291948040",
             "item_design_id": "799",
             "bonus_type": "Ability",
@@ -3645,7 +3602,7 @@
             "item_design_id": "2424",
             "bonus_type": null,
             "bonus_value": null,
-            "quantity": "1",
+            "quantity": "2",
             "name": "2026 Class A Greaves MKIII",
             "rarity": "Epic",
             "item_sub_type": "EquipmentLeg",
@@ -3681,20 +3638,6 @@
             "item_enhancement_type": null,
             "item_enhancement_value": 0.0,
             "pixyship_estimate": 674
-        },
-        {
-            "item_id": "inbox-388",
-            "item_design_id": "388",
-            "bonus_type": null,
-            "bonus_value": null,
-            "quantity": "1",
-            "name": "Instant Growth Accelerator",
-            "rarity": "Legendary",
-            "item_sub_type": "ReducePrestige",
-            "item_sprite_id": 9439,
-            "item_enhancement_type": null,
-            "item_enhancement_value": 1209600.0,
-            "pixyship_estimate": 654
         },
         {
             "item_id": "inbox-708",
@@ -3799,7 +3742,7 @@
             "item_design_id": "376",
             "bonus_type": null,
             "bonus_value": null,
-            "quantity": "20",
+            "quantity": "21",
             "name": "Rare Engineering Tool Kit",
             "rarity": "Hero",
             "item_sub_type": "InstantTraining",
@@ -3813,7 +3756,7 @@
             "item_design_id": "356",
             "bonus_type": null,
             "bonus_value": null,
-            "quantity": "11",
+            "quantity": "15",
             "name": "Solution of Brain Juice",
             "rarity": "Hero",
             "item_sub_type": "InstantTraining",
@@ -3841,7 +3784,7 @@
             "item_design_id": "706",
             "bonus_type": null,
             "bonus_value": null,
-            "quantity": "9",
+            "quantity": "21",
             "name": "Veteran\u2019s Guidebook",
             "rarity": "Hero",
             "item_sub_type": "InstantTraining",
@@ -3855,7 +3798,7 @@
             "item_design_id": "385",
             "bonus_type": null,
             "bonus_value": null,
-            "quantity": "113",
+            "quantity": "96",
             "name": "Concentrated Growth Supplement",
             "rarity": "Epic",
             "item_sub_type": "ReducePrestige",
@@ -3946,7 +3889,7 @@
             "item_sprite_id": 10627,
             "item_enhancement_type": null,
             "item_enhancement_value": 0.0,
-            "pixyship_estimate": 1757
+            "pixyship_estimate": 1770
         },
         {
             "item_id": "inbox-107",
