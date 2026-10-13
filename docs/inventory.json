@@ -1,6 +1,6 @@
 {
-    "generated": "2026-10-12 14:27:37",
-    "item_count": 288,
+    "generated": "2026-10-12 21:04:19",
+    "item_count": 286,
     "items": [
         {
             "item_id": "317548919",
@@ -350,7 +350,7 @@
             "item_sprite_id": 9983,
             "item_enhancement_type": "Ability",
             "item_enhancement_value": 19.0,
-            "pixyship_estimate": 984
+            "pixyship_estimate": 989
         },
         {
             "item_id": "289472191",
@@ -1105,7 +1105,7 @@
             "item_sprite_id": 16432,
             "item_enhancement_type": "Weapon",
             "item_enhancement_value": 7.0,
-            "pixyship_estimate": 666
+            "pixyship_estimate": 662
         },
         {
             "item_id": "317612538",
@@ -1892,19 +1892,6 @@
             "pixyship_estimate": 1479
         },
         {
-            "item_id": "market-595007792",
-            "item_design_id": "1705",
-            "bonus_type": "Ability",
-            "bonus_value": "6.7",
-            "quantity": "1",
-            "name": "Mach Helm",
-            "rarity": "Hero",
-            "item_sub_type": "EquipmentHead",
-            "item_sprite_id": 19673,
-            "item_price": 400,
-            "pixyship_estimate": 396
-        },
-        {
             "item_id": "294229086",
             "item_design_id": "1705",
             "bonus_type": "Ability",
@@ -1987,20 +1974,6 @@
             "item_enhancement_type": "Pilot",
             "item_enhancement_value": 10.0,
             "pixyship_estimate": 1393
-        },
-        {
-            "item_id": "295744519",
-            "item_design_id": "1705",
-            "bonus_type": "Stamina",
-            "bonus_value": "19",
-            "quantity": "1",
-            "name": "Mach Helm",
-            "rarity": "Hero",
-            "item_sub_type": "EquipmentHead",
-            "item_sprite_id": 19673,
-            "item_enhancement_type": "Pilot",
-            "item_enhancement_value": 10.0,
-            "pixyship_estimate": 322
         },
         {
             "item_id": "313775863",
@@ -2283,7 +2256,7 @@
             "pixyship_estimate": 1467
         },
         {
-            "item_id": "314562234",
+            "item_id": "market-595034181",
             "item_design_id": "1000",
             "bonus_type": "Pilot",
             "bonus_value": "7.6",
@@ -2292,8 +2265,7 @@
             "rarity": "Hero",
             "item_sub_type": "EquipmentLeg",
             "item_sprite_id": 15249,
-            "item_enhancement_type": "Engine",
-            "item_enhancement_value": 8.0,
+            "item_price": 400,
             "pixyship_estimate": 424
         },
         {
