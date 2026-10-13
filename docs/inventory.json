@@ -1,6 +1,6 @@
 {
-    "generated": "2026-10-13 03:35:28",
-    "item_count": 281,
+    "generated": "2026-10-13 03:49:03",
+    "item_count": 278,
     "items": [
         {
             "item_id": "317548919",
@@ -883,20 +883,6 @@
             "item_enhancement_type": "Hp",
             "item_enhancement_value": 3.0,
             "pixyship_estimate": 472
-        },
-        {
-            "item_id": "295429564",
-            "item_design_id": "246",
-            "bonus_type": "Weapon",
-            "bonus_value": "6.2",
-            "quantity": "1",
-            "name": "Dark Matter Helmet",
-            "rarity": "Hero",
-            "item_sub_type": "EquipmentHead",
-            "item_sprite_id": 7432,
-            "item_enhancement_type": "Hp",
-            "item_enhancement_value": 3.0,
-            "pixyship_estimate": 994
         },
         {
             "item_id": "311315940",
@@ -2131,20 +2117,6 @@
             "pixyship_estimate": 1275
         },
         {
-            "item_id": "294237306",
-            "item_design_id": "1177",
-            "bonus_type": "Weapon",
-            "bonus_value": "3.8",
-            "quantity": "1",
-            "name": "Noscope-360",
-            "rarity": "Hero",
-            "item_sub_type": "EquipmentAccessory",
-            "item_sprite_id": 16441,
-            "item_enhancement_type": "Weapon",
-            "item_enhancement_value": 6.0,
-            "pixyship_estimate": 1527
-        },
-        {
             "item_id": "297342999",
             "item_design_id": "1177",
             "bonus_type": "Weapon",
@@ -2366,20 +2338,6 @@
             "item_enhancement_type": "Science",
             "item_enhancement_value": 12.0,
             "pixyship_estimate": 1413
-        },
-        {
-            "item_id": "308731474",
-            "item_design_id": "953",
-            "bonus_type": "Hp",
-            "bonus_value": "2",
-            "quantity": "1",
-            "name": "Plague Surgeon Slacks",
-            "rarity": "Hero",
-            "item_sub_type": "EquipmentLeg",
-            "item_sprite_id": 14561,
-            "item_enhancement_type": "Science",
-            "item_enhancement_value": 12.0,
-            "pixyship_estimate": 1983
         },
         {
             "item_id": "313775864",
@@ -3784,7 +3742,7 @@
             "item_design_id": "706",
             "bonus_type": null,
             "bonus_value": null,
-            "quantity": "3",
+            "quantity": "11",
             "name": "Veteran\u2019s Guidebook",
             "rarity": "Hero",
             "item_sub_type": "InstantTraining",
