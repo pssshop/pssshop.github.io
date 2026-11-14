@@ -516,6 +516,12 @@ function App() {
         // Columns to show in specific order
         const columns = ['name', 'bonus', 'item_sub_type', 'price'];
 
+        const bonusLabel = (item) => {
+            const primary = item.bonus_type ? `${item.bonus_type} +${item.bonus_value}` : '';
+            const legendary = item.legendary_bonus_type ? `${item.legendary_bonus_type} +${item.legendary_bonus_value}` : '';
+            return [primary, legendary].filter(Boolean).join(' / ');
+        };
+
         // Search filter (everything is always filtered)
         const filtered = items.filter((item) => {
             // Hide items with no price in normal (non-admin) view
@@ -526,7 +532,7 @@ function App() {
             }
 
             // For the 'bonus' column, search the combined string
-            const bonusString = item.bonus_type ? `${item.bonus_type} +${item.bonus_value}` : '';
+            const bonusString = bonusLabel(item);
             const subType = item.item_sub_type || '';
             return (
                 (item.name && item.name.toLowerCase().includes(search.toLowerCase())) ||
@@ -755,8 +761,8 @@ function App() {
                                                         data-bonus-type={item.bonus_type || ''}
                                                         data-bonus-value={item.bonus_value || ''}
                                                     >
-                                                        {item.bonus_type
-                                                            ? highlightText(`${item.bonus_type} +${item.bonus_value}`)
+                                                        {bonusLabel(item)
+                                                            ? highlightText(bonusLabel(item))
                                                             : ''}
                                                     </td>
                                                 );
@@ -867,6 +873,18 @@ function App() {
                                             {sorted[hoveredRow].item_enhancement_type || ''}{
                                                 typeof sorted[hoveredRow].item_enhancement_value !== 'undefined' && sorted[hoveredRow].item_enhancement_value !== null
                                                     ? ` +${String(sorted[hoveredRow].item_enhancement_value)}`
+                                                    : ''
+                                            }
+                                        </span>
+                                    </div>
+                                )}
+
+                                {(sorted[hoveredRow].legendary_bonus_type || typeof sorted[hoveredRow].legendary_bonus_value !== 'undefined') && (
+                                    <div>
+                                        <span className="monospace">
+                                            {sorted[hoveredRow].legendary_bonus_type || ''}{
+                                                typeof sorted[hoveredRow].legendary_bonus_value !== 'undefined' && sorted[hoveredRow].legendary_bonus_value !== null
+                                                    ? ` +${String(sorted[hoveredRow].legendary_bonus_value)}`
                                                     : ''
                                             }
                                         </span>
