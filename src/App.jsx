@@ -516,9 +516,10 @@ function App() {
         // Columns to show in specific order
         const columns = ['name', 'bonus', 'item_sub_type', 'price'];
 
+        const normalBonus = (val) => (val && val !== 'None' ? val : '');
         const bonusLabel = (item) => {
-            const primary = item.bonus_type ? `${item.bonus_type} +${item.bonus_value}` : '';
-            const legendary = item.legendary_bonus_type ? `${item.legendary_bonus_type} +${item.legendary_bonus_value}` : '';
+            const primary = normalBonus(item.bonus_type) ? `${item.bonus_type} +${item.bonus_value}` : '';
+            const legendary = normalBonus(item.legendary_bonus_type) ? `${item.legendary_bonus_type} +${item.legendary_bonus_value}` : '';
             return [primary, legendary].filter(Boolean).join(' / ');
         };
 
