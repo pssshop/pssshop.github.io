@@ -249,8 +249,19 @@ function App() {
         // normalize numeric bonus values (e.g., 9.2 -> 92 or 9-2 -> 9-2). We'll remove decimals by replacing '.' with '-'
         if (typeof bonusValue === 'number') bonusValue = String(bonusValue);
         bonusValue = bonusValue == null ? '' : String(bonusValue);
+        // Legendary equipment carries a second (legendary) bonus; include it so
+        // items with the same primary bonus but a different legendary roll get
+        // distinct stable ids (they must not share a price/edit mapping). The
+        // bonus value is only meaningful when the type is present — the data
+        // uses value "0" as a sentinel for non-legendary items, so gate on type.
+        const legendaryType = item.legendary_bonus_type && item.legendary_bonus_type !== 'None' ? item.legendary_bonus_type : '';
+        let legendaryValue = legendaryType ? item.legendary_bonus_value : '';
+        if (typeof legendaryValue === 'number') legendaryValue = String(legendaryValue);
+        legendaryValue = legendaryValue == null ? '' : String(legendaryValue);
         // build parts and slugify each to keep stable and safe
-        const parts = [design, bonusType, bonusValue].map((p) => slugify(p)).filter(Boolean);
+        const parts = [design, bonusType, bonusValue, legendaryType, legendaryValue]
+            .map((p) => slugify(p))
+            .filter(Boolean);
         if (parts.length === 0) return null;
         return parts.join('-');
     };
