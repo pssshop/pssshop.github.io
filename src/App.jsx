@@ -768,15 +768,21 @@ function App() {
                                     >
                                         {columns.map((key) => {
                                             if (key === 'bonus') {
+                                                const primary = normalBonus(item.bonus_type) ? `${item.bonus_type} +${item.bonus_value}` : '';
+                                                const legendary = normalBonus(item.legendary_bonus_type) ? `${item.legendary_bonus_type} +${item.legendary_bonus_value}` : '';
                                                 return (
                                                     <td
                                                         key={key}
                                                         data-bonus-type={item.bonus_type || ''}
                                                         data-bonus-value={item.bonus_value || ''}
                                                     >
-                                                        {bonusLabel(item)
-                                                            ? highlightText(bonusLabel(item))
-                                                            : ''}
+                                                        {primary ? highlightText(primary) : ''}
+                                                        {legendary ? (
+                                                            <>
+                                                                <br />
+                                                                {highlightText(legendary)}
+                                                            </>
+                                                        ) : null}
                                                     </td>
                                                 );
                                             }
