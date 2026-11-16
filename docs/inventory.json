@@ -1,6 +1,6 @@
 {
-    "generated": "2026-11-16 04:04:17",
-    "item_count": 226,
+    "generated": "2026-11-16 04:55:21",
+    "item_count": 223,
     "items": [
         {
             "item_id": "319912149",
@@ -1166,7 +1166,7 @@
             "item_sprite_id": 5007,
             "item_enhancement_type": "Attack",
             "item_enhancement_value": 0.6,
-            "pixyship_estimate": 546
+            "pixyship_estimate": 543
         },
         {
             "item_id": "294301759",
@@ -1182,7 +1182,7 @@
             "item_sprite_id": 5007,
             "item_enhancement_type": "Attack",
             "item_enhancement_value": 0.6,
-            "pixyship_estimate": 713
+            "pixyship_estimate": 710
         },
         {
             "item_id": "315620703",
@@ -1198,7 +1198,7 @@
             "item_sprite_id": 5007,
             "item_enhancement_type": "Attack",
             "item_enhancement_value": 0.6,
-            "pixyship_estimate": 743
+            "pixyship_estimate": 738
         },
         {
             "item_id": "309851470",
@@ -2926,7 +2926,7 @@
             "item_sprite_id": 23851,
             "item_enhancement_type": "Engine",
             "item_enhancement_value": 9.0,
-            "pixyship_estimate": 0
+            "pixyship_estimate": 4582
         },
         {
             "item_id": "306347831",
@@ -2942,7 +2942,7 @@
             "item_sprite_id": 29493,
             "item_enhancement_type": "Attack",
             "item_enhancement_value": 0.8,
-            "pixyship_estimate": 0
+            "pixyship_estimate": 3500
         },
         {
             "item_id": "304624929",
@@ -2958,7 +2958,7 @@
             "item_sprite_id": 29260,
             "item_enhancement_type": "Attack",
             "item_enhancement_value": 0.8,
-            "pixyship_estimate": 0
+            "pixyship_estimate": 4083
         },
         {
             "item_id": "300762976",
@@ -2974,7 +2974,7 @@
             "item_sprite_id": 29505,
             "item_enhancement_type": "Attack",
             "item_enhancement_value": 0.7,
-            "pixyship_estimate": 0
+            "pixyship_estimate": 3179
         },
         {
             "item_id": "298446846",
@@ -2990,7 +2990,7 @@
             "item_sprite_id": 29499,
             "item_enhancement_type": "Attack",
             "item_enhancement_value": 1.0,
-            "pixyship_estimate": 0
+            "pixyship_estimate": 3426
         },
         {
             "item_id": "inbox-350",
@@ -3004,7 +3004,7 @@
             "item_sprite_id": 8967,
             "item_enhancement_type": null,
             "item_enhancement_value": 0.0,
-            "pixyship_estimate": 0
+            "pixyship_estimate": 679
         },
         {
             "item_id": "270973497",
@@ -3020,7 +3020,7 @@
             "item_sprite_id": 8967,
             "item_enhancement_type": null,
             "item_enhancement_value": 0.0,
-            "pixyship_estimate": 0
+            "pixyship_estimate": 679
         },
         {
             "item_id": "281540549",
@@ -3036,37 +3036,21 @@
             "item_sprite_id": 9439,
             "item_enhancement_type": null,
             "item_enhancement_value": 1209600.0,
-            "pixyship_estimate": 0
+            "pixyship_estimate": 657
         },
         {
             "item_id": "inbox-708",
             "item_design_id": "708",
             "bonus_type": null,
             "bonus_value": null,
-            "quantity": "4",
+            "quantity": "2",
             "name": "Sharpshooter\u2019s Cheatbook",
             "rarity": "Legendary",
             "item_sub_type": "InstantTraining",
             "item_sprite_id": 12216,
             "item_enhancement_type": null,
             "item_enhancement_value": 0.0,
-            "pixyship_estimate": 0
-        },
-        {
-            "item_id": "2000005036",
-            "item_design_id": "708",
-            "bonus_type": null,
-            "bonus_value": "0",
-            "legendary_bonus_type": null,
-            "legendary_bonus_value": "0",
-            "quantity": "1",
-            "name": "Sharpshooter\u2019s Cheatbook",
-            "rarity": "Legendary",
-            "item_sub_type": "InstantTraining",
-            "item_sprite_id": 12216,
-            "item_enhancement_type": null,
-            "item_enhancement_value": 0.0,
-            "pixyship_estimate": 0
+            "pixyship_estimate": 904
         },
         {
             "item_id": "269129204",
@@ -3082,7 +3066,7 @@
             "item_sprite_id": 5513,
             "item_enhancement_type": null,
             "item_enhancement_value": 0.0,
-            "pixyship_estimate": 0
+            "pixyship_estimate": 19
         },
         {
             "item_id": "inbox-341",
@@ -3096,7 +3080,7 @@
             "item_sprite_id": 8951,
             "item_enhancement_type": null,
             "item_enhancement_value": 0.0,
-            "pixyship_estimate": 0
+            "pixyship_estimate": 80
         },
         {
             "item_id": "270037032",
@@ -3112,7 +3096,7 @@
             "item_sprite_id": 8951,
             "item_enhancement_type": null,
             "item_enhancement_value": 0.0,
-            "pixyship_estimate": 0
+            "pixyship_estimate": 80
         },
         {
             "item_id": "inbox-334",
@@ -3126,7 +3110,7 @@
             "item_sprite_id": 8986,
             "item_enhancement_type": null,
             "item_enhancement_value": 0.0,
-            "pixyship_estimate": 0
+            "pixyship_estimate": 92
         },
         {
             "item_id": "270243639",
@@ -3142,7 +3126,7 @@
             "item_sprite_id": 8986,
             "item_enhancement_type": null,
             "item_enhancement_value": 0.0,
-            "pixyship_estimate": 0
+            "pixyship_estimate": 92
         },
         {
             "item_id": "inbox-300",
@@ -3156,7 +3140,7 @@
             "item_sprite_id": 8246,
             "item_enhancement_type": null,
             "item_enhancement_value": 0.0,
-            "pixyship_estimate": 0
+            "pixyship_estimate": 131
         },
         {
             "item_id": "inbox-327",
@@ -3170,7 +3154,7 @@
             "item_sprite_id": 8790,
             "item_enhancement_type": null,
             "item_enhancement_value": 0.0,
-            "pixyship_estimate": 0
+            "pixyship_estimate": 172
         },
         {
             "item_id": "inbox-363",
@@ -3184,7 +3168,7 @@
             "item_sprite_id": 8958,
             "item_enhancement_type": null,
             "item_enhancement_value": 0.0,
-            "pixyship_estimate": 0
+            "pixyship_estimate": 66
         },
         {
             "item_id": "287587831",
@@ -3200,7 +3184,7 @@
             "item_sprite_id": 8958,
             "item_enhancement_type": null,
             "item_enhancement_value": 0.0,
-            "pixyship_estimate": 0
+            "pixyship_estimate": 66
         },
         {
             "item_id": "inbox-376",
@@ -3214,21 +3198,21 @@
             "item_sprite_id": 8979,
             "item_enhancement_type": null,
             "item_enhancement_value": 0.0,
-            "pixyship_estimate": 0
+            "pixyship_estimate": 116
         },
         {
             "item_id": "inbox-356",
             "item_design_id": "356",
             "bonus_type": null,
             "bonus_value": null,
-            "quantity": "19",
+            "quantity": "1",
             "name": "Solution of Brain Juice",
             "rarity": "Hero",
             "item_sub_type": "InstantTraining",
             "item_sprite_id": 8972,
             "item_enhancement_type": null,
             "item_enhancement_value": 0.0,
-            "pixyship_estimate": 0
+            "pixyship_estimate": 113
         },
         {
             "item_id": "270723494",
@@ -3237,58 +3221,28 @@
             "bonus_value": "0",
             "legendary_bonus_type": null,
             "legendary_bonus_value": "0",
-            "quantity": "3",
+            "quantity": "1",
             "name": "Solution of Brain Juice",
             "rarity": "Hero",
             "item_sub_type": "InstantTraining",
             "item_sprite_id": 8972,
             "item_enhancement_type": null,
             "item_enhancement_value": 0.0,
-            "pixyship_estimate": 0
+            "pixyship_estimate": 113
         },
         {
             "item_id": "inbox-348",
             "item_design_id": "348",
             "bonus_type": null,
             "bonus_value": null,
-            "quantity": "31",
+            "quantity": "13",
             "name": "System Map",
             "rarity": "Hero",
             "item_sub_type": "InstantTraining",
             "item_sprite_id": 8965,
             "item_enhancement_type": null,
             "item_enhancement_value": 0.0,
-            "pixyship_estimate": 0
-        },
-        {
-            "item_id": "270723493",
-            "item_design_id": "348",
-            "bonus_type": null,
-            "bonus_value": "0",
-            "legendary_bonus_type": null,
-            "legendary_bonus_value": "0",
-            "quantity": "2",
-            "name": "System Map",
-            "rarity": "Hero",
-            "item_sub_type": "InstantTraining",
-            "item_sprite_id": 8965,
-            "item_enhancement_type": null,
-            "item_enhancement_value": 0.0,
-            "pixyship_estimate": 0
-        },
-        {
-            "item_id": "inbox-706",
-            "item_design_id": "706",
-            "bonus_type": null,
-            "bonus_value": null,
-            "quantity": "67",
-            "name": "Veteran\u2019s Guidebook",
-            "rarity": "Hero",
-            "item_sub_type": "InstantTraining",
-            "item_sprite_id": 12214,
-            "item_enhancement_type": null,
-            "item_enhancement_value": 0.0,
-            "pixyship_estimate": 0
+            "pixyship_estimate": 109
         },
         {
             "item_id": "271172263",
@@ -3297,14 +3251,14 @@
             "bonus_value": "0",
             "legendary_bonus_type": null,
             "legendary_bonus_value": "0",
-            "quantity": "3",
+            "quantity": "30",
             "name": "Veteran\u2019s Guidebook",
             "rarity": "Hero",
             "item_sub_type": "InstantTraining",
             "item_sprite_id": 12214,
             "item_enhancement_type": null,
             "item_enhancement_value": 0.0,
-            "pixyship_estimate": 0
+            "pixyship_estimate": 121
         },
         {
             "item_id": "inbox-385",
@@ -3318,7 +3272,7 @@
             "item_sprite_id": 9436,
             "item_enhancement_type": null,
             "item_enhancement_value": 36000.0,
-            "pixyship_estimate": 0
+            "pixyship_estimate": 40
         },
         {
             "item_id": "281131665",
@@ -3334,7 +3288,7 @@
             "item_sprite_id": 9436,
             "item_enhancement_type": null,
             "item_enhancement_value": 36000.0,
-            "pixyship_estimate": 0
+            "pixyship_estimate": 40
         },
         {
             "item_id": "inbox-106",
@@ -3348,7 +3302,7 @@
             "item_sprite_id": 3605,
             "item_enhancement_type": null,
             "item_enhancement_value": 0.0,
-            "pixyship_estimate": 0
+            "pixyship_estimate": 203
         },
         {
             "item_id": "273737329",
@@ -3364,7 +3318,7 @@
             "item_sprite_id": 3605,
             "item_enhancement_type": null,
             "item_enhancement_value": 0.0,
-            "pixyship_estimate": 0
+            "pixyship_estimate": 203
         },
         {
             "item_id": "306131752",
@@ -3380,7 +3334,7 @@
             "item_sprite_id": 14592,
             "item_enhancement_type": null,
             "item_enhancement_value": 0.0,
-            "pixyship_estimate": 0
+            "pixyship_estimate": 3198
         },
         {
             "item_id": "317236615",
@@ -3396,7 +3350,7 @@
             "item_sprite_id": 10627,
             "item_enhancement_type": null,
             "item_enhancement_value": 0.0,
-            "pixyship_estimate": 0
+            "pixyship_estimate": 4795
         },
         {
             "item_id": "inbox-525",
@@ -3410,7 +3364,7 @@
             "item_sprite_id": 10627,
             "item_enhancement_type": null,
             "item_enhancement_value": 0.0,
-            "pixyship_estimate": 0
+            "pixyship_estimate": 2157
         },
         {
             "item_id": "inbox-1133",
@@ -3424,7 +3378,7 @@
             "item_sprite_id": 16190,
             "item_enhancement_type": null,
             "item_enhancement_value": 0.0,
-            "pixyship_estimate": 0
+            "pixyship_estimate": 135
         },
         {
             "item_id": "288569688",
@@ -3440,7 +3394,7 @@
             "item_sprite_id": 16190,
             "item_enhancement_type": null,
             "item_enhancement_value": 0.0,
-            "pixyship_estimate": 0
+            "pixyship_estimate": 135
         },
         {
             "item_id": "inbox-822",
@@ -3454,7 +3408,7 @@
             "item_sprite_id": 10627,
             "item_enhancement_type": null,
             "item_enhancement_value": 0.0,
-            "pixyship_estimate": 0
+            "pixyship_estimate": 1451
         },
         {
             "item_id": "inbox-107",
@@ -3468,7 +3422,7 @@
             "item_sprite_id": 18618,
             "item_enhancement_type": null,
             "item_enhancement_value": 0.0,
-            "pixyship_estimate": 0
+            "pixyship_estimate": 261
         },
         {
             "item_id": "272043175",
@@ -3484,7 +3438,7 @@
             "item_sprite_id": 18618,
             "item_enhancement_type": null,
             "item_enhancement_value": 0.0,
-            "pixyship_estimate": 0
+            "pixyship_estimate": 261
         },
         {
             "item_id": "inbox-384",
@@ -3498,7 +3452,7 @@
             "item_sprite_id": 9435,
             "item_enhancement_type": null,
             "item_enhancement_value": 10800.0,
-            "pixyship_estimate": 0
+            "pixyship_estimate": 16
         },
         {
             "item_id": "277180338",
@@ -3514,7 +3468,7 @@
             "item_sprite_id": 9435,
             "item_enhancement_type": null,
             "item_enhancement_value": 10800.0,
-            "pixyship_estimate": 0
+            "pixyship_estimate": 16
         },
         {
             "item_id": "inbox-392",
@@ -3528,7 +3482,7 @@
             "item_sprite_id": 9434,
             "item_enhancement_type": null,
             "item_enhancement_value": 3600.0,
-            "pixyship_estimate": 0
+            "pixyship_estimate": 4
         },
         {
             "item_id": "268129456",
@@ -3544,7 +3498,7 @@
             "item_sprite_id": 9434,
             "item_enhancement_type": null,
             "item_enhancement_value": 3600.0,
-            "pixyship_estimate": 0
+            "pixyship_estimate": 4
         },
         {
             "item_id": "inbox-306",
@@ -3558,7 +3512,7 @@
             "item_sprite_id": 9432,
             "item_enhancement_type": null,
             "item_enhancement_value": 900.0,
-            "pixyship_estimate": 0
+            "pixyship_estimate": 2
         },
         {
             "item_id": "270150251",
@@ -3574,7 +3528,7 @@
             "item_sprite_id": 9432,
             "item_enhancement_type": null,
             "item_enhancement_value": 900.0,
-            "pixyship_estimate": 0
+            "pixyship_estimate": 2
         }
     ]
 }
