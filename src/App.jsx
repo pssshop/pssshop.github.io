@@ -279,6 +279,7 @@ function App() {
 
     const computePercentAndColor = (priceNum, estimateNum) => {
         if (priceNum === null || estimateNum === null) return { percent: null, color: '' };
+        if (estimateNum === 0) return { percent: null, color: '' };
         const percent = (((priceNum - estimateNum) / estimateNum) * 100).toFixed(1);
         const isDark = theme === 'dark' || (theme === 'auto' && window.matchMedia('(prefers-color-scheme: dark)').matches);
         const color = isDark ? (priceNum <= estimateNum ? '#318741ff' : '#872b2bff') : (priceNum <= estimateNum ? '#2c4a00ff' : '#330000ff');
