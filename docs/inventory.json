@@ -1,6 +1,6 @@
 {
-    "generated": "2026-11-24 18:52:05",
-    "item_count": 211,
+    "generated": "2026-11-26 05:56:28",
+    "item_count": 210,
     "items": [
         {
             "item_id": "319912149",
@@ -16,7 +16,7 @@
             "item_sprite_id": 9983,
             "item_enhancement_type": "Ability",
             "item_enhancement_value": 19.0,
-            "pixyship_estimate": 2805
+            "pixyship_estimate": 2679
         },
         {
             "item_id": "319914929",
@@ -35,6 +35,22 @@
             "pixyship_estimate": 4804
         },
         {
+            "item_id": "319912016",
+            "item_design_id": "2704",
+            "bonus_type": "Hp",
+            "bonus_value": "2",
+            "legendary_bonus_type": "FireResistance",
+            "legendary_bonus_value": "30.9",
+            "quantity": "1",
+            "name": "Ethereal Giga-Loader",
+            "rarity": "Legendary",
+            "item_sub_type": "EquipmentWeapon",
+            "item_sprite_id": 16432,
+            "item_enhancement_type": "Weapon",
+            "item_enhancement_value": 7.0,
+            "pixyship_estimate": 2984
+        },
+        {
             "item_id": "319915038",
             "item_design_id": "2705",
             "bonus_type": "Attack",
@@ -48,7 +64,7 @@
             "item_sprite_id": 5007,
             "item_enhancement_type": "Attack",
             "item_enhancement_value": 0.6,
-            "pixyship_estimate": 2918
+            "pixyship_estimate": 2836
         },
         {
             "item_id": "319915134",
@@ -112,7 +128,7 @@
             "item_sprite_id": 5007,
             "item_enhancement_type": "Attack",
             "item_enhancement_value": 0.6,
-            "pixyship_estimate": 2565
+            "pixyship_estimate": 2454
         },
         {
             "item_id": "319912825",
@@ -192,7 +208,7 @@
             "item_sprite_id": 3757,
             "item_enhancement_type": "Ability",
             "item_enhancement_value": 20.0,
-            "pixyship_estimate": 9474
+            "pixyship_estimate": 12500
         },
         {
             "item_id": "319915602",
@@ -241,6 +257,22 @@
             "item_enhancement_type": "Weapon",
             "item_enhancement_value": 7.0,
             "pixyship_estimate": 2000
+        },
+        {
+            "item_id": "320437301",
+            "item_design_id": "2738",
+            "bonus_type": "Weapon",
+            "bonus_value": "4.8",
+            "legendary_bonus_type": "Ability",
+            "legendary_bonus_value": "5.1",
+            "quantity": "1",
+            "name": "Ethereal Visiri Master Gunner Greaves",
+            "rarity": "Legendary",
+            "item_sub_type": "EquipmentLeg",
+            "item_sprite_id": 12887,
+            "item_enhancement_type": "Weapon",
+            "item_enhancement_value": 7.0,
+            "pixyship_estimate": 2594
         },
         {
             "item_id": "297801535",
@@ -320,7 +352,7 @@
             "item_sprite_id": 20082,
             "item_enhancement_type": "Ability",
             "item_enhancement_value": 21.0,
-            "pixyship_estimate": 1422
+            "pixyship_estimate": 1417
         },
         {
             "item_id": "303500155",
@@ -400,7 +432,7 @@
             "item_sprite_id": 9983,
             "item_enhancement_type": "Ability",
             "item_enhancement_value": 19.0,
-            "pixyship_estimate": 2206
+            "pixyship_estimate": 2304
         },
         {
             "item_id": "313225734",
@@ -416,7 +448,7 @@
             "item_sprite_id": 9983,
             "item_enhancement_type": "Ability",
             "item_enhancement_value": 19.0,
-            "pixyship_estimate": 1556
+            "pixyship_estimate": 1559
         },
         {
             "item_id": "303297262",
@@ -432,7 +464,7 @@
             "item_sprite_id": 9983,
             "item_enhancement_type": "Ability",
             "item_enhancement_value": 19.0,
-            "pixyship_estimate": 540
+            "pixyship_estimate": 541
         },
         {
             "item_id": "317982291",
@@ -448,7 +480,7 @@
             "item_sprite_id": 9983,
             "item_enhancement_type": "Ability",
             "item_enhancement_value": 19.0,
-            "pixyship_estimate": 680
+            "pixyship_estimate": 682
         },
         {
             "item_id": "309224141",
@@ -576,7 +608,7 @@
             "item_sprite_id": 10047,
             "item_enhancement_type": "Attack",
             "item_enhancement_value": 0.9,
-            "pixyship_estimate": 239
+            "pixyship_estimate": 2183
         },
         {
             "item_id": "289378617",
@@ -592,7 +624,7 @@
             "item_sprite_id": 10047,
             "item_enhancement_type": "Attack",
             "item_enhancement_value": 0.9,
-            "pixyship_estimate": 473
+            "pixyship_estimate": 3999
         },
         {
             "item_id": "inbox-464",
@@ -1075,6 +1107,22 @@
             "pixyship_estimate": 2795
         },
         {
+            "item_id": "320489891",
+            "item_design_id": "1215",
+            "bonus_type": "Science",
+            "bonus_value": "5.3",
+            "legendary_bonus_type": null,
+            "legendary_bonus_value": null,
+            "quantity": "1",
+            "name": "Extendo-Clamp Plus",
+            "rarity": "Hero",
+            "item_sub_type": "EquipmentWeapon",
+            "item_sprite_id": 16605,
+            "item_enhancement_type": "Engine",
+            "item_enhancement_value": 7.0,
+            "pixyship_estimate": 306
+        },
+        {
             "item_id": "316701908",
             "item_design_id": "1181",
             "bonus_type": "Ability",
@@ -1089,22 +1137,6 @@
             "item_enhancement_type": "Weapon",
             "item_enhancement_value": 7.0,
             "pixyship_estimate": 1956
-        },
-        {
-            "item_id": "309021576",
-            "item_design_id": "1181",
-            "bonus_type": "Ability",
-            "bonus_value": "9.4",
-            "legendary_bonus_type": null,
-            "legendary_bonus_value": null,
-            "quantity": "1",
-            "name": "Giga-Loader",
-            "rarity": "Hero",
-            "item_sub_type": "EquipmentWeapon",
-            "item_sprite_id": 16432,
-            "item_enhancement_type": "Weapon",
-            "item_enhancement_value": 7.0,
-            "pixyship_estimate": 1123
         },
         {
             "item_id": "298393450",
@@ -1123,20 +1155,20 @@
             "pixyship_estimate": 817
         },
         {
-            "item_id": "309261204",
-            "item_design_id": "1181",
-            "bonus_type": "Hp",
-            "bonus_value": "1",
+            "item_id": "320438364",
+            "item_design_id": "163",
+            "bonus_type": "Ability",
+            "bonus_value": "15.4",
             "legendary_bonus_type": null,
             "legendary_bonus_value": null,
             "quantity": "1",
-            "name": "Giga-Loader",
+            "name": "Golden Cai Dao",
             "rarity": "Hero",
             "item_sub_type": "EquipmentWeapon",
-            "item_sprite_id": 16432,
-            "item_enhancement_type": "Weapon",
-            "item_enhancement_value": 7.0,
-            "pixyship_estimate": 654
+            "item_sprite_id": 5007,
+            "item_enhancement_type": "Attack",
+            "item_enhancement_value": 0.6,
+            "pixyship_estimate": 479
         },
         {
             "item_id": "296671726",
@@ -1249,22 +1281,6 @@
             "item_enhancement_type": "Attack",
             "item_enhancement_value": 0.6,
             "pixyship_estimate": 488
-        },
-        {
-            "item_id": "314858301",
-            "item_design_id": "1711",
-            "bonus_type": "Attack",
-            "bonus_value": "0.4",
-            "legendary_bonus_type": null,
-            "legendary_bonus_value": null,
-            "quantity": "1",
-            "name": "Hand Solo",
-            "rarity": "Hero",
-            "item_sub_type": "EquipmentWeapon",
-            "item_sprite_id": 19668,
-            "item_enhancement_type": "Pilot",
-            "item_enhancement_value": 7.0,
-            "pixyship_estimate": 643
         },
         {
             "item_id": "296280716",
@@ -1427,6 +1443,22 @@
             "pixyship_estimate": 1250
         },
         {
+            "item_id": "320507287",
+            "item_design_id": "1493",
+            "bonus_type": "Pilot",
+            "bonus_value": "5.2",
+            "legendary_bonus_type": null,
+            "legendary_bonus_value": null,
+            "quantity": "1",
+            "name": "Immensity Gauntlet",
+            "rarity": "Hero",
+            "item_sub_type": "EquipmentWeapon",
+            "item_sprite_id": 11219,
+            "item_enhancement_type": "Hp",
+            "item_enhancement_value": 4.0,
+            "pixyship_estimate": 802
+        },
+        {
             "item_id": "315853829",
             "item_design_id": "1493",
             "bonus_type": "Pilot",
@@ -1568,7 +1600,7 @@
             "item_sprite_id": 12544,
             "item_enhancement_type": "Ability",
             "item_enhancement_value": 17.0,
-            "pixyship_estimate": 1959
+            "pixyship_estimate": 1937
         },
         {
             "item_id": "311469718",
@@ -1651,22 +1683,6 @@
             "pixyship_estimate": 1109
         },
         {
-            "item_id": "294229086",
-            "item_design_id": "1705",
-            "bonus_type": "Ability",
-            "bonus_value": "8.4",
-            "legendary_bonus_type": null,
-            "legendary_bonus_value": null,
-            "quantity": "1",
-            "name": "Mach Helm",
-            "rarity": "Hero",
-            "item_sub_type": "EquipmentHead",
-            "item_sprite_id": 19673,
-            "item_enhancement_type": "Pilot",
-            "item_enhancement_value": 10.0,
-            "pixyship_estimate": 412
-        },
-        {
             "item_id": "306910034",
             "item_design_id": "1705",
             "bonus_type": "Ability",
@@ -1729,22 +1745,6 @@
             "item_enhancement_type": "Pilot",
             "item_enhancement_value": 10.0,
             "pixyship_estimate": 1348
-        },
-        {
-            "item_id": "316935571",
-            "item_design_id": "1705",
-            "bonus_type": "Science",
-            "bonus_value": "5.5",
-            "legendary_bonus_type": null,
-            "legendary_bonus_value": null,
-            "quantity": "1",
-            "name": "Mach Helm",
-            "rarity": "Hero",
-            "item_sub_type": "EquipmentHead",
-            "item_sprite_id": 19673,
-            "item_enhancement_type": "Pilot",
-            "item_enhancement_value": 10.0,
-            "pixyship_estimate": 1130
         },
         {
             "item_id": "313775863",
@@ -1888,7 +1888,7 @@
             "item_sprite_id": 16441,
             "item_enhancement_type": "Weapon",
             "item_enhancement_value": 6.0,
-            "pixyship_estimate": 1411
+            "pixyship_estimate": 1408
         },
         {
             "item_id": "297342999",
@@ -1984,7 +1984,7 @@
             "item_sprite_id": 14738,
             "item_enhancement_type": "Science",
             "item_enhancement_value": 11.0,
-            "pixyship_estimate": 1512
+            "pixyship_estimate": 1567
         },
         {
             "item_id": "292574030",
@@ -2112,7 +2112,7 @@
             "item_sprite_id": 11922,
             "item_enhancement_type": "Attack",
             "item_enhancement_value": 0.7,
-            "pixyship_estimate": 214
+            "pixyship_estimate": 254
         },
         {
             "item_id": "317852227",
@@ -2224,7 +2224,7 @@
             "item_sprite_id": 19671,
             "item_enhancement_type": "Pilot",
             "item_enhancement_value": 8.0,
-            "pixyship_estimate": 7838
+            "pixyship_estimate": 7840
         },
         {
             "item_id": "293918793",
@@ -2419,6 +2419,22 @@
             "pixyship_estimate": 881
         },
         {
+            "item_id": "320490080",
+            "item_design_id": "740",
+            "bonus_type": "Repair",
+            "bonus_value": "0.4",
+            "legendary_bonus_type": null,
+            "legendary_bonus_value": null,
+            "quantity": "1",
+            "name": "Storm Lance",
+            "rarity": "Hero",
+            "item_sub_type": "EquipmentWeapon",
+            "item_sprite_id": 12596,
+            "item_enhancement_type": "Science",
+            "item_enhancement_value": 8.0,
+            "pixyship_estimate": 363
+        },
+        {
             "item_id": "311352937",
             "item_design_id": "740",
             "bonus_type": "Science",
@@ -2448,7 +2464,7 @@
             "item_sprite_id": 13020,
             "item_enhancement_type": "FireResistance",
             "item_enhancement_value": 70.0,
-            "pixyship_estimate": 1126
+            "pixyship_estimate": 1149
         },
         {
             "item_id": "318531538",
@@ -2464,7 +2480,7 @@
             "item_sprite_id": 13020,
             "item_enhancement_type": "FireResistance",
             "item_enhancement_value": 70.0,
-            "pixyship_estimate": 1224
+            "pixyship_estimate": 1295
         },
         {
             "item_id": "291315274",
@@ -2480,7 +2496,7 @@
             "item_sprite_id": 13020,
             "item_enhancement_type": "FireResistance",
             "item_enhancement_value": 70.0,
-            "pixyship_estimate": 3598
+            "pixyship_estimate": 1372
         },
         {
             "item_id": "299389786",
@@ -2816,23 +2832,7 @@
             "item_sprite_id": 12887,
             "item_enhancement_type": "Weapon",
             "item_enhancement_value": 7.0,
-            "pixyship_estimate": 523
-        },
-        {
-            "item_id": "320189144",
-            "item_design_id": "799",
-            "bonus_type": "Repair",
-            "bonus_value": "0.5",
-            "legendary_bonus_type": null,
-            "legendary_bonus_value": null,
-            "quantity": "1",
-            "name": "Visiri Master Gunner Greaves",
-            "rarity": "Hero",
-            "item_sub_type": "EquipmentLeg",
-            "item_sprite_id": 12887,
-            "item_enhancement_type": "Weapon",
-            "item_enhancement_value": 7.0,
-            "pixyship_estimate": 263
+            "pixyship_estimate": 525
         },
         {
             "item_id": "318347533",
@@ -2848,7 +2848,7 @@
             "item_sprite_id": 12887,
             "item_enhancement_type": "Weapon",
             "item_enhancement_value": 7.0,
-            "pixyship_estimate": 1202
+            "pixyship_estimate": 1207
         },
         {
             "item_id": "309491455",
@@ -2865,22 +2865,6 @@
             "item_enhancement_type": "Weapon",
             "item_enhancement_value": 7.0,
             "pixyship_estimate": 1653
-        },
-        {
-            "item_id": "308679668",
-            "item_design_id": "799",
-            "bonus_type": "Weapon",
-            "bonus_value": "4.8",
-            "legendary_bonus_type": null,
-            "legendary_bonus_value": null,
-            "quantity": "1",
-            "name": "Visiri Master Gunner Greaves",
-            "rarity": "Hero",
-            "item_sub_type": "EquipmentLeg",
-            "item_sprite_id": 12887,
-            "item_enhancement_type": "Weapon",
-            "item_enhancement_value": 7.0,
-            "pixyship_estimate": 1729
         },
         {
             "item_id": "311923739",
@@ -2944,7 +2928,7 @@
             "item_sprite_id": 29260,
             "item_enhancement_type": "Attack",
             "item_enhancement_value": 0.8,
-            "pixyship_estimate": 4010
+            "pixyship_estimate": 3959
         },
         {
             "item_id": "300762976",
@@ -2960,7 +2944,7 @@
             "item_sprite_id": 29505,
             "item_enhancement_type": "Attack",
             "item_enhancement_value": 0.7,
-            "pixyship_estimate": 3179
+            "pixyship_estimate": 3143
         },
         {
             "item_id": "298446846",
@@ -3017,14 +3001,14 @@
             "bonus_value": null,
             "legendary_bonus_type": null,
             "legendary_bonus_value": null,
-            "quantity": "1",
+            "quantity": "2",
             "name": "Roast Turkey",
             "rarity": "Legendary",
             "item_sub_type": "InstantTraining",
             "item_sprite_id": 8953,
             "item_enhancement_type": null,
             "item_enhancement_value": 0.0,
-            "pixyship_estimate": 1918
+            "pixyship_estimate": 1916
         },
         {
             "item_id": "inbox-708",
@@ -3040,7 +3024,7 @@
             "item_sprite_id": 12216,
             "item_enhancement_type": null,
             "item_enhancement_value": 0.0,
-            "pixyship_estimate": 908
+            "pixyship_estimate": 910
         },
         {
             "item_id": "269129204",
@@ -3088,7 +3072,7 @@
             "item_sprite_id": 8986,
             "item_enhancement_type": null,
             "item_enhancement_value": 0.0,
-            "pixyship_estimate": 92
+            "pixyship_estimate": 93
         },
         {
             "item_id": "inbox-300",
@@ -3152,7 +3136,7 @@
             "item_sprite_id": 8979,
             "item_enhancement_type": null,
             "item_enhancement_value": 0.0,
-            "pixyship_estimate": 117
+            "pixyship_estimate": 118
         },
         {
             "item_id": "270723494",
@@ -3177,7 +3161,7 @@
             "bonus_value": null,
             "legendary_bonus_type": null,
             "legendary_bonus_value": null,
-            "quantity": "14",
+            "quantity": "26",
             "name": "System Map",
             "rarity": "Hero",
             "item_sub_type": "InstantTraining",
@@ -3200,7 +3184,7 @@
             "item_sprite_id": 12214,
             "item_enhancement_type": null,
             "item_enhancement_value": 0.0,
-            "pixyship_estimate": 124
+            "pixyship_estimate": 125
         },
         {
             "item_id": "281131665",
@@ -3219,13 +3203,13 @@
             "pixyship_estimate": 40
         },
         {
-            "item_id": "273737329",
+            "item_id": "inbox-106",
             "item_design_id": "106",
             "bonus_type": null,
-            "bonus_value": "0",
+            "bonus_value": null,
             "legendary_bonus_type": null,
             "legendary_bonus_value": null,
-            "quantity": "5",
+            "quantity": "3",
             "name": "Dark Matter (Dm)",
             "rarity": "Epic",
             "item_sub_type": "Artifact",
@@ -3321,7 +3305,7 @@
             "bonus_value": "0",
             "legendary_bonus_type": null,
             "legendary_bonus_value": null,
-            "quantity": "4",
+            "quantity": "3",
             "name": "Unknown Material",
             "rarity": "Epic",
             "item_sub_type": "Artifact",
@@ -3353,7 +3337,7 @@
             "bonus_value": "0",
             "legendary_bonus_type": null,
             "legendary_bonus_value": null,
-            "quantity": "89",
+            "quantity": "95",
             "name": "Standard Growth Supplement",
             "rarity": "Elite",
             "item_sub_type": "ReducePrestige",
