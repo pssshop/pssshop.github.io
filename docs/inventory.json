@@ -1,6 +1,6 @@
 {
-    "generated": "2026-11-26 05:56:28",
-    "item_count": 210,
+    "generated": "2026-11-26 07:05:06",
+    "item_count": 206,
     "items": [
         {
             "item_id": "319912149",
@@ -1283,54 +1283,6 @@
             "pixyship_estimate": 488
         },
         {
-            "item_id": "296280716",
-            "item_design_id": "1493",
-            "bonus_type": "Ability",
-            "bonus_value": "11.2",
-            "legendary_bonus_type": null,
-            "legendary_bonus_value": null,
-            "quantity": "1",
-            "name": "Immensity Gauntlet",
-            "rarity": "Hero",
-            "item_sub_type": "EquipmentWeapon",
-            "item_sprite_id": 11219,
-            "item_enhancement_type": "Hp",
-            "item_enhancement_value": 4.0,
-            "pixyship_estimate": 989
-        },
-        {
-            "item_id": "295919159",
-            "item_design_id": "1493",
-            "bonus_type": "Ability",
-            "bonus_value": "11.6",
-            "legendary_bonus_type": null,
-            "legendary_bonus_value": null,
-            "quantity": "1",
-            "name": "Immensity Gauntlet",
-            "rarity": "Hero",
-            "item_sub_type": "EquipmentWeapon",
-            "item_sprite_id": 11219,
-            "item_enhancement_type": "Hp",
-            "item_enhancement_value": 4.0,
-            "pixyship_estimate": 1068
-        },
-        {
-            "item_id": "287962002",
-            "item_design_id": "1493",
-            "bonus_type": "Ability",
-            "bonus_value": "12",
-            "legendary_bonus_type": null,
-            "legendary_bonus_value": null,
-            "quantity": "1",
-            "name": "Immensity Gauntlet",
-            "rarity": "Hero",
-            "item_sub_type": "EquipmentWeapon",
-            "item_sprite_id": 11219,
-            "item_enhancement_type": "Hp",
-            "item_enhancement_value": 4.0,
-            "pixyship_estimate": 1124
-        },
-        {
             "item_id": "296435947",
             "item_design_id": "1493",
             "bonus_type": "Ability",
@@ -1441,22 +1393,6 @@
             "item_enhancement_type": "Hp",
             "item_enhancement_value": 4.0,
             "pixyship_estimate": 1250
-        },
-        {
-            "item_id": "320507287",
-            "item_design_id": "1493",
-            "bonus_type": "Pilot",
-            "bonus_value": "5.2",
-            "legendary_bonus_type": null,
-            "legendary_bonus_value": null,
-            "quantity": "1",
-            "name": "Immensity Gauntlet",
-            "rarity": "Hero",
-            "item_sub_type": "EquipmentWeapon",
-            "item_sprite_id": 11219,
-            "item_enhancement_type": "Hp",
-            "item_enhancement_value": 4.0,
-            "pixyship_estimate": 802
         },
         {
             "item_id": "315853829",
@@ -3008,7 +2944,7 @@
             "item_sprite_id": 8953,
             "item_enhancement_type": null,
             "item_enhancement_value": 0.0,
-            "pixyship_estimate": 1916
+            "pixyship_estimate": 1833
         },
         {
             "item_id": "inbox-708",
